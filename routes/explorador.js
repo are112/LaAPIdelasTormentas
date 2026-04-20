@@ -1,22 +1,16 @@
 import express from "express";
-import { loadList } from "../utils/loadList.js";
-import { loadCharacter } from "../utils/loadCharacter.js";
 
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  // Cargamos todos los datos directamente en el servidor
-  const lista = loadList();
-  const personajes = lista.map(p => loadCharacter(p.id)).filter(Boolean);
-  const datosJSON = JSON.stringify(personajes);
-  const listaJSON = JSON.stringify(lista);
+  const baseUrl = `${req.protocol}://${req.get("host")}`;
 
   const html = `<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>La API de las Tormentas</title>
+  <title>El Archivo de las Tormentas — Explorador</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -129,6 +123,34 @@ router.get("/", (req, res) => {
       grid-template-columns: 320px 1fr;
       gap: 0;
       min-height: calc(100vh - 160px);
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    .tab {
+      flex: 1;
+      padding: 0.5rem;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(79,195,247,0.15);
+      border-radius: 6px;
+      color: var(--gris-plata);
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .tab:hover {
+      background: rgba(79,195,247,0.08);
+      color: var(--blanco-perla);
+    }
+    .tab.activo {
+      background: rgba(79,195,247,0.12);
+      border-color: rgba(79,195,247,0.4);
+      color: var(--celeste-luz);
     }
 
     /* Panel izquierdo */
@@ -581,28 +603,45 @@ router.get("/", (req, res) => {
   <div class="particulas" id="particulas"></div>
 
   <header>
-    <h1>La API de las Tormentas</h1>
-    <p class="subtitulo">Un Proyecto Fan del Cosmere</p>
+    <h1>El Archivo de las Tormentas</h1>
+    <p class="subtitulo">Explorador · Cosmere</p>
   </header>
 
   <div class="contenedor">
     <!-- Panel izquierdo -->
     <aside class="panel-izq">
-      <div class="buscador-wrap">
-        <input type="text" id="buscador" placeholder="Buscar personaje..." autocomplete="off" />
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <button class="tab activo" id="tab-personajes" onclick="cambiarTab('personajes')">⚔ Personajes</button>
+        <button class="tab" id="tab-spren" onclick="cambiarTab('spren')">✨ Spren</button>
       </div>
 
-      <div class="filtro-seccion">
+      <div class="buscador-wrap">
+        <input type="text" id="buscador" placeholder="Buscar..." autocomplete="off" />
+      </div>
+
+      <!-- Filtro personajes -->
+      <div class="filtro-seccion" id="filtro-personajes-wrap">
         <label class="filtro-label" for="filtro-orden">Filtrar por orden</label>
         <select id="filtro-orden">
           <option value="">Todas las órdenes</option>
         </select>
       </div>
 
+      <!-- Filtro spren -->
+      <div class="filtro-seccion" id="filtro-spren-wrap" style="display:none">
+        <label class="filtro-label" for="filtro-tipo">Filtrar por tipo</label>
+        <select id="filtro-tipo">
+          <option value="">Todos los tipos</option>
+        </select>
+      </div>
+
       <div class="lista-titulo">
-        Personajes <span id="contador">0</span>
+        <span id="label-lista">Personajes</span> <span id="contador">0</span>
       </div>
       <div id="lista-personajes"></div>
+      <div id="lista-spren" style="display:none"></div>
     </aside>
 
     <!-- Panel derecho -->
@@ -615,10 +654,7 @@ router.get("/", (req, res) => {
   </div>
 
   <script>
-    // Datos inyectados directamente desde el servidor
-    const PERSONAJES = ${datosJSON};
-    const LISTA = ${listaJSON};
-
+    const API = '${baseUrl}';
     let todos = [];
     let filtrados = [];
     let seleccionado = null;
@@ -657,10 +693,16 @@ router.get("/", (req, res) => {
     }
 
     // ── Cargar lista ───────────────────────────────────────
-    function cargarLista() {
-      todos = LISTA;
-      poblarFiltroOrden();
-      renderLista(todos);
+    async function cargarLista() {
+      try {
+        const res = await fetch(\`\${API}/personajes\`);
+        todos = await res.json();
+        poblarFiltroOrden();
+        renderLista(todos);
+      } catch (e) {
+        document.getElementById('lista-personajes').innerHTML =
+          '<p class="sin-datos">Error cargando personajes</p>';
+      }
     }
 
     function poblarFiltroOrden() {
@@ -694,7 +736,10 @@ router.get("/", (req, res) => {
     }
 
     // ── Filtros ────────────────────────────────────────────
-    document.getElementById('buscador').addEventListener('input', aplicarFiltros);
+    document.getElementById('buscador').addEventListener('input', () => {
+      if (tabActual === 'personajes') aplicarFiltros();
+      else renderListaSpren(todosSpren);
+    });
     document.getElementById('filtro-orden').addEventListener('change', aplicarFiltros);
 
     function aplicarFiltros() {
@@ -709,7 +754,7 @@ router.get("/", (req, res) => {
     }
 
     // ── Ver personaje ──────────────────────────────────────
-    function verPersonaje(id) {
+    async function verPersonaje(id) {
       seleccionado = id;
       document.querySelectorAll('.item-personaje').forEach(el => {
         el.classList.toggle('activo', el.dataset.id === id);
@@ -718,18 +763,20 @@ router.get("/", (req, res) => {
       const panel = document.getElementById('panel-detalle');
       panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
 
-      const p = PERSONAJES.find(x => x.id === id);
-      if (!p) {
-        panel.innerHTML = '<p class="sin-datos">Personaje no encontrado</p>';
-        return;
+      try {
+        const [detRes, relRes] = await Promise.allSettled([
+          fetch(\`\${API}/personajes/\${id}\`),
+          fetch(\`\${API}/personajes/\${id}/relaciones\`),
+        ]);
+        const p = await detRes.value.json();
+        const rel = relRes.status === 'fulfilled' && relRes.value.ok
+          ? (await relRes.value.json())
+          : null;
+
+        panel.innerHTML = renderFicha(p, rel);
+      } catch (e) {
+        panel.innerHTML = '<p class="sin-datos">Error cargando el personaje</p>';
       }
-
-      // Construir relaciones en formato compatible
-      const rel = p.relaciones
-        ? { relaciones: p.relaciones }
-        : null;
-
-      panel.innerHTML = renderFicha(p, rel);
     }
 
     // ── Render ficha ───────────────────────────────────────
@@ -941,6 +988,271 @@ router.get("/", (req, res) => {
     // ── Init ───────────────────────────────────────────────
     crearParticulas();
     cargarLista();
+    cargarSpren();
+
+    // ── Tabs ───────────────────────────────────────────────
+    let tabActual = 'personajes';
+
+    function cambiarTab(tab) {
+      tabActual = tab;
+      document.getElementById('tab-personajes').classList.toggle('activo', tab === 'personajes');
+      document.getElementById('tab-spren').classList.toggle('activo', tab === 'spren');
+      document.getElementById('lista-personajes').style.display = tab === 'personajes' ? 'flex' : 'none';
+      document.getElementById('lista-spren').style.display = tab === 'spren' ? 'flex' : 'none';
+      document.getElementById('filtro-personajes-wrap').style.display = tab === 'personajes' ? '' : 'none';
+      document.getElementById('filtro-spren-wrap').style.display = tab === 'spren' ? '' : 'none';
+      document.getElementById('label-lista').textContent = tab === 'personajes' ? 'Personajes' : 'Spren';
+      document.getElementById('buscador').value = '';
+      document.getElementById('buscador').placeholder = tab === 'personajes' ? 'Buscar personaje...' : 'Buscar spren...';
+      if (tab === 'personajes') renderLista(todos);
+      else renderListaSpren(todosSpren);
+    }
+
+    // ── Spren ──────────────────────────────────────────────
+    let todosSpren = [];
+
+    async function cargarSpren() {
+      try {
+        const res = await fetch(\`\${API}/spren\`);
+        todosSpren = await res.json();
+        poblarFiltroTipo();
+      } catch (e) {
+        document.getElementById('lista-spren').innerHTML =
+          '<p class="sin-datos">Error cargando spren</p>';
+      }
+    }
+
+    function poblarFiltroTipo() {
+      const tipos = [...new Set(todosSpren.map(s => s.tipo_spren).filter(Boolean))].sort();
+      const sel = document.getElementById('filtro-tipo');
+      tipos.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t; opt.textContent = t;
+        sel.appendChild(opt);
+      });
+    }
+
+    function emojiSpren(tipo) {
+      const m = {
+        'honorspren': '🔵',
+        'cryptico': '🔷',
+        'cultivationspren': '🌿',
+        'inkspren': '🖤',
+        'peakspren': '⛰',
+        'highspren': '⚪',
+        'ashspren': '🔴',
+        'mistspren': '🌫',
+      };
+      return m[tipo] || '✨';
+    }
+
+    function renderListaSpren(lista) {
+      const texto = document.getElementById('buscador').value.toLowerCase();
+      const tipo = document.getElementById('filtro-tipo').value;
+      const filtrada = lista.filter(s => {
+        const matchTexto = !texto || s.nombre.toLowerCase().includes(texto) ||
+          (s.apodo && s.apodo.toLowerCase().includes(texto));
+        const matchTipo = !tipo || s.tipo_spren === tipo;
+        return matchTexto && matchTipo;
+      });
+
+      document.getElementById('contador').textContent = filtrada.length;
+      const wrap = document.getElementById('lista-spren');
+      if (!filtrada.length) {
+        wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
+        return;
+      }
+      wrap.innerHTML = filtrada.map(s => \`
+        <div class="item-personaje \${seleccionado === 'spren_' + s.id ? 'activo' : ''}"
+             onclick="verSpren('\${s.id}')" data-id="spren_\${s.id}">
+          <div class="item-avatar">\${emojiSpren(s.tipo_spren)}</div>
+          <div class="item-info">
+            <div class="item-nombre">\${s.nombre}\${s.apodo ? ' <em style="opacity:0.6;font-size:0.85rem">"\${s.apodo}"</em>' : ''}</div>
+            <div class="item-orden">\${s.tipo_spren || 'Spren'}</div>
+          </div>
+          <div class="item-estado" style="background:var(--celeste-luz);box-shadow:0 0 6px var(--celeste-luz)"></div>
+        </div>
+      \`).join('');
+    }
+
+    async function verSpren(id) {
+      seleccionado = 'spren_' + id;
+      document.querySelectorAll('.item-personaje').forEach(el => {
+        el.classList.toggle('activo', el.dataset.id === 'spren_' + id);
+      });
+
+      const panel = document.getElementById('panel-detalle');
+      panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
+
+      try {
+        const res = await fetch(\`\${API}/spren/\${id}\`);
+        const s = await res.json();
+        panel.innerHTML = renderFichaSpren(s);
+      } catch (e) {
+        panel.innerHTML = '<p class="sin-datos">Error cargando el spren</p>';
+      }
+    }
+
+    function renderFichaSpren(s) {
+      const aparienciaFisica = s.apariencia?.reino_fisico;
+      const aparienciaCog = s.apariencia?.reino_cognitivo;
+      const hoja = s.apariencia?.como_hoja_esquirlada;
+      const vinculo = s.vinculo_nahel;
+      const personalidad = s.personalidad;
+      const habilidades = s.habilidades;
+      const historia = s.historia;
+      const libros = s.apariciones?.libros ?? [];
+
+      const badges = [
+        s.tipo_spren ? \`<span class="badge badge-orden">\${emojiSpren(s.tipo_spren)} \${s.tipo_spren}</span>\` : '',
+        s.es_splinter_de ? \`<span class="badge badge-especie">Astilla de \${s.es_splinter_de}</span>\` : '',
+        s.estado_actual === 'activa' ? '<span class="badge badge-vivo">● Activa</span>' : '<span class="badge badge-muerto">● Inactiva</span>',
+      ].filter(Boolean).join('');
+
+      const librosHtml = libros.length
+        ? libros.map(l => \`
+          <div class="libro-item">
+            <span class="libro-titulo">📕 \${l.titulo}</span>
+            \${l.rol ? \`<span class="libro-rol">\${l.rol}</span>\` : ''}
+            \${l.pov ? '<span class="libro-pov">POV</span>' : ''}
+          </div>
+        \`).join('')
+        : '<p class="sin-datos">Sin apariciones registradas</p>';
+
+      const histHtml = historia ? \`
+        \${historia.resumen ? \`<p class="arco-resumen">\${historia.resumen}</p>\` : ''}
+        \${(historia.puntos_clave ?? []).map(pk => \`<div class="punto-clave">\${pk}</div>\`).join('')}
+      \` : '<p class="sin-datos">Sin historia registrada</p>';
+
+      const rasgosHtml = (personalidad?.rasgos ?? []).length
+        ? \`<div class="tags">\${personalidad.rasgos.map(r => \`<span class="tag">\${r}</span>\`).join('')}</div>\`
+        : '<p class="sin-datos">Sin rasgos registrados</p>';
+
+      return \`
+        <div class="ficha">
+          <div class="ficha-header">
+            <div class="ficha-avatar">\${emojiSpren(s.tipo_spren)}</div>
+            <div class="ficha-titulo">
+              <h2>\${s.nombre}</h2>
+              \${(s.apodos ?? []).length ? \`<div class="nombre-completo">"<em>\${s.apodos.join('", "')}</em>"</div>\` : ''}
+              <div class="badges">\${badges}</div>
+            </div>
+          </div>
+
+          \${s.descripcion_breve ? \`<div class="descripcion">\${s.descripcion_breve}</div>\` : ''}
+
+          <div class="grid-secciones">
+
+            <!-- Datos generales -->
+            <div class="seccion">
+              <div class="seccion-titulo">Datos generales</div>
+              \${[
+                ['Tipo', s.tipo_spren],
+                ['Creador', s.origen?.creador],
+                ['Lugar creación', s.origen?.lugar_creacion],
+                ['Generación', s.origen?.generacion],
+                ['Splinter de', s.es_splinter_de],
+                ['Mundo natal', s.mundo_natal],
+                ['Estado', s.estado_actual],
+              ].map(([l,v]) => v ? \`
+                <div class="campo">
+                  <span class="campo-label">\${l}</span>
+                  <span class="campo-valor">\${v}</span>
+                </div>
+              \` : '').join('')}
+            </div>
+
+            <!-- Vínculo Nahel -->
+            \${vinculo ? \`
+            <div class="seccion">
+              <div class="seccion-titulo">Vínculo Nahel</div>
+              \${[
+                ['Radiante', vinculo.radiante_actual],
+                ['Orden', vinculo.orden_radiante],
+                ['Forma esquirlada', vinculo.forma_shardblade],
+                ['Estado vínculo', vinculo.estado_vinculo],
+                ['Radiante anterior', vinculo.radiante_anterior],
+              ].map(([l,v]) => v ? \`
+                <div class="campo">
+                  <span class="campo-label">\${l}</span>
+                  <span class="campo-valor">\${v}</span>
+                </div>
+              \` : '').join('')}
+              \${(vinculo.potencias_otorgadas ?? []).length ? \`
+                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">Potencias</div>
+                <div class="tags">\${vinculo.potencias_otorgadas.map(p => \`<span class="tag">⚡ \${p}</span>\`).join('')}</div>
+              \` : ''}
+              \${vinculo.notas ? \`<p style="font-size:0.85rem;color:var(--gris-plata);margin-top:0.5rem;font-style:italic">\${vinculo.notas}</p>\` : ''}
+            </div>
+            \` : ''}
+
+            <!-- Apariencia -->
+            \${aparienciaFisica ? \`
+            <div class="seccion">
+              <div class="seccion-titulo">Apariencia</div>
+              \${aparienciaFisica.forma_preferida ? \`
+                <div class="campo-label" style="margin-bottom:0.25rem">Forma principal</div>
+                <p style="font-size:0.9rem;color:var(--blanco-perla);margin-bottom:0.5rem">\${aparienciaFisica.forma_preferida}</p>
+              \` : ''}
+              \${(aparienciaFisica.formas_alternativas ?? []).length ? \`
+                <div class="campo-label" style="margin-bottom:0.3rem">Formas alternativas</div>
+                <div class="tags">\${aparienciaFisica.formas_alternativas.map(f => \`<span class="tag">\${f}</span>\`).join('')}</div>
+              \` : ''}
+              \${aparienciaFisica.color ? \`
+                <div class="campo" style="margin-top:0.5rem">
+                  <span class="campo-label">Color</span>
+                  <span class="campo-valor">\${aparienciaFisica.color}</span>
+                </div>
+              \` : ''}
+              \${hoja ? \`
+                <div class="campo-label" style="margin-top:0.75rem;margin-bottom:0.25rem">Como Hoja Esquirlada</div>
+                <div class="campo"><span class="campo-label">Forma</span><span class="campo-valor">\${hoja.forma_habitual}</span></div>
+                \${hoja.material ? \`<div class="campo"><span class="campo-label">Material</span><span class="campo-valor">\${hoja.material}</span></div>\` : ''}
+              \` : ''}
+            </div>
+            \` : ''}
+
+            <!-- Personalidad -->
+            <div class="seccion">
+              <div class="seccion-titulo">Personalidad</div>
+              \${rasgosHtml}
+              \${personalidad?.notas ? \`<p style="font-size:0.85rem;color:var(--gris-plata);margin-top:0.5rem;font-style:italic">\${personalidad.notas}</p>\` : ''}
+            </div>
+
+            <!-- Habilidades -->
+            \${habilidades ? \`
+            <div class="seccion">
+              <div class="seccion-titulo">Habilidades</div>
+              \${(habilidades.generales ?? []).length ? \`
+                <div class="tags">\${habilidades.generales.map(h => \`<span class="tag">✦ \${h}</span>\`).join('')}</div>
+              \` : ''}
+              \${(habilidades.magicas ?? []).length ? \`
+                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">Mágicas</div>
+                <div class="tags">\${habilidades.magicas.map(h => \`<span class="tag" style="color:var(--dorado)">⚡ \${h}</span>\`).join('')}</div>
+              \` : ''}
+            </div>
+            \` : ''}
+
+            <!-- Apariciones -->
+            <div class="seccion">
+              <div class="seccion-titulo">Apariciones</div>
+              \${librosHtml}
+            </div>
+
+          </div>
+
+          <!-- Historia (ancho completo) -->
+          <div class="seccion" style="margin-bottom:2rem">
+            <div class="seccion-titulo">Historia</div>
+            \${histHtml}
+          </div>
+
+        </div>
+      \`;
+    }
+
+    // Filtro tipo spren
+    document.getElementById('filtro-tipo').addEventListener('change', () => renderListaSpren(todosSpren));
   </script>
 </body>
 </html>`;
