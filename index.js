@@ -5,6 +5,7 @@ import docsRoutes from "./routes/docs.js";
 import statsRoutes from "./routes/stats.js";
 import ordenesRoutes from "./routes/ordenes.js";
 import exploradorRoutes from "./routes/explorador.js";
+import sprenRoutes from "./routes/spren.js";
 
 const app = express();
 app.use(express.json());
@@ -13,6 +14,7 @@ app.use(express.json());
 app.use("/personajes", personajesRoutes);
 app.use("/buscar", buscarRoutes);
 app.use("/ordenes", ordenesRoutes);
+app.use("/spren", sprenRoutes);
 app.use("/stats", statsRoutes);
 app.use("/explorador", exploradorRoutes);
 app.use("/api-docs", docsRoutes);
