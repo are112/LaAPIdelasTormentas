@@ -216,6 +216,19 @@ router.get("/", (req, res) => {
       cursor: pointer;
     }
     #filtro-orden option { background: var(--azul-profundo); }
+    #filtro-tipo {
+      width: 100%;
+      padding: 0.5rem 0.75rem;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(79,195,247,0.2);
+      border-radius: 6px;
+      color: var(--blanco-perla);
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.95rem;
+      outline: none;
+      cursor: pointer;
+    }
+    #filtro-tipo option { background: var(--azul-profundo); }
 
     /* Lista de personajes */
     .lista-titulo {
