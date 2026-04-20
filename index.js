@@ -19,9 +19,7 @@ app.use("/api-docs", docsRoutes);
 
 // Raíz
 app.get("/", (req, res) => {
-  res.json({
   res.redirect("/explorador");
-  });
 });
 
 // ─── Ruta no encontrada (404) ────────────────────────────
