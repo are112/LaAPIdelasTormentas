@@ -1,0 +1,542 @@
+openapi: 3.0.3
+info:
+  title: La API de las Tormentas
+  description: |
+    API REST sobre los personajes del universo literario **El Archivo de las Tormentas** de Brandon Sanderson.
+    
+    Permite consultar perfiles completos de personajes, filtrar por múltiples criterios,
+    ordenar, paginar y seleccionar campos concretos con soporte para rutas profundas.
+  version: 1.0.0
+  contact:
+    name: La API de las Tormentas
+
+servers:
+  - url: http://localhost:3000
+    description: Servidor local
+
+tags:
+  - name: Estado
+    description: Comprobación del estado de la API
+  - name: Personajes
+    description: Consulta de personajes individuales y listados
+  - name: Búsqueda
+    description: Búsqueda avanzada con filtros, ordenación y paginación
+
+paths:
+
+  /:
+    get:
+      tags: [Estado]
+      summary: Estado de la API
+      description: Comprueba que el servidor está en marcha.
+      responses:
+        "200":
+          description: API funcionando correctamente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok:
+                    type: boolean
+                    example: true
+                  msg:
+                    type: string
+                    example: "API El Archivo de las Tormentas funcionando ⚡"
+
+  /personajes:
+    get:
+      tags: [Personajes]
+      summary: Listar todos los personajes
+      description: Devuelve el índice resumido de todos los personajes disponibles.
+      responses:
+        "200":
+          description: Lista de personajes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/PersonajeResumen"
+
+  /personajes/{id}:
+    get:
+      tags: [Personajes]
+      summary: Perfil completo de un personaje
+      description: Devuelve todos los datos del personaje indicado.
+      parameters:
+        - $ref: "#/components/parameters/PersonajeId"
+      responses:
+        "200":
+          description: Perfil completo del personaje
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PersonajeCompleto"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /personajes/{id}/resumen:
+    get:
+      tags: [Personajes]
+      summary: Resumen de un personaje
+      description: Devuelve solo los datos del índice para el personaje indicado.
+      parameters:
+        - $ref: "#/components/parameters/PersonajeId"
+      responses:
+        "200":
+          description: Resumen del personaje
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PersonajeResumen"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /personajes/{id}/completo:
+    get:
+      tags: [Personajes]
+      summary: Resumen + perfil completo fusionados
+      description: Devuelve la combinación del resumen del índice y el perfil completo.
+      parameters:
+        - $ref: "#/components/parameters/PersonajeId"
+      responses:
+        "200":
+          description: Datos completos del personaje
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PersonajeCompleto"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /personajes/{id}/{seccion}:
+    get:
+      tags: [Personajes]
+      summary: Sección concreta de un personaje
+      description: |
+        Devuelve una sección específica del perfil del personaje.
+        
+        **Secciones disponibles:** `orden_radiantes`, `habilidades`, `relaciones`,
+        `estado_mental`, `arco_narrativo`, `situacion_actual`, `apariciones`, `afiliaciones`
+      parameters:
+        - $ref: "#/components/parameters/PersonajeId"
+        - name: seccion
+          in: path
+          required: true
+          description: Nombre de la sección a consultar
+          schema:
+            type: string
+            enum:
+              - orden_radiantes
+              - habilidades
+              - relaciones
+              - estado_mental
+              - arco_narrativo
+              - situacion_actual
+              - apariciones
+              - afiliaciones
+          example: habilidades
+      responses:
+        "200":
+          description: Sección del personaje
+          content:
+            application/json:
+              schema:
+                type: object
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /buscar:
+    get:
+      tags: [Búsqueda]
+      summary: Búsqueda avanzada de personajes
+      description: |
+        Permite buscar personajes con múltiples filtros combinables, ordenación y paginación.
+
+        ### Filtros dinámicos (rutas profundas)
+        Además de los parámetros listados, puedes filtrar por cualquier campo anidado
+        usando notación de punto como nombre del parámetro:
+        
+        ```
+        GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
+        GET /buscar?habilidades.magia.potencias=Gravitación
+        GET /buscar?situacion_actual.rol=sanador
+        ```
+
+        ### Operadores en nivel_ideal
+        | Operador | Ejemplo |
+        |---|---|
+        | Igual | `?nivel_ideal=4` |
+        | Mayor o igual | `?nivel_ideal=>=3` |
+        | Menor o igual | `?nivel_ideal=<=2` |
+        | Mayor que | `?nivel_ideal=>3` |
+        | Menor que | `?nivel_ideal=<4` |
+
+      parameters:
+        - name: id
+          in: query
+          description: Filtra por ID exacto del personaje
+          schema:
+            type: string
+          example: kaladin
+
+        - name: especie
+          in: query
+          description: Filtra por especie (humano, cantor...)
+          schema:
+            type: string
+          example: humano
+
+        - name: sexo
+          in: query
+          description: Filtra por sexo
+          schema:
+            type: string
+            enum: [masculino, femenino]
+          example: femenino
+
+        - name: nacionalidad
+          in: query
+          description: Filtra por nacionalidad
+          schema:
+            type: string
+          example: alezi
+
+        - name: origen
+          in: query
+          description: Filtra por lugar de origen
+          schema:
+            type: string
+          example: Piedralar
+
+        - name: estado_actual
+          in: query
+          description: Estado vital del personaje
+          schema:
+            type: string
+            enum: [vivo, muerto]
+          example: vivo
+
+        - name: afiliacion
+          in: query
+          description: Filtra por afiliación exacta
+          schema:
+            type: string
+          example: Puente Cuatro
+
+        - name: orden
+          in: query
+          description: Filtra por orden radiante exacta
+          schema:
+            type: string
+          example: Corredores del Viento
+
+        - name: nivel_ideal
+          in: query
+          description: "Filtra por nivel del Ideal. Soporta operadores: >=, <=, >, <"
+          schema:
+            type: string
+          example: ">=3"
+
+        - name: libro
+          in: query
+          description: Filtra por título de libro en que aparece el personaje
+          schema:
+            type: string
+          example: Juramentada
+
+        - name: texto
+          in: query
+          description: Búsqueda de texto libre en todo el perfil del personaje
+          schema:
+            type: string
+          example: depresión
+
+        - name: sort
+          in: query
+          description: |
+            Campo por el que ordenar los resultados. Prefija con `-` para orden descendente.
+            Soporta rutas profundas con notación de punto.
+          schema:
+            type: string
+          example: "-nivel_ideal"
+
+        - name: page
+          in: query
+          description: Número de página (empieza en 1)
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+          example: 1
+
+        - name: limit
+          in: query
+          description: Número de resultados por página
+          schema:
+            type: integer
+            minimum: 1
+          example: 5
+
+        - name: fields
+          in: query
+          description: |
+            Campos a incluir en la respuesta, separados por coma.
+            Soporta rutas profundas con notación de punto.
+          schema:
+            type: string
+          example: "nombre,orden_radiantes.orden,nivel_ideal"
+
+      responses:
+        "200":
+          description: Resultados de la búsqueda
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: "#/components/schemas/BuscarResultados"
+                  - $ref: "#/components/schemas/BuscarVacio"
+              examples:
+                con_resultados:
+                  summary: Con resultados
+                  value:
+                    total: 10
+                    pagina: 1
+                    limite: 10
+                    resultados:
+                      - id: kaladin
+                        nombre: Kaladin
+                        orden_radiantes:
+                          orden: Corredores del Viento
+                          nivel_ideal: 4
+                sin_resultados:
+                  summary: Sin resultados
+                  value:
+                    mensaje: "No se ha encontrado ningún personaje que cumpla los parámetros de búsqueda."
+                    resultados: []
+
+components:
+
+  parameters:
+    PersonajeId:
+      name: id
+      in: path
+      required: true
+      description: Identificador del personaje (en minúsculas)
+      schema:
+        type: string
+      example: kaladin
+
+  responses:
+    NotFound:
+      description: Personaje o sección no encontrada
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+          example:
+            error: "Personaje no encontrado"
+
+  schemas:
+
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          example: "Personaje no encontrado"
+
+    PersonajeResumen:
+      type: object
+      properties:
+        id:
+          type: string
+          example: kaladin
+        nombre:
+          type: string
+          example: Kaladin
+        orden:
+          type: string
+          nullable: true
+          example: Corredores del Viento
+        nivel_ideal:
+          type: integer
+          nullable: true
+          example: 4
+
+    PersonajeCompleto:
+      type: object
+      properties:
+        id:
+          type: string
+          example: kaladin
+        nombre:
+          type: string
+          example: Kaladin
+        nombre_completo:
+          type: string
+          example: Kaladin hijo de Lirin
+        apodos:
+          type: array
+          items:
+            type: string
+          example: ["Kal", "Kaladin Bendito por la Tormenta"]
+        sexo:
+          type: string
+          example: masculino
+        especie:
+          type: string
+          example: humano
+        nacionalidad:
+          type: string
+          example: Alezi
+        origen:
+          type: string
+          example: Piedralar
+        planeta_natal:
+          type: string
+          example: Roshar
+        estado_actual:
+          type: string
+          enum: [vivo, muerto]
+          example: vivo
+        apariciones:
+          type: object
+          properties:
+            libros:
+              type: array
+              items:
+                type: object
+                properties:
+                  titulo:
+                    type: string
+                  rol:
+                    type: string
+                  pov:
+                    type: boolean
+        afiliaciones:
+          type: array
+          items:
+            type: string
+        orden_radiantes:
+          type: object
+          properties:
+            orden:
+              type: string
+              example: Corredores del Viento
+            nivel_ideal:
+              type: integer
+              nullable: true
+              example: 4
+            spren_asociado:
+              type: object
+              properties:
+                principal:
+                  type: string
+                  example: Sylphrena
+            estado_del_vinculo:
+              type: string
+              example: estable
+        habilidades:
+          type: object
+          properties:
+            magia:
+              type: object
+              properties:
+                potencias:
+                  type: array
+                  items:
+                    type: string
+                fuente_de_luz:
+                  type: string
+            no_magicas:
+              type: array
+              items:
+                type: string
+        relaciones:
+          type: object
+          properties:
+            familia:
+              type: array
+              items:
+                $ref: "#/components/schemas/Relacion"
+            amigos:
+              type: array
+              items:
+                $ref: "#/components/schemas/Relacion"
+            enemigos:
+              type: array
+              items:
+                $ref: "#/components/schemas/Relacion"
+        estado_mental:
+          type: object
+          properties:
+            diagnostico_general:
+              type: string
+            evolucion:
+              type: string
+            situacion_en_viento_y_verdad:
+              type: string
+        arco_narrativo:
+          type: object
+          properties:
+            resumen:
+              type: string
+            puntos_clave:
+              type: array
+              items:
+                type: string
+        situacion_actual:
+          type: object
+          properties:
+            ocupacion:
+              type: string
+            rol:
+              type: string
+            relacion_con_spren:
+              type: string
+            otros_detalles:
+              type: string
+        descripcion_breve:
+          type: string
+        notas:
+          type: string
+
+    Relacion:
+      type: object
+      properties:
+        personaje:
+          type: string
+          example: Teft
+        relacion:
+          type: string
+          example: amigo
+
+    BuscarResultados:
+      type: object
+      properties:
+        total:
+          type: integer
+          example: 10
+        pagina:
+          type: integer
+          example: 1
+        limite:
+          type: integer
+          example: 10
+        resultados:
+          type: array
+          items:
+            $ref: "#/components/schemas/PersonajeCompleto"
+
+    BuscarVacio:
+      type: object
+      properties:
+        mensaje:
+          type: string
+          example: "No se ha encontrado ningún personaje que cumpla los parámetros de búsqueda."
+        resultados:
+          type: array
+          items: {}
+          example: []

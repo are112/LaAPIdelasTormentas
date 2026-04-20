@@ -1,0 +1,101 @@
+{
+  "id": "kaladin",
+  "nombre": "Kaladin",
+  "nombre_completo": "Kaladin hijo de Lirin",
+  "apodos": ["Kal", "Kaladin Bendito por la Tormenta"],
+
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "Alezi",
+  "origen": "Piedralar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "protagonista", "pov": true },
+      { "titulo": "Palabras Radiantes",     "rol": "protagonista", "pov": true },
+      { "titulo": "Juramentada",            "rol": "protagonista", "pov": true },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "protagonista", "pov": true },
+      { "titulo": "Viento y Verdad",        "rol": "protagonista", "pov": true }
+    ]
+  },
+
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Guardia Real de Elhokar",
+    "Caballeros Radiantes",
+    "Corredores del Viento",
+    "Clínica de Urithiru"
+  ],
+
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 4,
+    "spren_asociado": { "principal": "Sylphrena" },
+    "estado_del_vinculo": "estable"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "Luz tormentosa"
+    },
+    "no_magicas": [
+      "cirugía básica",
+      "liderazgo",
+      "combate con lanza",
+      "táctica de escuadras",
+      "entrenamiento militar avanzado"
+    ]
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "lirin",   "relacion": "padre" },
+      { "personaje": "hesina",  "relacion": "madre" },
+      { "personaje": "tien",    "relacion": "hermano" },
+      { "personaje": "oroden",  "relacion": "hermano" }
+    ],
+    "amigos": [
+      { "personaje": "Sylphrena", "relacion": "aliada" },
+      { "personaje": "Roca",      "relacion": "amigo" },
+      { "personaje": "Teft",      "relacion": "amigo" },
+      { "personaje": "Lopen",     "relacion": "amigo" },
+      { "personaje": "Adolin",    "relacion": "amigo" },
+      { "personaje": "Renarin",   "relacion": "amigo" }
+    ],
+    "enemigos": [
+      { "personaje": "Moash", "relacion": "enemigo" }
+    ]
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "trastorno depresivo recurrente",
+    "evolucion": "mejora progresiva con recaídas",
+    "situacion_en_viento_y_verdad": "estabilidad emocional creciente y aceptación de su identidad"
+  },
+
+  "arco_narrativo": {
+    "resumen": "Kaladin evoluciona de esclavo a líder del Puente Cuatro, luego a Caballero Radiante, y finalmente a sanador y protector en Urithiru.",
+    "puntos_clave": [
+      "superación del trauma por la muerte de Tien",
+      "aceptación de su rol como protector",
+      "conflicto interno con la violencia y la responsabilidad",
+      "ruptura y recuperación del vínculo con Sylphrena",
+      "transición hacia un rol de sanador y apoyo emocional",
+      "participación decisiva en la defensa de Urithiru",
+      "redefinición de su propósito en Viento y Verdad"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "sanador y protector en Urithiru",
+    "rol": "figura clave en la estabilidad emocional y logística de la ciudad",
+    "relacion_con_spren": "fuerte y madura",
+    "otros_detalles": "mentor emocional y de combate para Puente Cuatro"
+  },
+
+  "descripcion_breve": "Antiguo esclavo y líder del Puente Cuatro, ahora Caballero Radiante de alto Ideal y sanador en Urithiru.",
+  "notas": "Uno de los personajes más influyentes de la saga, con un arco centrado en la responsabilidad, la depresión y la protección."
+}

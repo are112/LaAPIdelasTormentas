@@ -1,0 +1,92 @@
+{
+  "id": "drehy",
+  "nombre": "Drehy",
+  "nombre_completo": "Drehy",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras Radiantes",    "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",           "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra", "rol": "secundario", "pov": false },
+      { "titulo": "Viento y Verdad",       "rol": "secundario", "pov": false }
+    ]
+  },
+
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Caballeros Radiantes"
+  ],
+
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 2,
+    "spren_asociado": {
+      "principal": "Nombre Desconocido"
+    },
+    "estado_del_vinculo": "activo"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "Luz tormentosa"
+    },
+    "no_magicas": [
+      "combate con lanza",
+      "entrenamiento militar",
+      "disciplina de escuadra"
+    ]
+  },
+
+  "identidades": {
+    "principales": [
+      "soldado",
+      "miembro de Puente Cuatro",
+      "caballero radiante"
+    ],
+    "descripcion": "Soldado alezi miembro de Puente Cuatro que se convierte en Corredor del Viento.",
+    "estado_en_viento_y_verdad": "activo como caballero radiante"
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "dru", "relacion": "marido" }],
+    "amigos": [
+      { "personaje": "kaladin", "relacion": "líder y amigo" },
+      { "personaje": "lopen", "relacion": "compañero de escuadra" }],
+    "enemigos": []
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "estable",
+    "evolucion": "progresión positiva dentro de Puente Cuatro",
+    "situacion_en_viento_y_verdad": "estable y funcional en combate"
+  },
+
+  "arco_narrativo": {
+    "resumen": "Pasa de ser soldado a miembro clave de Puente Cuatro, desarrollando habilidades como Corredor del Viento y participando en la defensa de Roshar.",
+    "puntos_clave": [
+      "integración en Puente Cuatro",
+      "formación como escudero radiante",
+      "vinculación con un honorspren",
+      "participación en conflictos principales"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "soldado y caballero radiante",
+    "rol": "miembro de Puente Cuatro",
+    "relacion_con_spren": "vínculo activo con honorspren",
+    "otros_detalles": "destaca por su lealtad y disciplina dentro del grupo"
+  },
+
+  "descripcion_breve": "Miembro de Puente Cuatro y Corredor del Viento de origen alezi.",
+  "notas": "Personaje secundario relevante dentro del núcleo de Puente Cuatro."
+}

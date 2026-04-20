@@ -1,0 +1,110 @@
+{
+  "id": "renarin",
+  "nombre": "Renarin",
+  "nombre_completo": "Renarin Kholin",
+  "apodos": ["Hijo de Espinas"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": true  },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundario", "pov": true  },
+      { "titulo": "Viento y verdad",        "rol": "secundario", "pov": true  }
+    ]
+  },
+
+  "afiliaciones": [
+    "Casa Kholin",
+    "Caballeros Radiantes",
+    "Puente Cuatro",
+    "Coalición de Urithiru"
+  ],
+
+  "orden_radiantes": {
+    "orden": "Vigilantes de la Verdad",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "Glys" },
+    "estado_del_vinculo": "activo"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": ["Progresión", "Iluminación"],
+      "fuente_de_luz": "Luz tormentosa"
+    },
+    "no_magicas": [
+      "erudición",
+      "análisis estratégico",
+      "conocimiento religioso",
+      "capacidad de observación",
+      "empatía"
+    ]
+  },
+
+  "identidades": {
+    "principales": [
+      "príncipe de Alezkar",
+      "Caballero Radiante",
+      "Vigilante de la Verdad"
+    ],
+    "descripcion": "Renarin es el segundo hijo de Dalinar Kholin. A diferencia de la mayoría de los nobles alezi, no es un guerrero natural y prefiere el estudio y la reflexión. Durante la guerra de las Llanuras Quebradas desarrolla un vínculo Nahel con el spren Glys, convirtiéndose en un Caballero Radiante con habilidades inusuales relacionadas con la visión del futuro.",
+    "estado_en_viento_y_verdad": "miembro activo de los Caballeros Radiantes y aliado clave en la coalición contra Odium."
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "dalinar", "relacion": "padre"   },
+      { "personaje": "evi",     "relacion": "madre"   },
+      { "personaje": "adolin",  "relacion": "hermano" },
+      { "personaje": "jasnah",  "relacion": "prima"   },
+      { "personaje": "gavilar", "relacion": "tio"     },
+      { "personaje": "navani",  "relacion": "tia"     },
+      { "personaje": "elhokar", "relacion": "primo"   },
+      { "personaje": "gavinor", "relacion": "sobrino" }
+    ],
+    "amigos": [
+      { "personaje": "kaladin",     "relacion": "amigo" },
+      { "personaje": "Puente Cuatro","relacion": "aliados" },
+      { "personaje": "rlain",       "relacion": "amigo" }
+    ],
+    "enemigos": [
+      { "personaje": "Odium",              "relacion": "enemigo"  },
+      { "personaje": "Cantores de Odium",  "relacion": "enemigos" }
+    ]
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "ansiedad social y crisis similares a epilepsia conocidas como debilidad sanguínea",
+    "evolucion": "pasa de sentirse inútil e inseguro a aceptar su identidad como Caballero Radiante y el valor de sus habilidades únicas",
+    "situacion_en_viento_y_verdad": "más seguro de sí mismo y de su papel dentro de los Caballeros Radiantes"
+  },
+
+  "arco_narrativo": {
+    "resumen": "Renarin comienza como un noble físicamente débil y poco adaptado a la cultura guerrera alezi. A lo largo de la historia desarrolla un vínculo con el spren Glys y se convierte en un Caballero Radiante de la orden de los Vigilantes de la Verdad. Sus poderes están alterados por la corrupción de su spren, otorgándole visiones del futuro y habilidades únicas.",
+    "puntos_clave": [
+      "sufre debilidad sanguínea durante su juventud",
+      "acompaña a Dalinar en las Llanuras Quebradas",
+      "forma un vínculo Nahel con el spren Glys",
+      "se convierte en Caballero Radiante",
+      "participa en la defensa de Urithiru",
+      "acepta su papel en la guerra contra Odium"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "Caballero Radiante",
+    "rol": "Vigilante de la Verdad dentro de la coalición de Urithiru",
+    "relacion_con_spren": "vínculo Nahel activo con Glys",
+    "otros_detalles": "sus poderes difieren de los Vigilantes de la Verdad tradicionales debido a la corrupción de su spren"
+  },
+
+  "descripcion_breve": "Renarin Kholin es el segundo hijo de Dalinar Kholin y un Caballero Radiante de la orden de los Vigilantes de la Verdad vinculado al spren Glys.",
+  "notas": "Las habilidades de Renarin están alteradas debido a la corrupción de su spren por influencia del Vacío."
+}

@@ -1,0 +1,105 @@
+{
+  "id": "lopen",
+  "nombre": "Lopen",
+  "nombre_completo": "Lopen",
+  "apodos": ["El Lopen", "Gancho", "El Herdaziano más guapo de Roshar"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "herdaziano",
+  "origen": "Herdaz",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras radiantes", "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada", "rol": "secundario", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }
+    ]
+  },
+
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Caballeros Radiantes",
+    "Ejército de Sadeas (anteriormente)",
+    "Ejército de Kholin"
+  ],
+
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 3,
+    "spren_asociado": {
+      "principal": "Rua"
+    },
+    "estado_del_vinculo": "vínculo Nahel activo"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Adhesión",
+        "Gravitación"
+      ],
+      "fuente_de_luz": "Luz tormentosa"
+    },
+    "no_magicas": [
+      "ingenio y humor",
+      "habilidad social",
+      "lealtad y trabajo en equipo",
+      "liderazgo dentro de Puente Cuatro"
+    ]
+  },
+
+  "identidades": {
+    "principales": [
+      "miembro de Puente Cuatro",
+      "Caballero Radiante",
+      "Corredor del Viento"
+    ],
+    "descripcion": "Herdaziano alegre que se refiere a sí mismo como «El Lopen» y es conocido por su humor constante y su actitud optimista.",
+    "estado_en_viento_y_verdad": "no especificado en el artículo"
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "Madre de Lopen", "relacion": "madre" },
+      { "personaje": "chilinko", "relacion": "primo" },
+      { "personaje": "huio", "relacion": "primo" },
+      { "personaje": "punio", "relacion": "pariente" },
+      { "personaje": "rod", "relacion": "pariente" }
+    ],
+    "amigos": [
+      { "personaje": "kaladin", "relacion": "capitán y amigo" },
+      { "personaje": "Puente Cuatro", "relacion": "compañeros y amigos" },
+      { "personaje": "Rua", "relacion": "spren vinculado" }
+    ],
+    "enemigos": []
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "personalidad optimista y humorística",
+    "evolucion": "usa el humor autocrítico para lidiar con su discapacidad y dificultades",
+    "situacion_en_viento_y_verdad": "no especificado"
+  },
+
+  "arco_narrativo": {
+    "resumen": "De esclavo portador de puentes a miembro de Puente Cuatro y Caballero Radiante de los Corredores del Viento.",
+    "puntos_clave": [
+      "se une a Puente Cuatro",
+      "desarrolla lealtad hacia Kaladin",
+      "forma vínculo Nahel con el spren Rua",
+      "jura el Tercer Ideal de los Corredores del Viento"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "Caballero Radiante",
+    "rol": "miembro de Puente Cuatro",
+    "relacion_con_spren": "vinculado con el honorspren Rua",
+    "otros_detalles": "vive en Urithiru con su madre"
+  },
+
+  "descripcion_breve": "Herdaziano miembro de Puente Cuatro conocido por su humor constante y por referirse a sí mismo como «El Lopen».",
+  "notas": "Se caracteriza por su personalidad despreocupada y su lealtad a Kaladin."
+}

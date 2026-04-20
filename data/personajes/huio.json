@@ -1,0 +1,102 @@
+{
+  "id": "huio",
+  "nombre": "Huio",
+  "nombre_completo": "Huio",
+  "apodos": [],
+
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "herdaziano",
+  "origen": "Herdaz",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras Radiantes",     "rol": "secundario",             "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario",             "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario",             "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario",             "pov": false }
+    ]
+  },
+
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Ejército de Dalinar Kholin",
+    "Caballeros Radiantes"
+  ],
+
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 3,
+    "spren_asociado": {
+      "principal": "Caelinora"
+    },
+    "estado_del_vinculo": "activo"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "Luz tormentosa"
+    },
+    "no_magicas": [
+      "medicina de campo",
+      "cocina avanzada",
+      "conocimientos de fabriales",
+      "mentalidad científica",
+      "traducción y conocimiento lingüístico (iriali antiguo)"
+    ]
+  },
+
+  "identidades": {
+    "principales": [
+      "miembro de Puente Cuatro",
+      "Corredor del Viento",
+      "arcanista"
+    ],
+    "descripcion": "Herdaziano curioso y analítico, con inclinación científica y talento tanto para la cocina como para el estudio de fabriales.",
+    "estado_en_viento_y_verdad": "Activo como Corredor del Viento dentro de las fuerzas de Dalinar."
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "lopen", "relacion": "primo" }
+    ],
+    "amigos": [
+      { "personaje": "lopen", "relacion": "compañero cercano en Puente Cuatro" },
+      { "personaje": "roca", "relacion": "compañero y colaborador en cocina" }
+    ],
+    "enemigos": []
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "estable",
+    "evolucion": "Mantiene una actitud curiosa, racional y constructiva durante toda su evolución como Radiante.",
+    "situacion_en_viento_y_verdad": "Mentalmente estable, centrado en sus responsabilidades como Radiante y soldado."
+  },
+
+  "arco_narrativo": {
+    "resumen": "Huio pasa de ser un miembro secundario de Puente Cuatro con habilidades prácticas a convertirse en un Corredor del Viento del Tercer Ideal, destacando por su enfoque científico y su contribución tanto en combate como en apoyo técnico.",
+    "puntos_clave": [
+      "Se une a Puente Cuatro junto a Lopen",
+      "Desarrolla habilidades en cocina y medicina de campo",
+      "Muestra interés por los fabriales y experimentación",
+      "Participa en la expedición a Aimia",
+      "Jura el Tercer Ideal para salvar a Lopen",
+      "Obtiene una hoja esquirlada (Caelinora)",
+      "Se integra en las fuerzas de Dalinar tras la retirada de Kaladin"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "soldado y Caballero Radiante",
+    "rol": "apoyo técnico y combatiente",
+    "relacion_con_spren": "vínculo Nahel activo con Caelinora",
+    "otros_detalles": "Destaca por su enfoque analítico y su capacidad para experimentar con fabriales, aunque a veces los rompe en el proceso."
+  },
+
+  "descripcion_breve": "Miembro de Puente Cuatro y Corredor del Viento herdaziano, conocido por su mentalidad científica, habilidades culinarias y progreso hasta el Tercer Ideal.",
+
+  "notas": "Uno de los pocos miembros de Puente Cuatro que sabe nadar. Ha demostrado creatividad en el uso de su hoja esquirlada, pudiendo manifestarla en formas no convencionales como un martillo."
+}

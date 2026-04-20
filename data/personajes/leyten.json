@@ -1,0 +1,105 @@
+{
+  "id": "leyten",
+  "nombre": "Leyten",
+  "nombre_completo": "Leyten",
+  "apodos": [],
+
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario importante", "pov": false }
+    ]
+  },
+
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Ejército de Sadeas",
+    "Ejército de Kholin",
+    "Caballeros Radiantes"
+  ],
+
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Ethenia"
+    },
+    "estado_del_vinculo": "activo"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "Luz tormentosa"
+    },
+    "no_magicas": [
+      "logística",
+      "organización de suministros",
+      "mantenimiento de equipo",
+      "combate básico"
+    ]
+  },
+
+  "identidades": {
+    "principales": [
+      "miembro de Puente Cuatro",
+      "intendente",
+      "Caballero Radiante"
+    ],
+    "descripcion": "Miembro de Puente Cuatro caracterizado por su pulcritud y organización, responsable de la logística y suministros del grupo.",
+    "estado_en_viento_y_verdad": "activo como Corredor del Viento y responsable logístico"
+  },
+
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "kaladin", "relacion": "líder" },
+      { "personaje": "teft", "relacion": "compañero" },
+      { "personaje": "roca", "relacion": "compañero" },
+      { "personaje": "sigzil", "relacion": "compañero cercano" }
+    ],
+    "enemigos": [
+      { "personaje": "moash", "relacion": "enemigo declarado" }
+    ]
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "estable",
+    "evolucion": "mantiene una personalidad constante, priorizando el orden y tareas prácticas sobre el combate",
+    "situacion_en_viento_y_verdad": "mentalmente estable, centrado en funciones logísticas"
+  },
+
+  "arco_narrativo": {
+    "resumen": "Leyten pasa de aprendiz de armero a esclavo de los puentes tras un fallo por el que es culpado. En Puente Cuatro sobrevive a heridas graves y se integra en el grupo, convirtiéndose en su intendente y posteriormente en Caballero Radiante.",
+    "puntos_clave": [
+      "aprendiz de armero",
+      "degradación a cuadrillas de puentes",
+      "herido gravemente y salvado por Kaladin",
+      "integración en Puente Cuatro",
+      "asume rol de intendente",
+      "se convierte en escudero",
+      "vincula a su spren Ethenia",
+      "participa en batallas contra los Fusionados"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "Caballero Radiante",
+    "rol": "intendente y apoyo logístico",
+    "relacion_con_spren": "vínculo Nahel activo con Ethenia",
+    "otros_detalles": "prefiere tareas organizativas y rutinarias frente al combate" 
+  },
+
+  "descripcion_breve": "Miembro de Puente Cuatro y Corredor del Viento especializado en logística y organización.",
+  "notas": "Destaca por su pulcritud y preferencia por trabajos no relacionados con el combate." 
+}

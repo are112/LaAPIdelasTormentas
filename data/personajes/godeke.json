@@ -1,0 +1,107 @@
+{
+  "id": "godeke",
+  "nombre": "Godeke",
+  "nombre_completo": "Godeke",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "roshariano",
+  "origen": "",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }
+    ]
+  },
+
+  "afiliaciones": [
+    "Caballeros Radiantes",
+    "Urithiru",
+    "Fervor (anteriormente)"
+  ],
+
+  "orden_radiantes": {
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Archinal"
+    },
+    "estado_del_vinculo": "vínculo Nahel activo"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Abrasión",
+        "Progresión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "conocimientos eruditos",
+      "formación como fervoroso",
+      "diplomacia básica",
+      "idiomas (incluido thayleno)",
+      "combate con espada esquirlada"
+    ]
+  },
+
+  "identidades": {
+    "principales": [
+      "Danzante del Filo",
+      "ex fervoroso",
+      "erudito"
+    ],
+    "descripcion": "Antiguo fervoroso convertido en Caballero Radiante. Combina una mentalidad religiosa con una curiosidad genuina por el mundo, mostrando tanto solemnidad como una capacidad de asombro casi infantil ante las maravillas de Roshar y Shadesmar.",
+    "estado_en_viento_y_verdad": "activo como Radiante"
+  },
+
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "lift", "relacion": "compañera Danzante del Filo" },
+      { "personaje": "adolin", "relacion": "compañero en expedición a Shadesmar" }
+    ],
+    "enemigos": [
+      { "personaje": "Fusionados", "relacion": "enemigos en combate" }
+    ],
+    "otros": [
+      { "personaje": "kaladin", "relacion": "aliado en combate; le salva la vida" },
+      { "personaje": "dalinar", "relacion": "lo considera una figura casi sagrada" }
+    ]
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "mente equilibrada con fuerte base espiritual",
+    "evolucion": "pasa de fervoroso a Radiante manteniendo su fe pero reinterpretándola",
+    "situacion_en_viento_y_verdad": "estable, con visión optimista del mundo"
+  },
+
+  "arco_narrativo": {
+    "resumen": "Antiguo fervoroso que encuentra en el vínculo Nahel una transformación tanto física como espiritual. Participa en misiones clave de los Radiantes, incluyendo la expedición a Shadesmar, donde actúa como apoyo, observador y voz reflexiva.",
+    "puntos_clave": [
+      "vivió gran parte de su vida con deformidades físicas",
+      "el vínculo Nahel le permite curarse",
+      "se convierte en Danzante del Filo",
+      "participa en la defensa de civiles durante ataques de los fusionados",
+      "es gravemente herido e incapaz de curarse temporalmente por un fabrial enemigo",
+      "es rescatado por Kaladin",
+      "forma parte de la expedición diplomática a Shadesmar",
+      "muestra fascinación por el Reino Cognitivo",
+      "se opone a estrategias agresivas con los honorspren"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "Caballero Radiante",
+    "rol": "Danzante del Filo en activo",
+    "relacion_con_spren": "vínculo con Archinal plenamente funcional",
+    "otros_detalles": "participa en misiones diplomáticas y de apoyo, además de combate y sanación"
+  },
+
+  "descripcion_breve": "Danzante del Filo y antiguo fervoroso que combina fe, curiosidad y compasión, viendo el mundo como una manifestación del Todopoderoso.",
+
+  "notas": "Considera que Honor es solo un aspecto del Todopoderoso. Su vínculo Nahel no solo le otorga poder, sino también una transformación personal profunda tras una vida marcada por deformidades."
+}

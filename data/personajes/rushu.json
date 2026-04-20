@@ -1,0 +1,102 @@
+{
+  "id": "rushu",
+  "nombre": "Rushu",
+  "nombre_completo": "Rushu",
+  "apodos": [],
+  "sexo": "no binario",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras radiantes", "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada", "rol": "secundario", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false },
+      { "titulo": "Esquirla del Amanecer", "rol": "secundario", "pov": false }
+    ]
+  },
+
+  "afiliaciones": [
+    "Principado Kholin",
+    "Fervor",
+    "Artifabrianos"
+  ],
+
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "no es Caballero Radiante"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "artifabrianía avanzada",
+      "investigación sobre fabriales",
+      "estudio de spren",
+      "conocimiento de escritura y glifos",
+      "uso de moldeador de almas",
+      "ingeniería aplicada"
+    ]
+  },
+
+  "identidades": {
+    "principales": [
+      "erudite",
+      "artifabriane",
+      "fervorose"
+    ],
+    "descripcion": "Erudite brillante pero dispersa, con una curiosidad insaciable que la lleva a perderse en sus propios pensamientos. Capaz de saltar de una idea a otra sin aviso, combina genialidad técnica con una desconexión ocasional de lo que ocurre a su alrededor.",
+    "estado_en_viento_y_verdad": "activa en investigaciones fabriales"
+  },
+
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "navani", "relacion": "superiora y mentora en investigación" },
+      { "personaje": "rysn", "relacion": "colaboradora; crea un dispositivo para ella" }
+    ],
+    "enemigos": [],
+    "otros": [
+      { "personaje": "lopen", "relacion": "interacciones ocasionales durante expedición a Aimia" }
+    ]
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "mente extremadamente creativa pero dispersa",
+    "evolucion": "mantiene su patrón de pensamiento caótico mientras incrementa su impacto como artifabriane",
+    "situacion_en_viento_y_verdad": "centrada en la investigación, aunque con tendencia a la distracción"
+  },
+
+  "arco_narrativo": {
+    "resumen": "Erudite del Principado Kholin que pasa de ser una investigadora excéntrica a una figura clave en el desarrollo de la artifabrianía moderna, participando en descubrimientos relevantes sobre fabriales y fenómenos asociados a los spren.",
+    "puntos_clave": [
+      "analiza los glifos relacionados con la tormenta eterna",
+      "trabaja bajo las órdenes de Navani Kholin",
+      "participa en experimentos con fabriales",
+      "diseña un asiento flotante para Rysn",
+      "forma parte de la expedición a Aimia",
+      "usa un moldeador de almas durante dicha expedición"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "erudite y artifabriane",
+    "rol": "investigadora en el entorno de Navani",
+    "relacion_con_spren": "interés académico en los spren",
+    "otros_detalles": "su trabajo contribuye a avances importantes en la comprensión de los fabriales y las hojas esquirladas"
+  },
+
+  "descripcion_breve": "Artifabriane del Principado Kholin, brillante pero caótica, cuya mente inquieta impulsa avances clave en el estudio de los fabriales.",
+
+  "notas": "Se unió al fervor en parte para evitar la atención masculina debido a su gran atractivo. Destaca por su valentía al arriesgarse personalmente en experimentos fabriales."
+}

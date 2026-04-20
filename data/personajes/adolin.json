@@ -1,0 +1,102 @@
+{
+  "id": "adolin",
+  "nombre": "Adolin",
+  "nombre_completo": "Adolin Kholin",
+  "apodos": ["Príncipe Adolin", "El Duelo Viviente"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": true  },
+      { "titulo": "Juramentada",             "rol": "principal",             "pov": true  },
+      { "titulo": "El Ritmo de la Guerra",   "rol": "principal",             "pov": true  },
+      { "titulo": "Viento y Verdad",         "rol": "principal",             "pov": true  }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Guardia Cobalto",
+    "Coalición de los Reinos",
+    "Injuramentados"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "mayalaran"
+    },
+    "estado_del_vinculo": "Vínculo anómalo con un spren muerto"
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Maestro duelista",
+      "Estratega militar",
+      "Carisma social",
+      "Dominio de la armadura esquirlada",
+      "Dominio de hoja esquirlada"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Príncipe Alezi",
+      "Guerrero",
+      "Líder militar",
+      "Hijo de Dalinar"
+    ],
+    "descripcion": "Adolin lucha por encontrar su propia identidad fuera de las expectativas de su linaje. Es empático, honorable y orientado al bienestar de quienes lo rodean.",
+    "estado_en_viento_y_verdad": "En evolución personal, definiendo su propósito más allá de la sombra de su padre."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "dalinar",  "relacion": "padre"   },
+      { "personaje": "evi",      "relacion": "madre"   },
+      { "personaje": "renarin",  "relacion": "hermano" },
+      { "personaje": "shallan",  "relacion": "esposa"  },
+      { "personaje": "gavilar",  "relacion": "tio"     }
+    ],
+    "amigos": [
+      { "personaje": "Kaladin",         "relacion": "amigo"      },
+      { "personaje": "Shallan",         "relacion": "amiga"      },
+      { "personaje": "Navani",          "relacion": "aliada"     },
+      { "personaje": "Renarin",         "relacion": "aliado"     },
+      { "personaje": "Guardia Cobalto", "relacion": "compañeros" }
+    ],
+    "enemigos": [
+      { "personaje": "Sadeas",                  "relacion": "enemigo"  },
+      { "personaje": "Altaesferas enemistadas", "relacion": "enemigos" },
+      { "personaje": "Facciones de la Coalición", "relacion": "enemigos" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable pero con culpa acumulada por decisiones difíciles; fuerte sentido del honor.",
+    "evolucion": "Pasa de noble despreocupado a líder maduro con gran empatía.",
+    "situacion_en_viento_y_verdad": "Afrontando su papel en la muerte de Sadeas; cimentando su vínculo con Maya."
+  },
+  "arco_narrativo": {
+    "resumen": "Adolin evoluciona desde príncipe carismático a figura clave que desafía los cimientos mágicos de Roshar mediante su conexión única con Mayalaran.",
+    "puntos_clave": [
+      "Reconocido maestro duelista.",
+      "Mata a Sadeas en un arrebato de justicia.",
+      "Fortalece la relación con Shallan.",
+      "Desarrolla vínculo emocional con Mayalaran.",
+      "Desafía las reglas establecidas de los Radiantes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Embajador, noble y líder militar",
+    "rol": "Mediador cultural y guerrero",
+    "relacion_con_spren": "Conexión única con Maya, mostrando señales de recuperación",
+    "otros_detalles": "Elemento crucial en misiones diplomáticas y decisiones estratégicas."
+  },
+  "descripcion_breve": "Príncipe alezi, maestro duelista y figura clave que desafía las tradiciones mágicas de Roshar a través de su vínculo con un spren muerto.",
+  "notas": "Es uno de los personajes más equilibrados emocionalmente en la saga."
+}

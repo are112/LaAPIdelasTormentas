@@ -1,0 +1,61 @@
+{
+  "id": "",
+  "nombre": "",
+  "nombre_completo": "",
+  "apodos": [],
+  "sexo": "",
+  "especie": "",
+  "nacionalidad": "",
+  "origen": "",
+  "planeta_natal": "",
+  "estado_actual": "",
+
+  "apariciones": { "libros": [ { "titulo": "", "rol": "", "pov": false } ] },
+
+  "afiliaciones": [],
+
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": []
+  },
+
+  "identidades": {
+    "principales": [],
+    "descripcion": "",
+    "estado_en_viento_y_verdad": ""
+  },
+
+  "relaciones": {
+    "familia":  [ { "personaje": "", "relacion": "" } ],
+    "amigos":   [ { "personaje": "", "relacion": "" } ],
+    "enemigos": [ { "personaje": "", "relacion": "" } ]
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": ""
+  },
+
+  "arco_narrativo": {
+    "resumen": "",
+    "puntos_clave": []
+  },
+
+  "situacion_actual": {
+    "ocupacion": "",
+    "rol": "",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+
+  "descripcion_breve": "",
+  "notas": ""
+}

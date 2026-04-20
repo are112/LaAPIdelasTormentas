@@ -1,0 +1,89 @@
+{
+  "id": "lift",
+  "nombre": "Lift",
+  "nombre_completo": "Lift",
+  "apodos": ["La Maravilla"],
+  "sexo": "femenino",
+  "especie": "humana",
+  "nacionalidad": "Reshi",
+  "origen": "Islas Reshi",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras radiantes",     "rol": "Interludio / personaje secundario", "pov": true },
+      { "titulo": "Danzante del Filo",      "rol": "protagonista",                       "pov": true },
+      { "titulo": "Juramentada",            "rol": "Personaje secundario",               "pov": true },
+      { "titulo": "El ritmo de la guerra",  "rol": "Personaje secundario",               "pov": true },
+      { "titulo": "Viento y verdad",        "rol": "Personaje secundario",               "pov": true }
+    ]
+  },
+
+  "afiliaciones": [
+    "Caballeros Radiantes",
+    "Orden de los Danzantes del Filo"
+  ],
+
+  "orden_radiantes": {
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": 3,
+    "spren_asociado": { "principal": "Wyndle" },
+    "estado_del_vinculo": "activo"
+  },
+
+  "habilidades": {
+    "magia": {
+      "potencias": ["Abrasión", "Progresión"],
+      "fuente_de_luz": "Luz de vida (metabolizada a partir de alimentos)"
+    },
+    "no_magicas": [
+      "Gran agilidad",
+      "Sigilo",
+      "Habilidad para escalar y desplazarse rápidamente",
+      "Instinto de supervivencia",
+      "Capacidad para percibir e interactuar con spren"
+    ]
+  },
+
+  "identidades": {
+    "principales": ["Caballera Radiante", "Ladrona callejera"],
+    "descripcion": "Lift es una joven Caballera Radiante de la orden de los Danzantes del Filo conocida por su actitud irreverente, su obsesión por la comida y su negativa a crecer.",
+    "estado_en_viento_y_verdad": "Activa como Caballera Radiante y colaborando con los Radiantes."
+  },
+
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "wyndle",                 "relacion": "aliado" },
+      { "personaje": "szeth", "relacion": "aliado" }
+    ],
+    "enemigos": []
+  },
+
+  "estado_mental": {
+    "diagnostico_general": "Impulsiva, irreverente y emocionalmente inmadura, aunque empática con los débiles.",
+    "evolucion": "A lo largo de la saga pasa de ser una ladrona callejera despreocupada a asumir gradualmente la responsabilidad de ser una Caballera Radiante.",
+    "situacion_en_viento_y_verdad": "Sigue luchando contra la idea de crecer y madurar, aunque demuestra cada vez mayor responsabilidad."
+  },
+
+  "arco_narrativo": {
+    "resumen": "Lift comienza como una joven ladrona que desea no crecer nunca. Tras obtener un don de la Vigilante Nocturna y formar un vínculo con Wyndle, se convierte en una Caballera Radiante de los Danzantes del Filo.",
+    "puntos_clave": [
+      "Encuentro con la Vigilante Nocturna y obtención de la Antigua Magia",
+      "Formación del vínculo Nahel con Wyndle",
+      "Eventos de Danzante del Filo",
+      "Participación en la guerra contra Odium"
+    ]
+  },
+
+  "situacion_actual": {
+    "ocupacion": "Caballera Radiante",
+    "rol": "Miembro activo de los Caballeros Radiantes",
+    "relacion_con_spren": "Vínculo Nahel activo con Wyndle",
+    "otros_detalles": "Posee una conexión especial con Cultivación y puede convertir alimentos en luz de vida."
+  },
+
+  "descripcion_breve": "Lift es una Caballera Radiante de la orden de los Danzantes del Filo conocida por su capacidad única de convertir alimentos en luz de vida y por su carácter irreverente.",
+  "notas": "Debido a su interacción con Cultivación, existe parcialmente en el Reino Cognitivo y puede interactuar físicamente con spren."
+}
