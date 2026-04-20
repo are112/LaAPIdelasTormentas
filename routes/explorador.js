@@ -3,8 +3,6 @@ import express from "express";
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  const baseUrl = `${req.protocol}://${req.get("host")}`;
-
   const html = `<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -654,7 +652,7 @@ router.get("/", (req, res) => {
   </div>
 
   <script>
-    const API = '${baseUrl}';
+    const API = '';
     let todos = [];
     let filtrados = [];
     let seleccionado = null;
