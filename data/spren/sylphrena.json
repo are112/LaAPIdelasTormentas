@@ -1,0 +1,119 @@
+{
+  "id": "sylphrena",
+  "nombre": "Sylphrena",
+  "apodos": ["Syl", "Hija Antigua"],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+
+  "origen": {
+    "creador": "Padre Tormenta",
+    "lugar_creacion": "Forja de Dios",
+    "generacion": "primera",
+    "notas": "Una de las primeras honorspren creadas por el Padre Tormenta, no por Honor directamente. Nació antes del Día de la Traición."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "mujer joven de un palmo de altura con cara angular y pelo fluido que se desvanece en bruma",
+      "vestimenta": "vestido largo de corte juvenil, siempre descalza",
+      "color": "blanco azulado uniforme con tenue luz azul",
+      "formas_alternativas": [
+        "lazo de luz",
+        "remolino de hojas",
+        "llama",
+        "nube pequeña"
+      ],
+      "visibilidad": "invisible para la mayoría; solo pueden verla quienes tienen vínculo o ella decide mostrarse"
+    },
+    "reino_cognitivo": {
+      "forma": "chica de tamaño humano con piel azul blanquecina",
+      "limitaciones": "no puede cambiar de forma ni volverse invisible en Shadesmar",
+      "ojos": "decorativos, no funcionales como los humanos"
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "lanza",
+      "otras_formas": ["espada", "escudo"],
+      "material": "metal plateado y brillante con glifos grabados",
+      "detalle": "glifo de los Corredores del Viento centrado en la hoja, con líneas que recuerdan al flujo de su cabello"
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "alegre",
+      "traviesa",
+      "curiosa",
+      "irreverente",
+      "optimista",
+      "orgullosa",
+      "olvidadiza en ocasiones",
+      "código ético estricto"
+    ],
+    "valores": [
+      "desprecia el engaño y las mentiras",
+      "cree que los Corredores del Viento existen para proteger, no para hacer justicia",
+      "desprecia a quienes empuñan hojas esquirladas muertas"
+    ],
+    "notas": "Escrita con rasgos similares al TDAH. Tiene una dualidad entre su faceta responsable y su faceta juguetona. Se define a sí misma como 'un pequeño trozo de dios'."
+  },
+
+  "habilidades": {
+    "generales": [
+      "cambiar de forma",
+      "elegir a quién se le aparece",
+      "volar y flotar en el aire",
+      "caminar de lado",
+      "localizar objetos y personas",
+      "dar pellizcos de energía",
+      "sentir altas tormentas días antes de que lleguen"
+    ],
+    "magicas": [
+      "Adhesión (uso propio limitado, para bromas principalmente)"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "kaladin",
+    "orden_radiante": "Corredores del Viento",
+    "potencias_otorgadas": ["Gravitación", "Adhesión"],
+    "forma_shardblade": "lanza",
+    "estado_vinculo": "estable",
+    "radiante_anterior": "Relador",
+    "notas": "Cuando Kaladin rompe sus juramentos, Syl pierde sus funciones mentales superiores y puede morir. Protege a Kaladin de la Emoción. Puede comunicarse telepáticamente con él cuando adopta forma de hoja esquirlada."
+  },
+
+  "historia": {
+    "resumen": "Nacida antes del Día de la Traición, Syl formó un vínculo prematuro con Relador, quien murió en su primera batalla. Esto la sumió en un letargo profundo que la salvó de convertirse en ojmuerta durante la Traición. Más de mil años después fue encontrada y despertada. Desafiando los deseos del Padre Tormenta y los demás honorspren, escapó para vincularse con Kaladin, convirtiéndole en Corredor del Viento.",
+    "puntos_clave": [
+      "sobrevivió a la Traición gracias al letargo causado por la muerte de Relador",
+      "durmió más de mil años hasta ser encontrada y despertada",
+      "escapó de Integridad Duradera desafiando al Padre Tormenta",
+      "los honorspren pusieron una recompensa por devolverla a la capital",
+      "convenció a Kaladin de no suicidarse llevándole ruinaoscura",
+      "casi muere cuando Kaladin rompió sus juramentos",
+      "regresó cuando Kaladin pronunció el Tercer Ideal",
+      "reconocida como 'La Hija Antigua' por los honorspren de Integridad Duradera"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundaria principal", "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "secundaria principal", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundaria principal", "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundaria",           "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundaria principal", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "kaladin", "relacion": "vínculo Nahel" },
+    "creador": { "personaje": "Padre Tormenta", "relacion": "creador, relación tensa" },
+    "anterior_radiante": { "personaje": "Relador", "relacion": "vínculo Nahel anterior" }
+  },
+
+  "descripcion_breve": "Honorspren vinculada a Kaladin, conocida entre los suyos como la Hija Antigua. Una de las primeras honorspren creadas por el Padre Tormenta y Astilla de Honor.",
+  "notas": "Su nombre proviene de 'sylph', espíritu del aire. Fue escrita con rasgos similares al TDAH, aunque al ser un spren su psicología es diferente a la humana."
+}
