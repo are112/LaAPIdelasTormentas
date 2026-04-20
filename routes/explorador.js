@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>La API de las Tormentas</title>
+  <title>El Archivo de las Tormentas — Explorador</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -603,8 +603,8 @@ router.get("/", (req, res) => {
   <div class="particulas" id="particulas"></div>
 
   <header>
-    <h1>La API de las Tormentas</h1>
-    <p class="subtitulo">Un Proyecot Fan del Cosmere</p>
+    <h1>El Archivo de las Tormentas</h1>
+    <p class="subtitulo">Explorador · Cosmere</p>
   </header>
 
   <div class="contenedor">
@@ -693,24 +693,17 @@ router.get("/", (req, res) => {
     }
 
     // ── Cargar lista ───────────────────────────────────────
-async function cargarLista() {
-  try {
-    const res = await fetch(`${API}/personajes`);
-    const json = await res.json();
-
-    // ✅ NORMALIZACIÓN CLAVE
-    todos = Array.isArray(json)
-      ? json
-      : json.personajes || json.data || [];
-
-    poblarFiltroOrden();
-    renderLista(todos);
-  } catch (e) {
-    console.error(e);
-    document.getElementById('lista-personajes').innerHTML =
-      '<p class="sin-datos">Error cargando personajes</p>';
-  }
-}
+    async function cargarLista() {
+      try {
+        const res = await fetch(\`\${API}/personajes\`);
+        todos = await res.json();
+        poblarFiltroOrden();
+        renderLista(todos);
+      } catch (e) {
+        document.getElementById('lista-personajes').innerHTML =
+          '<p class="sin-datos">Error cargando personajes</p>';
+      }
+    }
 
     function poblarFiltroOrden() {
       const ordenes = [...new Set(todos.map(p => p.orden).filter(o => o && o.trim()))].sort();
