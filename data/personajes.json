@@ -1,0 +1,146 @@
+[
+  {
+    "id": "adolin",
+    "nombre": "Adolin",
+    "orden": "Ninguna",
+    "nivel_ideal": null
+  },
+  {
+    "id": "cikatriz",
+    "nombre": "Cikatriz",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 2
+  },
+  {
+    "id": "dalinar",
+    "nombre": "Dalinar",
+    "orden": "Forjadores de Vínculos",
+    "nivel_ideal": 3
+  },
+  {
+    "id": "drehy",
+    "nombre": "Drehy",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 2
+  },
+  {
+    "id": "eshonai",
+    "nombre": "Eshonai",
+    "orden": "Escultores de Voluntad",
+    "nivel_ideal": null
+  },
+  {
+    "id": "godeke",
+    "nombre": "Godeke",
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": null
+  },
+  {
+    "id": "huio",
+    "nombre": "Huio",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 3
+  },
+  {
+    "id": "jasnah",
+    "nombre": "Jasnah",
+    "orden": "Nominadores de Lo Otro",
+    "nivel_ideal": null
+  },
+  {
+    "id": "kaladin",
+    "nombre": "Kaladin",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 4
+  },
+  {
+    "id": "leyten",
+    "nombre": "Leyten",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null
+  },
+  {
+    "id": "lift",
+    "nombre": "Lift",
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": 3
+  },
+  {
+    "id": "lopen",
+    "nombre": "Lopen",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 3
+  },
+  {
+    "id": "lunamor",
+    "nombre": "Lunamor",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
+    "id": "lyn",
+    "nombre": "Lyn",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 3
+  },
+  {
+    "id": "navani",
+    "nombre": "Navani",
+    "orden": "Forjadores de Vínculos",
+    "nivel_ideal": 1
+  },
+  {
+    "id": "renarin",
+    "nombre": "Renarin",
+    "orden": "Vigilantes de la Verdad",
+    "nivel_ideal": null
+  },
+  {
+    "id": "ristina",
+    "nombre": "Ristina",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
+    "id": "rlain",
+    "nombre": "Rlain",
+    "orden": "Vigilantes de la Verdad",
+    "nivel_ideal": 2
+  },
+  {
+    "id": "rushu",
+    "nombre": "Rushu",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
+    "id": "shallan",
+    "nombre": "Shallan",
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": 4
+  },
+  {
+    "id": "sigzil",
+    "nombre": "Sigzil",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 3
+  },
+  {
+    "id": "szeth",
+    "nombre": "Szeth",
+    "orden": "Rompedores del Cielo",
+    "nivel_ideal": 4
+  },
+  {
+    "id": "teft",
+    "nombre": "Teft",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 3
+  },
+  {
+    "id": "venli",
+    "nombre": "Venli",
+    "orden": "Escultores de Voluntad",
+    "nivel_ideal": 2
+  }
+]
