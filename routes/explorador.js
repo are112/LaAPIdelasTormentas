@@ -1,9 +1,15 @@
 import express from "express";
+import { loadList } from "../utils/loadList.js";
+import { loadCharacter } from "../utils/loadCharacter.js";
 
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  const baseUrl = `${req.protocol}://${req.get("host")}`;
+  // Cargamos todos los datos directamente en el servidor
+  const lista = loadList();
+  const personajes = lista.map(p => loadCharacter(p.id)).filter(Boolean);
+  const datosJSON = JSON.stringify(personajes);
+  const listaJSON = JSON.stringify(lista);
 
   const html = `<!DOCTYPE html>
 <html lang="es">
@@ -609,7 +615,10 @@ router.get("/", (req, res) => {
   </div>
 
   <script>
-    const API = '${baseUrl}';
+    // Datos inyectados directamente desde el servidor
+    const PERSONAJES = ${datosJSON};
+    const LISTA = ${listaJSON};
+
     let todos = [];
     let filtrados = [];
     let seleccionado = null;
@@ -648,16 +657,10 @@ router.get("/", (req, res) => {
     }
 
     // ── Cargar lista ───────────────────────────────────────
-    async function cargarLista() {
-      try {
-        const res = await fetch(\`\${API}/personajes\`);
-        todos = await res.json();
-        poblarFiltroOrden();
-        renderLista(todos);
-      } catch (e) {
-        document.getElementById('lista-personajes').innerHTML =
-          '<p class="sin-datos">Error cargando personajes</p>';
-      }
+    function cargarLista() {
+      todos = LISTA;
+      poblarFiltroOrden();
+      renderLista(todos);
     }
 
     function poblarFiltroOrden() {
@@ -706,7 +709,7 @@ router.get("/", (req, res) => {
     }
 
     // ── Ver personaje ──────────────────────────────────────
-    async function verPersonaje(id) {
+    function verPersonaje(id) {
       seleccionado = id;
       document.querySelectorAll('.item-personaje').forEach(el => {
         el.classList.toggle('activo', el.dataset.id === id);
@@ -715,20 +718,18 @@ router.get("/", (req, res) => {
       const panel = document.getElementById('panel-detalle');
       panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
 
-      try {
-        const [detRes, relRes] = await Promise.allSettled([
-          fetch(\`\${API}/personajes/\${id}\`),
-          fetch(\`\${API}/personajes/\${id}/relaciones\`),
-        ]);
-        const p = await detRes.value.json();
-        const rel = relRes.status === 'fulfilled' && relRes.value.ok
-          ? (await relRes.value.json())
-          : null;
-
-        panel.innerHTML = renderFicha(p, rel);
-      } catch (e) {
-        panel.innerHTML = '<p class="sin-datos">Error cargando el personaje</p>';
+      const p = PERSONAJES.find(x => x.id === id);
+      if (!p) {
+        panel.innerHTML = '<p class="sin-datos">Personaje no encontrado</p>';
+        return;
       }
+
+      // Construir relaciones en formato compatible
+      const rel = p.relaciones
+        ? { relaciones: p.relaciones }
+        : null;
+
+      panel.innerHTML = renderFicha(p, rel);
     }
 
     // ── Render ficha ───────────────────────────────────────
