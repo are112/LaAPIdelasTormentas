@@ -20,17 +20,7 @@ app.use("/api-docs", docsRoutes);
 // Raíz
 app.get("/", (req, res) => {
   res.json({
-    ok: true,
-    msg: "API El Archivo de las Tormentas funcionando ⚡",
-    version: "2.0.0",
-    endpoints: {
-      personajes: "/personajes",
-      buscar: "/buscar",
-      ordenes: "/ordenes",
-      stats: "/stats",
-      explorador: "/explorador",
-      docs: "/api-docs",
-    },
+  res.redirect("/explorador");
   });
 });
 
