@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>El Archivo de las Tormentas — Explorador</title>
+  <title>La API de las Tormentasr</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -582,7 +582,7 @@ router.get("/", (req, res) => {
 
   <header>
     <h1>El Archivo de las Tormentas</h1>
-    <p class="subtitulo">Explorador de Personajes · Cosmere</p>
+    <p class="subtitulo">Un Proyecto Fan del Cosmere</p>
   </header>
 
   <div class="contenedor">
