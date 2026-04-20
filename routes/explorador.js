@@ -693,17 +693,21 @@ router.get("/", (req, res) => {
     }
 
     // ── Cargar lista ───────────────────────────────────────
-    async function cargarLista() {
-      try {
-        const res = await fetch(\`\${API}/personajes\`);
-        todos = await res.json();
-        poblarFiltroOrden();
-        renderLista(todos);
-      } catch (e) {
-        document.getElementById('lista-personajes').innerHTML =
-          '<p class="sin-datos">Error cargando personajes</p>';
-      }
-    }
+async function cargarLista() {
+  try {
+    const res = await fetch(API + "/personajes");
+    const json = await res.json();
+
+    todos = json; // ya es un array
+    poblarFiltroOrden();
+    renderLista(todos);
+  } catch (e) {
+    console.error(e);
+    document.getElementById("lista-personajes").innerHTML =
+      "<p class='sin-datos'>Error cargando personajes</p>";
+  }
+}
+
 
     function poblarFiltroOrden() {
       const ordenes = [...new Set(todos.map(p => p.orden).filter(o => o && o.trim()))].sort();
