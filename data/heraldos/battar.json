@@ -1,0 +1,94 @@
+{
+  "id": "battar",
+  "nombre": "Battar",
+  "nombre_completo": "Battah'Elin",
+  "apodos": ["Battah'Elin", "Dova", "Batlah"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "viva",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": ["Patrona de los Nominadores de lo Otro"],
+    "orden_patron": "Nominadores de Lo Otro",
+    "numero_herald": 9,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Mantiene su cabeza rapada durante los preparativos para la Verdadera Desolación, ya que le gusta que su aspecto de fervorosa haga que la mayoría de la gente la pase por alto.",
+    "vestimenta_habitual": "Vestimenta de fervorosa bajo el alias Dova.",
+    "apariencia_como_mendigo": null,
+    "voz": null
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "sabia",
+      "conspiratriz",
+      "discreta",
+      "perceptiva",
+      "ambiciosa"
+    ],
+    "evolucion": "En su vida pre-heráldica tenía inclinaciones conspiradoras. Con el tiempo su alma se deformó por la tortura inmortal, convirtiéndose esa conspiración en crueldad y codicia.",
+    "notas": "Atribuida con el atributo divino Sabio. Fue capaz de percibir los signos de la llegada de una Desolación años antes de la batalla de Narak."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "cuerpo físico restaurado al regresar a Roshar",
+      "percepción anticipada de las Desolaciones"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Transformación", "Transportación"],
+      "fuente": "Hoja de Honor (abandonada en Aharietiam)",
+      "hoja_de_honor": false,
+      "notas": "Abandonó su hoja en Aharietiam, perdiendo así el acceso a la potenciación."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "vida prolongada y envejecimiento desacelerado",
+      "estado": "desconocido"
+    },
+    "liderazgo": "Era una figura importante antes de las Desolaciones: reina, erudita o general."
+  },
+
+  "historia": {
+    "resumen": "Nacida en Ashyn, huyó a Roshar durante la Expulsión. Formó el Juramento con Honor y participó en todas las Desolaciones. Abandonó el Juramento en Aharietiam junto a los otros Heraldos. Se escondió bajo el alias Dova en Kharbranth como fervorosa, advirtiendo a Taravangian de la llegada de la Desolación y colaborando con el Diagrama. Más tarde mostró señales de corrupción moral, sirviendo brevemente a Odium antes de regresar a Shinovar para restaurar el Juramento.",
+    "puntos_clave": [
+      "figura importante en Ashyn antes de la Expulsión",
+      "participó en todas las Desolaciones",
+      "abandonó el Juramento en Aharietiam",
+      "vivió bajo el alias Dova en Kharbranth como fervorosa",
+      "advirtió a Taravangian de la llegada de la Verdadera Desolación",
+      "colaboró con el Diagrama",
+      "visitó a Aesudan Kholin en varias ocasiones",
+      "sirvió brevemente a Odium realizando el arte de los clavos de cristal en Moash",
+      "regresó a Shinovar para restaurar el Juramento"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundaria", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundaria", "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundaria", "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundaria", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [],
+    "heraldos": [
+      { "personaje": "Talenel", "relacion": "compañera Heraldo, lo abandonó en Braize" }
+    ],
+    "otros": [
+      { "personaje": "Taravangian", "relacion": "aliada como Dova, le advirtió de la Desolación" }
+    ]
+  },
+
+  "descripcion_breve": "Heraldo patrona de los Nominadores de lo Otro. Vivió como fervorosa en Kharbranth bajo el alias Dova, colaborando con el Diagrama de Taravangian.",
+  "notas": "En vorinismo se la conoce como Battah'Elin, y entre los shin como Batlah."
+}

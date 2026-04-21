@@ -1,0 +1,106 @@
+{
+  "id": "talenel",
+  "nombre": "Talenel",
+  "nombre_completo": "Talenelat'Elin",
+  "apodos": ["Taln", "Talat", "Tendón de Piedra", "Tuk", "Talmut", "Talenel'Elin"],
+  "mundo_natal": "Roshar",
+  "estado_actual": "vivo",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": [
+      "Heraldo de la Guerra",
+      "Heraldo de los Soldados",
+      "Portador de Todas las Agonías",
+      "Patrón de los Custodios de la Piedra",
+      "El Antiguo de las Piedras",
+      "Gran Príncipe"
+    ],
+    "orden_patron": "Custodios de la Piedra",
+    "numero_herald": 7,
+    "abandono_juramento": false,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Hombre alto de pelo oscuro y complexión robusta, con brazos gruesos como los de un soldado u obrero. Piel oscura, casi makabaki. Ojos marrón oscuro. Lleva barba. Es musculoso y tiene las manos llenas de callos.",
+    "vestimenta_habitual": "Hábito de soldado.",
+    "apariencia_como_mendigo": "Uñas rotas, pelo largo enmarañado e hirsuto con trozos de madera y hojas enredados en la barba. Vestimenta reducida a un trozo de tela harapiento. Ojos salvajes y enloquecidos.",
+    "voz": "Alezi perfecto con acento del norte."
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "determinado",
+      "fiable",
+      "abnegado",
+      "altruista",
+      "voz suave y afectuosa antes del Aharietiam",
+      "tozudo"
+    ],
+    "evolucion": "Antes del Aharietiam era de voz suave y afectuosa, exemplificaba los valores de los Custodios de la Piedra: determinación, fuerza y fiabilidad. Tras más de cuatro milenios de tortura en Braize su mente quedó muy dañada. Al regresar a Roshar repite embotado un mantra sobre las Desolaciones. Solo muestra lucidez en contadas ocasiones.",
+    "notas": "Al darse cuenta de que fue traicionado solo sintió alegría porque a la humanidad se le había dado tiempo para recuperarse. Es el único Heraldo que no abandonó el Juramento."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "reflejos de batalla extraordinariamente agudos incluso tras la tortura",
+      "resistencia sobrehumana a la tortura",
+      "puede reaccionar a la potenciación en su proximidad"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Cohesión", "Tensión"],
+      "fuente": "Hoja de Honor",
+      "hoja_de_honor": true,
+      "notas": "Portador de su hoja de Honor. Sus potencias no estaban limitadas por un vínculo Nahel."
+    },
+    "potenciacion_odium": {
+      "concedida_en": null,
+      "efecto": null,
+      "estado": "Nació en Roshar, no en Ashyn"
+    },
+    "liderazgo": "Patrón de los Custodios de la Piedra. Entrenó soldados antes de cada Desolación."
+  },
+
+  "historia": {
+    "resumen": "A diferencia de los otros Heraldos, nació en Roshar. Fue el único en no abandonar el Juramento en Aharietiam, quedando solo en Braize durante más de cuatro mil años siendo torturado. Al regresar a Roshar traía la advertencia de la inminente Verdadera Desolación, pero su mente estaba destrozada. Fue retenido por Amaram y más tarde participó en la Batalla de la Explanada Thayleña y en la de Azimir.",
+    "puntos_clave": [
+      "único Heraldo nacido en Roshar, no en Ashyn",
+      "único Heraldo que no abandonó el Juramento en Aharietiam",
+      "soportó más de cuatro mil años de tortura solo en Braize",
+      "regresó a Roshar con la mente destrozada trayendo la advertencia de la Verdadera Desolación",
+      "retenido por Amaram en las Llanuras Quebradas",
+      "participó en la Batalla de la Explanada Thayleña",
+      "participó en la batalla de Azimir",
+      "su lucidez fue restaurada temporalmente por la Perpendicularidad de Honor de Dalinar"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario",          "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "secundario",          "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario",          "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundario",          "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundario principal", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [],
+    "heraldos": [
+      { "personaje": "jezrien",   "relacion": "compañero Heraldo que lo abandonó en Braize" },
+      { "personaje": "shalash",   "relacion": "compañera Heraldo muy arrepentida por haberlo abandonado" },
+      { "personaje": "ishar",     "relacion": "compañero Heraldo" }
+    ],
+    "otros": [
+      { "personaje": "Amaram", "relacion": "lo retuvo en las Llanuras Quebradas" },
+      { "personaje": "Dalinar", "relacion": "su apertura de la Perpendicularidad de Honor le devolvió momentáneamente la lucidez" }
+    ]
+  },
+
+  "descripcion_breve": "El único Heraldo que no abandonó el Juramento en Aharietiam. Soportó más de cuatro mil años de tortura solo en Braize. Regresó a Roshar con la mente destrozada para advertir de la Verdadera Desolación.",
+  "notas": "Único Heraldo nacido en Roshar en vez de Ashyn. Su mantra al regresar de Braize es un discurso sobre las Desolaciones y los preparativos necesarios para combatirlas."
+}

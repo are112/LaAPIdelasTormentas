@@ -1,0 +1,112 @@
+{
+  "id": "ishar",
+  "nombre": "Ishar",
+  "nombre_completo": "Ishi'Elin",
+  "apodos": ["Ishi", "Tashi", "Tezim", "Ishu-hijo-Dios", "la Voz"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "vivo",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": [
+      "Heraldo de la Suerte",
+      "Heraldo de los Misterios",
+      "Heraldo de los Juramentos",
+      "Heraldo de la Sabiduría",
+      "Vinculador de Dioses",
+      "Patrón de los Forjadores de Vínculos",
+      "Creador del Juramento",
+      "Tezim el Grande",
+      "Heraldo de Heraldos",
+      "Dios de Dioses",
+      "Vinculador del Mundo"
+    ],
+    "orden_patron": "Forjadores de Vínculos",
+    "numero_herald": 1,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Hombre de aspecto fuerte con pinta de guerrero, ataviado con túnica y barba de fervoroso y calvo. Los rosharianos modernos lo considerarían de aspecto shin, con piel pálida y sin pliegues epicánticos.",
+    "vestimenta_habitual": "Túnica, aspecto de fervoroso calvo.",
+    "apariencia_como_mendigo": null,
+    "voz": null
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "increíblemente carismático",
+      "erudito",
+      "megalómano",
+      "audaz más que astuto",
+      "enérgico",
+      "desea morir",
+      "se cree por encima de todos"
+    ],
+    "evolucion": "En el pasado era el más sabio de los Heraldos, capaz de convencer a naciones y a sus compañeros. Su locura adoptó la forma de un líder espiritual megalómano que se proclama dios. Soportó parte del dolor de los otros Heraldos y fue parcialmente corrompido por el Pozo de Control.",
+    "notas": "Nale afirma que Ishar siempre ha sido el más sabio de todos. Shalash lo describe como confiado, ansioso y más comandante que sabio. Desea combinar las Esquirlas y convertirse en Adonalsium renacido."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "duelista excepcional, capaz de derrotar a cinco Corredores del Viento del Tercer Ideal",
+      "Vinculador de Dioses: puede crear vínculos Nahel artificialmente",
+      "Pozo de Control: puede controlar a humanos fusionados con spren",
+      "saltamundos: puede viajar entre mundos del Cosmere"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Adhesión", "Gravitación"],
+      "fuente": "Hoja de Honor recuperada de los shin tras Aharietiam",
+      "hoja_de_honor": true,
+      "notas": "Recuperó su hoja de Honor de los shin. Es el único Heraldo que sigue empuñando su hoja original."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "vida prolongada y envejecimiento desacelerado",
+      "estado": "desconocido"
+    },
+    "liderazgo": "Cofundador del Juramento junto a Jezrien. Líder religioso de Tukar como Tezim el Grande. Ha influido en los portadores de Honor shin durante generaciones."
+  },
+
+  "historia": {
+    "resumen": "Nacido en Ashyn, fue cofundador del Juramento junto a Jezrien. Como Heraldo participó en todas las Desolaciones. Abandonó el Juramento en Aharietiam y sugirió que una sola persona podría mantenerlo, justificando dejar a Talenel solo. Pasó los siguientes milenios como líder religioso de Tukar bajo el nombre Tezim el Grande, proclamándose dios. Su locura lo llevó a experimentar con la creación de vínculos Nahel y el control de humanos mediante el Pozo de Control.",
+    "puntos_clave": [
+      "cofundador del Juramento con Jezrien",
+      "participó en todas las Desolaciones",
+      "sugirió y promovió el abandono del Juramento en Aharietiam",
+      "gobernó Tukar como dios-sacerdote Tezim el Grande",
+      "desarrolló el Vinculador de Dioses para crear vínculos Nahel artificiales",
+      "parcialmente corrompido por el Pozo de Control",
+      "recuperó su hoja de Honor de los shin",
+      "participó en el reforjamiento del Juramento"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario",  "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundario",  "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundario",  "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [],
+    "heraldos": [
+      { "personaje": "jezrien", "relacion": "compañero Heraldo, cofundador del Juramento" },
+      { "personaje": "Nale",    "relacion": "compañero Heraldo, lo idolatra y confía ciegamente en él" },
+      { "personaje": "Talenel", "relacion": "compañero Heraldo, fue dejado solo en Braize por su sugerencia" },
+      { "personaje": "shalash", "relacion": "compañera Heraldo" }
+    ],
+    "otros": [
+      { "personaje": "Szeth",   "relacion": "portador shin de Honor, influenciado por Ishar" },
+      { "personaje": "Dalinar", "relacion": "interacción durante la campaña en Emul" }
+    ]
+  },
+
+  "descripcion_breve": "El más sabio de los Heraldos y cofundador del Juramento. Gobernó Tukar como el dios-sacerdote Tezim el Grande. Su locura lo convirtió en un megalómano que busca combinar las Esquirlas.",
+  "notas": "Es el único Heraldo que sigue empuñando su hoja de Honor original. Posee la capacidad única de crear vínculos Nahel artificialmente como Vinculador de Dioses."
+}

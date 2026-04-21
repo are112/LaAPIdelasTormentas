@@ -1,0 +1,94 @@
+{
+  "id": "chanarach",
+  "nombre": "Chanarach",
+  "nombre_completo": "Chanaranach'Elin",
+  "apodos": ["Chana", "Chan-a-rach"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "viva",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": ["Patrona de los Portadores del Polvo", "Heraldo del Hombre Corriente"],
+    "orden_patron": "Portadores del Polvo",
+    "numero_herald": 10,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Las ilustraciones vorin la presentan como una mujer joven con armadura azul y espada recta de hoja bifurcada. La mano segura no está cubierta en las representaciones.",
+    "vestimenta_habitual": "Ropa cotidiana de ama de casa durante su vida como Chana Davar.",
+    "apariencia_como_mendigo": null,
+    "voz": null
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "errática",
+      "apasionada",
+      "protectora con sus hijos",
+      "gravemente enferma mental",
+      "egoísta por reconocimiento propio"
+    ],
+    "evolucion": "Durante sus primeros años en Roshar tenía el carácter de una soldado. En tiempos recientes era una persona errática que discutía a gritos con su marido y alucin aba con que su hija Shallan había heredado su Juramento. A pesar de su enfermedad, se preocupaba de verdad por sus hijos.",
+    "notas": "Fue guardaespaldas de Jezrien durante los primeros años en Roshar. Era conocida por ser increíblemente rápida gracias a su poder sobre la Abrasión."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "velocidad sobrehumana vinculada a la Abrasión"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["División", "Abrasión"],
+      "fuente": "Hoja de Honor (abandonada en Aharietiam)",
+      "hoja_de_honor": false,
+      "notas": "Abandonó su espada en Aharietiam. Sin ella no tiene acceso a la potenciación."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "vida prolongada y envejecimiento desacelerado",
+      "estado": "desconocido"
+    },
+    "liderazgo": "Guardaespaldas de Jezrien. Luchadora capaz."
+  },
+
+  "historia": {
+    "resumen": "Nacida en Ashyn, fue guardaespaldas de Jezrien y parte de su círculo íntimo junto a Ishar. Tras la Expulsión a Roshar, participó en todas las Desolaciones. Abandonó el Juramento en Aharietiam. Posteriormente se casó con Lin Davar y tuvo cuatro hijos: Balat, Wikim, Jushu y Shallan. Fue asesinada por su propia hija Shallan al intentar matarla, siendo enviada a Braize. Se quebró alrededor del año 1174 iniciando la Verdadera Desolación. Más tarde acudió a la boda de Shallan en Urithiru sin presentarse. Se reconcilió con Shallan en el Reino Espiritual.",
+    "puntos_clave": [
+      "guardaespaldas de Jezrien en Ashyn y en los primeros años en Roshar",
+      "participó en todas las Desolaciones",
+      "abandonó el Juramento en Aharietiam",
+      "se casó con Lin Davar y tuvo cuatro hijos",
+      "asesinada por su hija Shallan al intentar matarla",
+      "se quebró en Braize alrededor de 1174 iniciando la Verdadera Desolación",
+      "acudió a la boda de Shallan en Urithiru sin presentarse",
+      "se reconcilió con Shallan en el Reino Espiritual"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras radiantes",    "rol": "secundaria (flashbacks)", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundaria",               "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "secundaria",               "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "jezrien",  "relacion": "compañero Heraldo, su guardaespaldas" },
+      { "personaje": "shallan",  "relacion": "hija, la mató y después la perdonó" },
+      { "personaje": "Lin Davar","relacion": "marido" }
+    ],
+    "heraldos": [
+      { "personaje": "Nale",  "relacion": "compañero Heraldo, la vigilaba a través de Dreder" },
+      { "personaje": "Ishar", "relacion": "compañero Heraldo, parte del círculo íntimo de Jezrien" }
+    ],
+    "otros": []
+  },
+
+  "descripcion_breve": "Heraldo patrona de los Portadores del Polvo. Vivió como Chana Davar, casada con Lin Davar y madre de Shallan. Fue asesinada por su propia hija y se quebró en Braize iniciando la Verdadera Desolación.",
+  "notas": "En vorinismo se la conoce como Chanaranach'Elin. Es la madre biológica de Shallan Davar."
+}

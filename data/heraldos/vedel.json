@@ -1,0 +1,90 @@
+{
+  "id": "vedel",
+  "nombre": "Vedel",
+  "nombre_completo": "Vedeledev",
+  "apodos": ["Vedeledev", "Vev"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "viva",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": ["Patrona de los Danzantes del Filo", "Heraldo de la Sanación", "Guardador de las Llaves"],
+    "orden_patron": "Danzantes del Filo",
+    "numero_herald": 6,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Parecería alezi o veden para los rosharianos modernos, aunque con piel más pálida. Pelo largo y oscuro, ligeramente rizado. Algunos la considerarían de los Picos Comecuernos.",
+    "vestimenta_habitual": null,
+    "apariencia_como_mendigo": null,
+    "voz": null
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "sanadora",
+      "compasiva",
+      "meticulosa",
+      "dedicada a la preservación de la vida"
+    ],
+    "evolucion": "Fue reina de una ciudad-estado en Ashyn. Tras perder a todo su pueblo se convirtió en experta curandera. Como Heraldo continuó enseñando medicina antes de cada Desolación.",
+    "notas": "Posee las llaves de la inmortalidad según la mitología roshariana. Fue ella quien otorgó la inmortalidad a los demás Heraldos mediante su Conexión con Honor."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "otorgó la inmortalidad a los demás Heraldos mediante su Conexión con Honor",
+      "vast conocimiento médico",
+      "espadachina capaz"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Abrasión", "Progresión"],
+      "fuente": "Hoja de Honor (abandonada en Aharietiam)",
+      "hoja_de_honor": false,
+      "notas": "Abandonó su espada en Aharietiam."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "vida prolongada y envejecimiento desacelerado",
+      "estado": "luchó por el imperio de Odium"
+    },
+    "liderazgo": "Reina de una ciudad-estado en Ashyn. Patrona de los Danzantes del Filo. Entrenó cirujanos antes de cada Desolación."
+  },
+
+  "historia": {
+    "resumen": "Reina de una ciudad-estado en Ashyn que luchó por el imperio de Odium. Al producirse la devastación de Ashyn toda su nación murió, aunque ella sobrevivió al pasar por una Puerta de lo Otro a Roshar. Tras perder a su pueblo se convirtió en experta curandera. Formó el Juramento con Honor y fue quien selló la inmortalidad de los Heraldos mediante su Conexión con Honor. Participó en todas las Desolaciones. Abandonó el Juramento en Aharietiam. Participó en el reforjamiento del Juramento.",
+    "puntos_clave": [
+      "reina de una ciudad-estado en Ashyn, luchó por el imperio de Odium",
+      "única superviviente de su nación tras la devastación de Ashyn",
+      "se convirtió en experta curandera tras la pérdida de su pueblo",
+      "fue quien otorgó la inmortalidad a los Heraldos mediante su Conexión con Honor",
+      "participó en todas las Desolaciones",
+      "entrenó cirujanos antes de cada Desolación",
+      "abandonó el Juramento en Aharietiam",
+      "participó en el reforjamiento del Juramento"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundaria", "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundaria", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [],
+    "heraldos": [
+      { "personaje": "Talenel", "relacion": "compañero Heraldo abandonado en Braize" },
+      { "personaje": "ishar",   "relacion": "compañero Heraldo, participó en el reforjamiento del Juramento con él" }
+    ],
+    "otros": []
+  },
+
+  "descripcion_breve": "Heraldo de la Sanación y patrona de los Danzantes del Filo. Fue quien otorgó la inmortalidad a los demás Heraldos. Experta curandera que entrenó cirujanos antes de cada Desolación.",
+  "notas": "En vorinismo se la llama Vedeledev. Vev es el número 4 en vorin. Las llaves doradas de su mitología derivan de un mito roshariano sobre las llaves de la inmortalidad."
+}

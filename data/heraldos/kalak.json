@@ -1,0 +1,96 @@
+{
+  "id": "kalak",
+  "nombre": "Kalak",
+  "nombre_completo": "Kelek'Elin",
+  "apodos": ["Kelek", "Kellai", "Restares", "Kelek'Elin"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "vivo",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": ["Patrón de los Escultores de Voluntad", "el Juez Supremo", "el sagrado señor"],
+    "orden_patron": "Escultores de Voluntad",
+    "numero_herald": 4,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Aunque no es de Alezkar, parece alezi. Hombre bajo con pelo ralo y escaso, cara redonda y nariz pequeña. El arte vorin lo representa como hombre joven, pero en persona se parece más a un alto cargo de un ayuntamiento alezi.",
+    "vestimenta_habitual": "Cuando desea parecer serio se pone una túnica violeta; normalmente viste ropa más informal.",
+    "apariencia_como_mendigo": null,
+    "voz": null
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "paranoico",
+      "errático",
+      "indeciso",
+      "pesimista",
+      "extremadamente culpable",
+      "sarcástico",
+      "temeroso de los humanos"
+    ],
+    "evolucion": "En las primeras Desolaciones era decidido y autoritario, buscado para recibir consejo. A medida que las Desolaciones lo agotaban desarrolló un terror a morir y regresar a Braize. Durante la Verdadera Desolación es paranoico y errático, le cuesta tomar incluso las decisiones más sencillas.",
+    "notas": "Su obsesión principal es abandonar el sistema roshariano e investigar otros mundos del Cosmere. Actuó como juez supremo en Integridad Duradera y dirigió a los Hijos de Honor como Restares."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "puede adquirir un cuerpo adulto completamente formado al renacer",
+      "erudito con amplio conocimiento sobre otros mundos del Cosmere"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Traslocación", "Cohesión"],
+      "fuente": "Hoja de Honor (abandonada en Aharietiam)",
+      "hoja_de_honor": false,
+      "notas": "Abandonó su hoja en Aharietiam."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "vida prolongada y envejecimiento desacelerado",
+      "estado": "desconocido"
+    },
+    "liderazgo": "Juez supremo en Integridad Duradera. Dirigió los Hijos de Honor bajo el nombre Restares."
+  },
+
+  "historia": {
+    "resumen": "Nacido en Ashyn, participó en todas las Desolaciones como Heraldo. Fue el último en ver a Jezrien antes de que este marchara tras Aharietiam, cuando Jezrien le comunicó la decisión del grupo. Abandonó el Juramento junto a los demás Heraldos. Vivió en Integridad Duradera como juez supremo y dirigió los Hijos de Honor como Restares. Durante la Verdadera Desolación su paranoia empeoró. Fue capturado por los Sangre Espectral y más tarde liberado. Participó en el reforjamiento del Juramento.",
+    "puntos_clave": [
+      "participó en todas las Desolaciones",
+      "fue el último en ver a Jezrien antes de que partiera tras Aharietiam",
+      "abandonó el Juramento en Aharietiam",
+      "vivió en Integridad Duradera como juez supremo de los honorspren",
+      "dirigió los Hijos de Honor bajo el nombre Restares",
+      "capturado por los Sangre Espectral durante la Verdadera Desolación",
+      "participó en el reforjamiento del Juramento"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario (prólogo)", "pov": true },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundario",           "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundario",           "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [],
+    "heraldos": [
+      { "personaje": "jezrien",   "relacion": "compañero Heraldo, recibió la noticia del abandono del Juramento de él" },
+      { "personaje": "Talenel",   "relacion": "compañero Heraldo abandonado en Braize" },
+      { "personaje": "ishar",     "relacion": "compañero Heraldo" },
+      { "personaje": "Nale",      "relacion": "compañero Heraldo" }
+    ],
+    "otros": [
+      { "personaje": "Gavilar",  "relacion": "aliado en su investigación para abandonar Roshar" }
+    ]
+  },
+
+  "descripcion_breve": "Heraldo patrón de los Escultores de Voluntad. Vivió como juez supremo en Integridad Duradera y dirigió los Hijos de Honor como Restares. Su obsesión es abandonar el sistema roshariano e investigar otros mundos.",
+  "notas": "En vorinismo se le conoce como Kelek'Elin. Protagoniza el prólogo de El camino de los reyes."
+}

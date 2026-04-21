@@ -1,0 +1,100 @@
+{
+  "id": "shalash",
+  "nombre": "Shalash",
+  "nombre_completo": "Shush-hija-Dios",
+  "apodos": ["Ash", "Epan", "Pom"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "viva",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": ["Heraldo de la Belleza", "Dama de los Sueños", "Patrona de los Tejedores de Luz"],
+    "orden_patron": "Tejedores de Luz",
+    "numero_herald": 3,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Piel oscura y pelo largo y negro. Ojos de un leve color violeta, tan suave que es casi blanco, sin pliegue epicántico. Alta y esbelta, excepcionalmente hermosa. Los rosharianos la consideran makabaki con herencia shin.",
+    "vestimenta_habitual": "Ropa práctica. Lleva una espada de hoja fina, no es una hoja esquirlada.",
+    "apariencia_como_mendigo": null,
+    "voz": null
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "reservada",
+      "arrepentida por abandonar el Juramento",
+      "compulsiva al destruir representaciones de sí misma",
+      "odia que la veneren",
+      "discreta e infiltradora hábil",
+      "ya no le importa el futuro de Roshar"
+    ],
+    "evolucion": "Era poco más que una niña cuando los humanos abandonaron Ashyn. No le gustó que Jezrien la tratara como niña durante mucho tiempo. Su obsesión por destruir representaciones de sí misma parece ser una perversión de su atributo divino, la Creatividad. Pierde décadas o siglos de recuerdos. Está muy arrepentida por haber abandonado a Taln.",
+    "notas": "Tenía inclinaciones artísticas antes de convertirse en Heraldo. Su oído es excepcionalmente bueno. Hábil en espionaje e infiltración."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "no necesita dormir o al menos no pierde el conocimiento con facilidad",
+      "oído excepcionalmente bueno",
+      "hábil en espionaje e infiltración"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Iluminación", "Transformación"],
+      "fuente": "Hoja de Honor (abandonada en Aharietiam, no recuperada)",
+      "hoja_de_honor": false,
+      "notas": "Dejó su espada en Aharietiam y no la ha recuperado desde entonces."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "vida prolongada y envejecimiento desacelerado en grado extraordinario",
+      "estado": "desconocido"
+    },
+    "liderazgo": "Patrona de los Tejedores de Luz."
+  },
+
+  "historia": {
+    "resumen": "Hija de Jezrien, era casi una niña cuando los humanos abandonaron Ashyn. Participó en todas las Desolaciones. Antes de la Verdadera Desolación viajaba por el continente destruyendo cualquier representación de sí misma. Abandonó el Juramento en Aharietiam. Actualmente vive con los Caballeros Radiantes en Urithiru. Participó en la batalla de Azimir y en el reforjamiento del Juramento.",
+    "puntos_clave": [
+      "hija de Jezrien, era casi una niña durante la Expulsión de Ashyn",
+      "participó en todas las Desolaciones",
+      "abandonó el Juramento en Aharietiam dejando a Taln",
+      "recorrió el continente destruyendo representaciones de sí misma",
+      "conocida brevemente por Hoid",
+      "participó en la batalla de Azimir",
+      "vive actualmente en Urithiru con los Caballeros Radiantes",
+      "participó en el reforjamiento del Juramento"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundaria (prólogo y otros)", "pov": true  },
+      { "titulo": "Palabras radiantes",     "rol": "secundaria",                   "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundaria",                   "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundaria",                   "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundaria principal",          "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "jezrien", "relacion": "padre, relación tensa" }
+    ],
+    "heraldos": [
+      { "personaje": "Talenel", "relacion": "compañero Heraldo, profundo arrepentimiento por haberlo abandonado" },
+      { "personaje": "ishar",   "relacion": "compañero Heraldo, lo considera confiado y audaz" },
+      { "personaje": "Nale",    "relacion": "compañero Heraldo" }
+    ],
+    "otros": [
+      { "personaje": "Hoid", "relacion": "conocidos" }
+    ]
+  },
+
+  "descripcion_breve": "Heraldo de la Belleza e hija de Jezrien. Patrona de los Tejedores de Luz. Compulsivamente destruye cualquier representación de sí misma. Está profundamente arrepentida por haber abandonado a Talenel en Braize.",
+  "notas": "Era casi una niña cuando ocurrió la Expulsión de Ashyn. Protagoniza los interludios de El camino de los reyes."
+}

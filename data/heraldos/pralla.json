@@ -1,0 +1,87 @@
+{
+  "id": "pralla",
+  "nombre": "Pralla",
+  "nombre_completo": "Pailiah",
+  "apodos": ["Pailiah", "Pali", "Pala"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "viva",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": ["Patrona de los Vigilantes de la Verdad"],
+    "orden_patron": "Vigilantes de la Verdad",
+    "numero_herald": 5,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Piel bronceada, parecida a una mujer veden. A veces viste ropas de tela verde.",
+    "vestimenta_habitual": "Ropas de tela verde ocasionalmente.",
+    "apariencia_como_mendigo": null,
+    "voz": null
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "buena persona",
+      "amante de los secretos",
+      "obsesionada con archivar",
+      "coleccionista compulsiva de recuerdos"
+    ],
+    "evolucion": "Se dice que es una buena persona con un defecto: su amor por los secretos. Su pasión por archivar se convirtió en obsesión tras Aharietiam.",
+    "notas": "Jezrien afirma que es capaz de ver la verdad tal y como es. Era erudita antes de convertirse en Heraldo. Creó la sociedad secreta los Ojos de Pala."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "percepción de la verdad",
+      "erudita con vastos conocimientos"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Progresión", "Iluminación"],
+      "fuente": "Hoja de Honor (abandonada en Aharietiam)",
+      "hoja_de_honor": false,
+      "notas": "Abandonó su espada en Aharietiam, perdiendo el acceso a la luz tormentosa y la potenciación."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "vida prolongada y envejecimiento desacelerado",
+      "estado": "desconocido"
+    },
+    "liderazgo": "Trabajó con sus Vigilantes de la Verdad en la conservación del conocimiento humano entre Desolaciones. Creó los Ojos de Pala para ayudar en su archivo."
+  },
+
+  "historia": {
+    "resumen": "Nacida en Ashyn, fue erudita antes de convertirse en Heraldo. Trabajó con los Vigilantes de la Verdad en la conservación del conocimiento. Abandonó el Juramento en Aharietiam. Tras ello creó una gran cámara bajo Rall Elorim para archivar a todas las personas, lugares y cosas que ha conocido durante su vida inmortal, y fundó la sociedad secreta los Ojos de Pala.",
+    "puntos_clave": [
+      "erudita antes de convertirse en Heraldo",
+      "trabajó con los Vigilantes de la Verdad en conservación del conocimiento",
+      "abandonó el Juramento en Aharietiam",
+      "creó una gran cámara de archivo bajo Rall Elorim",
+      "fundó los Ojos de Pala para ayudar en su archivado",
+      "roba objetos a personas que conoce como recuerdos de sus vidas"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras radiantes",    "rol": "secundaria (posible aparición)", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundaria",                     "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "secundaria",                     "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [],
+    "heraldos": [
+      { "personaje": "Talenel", "relacion": "compañero Heraldo abandonado en Braize" }
+    ],
+    "otros": []
+  },
+
+  "descripcion_breve": "Heraldo patrona de los Vigilantes de la Verdad. Erudita obsesionada con archivar todo lo que conoce. Creó una cámara secreta bajo Rall Elorim y fundó la sociedad de los Ojos de Pala.",
+  "notas": "En vorinismo se la conoce como Pailiah. La gran biblioteca de Kharbranth, Palaneo, lleva su nombre. En cultura iriali se la llama Pala."
+}

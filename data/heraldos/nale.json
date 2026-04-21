@@ -1,0 +1,103 @@
+{
+  "id": "nale",
+  "nombre": "Nale",
+  "nombre_completo": "Nalan'Elin",
+  "apodos": ["Nalan", "Nin", "Nin-hijo-Dios", "Oscuridad", "Nakku"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "vivo",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "Heraldo del Todopoderoso",
+    "otros_titulos": ["Heraldo de la Justicia", "Patrón de los Rompedores del Cielo", "el Iluminador", "el Juez"],
+    "orden_patron": "Rompedores del Cielo",
+    "numero_herald": 2,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Piel oscura, con apariencia makabaki o azishiana. Lo más destacable es una marca blanca en su mejilla derecha como una media luna creciente, única entre los Heraldos. Ojos brillantes, fríos y sin emoción. Voz grave, sin emociones. El arte roshariano lo representa calvo.",
+    "vestimenta_habitual": "Uniforme de la guardia azishiana: abrigo negro con doble fila de botones de plata, cuello plateado rígido y guantes largos con puños.",
+    "apariencia_como_mendigo": null,
+    "voz": "Grave, sin emociones percibidas."
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "obsesionado con la ley",
+      "directo",
+      "antisocial",
+      "inflexible",
+      "firme en sus decisiones",
+      "concede gran importancia a los juramentos y deudas"
+    ],
+    "evolucion": "De joven era un líder capaz de sentir emoción y compasión, consciente de que la ley debe proteger a los débiles. Con el tiempo su empatía se desgastó por la tortura en Braize. Perdió la confianza en su propia mente y se aferró a una imagen idealizada de la ley como algo sagrado, redefiniéndola cuando le resulta inconveniente.",
+    "notas": "Es también un Rompedor del Cielo además de su patrón. Vinculado al spren número 121. Idolatra a Ishar hasta el autoengaño."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "sombra cognitiva inmortal",
+      "reflejos, fuerza y velocidad sobrehumanos",
+      "Rompedor del Cielo: acceso a las potencias incluso sin hoja de Honor",
+      "amplio conocimiento de la ley de todos los países de Roshar"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Gravitación", "División"],
+      "fuente": "Vínculo con spren número 121 y hoja de Honor",
+      "hoja_de_honor": true,
+      "notas": "Es un Rompedor del Cielo activo con vínculo Nahel además de Heraldo."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "vida prolongada y envejecimiento desacelerado",
+      "estado": "desconocido"
+    },
+    "liderazgo": "Cazador de Caballeros Radiantes durante la Era de la Soledad. Líder de facto de los Rompedores del Cielo."
+  },
+
+  "historia": {
+    "resumen": "Nacido en Ashyn, pasó siglos en el bando opuesto a Jezrien antes de unirse al Juramento. Durante la Era de la Soledad cazó Caballeros Radiantes para evitar el regreso de las Desolaciones. Tuvo encuentros con Lift y siguió a Szeth. Eventualmente reconoció que estaba equivocado y cambió de postura apoyando a los Radiantes. Participó en el reforjamiento del Juramento.",
+    "puntos_clave": [
+      "pasó siglos en el bando opuesto a Jezrien en Ashyn",
+      "participó en todas las Desolaciones como Heraldo",
+      "abandonó el Juramento en Aharietiam",
+      "cazó Caballeros Radiantes durante la Era de la Soledad",
+      "tuvo múltiples encuentros con Lift",
+      "siguió y utilizó a Szeth como herramienta",
+      "reconoció su error y apoyó a los Radiantes",
+      "participó en el reforjamiento del Juramento"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario",          "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "secundario",          "pov": true  },
+      { "titulo": "Juramentada",            "rol": "secundario",          "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundario",          "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundario principal", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "Makibak", "relacion": "tío" }
+    ],
+    "heraldos": [
+      { "personaje": "jezrien",   "relacion": "compañero Heraldo, antes enemigo en Ashyn, profundo respeto" },
+      { "personaje": "ishar",     "relacion": "compañero Heraldo, lo idolatra" },
+      { "personaje": "Talenel",   "relacion": "compañero Heraldo" },
+      { "personaje": "chanarach", "relacion": "compañera Heraldo, la vigilaba a través de Dreder" }
+    ],
+    "otros": [
+      { "personaje": "Szeth",   "relacion": "lo utilizó como herramienta" },
+      { "personaje": "Lift",    "relacion": "múltiples encuentros, intentó matarla" },
+      { "personaje": "kaladin", "relacion": "Corredor del Viento que ocupa su posición" }
+    ]
+  },
+
+  "descripcion_breve": "Heraldo de la Justicia y patrón de los Rompedores del Cielo. También es un Rompedor del Cielo activo. Cazó Caballeros Radiantes durante la Era de la Soledad, obsesionado con la ley hasta el punto de perder su empatía.",
+  "notas": "La marca blanca en su mejilla derecha en forma de media luna creciente es única entre los Heraldos. Tiene vinculado al spren número 121."
+}
