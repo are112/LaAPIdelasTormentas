@@ -1,0 +1,76 @@
+{
+  "id": "",
+  "nombre": "",
+  "apodos": [],
+  "tipo_spren": "",
+  "es_splinter_de": "",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+
+  "origen": {
+    "creador": "",
+    "lugar_creacion": "",
+    "generacion": "",
+    "notas": ""
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "",
+      "formas_alternativas": [],
+      "color": "",
+      "visibilidad": "",
+      "notas_emocionales": ""
+    },
+    "reino_cognitivo": {
+      "forma": "",
+      "limitaciones": ""
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "",
+      "otras_formas": [],
+      "material": ""
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [],
+    "valores": [],
+    "notas": ""
+  },
+
+  "habilidades": {
+    "generales": [],
+    "magicas": []
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "",
+    "orden_radiante": "",
+    "potencias_otorgadas": [],
+    "forma_shardblade": "",
+    "estado_vinculo": "",
+    "radiante_anterior": null,
+    "notas": ""
+  },
+
+  "historia": {
+    "resumen": "",
+    "puntos_clave": []
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "", "rol": "", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": []
+  },
+
+  "descripcion_breve": "",
+  "notas": ""
+}
