@@ -1153,7 +1153,7 @@ router.get("/", (req, res) => {
       const ordenVinculada = vinculo?.orden_radiante ?? null;
 
       const badges = [
-        s.tipo_spren ? `<span class="badge badge-orden">${s.tipo_spren}</span>` : '',
+        s.tipo_spren ? \`<span class="badge badge-orden">\${s.tipo_spren}</span>\` : '',
         s.es_splinter_de ? \`<span class="badge badge-especie">Astilla de \${s.es_splinter_de}</span>\` : '',
         ['activo','activa'].includes(s.estado_actual) ? '<span class="badge badge-vivo">Activo</span>' : '<span class="badge badge-muerto">Inactivo</span>',
       ].filter(Boolean).join('');
