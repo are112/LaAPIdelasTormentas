@@ -259,6 +259,17 @@ router.get("/", (req, res) => {
     #lista-personajes::-webkit-scrollbar { width: 4px; }
     #lista-personajes::-webkit-scrollbar-track { background: transparent; }
     #lista-personajes::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
+    #lista-spren {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      max-height: calc(100vh - 380px);
+      overflow-y: auto;
+      padding-right: 0.25rem;
+    }
+    #lista-spren::-webkit-scrollbar { width: 4px; }
+    #lista-spren::-webkit-scrollbar-track { background: transparent; }
+    #lista-spren::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
 
     .item-personaje {
       display: flex;
@@ -652,7 +663,7 @@ router.get("/", (req, res) => {
         <span id="label-lista">Personajes</span> <span id="contador">0</span>
       </div>
       <div id="lista-personajes"></div>
-      <div id="lista-spren" style="display:none"></div>
+      <div id="lista-spren" style="display:none;flex-direction:column"></div>
     </aside>
 
     <!-- Panel derecho -->
@@ -1074,17 +1085,15 @@ router.get("/", (req, res) => {
         return;
       }
       wrap.innerHTML = filtrada.map(s => {
-        const apodoHtml = s.apodo ? \` <em style="opacity:0.6;font-size:0.85rem">"\` + s.apodo + \`"</em>\` : '';
         const activo = seleccionado === 'spren_' + s.id ? 'activo' : '';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verSpren('\${s.id}')" data-id="spren_\${s.id}">
             <div class="item-avatar">\${emojiSpren(s.tipo_spren)}</div>
             <div class="item-info">
-              <div class="item-nombre">\${s.nombre}\${apodoHtml}</div>
+              <div class="item-nombre">\${s.nombre}</div>
               <div class="item-orden">\${s.tipo_spren || 'Spren'}</div>
             </div>
-            <div class="item-estado" style="background:var(--celeste-luz);box-shadow:0 0 6px var(--celeste-luz)"></div>
           </div>
         \`;
       }).join('');
