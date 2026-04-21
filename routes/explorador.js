@@ -113,14 +113,27 @@ router.get("/", (req, res) => {
       letter-spacing: 0.1em;
     }
 
+    /* Buscador global */
+    .buscador-global {
+      position: relative;
+      z-index: 10;
+      padding: 1rem 1.5rem 0;
+      background: rgba(13,31,60,0.5);
+      border-bottom: 1px solid rgba(79,195,247,0.1);
+    }
+    .buscador-global .buscador-wrap { margin-bottom: 1rem; }
+
     /* Layout principal */
     .contenedor {
       position: relative;
       z-index: 10;
       display: grid;
       grid-template-columns: 320px 1fr;
-      gap: 0;
+      grid-template-rows: auto 1fr;
       min-height: calc(100vh - 160px);
+    }
+    .buscador-global {
+      grid-column: 1 / -1;
     }
 
     /* Tabs */
@@ -641,18 +654,21 @@ router.get("/", (req, res) => {
   </header>
 
   <div class="contenedor">
+    <!-- Buscador global -->
+    <div class="buscador-global">
+      <div class="buscador-wrap">
+        <input type="text" id="buscador" placeholder="Buscar en toda la API..." autocomplete="off" />
+      </div>
+    </div>
+
     <!-- Panel izquierdo -->
     <aside class="panel-izq">
 
       <!-- Tabs -->
       <div class="tabs">
-        <button class="tab activo" id="tab-personajes" onclick="cambiarTab('personajes')">⚔ Personajes</button>
-        <button class="tab" id="tab-spren" onclick="cambiarTab('spren')">✨ Spren</button>
-        <button class="tab" id="tab-heraldos" onclick="cambiarTab('heraldos')">👑 Heraldos</button>
-      </div>
-
-      <div class="buscador-wrap">
-        <input type="text" id="buscador" placeholder="Buscar..." autocomplete="off" />
+        <button class="tab activo" id="tab-personajes" onclick="cambiarTab('personajes')">Personajes</button>
+        <button class="tab" id="tab-spren" onclick="cambiarTab('spren')">Spren</button>
+        <button class="tab" id="tab-heraldos" onclick="cambiarTab('heraldos')">Heraldos</button>
       </div>
 
       <!-- Filtro personajes -->
@@ -765,7 +781,7 @@ router.get("/", (req, res) => {
 
     function renderLista(lista) {
       filtrados = lista;
-      document.getElementById('contador').textContent = lista.length;
+      if (tabActual === 'personajes') document.getElementById('contador').textContent = lista.length;
       const wrap = document.getElementById('lista-personajes');
       if (!lista.length) {
         wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
@@ -785,9 +801,9 @@ router.get("/", (req, res) => {
 
     // ── Filtros ────────────────────────────────────────────
     document.getElementById('buscador').addEventListener('input', () => {
-      if (tabActual === 'personajes') aplicarFiltros();
-      else if (tabActual === 'spren') renderListaSpren(todosSpren);
-      else renderListaHeraldos(todosHeraldos);
+      renderLista(todos);
+      renderListaSpren(todosSpren);
+      renderListaHeraldos(todosHeraldos);
     });
     document.getElementById('filtro-orden').addEventListener('change', aplicarFiltros);
 
@@ -1053,10 +1069,7 @@ router.get("/", (req, res) => {
       document.getElementById('filtro-spren-wrap').style.display = tab === 'spren' ? '' : 'none';
       document.getElementById('label-lista').textContent =
         tab === 'personajes' ? 'Personajes' : tab === 'spren' ? 'Spren' : 'Heraldos';
-      document.getElementById('buscador').value = '';
-      document.getElementById('buscador').placeholder =
-        tab === 'personajes' ? 'Buscar personaje...' : tab === 'spren' ? 'Buscar spren...' : 'Buscar heraldo...';
-      if (tab === 'personajes') renderLista(todos);
+      if (tab === 'personajes') aplicarFiltros();
       else if (tab === 'spren') renderListaSpren(todosSpren);
       else renderListaHeraldos(todosHeraldos);
     }
@@ -1080,7 +1093,7 @@ router.get("/", (req, res) => {
         !texto || h.nombre.toLowerCase().includes(texto) ||
         (h.titulo && h.titulo.toLowerCase().includes(texto))
       );
-      document.getElementById('contador').textContent = filtrada.length;
+      if (tabActual === 'heraldos') document.getElementById('contador').textContent = filtrada.length;
       const wrap = document.getElementById('lista-heraldos');
       if (!filtrada.length) {
         wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
@@ -1089,8 +1102,6 @@ router.get("/", (req, res) => {
       wrap.innerHTML = filtrada.map(h => {
         const activo = seleccionado === 'heraldo_' + h.id ? 'activo' : '';
         const avatarHtml = h.orden_patron ? logoOrden(h.orden_patron) : '👑';
-        const estadoColor = h.estado_actual === 'muerto'
-          ? 'var(--rojo-sangre)' : 'var(--verde-esmeralda)';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verHeraldo('\${h.id}')" data-id="heraldo_\${h.id}">
@@ -1099,7 +1110,6 @@ router.get("/", (req, res) => {
               <div class="item-nombre">\${h.nombre}</div>
               <div class="item-orden">\${h.titulo || 'Heraldo'}</div>
             </div>
-            <div class="item-estado" style="background:\${estadoColor};box-shadow:0 0 6px \${estadoColor}"></div>
           </div>
         \`;
       }).join('');
@@ -1162,18 +1172,21 @@ router.get("/", (req, res) => {
 
       const relacionesHtml = [
         ...(h.relaciones?.familia ?? []).map(r => \`
-          <div class="relacion-item">
-            <span class="relacion-nombre">👪 \${r.personaje}</span>
-            <span class="relacion-tipo">\${r.relacion}</span>
+          <div class="relacion-grupo">
+            <div class="relacion-grupo-titulo">👪 familia</div>
+            <div class="relacion-item">
+              <span class="relacion-nombre">\${r.personaje}</span>
+              <span class="relacion-tipo">\${r.relacion}</span>
+            </div>
           </div>\`),
         ...(h.relaciones?.heraldos ?? []).map(r => \`
           <div class="relacion-item">
-            <span class="relacion-nombre">👑 \${r.personaje}</span>
+            <span class="relacion-nombre">\${r.personaje}</span>
             <span class="relacion-tipo">\${r.relacion}</span>
           </div>\`),
         ...(h.relaciones?.otros ?? []).map(r => \`
           <div class="relacion-item">
-            <span class="relacion-nombre">• \${r.personaje}</span>
+            <span class="relacion-nombre">\${r.personaje}</span>
             <span class="relacion-tipo">\${r.relacion}</span>
           </div>\`),
       ].join('') || '<p class="sin-datos">Sin relaciones registradas</p>';
@@ -1324,7 +1337,7 @@ router.get("/", (req, res) => {
         return matchTexto && matchTipo;
       });
 
-      document.getElementById('contador').textContent = filtrada.length;
+      if (tabActual === 'spren') document.getElementById('contador').textContent = filtrada.length;
       const wrap = document.getElementById('lista-spren');
       if (!filtrada.length) {
         wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
