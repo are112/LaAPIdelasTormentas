@@ -16,28 +16,44 @@
     "estado_actual": "activo"
   },
   {
-    "id": "auxiliar",
-    "nombre": "Auxiliar",
-    "apodo": "Aux",
-    "tipo_spren": "Altospren",
-    "radiante_vinculado": "sigzil",
+    "id": "wyndle",
+    "nombre": "Wyndle",
+    "apodo": null,
+    "tipo_spren": "cultivacispren",
+    "radiante_vinculado": "lift",
     "estado_actual": "activo"
   },
   {
-    "id": "chispa",
-    "nombre": "Chispa",
+    "id": "glys",
+    "nombre": "Glys",
     "apodo": null,
-    "tipo_spren": "cenizaspren",
-    "radiante_vinculado": null,
+    "tipo_spren": "brumaspren",
+    "radiante_vinculado": "renarin",
     "estado_actual": "activo"
   },
   {
     "id": "marfil",
     "nombre": "Marfil",
-    "apodo": "Ivory",
-    "tipo_spren": "tintasren",
+    "apodo": null,
+    "tipo_spren": "tintaspren",
     "radiante_vinculado": "jasnah",
     "estado_actual": "activo"
+  },
+  {
+    "id": "timbre",
+    "nombre": "Timbre",
+    "apodo": null,
+    "tipo_spren": "alcanzador",
+    "radiante_vinculado": "venli",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "mayalaran",
+    "nombre": "Mayalaran",
+    "apodo": "Maya",
+    "tipo_spren": "cultivacispren",
+    "radiante_vinculado": "adolin",
+    "estado_actual": "activa"
   },
   {
     "id": "testimonio",
@@ -45,14 +61,30 @@
     "apodo": null,
     "tipo_spren": "críptico",
     "radiante_vinculado": "shallan",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "chispa",
+    "nombre": "Chispa",
+    "apodo": null,
+    "tipo_spren": "cenizaspren",
+    "radiante_vinculado": "malata",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "auxiliar",
+    "nombre": "Auxiliar",
+    "apodo": "Aux",
+    "tipo_spren": "altospren",
+    "radiante_vinculado": "nomada",
     "estado_actual": "muerto"
   },
   {
-    "id": "wyndle",
-    "nombre": "Wyndle",
+    "id": "mayal",
+    "nombre": "Mayal",
     "apodo": null,
-    "tipo_spren": "cultivacispren",
-    "radiante_vinculado": "lift",
+    "tipo_spren": "altospren",
+    "radiante_vinculado": "ki",
     "estado_actual": "activo"
   }
 ]
