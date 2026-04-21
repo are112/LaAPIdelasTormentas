@@ -1,0 +1,107 @@
+{
+  "id": "mayalaran",
+  "nombre": "Mayalaran",
+  "apodos": ["Maya"],
+  "tipo_spren": "cultivacispren",
+  "es_splinter_de": "Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Estuvo vinculada a un Danzante del Filo antes de la Traición. Se convirtió en ojomuerta cuando su radiante abandonó sus juramentos. Fue recuperada por Adolin Kholin."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "hoja esquirlada: espada larga similar a un mandoble, superficie lisa y sinuosa como una anguila con promontorios como cristales crecientes. La bruma que desprende tiene forma de enredaderas.",
+      "formas_alternativas": [],
+      "color": "plateado",
+      "visibilidad": "solo como hoja esquirlada en el Reino Físico",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": {
+      "forma": "mujer con arañazos alrededor de los ojos como cicatrices descoloridas. Rasgos hechos de cordeles tensos cenicientos, manos de cristal y uñas largas. Antes de la liberación de Ba-Ado-Mishram no tenía ojos.",
+      "limitaciones": "apariencia de ojomuerta hasta su recuperación parcial"
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "espada larga similar a un mandoble, sinuosa como una anguila",
+      "otras_formas": [],
+      "material": "metal plateado liso con promontorios como cristales crecientes"
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "soldado experimentada",
+      "estratega",
+      "chapada a la antigua",
+      "disfruta con las bromas groseras",
+      "usa jerga táctica como indirectas"
+    ],
+    "valores": [
+      "pensamiento táctico y estratégico la ayuda a concentrarse",
+      "se considera una soldado"
+    ],
+    "notas": "A diferencia de spren como Syl o Patrón, ha vivido rodeada de soldados toda su vida, por lo que disfruta con las bromas groseras. Su personalidad comenzó a resurgir lentamente tras el juicio en Integridad Duradera y volvió con fuerza al visitar la renacida Urithiru."
+  },
+
+  "habilidades": {
+    "generales": [
+      "comprensión táctica y estratégica superior",
+      "puede comunicarse con Adolin aunque de forma limitada"
+    ],
+    "magicas": [
+      "Astilla de Cultivación",
+      "vínculo parcial con Adolin que le otorga alguna resistencia"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "adolin",
+    "orden_radiante": "Danzantes del Filo",
+    "potencias_otorgadas": [],
+    "forma_shardblade": "espada larga sinuosa como una anguila",
+    "estado_vinculo": "parcialmente recuperado",
+    "radiante_anterior": "Danzante del Filo desconocido (pre-Traición)",
+    "notas": "Su vínculo con Adolin es único: él no es un Radiante pero la trata con respeto y cuidado. Gracias a esto, Maya comenzó a recuperar lentamente su consciencia desde el estado de ojomuerta. Habló en el juicio de Integridad Duradera con las palabras '¡NOSOTROS! ¡ESCOGIMOS!', demostrando que los spren eligieron voluntariamente vincularse durante la Traición."
+  },
+
+  "historia": {
+    "resumen": "Cultivacispren vinculada a un Danzante del Filo antes de la Traición. Se convirtió en ojomuerta cuando su radiante abandonó sus juramentos. Pasó milenios como hoja esquirlada hasta llegar a manos de Adolin Kholin. El trato respetuoso de Adolin comenzó a despertar lentamente su consciencia. Habló en el juicio de Adolin en Integridad Duradera con las palabras '¡NOSOTROS! ¡ESCOGIMOS!'. Continuó recuperándose y participó en la batalla de Azimir.",
+    "puntos_clave": [
+      "vinculada a un Danzante del Filo antes de la Traición",
+      "se convirtió en ojomuerta cuando su radiante abandonó sus juramentos",
+      "pasó a manos de Adolin Kholin quien la llamó Maya",
+      "el trato respetuoso de Adolin comenzó a despertar su consciencia",
+      "habló en el juicio de Integridad Duradera con '¡NOSOTROS! ¡ESCOGIMOS!'",
+      "su testimonio fue crucial para el juicio de Adolin",
+      "participó en la batalla de Azimir",
+      "su recuperación continuó tras la liberación de Ba-Ado-Mishram"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "objeto (hoja esquirlada)", "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "objeto (hoja esquirlada)", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundaria",               "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundaria",               "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundaria",               "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "adolin", "relacion": "vínculo parcial en recuperación" },
+    "creador": null,
+    "otros": [
+      { "personaje": "shallan", "relacion": "viajaron juntos a Shadesmar" },
+      { "personaje": "Patrón",  "relacion": "compañeros en el viaje a Shadesmar" }
+    ]
+  },
+
+  "descripcion_breve": "Cultivacispren ojomuerta vinculada a Adolin Kholin como hoja esquirlada. Su consciencia comenzó a despertar gracias al trato respetuoso de Adolin. Sus palabras '¡NOSOTROS! ¡ESCOGIMOS!' en el juicio de Integridad Duradera demostraron que los spren eligieron vincularse voluntariamente.",
+  "notas": "Es una Astilla de Cultivación. La bruma de su hoja tiene forma de enredaderas. Su recuperación es un fenómeno único en la historia de los spren ojomuertos."
+}

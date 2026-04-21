@@ -1,92 +1,101 @@
 {
   "id": "marfil",
   "nombre": "Marfil",
-  "apodos": [
-    "Ivory"
-  ],
-  "tipo_spren": "inkspren",
-  "es_splinter_de": "Honor",
+  "apodos": [],
+  "tipo_spren": "tintaspren",
+  "es_splinter_de": null,
   "mundo_natal": "Roshar",
   "estado_actual": "activo",
+
   "origen": {
-    "creador": "Honor",
-    "lugar_creacion": "Shadesmar",
-    "generacion": "",
-    "notas": ""
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Marfil y su generación eran el equivalente a niños spren en la época de la Traición. Adoptó el nombre de Marfil como símbolo de rebeldía contra los demás tintaspren, vinculándose a Jasnah en contra de sus deseos."
   },
+
   "apariencia": {
     "reino_fisico": {
-      "forma_preferida": "Humanoide oscuro",
-      "formas_alternativas": [],
-      "color": "Negro",
-      "visibilidad": "Limitada",
-      "notas_emocionales": ""
+      "forma_preferida": "hombre bien vestido con traje rígido y formal con abrigo largo, rasgos extremadamente afilados y angulosos, ojos sin pupilas",
+      "formas_alternativas": ["mota de polvo (tamaño mínimo)", "tamaño humano adulto (tamaño máximo)"],
+      "color": "negro tinta con brillo prismático, como mármol cubierto de aceite",
+      "visibilidad": "puede cambiar de tamaño pero no de forma; suele viajar en el cuello del vestido de Jasnah en forma pequeña",
+      "notas_emocionales": "porte noble, postura rígida y dominante, voz cortante"
     },
     "reino_cognitivo": {
-      "forma": "Humanoide",
-      "limitaciones": ""
+      "forma": "lleva consigo una espada",
+      "limitaciones": null
     },
     "como_hoja_esquirlada": {
-      "forma_habitual": "Espada",
+      "forma_habitual": "espada larga y delgada",
       "otras_formas": [],
-      "material": "Metal"
+      "material": "desconocido"
     }
   },
+
   "personalidad": {
     "rasgos": [
-      "Lógico",
-      "Reservado"
+      "devoto a Jasnah",
+      "directo",
+      "rebelde",
+      "ansioso si Jasnah habla de él a otros",
+      "no le gusta aparecer delante de los demás"
     ],
     "valores": [
-      "Verdad"
+      "admira la naturaleza lógica de Jasnah",
+      "espía a personas por ella"
     ],
-    "notas": ""
+    "notas": "Tiene a Jasnah en muy alta estima. Es familiar con otros tipos de spren Radiante aunque su conocimiento está influenciado por estereotipos. Adoptó el nombre Marfil como símbolo de rebeldía."
   },
+
   "habilidades": {
     "generales": [
-      "Cambio de forma"
+      "cambiar drásticamente de tamaño (desde mota de polvo hasta humano adulto)",
+      "moverse sin ser visto gracias a su pequeño tamaño",
+      "espiar a personas"
     ],
     "magicas": [
-      "Transformación",
-      "Transporte"
+      "Vínculo Nahel que otorga Transformación y Transportación a Jasnah"
     ]
   },
+
   "vinculo_nahel": {
-    "radiante_actual": "Jasnah Kholin",
-    "orden_radiante": "Elsecaller",
-    "potencias_otorgadas": [
-      "Transformación",
-      "Transporte"
-    ],
-    "forma_shardblade": "Espada",
-    "estado_vinculo": "avanzado",
+    "radiante_actual": "jasnah",
+    "orden_radiante": "Nominadores de Lo Otro",
+    "potencias_otorgadas": ["Transformación", "Transportación"],
+    "forma_shardblade": "espada larga y delgada",
+    "estado_vinculo": "estable",
     "radiante_anterior": null,
-    "notas": ""
+    "notas": "Se vinculó a Jasnah en contra de los deseos de los demás tintaspren. Le otorga Transformación (moldear almas) y Transportación (viajar hacia y desde el Reino Cognitivo)."
   },
+
   "historia": {
-    "resumen": "Spren de Jasnah.",
-    "puntos_clave": []
+    "resumen": "Tintaspren que se vinculó a Jasnah Kholin en contra de los deseos de su especie, adoptando el nombre Marfil como símbolo de rebeldía. Era un niño spren durante la Traición. Viajó con Jasnah en el Placer del Viento, sobrevivió al naufragio, y ha acompañado a Jasnah a lo largo de sus aventuras incluyendo la Batalla de la Explanada Thayleña.",
+    "puntos_clave": [
+      "era niño spren durante la Traición",
+      "se vinculó a Jasnah en contra de los deseos de los tintaspren",
+      "adoptó el nombre Marfil como símbolo de rebeldía",
+      "viajó con Jasnah en el Placer del Viento",
+      "sobrevivió al naufragio y naufragio del barco",
+      "participó en la Batalla de la Explanada Thayleña"
+    ]
   },
+
   "apariciones": {
     "libros": [
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      }
+      { "titulo": "Palabras radiantes",    "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",           "rol": "secundario", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "secundario", "pov": false }
     ]
   },
+
   "relaciones": {
-    "radiante_vinculado": {
-      "personaje": "Jasnah Kholin",
-      "relacion": "vínculo Nahel"
-    },
-    "creador": {
-      "entidad": "Honor",
-      "relacion": "creador"
-    },
+    "radiante_vinculado": { "personaje": "jasnah", "relacion": "vínculo Nahel" },
+    "creador": null,
     "otros": []
   },
-  "descripcion_breve": "Inkspren lógico.",
-  "notas": ""
+
+  "descripcion_breve": "Tintaspren vinculado a Jasnah Kholin. Se vinculó en contra de los deseos de su especie y adoptó el nombre Marfil como símbolo de rebeldía. Extremadamente devoto a Jasnah.",
+  "notas": "Su color negro tinta con brillo prismático como mármol cubierto de aceite es característico de los tintaspren. Suele viajar en el cuello del vestido de Jasnah en forma diminuta."
 }

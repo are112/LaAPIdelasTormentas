@@ -2,85 +2,99 @@
   "id": "testimonio",
   "nombre": "Testimonio",
   "apodos": [],
-  "tipo_spren": "cryptic",
-  "es_splinter_de": "Honor y Cultivación",
+  "tipo_spren": "críptico",
+  "es_splinter_de": null,
   "mundo_natal": "Roshar",
-  "estado_actual": "muerto",
+  "estado_actual": "activa",
+
   "origen": {
-    "creador": "Honor y Cultivación",
-    "lugar_creacion": "Shadesmar",
-    "generacion": "",
-    "notas": ""
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Durante siglos fue amiga y compañera de negocios de un tendero tintaspren en Shadesmar. En 1165 abandonó Shadesmar para buscar un vínculo Nahel, eligiendo a Shallan por sus mentiras y por ser descendiente de una Heraldo."
   },
+
   "apariencia": {
     "reino_fisico": {
-      "forma_preferida": "Patrones",
+      "forma_preferida": "desconocida",
       "formas_alternativas": [],
-      "color": "Variable",
-      "visibilidad": "Variable",
-      "notas_emocionales": ""
+      "color": "desconocido",
+      "visibilidad": "desconocida",
+      "notas_emocionales": null
     },
     "reino_cognitivo": {
-      "forma": "Geométrica",
-      "limitaciones": ""
+      "forma": "criatura con cabeza de patrón roto con el mismo rasgado en los ojos que otros spren ojomuertos. Líneas retorcidas con patrones abruptos como dedos rotos, dando aspecto marchito. Túnicas rígidas más polvorientas que las de Patrón.",
+      "limitaciones": "ojomuerta durante años, recuperando consciencia gradualmente"
     },
     "como_hoja_esquirlada": {
-      "forma_habitual": "Espada",
+      "forma_habitual": "desconocida",
       "otras_formas": [],
-      "material": "Hoja muerta"
+      "material": "desconocido"
     }
   },
+
   "personalidad": {
     "rasgos": [
-      "Curioso"
+      "amable",
+      "amigable",
+      "nunca odió a Shallan por haberla convertido en ojomuerta"
     ],
     "valores": [
-      "Verdad"
+      "eligió a Shallan creyendo que vincularse a una niña sin predisposiciones inspiraría una nueva generación de Radiantes"
     ],
-    "notas": ""
+    "notas": "Según Shallan, era una spren amable y amigable. Se sintió atraída por las mentiras de Shallan: aquellas en que se decía que era feliz y fuerte a pesar de los abusos familiares."
   },
+
   "habilidades": {
-    "generales": [],
-    "magicas": [
-      "Iluminación",
-      "Transformación"
-    ]
-  },
-  "vinculo_nahel": {
-    "radiante_actual": null,
-    "orden_radiante": "Tejedores de Luz",
-    "potencias_otorgadas": [
-      "Iluminación",
-      "Transformación"
+    "generales": [
+      "formar vínculos Nahel",
+      "comunicarse con Shallan telepáticamente (tras la recuperación)"
     ],
-    "forma_shardblade": "Espada",
-    "estado_vinculo": "roto",
-    "radiante_anterior": "Shallan Davar",
-    "notas": ""
-  },
-  "historia": {
-    "resumen": "Cryptic original de Shallan.",
-    "puntos_clave": [
-      "Vínculo roto"
+    "magicas": [
+      "Vínculo Nahel que otorga Iluminación y Transformación"
     ]
   },
+
+  "vinculo_nahel": {
+    "radiante_actual": "shallan",
+    "orden_radiante": "Tejedores de Luz",
+    "potencias_otorgadas": ["Iluminación", "Transformación"],
+    "forma_shardblade": "desconocida",
+    "estado_vinculo": "recuperándose",
+    "radiante_anterior": null,
+    "notas": "Shallan rompió el vínculo de niña tras usarla como hoja para matar a su madre, convirtiéndola en ojomuerta. Tras años separadas, Shallan la encontró en Integridad Duradera. Su vínculo se fortaleció en el Reino Espiritual y Testimonio recuperó la capacidad de hablar."
+  },
+
+  "historia": {
+    "resumen": "Críptica que pasó siglos como amiga de un tendero tintaspren en Shadesmar. En 1165 se vinculó a Shallan Davar, eligiéndola por sus mentiras y su linaje de descendiente de una Heraldo. El vínculo avanzó hasta permitirle manifestarse como hoja esquirlada, que Shallan usó para matar a su madre en defensa propia. Horrorizada, Shallan rompió el vínculo, convirtiendo a Testimonio en ojomuerta. Fue encontrada años después en una isla del este por su amigo tintaspren. En 1175 Adolin la encontró en Innominado y fue llevada a Integridad Duradera, donde Shallan habló con ella. Su vínculo se fortaleció en el Reino Espiritual y recuperó la voz.",
+    "puntos_clave": [
+      "pasó siglos como amiga de un tendero tintaspren en Shadesmar",
+      "en 1165 se vinculó a Shallan eligiéndola por sus mentiras y su linaje",
+      "Shallan la usó como hoja para matar a su madre y luego rompió el vínculo",
+      "se convirtió en ojomuerta, nunca odió a Shallan por ello",
+      "fue encontrada por su amigo tintaspren en una isla del este",
+      "Adolin la encontró en Innominado en 1175",
+      "llevada a Integridad Duradera donde Shallan habló con ella",
+      "su vínculo se fortaleció en el Reino Espiritual y recuperó la voz"
+    ]
+  },
+
   "apariciones": {
     "libros": [
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "mencionado",
-        "pov": false
-      }
+      { "titulo": "Palabras radiantes",    "rol": "secundaria (flashbacks)", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundaria",               "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "secundaria principal",     "pov": false }
     ]
   },
+
   "relaciones": {
-    "radiante_vinculado": {
-      "personaje": "Shallan Davar",
-      "relacion": "vínculo roto"
-    },
+    "radiante_vinculado": { "personaje": "shallan", "relacion": "vínculo Nahel, primer spren de Shallan" },
     "creador": null,
-    "otros": []
+    "otros": [
+      { "personaje": "Patrón", "relacion": "segundo spren de Shallan, cuya existencia confundió a Shallan sobre Testimonio" }
+    ]
   },
-  "descripcion_breve": "Cryptic muerto.",
-  "notas": ""
+
+  "descripcion_breve": "Críptica ojomuerta que fue el primer spren de Shallan Davar. Nunca la odió por haberla convertido en ojomuerta. Su vínculo se recuperó gradualmente y en el Reino Espiritual recuperó la voz.",
+  "notas": "Se sintió atraída por las mentiras de Shallan: aquellas en que se decía feliz y fuerte. También influyó su linaje como descendiente de la Heraldo Chanarach."
 }

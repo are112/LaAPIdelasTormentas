@@ -2,89 +2,101 @@
   "id": "wyndle",
   "nombre": "Wyndle",
   "apodos": [],
-  "tipo_spren": "cultivationspren",
+  "tipo_spren": "cultivacispren",
   "es_splinter_de": "Cultivación",
   "mundo_natal": "Roshar",
   "estado_actual": "activo",
+
   "origen": {
     "creador": "Cultivación",
-    "lugar_creacion": "Shadesmar",
-    "generacion": "",
-    "notas": ""
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Era un jardinero en el Reino Cognitivo antes de vincularse a Lift. Era famoso por hacer crecer sillas en Shadesmar."
   },
+
   "apariencia": {
     "reino_fisico": {
-      "forma_preferida": "Enredadera",
-      "formas_alternativas": [],
-      "color": "Verde",
-      "visibilidad": "Variable",
-      "notas_emocionales": ""
+      "forma_preferida": "enredadera con estructuras cristalinas claras creciendo de ella. No se mueve sino que crece hacia su objetivo. Las enredaderas se endurecen momentáneamente como cristales y luego se deshacen en polvo.",
+      "formas_alternativas": ["vara de metal (arma esquirlada)", "tenedor esquirlado"],
+      "color": "verde cristalino",
+      "visibilidad": "invisible e inaudible para todos excepto Lift, aunque el polvo que queda ocasionalmente es visible para todos",
+      "notas_emocionales": "puede formar una especie de cara rizando las enredaderas"
     },
     "reino_cognitivo": {
-      "forma": "Vegetal",
-      "limitaciones": ""
+      "forma": "jardinero, hace crecer sillas de cristal",
+      "limitaciones": null
     },
     "como_hoja_esquirlada": {
-      "forma_habitual": "Bastón",
-      "otras_formas": [],
-      "material": "Vegetal"
+      "forma_habitual": "vara de metal",
+      "otras_formas": ["tenedor esquirlado"],
+      "material": "metal"
     }
   },
+
   "personalidad": {
     "rasgos": [
-      "Quejica",
-      "Nervioso"
+      "jardinero tranquilo",
+      "correcto",
+      "inteligente",
+      "cuidadoso",
+      "nervioso",
+      "orgulloso de sus logros haciendo crecer sillas"
     ],
     "valores": [
-      "Crecimiento"
+      "no le gusta ser usado para dañar a gente",
+      "se preocupa por el extraño comportamiento de Lift y su potencial malnutrición"
     ],
-    "notas": ""
+    "notas": "Los hordinos del dysian aimiano Arclo parecen ser capaces de sentirlo aunque es invisible. Solo Lift puede interactuar físicamente con él en el Reino Físico, posiblemente porque ella está parcialmente en el Reino Cognitivo."
   },
+
   "habilidades": {
     "generales": [
-      "Cambio de forma"
+      "crecer hacia su objetivo sin moverse",
+      "formar estructuras físicas escalables para Lift",
+      "hacer crecer sillas de cristal en el Reino Cognitivo"
     ],
     "magicas": [
-      "Abrasion",
-      "Progresión"
+      "Vínculo Nahel que otorga Abrasión y Progresión a Lift",
+      "Astilla de Cultivación"
     ]
   },
+
   "vinculo_nahel": {
-    "radiante_actual": "Lift",
+    "radiante_actual": "lift",
     "orden_radiante": "Danzantes del Filo",
-    "potencias_otorgadas": [
-      "Abrasion",
-      "Progresión"
-    ],
-    "forma_shardblade": "Bastón",
-    "estado_vinculo": "activo",
+    "potencias_otorgadas": ["Abrasión", "Progresión"],
+    "forma_shardblade": "vara de metal / tenedor esquirlado",
+    "estado_vinculo": "estable",
     "radiante_anterior": null,
-    "notas": ""
+    "notas": "Solo Lift puede interactuar con él físicamente en el Reino Físico. Gana la habilidad de formar un arma esquirlada una vez Lift pronuncia el Tercer Ideal. Puede cambiar de forma entre vara y tenedor."
   },
+
   "historia": {
-    "resumen": "Spren de Lift.",
-    "puntos_clave": []
+    "resumen": "Cultivacispren y Astilla de Cultivación que era jardinero en el Reino Cognitivo, famoso por hacer crecer sillas de cristal. Fue elegido por el Anillo para vincularse con Lift. Acompañó a Lift en el robo al palacio azishiano y en su persecución del Heraldo Nale hasta Yeddaw. Más tarde se unió a la coalición de Roshar.",
+    "puntos_clave": [
+      "jardinero famoso en el Reino Cognitivo por hacer crecer sillas de cristal",
+      "elegido por el Anillo para vincularse con Lift",
+      "acompañó a Lift en el robo al palacio azishiano",
+      "siguió a Lift en su persecución del Heraldo Nale hasta Yeddaw",
+      "se unió a la coalición de Roshar"
+    ]
   },
+
   "apariciones": {
     "libros": [
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": false
-      }
+      { "titulo": "Palabras radiantes",    "rol": "secundario (novela corta Lift)", "pov": false },
+      { "titulo": "Juramentada",           "rol": "secundario",                     "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundario",                     "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "secundario",                     "pov": false }
     ]
   },
+
   "relaciones": {
-    "radiante_vinculado": {
-      "personaje": "Lift",
-      "relacion": "vínculo Nahel"
-    },
-    "creador": {
-      "entidad": "Cultivación",
-      "relacion": "origen"
-    },
+    "radiante_vinculado": { "personaje": "lift", "relacion": "vínculo Nahel" },
+    "creador": { "personaje": "Cultivación", "relacion": "Astilla de Cultivación" },
     "otros": []
   },
-  "descripcion_breve": "Cultivationspren de Lift.",
-  "notas": ""
+
+  "descripcion_breve": "Cultivacispren y Astilla de Cultivación vinculado a Lift. Era un famoso jardinero de sillas en el Reino Cognitivo. Solo Lift puede interactuar físicamente con él.",
+  "notas": "Es una Astilla de Cultivación al igual que Mayalaran. Su apariencia como enredadera que crece y se deshace en polvo es característica de los cultivacispren."
 }

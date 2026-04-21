@@ -2,76 +2,96 @@
   "id": "chispa",
   "nombre": "Chispa",
   "apodos": [],
-  "tipo_spren": "ashspren",
-  "es_splinter_de": "Odium",
+  "tipo_spren": "cenizaspren",
+  "es_splinter_de": null,
   "mundo_natal": "Roshar",
-  "estado_actual": "activo",
+  "estado_actual": "activa",
+
   "origen": {
-    "creador": "Odium",
-    "lugar_creacion": "Shadesmar",
-    "generacion": "",
-    "notas": ""
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Prefiere el nombre «Liberador» para su orden en lugar de «Portadores del Polvo»."
   },
+
   "apariencia": {
     "reino_fisico": {
-      "forma_preferida": "Ceniza flotante",
+      "forma_preferida": "desconocida, invisible para la mayoría",
       "formas_alternativas": [],
-      "color": "Rojo",
-      "visibilidad": "Variable",
-      "notas_emocionales": ""
+      "color": "desconocido",
+      "visibilidad": "Shallan no pudo ver ninguna señal de Chispa al encontrarse con Malata",
+      "notas_emocionales": null
     },
     "reino_cognitivo": {
-      "forma": "Entidad ardiente",
-      "limitaciones": ""
+      "forma": "desconocida",
+      "limitaciones": null
     },
     "como_hoja_esquirlada": {
-      "forma_habitual": "",
+      "forma_habitual": "probablemente similar a otras espadas de Roshar",
       "otras_formas": [],
-      "material": ""
+      "material": "desconocido"
     }
   },
+
   "personalidad": {
     "rasgos": [
-      "Volátil"
+      "destructiva",
+      "vengativa",
+      "firme en sus convicciones",
+      "le gusta romper cosas"
     ],
     "valores": [
-      "Caos"
+      "busca venganza contra los Caballeros Radiantes por la muerte de cientos de cenizaspren",
+      "culpa a la devoción por Honor de esas muertes"
     ],
-    "notas": ""
+    "notas": "Al igual que otros cenizaspren, quiere saber lo que hay en el interior de las cosas. Taravangian cuestionó su voluntad de ayudar al Diagrama, pero Malata aseguró que es firme en sus convicciones."
   },
+
   "habilidades": {
-    "generales": [],
+    "generales": [
+      "espiar a personas, especialmente a Dalinar"
+    ],
     "magicas": [
-      "División"
+      "Vínculo Nahel que otorga División y Abrasión a Malata"
     ]
   },
+
   "vinculo_nahel": {
-    "radiante_actual": "",
-    "orden_radiante": "",
-    "potencias_otorgadas": [],
-    "forma_shardblade": "",
-    "estado_vinculo": "",
+    "radiante_actual": "malata",
+    "orden_radiante": "Portadores del Polvo",
+    "potencias_otorgadas": ["División", "Abrasión"],
+    "forma_shardblade": "probablemente similar a otras espadas",
+    "estado_vinculo": "activo",
     "radiante_anterior": null,
-    "notas": ""
+    "notas": "Malata puede invocarla como hoja esquirlada y usarla para manejar las Puertas Juradas. A través de su vínculo Malata puede hacer que objetos y seres vivos se degraden, quemen o conviertan en polvo."
   },
+
   "historia": {
-    "resumen": "Spren destructivo.",
-    "puntos_clave": []
+    "resumen": "Cenizaspren vinculada a Malata, miembro del Diagrama de Taravangian. Espiaba en secreto a Dalinar y fue responsable de recuperar visiones que Dalinar no había compartido, información que Taravangian usó para sus acusaciones de traición que desestabilizaron la coalición de Dalinar. Chispa y Malata estuvieron notablemente ausentes durante la Batalla de la Explanada Thayleña.",
+    "puntos_clave": [
+      "vinculada a Malata, miembro del Diagrama",
+      "espiaba en secreto a Dalinar en Urithiru",
+      "recuperó visiones ocultas de Dalinar para Taravangian",
+      "su información contribuyó al colapso de la coalición de Dalinar",
+      "ausente durante la Batalla de la Explanada Thayleña"
+    ]
   },
+
   "apariciones": {
-    "libros": []
+    "libros": [
+      { "titulo": "Juramentada",           "rol": "secundaria", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundaria", "pov": false }
+    ]
   },
+
   "relaciones": {
-    "radiante_vinculado": {
-      "personaje": "",
-      "relacion": ""
-    },
-    "creador": {
-      "entidad": "Odium",
-      "relacion": "creador"
-    },
-    "otros": []
+    "radiante_vinculado": { "personaje": "malata", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": [
+      { "personaje": "Taravangian", "relacion": "aliada a través del Diagrama" }
+    ]
   },
-  "descripcion_breve": "Spren de ceniza.",
-  "notas": ""
+
+  "descripcion_breve": "Cenizaspren vinculada a Malata, miembro del Diagrama. Busca venganza contra los Caballeros Radiantes por la muerte de cientos de cenizaspren durante la Traición.",
+  "notas": "Prefiere llamar a su orden «Liberadores» en lugar de «Portadores del Polvo»."
 }

@@ -1,0 +1,104 @@
+{
+  "id": "timbre",
+  "nombre": "Timbre",
+  "apodos": [],
+  "tipo_spren": "alcanzador",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Timbre es un apodo dado por Venli. Se desconoce su nombre real. Intentó vincularse a Eshonai antes de vincularse con Venli."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "bola de luz que deja una estela blanca parecida a la de un cometa cuando se desplaza",
+      "formas_alternativas": [],
+      "color": "luz blanca con estela",
+      "visibilidad": "visible como bola de luz",
+      "notas_emocionales": "se esconde en las sombras cuando llega la tormenta eterna"
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": null
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "desconocida",
+      "otras_formas": [],
+      "material": "desconocido"
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "curiosa",
+      "atrevida",
+      "tiene miedo de la tormenta eterna",
+      "influencia calmante para Venli",
+      "decidida"
+    ],
+    "valores": [
+      "pulsa al Ritmo de la Paz para alejar la influencia de Odium sobre Venli"
+    ],
+    "notas": "A diferencia de otros spren Radiantes, Timbre no habla. Se comunica pulsando ciertos ritmos que producen vibraciones audibles. Puede leer los pensamientos de Venli."
+  },
+
+  "habilidades": {
+    "generales": [
+      "residir dentro de la gema corazón de Venli",
+      "capturar a otros spren que residen en la gema corazón de Venli",
+      "comunicarse mediante pulsos de ritmo",
+      "leer los pensamientos de Venli",
+      "permitir a Venli sintonizar los Ritmos antiguos a elección"
+    ],
+    "magicas": [
+      "Vínculo Nahel que otorga Transporte y Cohesión a Venli",
+      "permite a Venli entrar y salir de formas de poder de los vaciospren a voluntad"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "venli",
+    "orden_radiante": "Escultores de Voluntad",
+    "potencias_otorgadas": ["Transporte", "Cohesión"],
+    "forma_shardblade": "desconocida",
+    "estado_vinculo": "estable",
+    "radiante_anterior": "eshonai (intento fallido)",
+    "notas": "Su vínculo con Venli es único: Venli es una cantora, algo que antes se consideraba imposible. Mientras Venli tenga tanto su spren del vacío como a Timbre en su gema corazón, puede usar tanto luz tormentosa como luz del vacío."
+  },
+
+  "historia": {
+    "resumen": "Alcanzador que intentó vincularse primero a Eshonai antes de buscar a Venli. Logró vincularse a Venli, la primera cantora en vincularse con un spren Radiante en tiempos modernos. Ha acompañado a Venli en sus planes de escape de los Fusionados, en la infiltración y ocupación de Urithiru, y en su viaje hasta convertirse en una Radiante Escultora de Voluntad.",
+    "puntos_clave": [
+      "intentó vincularse a Eshonai antes que a Venli",
+      "primer spren en vincularse con una cantora en tiempos modernos",
+      "acompañó a Venli en sus planes de escape de los Fusionados",
+      "participó en la infiltración y ocupación de Urithiru",
+      "acompañó a Venli en su camino para convertirse en Radiante"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras radiantes",    "rol": "secundario (mención)", "pov": false },
+      { "titulo": "Juramentada",           "rol": "secundario principal", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundario principal", "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "secundario",           "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "venli", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": [
+      { "personaje": "eshonai", "relacion": "intento previo de vínculo fallido" }
+    ]
+  },
+
+  "descripcion_breve": "Alcanzador vinculado a Venli, la primera cantora en vincularse con un spren Radiante en tiempos modernos. Se comunica mediante pulsos rítmicos y actúa como influencia calmante contra Odium.",
+  "notas": "Timbre es un apodo dado por Venli; su nombre real es desconocido. Es el único spren conocido en vincularse con una cantora."
+}

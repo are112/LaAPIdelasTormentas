@@ -1,92 +1,99 @@
 {
   "id": "auxiliar",
   "nombre": "Auxiliar",
-  "apodos": [
-    "Aux"
-  ],
-  "tipo_spren": "highspren",
-  "es_splinter_de": "Honor",
+  "apodos": ["Aux", "12 124"],
+  "tipo_spren": "altospren",
+  "es_splinter_de": null,
   "mundo_natal": "Roshar",
-  "estado_actual": "activo",
+  "estado_actual": "muerto",
+
   "origen": {
-    "creador": "Honor",
-    "lugar_creacion": "Shadesmar",
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
     "generacion": "desconocida",
-    "notas": "Spren vinculado a los Rompedores del Cielo"
+    "notas": "Su nombre original era 12 124. Fue el altospren de Szeth hasta Palahanah de 1175, cuando pasó a vincularse con Nómada."
   },
+
   "apariencia": {
     "reino_fisico": {
-      "forma_preferida": "Figura oscura humanoide",
+      "forma_preferida": "desconocida",
       "formas_alternativas": [],
-      "color": "Oscuro",
-      "visibilidad": "Limitada",
-      "notas_emocionales": "Apenas expresa emociones"
+      "color": "desconocido",
+      "visibilidad": "desconocida",
+      "notas_emocionales": null
     },
     "reino_cognitivo": {
-      "forma": "Humanoide",
-      "limitaciones": ""
+      "forma": "desconocida",
+      "limitaciones": null
     },
     "como_hoja_esquirlada": {
-      "forma_habitual": "Espada",
+      "forma_habitual": "desconocida",
       "otras_formas": [],
-      "material": "Metal investido"
+      "material": "desconocido"
     }
   },
+
   "personalidad": {
     "rasgos": [
-      "Frío",
-      "Lógico"
+      "leal",
+      "sacrificado",
+      "valiente"
     ],
     "valores": [
-      "Ley"
+      "dispuesto a sacrificar su esencia restante para salvar a otros"
     ],
-    "notas": ""
+    "notas": "Incluso tras ser parcialmente consumido por la Esquirla del Amanecer, continuó viajando con Nómada como fragmentos de mente y personalidad."
   },
+
   "habilidades": {
     "generales": [
-      "Cambio de forma"
+      "comunicación telepática",
+      "cuantificación de la Investidura",
+      "curación acelerada al radiante vinculado",
+      "conocimiento realmático y cosmereológico",
+      "saltamundos: puede viajar entre mundos del Cosmere"
     ],
     "magicas": [
-      "División",
-      "Gravitación"
+      "Vínculo Nahel que otorga magia de Rompedor del Cielo"
     ]
   },
+
   "vinculo_nahel": {
-    "radiante_actual": "Sigzil",
+    "radiante_actual": "nomada",
     "orden_radiante": "Rompedores del Cielo",
-    "potencias_otorgadas": [
-      "División",
-      "Gravitación"
-    ],
-    "forma_shardblade": "Espada",
-    "estado_vinculo": "activo",
-    "radiante_anterior": null,
-    "notas": ""
+    "potencias_otorgadas": ["Gravitación", "División"],
+    "forma_shardblade": "desconocida",
+    "estado_vinculo": "disuelto por muerte",
+    "radiante_anterior": "szeth",
+    "notas": "Fue consumido por la Esquirla del Amanecer que Nómada poseía temporalmente. Su esencia restante fue sacrificada en Cántico para salvar a Nómada y a los habitantes de Baliza."
   },
+
   "historia": {
-    "resumen": "Highspren que forma vínculo con Sigzil.",
-    "puntos_clave": []
+    "resumen": "Altospren vinculado a Szeth hasta 1175. Posteriormente se vinculó con Nómada y comenzó a recorrer el Cosmere junto a él mientras escapaban de la Brigada Nocturna. Fue consumido por la Esquirla del Amanecer que Nómada portaba temporalmente, quedando como fragmentos de mente y personalidad. Finalmente sacrificó su esencia restante en Cántico para salvar a Nómada y a los habitantes de Baliza.",
+    "puntos_clave": [
+      "altospren de Szeth hasta Palahanah 1175",
+      "se vinculó con Nómada y viajaron juntos por el Cosmere",
+      "parcialmente consumido por la Esquirla del Amanecer",
+      "continuó como fragmentos de mente y personalidad",
+      "sacrificó su esencia restante en Cántico para salvar a Nómada y los habitantes de Baliza"
+    ]
   },
+
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Hombre Iluminado",
-        "rol": "secundario",
-        "pov": false
-      }
+      { "titulo": "Juramentada",         "rol": "secundario (mención)", "pov": false },
+      { "titulo": "Esquirla del Amanecer", "rol": "principal",           "pov": false }
     ]
   },
+
   "relaciones": {
-    "radiante_vinculado": {
-      "personaje": "Sigzil",
-      "relacion": "vínculo Nahel"
-    },
-    "creador": {
-      "entidad": "Honor",
-      "relacion": "creador"
-    },
-    "otros": []
+    "radiante_vinculado": { "personaje": "nomada", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": [
+      { "personaje": "szeth", "relacion": "radiante anterior" }
+    ]
   },
-  "descripcion_breve": "Highspren asociado a la ley.",
-  "notas": ""
+
+  "descripcion_breve": "Altospren que fue el spren de Szeth y luego de Nómada. Sacrificó su esencia restante en Cántico para salvar a su compañero y a los habitantes de Baliza.",
+  "notas": "Su nombre original era el número 12 124. Es uno de los pocos spren conocidos que han viajado fuera de Roshar por el Cosmere."
 }

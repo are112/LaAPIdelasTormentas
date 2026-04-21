@@ -1,0 +1,96 @@
+{
+  "id": "glys",
+  "nombre": "Glys",
+  "apodos": [],
+  "tipo_spren": "brumaspren",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Fue corrompido por el Deshecho Sja-anat antes de vincularse a Renarin. Sja-anat se refiere a este proceso como Iluminación."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "estructura cristalina color rojo parecida a un copo de nieve que desprende y gotea luz hacia arriba",
+      "formas_alternativas": [],
+      "color": "rojo cristalino",
+      "visibilidad": "tiende a permanecer invisible y oculto dentro de Renarin a propósito",
+      "notas_emocionales": "su apariencia alterada es resultado de la corrupción de Sja-anat"
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": null
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "espada alargada y fina sin apenas guarda, con pliegues ondulantes sobre el metal",
+      "otras_formas": [],
+      "material": "metal con aspecto de haber sido forjado"
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "nervioso",
+      "optimista"
+    ],
+    "valores": [],
+    "notas": "Tiene la habilidad de esconderse incluso de los videntes como Roca. A diferencia de Syl, no puede volverse invisible a voluntad de forma estándar; permanece oculto dentro de Renarin."
+  },
+
+  "habilidades": {
+    "generales": [
+      "ocultarse incluso de videntes como Roca",
+      "conceder visiones del futuro a Renarin gracias a la corrupción de Sja-anat"
+    ],
+    "magicas": [
+      "Vínculo Nahel que otorga Progresión e Iluminación a Renarin",
+      "visiones del futuro (habilidad atípica de Odium, por corrupción de Sja-anat)"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "renarin",
+    "orden_radiante": "Vigilantes de la Verdad",
+    "potencias_otorgadas": ["Progresión", "Iluminación"],
+    "forma_shardblade": "espada alargada y fina sin apenas guarda",
+    "estado_vinculo": "estable",
+    "radiante_anterior": null,
+    "notas": "Debido a la corrupción de Sja-anat, su vínculo también otorga a Renarin visiones del futuro, una habilidad típica de Odium. Las visiones aparecen como paneles de cristal tintado. Ni Glys ni Renarin pueden controlar cuándo ocurren."
+  },
+
+  "historia": {
+    "resumen": "Brumaspren corrompido por Sja-anat antes de vincularse a Renarin Kholin. Su corrupción alteró su apariencia y añadió al vínculo la capacidad de ver el futuro. Tiende a permanecer oculto dentro de Renarin para evitar ser detectado. Participó junto a Renarin en la reinstauración de los Caballeros Radiantes y en la ofensiva emuli.",
+    "puntos_clave": [
+      "corrompido por Sja-anat antes de vincularse a Renarin",
+      "su apariencia es diferente a la de los brumaspren normales por la corrupción",
+      "otorga a Renarin visiones del futuro además de las potencias estándar",
+      "permanece oculto dentro de Renarin voluntariamente",
+      "puede esconderse incluso de videntes como Roca",
+      "participó en la reinstauración de los Caballeros Radiantes"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Juramentada",           "rol": "secundario", "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "secundario", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "renarin", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": [
+      { "personaje": "Sja-anat", "relacion": "lo corrompió antes del vínculo" }
+    ]
+  },
+
+  "descripcion_breve": "Brumaspren corrompido por Sja-anat vinculado a Renarin Kholin. Su corrupción le da una apariencia cristalina roja única y otorga a Renarin la capacidad de ver el futuro.",
+  "notas": "Su forma normal de brumaspren debería asemejarse a la luz atravesada por un cristal, pero la corrupción de Sja-anat lo convirtió en una estructura cristalina roja."
+}
