@@ -113,27 +113,14 @@ router.get("/", (req, res) => {
       letter-spacing: 0.1em;
     }
 
-    /* Buscador global */
-    .buscador-global {
-      position: relative;
-      z-index: 10;
-      padding: 1rem 1.5rem 0;
-      background: rgba(13,31,60,0.5);
-      border-bottom: 1px solid rgba(79,195,247,0.1);
-    }
-    .buscador-global .buscador-wrap { margin-bottom: 1rem; }
-
     /* Layout principal */
     .contenedor {
       position: relative;
       z-index: 10;
       display: grid;
       grid-template-columns: 320px 1fr;
-      grid-template-rows: auto 1fr;
+      gap: 0;
       min-height: calc(100vh - 160px);
-    }
-    .buscador-global {
-      grid-column: 1 / -1;
     }
 
     /* Tabs */
@@ -654,15 +641,13 @@ router.get("/", (req, res) => {
   </header>
 
   <div class="contenedor">
-    <!-- Buscador global -->
-    <div class="buscador-global">
-      <div class="buscador-wrap">
-        <input type="text" id="buscador" placeholder="Buscar en toda la API..." autocomplete="off" />
-      </div>
-    </div>
-
     <!-- Panel izquierdo -->
     <aside class="panel-izq">
+
+      <!-- Buscador global -->
+      <div class="buscador-wrap">
+        <input type="text" id="buscador" placeholder="Buscar..." autocomplete="off" />
+      </div>
 
       <!-- Tabs -->
       <div class="tabs">
