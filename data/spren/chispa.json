@@ -1,0 +1,77 @@
+{
+  "id": "chispa",
+  "nombre": "Chispa",
+  "apodos": [],
+  "tipo_spren": "ashspren",
+  "es_splinter_de": "Odium",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": {
+    "creador": "Odium",
+    "lugar_creacion": "Shadesmar",
+    "generacion": "",
+    "notas": ""
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "Ceniza flotante",
+      "formas_alternativas": [],
+      "color": "Rojo",
+      "visibilidad": "Variable",
+      "notas_emocionales": ""
+    },
+    "reino_cognitivo": {
+      "forma": "Entidad ardiente",
+      "limitaciones": ""
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "",
+      "otras_formas": [],
+      "material": ""
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "Volátil"
+    ],
+    "valores": [
+      "Caos"
+    ],
+    "notas": ""
+  },
+  "habilidades": {
+    "generales": [],
+    "magicas": [
+      "División"
+    ]
+  },
+  "vinculo_nahel": {
+    "radiante_actual": "",
+    "orden_radiante": "",
+    "potencias_otorgadas": [],
+    "forma_shardblade": "",
+    "estado_vinculo": "",
+    "radiante_anterior": null,
+    "notas": ""
+  },
+  "historia": {
+    "resumen": "Spren destructivo.",
+    "puntos_clave": []
+  },
+  "apariciones": {
+    "libros": []
+  },
+  "relaciones": {
+    "radiante_vinculado": {
+      "personaje": "",
+      "relacion": ""
+    },
+    "creador": {
+      "entidad": "Odium",
+      "relacion": "creador"
+    },
+    "otros": []
+  },
+  "descripcion_breve": "Spren de ceniza.",
+  "notas": ""
+}

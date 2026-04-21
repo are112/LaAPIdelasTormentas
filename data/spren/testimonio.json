@@ -1,0 +1,86 @@
+{
+  "id": "testimonio",
+  "nombre": "Testimonio",
+  "apodos": [],
+  "tipo_spren": "cryptic",
+  "es_splinter_de": "Honor y Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "muerto",
+  "origen": {
+    "creador": "Honor y Cultivación",
+    "lugar_creacion": "Shadesmar",
+    "generacion": "",
+    "notas": ""
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "Patrones",
+      "formas_alternativas": [],
+      "color": "Variable",
+      "visibilidad": "Variable",
+      "notas_emocionales": ""
+    },
+    "reino_cognitivo": {
+      "forma": "Geométrica",
+      "limitaciones": ""
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "Espada",
+      "otras_formas": [],
+      "material": "Hoja muerta"
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "Curioso"
+    ],
+    "valores": [
+      "Verdad"
+    ],
+    "notas": ""
+  },
+  "habilidades": {
+    "generales": [],
+    "magicas": [
+      "Iluminación",
+      "Transformación"
+    ]
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": "Tejedores de Luz",
+    "potencias_otorgadas": [
+      "Iluminación",
+      "Transformación"
+    ],
+    "forma_shardblade": "Espada",
+    "estado_vinculo": "roto",
+    "radiante_anterior": "Shallan Davar",
+    "notas": ""
+  },
+  "historia": {
+    "resumen": "Cryptic original de Shallan.",
+    "puntos_clave": [
+      "Vínculo roto"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mencionado",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": {
+      "personaje": "Shallan Davar",
+      "relacion": "vínculo roto"
+    },
+    "creador": null,
+    "otros": []
+  },
+  "descripcion_breve": "Cryptic muerto.",
+  "notas": ""
+}
