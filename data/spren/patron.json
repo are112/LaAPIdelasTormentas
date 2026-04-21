@@ -1,0 +1,120 @@
+{
+  "id": "patron",
+  "nombre": "Patrón",
+  "apodos": [],
+  "tipo_spren": "críptico",
+  "es_splinter_de": "Honor y Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Shadesmar",
+    "generacion": "desconocida",
+    "notas": "Su verdadero nombre está compuesto por muchos números, lo que dificulta su pronunciación. Era un erudito conocido en Shadesmar antes de vincularse con Shallan."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "patrón geométrico complejo en constante cambio que sobresale ligeramente de una superficie u objeto",
+      "formas_alternativas": [
+        "masa tridimensional flotante de líneas retorcidas"
+      ],
+      "color": "sin color propio, adopta el de la superficie",
+      "visibilidad": "no puede volverse completamente invisible, pero puede fundirse con la superficie para pasar desapercibido",
+      "notas_emocionales": "el patrón se mueve más deprisa cuando está excitado y se ralentiza o marchita cuando está enfadado"
+    },
+    "reino_cognitivo": {
+      "forma": "criatura alta y esbelta con túnica de material rígido y cabeza formada por un patrón complejo en constante cambio de líneas afiladas y geometrías imposibles",
+      "limitaciones": "tamaño humano, no puede cambiar de forma libremente"
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "espada larga y delgada, ligeramente curvada",
+      "otras_formas": [],
+      "material": "desconocido"
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "alegre",
+      "entusiasta",
+      "inquisitivo",
+      "valiente",
+      "serio cuando habla del bienestar de Shallan",
+      "fascinado por las mentiras y sus variantes",
+      "terrible mentiroso pese a sentirse atraído por las mentiras",
+      "tiende a zumbar audiblemente cuando está emocionado o ansioso"
+    ],
+    "valores": [
+      "fascinación por conceptos que mezclan verdad y mentira: adulación, sarcasmo, metáforas",
+      "se inclina naturalmente a expresar la verdad tal y como es",
+      "los patrones humanos como idiomas o convenciones sociales le resultan un desafío mayor por sus inconsistencias",
+      "confunde palabras con doble significado matemático y cotidiano"
+    ],
+    "notas": "A pesar de ser un spren atraído por las mentiras, es un mentiroso terrible. Tiene tendencia a saltar con resorte en su paso, a diferencia de otros crípticos que se deslizan."
+  },
+
+  "habilidades": {
+    "generales": [
+      "reconocer y descifrar patrones y códigos complejos",
+      "abrir cerraduras",
+      "descifrar códigos e idiomas",
+      "imitar voces y reproducir conversaciones a distancia mediante vibraciones",
+      "actuar como traductor entre Shallan y objetos al moldear almas",
+      "mantener y mover ilusiones de Shallan cuando está infundido con luz tormentosa",
+      "mezclarse silenciosamente con el entorno para espiar",
+      "zumbar audiblemente cuando está emocionado"
+    ],
+    "magicas": [
+      "Vínculo Nahel que otorga Iluminación y Transformación a Shallan"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "shallan",
+    "orden_radiante": "Tejedores de Luz",
+    "potencias_otorgadas": ["Iluminación", "Transformación"],
+    "forma_shardblade": "espada larga y delgada ligeramente curvada",
+    "estado_vinculo": "estable",
+    "radiante_anterior": null,
+    "notas": "El vínculo se fortalece cuando Shallan admite verdades profundas sobre sí misma. Patrón se ofreció voluntario para vincularse con Shallan creyendo que ella lo mataría como había matado a Testimonio, pero pensó que su sacrificio ayudaría a otros spren."
+  },
+
+  "historia": {
+    "resumen": "Antes de vincularse con Shallan, Patrón era un erudito famoso en Shadesmar por sus investigaciones sobre los humanos. Se ofreció voluntario para vincularla a pesar de creer que lo mataría, como había ocurrido con el primer spren de Shallan, Testimonio. Atravesó el Reino Cognitivo perdiendo gran parte de su mente en el proceso, recuperándola poco a poco junto a Shallan. A lo largo de su vínculo actuó como apoyo, espía, traductor y confidente, aunque ocultó secretos a Shallan para protegerla, lo que generó una crisis de confianza resuelta en Integridad Duradera.",
+    "puntos_clave": [
+      "erudito famoso en Shadesmar por estudiar a los humanos",
+      "se ofreció voluntario para vincularse con Shallan sabiendo el riesgo",
+      "perdió sus capacidades cognitivas al transitar al Reino Físico, recuperándolas gradualmente",
+      "actuó como carabina de Shallan y Adolin en Urithiru",
+      "utilizó en secreto el cubo de comunicación de Shallan para contactar con Sagaz",
+      "mintió a Shallan para protegerla de recuerdos dolorosos",
+      "sus palabras sobre el amor y la confianza desencadenaron la integración de los alters de Shallan",
+      "llevó a Testimonio ante Shallan para que recordara su primer vínculo",
+      "ayudó a Shallan a activar múltiples Puertas Juradas"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "secundario principal", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario principal", "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundario principal", "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundario",           "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "shallan", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": [
+      { "personaje": "Testimonio", "relacion": "primer spren de Shallan, cuyo destino marcó a Patrón" },
+      { "personaje": "Sagaz", "relacion": "fervoroso al que contactó en secreto para ayudar a Shallan" }
+    ]
+  },
+
+  "descripcion_breve": "Críptico vinculado a Shallan Davar, Tejedora de Luz. Erudito famoso en Shadesmar por sus investigaciones sobre los humanos, fascinado por las mentiras y sus variantes.",
+  "notas": "Patrón proviene originalmente de un borrador de Dark One. Fue escrito con la particularidad de confundir palabras con doble significado matemático y cotidiano."
+}
