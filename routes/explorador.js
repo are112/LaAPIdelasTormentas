@@ -1130,7 +1130,7 @@ router.get("/", (req, res) => {
       const badges = [
         s.tipo_spren ? \`<span class="badge badge-orden">\${emojiSpren(s.tipo_spren)} \${s.tipo_spren}</span>\` : '',
         s.es_splinter_de ? \`<span class="badge badge-especie">Astilla de \${s.es_splinter_de}</span>\` : '',
-        s.estado_actual === 'activa' ? '<span class="badge badge-vivo">● Activa</span>' : '<span class="badge badge-muerto">● Inactiva</span>',
+        ['activo','activa'].includes(s.estado_actual) ? '<span class="badge badge-vivo">● Activo</span>' : '<span class="badge badge-muerto">● Inactivo</span>',
       ].filter(Boolean).join('');
 
       const librosHtml = libros.length
