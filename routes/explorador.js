@@ -1045,11 +1045,20 @@ router.get("/", (req, res) => {
 
     // ── Spren ──────────────────────────────────────────────
     let todosSpren = [];
+    let ordenPorSpren = {}; // id → orden_radiante
 
     async function cargarSpren() {
       try {
         const res = await fetch(\`\${API}/spren\`);
         todosSpren = await res.json();
+        // Cargar orden vinculada de cada spren
+        await Promise.all(todosSpren.map(async s => {
+          try {
+            const r = await fetch(\`\${API}/spren/\${s.id}\`);
+            const detalle = await r.json();
+            ordenPorSpren[s.id] = detalle.vinculo_nahel?.orden_radiante ?? null;
+          } catch(e) {}
+        }));
         poblarFiltroTipo();
       } catch (e) {
         document.getElementById('lista-spren').innerHTML =
@@ -1099,10 +1108,12 @@ router.get("/", (req, res) => {
       }
       wrap.innerHTML = filtrada.map(s => {
         const activo = seleccionado === 'spren_' + s.id ? 'activo' : '';
+        const ordenS = ordenPorSpren[s.id];
+        const avatarHtml = ordenS ? logoOrden(ordenS) : logoSpren(s.tipo_spren);
         return \`
           <div class="item-personaje \${activo}"
                onclick="verSpren('\${s.id}')" data-id="spren_\${s.id}">
-            <div class="item-avatar">\${logoSpren(s.tipo_spren)}</div>
+            <div class="item-avatar">\${avatarHtml}</div>
             <div class="item-info">
               <div class="item-nombre">\${s.nombre}</div>
               <div class="item-orden">\${s.tipo_spren || 'Spren'}</div>
@@ -1139,6 +1150,7 @@ router.get("/", (req, res) => {
       const habilidades = s.habilidades;
       const historia = s.historia;
       const libros = s.apariciones?.libros ?? [];
+      const ordenVinculada = vinculo?.orden_radiante ?? null;
 
       const badges = [
         s.tipo_spren ? `<span class="badge badge-orden">${s.tipo_spren}</span>` : '',
@@ -1168,7 +1180,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar">\${logoSpren(s.tipo_spren)}</div>
+            <div class="ficha-avatar">\${ordenVinculada ? logoOrden(ordenVinculada, 60) : logoSpren(s.tipo_spren)}</div>
             <div class="ficha-titulo">
               <h2>\${s.nombre}</h2>
               \${(s.apodos ?? []).length ? \`<div class="nombre-completo">"<em>\${s.apodos.join('", "')}</em>"</div>\` : ''}
