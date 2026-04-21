@@ -717,9 +717,14 @@ router.get("/", (req, res) => {
       const s = size || 28;
       const slug = ORDEN_SLUG[orden];
       if (slug) {
-        return \`<img src="/images/ordenes/\${slug}.svg" width="\${s}" height="\${s}" style="filter:drop-shadow(0 0 4px rgba(79,195,247,0.4))" alt="\${orden}" />\`;
+        return \`<img src="/images/ordenes/\${slug}.svg" width="\${s}" height="\${s}" style="filter:brightness(2.5) saturate(1.2);object-fit:contain" alt="\${orden}" />\`;
       }
       return '⚡';
+    }
+
+    function logoSpren(tipo, size) {
+      const s = size || 28;
+      return \`<span style="font-size:\${s * 0.8}px;line-height:1;filter:brightness(1.5)">\${emojiSpren(tipo)}</span>\`;
     }
 
     // ── Cargar lista ───────────────────────────────────────
@@ -1097,7 +1102,7 @@ router.get("/", (req, res) => {
         return \`
           <div class="item-personaje \${activo}"
                onclick="verSpren('\${s.id}')" data-id="spren_\${s.id}">
-            <div class="item-avatar">\${emojiSpren(s.tipo_spren)}</div>
+            <div class="item-avatar">\${logoSpren(s.tipo_spren)}</div>
             <div class="item-info">
               <div class="item-nombre">\${s.nombre}</div>
               <div class="item-orden">\${s.tipo_spren || 'Spren'}</div>
@@ -1136,7 +1141,7 @@ router.get("/", (req, res) => {
       const libros = s.apariciones?.libros ?? [];
 
       const badges = [
-        s.tipo_spren ? \`<span class="badge badge-orden">\${emojiSpren(s.tipo_spren)} \${s.tipo_spren}</span>\` : '',
+        s.tipo_spren ? \`<span class="badge badge-orden">\${logoSpren(s.tipo_spren, 18)} \${s.tipo_spren}</span>\` : '',
         s.es_splinter_de ? \`<span class="badge badge-especie">Astilla de \${s.es_splinter_de}</span>\` : '',
         ['activo','activa'].includes(s.estado_actual) ? '<span class="badge badge-vivo">● Activo</span>' : '<span class="badge badge-muerto">● Inactivo</span>',
       ].filter(Boolean).join('');
@@ -1163,7 +1168,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar">\${emojiSpren(s.tipo_spren)}</div>
+            <div class="ficha-avatar">\${logoSpren(s.tipo_spren)}</div>
             <div class="ficha-titulo">
               <h2>\${s.nombre}</h2>
               \${(s.apodos ?? []).length ? \`<div class="nombre-completo">"<em>\${s.apodos.join('", "')}</em>"</div>\` : ''}
