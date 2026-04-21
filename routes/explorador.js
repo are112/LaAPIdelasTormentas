@@ -828,9 +828,9 @@ router.get("/", (req, res) => {
 
       // Badges
       const badges = [
-        orden ? \`<span class="badge badge-orden">\${logoOrden(orden, 18)} \${orden}</span>\` : '',
-        estado === 'vivo'  ? '<span class="badge badge-vivo">● Vivo</span>' : '',
-        estado === 'muerto'? '<span class="badge badge-muerto">● Muerto</span>' : '',
+        orden ? \`<span class="badge badge-orden">\${orden}</span>\` : '',
+        estado === 'vivo'  ? '<span class="badge badge-vivo">Vivo</span>' : '',
+        estado === 'muerto'? '<span class="badge badge-muerto">Muerto</span>' : '',
         p.especie ? \`<span class="badge badge-especie">\${p.especie}</span>\` : '',
         nivel !== null && nivel !== undefined ? \`<span class="badge badge-nivel">Ideal \${nivel}</span>\` : '',
       ].filter(Boolean).join('');
@@ -1141,9 +1141,9 @@ router.get("/", (req, res) => {
       const libros = s.apariciones?.libros ?? [];
 
       const badges = [
-        s.tipo_spren ? \`<span class="badge badge-orden">\${logoSpren(s.tipo_spren, 18)} \${s.tipo_spren}</span>\` : '',
+        s.tipo_spren ? `<span class="badge badge-orden">${s.tipo_spren}</span>` : '',
         s.es_splinter_de ? \`<span class="badge badge-especie">Astilla de \${s.es_splinter_de}</span>\` : '',
-        ['activo','activa'].includes(s.estado_actual) ? '<span class="badge badge-vivo">● Activo</span>' : '<span class="badge badge-muerto">● Inactivo</span>',
+        ['activo','activa'].includes(s.estado_actual) ? '<span class="badge badge-vivo">Activo</span>' : '<span class="badge badge-muerto">Inactivo</span>',
       ].filter(Boolean).join('');
 
       const librosHtml = libros.length
