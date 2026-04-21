@@ -6,5 +6,77 @@
     "orden_patron": "Corredores del Viento",
     "estado_actual": "muerto",
     "abandono_juramento": true
+  },
+  {
+    "id": "nale",
+    "nombre": "Nale",
+    "titulo": "Heraldo de la Justicia",
+    "orden_patron": "Rompedores del Cielo",
+    "estado_actual": "vivo",
+    "abandono_juramento": true
+  },
+  {
+    "id": "chanarach",
+    "nombre": "Chanarach",
+    "titulo": "Heraldo del Hombre Corriente",
+    "orden_patron": "Portadores del Polvo",
+    "estado_actual": "viva",
+    "abandono_juramento": true
+  },
+  {
+    "id": "vedel",
+    "nombre": "Vedel",
+    "titulo": "Heraldo de la Sanación",
+    "orden_patron": "Danzantes del Filo",
+    "estado_actual": "viva",
+    "abandono_juramento": true
+  },
+  {
+    "id": "pralla",
+    "nombre": "Pralla",
+    "titulo": "Heraldo del Todopoderoso",
+    "orden_patron": "Vigilantes de la Verdad",
+    "estado_actual": "viva",
+    "abandono_juramento": true
+  },
+  {
+    "id": "ishar",
+    "nombre": "Ishar",
+    "titulo": "Heraldo de la Suerte",
+    "orden_patron": "Forjadores de Vínculos",
+    "estado_actual": "vivo",
+    "abandono_juramento": true
+  },
+  {
+    "id": "battar",
+    "nombre": "Battar",
+    "titulo": "Heraldo del Todopoderoso",
+    "orden_patron": "Nominadores de Lo Otro",
+    "estado_actual": "viva",
+    "abandono_juramento": true
+  },
+  {
+    "id": "kalak",
+    "nombre": "Kalak",
+    "titulo": "Juez Supremo",
+    "orden_patron": "Escultores de Voluntad",
+    "estado_actual": "vivo",
+    "abandono_juramento": true
+  },
+  {
+    "id": "talenel",
+    "nombre": "Talenel",
+    "titulo": "Heraldo de la Guerra",
+    "orden_patron": "Custodios de la Piedra",
+    "estado_actual": "vivo",
+    "abandono_juramento": false
+  },
+  {
+    "id": "shalash",
+    "nombre": "Shalash",
+    "titulo": "Heraldo de la Belleza",
+    "orden_patron": "Tejedores de Luz",
+    "estado_actual": "viva",
+    "abandono_juramento": true
   }
 ]
