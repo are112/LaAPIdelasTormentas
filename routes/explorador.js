@@ -699,19 +699,27 @@ router.get("/", (req, res) => {
       }
     }
 
-    // ── Emoji por orden ────────────────────────────────────
-    function emojiOrden(orden) {
-      const m = {
-        'Corredores del Viento': '💨',
-        'Tejedores de Luz': '✨',
-        'Forjadores de Vínculos': '🔗',
-        'Nominadores de Lo Otro': '📖',
-        'Vigilantes de la Verdad': '👁',
-        'Danzantes del Filo': '⚔',
-        'Rompedores del Cielo': '🌩',
-        'Escultores de Voluntad': '🌀',
-      };
-      return m[orden] || '⚡';
+    // ── Logo por orden ─────────────────────────────────────
+    const ORDEN_SLUG = {
+      'Corredores del Viento':   'corredores-del-viento',
+      'Tejedores de Luz':        'tejedores-de-luz',
+      'Forjadores de Vínculos':  'forjadores-de-vinculos',
+      'Nominadores de Lo Otro':  'nominadores-de-lo-otro',
+      'Vigilantes de la Verdad': 'vigilantes-de-la-verdad',
+      'Danzantes del Filo':      'danzantes-del-filo',
+      'Rompedores del Cielo':    'rompedores-del-cielo',
+      'Escultores de Voluntad':  'escultores-de-voluntad',
+      'Custodios de la Piedra':  'custodios-de-la-piedra',
+      'Portadores del Polvo':    'portadores-del-polvo',
+    };
+
+    function logoOrden(orden, size) {
+      const s = size || 28;
+      const slug = ORDEN_SLUG[orden];
+      if (slug) {
+        return \`<img src="/images/ordenes/\${slug}.svg" width="\${s}" height="\${s}" style="filter:drop-shadow(0 0 4px rgba(79,195,247,0.4))" alt="\${orden}" />\`;
+      }
+      return '⚡';
     }
 
     // ── Cargar lista ───────────────────────────────────────
@@ -748,7 +756,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = lista.map(p => \`
         <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
-          <div class="item-avatar">\${emojiOrden(p.orden)}</div>
+          <div class="item-avatar">\${logoOrden(p.orden)}</div>
           <div class="item-info">
             <div class="item-nombre">\${p.nombre}</div>
             <div class="item-orden">\${p.orden || 'Sin orden'}</div>
@@ -815,7 +823,7 @@ router.get("/", (req, res) => {
 
       // Badges
       const badges = [
-        orden ? \`<span class="badge badge-orden">\${emojiOrden(orden)} \${orden}</span>\` : '',
+        orden ? \`<span class="badge badge-orden">\${logoOrden(orden, 18)} \${orden}</span>\` : '',
         estado === 'vivo'  ? '<span class="badge badge-vivo">● Vivo</span>' : '',
         estado === 'muerto'? '<span class="badge badge-muerto">● Muerto</span>' : '',
         p.especie ? \`<span class="badge badge-especie">\${p.especie}</span>\` : '',
@@ -905,7 +913,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar">\${emojiOrden(orden)}</div>
+            <div class="ficha-avatar">\${logoOrden(orden, 60)}</div>
             <div class="ficha-titulo">
               <h2>\${p.nombre}</h2>
               \${p.nombre_completo && p.nombre_completo !== p.nombre
