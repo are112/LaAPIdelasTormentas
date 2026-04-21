@@ -8,7 +8,7 @@ router.get("/", (req, res) => {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>La API de las Tormentas</title>
+  <title>El Archivo de las Tormentas — Explorador</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -614,8 +614,8 @@ router.get("/", (req, res) => {
   <div class="particulas" id="particulas"></div>
 
   <header>
-    <h1>La API de las Tormentas</h1>
-    <p class="subtitulo">Un Proyecto Fan del Cosmere</p>
+    <h1>El Archivo de las Tormentas</h1>
+    <p class="subtitulo">Explorador · Cosmere</p>
   </header>
 
   <div class="contenedor">
@@ -1073,17 +1073,21 @@ router.get("/", (req, res) => {
         wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
         return;
       }
-      wrap.innerHTML = filtrada.map(s => \`
-        <div class="item-personaje \${seleccionado === 'spren_' + s.id ? 'activo' : ''}"
-             onclick="verSpren('\${s.id}')" data-id="spren_\${s.id}">
-          <div class="item-avatar">\${emojiSpren(s.tipo_spren)}</div>
-          <div class="item-info">
-            <div class="item-nombre">\${s.nombre}\${s.apodo ? ' <em style="opacity:0.6;font-size:0.85rem">"\${s.apodo}"</em>' : ''}</div>
-            <div class="item-orden">\${s.tipo_spren || 'Spren'}</div>
+      wrap.innerHTML = filtrada.map(s => {
+        const apodoHtml = s.apodo ? \` <em style="opacity:0.6;font-size:0.85rem">"\` + s.apodo + \`"</em>\` : '';
+        const activo = seleccionado === 'spren_' + s.id ? 'activo' : '';
+        return \`
+          <div class="item-personaje \${activo}"
+               onclick="verSpren('\${s.id}')" data-id="spren_\${s.id}">
+            <div class="item-avatar">\${emojiSpren(s.tipo_spren)}</div>
+            <div class="item-info">
+              <div class="item-nombre">\${s.nombre}\${apodoHtml}</div>
+              <div class="item-orden">\${s.tipo_spren || 'Spren'}</div>
+            </div>
+            <div class="item-estado" style="background:var(--celeste-luz);box-shadow:0 0 6px var(--celeste-luz)"></div>
           </div>
-          <div class="item-estado" style="background:var(--celeste-luz);box-shadow:0 0 6px var(--celeste-luz)"></div>
-        </div>
-      \`).join('');
+        \`;
+      }).join('');
     }
 
     async function verSpren(id) {
