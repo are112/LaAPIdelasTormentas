@@ -1,0 +1,108 @@
+{
+  "id": "jezrien",
+  "nombre": "Jezrien",
+  "nombre_completo": "Jezerezeh'Elin",
+  "apodos": ["Jezerezeh", "Yaezir", "Ahu", "Yaysi", "Yesoran"],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "muerto",
+  "fecha_muerte": "Nanabah 1174",
+
+  "herald": {
+    "titulo": "Heraldo de los Reyes",
+    "otros_titulos": [
+      "Padre de las Tormentas",
+      "Kadasix de los Reyes",
+      "Kadasix Supremo"
+    ],
+    "orden_patron": "Corredores del Viento",
+    "numero_herald": 1,
+    "abandono_juramento": true,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "Alto, parece casi alezi aunque con piel algo más oscura y rasgos que no cuadran del todo. Ojos oscuros y pelo negro. Aparenta unos treinta años. Barba negra corta y bien perfilada.",
+    "vestimenta_habitual": "Ropas finas de color blanco y azul, a menudo manchadas y carbonizadas por la batalla.",
+    "apariencia_como_mendigo": "Barba larga y desaliñada con vetas en negro y gris, pelo enmarañado y sucio, ropas reducidas a meros retazos.",
+    "voz": "Profunda y tranquila con sonido regio."
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "honorable",
+      "líder nato",
+      "dispuesto a admitir sus errores",
+      "capaz de reconciliarse con antiguos enemigos",
+      "angustiado por su propia cobardía",
+      "avergonzado por haber abandonado a Taln"
+    ],
+    "evolucion": "Considerado uno de los mejores hombres que han existido. Tras siglos de tortura se quebró y abandonó el Juramento. Durante los siguientes milenios sucumbió a la locura, convirtiéndose en un mendigo borracho sin aparente lucidez.",
+    "notas": "A veces parecía hablar con galimatías, pero es posible que estuviese hablando en lenguas antiguas como el canto del alba."
+  },
+
+  "habilidades": {
+    "como_herald": [
+      "inmortalidad como sombra cognitiva (antes de su muerte definitiva)",
+      "reflejos, fuerza y velocidad sobrehumanos",
+      "cuerpo inmortal constantemente restaurado al morir (antes de abandonar el Juramento)",
+      "atemporalidad: siempre aparenta la misma edad que cuando se convirtió en Heraldo"
+    ],
+    "potenciacion_honor": {
+      "potencias": ["Adhesión", "Gravitación"],
+      "fuente": "Honor directamente, sin necesidad de luz tormentosa",
+      "hoja_de_honor": true,
+      "notas": "Podía cortar cualquier material sin esfuerzo. Sin vínculo Nahel, no podía tener escuderos."
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "ralentizó enormemente su envejecimiento mental y físico",
+      "estado": "renunció a usarlas tras la destrucción de Ashyn"
+    },
+    "liderazgo": "Especialidad principal: instrucción y guía de líderes. Entrenó a los líderes de la humanidad antes de cada Desolación."
+  },
+
+  "historia": {
+    "resumen": "Nacido en Ashyn hace más de ocho mil años, fue rey de una ciudad-estado y miembro de un imperio expansionista. Tras la destrucción de Ashyn por las potencias de Odium y Honor, condujo a su pueblo a Roshar. Allí, junto a Ishar, fundó el Juramento con otros nueve compañeros para sellar a los Fusionados en Braize, convirtiéndose en Heraldo del Todopoderoso. Tras milenios de tortura entre Desolaciones, en Aharietiam abandonó el Juramento junto a otros ocho Heraldos, dejando a Talenel solo. Pasó los siguientes milenios en locura progresiva, viviendo como mendigo en Kholinar hasta ser asesinado por Moash con un cuchillo de raysio.",
+    "puntos_clave": [
+      "rey de una ciudad-estado en Ashyn antes de la destrucción del planeta",
+      "condujo a su pueblo a Roshar tras la devastación de Ashyn",
+      "cofundador del Juramento junto a Ishar",
+      "Heraldo de los Reyes y patrón de los Corredores del Viento",
+      "torturado en Braize entre cada Desolación durante miles de años",
+      "abandonó el Juramento en Aharietiam dejando a Taln solo",
+      "vivió como mendigo borracho en Kholinar conocido como Ahu",
+      "asesinado por Moash con un cuchillo de raysio en Nanabah 1174",
+      "su alma fue sellada en una gema pero se desvaneció al Más Allá en pocas semanas",
+      "su puesto fue ocupado por Kaladin en Palahanah 1175"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundario", "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundario", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [
+      { "personaje": "Shalash", "relacion": "hija", "notas": "relación tensa" }
+    ],
+    "heraldos": [
+      { "personaje": "Nale",    "relacion": "compañero Heraldo, antes enemigo en Ashyn, profundo respeto mutuo" },
+      { "personaje": "Talenel", "relacion": "compañero Heraldo abandonado en Braize" },
+      { "personaje": "Ishar",   "relacion": "compañero Heraldo, cofundador del Juramento" },
+      { "personaje": "Kalak",   "relacion": "compañero Heraldo" }
+    ],
+    "otros": [
+      { "personaje": "Dalinar", "relacion": "compañero de bebida ocasional cuando Jezrien vivía como mendigo" },
+      { "personaje": "Moash",   "relacion": "asesino" }
+    ]
+  },
+
+  "descripcion_breve": "Heraldo de los Reyes y patrón de los Corredores del Viento. Considerado uno de los mejores líderes que han existido, sucumbió a la locura tras abandonar el Juramento en Aharietiam y fue asesinado definitivamente por Moash en Kholinar.",
+  "notas": "Su nombre tiene muchas variantes según la cultura: Jezerezeh en alethi antiguo, Yaezir en aziriano, Yaysi en thayleno, Yesoran en jah kevedi. Vivía como mendigo conocido como Ahu en el Pórtico de los Mendigos del palacio de Kholinar."
+}

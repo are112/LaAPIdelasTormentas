@@ -1,0 +1,67 @@
+{
+  "id": "",
+  "nombre": "",
+  "nombre_completo": "",
+  "apodos": [],
+  "mundo_natal": "Ashyn",
+  "estado_actual": "",
+  "fecha_muerte": null,
+
+  "herald": {
+    "titulo": "",
+    "otros_titulos": [],
+    "orden_patron": "",
+    "numero_herald": null,
+    "abandono_juramento": false,
+    "condenacion": "Braize"
+  },
+
+  "apariencia": {
+    "fisica": "",
+    "vestimenta_habitual": "",
+    "apariencia_como_mendigo": "",
+    "voz": ""
+  },
+
+  "personalidad": {
+    "rasgos": [],
+    "evolucion": "",
+    "notas": ""
+  },
+
+  "habilidades": {
+    "como_herald": [],
+    "potenciacion_honor": {
+      "potencias": [],
+      "fuente": "Honor directamente, sin necesidad de luz tormentosa",
+      "hoja_de_honor": true,
+      "notas": ""
+    },
+    "potenciacion_odium": {
+      "concedida_en": "Ashyn",
+      "efecto": "",
+      "estado": ""
+    },
+    "liderazgo": ""
+  },
+
+  "historia": {
+    "resumen": "",
+    "puntos_clave": []
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "", "rol": "", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "familia": [],
+    "heraldos": [],
+    "otros": []
+  },
+
+  "descripcion_breve": "",
+  "notas": ""
+}

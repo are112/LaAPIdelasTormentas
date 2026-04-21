@@ -1,0 +1,10 @@
+[
+  {
+    "id": "jezrien",
+    "nombre": "Jezrien",
+    "titulo": "Heraldo de los Reyes",
+    "orden_patron": "Corredores del Viento",
+    "estado_actual": "muerto",
+    "abandono_juramento": true
+  }
+]

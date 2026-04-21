@@ -270,6 +270,17 @@ router.get("/", (req, res) => {
     #lista-spren::-webkit-scrollbar { width: 4px; }
     #lista-spren::-webkit-scrollbar-track { background: transparent; }
     #lista-spren::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
+    #lista-heraldos {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      max-height: calc(100vh - 380px);
+      overflow-y: auto;
+      padding-right: 0.25rem;
+    }
+    #lista-heraldos::-webkit-scrollbar { width: 4px; }
+    #lista-heraldos::-webkit-scrollbar-track { background: transparent; }
+    #lista-heraldos::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
 
     .item-personaje {
       display: flex;
@@ -637,6 +648,7 @@ router.get("/", (req, res) => {
       <div class="tabs">
         <button class="tab activo" id="tab-personajes" onclick="cambiarTab('personajes')">⚔ Personajes</button>
         <button class="tab" id="tab-spren" onclick="cambiarTab('spren')">✨ Spren</button>
+        <button class="tab" id="tab-heraldos" onclick="cambiarTab('heraldos')">👑 Heraldos</button>
       </div>
 
       <div class="buscador-wrap">
@@ -664,6 +676,7 @@ router.get("/", (req, res) => {
       </div>
       <div id="lista-personajes"></div>
       <div id="lista-spren" style="display:none;flex-direction:column"></div>
+      <div id="lista-heraldos" style="display:none;flex-direction:column"></div>
     </aside>
 
     <!-- Panel derecho -->
@@ -773,7 +786,8 @@ router.get("/", (req, res) => {
     // ── Filtros ────────────────────────────────────────────
     document.getElementById('buscador').addEventListener('input', () => {
       if (tabActual === 'personajes') aplicarFiltros();
-      else renderListaSpren(todosSpren);
+      else if (tabActual === 'spren') renderListaSpren(todosSpren);
+      else renderListaHeraldos(todosHeraldos);
     });
     document.getElementById('filtro-orden').addEventListener('change', aplicarFiltros);
 
@@ -1024,23 +1038,233 @@ router.get("/", (req, res) => {
     crearParticulas();
     cargarLista();
     cargarSpren();
+    cargarHeraldos();
 
     // ── Tabs ───────────────────────────────────────────────
     let tabActual = 'personajes';
 
     function cambiarTab(tab) {
       tabActual = tab;
-      document.getElementById('tab-personajes').classList.toggle('activo', tab === 'personajes');
-      document.getElementById('tab-spren').classList.toggle('activo', tab === 'spren');
-      document.getElementById('lista-personajes').style.display = tab === 'personajes' ? 'flex' : 'none';
-      document.getElementById('lista-spren').style.display = tab === 'spren' ? 'flex' : 'none';
+      ['personajes','spren','heraldos'].forEach(t => {
+        document.getElementById('tab-' + t).classList.toggle('activo', t === tab);
+        document.getElementById('lista-' + t).style.display = t === tab ? 'flex' : 'none';
+      });
       document.getElementById('filtro-personajes-wrap').style.display = tab === 'personajes' ? '' : 'none';
       document.getElementById('filtro-spren-wrap').style.display = tab === 'spren' ? '' : 'none';
-      document.getElementById('label-lista').textContent = tab === 'personajes' ? 'Personajes' : 'Spren';
+      document.getElementById('label-lista').textContent =
+        tab === 'personajes' ? 'Personajes' : tab === 'spren' ? 'Spren' : 'Heraldos';
       document.getElementById('buscador').value = '';
-      document.getElementById('buscador').placeholder = tab === 'personajes' ? 'Buscar personaje...' : 'Buscar spren...';
+      document.getElementById('buscador').placeholder =
+        tab === 'personajes' ? 'Buscar personaje...' : tab === 'spren' ? 'Buscar spren...' : 'Buscar heraldo...';
       if (tab === 'personajes') renderLista(todos);
-      else renderListaSpren(todosSpren);
+      else if (tab === 'spren') renderListaSpren(todosSpren);
+      else renderListaHeraldos(todosHeraldos);
+    }
+
+    // ── Heraldos ───────────────────────────────────────────
+    let todosHeraldos = [];
+
+    async function cargarHeraldos() {
+      try {
+        const res = await fetch(\`\${API}/heraldos\`);
+        todosHeraldos = await res.json();
+      } catch (e) {
+        document.getElementById('lista-heraldos').innerHTML =
+          '<p class="sin-datos">Error cargando heraldos</p>';
+      }
+    }
+
+    function renderListaHeraldos(lista) {
+      const texto = document.getElementById('buscador').value.toLowerCase();
+      const filtrada = lista.filter(h =>
+        !texto || h.nombre.toLowerCase().includes(texto) ||
+        (h.titulo && h.titulo.toLowerCase().includes(texto))
+      );
+      document.getElementById('contador').textContent = filtrada.length;
+      const wrap = document.getElementById('lista-heraldos');
+      if (!filtrada.length) {
+        wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
+        return;
+      }
+      wrap.innerHTML = filtrada.map(h => {
+        const activo = seleccionado === 'heraldo_' + h.id ? 'activo' : '';
+        const avatarHtml = h.orden_patron ? logoOrden(h.orden_patron) : '👑';
+        const estadoColor = h.estado_actual === 'muerto'
+          ? 'var(--rojo-sangre)' : 'var(--verde-esmeralda)';
+        return \`
+          <div class="item-personaje \${activo}"
+               onclick="verHeraldo('\${h.id}')" data-id="heraldo_\${h.id}">
+            <div class="item-avatar">\${avatarHtml}</div>
+            <div class="item-info">
+              <div class="item-nombre">\${h.nombre}</div>
+              <div class="item-orden">\${h.titulo || 'Heraldo'}</div>
+            </div>
+            <div class="item-estado" style="background:\${estadoColor};box-shadow:0 0 6px \${estadoColor}"></div>
+          </div>
+        \`;
+      }).join('');
+    }
+
+    async function verHeraldo(id) {
+      seleccionado = 'heraldo_' + id;
+      document.querySelectorAll('.item-personaje').forEach(el => {
+        el.classList.toggle('activo', el.dataset.id === 'heraldo_' + id);
+      });
+      const panel = document.getElementById('panel-detalle');
+      panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
+      try {
+        const res = await fetch(\`\${API}/heraldos/\${id}\`);
+        const h = await res.json();
+        panel.innerHTML = renderFichaHeraldo(h);
+      } catch (e) {
+        panel.innerHTML = '<p class="sin-datos">Error cargando el heraldo</p>';
+      }
+    }
+
+    function renderFichaHeraldo(h) {
+      const herald = h.herald ?? {};
+      const estado = h.estado_actual?.toLowerCase();
+      const libros = h.apariciones?.libros ?? [];
+
+      const badges = [
+        herald.titulo ? \`<span class="badge badge-orden">\${herald.titulo}</span>\` : '',
+        herald.orden_patron ? \`<span class="badge badge-nivel">Patrón \${herald.orden_patron}</span>\` : '',
+        estado === 'muerto' ? '<span class="badge badge-muerto">Muerto</span>' : '<span class="badge badge-vivo">Vivo</span>',
+        herald.abandono_juramento ? '<span class="badge badge-muerto">Abandonó el Juramento</span>' : '',
+      ].filter(Boolean).join('');
+
+      const librosHtml = libros.length
+        ? libros.map(l => \`
+          <div class="libro-item">
+            <span class="libro-titulo">📕 \${l.titulo}</span>
+            \${l.rol ? \`<span class="libro-rol">\${l.rol}</span>\` : ''}
+            \${l.pov ? '<span class="libro-pov">POV</span>' : ''}
+          </div>
+        \`).join('')
+        : '<p class="sin-datos">Sin apariciones registradas</p>';
+
+      const histHtml = h.historia ? \`
+        \${h.historia.resumen ? \`<p class="arco-resumen">\${h.historia.resumen}</p>\` : ''}
+        \${(h.historia.puntos_clave ?? []).map(pk => \`<div class="punto-clave">\${pk}</div>\`).join('')}
+      \` : '<p class="sin-datos">Sin historia registrada</p>';
+
+      const rasgosHtml = (h.personalidad?.rasgos ?? []).length
+        ? \`<div class="tags">\${h.personalidad.rasgos.map(r => \`<span class="tag">\${r}</span>\`).join('')}</div>\`
+        : '<p class="sin-datos">Sin rasgos registrados</p>';
+
+      const potenciasHtml = (h.habilidades?.potenciacion_honor?.potencias ?? []).length
+        ? \`<div class="tags">\${h.habilidades.potenciacion_honor.potencias.map(p => \`<span class="tag">⚡ \${p}</span>\`).join('')}</div>\`
+        : '';
+
+      const habilidadesHtml = (h.habilidades?.como_herald ?? []).length
+        ? \`<div class="tags">\${h.habilidades.como_herald.map(hab => \`<span class="tag">✦ \${hab}</span>\`).join('')}</div>\`
+        : '<p class="sin-datos">Sin habilidades registradas</p>';
+
+      const relacionesHtml = [
+        ...(h.relaciones?.familia ?? []).map(r => \`
+          <div class="relacion-item">
+            <span class="relacion-nombre">👪 \${r.personaje}</span>
+            <span class="relacion-tipo">\${r.relacion}</span>
+          </div>\`),
+        ...(h.relaciones?.heraldos ?? []).map(r => \`
+          <div class="relacion-item">
+            <span class="relacion-nombre">👑 \${r.personaje}</span>
+            <span class="relacion-tipo">\${r.relacion}</span>
+          </div>\`),
+        ...(h.relaciones?.otros ?? []).map(r => \`
+          <div class="relacion-item">
+            <span class="relacion-nombre">• \${r.personaje}</span>
+            <span class="relacion-tipo">\${r.relacion}</span>
+          </div>\`),
+      ].join('') || '<p class="sin-datos">Sin relaciones registradas</p>';
+
+      return \`
+        <div class="ficha">
+          <div class="ficha-header">
+            <div class="ficha-avatar">\${herald.orden_patron ? logoOrden(herald.orden_patron, 60) : '👑'}</div>
+            <div class="ficha-titulo">
+              <h2>\${h.nombre}</h2>
+              \${h.nombre_completo && h.nombre_completo !== h.nombre
+                ? \`<div class="nombre-completo">\${h.nombre_completo}</div>\` : ''}
+              \${(h.apodos ?? []).length
+                ? \`<div class="nombre-completo">"<em>\${h.apodos.join('", "')}</em>"</div>\` : ''}
+              <div class="badges">\${badges}</div>
+            </div>
+          </div>
+
+          \${h.descripcion_breve ? \`<div class="descripcion">\${h.descripcion_breve}</div>\` : ''}
+
+          <div class="grid-secciones">
+
+            <div class="seccion">
+              <div class="seccion-titulo">Datos generales</div>
+              \${[
+                ['Mundo natal', h.mundo_natal],
+                ['Estado',      h.estado_actual],
+                ['Muerte',      h.fecha_muerte],
+                ['Orden patrón',herald.orden_patron],
+                ['Condenación', herald.condenacion],
+              ].map(([l,v]) => v ? \`
+                <div class="campo">
+                  <span class="campo-label">\${l}</span>
+                  <span class="campo-valor">\${v}</span>
+                </div>\` : '').join('')}
+              \${(herald.otros_titulos ?? []).length ? \`
+                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">Otros títulos</div>
+                <div class="tags">\${herald.otros_titulos.map(t => \`<span class="tag">\${t}</span>\`).join('')}</div>
+              \` : ''}
+            </div>
+
+            <div class="seccion">
+              <div class="seccion-titulo">Apariencia</div>
+              \${h.apariencia?.fisica ? \`<p style="font-size:0.9rem;color:var(--blanco-perla);margin-bottom:0.5rem">\${h.apariencia.fisica}</p>\` : ''}
+              \${h.apariencia?.voz ? \`<div class="campo"><span class="campo-label">Voz</span><span class="campo-valor">\${h.apariencia.voz}</span></div>\` : ''}
+              \${h.apariencia?.apariencia_como_mendigo ? \`
+                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.25rem">Como mendigo</div>
+                <p style="font-size:0.85rem;color:var(--gris-plata);font-style:italic">\${h.apariencia.apariencia_como_mendigo}</p>
+              \` : ''}
+            </div>
+
+            <div class="seccion">
+              <div class="seccion-titulo">Personalidad</div>
+              \${rasgosHtml}
+              \${h.personalidad?.evolucion ? \`<p style="font-size:0.85rem;color:var(--gris-plata);margin-top:0.5rem;font-style:italic">\${h.personalidad.evolucion}</p>\` : ''}
+            </div>
+
+            <div class="seccion">
+              <div class="seccion-titulo">Habilidades</div>
+              \${habilidadesHtml}
+              \${potenciasHtml ? \`
+                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">Potencias</div>
+                \${potenciasHtml}
+              \` : ''}
+              \${h.habilidades?.liderazgo ? \`
+                <div class="campo" style="margin-top:0.5rem">
+                  <span class="campo-label">Liderazgo</span>
+                  <span class="campo-valor">\${h.habilidades.liderazgo}</span>
+                </div>
+              \` : ''}
+            </div>
+
+            <div class="seccion">
+              <div class="seccion-titulo">Relaciones</div>
+              \${relacionesHtml}
+            </div>
+
+            <div class="seccion">
+              <div class="seccion-titulo">Apariciones</div>
+              \${librosHtml}
+            </div>
+
+          </div>
+
+          <div class="seccion" style="margin-bottom:2rem">
+            <div class="seccion-titulo">Historia</div>
+            \${histHtml}
+          </div>
+
+        </div>
+      \`;
     }
 
     // ── Spren ──────────────────────────────────────────────
