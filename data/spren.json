@@ -14,5 +14,45 @@
     "tipo_spren": "críptico",
     "radiante_vinculado": "shallan",
     "estado_actual": "activo"
+  },
+  {
+    "id": "auxiliar",
+    "nombre": "Auxiliar",
+    "apodo": "Aux",
+    "tipo_spren": "Altospren",
+    "radiante_vinculado": "sigzil",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "chispa",
+    "nombre": "Chispa",
+    "apodo": null,
+    "tipo_spren": "cenizaspren",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "marfil",
+    "nombre": "Marfil",
+    "apodo": "Ivory",
+    "tipo_spren": "tintasren",
+    "radiante_vinculado": "jasnah",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "testimonio",
+    "nombre": "Testimonio",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "shallan",
+    "estado_actual": "muerto"
+  },
+  {
+    "id": "wyndle",
+    "nombre": "Wyndle",
+    "apodo": null,
+    "tipo_spren": "cultivacispren",
+    "radiante_vinculado": "lift",
+    "estado_actual": "activo"
   }
 ]
