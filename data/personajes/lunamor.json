@@ -85,7 +85,7 @@
         "relacion": "hija"
       },
       {
-        "personaje": "roca (hijo)",
+        "personaje": "roca_junior",
         "relacion": "hijo"
       },
       {
@@ -97,8 +97,12 @@
         "relacion": "hija"
       },
       {
-        "personaje": "Canción Hermosa",
+        "personaje": "cancion_hermosa",
         "relacion": "hija"
+      },
+      {
+        "personaje": "kumatiki",
+        "relacion": "hijo"
       }
     ],
     "amigos": [

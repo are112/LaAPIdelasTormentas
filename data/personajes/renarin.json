@@ -126,6 +126,10 @@
       {
         "personaje": "rlain",
         "relacion": "amigo"
+      },
+      {
+        "personaje": "vasher",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [

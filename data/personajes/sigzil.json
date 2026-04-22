@@ -94,6 +94,14 @@
       {
         "personaje": "lopen",
         "relacion": "compañero en Puente Cuatro"
+      },
+      {
+        "personaje": "cikatriz",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "leyten",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [

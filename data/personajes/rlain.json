@@ -93,6 +93,18 @@
       {
         "personaje": "renarin",
         "relacion": "afinidad como Radiantes atípicos"
+      },
+      {
+        "personaje": "eshonai",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [

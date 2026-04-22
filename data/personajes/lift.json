@@ -86,6 +86,14 @@
       {
         "personaje": "szeth",
         "relacion": "aliado"
+      },
+      {
+        "personaje": "don",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "godeke",
+        "relacion": "aliado"
       }
     ],
     "enemigos": []

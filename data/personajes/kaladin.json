@@ -16,11 +16,31 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "protagonista", "pov": true },
-      { "titulo": "Palabras Radiantes",     "rol": "protagonista", "pov": true },
-      { "titulo": "Juramentada",            "rol": "protagonista", "pov": true },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "protagonista", "pov": true },
-      { "titulo": "Viento y Verdad",        "rol": "protagonista", "pov": true }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "protagonista",
+        "pov": true
+      }
     ]
   },
   "afiliaciones": [
@@ -35,12 +55,17 @@
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 4,
-    "spren_asociado": { "principal": "Sylphrena" },
+    "spren_asociado": {
+      "principal": "Sylphrena"
+    },
     "estado_del_vinculo": "Activo. Alcanzó el Quinto Ideal en Shinovar durante los eventos de Viento y Verdad. Propuesto como nuevo Heraldo del Todopoderoso en lugar de Jezrien."
   },
   "habilidades": {
     "magia": {
-      "potencias": ["Gravitación", "Adhesión"],
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
@@ -64,24 +89,106 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "Lirin",   "relacion": "padre; cirujano de Piedralar" },
-      { "personaje": "Hesina",  "relacion": "madre" },
-      { "personaje": "Tien",    "relacion": "hermano menor; su muerte en el ejército de Amaram marca a Kaladin para siempre" },
-      { "personaje": "Oroden",  "relacion": "hermano pequeño" }
+      {
+        "personaje": "Lirin",
+        "relacion": "padre; cirujano de Piedralar"
+      },
+      {
+        "personaje": "Hesina",
+        "relacion": "madre"
+      },
+      {
+        "personaje": "Tien",
+        "relacion": "hermano menor; su muerte en el ejército de Amaram marca a Kaladin para siempre"
+      },
+      {
+        "personaje": "Oroden",
+        "relacion": "hermano pequeño"
+      }
     ],
     "amigos": [
-      { "personaje": "sylphrena",  "relacion": "spren vinculada; su relación es el núcleo emocional de su arco" },
-      { "personaje": "teft",       "relacion": "amigo y mentor en el Puente Cuatro; fallecido" },
-      { "personaje": "lunamor",    "relacion": "amigo del Puente Cuatro" },
-      { "personaje": "lopen",      "relacion": "amigo del Puente Cuatro" },
-      { "personaje": "shallan",    "relacion": "aliada; tensión romántica no resuelta" },
-      { "personaje": "adolin",     "relacion": "amigo y aliado; relación de respeto mutuo" },
-      { "personaje": "dalinar",    "relacion": "figura paterna y líder; profundo respeto mutuo" },
-      { "personaje": "szeth",      "relacion": "exrival reconvertido en aliado; compañero en Shinovar en VyV" }
+      {
+        "personaje": "sylphrena",
+        "relacion": "spren vinculada; su relación es el núcleo emocional de su arco"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "amigo y mentor en el Puente Cuatro; fallecido"
+      },
+      {
+        "personaje": "lunamor",
+        "relacion": "amigo del Puente Cuatro"
+      },
+      {
+        "personaje": "lopen",
+        "relacion": "amigo del Puente Cuatro"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "aliada; tensión romántica no resuelta"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "amigo y aliado; relación de respeto mutuo"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "figura paterna y líder; profundo respeto mutuo"
+      },
+      {
+        "personaje": "szeth",
+        "relacion": "exrival reconvertido en aliado; compañero en Shinovar en VyV"
+      },
+      {
+        "personaje": "cikatriz",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "drehy",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "hoid",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "leyten",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "lyn",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "rlain",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "sigzil",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "vasher",
+        "relacion": "aliado"
+      }
     ],
     "enemigos": [
-      { "personaje": "moash", "relacion": "examigo que traicionó al Puente Cuatro y asesinó a Elhokar; antagonista personal de Kaladin" },
-      { "personaje": "leshwi","relacion": "rival honorable en combate aéreo; desarrollan respeto mutuo" }
+      {
+        "personaje": "moash",
+        "relacion": "examigo que traicionó al Puente Cuatro y asesinó a Elhokar; antagonista personal de Kaladin"
+      },
+      {
+        "personaje": "leshwi",
+        "relacion": "rival honorable en combate aéreo; desarrollan respeto mutuo"
+      }
     ]
   },
   "estado_mental": {

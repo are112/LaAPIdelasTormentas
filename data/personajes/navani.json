@@ -118,6 +118,14 @@
       {
         "personaje": "dalinar",
         "relacion": "aliado"
+      },
+      {
+        "personaje": "rushu",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [

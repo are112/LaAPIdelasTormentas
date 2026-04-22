@@ -2,7 +2,10 @@
   "id": "elhokar",
   "nombre": "Elhokar",
   "nombre_completo": "Elhokar Kholin",
-  "apodos": ["Rey Elhokar", "El Rey de las Llanuras"],
+  "apodos": [
+    "Rey Elhokar",
+    "El Rey de las Llanuras"
+  ],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "alezi",
@@ -11,9 +14,21 @@
   "estado_actual": "fallecido",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": false },
-      { "titulo": "Juramentada",            "rol": "secundario importante", "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      }
     ]
   },
   "afiliaciones": [
@@ -24,11 +39,16 @@
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "críptica (sin nombre; rescatada por Hoid tras su muerte)" },
+    "spren_asociado": {
+      "principal": "críptica (sin nombre; rescatada por Hoid tras su muerte)"
+    },
     "estado_del_vinculo": "Incompleto. Intentó pronunciar el Primer Ideal justo antes de morir sin lograrlo."
   },
   "habilidades": {
-    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
     "no_magicas": [
       "Portador de armadura y hoja esquirlada (Alzarayos)",
       "Percepción inusual: veía criaturas con formas de símbolo en Shadesmar (indicio de vínculo nasciente con spren)"
@@ -45,20 +65,50 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "gavilar",  "relacion": "padre" },
-      { "personaje": "navani",   "relacion": "madre" },
-      { "personaje": "jasnah",   "relacion": "hermana" },
-      { "personaje": "dalinar",  "relacion": "tío" },
-      { "personaje": "adolin",   "relacion": "primo" },
-      { "personaje": "renarin",  "relacion": "primo" },
-      { "personaje": "Gavinor",  "relacion": "hijo" },
-      { "personaje": "Aesudan",  "relacion": "esposa; fallecida en Kholinar" }
+      {
+        "personaje": "gavilar",
+        "relacion": "padre"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "madre"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "hermana"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "tío"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "Gavinor",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "Aesudan",
+        "relacion": "esposa; fallecida en Kholinar"
+      }
     ],
     "amigos": [
-      { "personaje": "kaladin", "relacion": "capitán de su guardia personal; relación tensa pero de respeto mutuo" }
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán de su guardia personal; relación tensa pero de respeto mutuo"
+      }
     ],
     "enemigos": [
-      { "personaje": "moash", "relacion": "lo asesina en el palacio de Kholinar" }
+      {
+        "personaje": "moash",
+        "relacion": "lo asesina en el palacio de Kholinar"
+      }
     ]
   },
   "estado_mental": {

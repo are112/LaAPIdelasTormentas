@@ -99,28 +99,44 @@
       {
         "personaje": "gavilar",
         "relacion": "tio"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "primo"
       }
     ],
     "amigos": [
       {
-        "personaje": "Kaladin",
+        "personaje": "kaladin",
         "relacion": "amigo"
       },
       {
-        "personaje": "Shallan",
+        "personaje": "shallan",
         "relacion": "amiga"
       },
       {
-        "personaje": "Navani",
+        "personaje": "navani",
         "relacion": "aliada"
       },
       {
-        "personaje": "Renarin",
+        "personaje": "renarin",
         "relacion": "aliado"
       },
       {
         "personaje": "Guardia Cobalto",
         "relacion": "compañeros"
+      },
+      {
+        "personaje": "godeke",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "vasher",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [
@@ -135,6 +151,10 @@
       {
         "personaje": "Facciones de la Coalición",
         "relacion": "enemigos"
+      },
+      {
+        "personaje": "eshonai",
+        "relacion": "enemigo"
       }
     ]
   },

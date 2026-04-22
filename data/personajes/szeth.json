@@ -109,6 +109,10 @@
       {
         "personaje": "Sangre Nocturna",
         "relacion": "espada despertada que porta; relación intensa y compleja"
+      },
+      {
+        "personaje": "lift",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [
@@ -123,6 +127,10 @@
       {
         "personaje": "nale",
         "relacion": "lo reclutó para los Rompedores del Cielo; relación de tensión"
+      },
+      {
+        "personaje": "gavilar",
+        "relacion": "enemigo"
       }
     ]
   },

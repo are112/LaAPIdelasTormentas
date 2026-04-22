@@ -79,6 +79,10 @@
       {
         "personaje": "Puente Cuatro",
         "relacion": "compañeros"
+      },
+      {
+        "personaje": "cikatriz",
+        "relacion": "aliado"
       }
     ],
     "enemigos": []

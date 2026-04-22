@@ -80,7 +80,7 @@
   "relaciones": {
     "familia": [
       {
-        "personaje": "Eshonai",
+        "personaje": "eshonai",
         "relacion": "hermana"
       }
     ],
@@ -90,8 +90,12 @@
         "relacion": "spren vinculado"
       },
       {
-        "personaje": "Rlain",
+        "personaje": "rlain",
         "relacion": "aliado entre los cantores"
+      },
+      {
+        "personaje": "leshwi",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [

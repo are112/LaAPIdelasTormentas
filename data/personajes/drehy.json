@@ -83,6 +83,10 @@
       {
         "personaje": "lopen",
         "relacion": "compañero de escuadra"
+      },
+      {
+        "personaje": "cikatriz",
+        "relacion": "aliado"
       }
     ],
     "enemigos": []

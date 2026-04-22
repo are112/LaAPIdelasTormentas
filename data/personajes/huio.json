@@ -86,6 +86,10 @@
       {
         "personaje": "roca",
         "relacion": "compañero y colaborador en cocina"
+      },
+      {
+        "personaje": "cuerda",
+        "relacion": "aliado"
       }
     ],
     "enemigos": []

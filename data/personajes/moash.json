@@ -90,6 +90,10 @@
       {
         "personaje": "kaladin",
         "relacion": "antigua amistad profunda; rota por la traición de Moash"
+      },
+      {
+        "personaje": "leshwi",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [
@@ -98,8 +102,24 @@
         "relacion": "ex amigo; relación de antagonismo irresoluble"
       },
       {
-        "personaje": "Elhokar",
+        "personaje": "elhokar",
         "relacion": "lo asesina por considerarlo responsable de la muerte de sus abuelos"
+      },
+      {
+        "personaje": "cikatriz",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "leyten",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "enemigo"
       }
     ]
   },

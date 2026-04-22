@@ -93,6 +93,14 @@
       {
         "personaje": "roca",
         "relacion": "compañero de Puente Cuatro"
+      },
+      {
+        "personaje": "leyten",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "sigzil",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [

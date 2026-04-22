@@ -16,11 +16,31 @@
   "estado_actual": "fallecido",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "principal", "pov": true },
-      { "titulo": "Palabras Radiantes",     "rol": "principal", "pov": true },
-      { "titulo": "Juramentada",            "rol": "protagonista", "pov": true },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "principal", "pov": true },
-      { "titulo": "Viento y Verdad",        "rol": "principal", "pov": true }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": true
+      }
     ]
   },
   "afiliaciones": [
@@ -34,12 +54,17 @@
   "orden_radiantes": {
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 3,
-    "spren_asociado": { "principal": "Padre Tormenta" },
+    "spren_asociado": {
+      "principal": "Padre Tormenta"
+    },
     "estado_del_vinculo": "Renunció a sus juramentos en Viento y Verdad, devolviendo la Esquirla de Honor."
   },
   "habilidades": {
     "magia": {
-      "potencias": ["Adhesión", "Tensión"],
+      "potencias": [
+        "Adhesión",
+        "Tensión"
+      ],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
@@ -63,21 +88,62 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "gavilar",  "relacion": "hermano" },
-      { "personaje": "navani",   "relacion": "segunda esposa" },
-      { "personaje": "evi",      "relacion": "primera esposa; fallecida en Rathalas" },
-      { "personaje": "adolin",   "relacion": "hijo mayor" },
-      { "personaje": "renarin",  "relacion": "hijo menor" },
-      { "personaje": "elhokar",  "relacion": "sobrino" },
-      { "personaje": "jasnah",   "relacion": "sobrina" }
+      {
+        "personaje": "gavilar",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "segunda esposa"
+      },
+      {
+        "personaje": "evi",
+        "relacion": "primera esposa; fallecida en Rathalas"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "hijo mayor"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "hijo menor"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "sobrino"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "sobrina"
+      }
     ],
     "amigos": [
-      { "personaje": "kaladin",    "relacion": "aliado y amigo de confianza" },
-      { "personaje": "szeth",      "relacion": "asesino reconvertido en guardaespaldas personal" }
+      {
+        "personaje": "kaladin",
+        "relacion": "aliado y amigo de confianza"
+      },
+      {
+        "personaje": "szeth",
+        "relacion": "asesino reconvertido en guardaespaldas personal"
+      },
+      {
+        "personaje": "hoid",
+        "relacion": "aliado"
+      }
     ],
     "enemigos": [
-      { "personaje": "taravangian","relacion": "lo traiciona; se convierte en el nuevo Odium" },
-      { "personaje": "Sadeas",     "relacion": "rival y enemigo; asesinado por Adolin" }
+      {
+        "personaje": "taravangian",
+        "relacion": "lo traiciona; se convierte en el nuevo Odium"
+      },
+      {
+        "personaje": "Sadeas",
+        "relacion": "rival y enemigo; asesinado por Adolin"
+      },
+      {
+        "personaje": "eshonai",
+        "relacion": "enemigo"
+      }
     ]
   },
   "estado_mental": {

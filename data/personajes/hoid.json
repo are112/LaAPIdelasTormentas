@@ -2,7 +2,11 @@
   "id": "hoid",
   "nombre": "Hoid",
   "nombre_completo": "Hoid",
-  "apodos": ["Sagaz", "Wit", "Viejo Pelosblanco"],
+  "apodos": [
+    "Sagaz",
+    "Wit",
+    "Viejo Pelosblanco"
+  ],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "desconocida en Roshar",
@@ -11,11 +15,31 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes",  "rol": "secundario importante", "pov": false },
-      { "titulo": "Palabras Radiantes",      "rol": "secundario",           "pov": false },
-      { "titulo": "Juramentada",             "rol": "secundario importante", "pov": true  },
-      { "titulo": "El Ritmo de la Guerra",   "rol": "secundario",           "pov": false },
-      { "titulo": "Viento y Verdad",         "rol": "secundario",           "pov": true  }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": true
+      }
     ]
   },
   "afiliaciones": [
@@ -25,12 +49,17 @@
   "orden_radiantes": {
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "críptica (rescatada de Kholinar tras la muerte de Elhokar)" },
+    "spren_asociado": {
+      "principal": "críptica (rescatada de Kholinar tras la muerte de Elhokar)"
+    },
     "estado_del_vinculo": "Activo. Pronunció el Primer Ideal en Kholinar tras rescatar la críptica de Elhokar."
   },
   "habilidades": {
     "magia": {
-      "potencias": ["Ilusión", "Transformación (como Tejedor de Luz en Roshar)"],
+      "potencias": [
+        "Ilusión",
+        "Transformación (como Tejedor de Luz en Roshar)"
+      ],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
@@ -53,10 +82,22 @@
   "relaciones": {
     "familia": [],
     "amigos": [
-      { "personaje": "kaladin",  "relacion": "le cuenta la historia del Vela Errante; mantiene una relación de guía enigmático" },
-      { "personaje": "jasnah",   "relacion": "la recibe a su salida de Shadesmar; relación de irritación mutua y respeto" },
-      { "personaje": "shallan",  "relacion": "aparece en sus recuerdos de infancia; conexión no del todo explicada" },
-      { "personaje": "dalinar",  "relacion": "ejerce influencia sutil sobre él durante su etapa como Sagaz" }
+      {
+        "personaje": "kaladin",
+        "relacion": "le cuenta la historia del Vela Errante; mantiene una relación de guía enigmático"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "la recibe a su salida de Shadesmar; relación de irritación mutua y respeto"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "aparece en sus recuerdos de infancia; conexión no del todo explicada"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "ejerce influencia sutil sobre él durante su etapa como Sagaz"
+      }
     ],
     "enemigos": []
   },

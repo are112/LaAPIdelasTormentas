@@ -110,6 +110,18 @@
       {
         "personaje": "Rua",
         "relacion": "spren vinculado"
+      },
+      {
+        "personaje": "cuerda",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "drehy",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "sigzil",
+        "relacion": "aliado"
       }
     ],
     "enemigos": []

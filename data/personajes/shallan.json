@@ -129,6 +129,14 @@
       {
         "personaje": "Patrón",
         "relacion": "spren aliado"
+      },
+      {
+        "personaje": "hoid",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [

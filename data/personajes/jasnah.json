@@ -114,6 +114,10 @@
       {
         "personaje": "shallan",
         "relacion": "amiga"
+      },
+      {
+        "personaje": "hoid",
+        "relacion": "aliado"
       }
     ],
     "enemigos": [

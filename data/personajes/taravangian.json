@@ -109,6 +109,10 @@
       {
         "personaje": "Rayse",
         "relacion": "lo mata para convertirse en el nuevo Recipiente de Odium"
+      },
+      {
+        "personaje": "szeth",
+        "relacion": "enemigo"
       }
     ]
   },
