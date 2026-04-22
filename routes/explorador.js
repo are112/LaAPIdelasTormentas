@@ -361,6 +361,22 @@ router.get("/", (req, res) => {
       border: 1px solid rgba(79,195,247,0.2);
       flex-shrink: 0;
     }
+    /* Heraldo lista — foto circular con borde dorado estático */
+    .item-avatar-heraldo {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      overflow: hidden;
+      flex-shrink: 0;
+      border: 2px solid #c8922a;
+      box-shadow: 0 0 6px rgba(200,146,42,0.5);
+    }
+    .item-avatar-heraldo img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center 10%;
+      filter: sepia(0.3) contrast(1.1) brightness(1.0);
+      display: block;
+    }
     .item-info { flex: 1; min-width: 0; }
     .item-nombre {
       font-size: 0.95rem;
@@ -451,6 +467,40 @@ router.get("/", (req, res) => {
       flex-shrink: 0;
       box-shadow: 0 0 20px rgba(79,195,247,0.15);
     }
+    /* Heraldo ficha grande — anillo dorado giratorio */
+    .ficha-avatar-heraldo {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      position: relative;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .ring-l {
+      position: absolute;
+      inset: -3px;
+      border-radius: 50%;
+      background: conic-gradient(#f0c040 0deg, #c8922a 120deg, transparent 180deg, #f0c040 360deg);
+      animation: girar-heraldo 4s linear infinite;
+      z-index: 0;
+    }
+    .ring-l-inner {
+      position: absolute;
+      inset: 2px;
+      border-radius: 50%;
+      background: var(--azul-profundo, #0d1f3c);
+      z-index: 1;
+    }
+    .ficha-avatar-heraldo img {
+      position: relative;
+      width: 72px; height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 10%;
+      filter: sepia(0.3) contrast(1.1) brightness(1.0);
+      z-index: 2;
+      display: block;
+    }
+    @keyframes girar-heraldo { to { transform: rotate(360deg); } }
     .ficha-titulo h2 {
       font-family: 'Cinzel Decorative', serif;
       font-size: clamp(1.2rem, 3vw, 1.8rem);
