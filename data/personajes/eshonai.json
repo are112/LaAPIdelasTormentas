@@ -3,39 +3,59 @@
   "nombre": "Eshonai",
   "nombre_completo": "Eshonai",
   "apodos": [],
-
   "sexo": "femenino",
   "especie": "cantor",
   "nacionalidad": "oyente",
   "origen": "Llanuras Quebradas",
   "planeta_natal": "Roshar",
   "estado_actual": "fallecida",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "principal",             "pov": true  },
-      { "titulo": "Juramentada",            "rol": "secundario",            "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante", "pov": true  },
-      { "titulo": "Viento y Verdad",        "rol": "secundario",            "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
     ]
   },
-
   "afiliaciones": [
     "oyentes",
     "Consejo de los Cinco"
   ],
-
   "orden_radiantes": {
     "orden": "Escultores de Voluntad",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "timbre" },
+    "spren_asociado": {
+      "principal": "timbre"
+    },
     "estado_del_vinculo": "vinculo iniciado antes de su muerte"
   },
-
   "habilidades": {
     "magia": {
-      "potencias": ["Transporte", "Cohesión"],
+      "potencias": [
+        "Transporte",
+        "Cohesión"
+      ],
       "fuente_de_luz": "Luz tormentosa"
     },
     "no_magicas": [
@@ -45,7 +65,6 @@
       "cambio de forma cantor"
     ]
   },
-
   "identidades": {
     "principales": [
       "exploradora de los oyentes",
@@ -55,27 +74,39 @@
     "descripcion": "Eshonai fue una de las líderes más influyentes de los oyentes durante la Guerra de la Venganza contra Alezkar. Curiosa por naturaleza, disfrutaba explorando las Llanuras Quebradas y estudiando a los humanos. Su adopción de la forma tormenta alteró profundamente su personalidad y contribuyó a la escalada del conflicto con los alezi.",
     "estado_en_viento_y_verdad": "fallecida; su historia continúa influyendo en Venli y en el destino de los cantores"
   },
-
   "relaciones": {
     "familia": [
-      { "personaje": "venli",  "relacion": "hermana" },
-      { "personaje": "jaxlim", "relacion": "madre" }
+      {
+        "personaje": "venli",
+        "relacion": "hermana"
+      },
+      {
+        "personaje": "jaxlim",
+        "relacion": "madre"
+      }
     ],
     "amigos": [
-      { "personaje": "rlain", "relacion": "aliado entre los oyentes" }
+      {
+        "personaje": "rlain",
+        "relacion": "aliado entre los oyentes"
+      }
     ],
     "enemigos": [
-      { "personaje": "dalinar", "relacion": "enemigo durante la Guerra de la Venganza" },
-      { "personaje": "adolin",  "relacion": "oponente en combate en Narak" }
+      {
+        "personaje": "dalinar",
+        "relacion": "enemigo durante la Guerra de la Venganza"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "oponente en combate en Narak"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "mente estable como oyente tradicional; alterada tras adoptar la forma tormenta",
     "evolucion": "comenzó como una exploradora curiosa y reflexiva; la influencia de la forma tormenta incrementó su agresividad y beligerancia",
     "situacion_en_viento_y_verdad": "fallecida; su legado influye en la evolución de Venli y los cantores"
   },
-
   "arco_narrativo": {
     "resumen": "Eshonai fue una exploradora y líder oyente que inicialmente buscaba comprender a los humanos y el mundo exterior. Con el estallido de la Guerra de la Venganza asumió el liderazgo militar de su pueblo. La adopción de la forma tormenta la empujó hacia una postura más agresiva contra Alezkar. Murió durante la Batalla de Narak, cuando cayó a un abismo mientras combatía contra Adolin Kholin.",
     "puntos_clave": [
@@ -87,14 +118,12 @@
       "inicio de un vínculo con el spren Timbre"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "antigua líder militar de los oyentes",
     "rol": "figura histórica clave para los cantores",
     "relacion_con_spren": "estableció un vínculo incipiente con Timbre antes de morir",
     "otros_detalles": "su legado influye directamente en el desarrollo de Venli como Radiante"
   },
-
   "descripcion_breve": "Líder oyente y exploradora de las Llanuras Quebradas que comandó a su pueblo durante la Guerra de la Venganza contra Alezkar.",
   "notas": "Eshonai inició un vínculo con Timbre poco antes de su muerte, lo que la habría convertido en Escultora de Voluntad si hubiese sobrevivido."
 }

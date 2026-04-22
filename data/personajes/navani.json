@@ -2,41 +2,64 @@
   "id": "navani",
   "nombre": "Navani",
   "nombre_completo": "Navani Kholin",
-  "apodos": ["Voz de las Luces"],
+  "apodos": [
+    "Voz de las Luces"
+  ],
   "sexo": "femenino",
-  "especie": "humana",
+  "especie": "humano",
   "nacionalidad": "alezi",
   "origen": "Alezkar",
   "planeta_natal": "Roshar",
   "estado_actual": "viva",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El camino de los reyes", "rol": "secundario", "pov": true },
-      { "titulo": "Palabras radiantes",     "rol": "secundario", "pov": true },
-      { "titulo": "Juramentada",            "rol": "secundario", "pov": true },
-      { "titulo": "El ritmo de la guerra",  "rol": "principal",  "pov": true },
-      { "titulo": "Viento y verdad",        "rol": "principal",  "pov": true }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": true
+      }
     ]
   },
-
   "afiliaciones": [
     "Casa Kholin",
     "Monarquía de Alezkar",
     "Caballeros Radiantes",
     "Artifabrianos de Urithiru"
   ],
-
   "orden_radiantes": {
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 1,
-    "spren_asociado": { "principal": "El Hermano" },
+    "spren_asociado": {
+      "principal": "El Hermano"
+    },
     "estado_del_vinculo": "activo"
   },
-
   "habilidades": {
     "magia": {
-      "potencias": ["Adhesión", "Tensión"],
+      "potencias": [
+        "Adhesión",
+        "Tensión"
+      ],
       "fuente_de_luz": "Luz tormentosa"
     },
     "no_magicas": [
@@ -47,39 +70,72 @@
       "estrategia logística"
     ]
   },
-
   "identidades": {
-    "principales": ["reina de Alezkar", "artifabriana", "Forjadora de Vínculos"],
+    "principales": [
+      "reina de Alezkar",
+      "artifabriana",
+      "Forjadora de Vínculos"
+    ],
     "descripcion": "Erudita y científica alezi, reconocida por su liderazgo en el desarrollo de fabriales y por su papel clave en los avances científicos durante la guerra contra Odium.",
     "estado_en_viento_y_verdad": "Continúa como Forjadora de Vínculos vinculada al Hermano y una de las principales líderes de Urithiru."
   },
-
   "relaciones": {
     "familia": [
-      { "personaje": "gavilar", "relacion": "esposo" },
-      { "personaje": "dalinar", "relacion": "esposo" },
-      { "personaje": "jasnah",  "relacion": "hija"   },
-      { "personaje": "elhokar", "relacion": "hijo"   },
-      { "personaje": "gavinor", "relacion": "nieto"  },
-      { "personaje": "adolin",  "relacion": "sobrino" },
-      { "personaje": "renarin", "relacion": "sobrino" }
+      {
+        "personaje": "gavilar",
+        "relacion": "esposo"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "esposo"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "hija"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "gavinor",
+        "relacion": "nieto"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "sobrino"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "sobrino"
+      }
     ],
     "amigos": [
-      { "personaje": "rabeniel", "relacion": "aliada" },
-      { "personaje": "dalinar",  "relacion": "aliado" }
+      {
+        "personaje": "rabeniel",
+        "relacion": "aliada"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado"
+      }
     ],
     "enemigos": [
-      { "personaje": "Odium", "relacion": "enemigo" },
-      { "personaje": "moash", "relacion": "enemigo" }
+      {
+        "personaje": "Odium",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "moash",
+        "relacion": "enemigo"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "mente analítica y resiliente",
     "evolucion": "pasa de ser una noble influyente a una científica líder y finalmente a una Caballera Radiante con un papel crucial en la defensa de Urithiru.",
     "situacion_en_viento_y_verdad": "estable y decidida, centrada en el desarrollo científico y la lucha contra Odium."
   },
-
   "arco_narrativo": {
     "resumen": "Navani comienza como reina viuda y mecenas de la investigación fabrial, pero con el tiempo se convierte en una de las principales científicas de Roshar. Durante el asedio de Urithiru colabora con Rabeniel en experimentos sobre las Luces y descubre la antiluz. Finalmente forma un vínculo Nahel con el Hermano, convirtiéndose en Forjadora de Vínculos.",
     "puntos_clave": [
@@ -90,14 +146,12 @@
       "vínculo con el Hermano"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "reina de Alezkar y científica",
     "rol": "Forjadora de Vínculos y líder en Urithiru",
     "relacion_con_spren": "vínculo Nahel activo con el Hermano",
     "otros_detalles": "figura central en la investigación de las Luces y en el desarrollo tecnológico de los fabriales."
   },
-
   "descripcion_breve": "Navani Kholin es una reina alezi, científica y artifabriana brillante que acaba convirtiéndose en Forjadora de Vínculos al formar un vínculo Nahel con el Hermano.",
   "notas": "Personaje clave en la revolución científica de Roshar y en el descubrimiento de la antiluz."
 }

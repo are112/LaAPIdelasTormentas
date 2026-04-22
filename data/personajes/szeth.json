@@ -2,42 +2,65 @@
   "id": "szeth",
   "nombre": "Szeth",
   "nombre_completo": "Szeth-hijo-hijo-Vallano",
-  "apodos": ["Asesino de Blanco", "Sin Verdad"],
-
+  "apodos": [
+    "Asesino de Blanco",
+    "Sin Verdad"
+  ],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "shin",
   "origen": "Shinovar",
   "planeta_natal": "Roshar",
   "estado_actual": "vivo",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El camino de los reyes", "rol": "Personaje principal",   "pov": true },
-      { "titulo": "Palabras radiantes",     "rol": "Personaje importante", "pov": true },
-      { "titulo": "Juramentada",            "rol": "Personaje secundario", "pov": false },
-      { "titulo": "El ritmo de la guerra",  "rol": "Personaje secundario", "pov": false },
-      { "titulo": "Viento y verdad",        "rol": "Personaje importante", "pov": true }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario importante",
+        "pov": true
+      }
     ]
   },
-
   "afiliaciones": [
     "Shinovar",
     "Rompedores del Cielo",
     "Caballeros Radiantes",
     "Seguidores de Dalinar Kholin"
   ],
-
   "orden_radiantes": {
     "orden": "Rompedores del Cielo",
     "nivel_ideal": 4,
-    "spren_asociado": { "principal": "12124" },
+    "spren_asociado": {
+      "principal": "12124"
+    },
     "estado_del_vinculo": "Roto"
   },
-
   "habilidades": {
     "magia": {
-      "potencias": ["Gravitación", "División"],
+      "potencias": [
+        "Gravitación",
+        "División"
+      ],
       "fuente_de_luz": "Luz tormentosa"
     },
     "no_magicas": [
@@ -47,7 +70,6 @@
       "Dominio de hojas esquirladas"
     ]
   },
-
   "identidades": {
     "principales": [
       "Sin Verdad",
@@ -59,29 +81,47 @@
     "descripcion": "Szeth fue declarado Sin Verdad por los líderes de Shinovar, lo que lo obligó a obedecer a cualquiera que poseyera su Juramento de Piedra. Durante años fue utilizado como asesino por distintos amos mientras portaba la Hoja de Honor de Jezrien, que le permitía usar la Gravitación. Tras su muerte a manos de Kaladin fue resucitado por Nale y posteriormente se convirtió en miembro de los Rompedores del Cielo.",
     "estado_en_viento_y_verdad": "Busca redención por los asesinatos cometidos bajo coacción mientras se enfrenta a su pasado en Shinovar."
   },
-
   "relaciones": {
     "familia": [
-      { "personaje": "neturo-hijo-vallano", "relacion": "padre" },
-      { "personaje": "zeenid-hija-beth",   "relacion": "madre" },
-      { "personaje": "elid-hija-neturo",   "relacion": "hermana" }
+      {
+        "personaje": "neturo-hijo-vallano",
+        "relacion": "padre"
+      },
+      {
+        "personaje": "zeenid-hija-beth",
+        "relacion": "madre"
+      },
+      {
+        "personaje": "elid-hija-neturo",
+        "relacion": "hermana"
+      }
     ],
     "amigos": [
-      { "personaje": "kaladin", "relacion": "aliado" },
-      { "personaje": "dalinar", "relacion": "aliado" }
+      {
+        "personaje": "kaladin",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado"
+      }
     ],
     "enemigos": [
-      { "personaje": "taravangian",          "relacion": "enemigo" },
-      { "personaje": "portadores-del-vacio", "relacion": "enemigos" }
+      {
+        "personaje": "taravangian",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "portadores-del-vacio",
+        "relacion": "enemigos"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "Profunda culpa y trauma psicológico derivados de los asesinatos que se vio obligado a cometer.",
     "evolucion": "Pasa de una obediencia fatalista y resignada a buscar justicia y redención personal.",
     "situacion_en_viento_y_verdad": "Enfrenta su pasado en Shinovar y trata de reconciliar sus acciones pasadas con su búsqueda de justicia."
   },
-
   "arco_narrativo": {
     "resumen": "Szeth comienza como el temido Asesino de Blanco, obligado a obedecer a cualquiera que posea su Juramento de Piedra tras ser declarado Sin Verdad. Tras su muerte a manos de Kaladin fue resucitado por Nale e incorporado a los Rompedores del Cielo. Desde entonces busca justicia y redención.",
     "puntos_clave": [
@@ -97,14 +137,12 @@
       "Viaje a Shinovar para enfrentarse a su pasado"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "Caballero Radiante",
     "rol": "Rompedor del Cielo",
     "relacion_con_spren": "Vínculo roto con el altospren",
     "otros_detalles": "Antiguo portador de la Hoja de Honor de Jezrien y actual portador de Sangre Nocturna."
   },
-
   "descripcion_breve": "Szeth-hijo-hijo-Vallano es un shin conocido como el Asesino de Blanco. Obligado durante años a servir como asesino, más tarde se une a los Rompedores del Cielo en busca de justicia y redención.",
   "notas": "Szeth es el segundo hijo de Neturo-hijo-Vallano y Zeenid-hija-Beth."
 }

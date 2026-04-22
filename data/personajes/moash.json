@@ -17,7 +17,7 @@
     "libros": [
       {
         "titulo": "El Camino de los Reyes",
-        "rol": "secundario relevante",
+        "rol": "secundario importante",
         "pov": false
       },
       {
@@ -27,17 +27,17 @@
       },
       {
         "titulo": "Juramentada",
-        "rol": "secundario relevante",
+        "rol": "secundario importante",
         "pov": false
       },
       {
         "titulo": "El Ritmo de la Guerra",
-        "rol": "antagonista",
+        "rol": "secundario importante",
         "pov": false
       },
       {
         "titulo": "Viento y Verdad",
-        "rol": "antagonista",
+        "rol": "secundario importante",
         "pov": false
       }
     ]

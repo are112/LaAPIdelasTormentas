@@ -23,22 +23,22 @@
       },
       {
         "titulo": "Palabras Radiantes",
-        "rol": "secundario relevante",
+        "rol": "secundario importante",
         "pov": true
       },
       {
         "titulo": "Juramentada",
-        "rol": "antagonista",
+        "rol": "secundario importante",
         "pov": true
       },
       {
         "titulo": "El Ritmo de la Guerra",
-        "rol": "antagonista principal",
+        "rol": "principal",
         "pov": true
       },
       {
         "titulo": "Viento y Verdad",
-        "rol": "antagonista principal",
+        "rol": "principal",
         "pov": true
       }
     ]

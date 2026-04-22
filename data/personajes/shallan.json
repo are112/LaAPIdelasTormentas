@@ -2,24 +2,46 @@
   "id": "shallan",
   "nombre": "Shallan",
   "nombre_completo": "Shallan Davar",
-  "apodos": ["LuzdeSol", "Velo", "Radiante"],
+  "apodos": [
+    "LuzdeSol",
+    "Velo",
+    "Radiante"
+  ],
   "sexo": "femenino",
   "especie": "humano",
   "nacionalidad": "veden",
   "origen": "Jah Keved",
   "planeta_natal": "Roshar",
   "estado_actual": "viva",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundaria",   "pov": true },
-      { "titulo": "Palabras Radiantes",     "rol": "protagonista", "pov": true },
-      { "titulo": "Juramentada",            "rol": "protagonista", "pov": true },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "protagonista", "pov": true },
-      { "titulo": "Viento y Verdad",        "rol": "protagonista", "pov": true }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "protagonista",
+        "pov": true
+      }
     ]
   },
-
   "afiliaciones": [
     "Casa Davar",
     "Caballeros Radiantes",
@@ -29,18 +51,21 @@
     "Coalición de Urithiru",
     "Sangre Espectral (infiltración)"
   ],
-
   "orden_radiantes": {
     "orden": "Tejedores de Luz",
     "nivel_ideal": 4,
-    "spren_asociado": { "principal": "Patrón" },
+    "spren_asociado": {
+      "principal": "Patrón"
+    },
     "spren_anterior": "Testimonio",
     "estado_del_vinculo": "complejo pero funcional"
   },
-
   "habilidades": {
     "magia": {
-      "potencias": ["Iluminación", "Transformación"],
+      "potencias": [
+        "Iluminación",
+        "Transformación"
+      ],
       "fuente_de_luz": "Luz tormentosa"
     },
     "no_magicas": [
@@ -52,40 +77,76 @@
       "investigación"
     ]
   },
-
   "identidades": {
-    "principales": ["Shallan", "Velo", "Radiante"],
+    "principales": [
+      "Shallan",
+      "Velo",
+      "Radiante"
+    ],
     "descripcion": "Identidades creadas como mecanismo de supervivencia y herramientas funcionales para misiones de infiltración.",
     "estado_en_viento_y_verdad": "proceso de integración y aceptación parcial"
   },
-
   "relaciones": {
     "familia": [
-      { "personaje": "lin_davar",       "relacion": "padre"   },
-      { "personaje": "malise_gevelmar", "relacion": "madre"   },
-      { "personaje": "helaran",         "relacion": "hermano" },
-      { "personaje": "balat",           "relacion": "hermano" },
-      { "personaje": "wikim",           "relacion": "hermano" },
-      { "personaje": "jushu",           "relacion": "hermano" }
+      {
+        "personaje": "lin_davar",
+        "relacion": "padre"
+      },
+      {
+        "personaje": "malise_gevelmar",
+        "relacion": "madre"
+      },
+      {
+        "personaje": "helaran",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "balat",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "wikim",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "jushu",
+        "relacion": "hermano"
+      }
     ],
     "amigos": [
-      { "personaje": "adolin",  "relacion": "esposo" },
-      { "personaje": "kaladin", "relacion": "amigo"  },
-      { "personaje": "navani",  "relacion": "aliada" },
-      { "personaje": "Patrón",  "relacion": "spren aliado" }
+      {
+        "personaje": "adolin",
+        "relacion": "esposo"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "amigo"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "aliada"
+      },
+      {
+        "personaje": "Patrón",
+        "relacion": "spren aliado"
+      }
     ],
     "enemigos": [
-      { "personaje": "mraize",           "relacion": "enemigo" },
-      { "personaje": "Sangre Espectral", "relacion": "enemigos" }
+      {
+        "personaje": "mraize",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "Sangre Espectral",
+        "relacion": "enemigos"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "trastorno disociativo con identidades funcionales",
     "evolucion": "oscilante, con avances significativos en integración",
     "situacion_en_viento_y_verdad": "mayor aceptación de su pasado y de sus identidades"
   },
-
   "arco_narrativo": {
     "resumen": "Shallan pasa de ser una joven noble traumatizada a una espía maestra, Caballera Radiante y figura clave en la lucha contra la Sangre Espectral.",
     "puntos_clave": [
@@ -98,14 +159,12 @@
       "proceso de integración emocional en Viento y Verdad"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "espía e investigadora para la Coalición de Urithiru",
     "rol": "agente clave contra la Sangre Espectral",
     "relacion_con_spren": "vínculo Nahel con Patrón",
     "otros_detalles": "fuerte vínculo emocional y operativo con Adolin"
   },
-
   "descripcion_breve": "Caballera Radiante de los Tejedores de Luz, espía experta y artista con memoria perfecta.",
   "notas": "Uno de los personajes más complejos psicológicamente de la saga, con un arco centrado en la identidad, el trauma y la verdad."
 }

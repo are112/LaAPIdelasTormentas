@@ -2,35 +2,67 @@
   "id": "jasnah",
   "nombre": "Jasnah",
   "nombre_completo": "Jasnah Kholin",
-  "apodos": ["Reina de Alezkar", "Erudita de la Casa Kholin"],
+  "apodos": [
+    "Reina de Alezkar",
+    "Erudita de la Casa Kholin"
+  ],
   "sexo": "femenino",
-  "especie": "humana",
+  "especie": "humano",
   "nacionalidad": "alezi",
   "origen": "Alezkar",
   "planeta_natal": "Roshar",
   "estado_actual": "viva",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El camino de los reyes", "rol": "Personaje principal",  "pov": true },
-      { "titulo": "Palabras radiantes",     "rol": "Personaje principal",  "pov": true },
-      { "titulo": "Juramentada",            "rol": "Personaje secundario", "pov": false },
-      { "titulo": "El ritmo de la guerra",  "rol": "Personaje secundario", "pov": false },
-      { "titulo": "Viento y verdad",        "rol": "Personaje secundario", "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
     ]
   },
-
-  "afiliaciones": ["Casa Kholin", "Alezkar", "Veristitalianos", "Eruditos de Roshar"],
-
+  "afiliaciones": [
+    "Casa Kholin",
+    "Alezkar",
+    "Veristitalianos",
+    "Eruditos de Roshar"
+  ],
   "orden_radiantes": {
     "orden": "Nominadores de Lo Otro",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "marfil" },
+    "spren_asociado": {
+      "principal": "marfil"
+    },
     "estado_del_vinculo": "Activo"
   },
-
   "habilidades": {
-    "magia": { "potencias": ["Transformación", "Transportación (Nominación)"], "fuente_de_luz": "Luz tormentosa" },
+    "magia": {
+      "potencias": [
+        "Transformación",
+        "Transportación (Nominación)"
+      ],
+      "fuente_de_luz": "Luz tormentosa"
+    },
     "no_magicas": [
       "Gran erudición y conocimiento de los libros antiguos",
       "Capacidad estratégica y diplomática",
@@ -38,38 +70,68 @@
       "Denuncia del vorinismo"
     ]
   },
-
   "identidades": {
-    "principales": ["Reina de Alezkar", "Erudita de la Casa Kholin", "Potenciadora y Nominadora de Lo Otro"],
+    "principales": [
+      "Reina de Alezkar",
+      "Erudita de la Casa Kholin",
+      "Potenciadora y Nominadora de Lo Otro"
+    ],
     "descripcion": "Jasnah Kholin es la Reina de Alezkar, erudita y poderosa Nominadora de Lo Otro, capaz de usar las Potencias de Transformación y Transportación. Es ampliamente conocida por su brillantez intelectual y su crítica al vorinismo. Actúa como tutora de Shallan Davar y miembro de los Veristitalianos, dedicados a preservar y reconstruir relatos históricos veraces.",
     "estado_en_viento_y_verdad": "Activa en política y magia, ejerciendo como reina y defensora de la historia real, mientras guía a los nuevos héroes y lucha contra Odium."
   },
-
   "relaciones": {
     "familia": [
-      { "personaje": "gavilar", "relacion": "padre" },
-      { "personaje": "navani",  "relacion": "madre" },
-      { "personaje": "elhokar", "relacion": "hermano" },
-      { "personaje": "gavinor", "relacion": "sobrino" },
-      { "personaje": "adolin",  "relacion": "primo" },
-      { "personaje": "renarin", "relacion": "primo" },
-      { "personaje": "dalinar", "relacion": "tio" }
+      {
+        "personaje": "gavilar",
+        "relacion": "padre"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "madre"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "gavinor",
+        "relacion": "sobrino"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "tio"
+      }
     ],
     "amigos": [
-      { "personaje": "shallan", "relacion": "amiga" }
+      {
+        "personaje": "shallan",
+        "relacion": "amiga"
+      }
     ],
     "enemigos": [
-      { "personaje": "taravangian",           "relacion": "enemigo" },
-      { "personaje": "portadores-del-vacio",  "relacion": "enemigos" }
+      {
+        "personaje": "taravangian",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "portadores-del-vacio",
+        "relacion": "enemigos"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "Altamente racional y centrada, con fuertes convicciones morales y éticas.",
     "evolucion": "De erudita aislada a reina activa y estratega central de Alezkar.",
     "situacion_en_viento_y_verdad": "Guía a sus aliados y pupilos mientras enfrenta desafíos políticos y mágicos, manteniendo su posición como Reina de Alezkar."
   },
-
   "arco_narrativo": {
     "resumen": "Jasnah Kholin combina su rol de reina con sus habilidades mágicas como Nominadora. Inicialmente centrada en la erudición, se involucra activamente en la política y la lucha contra Odium, ejerciendo influencia sobre sus familiares y pupilos.",
     "puntos_clave": [
@@ -85,14 +147,12 @@
       "Denuncia del vorinismo"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "Reina de Alezkar y erudita",
     "rol": "Figura política y mágica central",
     "relacion_con_spren": "Vínculo Nahel activo con Marfil (tintaspren)",
     "otros_detalles": "Miembro de los Veristitalianos y tutora de Shallan Davar."
   },
-
   "descripcion_breve": "Jasnah Kholin es la Reina de Alezkar, erudita y poderosa Nominadora de Lo Otro, destacada por su inteligencia, capacidades sobrehumanas bajo luz tormentosa y denuncia del vorinismo.",
   "notas": "Jasnah es hija del difunto rey Gavilar y de Navani, hermana de Elhokar, tía del heredero Gavinor y prima de Adolin y Renarin. Es miembro de los Veristitalianos y tutora de Shallan Davar."
 }

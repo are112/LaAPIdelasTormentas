@@ -3,40 +3,60 @@
   "nombre": "Sigzil",
   "nombre_completo": "Sigzil",
   "apodos": [],
-
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "Azish",
   "origen": "Azir",
   "planeta_natal": "Roshar",
   "estado_actual": "vivo",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario", "pov": false },
-      { "titulo": "Palabras Radiantes", "rol": "secundario", "pov": false },
-      { "titulo": "Juramentada", "rol": "secundario", "pov": false },
-      { "titulo": "El Ritmo de la Guerra", "rol": "secundario importante", "pov": false },
-      { "titulo": "Viento y Verdad", "rol": "secundario importante", "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario importante",
+        "pov": false
+      }
     ]
   },
-
   "afiliaciones": [
     "Puente Cuatro",
     "Corredores del Viento",
     "Ejército de Dalinar Kholin"
   ],
-
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "spren_asociado": { "principal": "Vienta" },
+    "spren_asociado": {
+      "principal": "Vienta"
+    },
     "estado_del_vinculo": "roto"
   },
-
   "habilidades": {
     "magia": {
-      "potencias": ["Gravitación", "Adhesión"],
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
       "fuente_de_luz": "Luz tormentosa"
     },
     "no_magicas": [
@@ -47,7 +67,6 @@
       "Experiencia militar básica en Puente Cuatro"
     ]
   },
-
   "identidades": {
     "principales": [
       "Miembro de Puente Cuatro",
@@ -57,27 +76,42 @@
     "descripcion": "Sigzil es un azish culto y disciplinado que pasa de mensajero y aprendiz a esclavo, y posteriormente a miembro clave de Puente Cuatro, donde actúa como escriba y apoyo estratégico.",
     "estado_en_viento_y_verdad": "consolidado como miembro veterano de Puente Cuatro y figura de apoyo intelectual dentro de los Corredores del Viento"
   },
-
   "relaciones": {
     "familia": [],
     "amigos": [
-      { "personaje": "kaladin", "relacion": "líder directo y figura de referencia" },
-      { "personaje": "teft", "relacion": "compañero en Puente Cuatro" },
-      { "personaje": "roca", "relacion": "compañero en Puente Cuatro" },
-      { "personaje": "lopen", "relacion": "compañero en Puente Cuatro" }
+      {
+        "personaje": "kaladin",
+        "relacion": "líder directo y figura de referencia"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "compañero en Puente Cuatro"
+      },
+      {
+        "personaje": "roca",
+        "relacion": "compañero en Puente Cuatro"
+      },
+      {
+        "personaje": "lopen",
+        "relacion": "compañero en Puente Cuatro"
+      }
     ],
     "enemigos": [
-      { "personaje": "odium", "relacion": "enemigo global" },
-      { "personaje": "cantores", "relacion": "enemigos en guerra" }
+      {
+        "personaje": "odium",
+        "relacion": "enemigo global"
+      },
+      {
+        "personaje": "cantores",
+        "relacion": "enemigos en guerra"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "estable, con fuerte sentido del deber",
     "evolucion": "pasa de individuo reservado y observador a miembro integrado en Puente Cuatro con fuerte lealtad al grupo",
     "situacion_en_viento_y_verdad": "mentalmente firme y plenamente adaptado a su rol dentro de la guerra"
   },
-
   "arco_narrativo": {
     "resumen": "Sigzil evoluciona de mensajero azish y erudito a esclavo, para finalmente integrarse en Puente Cuatro y convertirse en un apoyo clave como escriba y escudero de los Corredores del Viento.",
     "puntos_clave": [
@@ -88,14 +122,12 @@
       "Participación como escudero de los Corredores del Viento"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "escriba y soldado",
     "rol": "apoyo logístico e intelectual en Puente Cuatro",
     "relacion_con_spren": "vínculo Nahel con Vienta hasta su rotura",
     "otros_detalles": "destaca por su conocimiento y disciplina dentro del grupo"
   },
-
   "descripcion_breve": "Azish erudito y disciplinado, miembro de Puente Cuatro que actúa como escriba y escudero de los Corredores del Viento.",
   "notas": ""
 }

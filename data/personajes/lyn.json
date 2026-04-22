@@ -4,27 +4,40 @@
   "nombre_completo": "Lyn",
   "apodos": [],
   "sexo": "femenino",
-  "especie": "humana",
+  "especie": "humano",
   "nacionalidad": "alezi",
   "origen": "Alezkar",
   "planeta_natal": "Roshar",
   "estado_actual": "viva",
-
   "apariciones": {
     "libros": [
-      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false  },
-      { "titulo": "Juramentada",           "rol": "secundario", "pov": false },
-      { "titulo": "El Ritmo de la Guerra", "rol": "secundario", "pov": false },
-      { "titulo": "Viento y Verdad",       "rol": "secundario", "pov": false }
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
     ]
   },
-
   "afiliaciones": [
     "Puente Cuatro",
     "Ejército de Kholin",
     "Caballeros Radiantes"
   ],
-
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
@@ -33,10 +46,12 @@
     },
     "estado_del_vinculo": "activo"
   },
-
   "habilidades": {
     "magia": {
-      "potencias": ["Gravitación", "Adhesión"],
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
       "fuente_de_luz": "Luz tormentosa"
     },
     "no_magicas": [
@@ -45,7 +60,6 @@
       "mensajería"
     ]
   },
-
   "identidades": {
     "principales": [
       "exploradora",
@@ -55,22 +69,25 @@
     "descripcion": "Exploradora alezi que se une a Puente Cuatro y posteriormente se convierte en Caballera Radiante.",
     "estado_en_viento_y_verdad": "activa como Corredora del Viento"
   },
-
   "relaciones": {
     "familia": [],
     "amigos": [
-      { "personaje": "kaladin", "relacion": "expareja" },
-      { "personaje": "Puente Cuatro", "relacion": "compañeros" }
+      {
+        "personaje": "kaladin",
+        "relacion": "expareja"
+      },
+      {
+        "personaje": "Puente Cuatro",
+        "relacion": "compañeros"
+      }
     ],
     "enemigos": []
   },
-
   "estado_mental": {
     "diagnostico_general": "estable",
     "evolucion": "pasa de exploradora a integrante comprometida de los Corredores del Viento",
     "situacion_en_viento_y_verdad": "estable y funcional dentro del grupo"
   },
-
   "arco_narrativo": {
     "resumen": "Lyn comienza como exploradora del ejército alezi, se une a Puente Cuatro y progresa hasta convertirse en Corredora del Viento durante la guerra contra los cantores.",
     "puntos_clave": [
@@ -80,14 +97,12 @@
       "Participa en conflictos de la Verdadera Desolación"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "Caballera Radiante",
     "rol": "miembro de los Corredores del Viento",
     "relacion_con_spren": "vínculo activo (spren no especificado)",
     "otros_detalles": "participa en operaciones militares junto a Puente Cuatro"
   },
-
   "descripcion_breve": "Exploradora alezi y miembro de Puente Cuatro que asciende a Corredora del Viento.",
   "notas": "Artículo parcialmente traducido en Coppermind; algunos detalles específicos no están completamente definidos."
 }

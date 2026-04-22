@@ -2,7 +2,10 @@
   "id": "adolin",
   "nombre": "Adolin",
   "nombre_completo": "Adolin Kholin",
-  "apodos": ["Príncipe Adolin", "El Duelo Viviente"],
+  "apodos": [
+    "Príncipe Adolin",
+    "El Duelo Viviente"
+  ],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "alezi",
@@ -11,11 +14,31 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": true  },
-      { "titulo": "Juramentada",             "rol": "principal",             "pov": true  },
-      { "titulo": "El Ritmo de la Guerra",   "rol": "principal",             "pov": true  },
-      { "titulo": "Viento y Verdad",         "rol": "principal",             "pov": true  }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": true
+      }
     ]
   },
   "afiliaciones": [
@@ -57,23 +80,62 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "dalinar",  "relacion": "padre"   },
-      { "personaje": "evi",      "relacion": "madre"   },
-      { "personaje": "renarin",  "relacion": "hermano" },
-      { "personaje": "shallan",  "relacion": "esposa"  },
-      { "personaje": "gavilar",  "relacion": "tio"     }
+      {
+        "personaje": "dalinar",
+        "relacion": "padre"
+      },
+      {
+        "personaje": "evi",
+        "relacion": "madre"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "esposa"
+      },
+      {
+        "personaje": "gavilar",
+        "relacion": "tio"
+      }
     ],
     "amigos": [
-      { "personaje": "Kaladin",         "relacion": "amigo"      },
-      { "personaje": "Shallan",         "relacion": "amiga"      },
-      { "personaje": "Navani",          "relacion": "aliada"     },
-      { "personaje": "Renarin",         "relacion": "aliado"     },
-      { "personaje": "Guardia Cobalto", "relacion": "compañeros" }
+      {
+        "personaje": "Kaladin",
+        "relacion": "amigo"
+      },
+      {
+        "personaje": "Shallan",
+        "relacion": "amiga"
+      },
+      {
+        "personaje": "Navani",
+        "relacion": "aliada"
+      },
+      {
+        "personaje": "Renarin",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "Guardia Cobalto",
+        "relacion": "compañeros"
+      }
     ],
     "enemigos": [
-      { "personaje": "Sadeas",                  "relacion": "enemigo"  },
-      { "personaje": "Altaesferas enemistadas", "relacion": "enemigos" },
-      { "personaje": "Facciones de la Coalición", "relacion": "enemigos" }
+      {
+        "personaje": "Sadeas",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "Altaesferas enemistadas",
+        "relacion": "enemigos"
+      },
+      {
+        "personaje": "Facciones de la Coalición",
+        "relacion": "enemigos"
+      }
     ]
   },
   "estado_mental": {

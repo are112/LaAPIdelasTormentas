@@ -16,7 +16,7 @@
     "libros": [
       {
         "titulo": "El Ritmo de la Guerra",
-        "rol": "antagonista principal",
+        "rol": "principal",
         "pov": false
       }
     ]

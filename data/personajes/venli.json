@@ -4,22 +4,40 @@
   "nombre_completo": "Venli",
   "apodos": [],
   "sexo": "femenino",
-  "especie": "cantora",
+  "especie": "cantor",
   "nacionalidad": "oyente",
   "origen": "Llanuras Quebradas",
   "planeta_natal": "Roshar",
   "estado_actual": "viva",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario", "pov": false },
-      { "titulo": "Palabras Radiantes", "rol": "secundario importante", "pov": true },
-      { "titulo": "Juramentada", "rol": "secundario importante", "pov": true },
-      { "titulo": "El Ritmo de la Guerra", "rol": "principal", "pov": true },
-      { "titulo": "Viento y Verdad", "rol": "principal", "pov": true }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": true
+      }
     ]
   },
-
   "afiliaciones": [
     "Oyentes",
     "Cantores",
@@ -27,7 +45,6 @@
     "Caballeros Radiantes",
     "Escultores de Voluntad"
   ],
-
   "orden_radiantes": {
     "orden": "Escultores de Voluntad",
     "nivel_ideal": 2,
@@ -36,7 +53,6 @@
     },
     "estado_del_vinculo": "activo"
   },
-
   "habilidades": {
     "magia": {
       "potencias": [
@@ -52,7 +68,6 @@
       "capacidad de liderazgo entre cantores"
     ]
   },
-
   "identidades": {
     "principales": [
       "oyente erudita",
@@ -62,27 +77,39 @@
     "descripcion": "Inicialmente una erudita ambiciosa entre los oyentes que busca recuperar el poder antiguo de su pueblo. Su investigación la lleva a traer de vuelta las formas de poder de los cantores y, sin pretenderlo, contribuye al regreso de los Portadores del Vacío. Posteriormente desarrolla remordimiento y comienza un camino de redención al vincularse con un spren radiante.",
     "estado_en_viento_y_verdad": "actúa como Caballera Radiante intentando proteger a los cantores que desean liberarse de Odium"
   },
-
   "relaciones": {
     "familia": [
-      { "personaje": "Eshonai", "relacion": "hermana" }
+      {
+        "personaje": "Eshonai",
+        "relacion": "hermana"
+      }
     ],
     "amigos": [
-      { "personaje": "Timbre", "relacion": "spren vinculado" },
-      { "personaje": "Rlain", "relacion": "aliado entre los cantores" }
+      {
+        "personaje": "Timbre",
+        "relacion": "spren vinculado"
+      },
+      {
+        "personaje": "Rlain",
+        "relacion": "aliado entre los cantores"
+      }
     ],
     "enemigos": [
-      { "personaje": "Odium", "relacion": "deidad a la que anteriormente sirvió" },
-      { "personaje": "Fused", "relacion": "oposición creciente a su control sobre los cantores" }
+      {
+        "personaje": "Odium",
+        "relacion": "deidad a la que anteriormente sirvió"
+      },
+      {
+        "personaje": "Fused",
+        "relacion": "oposición creciente a su control sobre los cantores"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "culpa profunda y conflicto moral por haber provocado el regreso del poder de Odium entre los cantores",
     "evolucion": "pasa de ambición intelectual y deseo de poder a un proceso de arrepentimiento y redención",
     "situacion_en_viento_y_verdad": "continúa intentando reparar el daño causado y ayudar a los cantores a encontrar independencia"
   },
-
   "arco_narrativo": {
     "resumen": "Venli comienza como una investigadora obsesionada con restaurar la grandeza perdida de los oyentes. Su búsqueda del conocimiento conduce al descubrimiento de las formas de poder y al regreso de los cantores bajo la influencia de Odium. Tras presenciar las consecuencias de sus acciones y la muerte de su hermana Eshonai, inicia un camino de redención al vincularse con el spren Timbre y convertirse en una Caballera Radiante.",
     "puntos_clave": [
@@ -95,14 +122,12 @@
       "busca liberar a los cantores del dominio de Odium"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "Caballera Radiante",
     "rol": "líder emergente entre los cantores que buscan independencia",
     "relacion_con_spren": "vínculo Nahel activo con el spren Timbre",
     "otros_detalles": "intenta crear un futuro en el que cantores y humanos puedan coexistir sin la influencia de Odium"
   },
-
   "descripcion_breve": "Cantora erudita que provoca accidentalmente el regreso del poder de Odium entre su pueblo y posteriormente inicia un camino de redención como Escultora de Voluntad.",
   "notas": "Es uno de los pocos cantores que se convierte en Caballero Radiante durante la guerra contra Odium."
 }

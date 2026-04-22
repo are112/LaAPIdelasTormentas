@@ -9,24 +9,41 @@
   "origen": "Talinar",
   "planeta_natal": "Roshar",
   "estado_actual": "fallecido",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
-      { "titulo": "Palabras Radiantes", "rol": "secundario importante", "pov": false },
-      { "titulo": "Juramentada", "rol": "secundario importante", "pov": true },
-      { "titulo": "El Ritmo de la Guerra", "rol": "secundario importante", "pov": true },
-      { "titulo": "Viento y Verdad", "rol": "mencionado", "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "menor",
+        "pov": false
+      }
     ]
   },
-
   "afiliaciones": [
     "Puente Cuatro",
     "Ejército de Sadeas",
     "Ejército de Dalinar Kholin",
     "Caballeros Radiantes"
   ],
-
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
@@ -35,7 +52,6 @@
     },
     "estado_del_vinculo": "spren destruido tras la muerte de Teft"
   },
-
   "habilidades": {
     "magia": {
       "potencias": [
@@ -50,7 +66,6 @@
       "instrucción de escuderos Radiantes"
     ]
   },
-
   "identidades": {
     "principales": [
       "soldado alezi",
@@ -60,26 +75,38 @@
     "descripcion": "Veterano soldado alezi y uno de los primeros miembros de Puente Cuatro en unirse a Kaladin. Actúa como mentor y figura de apoyo dentro del grupo.",
     "estado_en_viento_y_verdad": "fallecido durante los acontecimientos anteriores"
   },
-
   "relaciones": {
     "familia": [],
     "amigos": [
-      { "personaje": "kaladin", "relacion": "capitán y amigo cercano" },
-      { "personaje": "rlain", "relacion": "compañero de Puente Cuatro" },
-      { "personaje": "dabbid", "relacion": "compañero de Puente Cuatro" },
-      { "personaje": "roca", "relacion": "compañero de Puente Cuatro" }
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán y amigo cercano"
+      },
+      {
+        "personaje": "rlain",
+        "relacion": "compañero de Puente Cuatro"
+      },
+      {
+        "personaje": "dabbid",
+        "relacion": "compañero de Puente Cuatro"
+      },
+      {
+        "personaje": "roca",
+        "relacion": "compañero de Puente Cuatro"
+      }
     ],
     "enemigos": [
-      { "personaje": "moash", "relacion": "asesino de Teft" }
+      {
+        "personaje": "moash",
+        "relacion": "asesino de Teft"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "profundos sentimientos de culpa y baja autoestima; adicción al musgoardiente",
     "evolucion": "lucha durante años contra su adicción y su sensación de no merecer ser Radiante, pero logra encontrar propósito ayudando a otros y defendiendo los ideales de los Corredores del Viento.",
     "situacion_en_viento_y_verdad": "fallecido"
   },
-
   "arco_narrativo": {
     "resumen": "Teft pasa de ser un soldado traumatizado y adicto que se considera indigno a convertirse en un Caballero Radiante que acepta sus fallos y decide seguir luchando por proteger a los demás.",
     "puntos_clave": [
@@ -90,15 +117,12 @@
       "es asesinado por Moash durante la ocupación de Urithiru"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "antiguo Caballero Radiante",
     "rol": "miembro veterano de Puente Cuatro",
     "relacion_con_spren": "vínculo Nahel con Phendorana hasta su muerte",
     "otros_detalles": "su muerte tiene un impacto profundo en Kaladin y en los miembros de Puente Cuatro"
   },
-
   "descripcion_breve": "Veterano soldado alezi y miembro clave de Puente Cuatro que se convierte en Corredor del Viento y lucha contra su adicción y su sentimiento de indignidad antes de morir defendiendo Urithiru.",
-
   "notas": "Nació en Talinar en una familia del sexto nahn. Durante su infancia fue influido por el culto de los Vislumbradores. Su muerte a manos de Moash ocurre durante la ocupación de Urithiru."
 }
