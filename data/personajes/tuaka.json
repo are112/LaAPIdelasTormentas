@@ -7,21 +7,21 @@
     "Canción"
   ],
   "sexo": "femenino",
-  "especie": "Humano (Unkalaki)",
-  "nacionalidad": "Unkalaki",
+  "especie": "humano",
+  "nacionalidad": "unkalaki",
   "origen": "Picos Comecuernos",
   "planeta_natal": "Roshar",
-  "estado_actual": "Viva",
+  "estado_actual": "viva",
   "apariciones": {
     "libros": [
       {
         "titulo": "Juramentada",
-        "rol": "Secundario",
+        "rol": "secundario",
         "pov": false
       },
       {
-        "titulo": "El ritmo de la guerra",
-        "rol": "Mencionada",
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mencionada",
         "pov": false
       }
     ]
@@ -30,7 +30,7 @@
     "Familia de Lunamor"
   ],
   "orden_radiantes": {
-    "orden": "",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -43,74 +43,73 @@
       "fuente_de_luz": ""
     },
     "no_magicas": [
-      "Arquera hábil con flecha unkalaki (disparó a un Portador del Vacío durante el ataque a la caravana)",
+      "Arquera con flecha unkalaki",
       "Constructora experta de fuertes de nieve (según Lunamor, los suyos eran siempre los mejores)"
     ]
   },
   "identidades": {
     "principales": [
       "Esposa de Lunamor",
-      "Madre de seis hijos Unkalaki"
+      "Madre de seis hijos unkalaki"
     ],
-    "descripcion": "Mujer Unkalaki de cara redonda y pelo rojo oscuro recogido en una trenza. Conoce a Lunamor desde la infancia. Pragmática y discreta, es el pilar de la familia durante la larga ausencia de su marido.",
+    "descripcion": "Mujer de cara redonda y pelo rojo oscuro recogido en trenza. Conoce a Lunamor desde la infancia. Pilar de la familia durante su larga ausencia.",
     "estado_en_viento_y_verdad": ""
   },
   "relaciones": {
     "familia": [
       {
-        "personaje": "Lunamor",
-        "relacion": "Esposo, conocido desde la infancia"
+        "personaje": "lunamor",
+        "relacion": "esposo"
       },
       {
-        "personaje": "Don",
-        "relacion": "Hijo"
+        "personaje": "don",
+        "relacion": "hijo"
       },
       {
-        "personaje": "Cuerda",
-        "relacion": "Hija"
+        "personaje": "cuerda",
+        "relacion": "hija"
       },
       {
-        "personaje": "Roca (junior)",
-        "relacion": "Hijo"
+        "personaje": "roca_junior",
+        "relacion": "hijo"
       },
       {
-        "personaje": "Estrella",
-        "relacion": "Hijo"
+        "personaje": "estrella",
+        "relacion": "hijo"
       },
       {
-        "personaje": "Kuma'tiki",
-        "relacion": "Hija"
+        "personaje": "kumatiki",
+        "relacion": "hija"
       },
       {
-        "personaje": "Canción Hermosa",
-        "relacion": "Hija menor"
+        "personaje": "cancion_hermosa",
+        "relacion": "hija menor"
       }
     ],
     "amigos": [],
     "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "Estable",
-    "evolucion": "Mantuvo a la familia unida durante la prolongada ausencia de Lunamor. Su reencuentro con él está marcado por la preocupación y la discreción.",
+    "diagnostico_general": "Estable. Mantuvo a la familia unida durante la prolongada ausencia de Lunamor.",
+    "evolucion": "Su reencuentro con Lunamor está marcado por la preocupación y la discreción.",
     "situacion_en_viento_y_verdad": ""
   },
   "arco_narrativo": {
-    "resumen": "Esposa de Lunamor, lo conoce desde niños en los Picos Comecuernos. Durante la ausencia de Lunamor se casa con él y tienen seis hijos. Recibe sus cartas y mueve a la familia hacia las Llanuras Quebradas. Tras reencontrarse con Lunamor en Urithiru, regresa a los Picos con la mayor parte de la familia.",
+    "resumen": "Esposa de Lunamor desde la infancia. Mantiene a la familia unida en los Picos, recibe sus cartas y mueve a los seis hijos hacia las Llanuras Quebradas para reunirse con él. Tras el reencuentro en Urithiru regresa a los Picos con la mayor parte de la familia.",
     "puntos_clave": [
-      "Infancia junto a Lunamor construyendo fuertes de nieve en los Picos",
-      "Recibe la carta de Lunamor explicando su fracaso tras la muerte de Kef'ha",
-      "Recibe nuevas cartas de Lunamor pidiendo que se reúnan en las Llanuras Quebradas",
-      "Viaje de meses hasta las Llanuras, sufriendo ataque de Portadores del Vacío",
-      "Reencuentro con Lunamor en Urithiru; le trae noticias preocupantes de los Picos",
-      "Regresa a los Picos con la mayor parte de la familia, dejando a Cuerda y Don en Urithiru"
+      "Infancia junto a Lunamor en los Picos Comecuernos.",
+      "Recibe la carta de Lunamor explicando el fracaso tras la muerte de Kef'ha.",
+      "Viaje de meses hasta las Llanuras, sufriendo ataque de Portadores del Vacío.",
+      "Reencuentro con Lunamor en Urithiru; le trae noticias preocupantes de los Picos.",
+      "Regresa a los Picos con la mayor parte de la familia, dejando a Cuerda y Don en Urithiru."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Esposa y madre, vive en los Picos Comecuernos",
+    "ocupacion": "Esposa y madre",
     "rol": "Familiar de Lunamor",
     "relacion_con_spren": "",
-    "otros_detalles": "Residencia actual en los Picos Comecuernos"
+    "otros_detalles": "Reside en los Picos Comecuernos."
   },
-  "descripcion_breve": "Esposa de Lunamor y madre de sus seis hijos. Unkalaki de cara redonda y pelo rojo oscuro, conocida por Lunamor desde la infancia. Pilar de la familia durante su prolongada separación.",
+  "descripcion_breve": "Esposa de Lunamor y madre de sus seis hijos. Pilar de la familia unkalaki durante la larga separación.",
   "notas": "Su nombre completo Tuaka'li'na'calmi'nor se abrevia habitualmente como Tuaka o Canción."
 }

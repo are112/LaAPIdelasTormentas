@@ -4,21 +4,21 @@
   "nombre_completo": "Don",
   "apodos": [],
   "sexo": "masculino",
-  "especie": "Humano (Unkalaki)",
-  "nacionalidad": "Unkalaki",
+  "especie": "humano",
+  "nacionalidad": "unkalaki",
   "origen": "Picos Comecuernos",
   "planeta_natal": "Roshar",
-  "estado_actual": "Vivo",
+  "estado_actual": "vivo",
   "apariciones": {
     "libros": [
       {
         "titulo": "Juramentada",
-        "rol": "Secundario",
+        "rol": "secundario",
         "pov": false
       },
       {
-        "titulo": "El ritmo de la guerra",
-        "rol": "Secundario",
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
         "pov": false
       }
     ]
@@ -27,7 +27,7 @@
     "Familia de Lunamor"
   ],
   "orden_radiantes": {
-    "orden": "",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -50,68 +50,68 @@
       "Mellizo de Cuerda",
       "Converso al vorinismo"
     ],
-    "descripcion": "Joven Unkalaki alto, de piel pálida. Mellizo de Cuerda e hijo mayor de Lunamor y Tuaka. Se convirtió al vorinismo gracias a unos monjes veden que visitaron los Picos durante su infancia, con la bendición de su padre.",
+    "descripcion": "Joven alto de piel pálida. Único hermano converso al vorinismo, con una glifoguarda atada al brazo. Según tradición unkalaki, tiene el honor de recolectar alimentos.",
     "estado_en_viento_y_verdad": ""
   },
   "relaciones": {
     "familia": [
       {
-        "personaje": "Lunamor",
-        "relacion": "Padre"
+        "personaje": "lunamor",
+        "relacion": "padre"
       },
       {
-        "personaje": "Tuaka",
-        "relacion": "Madre"
+        "personaje": "tuaka",
+        "relacion": "madre"
       },
       {
-        "personaje": "Cuerda",
-        "relacion": "Hermana gemela"
+        "personaje": "cuerda",
+        "relacion": "hermana gemela"
       },
       {
-        "personaje": "Roca (junior)",
-        "relacion": "Hermano"
+        "personaje": "roca_junior",
+        "relacion": "hermano"
       },
       {
-        "personaje": "Estrella",
-        "relacion": "Hermano"
+        "personaje": "estrella",
+        "relacion": "hermano"
       },
       {
-        "personaje": "Kuma'tiki",
-        "relacion": "Hermana"
+        "personaje": "kumatiki",
+        "relacion": "hermana"
       },
       {
-        "personaje": "Canción Hermosa",
-        "relacion": "Hermana menor"
+        "personaje": "cancion_hermosa",
+        "relacion": "hermana menor"
       }
     ],
     "amigos": [
       {
-        "personaje": "Lift",
-        "relacion": "Le caía bien; Lift le dejaba comida para que la 'robara'"
+        "personaje": "lift",
+        "relacion": "buena relación; Lift le dejaba comida para que la 'robara'"
       }
     ],
     "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "Estable",
+    "diagnostico_general": "Estable.",
     "evolucion": "",
     "situacion_en_viento_y_verdad": ""
   },
   "arco_narrativo": {
-    "resumen": "Llega a las Llanuras Quebradas con su familia en 1174 tras un largo viaje. Decide quedarse en Urithiru junto a su hermana Cuerda cuando el resto de la familia regresa a los Picos Comecuernos.",
+    "resumen": "Llega a las Llanuras Quebradas con su familia en 1174. Decide quedarse en Urithiru junto a su hermana Cuerda cuando el resto de la familia regresa a los Picos.",
     "puntos_clave": [
-      "Conversión al vorinismo en los Picos Comecuernos durante su infancia",
-      "Llegada a las Llanuras Quebradas en Jes 1174 tras ser atacados por Portadores del Vacío",
-      "Reunión con su padre Lunamor en Urithiru",
-      "Decisión de quedarse en Urithiru con Cuerda cuando la familia regresa a los Picos"
+      "Conversión al vorinismo en los Picos durante su infancia, con bendición de su padre.",
+      "Llegada a las Llanuras Quebradas en Jes 1174 tras ser atacados por Portadores del Vacío.",
+      "Reunión con Lunamor en Urithiru.",
+      "Decide quedarse en Urithiru con Cuerda cuando la familia regresa a los Picos."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Recolector de alimentos (según tradición cultural Unkalaki)",
+    "ocupacion": "Recolector de alimentos (tradición unkalaki)",
     "rol": "Residente en Urithiru",
     "relacion_con_spren": "",
-    "otros_detalles": "Lleva una glifoguarda atada en el brazo como muestra de su fe vorin"
+    "otros_detalles": "Lleva una glifoguarda atada al brazo como muestra de fe vorin."
   },
-  "descripcion_breve": "Hijo mayor de Lunamor, mellizo de Cuerda. Joven Unkalaki converso al vorinismo que eligió quedarse en Urithiru junto a su hermana cuando el resto de la familia regresó a los Picos Comecuernos.",
-  "notas": "Es el único de sus hermanos que habla suficiente alezi para saludar aceptablemente a su llegada a las Llanuras Quebradas."
+  "descripcion_breve": "Hijo mayor de Lunamor y mellizo de Cuerda. Converso al vorinismo. Eligió quedarse en Urithiru con su hermana cuando el resto de la familia regresó a los Picos.",
+  "notas": "Es el único de sus hermanos que habla suficiente alezi para saludar correctamente a su llegada."
 }

@@ -4,21 +4,21 @@
   "nombre_completo": "Kuma'tiki",
   "apodos": [],
   "sexo": "femenino",
-  "especie": "Humano (Unkalaki)",
-  "nacionalidad": "Unkalaki",
+  "especie": "humano",
+  "nacionalidad": "unkalaki",
   "origen": "Picos Comecuernos",
   "planeta_natal": "Roshar",
-  "estado_actual": "Viva",
+  "estado_actual": "viva",
   "apariciones": {
     "libros": [
       {
         "titulo": "Juramentada",
-        "rol": "Secundario",
+        "rol": "secundario",
         "pov": false
       },
       {
-        "titulo": "El ritmo de la guerra",
-        "rol": "Secundario",
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
         "pov": false
       }
     ]
@@ -27,7 +27,7 @@
     "Familia de Lunamor"
   ],
   "orden_radiantes": {
-    "orden": "",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -45,63 +45,63 @@
     "principales": [
       "Segunda hija de Lunamor y Tuaka"
     ],
-    "descripcion": "Segunda hija de Lunamor y Tuaka. Su nombre proviene de un tipo de concha encontrada en los Picos Comecuernos.",
+    "descripcion": "Segunda hija de Lunamor y Tuaka. Su nombre proviene de un tipo de concha de los Picos Comecuernos.",
     "estado_en_viento_y_verdad": ""
   },
   "relaciones": {
     "familia": [
       {
-        "personaje": "Lunamor",
-        "relacion": "Padre"
+        "personaje": "lunamor",
+        "relacion": "padre"
       },
       {
-        "personaje": "Tuaka",
-        "relacion": "Madre"
+        "personaje": "tuaka",
+        "relacion": "madre"
       },
       {
-        "personaje": "Don",
-        "relacion": "Hermano mayor"
+        "personaje": "don",
+        "relacion": "hermano mayor"
       },
       {
-        "personaje": "Cuerda",
-        "relacion": "Hermana mayor"
+        "personaje": "cuerda",
+        "relacion": "hermana mayor"
       },
       {
-        "personaje": "Roca (junior)",
-        "relacion": "Hermano"
+        "personaje": "roca_junior",
+        "relacion": "hermano"
       },
       {
-        "personaje": "Estrella",
-        "relacion": "Hermano"
+        "personaje": "estrella",
+        "relacion": "hermano"
       },
       {
-        "personaje": "Canción Hermosa",
-        "relacion": "Hermana menor"
+        "personaje": "cancion_hermosa",
+        "relacion": "hermana menor"
       }
     ],
     "amigos": [],
     "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "",
+    "diagnostico_general": "Sin información suficiente.",
     "evolucion": "",
     "situacion_en_viento_y_verdad": ""
   },
   "arco_narrativo": {
-    "resumen": "Llega con su familia a las Llanuras Quebradas en 1174. Tras la evacuación de Piedralar, regresa a los Picos Comecuernos con la mayor parte de la familia.",
+    "resumen": "Llega con su familia a las Llanuras Quebradas en 1174. Regresa a los Picos Comecuernos con la mayor parte de la familia tras la evacuación de Piedralar.",
     "puntos_clave": [
-      "Llegada a las Llanuras Quebradas en Jes 1174",
-      "Atacada por Portadores del Vacío en el camino",
-      "Rescatada por el Puente Cuatro y llevada a Urithiru",
-      "Regresa a los Picos Comecuernos tras la evacuación de Piedralar"
+      "Llegada a las Llanuras Quebradas en Jes 1174.",
+      "Atacada por Portadores del Vacío en el camino.",
+      "Rescatada por el Puente Cuatro y llevada a Urithiru.",
+      "Regresa a los Picos Comecuernos tras la evacuación de Piedralar."
     ]
   },
   "situacion_actual": {
     "ocupacion": "Desconocida",
     "rol": "Familiar de Lunamor",
     "relacion_con_spren": "",
-    "otros_detalles": "Reside en los Picos Comecuernos"
+    "otros_detalles": "Reside en los Picos Comecuernos."
   },
-  "descripcion_breve": "Segunda hija de Lunamor y Tuaka. Su nombre deriva de una concha de los Picos Comecuernos. Personaje secundario con escasa presencia individual en la narrativa.",
+  "descripcion_breve": "Segunda hija de Lunamor y Tuaka. Su nombre deriva de una concha de los Picos Comecuernos. Escasa presencia individual en la narrativa.",
   "notas": ""
 }
