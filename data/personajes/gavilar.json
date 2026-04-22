@@ -1,0 +1,93 @@
+{
+  "id": "gavilar",
+  "nombre": "Gavilar",
+  "nombre_completo": "Gavilar Kholin",
+  "apodos": ["El Rey Unificador", "El Rey Kholin"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes",  "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",      "rol": "menor",                "pov": false },
+      { "titulo": "Juramentada",             "rol": "secundario importante", "pov": false },
+      { "titulo": "Viento y Verdad",         "rol": "menor",                "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Reino de Alezkar",
+    "Hijos de Honor",
+    "Portadores de Esquirlada"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": "Intentó convertirse en Heraldo sin éxito antes de su muerte."
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Estadista y político excepcional",
+      "Estratega militar",
+      "Portador de armadura esquirlada",
+      "Recibió visiones del Padre Tormenta"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Primer rey de Alezkar de la dinastía Kholin",
+      "Trigésimo segundo alto príncipe del principado Kholin",
+      "Miembro de los Hijos de Honor",
+      "Hermano mayor de Dalinar"
+    ],
+    "descripcion": "Hombre de rasgos fuertes, barbilla cuadrada, barba negra moteada de canas y ojos verdes muy claros. Político brillante y visionario que unificó Alezkar, pero cuyas ambiciones ocultas —provocar una nueva Desolación para traer de vuelta a los Heraldos— lo llevaron a decisiones moralmente cuestionables.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro. Su legado y sus secretos siguen resonando en la saga."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "navani",   "relacion": "esposa" },
+      { "personaje": "dalinar",  "relacion": "hermano menor" },
+      { "personaje": "jasnah",   "relacion": "hija" },
+      { "personaje": "elhokar",  "relacion": "hijo" }
+    ],
+    "amigos": [
+      { "personaje": "Torol Sadeas", "relacion": "amigo de juventud y aliado militar clave en la unificación" }
+    ],
+    "enemigos": [
+      { "personaje": "szeth", "relacion": "su asesino; enviado por los parshendi" },
+      { "personaje": "Parshendi", "relacion": "ordenaron su asesinato al descubrir sus planes" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ambicioso y visionario, pero con un lado oscuro que justificaba medios extremos para fines que consideraba necesarios.",
+    "evolucion": "Pasó de conquistador a estadista, y de estadista a conspirador obsesionado con traer de vuelta a los Heraldos aunque eso implicara desencadenar una nueva Desolación.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Gavilar unificó Alezkar con ayuda de Dalinar y Sadeas, convirtiéndose en el primer rey de la dinastía Kholin. En sus últimos años recibió visiones del Padre Tormenta y se unió a los Hijos de Honor, conspirando para traer de vuelta a los Heraldos y provocar una nueva Desolación. Los parshendi, al descubrir sus planes, contrataron a Szeth para asesinarlo. Su muerte desencadena la Guerra de la Venganza y todos los eventos de la saga.",
+    "puntos_clave": [
+      "Lidera junto a Dalinar y Sadeas la unificación de los diez principados alezi.",
+      "Se convierte en el primer rey de Alezkar de la dinastía Kholin.",
+      "Demuestra ser un político hábil que prefiere la diplomacia a la guerra.",
+      "Comienza a recibir visiones del Padre Tormenta; las interpreta de forma distinta a Dalinar.",
+      "Se une a los Hijos de Honor; conspira para provocar una nueva Desolación y traer de vuelta a los Heraldos.",
+      "Los parshendi descubren sus planes y contratan a Szeth para asesinarlo.",
+      "Muere asesinado por Szeth en el año 1167, noche de la firma del tratado con los parshendi.",
+      "Su muerte desencadena la Guerra de la Venganza en las Llanuras Quebradas.",
+      "El prólogo de cada libro de la saga muestra su asesinato desde una perspectiva diferente."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Figura del pasado cuya muerte desencadena toda la saga",
+    "relacion_con_spren": "",
+    "otros_detalles": "Portaba una esfera negra de origen desconocido la noche de su muerte. Su asesinato es el prólogo de los cinco libros de la saga, narrado cada vez desde un punto de vista diferente."
+  },
+  "descripcion_breve": "Primer rey de Alezkar de la dinastía Kholin. Unificó los diez principados alezi y conspiró con los Hijos de Honor para desencadenar una nueva Desolación. Su asesinato a manos de Szeth en 1167 desencadena todos los eventos de la saga.",
+  "notas": "Su asesinato actúa como prólogo de los cinco libros, mostrado cada vez desde la perspectiva de un personaje diferente: Szeth, Jasnah, Eshonai, Eshonai (joven) y Navani."
+}

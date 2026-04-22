@@ -1,0 +1,91 @@
+{
+  "id": "elhokar",
+  "nombre": "Elhokar",
+  "nombre_completo": "Elhokar Kholin",
+  "apodos": ["Rey Elhokar", "El Rey de las Llanuras"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario importante", "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Reino de Alezkar",
+    "Portadores de Esquirlada"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "críptica (sin nombre; rescatada por Hoid tras su muerte)" },
+    "estado_del_vinculo": "Incompleto. Intentó pronunciar el Primer Ideal justo antes de morir sin lograrlo."
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Portador de armadura y hoja esquirlada (Alzarayos)",
+      "Percepción inusual: veía criaturas con formas de símbolo en Shadesmar (indicio de vínculo nasciente con spren)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Rey de Alezkar",
+      "Hijo del rey Gavilar",
+      "Padre de Gavinor"
+    ],
+    "descripcion": "Rey inseguro y paranoico que gobernó Alezkar a la sombra de su padre Gavilar y de su tío Dalinar. Percibía conspiraciones en todas partes, lo que le granjeaba poco respeto entre los altos príncipes. Sin embargo, mostraba una capacidad de crecimiento personal que quedó truncada por su muerte.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "gavilar",  "relacion": "padre" },
+      { "personaje": "navani",   "relacion": "madre" },
+      { "personaje": "jasnah",   "relacion": "hermana" },
+      { "personaje": "dalinar",  "relacion": "tío" },
+      { "personaje": "adolin",   "relacion": "primo" },
+      { "personaje": "renarin",  "relacion": "primo" },
+      { "personaje": "Gavinor",  "relacion": "hijo" },
+      { "personaje": "Aesudan",  "relacion": "esposa; fallecida en Kholinar" }
+    ],
+    "amigos": [
+      { "personaje": "kaladin", "relacion": "capitán de su guardia personal; relación tensa pero de respeto mutuo" }
+    ],
+    "enemigos": [
+      { "personaje": "moash", "relacion": "lo asesina en el palacio de Kholinar" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Paranoia y profunda inseguridad derivadas de sentirse a la sombra de su padre y su tío. Creía que todos conspiraban contra él.",
+    "evolucion": "Pasó de rey inseguro y manipulable a mostrar indicios de madurez y determinación durante la misión a Kholinar. Murió en el momento en que empezaba a crecer como líder.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Elhokar gobernó Alezkar como rey tras la muerte de Gavilar, siempre a la sombra de su padre y bajo la tutela de Dalinar. Su reinado estuvo marcado por la paranoia y la inseguridad, pero durante la misión para liberar Kholinar mostró un crecimiento personal significativo. Murió asesinado por Moash justo cuando intentaba pronunciar el Primer Ideal de los Caballeros Radiantes.",
+    "puntos_clave": [
+      "Hereda el trono de Alezkar tras el asesinato de Gavilar en 1167.",
+      "Gobierna desde las Llanuras Quebradas durante la Guerra de la Venganza.",
+      "Sufre intentos de asesinato que atribuye a conspiraciones; muchos lo consideran paranoico.",
+      "Moash intenta matarlo en las Llanuras; Kaladin lo salva.",
+      "Nombra a Kaladin capitán de su guardia personal.",
+      "Participa en la misión a Kholinar para liberar la ciudad y abrir la Puerta Jurada.",
+      "Durante la batalla del palacio de Kholinar, sosteniendo a su hijo Gavinor, está a punto de pronunciar el Primer Ideal.",
+      "Es atravesado por una lanza de Moash antes de poder terminar las palabras; muere con su hijo en brazos.",
+      "Hoid rescata la críptica que se había vinculado a Elhokar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Rey de Alezkar hasta su muerte; sucedido por Jasnah",
+    "relacion_con_spren": "Una críptica había comenzado a vincularse con él; fue rescatada por Hoid tras su muerte.",
+    "otros_detalles": "Su muerte a manos de Moash fue diseñada por Sanderson para mostrar el descenso definitivo de Moash a la villanía."
+  },
+  "descripcion_breve": "Rey de Alezkar e hijo de Gavilar. Gobernó a la sombra de su padre, marcado por la inseguridad y la paranoia. Murió asesinado por Moash en Kholinar justo cuando intentaba pronunciar el Primer Ideal de los Radiantes.",
+  "notas": "Veía criaturas con formas de símbolo, indicio de su vínculo nasciente con una críptica. Sanderson confirmó que su muerte fue diseñada específicamente para mostrar la caída de Moash."
+}
