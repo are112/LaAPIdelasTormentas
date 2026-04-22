@@ -63,6 +63,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "evi",
+    "nombre": "Evi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida"
+  },
+  {
     "id": "godeke",
     "nombre": "Godeke",
     "orden": "Danzantes del Filo",
