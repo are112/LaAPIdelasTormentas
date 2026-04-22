@@ -172,6 +172,7 @@ router.get("/", (req, res) => {
       transform: translateY(-50%);
       font-size: 0.85rem;
       opacity: 0.5;
+      z-index: 1;
     }
     #buscador {
       width: 100%;
@@ -190,6 +191,55 @@ router.get("/", (req, res) => {
       box-shadow: 0 0 12px rgba(79,195,247,0.2);
     }
     #buscador::placeholder { color: var(--gris-plata); opacity: 0.6; }
+
+    /* Autocomplete */
+    .autocomplete-lista {
+      position: absolute;
+      top: 100%;
+      left: 0; right: 0;
+      background: var(--azul-profundo);
+      border: 1px solid rgba(79,195,247,0.3);
+      border-top: none;
+      border-radius: 0 0 6px 6px;
+      max-height: 220px;
+      overflow-y: auto;
+      z-index: 100;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+    .autocomplete-lista::-webkit-scrollbar { width: 4px; }
+    .autocomplete-lista::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
+    .autocomplete-item {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.5rem 0.75rem;
+      cursor: pointer;
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.95rem;
+      color: var(--blanco-perla);
+      transition: background 0.1s;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .autocomplete-item:last-child { border-bottom: none; }
+    .autocomplete-item:hover, .autocomplete-item.seleccionado-ac {
+      background: rgba(79,195,247,0.12);
+    }
+    .autocomplete-tipo {
+      font-size: 0.72rem;
+      color: var(--gris-plata);
+      font-style: italic;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+    .autocomplete-badge {
+      font-size: 0.65rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      background: rgba(79,195,247,0.15);
+      color: var(--celeste-luz);
+      border: 1px solid rgba(79,195,247,0.2);
+      white-space: nowrap;
+    }
 
     /* Filtro de orden */
     .filtro-seccion {
@@ -647,6 +697,7 @@ router.get("/", (req, res) => {
       <!-- Buscador global -->
       <div class="buscador-wrap">
         <input type="text" id="buscador" placeholder="Buscar..." autocomplete="off" />
+        <div class="autocomplete-lista" id="autocomplete-lista" style="display:none"></div>
       </div>
 
       <!-- Tabs -->
@@ -786,6 +837,8 @@ router.get("/", (req, res) => {
 
     // ── Filtros ────────────────────────────────────────────
     document.getElementById('buscador').addEventListener('input', () => {
+      const v = document.getElementById('buscador').value;
+      mostrarAutocomplete(v);
       renderLista(todos);
       renderListaSpren(todosSpren);
       renderListaHeraldos(todosHeraldos);
@@ -1034,6 +1087,98 @@ router.get("/", (req, res) => {
         </div>
       \`;
     }
+
+    // ── Autocompletado ─────────────────────────────────────
+    let acIndice = -1;
+
+    function todosLosNombres() {
+      const resultados = [];
+      for (const p of todos) {
+        resultados.push({ id: p.id, nombre: p.nombre, tipo: 'personaje', subtipo: p.orden || 'Sin orden', accion: () => { cambiarTab('personajes'); verPersonaje(p.id); } });
+      }
+      for (const s of todosSpren) {
+        resultados.push({ id: s.id, nombre: s.nombre, tipo: 'spren', subtipo: s.tipo_spren || 'Spren', accion: () => { cambiarTab('spren'); verSpren(s.id); } });
+      }
+      for (const h of todosHeraldos) {
+        resultados.push({ id: h.id, nombre: h.nombre, tipo: 'heraldo', subtipo: h.titulo || 'Heraldo', accion: () => { cambiarTab('heraldos'); verHeraldo(h.id); } });
+      }
+      return resultados;
+    }
+
+    function mostrarAutocomplete(texto) {
+      const lista = document.getElementById('autocomplete-lista');
+      if (!texto || texto.length < 2) { lista.style.display = 'none'; return; }
+
+      const lower = texto.toLowerCase();
+      const matches = todosLosNombres()
+        .filter(r => r.nombre.toLowerCase().includes(lower))
+        .slice(0, 8);
+
+      if (!matches.length) { lista.style.display = 'none'; return; }
+
+      const badgeColor = { personaje: 'rgba(79,195,247,0.15)', spren: 'rgba(200,146,42,0.15)', heraldo: 'rgba(192,57,43,0.15)' };
+      const badgeText = { personaje: 'Personaje', spren: 'Spren', heraldo: 'Heraldo' };
+
+      lista.innerHTML = matches.map((r, i) => \`
+        <div class="autocomplete-item" data-idx="\${i}" onmousedown="seleccionarAC(\${i})">
+          <span>\${r.nombre}</span>
+          <span class="autocomplete-tipo">\${r.subtipo}</span>
+          <span class="autocomplete-badge" style="background:\${badgeColor[r.tipo]}">\${badgeText[r.tipo]}</span>
+        </div>
+      \`).join('');
+
+      lista._matches = matches;
+      acIndice = -1;
+      lista.style.display = 'block';
+    }
+
+    function seleccionarAC(idx) {
+      const lista = document.getElementById('autocomplete-lista');
+      const match = lista._matches?.[idx];
+      if (!match) return;
+      document.getElementById('buscador').value = match.nombre;
+      lista.style.display = 'none';
+      match.accion();
+    }
+
+    function navegarAC(dir) {
+      const lista = document.getElementById('autocomplete-lista');
+      if (lista.style.display === 'none') return false;
+      const items = lista.querySelectorAll('.autocomplete-item');
+      if (!items.length) return false;
+      items[acIndice]?.classList.remove('seleccionado-ac');
+      acIndice = Math.max(-1, Math.min(items.length - 1, acIndice + dir));
+      if (acIndice >= 0) items[acIndice].classList.add('seleccionado-ac');
+      return true;
+    }
+
+    document.getElementById('buscador').addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown') { e.preventDefault(); navegarAC(1); return; }
+      if (e.key === 'ArrowUp')   { e.preventDefault(); navegarAC(-1); return; }
+      if (e.key === 'Enter') {
+        const lista = document.getElementById('autocomplete-lista');
+        if (acIndice >= 0 && lista.style.display !== 'none') {
+          e.preventDefault();
+          seleccionarAC(acIndice);
+        } else if (acIndice === -1 && lista._matches?.length) {
+          e.preventDefault();
+          seleccionarAC(0);
+        }
+        return;
+      }
+      if (e.key === 'Escape') {
+        document.getElementById('autocomplete-lista').style.display = 'none';
+      }
+    });
+
+    document.getElementById('buscador').addEventListener('blur', () => {
+      setTimeout(() => { document.getElementById('autocomplete-lista').style.display = 'none'; }, 150);
+    });
+
+    document.getElementById('buscador').addEventListener('focus', () => {
+      const v = document.getElementById('buscador').value;
+      if (v.length >= 2) mostrarAutocomplete(v);
+    });
 
     // ── Init ───────────────────────────────────────────────
     crearParticulas();
