@@ -1,6 +1,6 @@
 # ⚡ La API de las Tormentas
 
-API REST sobre el universo literario de **El Archivo de las Tormentas** de Brandon Sanderson. Cubre personajes, órdenes de Caballeros Radiantes, spren y heraldos con búsqueda avanzada, filtros y paginación.
+API REST sobre el universo literario de **El Archivo de las Tormentas** de Brandon Sanderson. Cubre personajes, órdenes de Caballeros Radiantes, spren y heraldos con búsqueda avanzada, filtros, paginación y un explorador visual interactivo.
 
 Construida con **Node.js** (ESModules) y **Express 5**.
 
@@ -15,11 +15,10 @@ npm start
 
 El servidor arranca en el puerto `3000` por defecto. Se puede cambiar con la variable de entorno `PORT`.
 
-La documentación interactiva (Swagger UI) está disponible en:
-
-```
-http://localhost:3000/api-docs
-```
+| Recurso | URL |
+|---|---|
+| Explorador visual | `http://localhost:3000/explorador` |
+| Documentación Swagger | `http://localhost:3000/api-docs` |
 
 ---
 
@@ -31,6 +30,7 @@ LaAPIdelasTormentas/
 ├── package.json
 ├── openapi.yaml
 ├── routes/
+│   ├── explorador.js         # Interfaz visual interactiva
 │   ├── personajes.js
 │   ├── ordenes.js
 │   ├── spren.js
@@ -56,7 +56,7 @@ LaAPIdelasTormentas/
 │   ├── loadHeraldo.js
 │   └── loadHeraldosList.js
 ├── data/
-│   ├── personajes.json       # Índice resumido (36 personajes)
+│   ├── personajes.json       # Índice resumido (40 personajes)
 │   ├── ordenes.json          # Catálogo estático de las 10 órdenes
 │   ├── spren.json            # Índice de spren (40 entradas)
 │   ├── heraldos.json         # Índice de heraldos (10 entradas)
@@ -64,7 +64,9 @@ LaAPIdelasTormentas/
 │   ├── spren/                # JSON completo por spren
 │   └── heraldos/             # JSON completo por heraldo
 └── public/
-    └── images/ordenes/       # SVGs de los glifos de cada orden
+    └── images/
+        ├── ordenes/          # SVGs de los glifos de cada orden
+        └── heraldos/         # Imágenes de los Diez Heraldos
 ```
 
 Todos los datos se cargan en memoria al arrancar. Las peticiones no tocan disco.
@@ -73,10 +75,10 @@ Todos los datos se cargan en memoria al arrancar. Las peticiones no tocan disco.
 
 ## Endpoints
 
-### Estado
+### Explorador
 
-#### `GET /`
-Redirige al explorador visual.
+#### `GET /explorador`
+Interfaz visual interactiva para navegar por personajes, spren y heraldos. Incluye buscador con autocompletado, filtros por orden y fichas detalladas con relaciones, habilidades y arco narrativo.
 
 ---
 
@@ -87,7 +89,13 @@ Lista resumida de todos los personajes.
 
 ```json
 [
-  { "id": "kaladin", "nombre": "Kaladin", "orden": "Corredores del Viento", "nivel_ideal": 4 }
+  {
+    "id": "kaladin",
+    "nombre": "Kaladin",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 5,
+    "estado_actual": "vivo"
+  }
 ]
 ```
 
@@ -95,7 +103,7 @@ Lista resumida de todos los personajes.
 Perfil completo de un personaje.
 
 #### `GET /personajes/:id/resumen`
-Solo los campos del índice (id, nombre, orden, nivel_ideal).
+Solo los campos del índice (`id`, `nombre`, `orden`, `nivel_ideal`, `estado_actual`).
 
 #### `GET /personajes/:id/completo`
 Resumen e índice fusionados en un único objeto.
@@ -103,7 +111,7 @@ Resumen e índice fusionados en un único objeto.
 #### `GET /personajes/:id/:seccion`
 Una sección concreta del perfil. Secciones disponibles:
 
-`orden_radiantes` · `habilidades` · `relaciones` · `estado_mental` · `arco_narrativo` · `situacion_actual` · `apariciones` · `afiliaciones`
+`orden_radiantes` · `habilidades` · `relaciones` · `estado_mental` · `arco_narrativo` · `situacion_actual` · `apariciones` · `afiliaciones` · `identidades`
 
 ```bash
 GET /personajes/kaladin/habilidades
@@ -146,7 +154,7 @@ Lista las 10 órdenes de Caballeros Radiantes con sus datos canónicos y número
 ```
 
 #### `GET /ordenes/:nombre`
-Detalle completo de una orden: datos canónicos (herald, virtud, defecto, descripción) y lista de todos sus miembros con nivel del Ideal, spren asociado y estado del vínculo. Se puede usar el nombre completo o el slug (`corredores-del-viento`).
+Detalle completo de una orden: datos canónicos (herald, virtud, defecto, descripción) y lista de todos sus miembros con nivel del Ideal, spren asociado y estado del vínculo. Se puede usar el nombre completo o el slug.
 
 ```bash
 GET /ordenes/Corredores+del+Viento
@@ -171,7 +179,7 @@ Sección concreta del perfil de un spren.
 ### Heraldos
 
 #### `GET /heraldos`
-Lista de los 10 Heraldos de Vorinismo.
+Lista de los Diez Heraldos del Todopoderoso.
 
 #### `GET /heraldos/:id`
 Perfil completo de un heraldo.
@@ -184,35 +192,38 @@ Sección concreta del perfil de un heraldo.
 ### Búsqueda
 
 #### `GET /buscar`
-Búsqueda avanzada sobre todos los personajes con filtros combinables, ordenación, paginación y selección de campos.
+Búsqueda avanzada sobre **personajes, heraldos y spren** con filtros combinables, ordenación, paginación y selección de campos.
 
 **Parámetros:**
 
 | Parámetro | Descripción | Ejemplo |
 |---|---|---|
+| `tipo` | Filtra por tipo de entidad | `?tipo=personaje` · `?tipo=heraldo` · `?tipo=spren` |
 | `id` | ID exacto | `?id=kaladin` |
 | `especie` | Especie | `?especie=cantor` |
 | `sexo` | Sexo | `?sexo=femenino` |
 | `nacionalidad` | Nacionalidad | `?nacionalidad=alezi` |
 | `origen` | Lugar de origen | `?origen=Piedralar` |
-| `estado_actual` | `vivo` o `muerto` | `?estado_actual=vivo` |
+| `estado_actual` | Estado vital | `?estado_actual=vivo` · `?estado_actual=fallecido` |
 | `afiliacion` | Afiliación exacta | `?afiliacion=Puente+Cuatro` |
 | `orden` | Orden radiante | `?orden=Tejedores+de+Luz` |
 | `nivel_ideal` | Nivel del Ideal; soporta `>=`, `<=`, `>`, `<` | `?nivel_ideal=>=3` |
-| `libro` | Título de libro | `?libro=Juramentada` |
+| `libro` | Título del libro en que aparece | `?libro=Juramentada` |
 | `texto` | Búsqueda libre en todo el perfil | `?texto=depresión` |
 | `sort` | Campo de ordenación; prefijo `-` para descendente | `?sort=-nivel_ideal` |
 | `page` | Página (empieza en 1) | `?page=2` |
 | `limit` | Resultados por página | `?limit=5` |
 | `fields` | Campos a devolver, separados por coma | `?fields=nombre,orden_radiantes.orden` |
 
-Todos los parámetros son combinables. También se puede filtrar por cualquier campo anidado usando notación de punto como nombre del parámetro:
+Todos los parámetros son combinables. También se puede filtrar por cualquier campo anidado usando notación de punto:
 
 ```bash
 GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
 GET /buscar?habilidades.magia.potencias=Gravitación
 GET /buscar?situacion_actual.rol=sanador
 ```
+
+Cada resultado incluye un campo `_tipo` (`"personaje"`, `"heraldo"` o `"spren"`) para identificar de qué entidad se trata.
 
 **Respuesta:**
 
@@ -221,7 +232,9 @@ GET /buscar?situacion_actual.rol=sanador
   "total": 9,
   "pagina": 1,
   "limite": 10,
-  "resultados": [ ... ]
+  "resultados": [
+    { "_tipo": "personaje", "id": "kaladin", "..." : "..." }
+  ]
 }
 ```
 
@@ -231,11 +244,14 @@ GET /buscar?situacion_actual.rol=sanador
 # Corredores del Viento con nivel_ideal >= 3, ordenados de mayor a menor
 GET /buscar?orden=Corredores+del+Viento&nivel_ideal=>=3&sort=-nivel_ideal
 
-# Personajes femeninos vivos, solo nombre y orden
-GET /buscar?sexo=femenino&estado_actual=vivo&fields=nombre,orden_radiantes.orden
+# Solo heraldos
+GET /buscar?tipo=heraldo
 
-# Segunda página de resultados, 5 por página
-GET /buscar?page=2&limit=5
+# Personajes fallecidos, solo nombre y estado
+GET /buscar?estado_actual=fallecido&fields=nombre,estado_actual
+
+# Búsqueda libre en personajes
+GET /buscar?texto=Shadesmar&tipo=personaje
 ```
 
 ---
@@ -243,23 +259,54 @@ GET /buscar?page=2&limit=5
 ### Stats
 
 #### `GET /stats`
-Estadísticas agregadas de todos los personajes: totales por orden, especie, sexo, nacionalidad, estado vital, libros en los que aparecen y nivel del Ideal promedio.
+Estadísticas agregadas sobre todos los personajes.
+
+```json
+{
+  "personajes": 40,
+  "heraldos": 10,
+  "spren": 40,
+  "vivos": 28,
+  "fallecidos": 10,
+  "sin_estado": 2,
+  "caballeros_radiantes": 22,
+  "no_radiantes": 18,
+  "por_orden": { "Corredores del Viento": 9 },
+  "por_especie": { "humano": 35, "cantor": 5 },
+  "por_sexo": { "masculino": 22, "femenino": 18 },
+  "por_nacionalidad": { "alezi": 20 },
+  "nivel_ideal_promedio": 2.85,
+  "libros": { "El Camino de los Reyes": 15 }
+}
+```
 
 ---
 
 ## Estructura de datos
 
-### Personaje
+### Índice de personaje (`personajes.json`)
+
+```json
+{
+  "id": "kaladin",
+  "nombre": "Kaladin",
+  "orden": "Corredores del Viento",
+  "nivel_ideal": 5,
+  "estado_actual": "vivo"
+}
+```
+
+### Perfil completo de personaje
 
 ```json
 {
   "id": "kaladin",
   "nombre": "Kaladin",
   "nombre_completo": "Kaladin hijo de Lirin",
-  "apodos": ["Kal"],
+  "apodos": ["Kal", "Kaladin Bendito por la Tormenta"],
   "sexo": "masculino",
   "especie": "humano",
-  "nacionalidad": "Alezi",
+  "nacionalidad": "alezi",
   "origen": "Piedralar",
   "planeta_natal": "Roshar",
   "estado_actual": "vivo",
@@ -271,24 +318,29 @@ Estadísticas agregadas de todos los personajes: totales por orden, especie, sex
   "afiliaciones": ["Puente Cuatro", "Corredores del Viento"],
   "orden_radiantes": {
     "orden": "Corredores del Viento",
-    "nivel_ideal": 4,
+    "nivel_ideal": 5,
     "spren_asociado": { "principal": "Sylphrena" },
-    "estado_del_vinculo": "estable"
+    "estado_del_vinculo": "activo"
   },
   "habilidades": {
     "magia": {
       "potencias": ["Gravitación", "Adhesión"],
-      "fuente_de_luz": "Luz tormentosa"
+      "fuente_de_luz": "luz tormentosa"
     },
-    "no_magicas": ["cirugía básica", "liderazgo"]
+    "no_magicas": ["combate con lanza", "cirugía básica", "liderazgo"]
+  },
+  "identidades": {
+    "principales": ["Corredor del Viento", "Capitán del Puente Cuatro"],
+    "descripcion": "...",
+    "estado_en_viento_y_verdad": "..."
   },
   "relaciones": {
-    "familia": [{ "personaje": "lirin", "relacion": "padre" }],
-    "amigos":  [{ "personaje": "teft",  "relacion": "amigo" }],
-    "enemigos": [{ "personaje": "moash", "relacion": "enemigo" }]
+    "familia":  [{ "personaje": "lirin",  "relacion": "padre" }],
+    "amigos":   [{ "personaje": "teft",   "relacion": "amigo" }],
+    "enemigos": [{ "personaje": "moash",  "relacion": "enemigo" }]
   },
   "estado_mental": {
-    "diagnostico_general": "trastorno depresivo recurrente",
+    "diagnostico_general": "trastorno depresivo mayor recurrente",
     "evolucion": "mejora progresiva con recaídas",
     "situacion_en_viento_y_verdad": "..."
   },
@@ -297,7 +349,7 @@ Estadísticas agregadas de todos los personajes: totales por orden, especie, sex
     "puntos_clave": ["..."]
   },
   "situacion_actual": {
-    "ocupacion": "sanador",
+    "ocupacion": "Corredor del Viento del Quinto Ideal",
     "rol": "...",
     "relacion_con_spren": "...",
     "otros_detalles": "..."
@@ -308,6 +360,19 @@ Estadísticas agregadas de todos los personajes: totales por orden, especie, sex
 ```
 
 Las plantillas de personaje, spren y heraldo están disponibles en `data/personajes/00Plantilla.json`, `data/spren/00Plantilla.json` y `data/heraldos/00Plantilla.json`.
+
+---
+
+## Valores estandarizados
+
+### `estado_actual`
+`"vivo"` · `"viva"` · `"fallecido"` · `"fallecida"`
+
+### `rol` en apariciones
+`"protagonista"` · `"principal"` · `"secundario importante"` · `"secundario"` · `"menor"`
+
+### `especie`
+`"humano"` · `"cantor"` · `"retornado"`
 
 ---
 
