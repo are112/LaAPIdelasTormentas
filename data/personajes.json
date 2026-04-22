@@ -6,16 +6,34 @@
     "nivel_ideal": null
   },
   {
+    "id": "cancion_hermosa",
+    "nombre": "Canción Hermosa",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
     "id": "cikatriz",
     "nombre": "Cikatriz",
     "orden": "Corredores del Viento",
     "nivel_ideal": 2
   },
   {
+    "id": "cuerda",
+    "nombre": "Cuerda",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
     "id": "dalinar",
     "nombre": "Dalinar",
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 3
+  },
+  {
+    "id": "don",
+    "nombre": "Don",
+    "orden": "",
+    "nivel_ideal": null
   },
   {
     "id": "drehy",
@@ -27,6 +45,12 @@
     "id": "eshonai",
     "nombre": "Eshonai",
     "orden": "Escultores de Voluntad",
+    "nivel_ideal": null
+  },
+  {
+    "id": "estrella",
+    "nombre": "Estrella",
+    "orden": "",
     "nivel_ideal": null
   },
   {
@@ -52,6 +76,18 @@
     "nombre": "Kaladin",
     "orden": "Corredores del Viento",
     "nivel_ideal": 4
+  },
+  {
+    "id": "kumatiki",
+    "nombre": "Kuma'tiki",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
+    "id": "leshwi",
+    "nombre": "Leshwi",
+    "orden": "",
+    "nivel_ideal": null
   },
   {
     "id": "leyten",
@@ -84,10 +120,22 @@
     "nivel_ideal": 3
   },
   {
+    "id": "moash",
+    "nombre": "Moash",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
     "id": "navani",
     "nombre": "Navani",
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 1
+  },
+  {
+    "id": "rabeniel",
+    "nombre": "Rabeniel",
+    "orden": "",
+    "nivel_ideal": null
   },
   {
     "id": "renarin",
@@ -106,6 +154,12 @@
     "nombre": "Rlain",
     "orden": "Vigilantes de la Verdad",
     "nivel_ideal": 2
+  },
+  {
+    "id": "roca_junior",
+    "nombre": "Roca (junior)",
+    "orden": "",
+    "nivel_ideal": null
   },
   {
     "id": "rushu",
@@ -132,10 +186,28 @@
     "nivel_ideal": 4
   },
   {
+    "id": "taravangian",
+    "nombre": "Taravangian",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
     "id": "teft",
     "nombre": "Teft",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3
+  },
+  {
+    "id": "tuaka",
+    "nombre": "Tuaka",
+    "orden": "",
+    "nivel_ideal": null
+  },
+  {
+    "id": "vasher",
+    "nombre": "Vasher",
+    "orden": "",
+    "nivel_ideal": null
   },
   {
     "id": "venli",
