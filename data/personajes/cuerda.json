@@ -1,0 +1,137 @@
+{
+  "id": "cuerda",
+  "nombre": "Cuerda",
+  "nombre_completo": "Hualinam'lunanaki'akilu",
+  "apodos": [
+    "Cuerda"
+  ],
+  "sexo": "femenino",
+  "especie": "Humano (Unkalaki)",
+  "nacionalidad": "Unkalaki",
+  "origen": "Picos Comecuernos",
+  "planeta_natal": "Roshar",
+  "estado_actual": "Viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "Secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "Secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "Secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Familia de Lunamor",
+    "Expedición a Akinah"
+  ],
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Vidente (puede ver todos los spren, incluso los invisibles en el Reino Físico)",
+      "Cocinera excepcional",
+      "Portadora de armadura esquirlada (arco esquirlado de Amaram)",
+      "Habla veden, aprende alezi"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hija mayor de Lunamor",
+      "Melliza de Don",
+      "Vidente Unkalaki",
+      "Portadora de esquirlada"
+    ],
+    "descripcion": "Joven Unkalaki valiente y aventurera, hija mayor de Lunamor y Tuaka. Su nombre completo es un poema sobre un anillo de bodas. Comparte con su padre la habilidad de ver todos los spren (alaii'iku).",
+    "estado_en_viento_y_verdad": ""
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Lunamor",
+        "relacion": "Padre"
+      },
+      {
+        "personaje": "Tuaka",
+        "relacion": "Madre"
+      },
+      {
+        "personaje": "Don",
+        "relacion": "Hermano gemelo"
+      },
+      {
+        "personaje": "Roca (junior)",
+        "relacion": "Hermano"
+      },
+      {
+        "personaje": "Estrella",
+        "relacion": "Hermano"
+      },
+      {
+        "personaje": "Kuma'tiki",
+        "relacion": "Hermana"
+      },
+      {
+        "personaje": "Canción Hermosa",
+        "relacion": "Hermana menor"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "Lopen",
+        "relacion": "Compañero de expedición, le tiene cariño romántico"
+      },
+      {
+        "personaje": "Rysn",
+        "relacion": "Capitana durante la expedición a Akinah"
+      },
+      {
+        "personaje": "Huio",
+        "relacion": "Compañero de expedición"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable",
+    "evolucion": "Muestra valentía y determinación constantes, sin conflictos internos reseñables",
+    "situacion_en_viento_y_verdad": ""
+  },
+  "arco_narrativo": {
+    "resumen": "Llega a Urithiru con su familia en 1174. Participa en la expedición al islote de Akinah junto a Rysn, donde su habilidad como Vidente resulta clave. Decide quedarse en Urithiru junto a Don cuando el resto de la familia regresa a los Picos.",
+    "puntos_clave": [
+      "Llegada a las Llanuras Quebradas en Jes 1174 tras ser atacados por Portadores del Vacío",
+      "Reclutada por Lopen para la expedición a Akinah por su habilidad como Vidente",
+      "Descubre una infestación de gusanos en los barriles de grano durante el viaje",
+      "Revela conocimiento de intercambios Unkalaki con el 'mundo spren' y la obtención de aluminio",
+      "Se queda en Urithiru con Don mientras el resto de la familia vuelve a los Picos"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Cocinera en Urithiru, portadora de esquirlada",
+    "rol": "Miembro periférico del Puente Cuatro",
+    "relacion_con_spren": "Puede ver todos los spren de manera natural, sin vínculo formal",
+    "otros_detalles": "Posee el arco esquirlado de Amaram. Reside en Urithiru."
+  },
+  "descripcion_breve": "Hija mayor de Lunamor, melliza de Don. Joven Unkalaki con la rara habilidad de ver todos los spren. Valiente y aventurera, participó en la expedición a Akinah y eligió quedarse en Urithiru.",
+  "notas": "Su nombre completo Hualinam'lunanaki'akilu es un poema sobre un anillo de bodas. No sigue el vorinismo, a diferencia de su hermano gemelo Don."
+}

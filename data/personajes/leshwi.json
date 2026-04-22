@@ -1,0 +1,120 @@
+{
+  "id": "leshwi",
+  "nombre": "Leshwi",
+  "nombre_completo": "Leshwi",
+  "apodos": [
+    "Dama Leshwi"
+  ],
+  "sexo": "femenino",
+  "especie": "Cantor (Fusionada)",
+  "nacionalidad": "",
+  "origen": "Roshar (época predesolacional)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "Viva (estado incierto en Viento y Verdad)",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "Secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "Secundario relevante",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "Pendiente de actualización",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados",
+    "Shanay-im",
+    "Los Nueve (anteriormente)",
+    "Bando de Venli"
+  ],
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación"
+      ],
+      "fuente_de_luz": "Luz del Vacío"
+    },
+    "no_magicas": [
+      "Combatiente excepcional con lanza y espada",
+      "Comandante táctica",
+      "Considerada una de las mejores luchadoras entre los Fusionados"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Shanay-im (Fusionada del aire)",
+      "Comandante de campo cantor",
+      "Antigua amiga de una honorspren llamada Riah"
+    ],
+    "descripcion": "Fusionada de alto rango de los shanay-im. Tiene un jaspeado negro, blanco y rojo en la cara y ojos como rubíes. Es una de los pocos Fusionados que mantiene la cordura tras milenios de reencarnación. Valora la pasión como virtud suprema.",
+    "estado_en_viento_y_verdad": "Pendiente de actualización"
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Moash / Vyre",
+        "relacion": "Lo recluta para los Fusionados, lo guía y le otorga el nombre Vyre"
+      },
+      {
+        "personaje": "Venli",
+        "relacion": "Su Voz; confía en ella y apoya su camino como Radiante"
+      },
+      {
+        "personaje": "Kaladin",
+        "relacion": "Rival honorable en duelo, le profesa respeto mutuo"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Lezian (el Perseguidor)",
+        "relacion": "Rivalidad interna; se opone a sus métodos"
+      },
+      {
+        "personaje": "Rabeniel",
+        "relacion": "Desacuerdo táctico y filosófico sobre la invasión de Urithiru"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Una de los pocos Fusionados que mantiene la cordura tras milenios",
+    "evolucion": "Comienza mostrando lealtad a Odium pero progresivamente revela un código de honor propio y compasión hacia los cantores y los humanos que la llevan a rebelarse contra las órdenes de Odium",
+    "situacion_en_viento_y_verdad": "Pendiente de actualización"
+  },
+  "arco_narrativo": {
+    "resumen": "Leshwi es una comandante Fusionada que recluta a Moash para el bando de Odium, reconociendo su pasión. Durante la ocupación de Urithiru protege a la familia de Kaladin y se enfrenta a las tropas de Lezian para salvar vidas humanas inocentes, mostrando una evolución moral que la aleja del dogma de Odium.",
+    "puntos_clave": [
+      "Recluta a Moash tras reconocer su pasión en combate",
+      "Le da el nombre Vyre tras la muerte de Jezrien",
+      "Se bate en duelo con Kaladin durante la evacuación de Piedralar, terminando en empate honorable",
+      "Se opone al plan de invasión de Urithiru de Rabeniel ante Los Nueve",
+      "Protege a la familia de Kaladin (Lirin, Hesina, Oroden) durante la ocupación de Urithiru",
+      "Se rebela contra las tropas de Lezian para salvar a humanos inocentes y escolta a los supervivientes"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionada shanay-im, comandante",
+    "rol": "Antagonista con código de honor propio; posible aliada futura",
+    "relacion_con_spren": "Antigua amistad con la honorspren Riah, ya fallecida. Su alma lleva demasiado tiempo en manos de Odium para vincularse de nuevo",
+    "otros_detalles": "Reencarnada en un cuerpo hombren durante el último retorno; se afeita la barba y mantiene el pelo largo"
+  },
+  "descripcion_breve": "Fusionada shanay-im de alto rango. Comandante de campo que valora la pasión y el honor. Reclutó a Moash para Odium pero terminó rebelándose contra las órdenes de Lezian para proteger vidas inocentes.",
+  "notas": "Conoció en vida a la honorspren Riah. Su alma lleva demasiado tiempo ligada a Odium como para formar un nuevo vínculo spren."
+}

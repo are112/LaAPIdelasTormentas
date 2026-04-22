@@ -1,0 +1,133 @@
+{
+  "id": "moash",
+  "nombre": "Moash",
+  "nombre_completo": "Moash",
+  "apodos": [
+    "Vyre",
+    "Aquel Que Acalla",
+    "Lord Acallador"
+  ],
+  "sexo": "masculino",
+  "especie": "Humano (alezi)",
+  "nacionalidad": "Alezkar",
+  "origen": "Kholinar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "Vivo (ciego con clavos de cristal en los ojos)",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El camino de los reyes",
+        "rol": "Secundario relevante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras radiantes",
+        "rol": "Secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "Secundario relevante",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "Antagonista",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "Pendiente de actualización",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro (anteriormente)",
+    "Ejército de Sadeas (anteriormente)",
+    "Ejército de Kholin (anteriormente)",
+    "El Diagrama (anteriormente)",
+    "Portadores del Vacío"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredor del Viento (caído / nunca completado el vínculo)",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Nunca completó el vínculo; porta la hoja de Honor de Jezrien"
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
+      "fuente_de_luz": "Luz tormentosa (mediante la hoja de Honor de Jezrien)"
+    },
+    "no_magicas": [
+      "Espadachín y lancero excepcional",
+      "Portador de armadura y hoja esquirlada (anteriormente)",
+      "Visión de Investidura mediante clavos de cristal (ve contornos de luz)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Exmiembro del Puente Cuatro",
+      "Asesino del rey Elhokar",
+      "Portador de la hoja de Honor de Jezrien",
+      "Vyre"
+    ],
+    "descripcion": "Hombre alezi delgado pero fuerte, con rostro aguileño y pelo castaño oscuro. Ojos oscuros de nacimiento, que se volvieron bronceados al recibir esquirladas. Tras la ocupación de Urithiru quedó ciego; le insertaron clavos de cristal que emiten luz violeta.",
+    "estado_en_viento_y_verdad": "Pendiente de actualización"
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Ana y Da (abuelos)",
+        "relacion": "Criado por ellos; su muerte injusta en las mazmorras de Roshone marcó su vida"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "Kaladin",
+        "relacion": "Antigua amistad profunda; Moash lo urge a suicidarse antes de unirse a Odium"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Elhokar",
+        "relacion": "Lo asesina por considerarlo responsable de la muerte de sus abuelos"
+      },
+      {
+        "personaje": "Kaladin",
+        "relacion": "Ex amigo; su relación se convierte en antagonismo irresoluble"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profunda alienación emocional; se entrega voluntariamente al vacío emocional de Odium para escapar del dolor",
+    "evolucion": "Comienza como un hombre leal con sentido de la justicia deformado por la rabia. Progresivamente abandona sus vínculos emocionales al entregarse a Odium, llegando a afirmar no sentir nada. En su desesperación insta a Kaladin a suicidarse.",
+    "situacion_en_viento_y_verdad": "Pendiente de actualización"
+  },
+  "arco_narrativo": {
+    "resumen": "Moash comienza como miembro del Puente Cuatro y se convierte en uno de los personajes más trágicos de la saga. Su deseo de venganza contra el rey Elhokar lo lleva a traicionar al Puente Cuatro, unirse al Diagrama y finalmente a los Fusionados, perdiendo progresivamente su identidad hasta convertirse en Vyre, el asesino al servicio de Odium.",
+    "puntos_clave": [
+      "Sus abuelos mueren injustamente en las mazmorras reales por el caso Roshone",
+      "Se une al Puente Cuatro y entabla amistad profunda con Kaladin",
+      "Intenta asesinar al rey Elhokar, fracasa y deserta del Puente Cuatro",
+      "Se une al Diagrama y luego a los Fusionados de la mano de Leshwi",
+      "Recibe el nombre Vyre tras matar al Herald Jezrien con la hoja de Honor",
+      "Durante la ocupación de Urithiru queda ciego; le insertan clavos de cristal que le dan visión de Investidura",
+      "Insta a Kaladin a suicidarse como forma de 'salvación'"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guerrero y asesino al servicio de los Portadores del Vacío",
+    "rol": "Antagonista principal en relación con Kaladin",
+    "relacion_con_spren": "Porta la hoja de Honor de Jezrien, que le da acceso a las potencias de Gravitación y Adhesión",
+    "otros_detalles": "Ciego, con clavos de cristal que emiten luz violeta en las cuencas oculares. Su nuevo nombre Vyre significa 'Aquel que Acalla'."
+  },
+  "descripcion_breve": "Exmiembro del Puente Cuatro que traicionó a Kaladin y se entregó a Odium. Porta la hoja de Honor de Jezrien y se ha convertido en Vyre, el Aquel que Acalla, uno de los antagonistas más complejos de la saga.",
+  "notas": "El nombre Moash tiene origen cantor, algo que él mismo descubre. Su arco es uno de los más oscuros de la saga: la caída de alguien con sentido de la justicia que termina vaciado de toda emoción."
+}

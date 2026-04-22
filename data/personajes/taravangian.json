@@ -1,0 +1,142 @@
+{
+  "id": "taravangian",
+  "nombre": "Taravangian",
+  "nombre_completo": "Taravangian",
+  "apodos": [
+    "Vargo",
+    "Odium (anteriormente)",
+    "El Dios Dividido",
+    "Dios de las Pasiones",
+    "Represalia"
+  ],
+  "sexo": "masculino",
+  "especie": "Humano",
+  "nacionalidad": "Kharbranth",
+  "origen": "Kharbranth",
+  "planeta_natal": "Roshar",
+  "estado_actual": "Vivo; Recipiente actual de la Esquirla Represalia",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El camino de los reyes",
+        "rol": "Secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras radiantes",
+        "rol": "Secundario relevante",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "Antagonista secundario",
+        "pov": true
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "Antagonista principal",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "Antagonista principal",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama",
+    "Kharbranth",
+    "Jah Keved (anteriormente)",
+    "Portadores del Vacío (como Odium, anteriormente)"
+  ],
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Capacidades de Esquirlado (como Recipiente de Represalia)"
+      ],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Inteligencia fluctuante (maldición de la Vigilante Nocturna: genio sin compasión o compasión sin inteligencia)",
+      "Manipulación política consumada",
+      "Creó El Diagrama el día de máxima inteligencia"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Antiguo rey de Kharbranth",
+      "Antiguo rey de Jah Keved",
+      "Líder de El Diagrama",
+      "Antiguo Recipiente de Odium (Rayse muerto, Taravangian lo absorbe)",
+      "Actual Recipiente de la Esquirla Represalia"
+    ],
+    "descripcion": "Anciano de barba rala blanca y ojos gris pálido con rostro abierto y amable. Aparenta ser de inteligencia reducida pero es en realidad un manipulador extraordinario cuya inteligencia fluctúa diariamente por maldición de la Vigilante Nocturna.",
+    "estado_en_viento_y_verdad": "Activo como Recipiente de Represalia, antagonista principal"
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Savrahalidem",
+        "relacion": "Hijo"
+      },
+      {
+        "personaje": "Gvori, Karavaniga, Ruli",
+        "relacion": "Nietos"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "Adrotagia",
+        "relacion": "Consejera de confianza y leal colaboradora"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Dalinar",
+        "relacion": "Adversario filosófico y político"
+      },
+      {
+        "personaje": "Jasnah",
+        "relacion": "Adversaria; ella descubre su traición"
+      },
+      {
+        "personaje": "Rayse (Odium)",
+        "relacion": "Lo mata para convertirse en el nuevo Recipiente"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmatismo utilitarista extremo. Se considera un mártir moral que asume la culpa para que otros no tengan que hacerlo",
+    "evolucion": "Comienza como rey aparentemente benevolente. El Diagrama revela su frialdad calculada. Como Recipiente de Odium adquiere una perspectiva cósmica que transforma su utilitarismo. Como Represalia, su naturaleza está aún en evolución.",
+    "situacion_en_viento_y_verdad": "Activo como Represalia. Su carácter como dios está moldeándose durante los eventos de Viento y Verdad."
+  },
+  "arco_narrativo": {
+    "resumen": "Taravangian pasa de ser un rey aparentemente torpe pero compasivo a revelarse como el arquitecto de El Diagrama, una conspiración para garantizar la supervivencia de la humanidad bajo Odium. Traiciona a Dalinar, es encarcelado, y en un momento de máxima inteligencia y mínima compasión mata a Rayse para convertirse en el nuevo Odium. En Viento y Verdad, ahora como Represalia, constituye la amenaza definitiva para Roshar.",
+    "puntos_clave": [
+      "Visita a la Vigilante Nocturna: le concede alta inteligencia y alta compasión pero no ambas a la vez",
+      "Crea El Diagrama en su día de máxima inteligencia",
+      "Gobierna Kharbranth y luego Jah Keved",
+      "Se une a la coalición de Dalinar mientras conspira en secreto",
+      "Traiciona a Dalinar; es encarcelado en Urithiru",
+      "En un día de máxima inteligencia y mínima compasión, apuñala a Rayse con una daga de fabriales y absorbe la Esquirla Odium",
+      "Se convierte en el nuevo Odium / Represalia, un dios con voluntad propia y objetivos propios"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Recipiente de la Esquirla Represalia",
+    "rol": "Antagonista principal de la saga (Viento y Verdad en adelante)",
+    "relacion_con_spren": "",
+    "otros_detalles": "Ya no es el Odium de Rayse. Como Represalia, posee una voluntad e intención propias distintas a las de su predecesor."
+  },
+  "descripcion_breve": "Antiguo rey de Kharbranth y arquitecto de El Diagrama. Mató a Rayse para convertirse en el nuevo Recipiente de Odium. Ahora porta la Esquirla Represalia y es el antagonista principal de la saga.",
+  "notas": "Su maldición de la Vigilante Nocturna —inteligencia o compasión, nunca ambas— es fundamental para entender su arco. El nombre de la Esquirla cambió de Odium a Represalia cuando Taravangian se convirtió en su Recipiente."
+}

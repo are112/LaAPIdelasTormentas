@@ -1,0 +1,116 @@
+{
+  "id": "tuaka",
+  "nombre": "Tuaka",
+  "nombre_completo": "Tuaka'li'na'calmi'nor",
+  "apodos": [
+    "Tuaka",
+    "Canción"
+  ],
+  "sexo": "femenino",
+  "especie": "Humano (Unkalaki)",
+  "nacionalidad": "Unkalaki",
+  "origen": "Picos Comecuernos",
+  "planeta_natal": "Roshar",
+  "estado_actual": "Viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "Secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "Mencionada",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Familia de Lunamor"
+  ],
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Arquera hábil con flecha unkalaki (disparó a un Portador del Vacío durante el ataque a la caravana)",
+      "Constructora experta de fuertes de nieve (según Lunamor, los suyos eran siempre los mejores)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Esposa de Lunamor",
+      "Madre de seis hijos Unkalaki"
+    ],
+    "descripcion": "Mujer Unkalaki de cara redonda y pelo rojo oscuro recogido en una trenza. Conoce a Lunamor desde la infancia. Pragmática y discreta, es el pilar de la familia durante la larga ausencia de su marido.",
+    "estado_en_viento_y_verdad": ""
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Lunamor",
+        "relacion": "Esposo, conocido desde la infancia"
+      },
+      {
+        "personaje": "Don",
+        "relacion": "Hijo"
+      },
+      {
+        "personaje": "Cuerda",
+        "relacion": "Hija"
+      },
+      {
+        "personaje": "Roca (junior)",
+        "relacion": "Hijo"
+      },
+      {
+        "personaje": "Estrella",
+        "relacion": "Hijo"
+      },
+      {
+        "personaje": "Kuma'tiki",
+        "relacion": "Hija"
+      },
+      {
+        "personaje": "Canción Hermosa",
+        "relacion": "Hija menor"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable",
+    "evolucion": "Mantuvo a la familia unida durante la prolongada ausencia de Lunamor. Su reencuentro con él está marcado por la preocupación y la discreción.",
+    "situacion_en_viento_y_verdad": ""
+  },
+  "arco_narrativo": {
+    "resumen": "Esposa de Lunamor, lo conoce desde niños en los Picos Comecuernos. Durante la ausencia de Lunamor se casa con él y tienen seis hijos. Recibe sus cartas y mueve a la familia hacia las Llanuras Quebradas. Tras reencontrarse con Lunamor en Urithiru, regresa a los Picos con la mayor parte de la familia.",
+    "puntos_clave": [
+      "Infancia junto a Lunamor construyendo fuertes de nieve en los Picos",
+      "Recibe la carta de Lunamor explicando su fracaso tras la muerte de Kef'ha",
+      "Recibe nuevas cartas de Lunamor pidiendo que se reúnan en las Llanuras Quebradas",
+      "Viaje de meses hasta las Llanuras, sufriendo ataque de Portadores del Vacío",
+      "Reencuentro con Lunamor en Urithiru; le trae noticias preocupantes de los Picos",
+      "Regresa a los Picos con la mayor parte de la familia, dejando a Cuerda y Don en Urithiru"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Esposa y madre, vive en los Picos Comecuernos",
+    "rol": "Familiar de Lunamor",
+    "relacion_con_spren": "",
+    "otros_detalles": "Residencia actual en los Picos Comecuernos"
+  },
+  "descripcion_breve": "Esposa de Lunamor y madre de sus seis hijos. Unkalaki de cara redonda y pelo rojo oscuro, conocida por Lunamor desde la infancia. Pilar de la familia durante su prolongada separación.",
+  "notas": "Su nombre completo Tuaka'li'na'calmi'nor se abrevia habitualmente como Tuaka o Canción."
+}

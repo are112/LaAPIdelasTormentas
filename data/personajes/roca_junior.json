@@ -1,0 +1,110 @@
+{
+  "id": "roca_junior",
+  "nombre": "Roca (junior)",
+  "nombre_completo": "Roca",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "Humano (Unkalaki)",
+  "nacionalidad": "Unkalaki",
+  "origen": "Picos Comecuernos",
+  "planeta_natal": "Roshar",
+  "estado_actual": "Vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "Secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "Secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Familia de Lunamor"
+  ],
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Recolector de alimentos (según tradición cultural Unkalaki)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Segundo hijo de Lunamor y Tuaka",
+      "Homónimo de su padre (nombre de una roca más pequeña)"
+    ],
+    "descripcion": "Segundo hijo de Lunamor y Tuaka. Lleva el nombre de un tipo de roca más pequeña que la de su padre. Según las tradiciones Unkalaki, tiene el honor de recolectar alimentos, como su hermano mayor Don.",
+    "estado_en_viento_y_verdad": ""
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Lunamor",
+        "relacion": "Padre"
+      },
+      {
+        "personaje": "Tuaka",
+        "relacion": "Madre"
+      },
+      {
+        "personaje": "Don",
+        "relacion": "Hermano mayor"
+      },
+      {
+        "personaje": "Cuerda",
+        "relacion": "Hermana mayor"
+      },
+      {
+        "personaje": "Estrella",
+        "relacion": "Hermano"
+      },
+      {
+        "personaje": "Kuma'tiki",
+        "relacion": "Hermana"
+      },
+      {
+        "personaje": "Canción Hermosa",
+        "relacion": "Hermana menor"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": ""
+  },
+  "arco_narrativo": {
+    "resumen": "Llega con su familia a las Llanuras Quebradas en 1174. Tras la evacuación de Piedralar, regresa a los Picos Comecuernos con la mayor parte de la familia.",
+    "puntos_clave": [
+      "Llegada a las Llanuras Quebradas en Jes 1174",
+      "Atacado por Portadores del Vacío en el camino",
+      "Rescatado por el Puente Cuatro y llevado a Urithiru",
+      "Regresa a los Picos Comecuernos tras la evacuación de Piedralar"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Recolector de alimentos (según tradición Unkalaki)",
+    "rol": "Familiar de Lunamor",
+    "relacion_con_spren": "",
+    "otros_detalles": "Reside en los Picos Comecuernos"
+  },
+  "descripcion_breve": "Segundo hijo de Lunamor y Tuaka, homónimo de su padre con un nombre de roca más pequeña. Personaje secundario con escasa presencia individual.",
+  "notas": "Se usa 'Roca (junior)' para diferenciarlo de su padre Lunamor, cuyo apodo en alezi es también 'Roca'."
+}

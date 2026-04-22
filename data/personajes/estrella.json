@@ -1,0 +1,109 @@
+{
+  "id": "estrella",
+  "nombre": "Estrella",
+  "nombre_completo": "Estrella",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "Humano (Unkalaki)",
+  "nacionalidad": "Unkalaki",
+  "origen": "Picos Comecuernos",
+  "planeta_natal": "Roshar",
+  "estado_actual": "Vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "Secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "Secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Familia de Lunamor"
+  ],
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Artesano (según tradición cultural Unkalaki)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Tercer hijo de Lunamor y Tuaka"
+    ],
+    "descripcion": "Tercer hijo de Lunamor y Tuaka. Según las tradiciones Unkalaki, tiene el honor de ser artesano.",
+    "estado_en_viento_y_verdad": ""
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Lunamor",
+        "relacion": "Padre"
+      },
+      {
+        "personaje": "Tuaka",
+        "relacion": "Madre"
+      },
+      {
+        "personaje": "Don",
+        "relacion": "Hermano mayor"
+      },
+      {
+        "personaje": "Cuerda",
+        "relacion": "Hermana mayor"
+      },
+      {
+        "personaje": "Roca (junior)",
+        "relacion": "Hermano"
+      },
+      {
+        "personaje": "Kuma'tiki",
+        "relacion": "Hermana"
+      },
+      {
+        "personaje": "Canción Hermosa",
+        "relacion": "Hermana menor"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": ""
+  },
+  "arco_narrativo": {
+    "resumen": "Llega con su familia a las Llanuras Quebradas en 1174. Tras la evacuación de Piedralar, regresa a los Picos Comecuernos con la mayor parte de la familia.",
+    "puntos_clave": [
+      "Llegada a las Llanuras Quebradas en Jes 1174",
+      "Atacado por Portadores del Vacío en el camino",
+      "Rescatado por el Puente Cuatro y llevado a Urithiru",
+      "Regresa a los Picos Comecuernos tras la evacuación de Piedralar"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Artesano (según tradición Unkalaki)",
+    "rol": "Familiar de Lunamor",
+    "relacion_con_spren": "",
+    "otros_detalles": "Reside en los Picos Comecuernos"
+  },
+  "descripcion_breve": "Tercer hijo de Lunamor y Tuaka. Artesano por tradición Unkalaki. Personaje secundario con escasa presencia individual en la narrativa.",
+  "notas": ""
+}

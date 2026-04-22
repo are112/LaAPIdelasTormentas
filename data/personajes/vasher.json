@@ -1,0 +1,150 @@
+{
+  "id": "vasher",
+  "nombre": "Vasher",
+  "nombre_completo": "Vasher",
+  "apodos": [
+    "Zahel",
+    "Kalad el Usurpador",
+    "Dalapaz el Bendito",
+    "Rompeguerras el Pacífico",
+    "Amadisputas",
+    "Talaxin",
+    "Tax"
+  ],
+  "sexo": "masculino",
+  "especie": "Retornado (Nalthiense)",
+  "nacionalidad": "Nalthis",
+  "origen": "Nalthis",
+  "planeta_natal": "Nalthis",
+  "estado_actual": "Vivo (en Roshar como Zahel)",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El aliento de los dioses (Warbreaker)",
+        "rol": "Protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras radiantes",
+        "rol": "Secundario (como Zahel)",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "Secundario (como Zahel)",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "Secundario (como Zahel)",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "Pendiente de actualización",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Los Cinco Sabios (Nalthis)",
+    "Fervorosos de Urithiru (como Zahel)",
+    "Familia Kholin (maestro espadachín)"
+  ],
+  "orden_radiantes": {
+    "orden": "",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Despertar (Quinta Elevación Biocrómica; puede emitir tres Órdenes sin esfuerzo)",
+        "Retornado (puede cambiar su apariencia a voluntad; curación acelerada)",
+        "Uso de luz tormentosa como sustituto de Alientos en Roshar",
+        "Creador de los Fantasmas de Kalad (ejército de piedra sinvida)",
+        "Co-creador de Sangre Nocturna junto a Shashara"
+      ],
+      "fuente_de_luz": "Aliento Divino (Nalthis); Luz tormentosa (en Roshar como sustituto)"
+    },
+    "no_magicas": [
+      "Espadachín excepcional con trescientos años de práctica",
+      "Maestro de armas alezi en Urithiru",
+      "Entrenó a Adolin, Renarin y Kaladin",
+      "Académico e investigador"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Retornado de Nalthis",
+      "Uno de los Cinco Sabios",
+      "Co-creador de Sangre Nocturna",
+      "Zahel (identidad en Roshar)",
+      "Maestro espadachín de la familia Kholin",
+      "Saltamundos del Cosmere"
+    ],
+    "descripcion": "Hombre alto con problemas para expresarse, brusco y cascarrabias. En Roshar aparece con pelo largo, barba negra corta, ropas pardas y ojos que 'parecen viejos'. Usa expresiones con referencias a colores, confundiendo a los rosharianos.",
+    "estado_en_viento_y_verdad": "Pendiente de actualización"
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Shashara",
+        "relacion": "Esposa; la mató con Sangre Nocturna para evitar que se difundiera el conocimiento de su creación"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "Vivenna",
+        "relacion": "Aliada en la rebelión de Pahn Kahl"
+      },
+      {
+        "personaje": "Sangre Nocturna",
+        "relacion": "Espada despertada que él co-creó; relación compleja"
+      },
+      {
+        "personaje": "Kaladin",
+        "relacion": "Discípulo en esgrima; afinidad reconocida"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Denth",
+        "relacion": "Enemigo tras matar a Arsteel por error y a Shashara"
+      },
+      {
+        "personaje": "Arsteel",
+        "relacion": "Lo mató por malinterpretar sus motivos"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Cargado por siglos de culpa y pérdida; su ira oculta su mejor yo. Tiene lagunas de memoria.",
+    "evolucion": "Comenzó como Rompeguerras, evolucionó hacia la diplomacia como Dalapaz, y ahora vive una existencia de exilio voluntario como Zahel en Roshar, enseñando esgrima y manteniendo un perfil bajo.",
+    "situacion_en_viento_y_verdad": "Pendiente de actualización"
+  },
+  "arco_narrativo": {
+    "resumen": "Vasher es uno de los personajes más antiguos y complejos del Cosmere. Retornado de Nalthis, co-creó a Sangre Nocturna y desencadenó la Multiguerra. Tras siglos de conflicto, traición y pérdida, saltó a Roshar donde vive bajo el nombre de Zahel como maestro espadachín, usando luz tormentosa para mantenerse vivo.",
+    "puntos_clave": [
+      "Retorna en Nalthis, sin memoria de su vida anterior; recibe el nombre Rompeguerras el Pacífico",
+      "Junto a Shashara crea a Sangre Nocturna",
+      "Inicia y luego detiene la Multiguerra (como Kalad y luego Dalapaz)",
+      "Crea los Fantasmas de Kalad, un ejército casi imparable de sinvida",
+      "Mata a Shashara para evitar que se divulgue el conocimiento de Sangre Nocturna",
+      "Mata a Arsteel por malinterpretar sus motivos; se convierte en enemigo de Denth",
+      "Salta al mundo de Roshar, adoptando la identidad de Zahel",
+      "Se convierte en maestro espadachín y fervoroso en Urithiru; entrena a la familia Kholin y a Kaladin"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Maestro espadachín y fervoroso en Urithiru (como Zahel)",
+    "rol": "Personaje de trasfondo con conocimiento profundo del Cosmere",
+    "relacion_con_spren": "Sin vínculo formal; usa luz tormentosa absorbida a través del hueco de su Aliento Divino",
+    "otros_detalles": "Usa luz tormentosa para mantenerse con vida en Roshar en lugar de consumir Alientos. No puede usar luz tormentosa para despertar objetos."
+  },
+  "descripcion_breve": "Retornado de Nalthis, uno de los Cinco Sabios y co-creador de Sangre Nocturna. Vive en Roshar bajo el nombre de Zahel como maestro espadachín. Uno de los personajes más antiguos del Cosmere, cargado por siglos de culpa y pérdida.",
+  "notas": "Vasher es un personaje crossover de Warbreaker que aparece en El Archivo de las Tormentas. Usa expresiones que hacen referencia a colores, herencia de su cultura nalthiense. No puede despertar con luz tormentosa, solo mantenerse vivo."
+}
