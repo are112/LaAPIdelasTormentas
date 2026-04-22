@@ -4,149 +4,117 @@
   "nombre_completo": "Kaladin hijo de Lirin",
   "apodos": [
     "Kal",
-    "Kaladin Bendito por la Tormenta"
+    "Kaladin Bendito por la Tormenta",
+    "Corredor del Viento",
+    "Capitán Kaladin"
   ],
   "sexo": "masculino",
   "especie": "humano",
-  "nacionalidad": "Alezi",
+  "nacionalidad": "alezi",
   "origen": "Piedralar",
   "planeta_natal": "Roshar",
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "protagonista",
-        "pov": true
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "protagonista",
-        "pov": true
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "protagonista",
-        "pov": true
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "protagonista",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "protagonista",
-        "pov": true
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "protagonista", "pov": true },
+      { "titulo": "Palabras Radiantes",     "rol": "protagonista", "pov": true },
+      { "titulo": "Juramentada",            "rol": "protagonista", "pov": true },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "protagonista", "pov": true },
+      { "titulo": "Viento y Verdad",        "rol": "protagonista", "pov": true }
     ]
   },
   "afiliaciones": [
     "Puente Cuatro",
-    "Guardia Real de Elhokar",
-    "Caballeros Radiantes",
     "Corredores del Viento",
+    "Caballeros Radiantes",
+    "Guardia Real de Elhokar (anteriormente)",
+    "Ejército de Amaram (anteriormente)",
+    "Ejército de Sadeas (anteriormente)",
     "Clínica de Urithiru"
   ],
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 4,
-    "spren_asociado": {
-      "principal": "Sylphrena"
-    },
-    "estado_del_vinculo": "estable"
+    "spren_asociado": { "principal": "Sylphrena" },
+    "estado_del_vinculo": "Activo. Alcanzó el Quinto Ideal en Shinovar durante los eventos de Viento y Verdad. Propuesto como nuevo Heraldo del Todopoderoso en lugar de Jezrien."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Gravitación",
-        "Adhesión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "cirugía básica",
-      "liderazgo",
-      "combate con lanza",
-      "táctica de escuadras",
-      "entrenamiento militar avanzado"
+      "Lancero excepcional; uno de los mejores combatientes de Roshar",
+      "Cirugía y medicina básica (entrenado por su padre Lirin)",
+      "Liderazgo y cohesión de escuadras",
+      "Táctica militar de infantería",
+      "Apoyo emocional y mentoría"
     ]
+  },
+  "identidades": {
+    "principales": [
+      "Protagonista de la saga",
+      "Corredor del Viento de los Caballeros Radiantes",
+      "Capitán del Puente Cuatro",
+      "Alto mariscal del ejército de Dalinar",
+      "Heraldo del Todopoderoso (propuesto en VyV en lugar de Jezrien)"
+    ],
+    "descripcion": "Joven alezi de ojos oscuros, complexión atlética y una marca en la frente en forma de glifo. Entrenado como cirujano por su padre pero llamado irresistiblemente a ser soldado. Cargado por un profundo sentido de responsabilidad hacia quienes protege y por una depresión recurrente que lucha por superar a lo largo de toda la saga.",
+    "estado_en_viento_y_verdad": "Acompaña a Szeth a Shinovar. Jura el Quinto Ideal al ayudar a curar a los Heraldos Nale e Ishar. El Viento le propone refundar el Juramento como nuevo Heraldo en lugar de Jezrien."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "lirin",
-        "relacion": "padre"
-      },
-      {
-        "personaje": "hesina",
-        "relacion": "madre"
-      },
-      {
-        "personaje": "tien",
-        "relacion": "hermano"
-      },
-      {
-        "personaje": "oroden",
-        "relacion": "hermano"
-      }
+      { "personaje": "Lirin",   "relacion": "padre; cirujano de Piedralar" },
+      { "personaje": "Hesina",  "relacion": "madre" },
+      { "personaje": "Tien",    "relacion": "hermano menor; su muerte en el ejército de Amaram marca a Kaladin para siempre" },
+      { "personaje": "Oroden",  "relacion": "hermano pequeño" }
     ],
     "amigos": [
-      {
-        "personaje": "Sylphrena",
-        "relacion": "aliada"
-      },
-      {
-        "personaje": "Roca",
-        "relacion": "amigo"
-      },
-      {
-        "personaje": "Teft",
-        "relacion": "amigo"
-      },
-      {
-        "personaje": "Lopen",
-        "relacion": "amigo"
-      },
-      {
-        "personaje": "Adolin",
-        "relacion": "amigo"
-      },
-      {
-        "personaje": "Renarin",
-        "relacion": "amigo"
-      }
+      { "personaje": "sylphrena",  "relacion": "spren vinculada; su relación es el núcleo emocional de su arco" },
+      { "personaje": "teft",       "relacion": "amigo y mentor en el Puente Cuatro; fallecido" },
+      { "personaje": "lunamor",    "relacion": "amigo del Puente Cuatro" },
+      { "personaje": "lopen",      "relacion": "amigo del Puente Cuatro" },
+      { "personaje": "shallan",    "relacion": "aliada; tensión romántica no resuelta" },
+      { "personaje": "adolin",     "relacion": "amigo y aliado; relación de respeto mutuo" },
+      { "personaje": "dalinar",    "relacion": "figura paterna y líder; profundo respeto mutuo" },
+      { "personaje": "szeth",      "relacion": "exrival reconvertido en aliado; compañero en Shinovar en VyV" }
     ],
     "enemigos": [
-      {
-        "personaje": "Moash",
-        "relacion": "enemigo"
-      }
+      { "personaje": "moash", "relacion": "examigo que traicionó al Puente Cuatro y asesinó a Elhokar; antagonista personal de Kaladin" },
+      { "personaje": "leshwi","relacion": "rival honorable en combate aéreo; desarrollan respeto mutuo" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "trastorno depresivo recurrente",
-    "evolucion": "mejora progresiva con recaídas",
-    "situacion_en_viento_y_verdad": "estabilidad emocional creciente y aceptación de su identidad"
+    "diagnostico_general": "Trastorno depresivo mayor recurrente. Kaladin experimenta episodios depresivos graves a lo largo de toda la saga, agravados por el peso de la responsabilidad y la culpa por los que no pudo salvar.",
+    "evolucion": "Pasa de la desesperación absoluta como esclavo del Puente Cuatro a aprender a pedir ayuda y aceptar que no puede salvar a todos. Cada Ideal jurado representa un paso en su recuperación. El Quinto Ideal — protegerse a sí mismo para poder proteger a los demás — es la culminación de su arco de salud mental.",
+    "situacion_en_viento_y_verdad": "Mayor estabilidad emocional. Acepta sus límites y aprende a cuidarse. Jura el Quinto Ideal como expresión de esa aceptación."
   },
   "arco_narrativo": {
-    "resumen": "Kaladin evoluciona de esclavo a líder del Puente Cuatro, luego a Caballero Radiante, y finalmente a sanador y protector en Urithiru.",
+    "resumen": "Kaladin comienza como joven aspirante a soldado en Piedralar, cae en la esclavitud tras una traición de Amaram y llega a las Llanuras Quebradas como portador de puente bajo Sadeas. Allí lidera al Puente Cuatro y se convierte en el primer Caballero Radiante de la nueva era al vincularse con Sylphrena. A lo largo de cinco libros jura cinco Ideales, cada uno una victoria sobre sí mismo, y culmina su arco en Shinovar siendo propuesto como nuevo Heraldo en lugar de Jezrien.",
     "puntos_clave": [
-      "superación del trauma por la muerte de Tien",
-      "aceptación de su rol como protector",
-      "conflicto interno con la violencia y la responsabilidad",
-      "ruptura y recuperación del vínculo con Sylphrena",
-      "transición hacia un rol de sanador y apoyo emocional",
-      "participación decisiva en la defensa de Urithiru",
-      "redefinición de su propósito en Viento y Verdad"
+      "Criado en Piedralar por su padre Lirin, cirujano, que le entrena en medicina pese a querer ser soldado.",
+      "Se alista en el ejército de Amaram; lidera un escuadrón y salva a sus hombres repetidamente.",
+      "Su hermano Tien es reclutado; Kaladin lo sigue para protegerlo. Tien muere en combate.",
+      "Amaram lo vende como esclavo tras una traición para quedarse con una hoja esquirlada.",
+      "Llega a las Llanuras Quebradas como portador de puente del Puente Cuatro bajo Sadeas.",
+      "Lidera al Puente Cuatro y transforma un grupo de condenados en una unidad cohesionada.",
+      "Se vincula con Sylphrena; jura el Primer Ideal: 'Vida antes que muerte. Fuerza antes que debilidad. Viaje antes que destino.'",
+      "Salva a Dalinar en la batalla y es liberado. El Puente Cuatro pasa al servicio de Dalinar.",
+      "Jura el Segundo Ideal: 'Protegeré a los que no puedan protegerse a sí mismos.'",
+      "Jura el Tercer Ideal tras ver morir a sus hombres: 'Protegeré incluso a los que odio.'",
+      "Jura el Cuarto Ideal en Thaylenah: acepta que no puede salvar a todos y se perdona a sí mismo. Obtiene armadura esquirlada de vientospren.",
+      "Teft muere durante la ocupación de Urithiru; una de las pérdidas más devastadoras para Kaladin.",
+      "Acompaña a Szeth a Shinovar en Viento y Verdad.",
+      "Jura el Quinto Ideal al ayudar a curar a Nale e Ishar: 'Me protegeré a mí mismo para poder seguir protegiendo a los demás.'",
+      "El Viento le propone refundar el Juramento como nuevo Heraldo en lugar de Jezrien."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "sanador y protector en Urithiru",
-    "rol": "figura clave en la estabilidad emocional y logística de la ciudad",
-    "relacion_con_spren": "fuerte y madura",
-    "otros_detalles": "mentor emocional y de combate para Puente Cuatro"
+    "ocupacion": "Corredor del Viento del Quinto Ideal; propuesto como nuevo Heraldo",
+    "rol": "Protagonista; Heraldo del Todopoderoso propuesto",
+    "relacion_con_spren": "Vínculo profundo y maduro con Sylphrena, alcanzado el Quinto Ideal.",
+    "otros_detalles": "Ha superado en buena medida su depresión recurrente. Posee armadura esquirlada de vientospren desde el Cuarto Ideal."
   },
-  "descripcion_breve": "Antiguo esclavo y líder del Puente Cuatro, ahora Caballero Radiante de alto Ideal y sanador en Urithiru.",
-  "notas": "Uno de los personajes más influyentes de la saga, con un arco centrado en la responsabilidad, la depresión y la protección."
+  "descripcion_breve": "Protagonista absoluto de la saga. Antiguo esclavo del Puente Cuatro convertido en Corredor del Viento del Quinto Ideal. Su arco, centrado en la depresión, la responsabilidad y el aprendizaje de protegerse a sí mismo, es el más completo de toda la serie.",
+  "notas": "Es el único personaje con POV en los cinco libros. Su depresión es uno de los tratamientos más cuidados de salud mental en la fantasía épica moderna. El Quinto Ideal — protegerse a uno mismo para poder proteger a los demás — cierra su arco de salud mental."
 }
