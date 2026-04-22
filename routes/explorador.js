@@ -1281,7 +1281,7 @@ router.get("/", (req, res) => {
       }
       wrap.innerHTML = filtrada.map(h => {
         const activo = seleccionado === 'heraldo_' + h.id ? 'activo' : '';
-        const avatarHtml = '<div class="item-avatar-heraldo"><div class="ring-s"></div><div class="ring-s-inner"></div><img src="/images/heraldos/' + h.id + '.webp" onerror="this.parentElement.innerHTML=&#39;&#128081;&#39;" /></div>';
+        const avatarHtml = '<div class="item-avatar-heraldo"><img src="/images/heraldos/' + h.id + '.webp" onerror="this.src=\'\'/images/heraldos/' + h.id + '.jpg\'\';this.onerror=function(){this.parentElement.innerHTML=\'&#128081;\'};" /></div>';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verHeraldo('\${h.id}')" data-id="heraldo_\${h.id}">
