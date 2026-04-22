@@ -1231,6 +1231,15 @@ router.get("/", (req, res) => {
     });
 
     // ── Init ───────────────────────────────────────────────
+    function heraldoImgError(img, id) {
+      if (!img.dataset.fallback) {
+        img.dataset.fallback = '1';
+        img.src = '/images/heraldos/' + id + '.jpg';
+      } else {
+        img.parentElement.innerHTML = '&#128081;';
+      }
+    }
+
     crearParticulas();
     cargarLista();
     cargarSpren();
@@ -1281,7 +1290,7 @@ router.get("/", (req, res) => {
       }
       wrap.innerHTML = filtrada.map(h => {
         const activo = seleccionado === 'heraldo_' + h.id ? 'activo' : '';
-        const avatarHtml = '<div class="item-avatar-heraldo"><img src="/images/heraldos/' + h.id + '.webp" onerror="this.src=\'\'/images/heraldos/' + h.id + '.jpg\'\';this.onerror=function(){this.parentElement.innerHTML=\'&#128081;\'};" /></div>';
+        const avatarHtml = '<div class="item-avatar-heraldo"><img src="/images/heraldos/' + h.id + '.webp" onerror="heraldoImgError(this, &quot;' + h.id + '&quot;)" /></div>';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verHeraldo('\${h.id}')" data-id="heraldo_\${h.id}">
@@ -1377,7 +1386,7 @@ router.get("/", (req, res) => {
             <div class="ficha-avatar-heraldo">
               <div class="ring-l"></div><div class="ring-l-inner"></div>
               <img src="/images/heraldos/\${h.id}.webp"
-                   onerror="this.src='/images/heraldos/\${h.id}.jpg';this.onerror=function(){this.parentElement.innerHTML='👑'};" />
+                   onerror="heraldoImgError(this, '\${h.id}')" />
             </div>
             <div class="ficha-titulo">
               <h2>\${h.nombre}</h2>
