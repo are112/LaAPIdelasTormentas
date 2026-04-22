@@ -1,0 +1,23 @@
+{
+  "id": "archinal",
+  "nombre": "Archinal",
+  "apodos": [],
+  "tipo_spren": "cultivacispren",
+  "es_splinter_de": "Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Se vinculó a Godeke después de la Batalla de la Explanada Thayleña. Los cultivacispren no tienen asentamientos propios." },
+  "apariencia": {
+    "reino_fisico": { "forma_preferida": "desconocida", "formas_alternativas": [], "color": "desconocido", "visibilidad": "desconocida", "notas_emocionales": null },
+    "reino_cognitivo": { "forma": "humanoide compuesta de enredaderas verdes fuertemente enrolladas. Bajita, lleva túnicas manifestadas. Ojos y manos de cristal increíblemente finas y delicadas.", "limitaciones": null },
+    "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" }
+  },
+  "personalidad": { "rasgos": ["distante", "aprensiva en situaciones desconocidas"], "valores": [], "notas": "Ha descrito Shadesmar extensamente a Godeke. Visitó Integridad Duradera." },
+  "habilidades": { "generales": ["montar a caballo en el Reino Cognitivo"], "magicas": ["Vínculo Nahel que otorga Abrasión y Progresión a Godeke"] },
+  "vinculo_nahel": { "radiante_actual": "godeke", "orden_radiante": "Danzantes del Filo", "potencias_otorgadas": ["Abrasión", "Progresión"], "forma_shardblade": "desconocida", "estado_vinculo": "activo al menos Tercer Ideal", "radiante_anterior": null, "notas": "Godeke puede invocarla como espada, lo que implica al menos el Tercer Ideal." },
+  "historia": { "resumen": "Cultivacispren vinculada a Godeke. Participó en la expedición diplomática a Integridad Duradera en 1175.", "puntos_clave": ["vinculada a Godeke tras la Batalla de la Explanada Thayleña", "participó en la misión diplomática a Integridad Duradera en 1175"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundaria", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "godeke", "relacion": "vínculo Nahel" }, "creador": null, "otros": [] },
+  "descripcion_breve": "Cultivacispren vinculada a Godeke, Danzante del Filo. Tiene un aire distante y aprensivo pero ha descrito Shadesmar extensamente a su Radiante.",
+  "notas": "Como otros cultivacispren, aparece en Shadesmar como humanoide de enredaderas."
+}

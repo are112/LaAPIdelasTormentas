@@ -1,0 +1,99 @@
+{
+  "id": "viento",
+  "nombre": "El Viento",
+  "apodos": [],
+  "tipo_spren": "spren primigenio",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+
+  "origen": {
+    "creador": "Adonalsium",
+    "lugar_creacion": "Roshar",
+    "generacion": "primigenia",
+    "notas": "Creado por Adonalsium junto a Roshar. Muestra especial apego por Honor. Antes de la creación del Padre Tormenta era uno de los tres spren de los Forjadores de Vínculos."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "invisible e inmaterial como el viento",
+      "formas_alternativas": [],
+      "color": "invisible",
+      "visibilidad": "invisible, se comunica mediante variaciones de la brisa",
+      "notas_emocionales": "usa variaciones de la brisa para comunicar emociones"
+    },
+    "reino_cognitivo": { "forma": "desconocida", "limitaciones": null },
+    "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "protectora especialmente con los spren",
+      "gran memoria",
+      "tiende a preocuparse mucho",
+      "no piensa como un humano",
+      "algo caprichosa",
+      "decidida en tiempos de conflicto",
+      "se centra en el futuro"
+    ],
+    "valores": [
+      "protección de Roshar y sus habitantes",
+      "especial apego por Honor"
+    ],
+    "notas": "Se refiere a sí misma como entidad única y múltiple. Puede llevar sonidos y recordarlos para reproducirlos más tarde."
+  },
+
+  "habilidades": {
+    "generales": [
+      "omnipresente observando gran parte de lo que ocurre en el mundo",
+      "puede hablar con los rosharianos en algunos casos",
+      "manipular el flujo del viento",
+      "llevar sonidos y recordarlos para reproducirlos",
+      "acceder al Reino Espiritual"
+    ],
+    "magicas": [
+      "históricamente: vínculo Nahel con Forjadores de Vínculos"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": "Forjadores de Vínculos (histórico)",
+    "potencias_otorgadas": [],
+    "forma_shardblade": null,
+    "estado_vinculo": "el Padre Tormenta fue creado a partir de ella",
+    "radiante_anterior": null,
+    "notas": "Antes de la creación del Padre Tormenta era uno de los tres spren de los Forjadores de Vínculos."
+  },
+
+  "historia": {
+    "resumen": "Spren primigenio creado por Adonalsium junto a Roshar. Fue venerado por los cantores junto a la Piedra antes de la llegada de Odium. El Padre Tormenta fue creado a partir de ella. Su capacidad de respuesta e influencia ha fluctuado con el tiempo según los acontecimientos relacionados con las Esquirlas.",
+    "puntos_clave": [
+      "creado por Adonalsium junto a Roshar",
+      "venerado por los cantores junto a la Piedra",
+      "el Padre Tormenta fue creado a partir de su esencia",
+      "su influencia ha fluctuado con los eventos de las Esquirlas",
+      "habló con Dalinar y Navani"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "mención histórica", "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundaria",       "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": { "personaje": "Adonalsium", "relacion": "creador" },
+    "otros": [
+      { "personaje": "Piedra",          "relacion": "hermano primigenio de Roshar" },
+      { "personaje": "Noche",           "relacion": "hermana primigenia de Roshar" },
+      { "personaje": "padre-tormenta",  "relacion": "creado a partir de su esencia" }
+    ]
+  },
+
+  "descripcion_breve": "Spren primigenio creado por Adonalsium que es el viento de Roshar. Invisible e inmaterial, fue venerado por los cantores. El Padre Tormenta fue creado a partir de su esencia.",
+  "notas": "Se refiere a sí misma como entidad única y múltiple. Muestra especial apego por Honor. Puede llevar sonidos y reproducirlos más tarde."
+}

@@ -1,0 +1,110 @@
+{
+  "id": "padre-tormenta",
+  "nombre": "Padre Tormenta",
+  "apodos": ["Jinete de las Tormentas", "Dios de las Tormentas", "Jezerezeh", "Kelek"],
+  "tipo_spren": "spren primigenio",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "muerto",
+
+  "origen": {
+    "creador": "Honor",
+    "lugar_creacion": "Roshar",
+    "generacion": "primigenia",
+    "notas": "Sombra cognitiva de Honor. Responsable de las altas tormentas. Creó a los honorspren. Fue vinculado a Dalinar antes de su muerte en Palahanah 1175."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "se manifiesta dentro y como la alta tormenta misma",
+      "formas_alternativas": [],
+      "color": "desconocido",
+      "visibilidad": "perceptible durante las altas tormentas",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": null
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": null,
+      "otras_formas": [],
+      "material": null
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "antiguo",
+      "rígido",
+      "protector de los honorspren",
+      "reticente a vincular Radiantes",
+      "puede enviar visiones"
+    ],
+    "valores": [
+      "los juramentos son sagrados",
+      "proteger a la humanidad"
+    ],
+    "notas": "Era reticente a que Sylphrena buscara otro vínculo. A medida que su conciencia se degradaba, se fue volviendo más parecido al viento y menos capaz de comunicarse."
+  },
+
+  "habilidades": {
+    "generales": [
+      "control de las altas tormentas",
+      "envío de visiones del pasado a Dalinar",
+      "creación de honorspren",
+      "Lasca de Honor: fragmento adicional",
+      "sombra cognitiva de Honor"
+    ],
+    "magicas": [
+      "Vínculo Nahel que otorga Adhesión y Gravitación como Forjador de Vínculos"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": "Forjadores de Vínculos",
+    "potencias_otorgadas": ["Adhesión", "Gravitación"],
+    "forma_shardblade": null,
+    "estado_vinculo": "disuelto por muerte",
+    "radiante_anterior": "dalinar",
+    "notas": "Estuvo vinculado a Dalinar Kholin hasta su muerte en Palahanah 1175."
+  },
+
+  "historia": {
+    "resumen": "El más poderoso de los spren conocidos de Roshar, responsable de las altas tormentas. Sombra cognitiva de Honor y uno de los tres spren de los Forjadores de Vínculos. Envió visiones del pasado a Dalinar para prepararlo. Se vinculó con Dalinar. Su conciencia se fue degradando con el tiempo haciéndolo más parecido al viento. Murió en Palahanah de 1175.",
+    "puntos_clave": [
+      "sombra cognitiva de Honor responsable de las altas tormentas",
+      "uno de los tres Forjadores de Vínculos",
+      "creó a los honorspren",
+      "encargó a Notum que protegiera a Sylphrena",
+      "envió visiones del pasado a Dalinar",
+      "se vinculó a Dalinar",
+      "su conciencia se degradó progresivamente",
+      "murió en Palahanah 1175"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundario", "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundario", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "dalinar", "relacion": "vínculo Nahel hasta su muerte" },
+    "creador": { "personaje": "Honor", "relacion": "sombra cognitiva de Honor" },
+    "otros": [
+      { "personaje": "sylphrena", "relacion": "la creó y encargó a Notum que la protegiera" },
+      { "personaje": "Vigilante Nocturna", "relacion": "hermana Forjadora de Vínculos" },
+      { "personaje": "el-hermano", "relacion": "hermano Forjador de Vínculos" }
+    ]
+  },
+
+  "descripcion_breve": "El más poderoso de los spren de Roshar, sombra cognitiva de Honor y responsable de las altas tormentas. Vinculado a Dalinar hasta su muerte en 1175.",
+  "notas": "Para los oyentes es conocido como el Jinete de las Tormentas. También se le conoce por los nombres de los Heraldos Jezerezeh y Kelek en algunas culturas."
+}

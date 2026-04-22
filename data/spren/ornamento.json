@@ -1,0 +1,19 @@
+{
+  "id": "ornamento",
+  "nombre": "Ornamento",
+  "apodos": [],
+  "tipo_spren": "críptico",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": null },
+  "apariencia": { "reino_fisico": { "forma_preferida": "normalmente va dentro de la camisa de Berila, pegada a su piel. No le gusta que le vean.", "formas_alternativas": [], "color": "desconocido", "visibilidad": "prefiere permanecer oculto", "notas_emocionales": "zumba de emoción y salta cuando observa dibujar a Shallan" }, "reino_cognitivo": { "forma": "patrón de cabeza delicado que parece hecho de cordones. Voz chillona. Se mueve fluidamente a diferencia de Patrón que va a saltos.", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["voz chillona", "no le gusta que le vean", "vocabulario alezi limitado", "toma las cosas literalmente"], "valores": [], "notas": "Zumba de emoción y salta mientras observa dibujar a Shallan." },
+  "habilidades": { "generales": [], "magicas": ["Vínculo Nahel que otorga Iluminación y Transformación a Berila"] },
+  "vinculo_nahel": { "radiante_actual": "berila", "orden_radiante": "Tejedores de Luz", "potencias_otorgadas": ["Iluminación", "Transformación"], "forma_shardblade": "desconocida", "estado_vinculo": "activo", "radiante_anterior": null, "notas": null },
+  "historia": { "resumen": "Críptico vinculado a Berila. Participó en la misión diplomática a Integridad Duradera.", "puntos_clave": ["vinculado a Berila", "participó en la misión diplomática a Integridad Duradera"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "berila", "relacion": "vínculo Nahel" }, "creador": null, "otros": [] },
+  "descripcion_breve": "Críptico de patrón delicado como cordones vinculado a Berila. Tímido, prefiere permanecer oculto dentro de la camisa de su Radiante.",
+  "notas": null
+}

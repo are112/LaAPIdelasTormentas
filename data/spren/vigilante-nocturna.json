@@ -1,0 +1,95 @@
+{
+  "id": "vigilante-nocturna",
+  "nombre": "Vigilante Nocturna",
+  "apodos": ["Madre del Mundo"],
+  "tipo_spren": "spren primigenio",
+  "es_splinter_de": "Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+
+  "origen": {
+    "creador": "Cultivación",
+    "lugar_creacion": "El Valle",
+    "generacion": "primigenia",
+    "notas": "Creada directamente de la Noche, uno de los spren primigenios de Roshar creado por Adonalsium. Cultivación la creó de tal manera que no está moldeada por la percepción o creencia de la gente, a diferencia de la mayoría de los spren."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "bruma de color verde oscuro con forma vagamente humana. Se arrastra por el suelo con brazos demasiado largos que la arrastran mientras flota. Deja un rastro de su esencia como río de vapor retorcido entre los árboles. Rostro liso y claramente femenino con ojos negros y sedosos.",
+      "formas_alternativas": ["puede crear extremidades adicionales como manos pequeñas para interactuar"],
+      "color": "verde oscuro",
+      "visibilidad": "visible en El Valle",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": { "forma": "desconocida", "limitaciones": null },
+    "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "comportamiento menos humano que otros spren",
+      "tiende a evitar grupos y extranjeros",
+      "no siempre se aparece a quienes la buscan"
+    ],
+    "valores": [
+      "conceder bendiciones y maldiciones a los mortales"
+    ],
+    "notas": "A veces confundida erróneamente con Chemoarish. El mejor momento para visitarla es justo después de que se ponga el sol. Sorprendentemente común que devotos vorin ojos claros la visiten."
+  },
+
+  "habilidades": {
+    "generales": [
+      "Antigua Magia: otorga bendiciones y maldiciones a los mortales",
+      "la maldición raramente tiene relación evidente con la bendición"
+    ],
+    "magicas": [
+      "Astilla de Cultivación",
+      "Vínculo Nahel como Forjadora de Vínculos (potencial)"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": "Forjadores de Vínculos",
+    "potencias_otorgadas": [],
+    "forma_shardblade": null,
+    "estado_vinculo": "potencial no utilizado conocido",
+    "radiante_anterior": null,
+    "notas": "Es uno de los tres spren potenciales de los Forjadores de Vínculos junto al Padre Tormenta y el Hermano."
+  },
+
+  "historia": {
+    "resumen": "Poderoso spren creado por Cultivación a partir de la Noche como sustituta cuando esta abandonó Roshar. Reside en El Valle y concede bendiciones y maldiciones a los mortales a través de la Antigua Magia. Uno de los tres spren de los Forjadores de Vínculos.",
+    "puntos_clave": [
+      "creada por Cultivación a partir de la Noche",
+      "reside en El Valle",
+      "concede bendiciones y maldiciones mediante la Antigua Magia",
+      "uno de los tres Forjadores de Vínculos",
+      "no moldeada por la percepción humana como otros spren"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El camino de los reyes", "rol": "mención", "pov": false },
+      { "titulo": "Palabras radiantes",     "rol": "secundaria", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundaria", "pov": false },
+      { "titulo": "El ritmo de la guerra",  "rol": "secundaria", "pov": false },
+      { "titulo": "Viento y verdad",        "rol": "secundaria", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": { "personaje": "Cultivación", "relacion": "creadora, Astilla de Cultivación" },
+    "otros": [
+      { "personaje": "Noche",          "relacion": "creada a partir de su esencia" },
+      { "personaje": "padre-tormenta", "relacion": "hermano Forjador de Vínculos" },
+      { "personaje": "el-hermano",     "relacion": "hermano Forjador de Vínculos" }
+    ]
+  },
+
+  "descripcion_breve": "Poderoso spren creado por Cultivación a partir de la Noche. Concede bendiciones y maldiciones a los mortales mediante la Antigua Magia. Uno de los tres Forjadores de Vínculos.",
+  "notas": "A veces confundida con Chemoarish. No está moldeada por la percepción humana como otros spren. El mejor momento para visitarla es justo al ponerse el sol."
+}

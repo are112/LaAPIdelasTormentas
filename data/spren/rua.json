@@ -1,0 +1,19 @@
+{
+  "id": "rua",
+  "nombre": "Rua",
+  "apodos": ["Naco"],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Lopen lo apoda Naco." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "cinta de luz, niño de nueve o diez años, o hombre joven. Una de sus formas favoritas es la de un chull volador con alas amplias.", "formas_alternativas": ["cinta de luz", "niño", "hombre joven", "chull volador con alas"], "color": "luz azul-blanca", "visibilidad": "visible para Lopen", "notas_emocionales": "travieso como un vientospren" }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida tras el Tercer Ideal", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["travieso", "juguetón", "le gusta el escondite", "parece incapaz de hablar"], "valores": [], "notas": "Aprendió a hacer gestos groseros de Lopen y llegó a hacer un cuádruple gesto grosero hacia el propio Padre Tormenta." },
+  "habilidades": { "generales": ["jugar al escondite", "comunicar significados complejos mediante gestos"], "magicas": ["Vínculo Nahel que otorga Gravitación y Adhesión a Lopen"] },
+  "vinculo_nahel": { "radiante_actual": "lopen", "orden_radiante": "Corredores del Viento", "potencias_otorgadas": ["Gravitación", "Adhesión"], "forma_shardblade": "disponible tras el Tercer Ideal de Lopen", "estado_vinculo": "activo", "radiante_anterior": null, "notas": "Lopen pronunció el primer juramento antes de la Batalla de la Explanada Thayleña y el segundo poco después hablando con un soldado herido." },
+  "historia": { "resumen": "Honorspren travieso vinculado a Lopen del Puente Cuatro. Aprendió a hacer gestos groseros de Lopen, llegando a hacer un cuádruple gesto grosero hacia el Padre Tormenta. Viajó con Lopen hasta Akinah.", "puntos_clave": ["vinculado a Lopen del Puente Cuatro", "aprendió gestos groseros de Lopen", "hizo cuádruple gesto grosero al Padre Tormenta", "viajó a Akinah con Lopen"] },
+  "apariciones": { "libros": [{ "titulo": "Juramentada", "rol": "secundario", "pov": false }, { "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }, { "titulo": "Viento y verdad", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "lopen", "relacion": "vínculo Nahel" }, "creador": null, "otros": [{ "personaje": "phendorana", "relacion": "compañera honorspren" }] },
+  "descripcion_breve": "Honorspren travieso vinculado a Lopen del Puente Cuatro. Aprendió gestos groseros de Lopen y llegó a hacer un cuádruple gesto grosero hacia el Padre Tormenta.",
+  "notas": "Lopen lo apoda Naco. Parece incapaz de hablar pero Lopen entiende significados complejos de sus gestos."
+}

@@ -1,0 +1,87 @@
+{
+  "id": "sonando-aunque-despierta",
+  "nombre": "Soñando-aunque-Despierta",
+  "apodos": [],
+  "tipo_spren": "brumaspren",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Nació después de la Traición. Salió a buscar a Arshqqam en Yeddaw alrededor de 1174."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "centelleo que se ve en una pared cuando se hace pasar luz por un cristal",
+      "formas_alternativas": [],
+      "color": "centelleante",
+      "visibilidad": "centelleo en paredes",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": {
+      "forma": "mujer compuesta solo de niebla. Rostro como máscara de porcelana con reflejo centelleante, que desde algunos ángulos parece de cristal translúcido. Labios inmóviles al hablar. Viste chaleco, pantalones y guantes de niebla blanca. Flota en lugar de caminar.",
+      "limitaciones": null
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "desconocida",
+      "otras_formas": [],
+      "material": "desconocido"
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "incomoda a los humanos",
+      "fascinada con los humanos",
+      "encuentra reveladoras sus preguntas y pensamientos"
+    ],
+    "valores": [],
+    "notas": null
+  },
+
+  "habilidades": {
+    "generales": [
+      "habla varias lenguas rosharianas",
+      "actúa como traductora entre Arshqqam y los alezi"
+    ],
+    "magicas": ["Vínculo Nahel que otorga Iluminación y Progresión a Arshqqam"]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "arshqqam",
+    "orden_radiante": "Vigilantes de la Verdad",
+    "potencias_otorgadas": ["Iluminación", "Progresión"],
+    "forma_shardblade": "desconocida",
+    "estado_vinculo": "activo",
+    "radiante_anterior": null,
+    "notas": null
+  },
+
+  "historia": {
+    "resumen": "Brumaspren vinculada a Arshqqam. Salió a buscarla en Yeddaw alrededor de 1174. Con sus poderes, Arshqqam empezó a curar a los huérfanos de su orfanato.",
+    "puntos_clave": [
+      "nació después de la Traición",
+      "buscó a Arshqqam en Yeddaw alrededor de 1174",
+      "actúa como traductora multilingüe"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El ritmo de la guerra", "rol": "secundaria", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "arshqqam", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": []
+  },
+
+  "descripcion_breve": "Brumaspren vinculada a Arshqqam. En Shadesmar aparece como mujer de niebla con máscara de porcelana. Habla varias lenguas y actúa como traductora.",
+  "notas": "Su personalidad incomoda a los humanos aunque ella misma está fascinada con ellos."
+}

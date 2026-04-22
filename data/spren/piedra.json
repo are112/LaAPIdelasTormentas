@@ -1,0 +1,19 @@
+{
+  "id": "piedra",
+  "nombre": "La Piedra",
+  "apodos": [],
+  "tipo_spren": "spren primigenio",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+  "origen": { "creador": "Adonalsium", "lugar_creacion": "Roshar", "generacion": "primigenia", "notas": "Creada por Adonalsium junto a Roshar. Fue creado el Hermano a partir de la Piedra. Era uno de los tres spren originales de los Forjadores de Vínculos." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "omnipresente como la piedra de Roshar misma", "formas_alternativas": [], "color": "roca", "visibilidad": "invisible como entidad separada", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null } },
+  "personalidad": { "rasgos": ["sin estándar mortal del paso del tiempo", "canta con alegría sobre el pasado", "no le importa el futuro (ese es trabajo de Viento)"], "valores": ["proteger, amortajar y nutrir a Roshar"], "notas": "Recuerda cuando los cantores podían moldearla con facilidad usando escultura de piedra." },
+  "habilidades": { "generales": ["omnipresente en toda Roshar", "observa y recuerda todo lo que ocurre dentro de sí", "puede interactuar con escultura de piedra para comunicarse", "puede hablar con los habitantes de Roshar"], "magicas": ["históricamente: vínculo Nahel con Forjadores de Vínculos"] },
+  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": "Forjadores de Vínculos (histórico)", "potencias_otorgadas": [], "forma_shardblade": null, "estado_vinculo": "El Hermano fue creado a partir de ella", "radiante_anterior": null, "notas": "El Hermano fue creado a partir de la Piedra como sustituto para los Forjadores de Vínculos." },
+  "historia": { "resumen": "Spren primigenio creado por Adonalsium junto a Roshar. Es la piedra misma del planeta. Fue venerado por los cantores junto al Viento antes de la llegada de Odium. El Hermano fue creado a partir de ella. Por razones desconocidas decidió dejar de hablar durante un largo período.", "puntos_clave": ["creado por Adonalsium junto a Roshar", "venerado por los cantores junto al Viento", "El Hermano fue creado a partir de su esencia", "recuerda los días en que los cantores la moldeaban con escultura de piedra", "decidió dejar de hablar durante un largo período", "Venli la escuchó cantar en Urithiru"] },
+  "apariciones": { "libros": [{ "titulo": "Viento y verdad", "rol": "secundaria", "pov": false }] },
+  "relaciones": { "radiante_vinculado": null, "creador": { "personaje": "Adonalsium", "relacion": "creador" }, "otros": [{ "personaje": "Viento", "relacion": "hermano primigenio de Roshar" }, { "personaje": "Noche", "relacion": "hermana primigenia de Roshar" }, { "personaje": "el-hermano", "relacion": "creado a partir de su esencia" }] },
+  "descripcion_breve": "Spren primigenio creado por Adonalsium que es la piedra misma de Roshar. Fue venerado por los cantores junto al Viento. El Hermano fue creado a partir de su esencia.",
+  "notas": null
+}

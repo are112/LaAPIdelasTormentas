@@ -1,0 +1,19 @@
+{
+  "id": "el-hermano",
+  "nombre": "El Hermano",
+  "apodos": [],
+  "tipo_spren": "spren primigenio",
+  "es_splinter_de": "Honor y Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "Honor y Cultivación", "lugar_creacion": "Urithiru", "generacion": "primigenia", "notas": "Fue creado a partir de Piedra por Cultivación. Es el tercer spren de los Forjadores de Vínculos junto al Padre Tormenta y la Vigilante Nocturna. Se manifiesta como los fabriales de Urithiru." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "los fabriales dentro de la torre de Urithiru; la columna de cristal es su corazón. Puede aparecer como columna de luz emergiendo de un disco de cristal en el techo.", "formas_alternativas": ["metal", "piedrabases"], "color": "luz", "visibilidad": "quienes ven el Reino Cognitivo pueden siempre verlo y oírlo cuando está cerca", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null } },
+  "personalidad": { "rasgos": ["poderoso pero dormido durante milenios", "reservado"], "valores": [], "notas": "Estuvo dormido hasta que Navani estableció el vínculo con él durante la ocupación de Urithiru." },
+  "habilidades": { "generales": ["control de todos los fabriales de Urithiru", "columna de cristal como corazón central", "fabrial supresor de potenciación", "puede manifestarse en forma de metal y piedrabases"], "magicas": ["Vínculo Nahel que otorga Adhesión y Gravitación a Navani como Forjadora de Vínculos"] },
+  "vinculo_nahel": { "radiante_actual": "navani", "orden_radiante": "Forjadores de Vínculos", "potencias_otorgadas": ["Adhesión", "Gravitación"], "forma_shardblade": null, "estado_vinculo": "activo", "radiante_anterior": "Melishi", "notas": "Anteriormente vinculado a Melishi. Su vínculo con Navani fue crucial para liberar Urithiru de la ocupación vacíospren." },
+  "historia": { "resumen": "El tercer spren de los Forjadores de Vínculos, junto al Padre Tormenta y la Vigilante Nocturna. Es esencialmente la propia torre de Urithiru y sus fabriales. Estuvo dormido durante milenios hasta que Navani estableció el vínculo con él durante la ocupación de la torre por los vacíospren, lo que resultó esencial para liberar Urithiru.", "puntos_clave": ["el tercer spren de los Forjadores de Vínculos", "es esencialmente la torre de Urithiru", "estuvo dormido durante milenios", "Navani estableció el vínculo con él durante la ocupación vacíospren", "su vinculación fue clave para liberar Urithiru", "anteriormente vinculado a Melishi"] },
+  "apariciones": { "libros": [{ "titulo": "Juramentada", "rol": "mención", "pov": false }, { "titulo": "El ritmo de la guerra", "rol": "principal", "pov": false }, { "titulo": "Viento y verdad", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "navani", "relacion": "vínculo Nahel" }, "creador": { "personaje": "Cultivación", "relacion": "creado a partir de Piedra" }, "otros": [{ "personaje": "Padre Tormenta", "relacion": "hermano Forjador de Vínculos" }, { "personaje": "Vigilante Nocturna", "relacion": "hermana Forjadora de Vínculos" }] },
+  "descripcion_breve": "El tercer spren de los Forjadores de Vínculos. Es la encarnación de la torre de Urithiru y controla todos sus fabriales. Estuvo dormido milenios hasta que Navani se vinculó a él.",
+  "notas": "Es el único de los tres Forjadores de Vínculos que no tiene una presencia física independiente sino que se manifiesta como los fabriales de Urithiru."
+}

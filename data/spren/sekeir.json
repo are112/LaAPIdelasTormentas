@@ -1,0 +1,19 @@
+{
+  "id": "sekeir",
+  "nombre": "Sekeir",
+  "apodos": [],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "antigua", "notas": "Gobernante de Integridad Duradera." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "anciano con larga barba blanca y azul", "formas_alternativas": [], "color": "blanco azulado", "visibilidad": "visible", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null } },
+  "personalidad": { "rasgos": ["manipulador", "prejuicioso hacia los humanos", "torcía la ley a su conveniencia", "se ofende fácilmente"], "valores": ["demostrar que no se puede confiar en los humanos"], "notas": "Aunque predica que los humanos son poco fiables, él mismo está dispuesto a manipular y torcer la ley para hacer valer su idea." },
+  "habilidades": { "generales": ["gobernante de Integridad Duradera", "gran conocimiento de la ley honorspren"], "magicas": [] },
+  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": null, "potencias_otorgadas": [], "forma_shardblade": null, "estado_vinculo": "sin vínculo conocido", "radiante_anterior": null, "notas": null },
+  "historia": { "resumen": "Gobernante de Integridad Duradera. Presidió el juicio de Adolin Kholin con la intención de demostrar que no se puede confiar en los humanos. Manipuló el proceso, incluso secuestrando al Heraldo Kalak cuando temía que fallara a favor de Adolin. Fue derrotado cuando Maya pronunció sus palabras.", "puntos_clave": ["gobernante de Integridad Duradera", "presidió el juicio de Adolin", "manipuló el proceso del juicio", "secuestró a Kalak para controlarlo", "fue derrotado cuando Maya habló"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": null, "creador": null, "otros": [{ "personaje": "adolin", "relacion": "lo juzgó intentando condenarlo" }, { "personaje": "kalak", "relacion": "lo secuestró para controlar el juicio" }, { "personaje": "mayalaran", "relacion": "su testigo final resultó ser su perdición" }] },
+  "descripcion_breve": "Gobernante de Integridad Duradera. Prejuicioso contra los humanos, manipuló el juicio de Adolin para condenarlo, pero fue derrotado cuando Maya habló.",
+  "notas": null
+}

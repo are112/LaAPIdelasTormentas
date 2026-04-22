@@ -1,0 +1,19 @@
+{
+  "id": "tumi",
+  "nombre": "Tumi",
+  "apodos": [],
+  "tipo_spren": "brumaspren",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Fue corrompido (Iluminado) por Sja-anat. Reverencia a Sja-anat como su madre." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "probablemente cristal rojo cuya luz fluye hacia arriba, similar a Glys. A los ojos de Sja-anat: resplandor centelleante en continuo cambio.", "formas_alternativas": [], "color": "rojo cristalino (probable)", "visibilidad": "puede ocultarse en gemas corazón de cremlinos", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["no hostil a los cantores", "interesado en explorar cosas nuevas", "esperanzado", "consolador", "cauteloso"], "valores": ["reverencia a Sja-anat como madre", "apoyo a Rlain"], "notas": "Se sometió voluntariamente a la transformación de Sja-anat. Siguió a Rlain durante un tiempo antes de presentarse." },
+  "habilidades": { "generales": ["ocultarse en gemas corazón de cremlinos", "cierto control sobre cremlinos para guiarlos", "permanecer oculto de vacíospren y Fusionados"], "magicas": ["Vínculo Nahel que otorga magia alterada de Vigilante de la Verdad a Rlain"] },
+  "vinculo_nahel": { "radiante_actual": "rlain", "orden_radiante": "Vigilantes de la Verdad", "potencias_otorgadas": ["Progresión", "Iluminación"], "forma_shardblade": "desconocida", "estado_vinculo": "activo", "radiante_anterior": null, "notas": "Su vinculación con Rlain, un cantor, fue posibilitada por la Iluminación de Sja-anat. Similar a Glys, probablemente sus poderes estén alterados." },
+  "historia": { "resumen": "Brumaspren Iluminado por Sja-anat que se vinculó a Rlain. Se ocultó en Urithiru durante su ocupación. Siguió a Rlain durante un tiempo antes de presentarse. Su vínculo con un cantor es algo sin precedentes.", "puntos_clave": ["corrompido voluntariamente por Sja-anat", "se ocultó durante la ocupación de Urithiru", "siguió a Rlain antes de presentarse", "primer brumaspren Iluminado en vincularse con un cantor"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }, { "titulo": "Viento y verdad", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "rlain", "relacion": "vínculo Nahel" }, "creador": null, "otros": [{ "personaje": "Sja-anat", "relacion": "la reverencia como madre, lo Iluminó" }, { "personaje": "glys", "relacion": "otro brumaspren Iluminado" }] },
+  "descripcion_breve": "Brumaspren Iluminado por Sja-anat vinculado a Rlain. Su vínculo con un cantor es sin precedentes. Cauteloso y esperanzado, reverencia a Sja-anat como madre.",
+  "notas": null
+}

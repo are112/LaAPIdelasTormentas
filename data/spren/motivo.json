@@ -1,0 +1,19 @@
+{
+  "id": "motivo",
+  "nombre": "Motivo",
+  "apodos": [],
+  "tipo_spren": "críptico",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Los crípticos usaban el nombre Patrón antes de seleccionar nombres individuales para ayudar a los humanos a identificarlos." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "patrones en un adorno esférico en el extremo del pasador en las trenzas de Ishnah. Más pequeño que Patrón.", "formas_alternativas": [], "color": "desconocido", "visibilidad": "normalmente oculto en adorno de Ishnah", "notas_emocionales": null }, "reino_cognitivo": { "forma": "humanoide alto con túnicas rígidas y símbolos cambiantes a modo de cabeza, aspecto típico de crípticos", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["no habla bien el alezi", "prefiere el lenguaje críptico", "le entusiasman las mentiras", "no comprende bien el comportamiento humano"], "valores": [], "notas": null },
+  "habilidades": { "generales": [], "magicas": ["Vínculo Nahel que otorga Iluminación y Transformación a Ishnah"] },
+  "vinculo_nahel": { "radiante_actual": "ishnah", "orden_radiante": "Tejedores de Luz", "potencias_otorgadas": ["Iluminación", "Transformación"], "forma_shardblade": "desconocida", "estado_vinculo": "activo", "radiante_anterior": null, "notas": "Ishnah puede manifestarlo como hoja esquirlada, lo que implica haber dicho algunas verdades." },
+  "historia": { "resumen": "Críptico vinculado a Ishnah. Participó en la misión diplomática a Integridad Duradera en 1175 elegida por Shallan.", "puntos_clave": ["vinculado a Ishnah, miembro de la Corte Inadvertida", "participó en la misión diplomática a Integridad Duradera"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "ishnah", "relacion": "vínculo Nahel" }, "creador": null, "otros": [{ "personaje": "patron", "relacion": "compañero críptico, viajaron juntos a Integridad Duradera" }, { "personaje": "mosaico", "relacion": "compañero críptico" }, { "personaje": "ornamento", "relacion": "compañero críptico" }] },
+  "descripcion_breve": "Críptico vinculado a Ishnah. Suele aparecer como patrones en un adorno de las trenzas de su Radiante. Participa en la misión diplomática a Integridad Duradera.",
+  "notas": null
+}

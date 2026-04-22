@@ -1,0 +1,19 @@
+{
+  "id": "noche",
+  "nombre": "La Noche",
+  "apodos": [],
+  "tipo_spren": "spren primigenio",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "ausente de Roshar",
+  "origen": { "creador": "Adonalsium", "lugar_creacion": "Roshar", "generacion": "primigenia", "notas": "Creada por Adonalsium junto a Roshar. Su función era proteger o nutrir a los cantores. Cultivación creó a la Vigilante Nocturna a partir de parte de su esencia como sustituta." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "desconocida", "formas_alternativas": [], "color": "desconocida", "visibilidad": "desconocida", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null } },
+  "personalidad": { "rasgos": [], "valores": [], "notas": "Poca gente la amaba o hablaba de ella, los cantores preferían a sus hermanos Viento y Piedra. Como resultado acabó abandonando Roshar." },
+  "habilidades": { "generales": ["históricamente: vínculo Nahel con Forjadores de Vínculos", "protección o nutrición de los cantores"], "magicas": [] },
+  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": "Forjadores de Vínculos (histórico)", "potencias_otorgadas": [], "forma_shardblade": null, "estado_vinculo": "abandonó Roshar", "radiante_anterior": null, "notas": "Antes de la creación de la Vigilante Nocturna, era uno de los tres spren de los Forjadores de Vínculos." },
+  "historia": { "resumen": "Spren primigenio creado por Adonalsium junto a Roshar. Poco gente la amaba o hablaba de ella. Los cantores preferían a Viento y Piedra. Eventualmente abandonó Roshar, y Cultivación creó a la Vigilante Nocturna a partir de parte de su esencia como sustituta.", "puntos_clave": ["creada por Adonalsium junto a Roshar", "función: proteger o nutrir a los cantores", "pocos la veneraban, los cantores preferían Viento y Piedra", "abandonó Roshar", "Cultivación creó la Vigilante Nocturna a partir de su esencia"] },
+  "apariciones": { "libros": [{ "titulo": "Viento y verdad", "rol": "mención histórica", "pov": false }] },
+  "relaciones": { "radiante_vinculado": null, "creador": { "personaje": "Adonalsium", "relacion": "creador" }, "otros": [{ "personaje": "Viento", "relacion": "hermano primigenio de Roshar" }, { "personaje": "Piedra", "relacion": "hermano primigenio de Roshar" }, { "personaje": "Vigilante Nocturna", "relacion": "sustituta creada por Cultivación a partir de su esencia" }] },
+  "descripcion_breve": "Spren primigenio creado por Adonalsium junto a Roshar. Pocos la veneraban y eventualmente abandonó el planeta. Cultivación creó a la Vigilante Nocturna a partir de parte de su esencia.",
+  "notas": null
+}

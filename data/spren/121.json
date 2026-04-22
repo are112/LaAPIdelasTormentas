@@ -1,0 +1,86 @@
+{
+  "id": "121",
+  "nombre": "121",
+  "apodos": [],
+  "tipo_spren": "altospren",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "No aprueba las relaciones cercanas entre los spren y sus Radiantes, creyendo que estas convierten a los spren en auxiliares de la voluntad humana. Auxiliar tomó su nuevo nombre inspirándose en esta filosofía."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "se asemeja al glifo de espada de Nale como hoja esquirlada",
+      "formas_alternativas": [],
+      "color": "desconocido",
+      "visibilidad": "desconocida",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": { "forma": "desconocida", "limitaciones": null },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "similar al glifo de espada de Nale",
+      "otras_formas": [],
+      "material": "desconocido"
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "filosófico",
+      "reservado",
+      "cree que los vínculos cercanos convierten a los spren en auxiliares"
+    ],
+    "valores": [
+      "desaprueba las relaciones cercanas entre spren y Radiantes"
+    ],
+    "notas": "121 y Nale han alcanzado el Quinto Ideal de los Rompedores del Cielo, el más alto conocido."
+  },
+
+  "habilidades": {
+    "generales": [],
+    "magicas": ["Vínculo Nahel que otorga Gravitación y División a Nale, al Quinto Ideal"]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "nale",
+    "orden_radiante": "Rompedores del Cielo",
+    "potencias_otorgadas": ["Gravitación", "División"],
+    "forma_shardblade": "similar al glifo de espada de Nale",
+    "estado_vinculo": "activo al Quinto Ideal",
+    "radiante_anterior": null,
+    "notas": "Han alcanzado el Quinto Ideal, el nivel más alto conocido entre los Caballeros Radiantes."
+  },
+
+  "historia": {
+    "resumen": "Altospren vinculado a Nale con quien ha alcanzado el Quinto Ideal. Influenció a Auxiliar con su filosofía de que los vínculos cercanos convierten a los spren en auxiliares de la voluntad humana.",
+    "puntos_clave": [
+      "vinculado a Nale al Quinto Ideal",
+      "influenció la filosofía de Auxiliar sobre los vínculos",
+      "desaprueba las relaciones cercanas entre spren y Radiantes"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Juramentada",     "rol": "secundario (mención)", "pov": false },
+      { "titulo": "Viento y verdad", "rol": "secundario",           "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "nale", "relacion": "vínculo Nahel al Quinto Ideal" },
+    "creador": null,
+    "otros": [
+      { "personaje": "auxiliar", "relacion": "influenció su filosofía sobre los vínculos" }
+    ]
+  },
+
+  "descripcion_breve": "Altospren vinculado a Nale con quien ha alcanzado el Quinto Ideal. Filosófico y reservado, cree que los vínculos cercanos convierten a los spren en meros auxiliares.",
+  "notas": "Su nombre es simplemente el número 121. Cuando adopta forma de hoja esquirlada se asemeja al glifo de espada de Nale."
+}

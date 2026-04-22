@@ -1,0 +1,19 @@
+{
+  "id": "uma",
+  "nombre": "Uma",
+  "apodos": [],
+  "tipo_spren": "brumaspren",
+  "es_splinter_de": "Honor y Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Estuvo previamente vinculada a Ym. Ahora vinculada a la madre de Dyel." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "colección de luces similares a las dispersadas por un prisma", "formas_alternativas": [], "color": "luz prismática", "visibilidad": "visible como luces", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": [], "valores": [], "notas": "Aclaró que su Radiante era Baon, no Nale, cuando la hija de su Radiante los confundió." },
+  "habilidades": { "generales": [], "magicas": ["Vínculo Nahel que otorga Progresión e Iluminación"] },
+  "vinculo_nahel": { "radiante_actual": "madre de Dyel", "orden_radiante": "Vigilantes de la Verdad", "potencias_otorgadas": ["Progresión", "Iluminación"], "forma_shardblade": "desconocida", "estado_vinculo": "activo", "radiante_anterior": "Ym", "notas": "Vinculada previamente a Ym. No está claro si puede seguir a su Radiante al Largo Sendero iriali." },
+  "historia": { "resumen": "Brumaspren vinculada anteriormente a Ym y ahora a la madre de Dyel. Cuando la hija de su Radiante confundió a Baon con Nale, Uma aclaró que era Baon.", "puntos_clave": ["vinculada anteriormente a Ym", "ahora vinculada a la madre de Dyel", "aclaró que su Radiante era Baon"] },
+  "apariciones": { "libros": [{ "titulo": "Palabras radiantes", "rol": "secundaria (mención)", "pov": false }, { "titulo": "Viento y verdad", "rol": "secundaria", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "madre de Dyel", "relacion": "vínculo Nahel actual" }, "creador": null, "otros": [{ "personaje": "Ym", "relacion": "radiante anterior" }] },
+  "descripcion_breve": "Brumaspren que se manifiesta como colección de luces prismáticas. Vinculada actualmente a la madre de Dyel, anteriormente a Ym.",
+  "notas": null
+}

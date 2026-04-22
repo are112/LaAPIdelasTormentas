@@ -1,0 +1,19 @@
+{
+  "id": "vienta",
+  "nombre": "Vienta",
+  "apodos": [],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Se vinculó a Sigzil durante la Verdadera Desolación. Su vínculo se rompió antes de la Noche de las Penas." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "mujer pequeña envuelta en túnica vaporosa que flota a su alrededor, solo visible los ojos. Cuando está contenta puede desdibujarse.", "formas_alternativas": ["lanza esquirlada", "lanza de caballería"], "color": "blanco-azulado", "visibilidad": "puede ser invisible o visible a elección, mayormente visible", "notas_emocionales": "puede desdibujarse cuando está contenta" }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "lanza esquirlada", "otras_formas": ["lanza de caballería"], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["mente analítica", "tímida en comparación con otros honorspren", "prefiere permanecer discreta"], "valores": ["deseo de que su autoría en los cálculos de Sigzil sea ignorada"], "notas": "Otros honorspren se han burlado de ella por ser más parecida a un spren críptico. Syl la describe como más parecida a un críptico." },
+  "habilidades": { "generales": ["mente extremadamente aguda para cálculos complejos", "calcular distancia e impulso de un vistazo", "resolver problemas matemáticos casi al instante", "discernir alteraciones imperceptibles como incremento en descargas eléctricas", "hablar directamente a la mente de Sigzil"], "magicas": ["Vínculo Nahel que otorga Gravitación y Adhesión a Sigzil"] },
+  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": "Corredores del Viento", "potencias_otorgadas": ["Gravitación", "Adhesión"], "forma_shardblade": "lanza esquirlada o lanza de caballería", "estado_vinculo": "roto antes de la Noche de las Penas", "radiante_anterior": null, "notas": "Se vinculó a Sigzil al menos hasta el Tercer Ideal. El vínculo se rompió antes de la Noche de las Penas." },
+  "historia": { "resumen": "Honorspren de mente analítica vinculada a Sigzil. Participó en el Asedio de Narak donde sus cálculos fueron cruciales para la estrategia de Sigzil. Su vínculo se rompió antes de la Noche de las Penas.", "puntos_clave": ["vinculada a Sigzil al menos al Tercer Ideal", "participó en el Asedio de Narak", "sus cálculos fueron cruciales en batalla", "vínculo roto antes de la Noche de las Penas"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundaria", "pov": false }, { "titulo": "Viento y verdad", "rol": "mención", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "sigzil", "relacion": "vínculo Nahel (roto)" }, "creador": null, "otros": [] },
+  "descripcion_breve": "Honorspren de mente analítica vinculada a Sigzil. Sus cálculos instantáneos fueron cruciales en combate. Más parecida a un críptico que a otros honorspren.",
+  "notas": "Su vínculo se rompió antes de la Noche de las Penas. Tímida y discreta, prefiere que su autoría en los cálculos de Sigzil pase desapercibida."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ua-pam",
+  "nombre": "Ua'pam",
+  "apodos": [],
+  "tipo_spren": "cumbrespren",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Se vinculó a Zu alrededor de 1173. Primo de Unativi. Considera necios a los cumbrespren de Kasiden del este." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "roca humanoide sin facciones. Puede cambiar de tamaño, a veces tan pequeño como un guijarro. Puede desaparecer en la roca y emerger de ella.", "formas_alternativas": ["guijarro", "tamaño humano"], "color": "roca", "visibilidad": "visible como roca humanoide", "notas_emocionales": "a veces se frota los nudillos, significado desconocido" }, "reino_cognitivo": { "forma": "humano alto hecho de roca, parece una montaña. Calvo, rasgos humanos. Piel con grietas que brillan desde el interior como fundidas aunque no calientes. Lleva ropa cubierta de pieles.", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "hoja muy larga, delgada y curva. Cambia activamente de forma según la necesidad de Zu.", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["pocas palabras", "voz rasposa", "serio", "precavido", "prefiere enfrentarse a los problemas antes que huir"], "valores": ["luchó junto a los Radiantes porque Odium venía y no quería huir"], "notas": null },
+  "habilidades": { "generales": ["desaparecer en la roca y emerger", "manifestar objetos en Shadesmar mediante luz tormentosa inhalada", "sentir el alma de un objeto", "conocimiento de geografía de Shadesmar", "conocimiento de rutas de caravanas", "ayudar con mandras para transporte"], "magicas": ["Vínculo Nahel que otorga Cohesión y Tensión a Zu"] },
+  "vinculo_nahel": { "radiante_actual": "zu", "orden_radiante": "Custodios de la Piedra", "potencias_otorgadas": ["Cohesión", "Tensión"], "forma_shardblade": "hoja larga delgada y curva que cambia de forma", "estado_vinculo": "activo", "radiante_anterior": null, "notas": "Más diestro que su primo Unativi para manifestar objetos. Sus manifestaciones duran mucho tiempo sin nueva infusión de luz tormentosa." },
+  "historia": { "resumen": "Cumbrespren vinculado a Zu alrededor de 1173. Luchó junto a los Radiantes por voluntad propia. Participó en la misión diplomática a Integridad Duradera.", "puntos_clave": ["vinculado a Zu alrededor de 1173", "primo de Unativi", "participó en la misión diplomática a Integridad Duradera"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "zu", "relacion": "vínculo Nahel" }, "creador": null, "otros": [{ "personaje": "unativi", "relacion": "primo" }] },
+  "descripcion_breve": "Cumbrespren vinculado a Zu. De pocas palabras y serio, puede desaparecer en la roca. Diestro para manifestar objetos en Shadesmar mediante luz tormentosa.",
+  "notas": "Como cumbrespren, aparece en Shadesmar como humano hecho de roca con grietas que brillan desde dentro."
+}

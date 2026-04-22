@@ -1,0 +1,19 @@
+{
+  "id": "yunfah",
+  "nombre": "Yunfah",
+  "apodos": [],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Uno de los honorspren que abandonaron Shadesmar en contra de los veteranos para vincularse con humanos durante la Verdadera Desolación." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "diminuto anciano de larga barba que vuela sobre una pequeña nube", "formas_alternativas": [], "color": "blanco-azulado", "visibilidad": "visible para Kaladin", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["le gusta la jerarquía", "considera a Kaladin su superior", "detesta la idea de vincularse con un cantor", "ama el Reino Físico y no quiere volver a Shadesmar"], "valores": [], "notas": "La muerte de su Radiante no parece afectarle mucho." },
+  "habilidades": { "generales": [], "magicas": ["Vínculo Nahel que otorga Gravitación y Adhesión"] },
+  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": "Corredores del Viento", "potencias_otorgadas": ["Gravitación", "Adhesión"], "forma_shardblade": "desconocida", "estado_vinculo": "sin vínculo tras muerte de Vratim", "radiante_anterior": "Vratim", "notas": "Estuvo vinculado a Vratim hasta su muerte. Kaladin le ordenó a regañadientes intentar vincularse con Rlain, pero Rlain rechazó el vínculo por considerarlo forzado." },
+  "historia": { "resumen": "Honorspren que abandonó Shadesmar para vincularse con humanos durante la Verdadera Desolación. Se vinculó a Vratim quien murió en batalla. Kaladin le ordenó intentar vincularse con Rlain pero este rechazó el vínculo.", "puntos_clave": ["abandonó Shadesmar contra los veteranos honorspren para vincularse", "vinculado a Vratim hasta su muerte en batalla", "Kaladin le ordenó intentar vincularse con Rlain", "Rlain rechazó el vínculo por considerarlo forzado"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": null, "creador": null, "otros": [{ "personaje": "kaladin", "relacion": "su superior jerárquico según Yunfah" }, { "personaje": "rlain", "relacion": "rechazó su vínculo" }, { "personaje": "Vratim", "relacion": "radiante anterior fallecido" }] },
+  "descripcion_breve": "Honorspren que vuela sobre una pequeña nube como diminuto anciano. Le gusta la jerarquía y ama el Reino Físico. Su radiante Vratim murió en batalla.",
+  "notas": null
+}

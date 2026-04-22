@@ -1,0 +1,19 @@
+{
+  "id": "phendorana",
+  "nombre": "Phendorana",
+  "apodos": [],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "muerta",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Reprendió a Syl cuando esta buscaba a Kaladin, lo que implica un papel de liderazgo entre los honorspren. Da lecciones a otros honorspren según Lopen." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "mujer mayor de tamaño humano con pelo largo que se enrosca y desaparece en la niebla. Notablemente más grande que otros honorspren. Inicialmente viste elegante vestido, luego falda y blusa práctica al estilo thayleño.", "formas_alternativas": ["tamaño pequeño por comodidad"], "color": "blanco azulado", "visibilidad": "visible", "notas_emocionales": null }, "reino_cognitivo": { "forma": "similar al Reino Físico", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["tenaz", "un poco cascarrabias", "lado cálido", "papel de liderazgo entre honorspren"], "valores": [], "notas": "Teft la describe como tenaz y cascarrabias pero con lado cálido." },
+  "habilidades": { "generales": ["flotar por encima del suelo en lugar de caminar", "cambiar de tamaño a voluntad"], "magicas": ["Vínculo Nahel que otorga Gravitación y Adhesión a Teft"] },
+  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": "Corredores del Viento", "potencias_otorgadas": ["Gravitación", "Adhesión"], "forma_shardblade": "desconocida", "estado_vinculo": "disuelto por muerte", "radiante_anterior": null, "notas": "Su vínculo con Teft se disolvió cuando ambos murieron durante la invasión de Urithiru en Vevishev 1175." },
+  "historia": { "resumen": "Honorspren con papel de liderazgo vinculada a Teft. Reprendió a Syl cuando buscaba a Kaladin. Se vinculó con Teft durante la Verdadera Desolación. Murió junto a Teft durante la invasión de Urithiru en Vevishev 1175.", "puntos_clave": ["papel de liderazgo entre los honorspren", "reprendió a Syl cuando buscaba a Kaladin", "se vinculó a Teft durante la Verdadera Desolación", "murió junto a Teft en Vevishev 1175 durante la invasión de Urithiru"] },
+  "apariciones": { "libros": [{ "titulo": "Juramentada", "rol": "secundaria", "pov": false }, { "titulo": "El ritmo de la guerra", "rol": "secundaria", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "teft", "relacion": "vínculo Nahel, murieron juntos" }, "creador": null, "otros": [{ "personaje": "sylphrena", "relacion": "la reprendió cuando buscaba a Kaladin" }, { "personaje": "rua", "relacion": "compañera honorspren" }] },
+  "descripcion_breve": "Honorspren con papel de liderazgo vinculada a Teft. Tenaz y cascarrabias pero con un lado cálido. Murió junto a Teft en la invasión de Urithiru.",
+  "notas": "Es notablemente más grande que otros honorspren como Rua o Sylphrena. Su cabello se mueve como si fuera soplado por un viento fantasma."
+}

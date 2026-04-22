@@ -1,0 +1,19 @@
+{
+  "id": "notum",
+  "nombre": "Notum",
+  "apodos": [],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Capitán del Sendero de Honor. Fiel servidor del Padre Tormenta. Miembro de los Injuramentados y la Guardia de Cobalto." },
+  "apariencia": { "reino_fisico": { "forma_preferida": "honorspren alto que se asemeja físicamente a un alezi. Mentón afeitado pero con barba y fino bigote conectados con prominentes patillas al estilo comecuernos. Comportamiento arrogante. Brilla con suave color blanco-azulado.", "formas_alternativas": [], "color": "blanco-azulado", "visibilidad": "visible", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null } },
+  "personalidad": { "rasgos": ["leal a Honor y sus juramentos", "arrogante como todo honorspren", "prudente", "puede ser persuadido por argumentos sobre juramentos"], "valores": ["los juramentos y las promesas son esenciales", "entiende que la fortaleza humana reside en sus personalidades dinámicas"], "notas": null },
+  "habilidades": { "generales": ["capitán de barco en Shadesmar"], "magicas": [] },
+  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": null, "potencias_otorgadas": [], "forma_shardblade": null, "estado_vinculo": "sin vínculo conocido", "radiante_anterior": null, "notas": null },
+  "historia": { "resumen": "Honorspren capitán del Sendero de Honor. Fue desterrado y enviado a patrullar los alrededores de Integridad Duradera tras ayudar a Syl a escapar de los Fusionados en Celebrant. Más tarde abandonó su discurso preparado para defender a Adolin en el juicio, arriesgándose a daños personales.", "puntos_clave": ["capitán del Sendero de Honor", "ayudó a Syl a escapar de los Fusionados en Celebrant", "desterrado por su acción, enviado a patrullar cerca de Integridad Duradera", "defendió a Adolin en el juicio arriesgando su bienestar personal"] },
+  "apariciones": { "libros": [{ "titulo": "Juramentada", "rol": "secundario", "pov": false }, { "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }, { "titulo": "Viento y verdad", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": null, "creador": null, "otros": [{ "personaje": "sylphrena", "relacion": "la ayudó a escapar de los Fusionados" }, { "personaje": "adolin", "relacion": "testificó en su defensa en el juicio" }] },
+  "descripcion_breve": "Honorspren capitán del Sendero de Honor. Fue desterrado por ayudar a Syl a escapar. Más tarde se arriesgó para defender a Adolin en su juicio en Integridad Duradera.",
+  "notas": null
+}

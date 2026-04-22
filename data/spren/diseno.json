@@ -1,0 +1,85 @@
+{
+  "id": "diseno",
+  "nombre": "Diseño",
+  "apodos": [],
+  "tipo_spren": "críptico",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Anteriormente vinculada a Elhokar antes de vincularse a Hoid. Es saltamundos, viaja por el Cosmere con Hoid."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "criatura con túnica rígida y patrón cambiante por cabeza. Patrón curvo e intrincado, más fino y grácil que el de Patrón. Voz musical y femenina.",
+      "formas_alternativas": ["mujer nagadana atractiva de poco más de veinte años con larga cabellera blanca (mediante ilusión de Tejido de Luz en Komashi)"],
+      "color": "desconocido",
+      "visibilidad": "puede inflar su patrón a modo de reverencia",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": { "forma": "desconocida", "limitaciones": null },
+    "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "se molesta enseguida",
+      "revela finales de historias sin permiso",
+      "curiosa",
+      "saltamundos entusiasta"
+    ],
+    "valores": [],
+    "notas": "Hoid la regaña por reventar finales de historias. Tiene voz musical y femenina."
+  },
+
+  "habilidades": {
+    "generales": ["saltamundos: viaja entre mundos del Cosmere con Hoid"],
+    "magicas": ["Vínculo Nahel que otorga Iluminación y Transformación"]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "hoid",
+    "orden_radiante": "Tejedores de Luz",
+    "potencias_otorgadas": ["Iluminación", "Transformación"],
+    "forma_shardblade": "desconocida",
+    "estado_vinculo": "activo",
+    "radiante_anterior": "elhokar",
+    "notas": "Anteriormente vinculada a Elhokar. Ahora viaja con Hoid por el Cosmere."
+  },
+
+  "historia": {
+    "resumen": "Críptica vinculada primero a Elhokar y luego a Hoid. Viaja con Hoid por el Cosmere como saltamundos. Mientras vivía en Komashi adoptaba la apariencia de una mujer nagadana mediante Tejido de Luz.",
+    "puntos_clave": [
+      "vinculada anteriormente a Elhokar",
+      "actualmente vinculada a Hoid",
+      "saltamundos que viaja por el Cosmere",
+      "adoptaba apariencia de mujer nagadana en Komashi",
+      "revela finales de historias sin permiso"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "Juramentada",           "rol": "secundaria",          "pov": false },
+      { "titulo": "El ritmo de la guerra", "rol": "secundaria",          "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "secundaria",          "pov": false },
+      { "titulo": "Yumi y el pintor de pesadillas", "rol": "secundaria", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "hoid", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": [
+      { "personaje": "elhokar", "relacion": "radiante anterior" }
+    ]
+  },
+
+  "descripcion_breve": "Críptica vinculada a Hoid, con quien viaja por el Cosmere como saltamundos. Antes vinculada a Elhokar. Es famosa por revelar finales de historias sin permiso.",
+  "notas": "Su patrón de cabeza es más fino y grácil que el de Patrón. Voz musical y femenina. Puede inflar su patrón a modo de reverencia."
+}

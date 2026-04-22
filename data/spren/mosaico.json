@@ -1,0 +1,19 @@
+{
+  "id": "mosaico",
+  "nombre": "Mosaico",
+  "apodos": [],
+  "tipo_spren": "críptico",
+  "es_splinter_de": null,
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": null },
+  "apariencia": { "reino_fisico": { "forma_preferida": "desconocida", "formas_alternativas": [], "color": "desconocido", "visibilidad": "desconocida", "notas_emocionales": null }, "reino_cognitivo": { "forma": "patrón de cabeza con líneas puntiagudas que a veces incluye partes rapidísimas parecidas a escritura femenina", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" } },
+  "personalidad": { "rasgos": ["entusiasmado con las contradicciones humanas", "fascinado por ver dibujar a Shallan"], "valores": [], "notas": null },
+  "habilidades": { "generales": [], "magicas": ["Vínculo Nahel que otorga Iluminación y Transformación a Vathah"] },
+  "vinculo_nahel": { "radiante_actual": "vathah", "orden_radiante": "Tejedores de Luz", "potencias_otorgadas": ["Iluminación", "Transformación"], "forma_shardblade": "desconocida", "estado_vinculo": "activo", "radiante_anterior": null, "notas": null },
+  "historia": { "resumen": "Críptico vinculado a Vathah. Participó en la misión diplomática a Integridad Duradera en 1175 elegida por Shallan Davar.", "puntos_clave": ["vinculado a Vathah", "participó en la misión diplomática a Integridad Duradera", "elegido por Shallan para la expedición"] },
+  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }, { "titulo": "Viento y verdad", "rol": "secundario", "pov": false }] },
+  "relaciones": { "radiante_vinculado": { "personaje": "vathah", "relacion": "vínculo Nahel" }, "creador": null, "otros": [] },
+  "descripcion_breve": "Críptico vinculado a Vathah. Participó en la misión diplomática a Integridad Duradera. Su patrón en Shadesmar incluye líneas puntiagudas parecidas a escritura femenina.",
+  "notas": null
+}
