@@ -1,0 +1,89 @@
+{
+  "id": "hoid",
+  "nombre": "Hoid",
+  "nombre_completo": "Hoid",
+  "apodos": ["Sagaz", "Wit", "Viejo Pelosblanco"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida en Roshar",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar (estancia temporal; origen externo al planeta)",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes",  "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",      "rol": "secundario",           "pov": false },
+      { "titulo": "Juramentada",             "rol": "secundario importante", "pov": true  },
+      { "titulo": "El Ritmo de la Guerra",   "rol": "secundario",           "pov": false },
+      { "titulo": "Viento y Verdad",         "rol": "secundario",           "pov": true  }
+    ]
+  },
+  "afiliaciones": [
+    "Corte de Elhokar Kholin (como Sagaz)",
+    "Caballeros Radiantes (Tejedor de Luz)"
+  ],
+  "orden_radiantes": {
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "críptica (rescatada de Kholinar tras la muerte de Elhokar)" },
+    "estado_del_vinculo": "Activo. Pronunció el Primer Ideal en Kholinar tras rescatar la críptica de Elhokar."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": ["Ilusión", "Transformación (como Tejedor de Luz en Roshar)"],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Narrador y contador de historias excepcional",
+      "Músico: toca la flauta (flauta del Vela Errante)",
+      "Ingenio verbal y capacidad de insulto refinado",
+      "Conocimiento enciclopédico de la historia de Roshar",
+      "Despertar (magia de Nalthis; usada puntualmente en Roshar)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Sagaz, bufón de la corte del rey Elhokar",
+      "Tejedor de Luz (Caballero Radiante)",
+      "Narrador e informador en las sombras"
+    ],
+    "descripcion": "En Roshar se presenta como Sagaz, el bufón real de Elhokar. Alto, delgado, de pelo blanco o castaño según la ocasión, con una lengua afilada que usa tanto para entretener como para transmitir verdades incómodas. Aparece siempre en los momentos y lugares clave de la historia, aunque raramente interviene de forma directa.",
+    "estado_en_viento_y_verdad": "Activo en Roshar. Su rol como Tejedor de Luz y sus objetivos en el planeta continúan sin revelarse del todo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "kaladin",  "relacion": "le cuenta la historia del Vela Errante; mantiene una relación de guía enigmático" },
+      { "personaje": "jasnah",   "relacion": "la recibe a su salida de Shadesmar; relación de irritación mutua y respeto" },
+      { "personaje": "shallan",  "relacion": "aparece en sus recuerdos de infancia; conexión no del todo explicada" },
+      { "personaje": "dalinar",  "relacion": "ejerce influencia sutil sobre él durante su etapa como Sagaz" }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Misterioso, irónico y cargado de un propósito que no revela. En Roshar muestra momentos de genuina compasión.",
+    "evolucion": "Pasa de observador distante a actor más implicado al rescatar la críptica de Elhokar y pronunciar el Primer Ideal, comprometiéndose con Roshar de una forma más directa que en el pasado.",
+    "situacion_en_viento_y_verdad": "Continúa activo. Sus objetivos en Roshar siguen siendo opacos."
+  },
+  "arco_narrativo": {
+    "resumen": "Hoid llega a Roshar poco antes de 1173 adoptando la identidad de Sagaz, el bufón real de Elhokar. Desde esa posición observa, influye sutilmente y recoge información. Tras la caída de Kholinar, rescata la críptica que Elhokar no pudo vincular, pronuncia el Primer Ideal y se convierte en Tejedor de Luz. A lo largo de la saga aparece en momentos clave: con Kaladin en las Llanuras, recibiendo a Jasnah a su regreso de Shadesmar, y actuando en las sombras durante la Verdadera Desolación.",
+    "puntos_clave": [
+      "Llega a las Llanuras Quebradas y se convierte en Sagaz, bufón de la corte de Elhokar.",
+      "Cuenta a Kaladin la historia del Vela Errante en las Llanuras Quebradas.",
+      "Se disfraza de cochero de Adolin en Palabras Radiantes.",
+      "Recibe a Jasnah a su salida de Shadesmar al final de Palabras Radiantes.",
+      "Regresa a Kholinar durante el asedio; usa el Despertar para apartar a una niña del cadáver de su madre.",
+      "Rescata la críptica de Elhokar en el palacio de Kholinar tras su muerte.",
+      "Pronuncia el Primer Ideal de los Caballeros Radiantes, convirtiéndose en Tejedor de Luz.",
+      "Continúa activo durante la Verdadera Desolación con objetivos propios no revelados."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Tejedor de Luz; observador e informador en las sombras",
+    "rol": "Personaje omnipresente de trasfondo con agenda propia",
+    "relacion_con_spren": "Vínculo activo con la críptica rescatada de Kholinar.",
+    "otros_detalles": "Cada libro de la saga termina con un epílogo desde su punto de vista. Porta una flauta de origen desconocido cuya historia se revelará en futuros libros."
+  },
+  "descripcion_breve": "Conocido en Roshar como Sagaz, el bufón de la corte de Elhokar. Tejedor de Luz tras rescatar la críptica de Elhokar en Kholinar. Aparece en los momentos más importantes de la saga con una agenda propia que trasciende los eventos de Roshar.",
+  "notas": "Ficha limitada a su estancia en Roshar. Su origen, historia y habilidades fuera de este planeta se omiten deliberadamente. Los epílogos de los cinco libros de la saga están narrados desde su punto de vista."
+}

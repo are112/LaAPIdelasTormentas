@@ -91,6 +91,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "hoid",
+    "nombre": "Hoid",
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "huio",
     "nombre": "Huio",
     "orden": "Corredores del Viento",
