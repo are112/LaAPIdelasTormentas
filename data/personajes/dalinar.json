@@ -3,8 +3,10 @@
   "nombre": "Dalinar",
   "nombre_completo": "Dalinar Kholin",
   "apodos": [
-    "Espina Negra",
-    "Alto Príncipe de la Guerra"
+    "El Espina Negra",
+    "Alto Príncipe de la Guerra",
+    "Unificador de Roshar",
+    "Recipiente de Honor (brevemente)"
   ],
   "sexo": "masculino",
   "especie": "humano",
@@ -14,149 +16,98 @@
   "estado_actual": "fallecido",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "principal",
-        "pov": true
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "principal", "pov": true },
+      { "titulo": "Palabras Radiantes",     "rol": "principal", "pov": true },
+      { "titulo": "Juramentada",            "rol": "protagonista", "pov": true },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "principal", "pov": true },
+      { "titulo": "Viento y Verdad",        "rol": "principal", "pov": true }
     ]
   },
   "afiliaciones": [
     "Casa Kholin",
     "Reino de Alezkar",
     "Caballeros Radiantes",
-    "Coalición de monarcas",
-    "Urithiru"
+    "Coalición de Monarcas",
+    "Urithiru",
+    "Portadores de Esquirlada (anteriormente)"
   ],
   "orden_radiantes": {
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 3,
-    "spren_asociado": {
-      "principal": "Padre Tormenta"
-    },
-    "estado_del_vinculo": "activo"
+    "spren_asociado": { "principal": "Padre Tormenta" },
+    "estado_del_vinculo": "Renunció a sus juramentos en Viento y Verdad, devolviendo la Esquirla de Honor."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Adhesión",
-        "Tensión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Adhesión", "Tensión"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "estratega militar excepcional",
-      "liderazgo",
-      "combate con espada",
-      "tácticas de guerra",
-      "oratoria e inspiración"
+      "Uno de los mejores portadores de esquirlada de su generación",
+      "Estratega militar excepcional",
+      "Liderazgo y oratoria inspiracional",
+      "Tácticas de guerra y unificación de ejércitos",
+      "Renunció voluntariamente a hoja y armadura esquirlada"
     ]
   },
   "identidades": {
     "principales": [
-      "alto príncipe alezi",
-      "rey de Urithiru",
-      "forjador de vínculos",
-      "líder de los Caballeros Radiantes"
+      "Alto príncipe alezi",
+      "Rey de Urithiru",
+      "Forjador de Vínculos",
+      "Líder de los Caballeros Radiantes",
+      "Antiguo Recipiente de Honor"
     ],
-    "descripcion": "Dalinar es uno de los líderes más importantes de Roshar durante la nueva Desolación. Antiguamente conocido como el temido guerrero Espina Negra, ha evolucionado hasta convertirse en un líder moral y político que busca unir a los pueblos de Roshar contra Odium.",
-    "estado_en_viento_y_verdad": "continúa liderando la resistencia contra Odium y guiando a los Caballeros Radiantes."
+    "descripcion": "Dalinar fue en su juventud un conquistador brutal apodado el Espina Negra, temido en toda Roshar y adicto a la Emoción (el Thrill). Con el tiempo evolucionó hasta convertirse en el principal líder moral y político de la resistencia contra Odium, cargando con una culpa profunda por su pasado y especialmente por la muerte de su esposa Evi.",
+    "estado_en_viento_y_verdad": "Renuncia a sus juramentos como Forjador de Vínculos y devuelve la Esquirla de Honor. Fallece durante los eventos del libro."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "gavilar",
-        "relacion": "hermano"
-      },
-      {
-        "personaje": "navani",
-        "relacion": "esposa"
-      },
-      {
-        "personaje": "evi",
-        "relacion": "esposa"
-      },
-      {
-        "personaje": "adolin",
-        "relacion": "hijo"
-      },
-      {
-        "personaje": "renarin",
-        "relacion": "hijo"
-      },
-      {
-        "personaje": "elhokar",
-        "relacion": "sobrino"
-      },
-      {
-        "personaje": "jasnah",
-        "relacion": "sobrina"
-      }
+      { "personaje": "gavilar",  "relacion": "hermano" },
+      { "personaje": "navani",   "relacion": "segunda esposa" },
+      { "personaje": "evi",      "relacion": "primera esposa; fallecida en Rathalas" },
+      { "personaje": "adolin",   "relacion": "hijo mayor" },
+      { "personaje": "renarin",  "relacion": "hijo menor" },
+      { "personaje": "elhokar",  "relacion": "sobrino" },
+      { "personaje": "jasnah",   "relacion": "sobrina" }
     ],
     "amigos": [
-      {
-        "personaje": "Kaladin",
-        "relacion": "amigo"
-      }
+      { "personaje": "kaladin",    "relacion": "aliado y amigo de confianza" },
+      { "personaje": "szeth",      "relacion": "asesino reconvertido en guardaespaldas personal" }
     ],
     "enemigos": [
-      {
-        "personaje": "Odium",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "Taravangian",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "Sadeas",
-        "relacion": "enemigo"
-      }
+      { "personaje": "taravangian","relacion": "lo traiciona; se convierte en el nuevo Odium" },
+      { "personaje": "Sadeas",     "relacion": "rival y enemigo; asesinado por Adolin" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "trauma de guerra y culpa profunda por su pasado violento",
-    "evolucion": "Dalinar pasa de ser un brutal conquistador a un hombre que busca la redención y la unidad. Enfrenta su pasado, incluida la muerte de su esposa Evi.",
-    "situacion_en_viento_y_verdad": "ha aceptado plenamente su pasado y utiliza esa experiencia para liderar con sabiduría."
+    "diagnostico_general": "Culpa profunda por su pasado violento, especialmente la muerte de Evi. Adicción superada a la Emoción. Gran fortaleza moral alcanzada a través de la redención.",
+    "evolucion": "Pasa de conquistador brutal adicto a la Emoción a líder moral que acepta su pasado. El redescubrimiento de los recuerdos de Evi —borrados por la Vigilante Nocturna— y su perdón póstumo son el núcleo de su redención.",
+    "situacion_en_viento_y_verdad": "Acepta plenamente su pasado. Renuncia a sus juramentos y a la Esquirla de Honor como acto final de su arco de redención. Fallece durante los eventos del libro."
   },
   "arco_narrativo": {
-    "resumen": "Dalinar comienza como un poderoso alto príncipe que intenta restaurar el honor en Alezkar tras la muerte de su hermano. A lo largo de la saga redescubre los ideales de los Caballeros Radiantes, forma un vínculo con el Padre Tormenta y se convierte en el principal líder de la resistencia contra Odium.",
+    "resumen": "Dalinar comienza como un poderoso alto príncipe que intenta restaurar el honor alezi tras la muerte de Gavilar. A lo largo de la saga redescubre los ideales de los Caballeros Radiantes, recupera los recuerdos borrados de su esposa Evi, forma un vínculo con el Padre Tormenta y se convierte en el principal líder de la resistencia contra Odium. Su arco culmina con la renuncia a sus juramentos y su muerte en Viento y Verdad.",
     "puntos_clave": [
-      "unificación de los ejércitos alezi",
-      "visiones enviadas por Honor",
-      "renuncia a su espada esquirlada para salvar a Kaladin",
-      "descubrimiento de los Caballeros Radiantes",
-      "vínculo con el Padre Tormenta",
-      "rechazo de Odium en la batalla de Thaylenah",
-      "liderazgo de la coalición de Roshar"
+      "Juventud como conquistador brutal apodado el Espina Negra; adicción a la Emoción.",
+      "Se casa con Evi en un matrimonio de alianza; nunca la corresponde plenamente.",
+      "Ordena el incendio de Rathalas; Evi muere en las llamas sin que él lo sepa.",
+      "Visita a la Vigilante Nocturna: le pide olvidar el dolor; ella le borra todos los recuerdos de Evi.",
+      "Asesinato de Gavilar e inicio de la Guerra de la Venganza en las Llanuras Quebradas.",
+      "Recibe visiones de Honor que le impulsan a reunir a los Caballeros Radiantes.",
+      "Renuncia a su hoja esquirlada Juramentada para salvar a Kaladin.",
+      "Forma vínculo Nahel con el Padre Tormenta; se convierte en Forjador de Vínculos.",
+      "Recupera los recuerdos de Evi; su perdón póstumo le permite abrir la Perpendicularidad de Honor en Thaylenah.",
+      "Pacto con Odium en El Ritmo de la Guerra: duelo de campeones que decide el destino de Roshar.",
+      "Sostiene brevemente el poder de la Esquirla de Honor antes de renunciar a ella.",
+      "Renuncia a sus juramentos como Forjador de Vínculos en Viento y Verdad. Fallece."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "rey de Urithiru",
-    "rol": "líder de la coalición contra Odium",
-    "relacion_con_spren": "vínculo Nahel con el Padre Tormenta",
-    "otros_detalles": "uno de los tres posibles Forjadores de Vínculos del nuevo ciclo de Caballeros Radiantes."
+    "ocupacion": "Fallecido",
+    "rol": "Figura central de la saga; su legado guía a los Caballeros Radiantes",
+    "relacion_con_spren": "Renunció al vínculo con el Padre Tormenta antes de morir.",
+    "otros_detalles": "Fue brevemente Recipiente de la Esquirla de Honor antes de renunciar a ese poder. Autor parcial del libro Juramentada, publicado antes de su muerte."
   },
-  "descripcion_breve": "Dalinar Kholin, conocido como la Espina Negra, es un alto príncipe alezi convertido en Caballero Radiante de la Orden de los Forjadores de Vínculos y líder de la coalición que lucha contra Odium.",
-  "notas": "Durante los eventos más recientes llegó a sostener brevemente el poder de Honor antes de renunciar a esa responsabilidad."
+  "descripcion_breve": "Alto príncipe alezi conocido como el Espina Negra. Forjador de Vínculos y líder de la coalición contra Odium. Su arco de redención, marcado por la culpa por la muerte de Evi y la superación de la Emoción, es uno de los más profundos de la saga.",
+  "notas": "Fue brevemente Recipiente de la Esquirla de Honor. Renunció a sus juramentos y a la Esquirla en Viento y Verdad como acto final de redención. La Vigilante Nocturna le borró todos los recuerdos de Evi a petición propia."
 }
