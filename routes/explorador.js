@@ -1231,15 +1231,11 @@ router.get("/", (req, res) => {
       }
       wrap.innerHTML = filtrada.map(h => {
         const activo = seleccionado === 'heraldo_' + h.id ? 'activo' : '';
-        const imgSrc = `/images/heraldos/${h.id}.webp`;
-        const avatarHtml = `<div class="item-avatar-heraldo">
-          <div class="ring-s"></div><div class="ring-s-inner"></div>
-          <img src="${imgSrc}" onerror="this.parentElement.innerHTML='👑'" />
-        </div>`;
+        const avatarHtml = '<div class="item-avatar-heraldo"><div class="ring-s"></div><div class="ring-s-inner"></div><img src="/images/heraldos/' + h.id + '.webp" onerror="this.parentElement.innerHTML=\'👑\'" /></div>';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verHeraldo('\${h.id}')" data-id="heraldo_\${h.id}">
-            ${avatarHtml}
+            \${avatarHtml}
             <div class="item-info">
               <div class="item-nombre">\${h.nombre}</div>
               <div class="item-orden">\${h.titulo || 'Heraldo'}</div>
