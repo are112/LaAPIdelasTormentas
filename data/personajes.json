@@ -18,7 +18,7 @@
     "nombre": "Cikatriz",
     "orden": "Corredores del Viento",
     "nivel_ideal": 2,
-    "estado_actual": "viva"
+    "estado_actual": "vivo"
   },
   {
     "id": "cuerda",
@@ -32,7 +32,7 @@
     "nombre": "Dalinar",
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 3,
-    "estado_actual": "vivo"
+    "estado_actual": "fallecido"
   },
   {
     "id": "don",
