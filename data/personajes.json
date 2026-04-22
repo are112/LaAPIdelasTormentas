@@ -3,216 +3,252 @@
     "id": "adolin",
     "nombre": "Adolin",
     "orden": "Ninguna",
-    "nivel_ideal": null
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "cancion_hermosa",
     "nombre": "Canción Hermosa",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "cikatriz",
     "nombre": "Cikatriz",
     "orden": "Corredores del Viento",
-    "nivel_ideal": 2
+    "nivel_ideal": 2,
+    "estado_actual": "vivo"
   },
   {
     "id": "cuerda",
     "nombre": "Cuerda",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "dalinar",
     "nombre": "Dalinar",
     "orden": "Forjadores de Vínculos",
-    "nivel_ideal": 3
+    "nivel_ideal": 3,
+    "estado_actual": "vivo"
   },
   {
     "id": "don",
     "nombre": "Don",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "drehy",
     "nombre": "Drehy",
     "orden": "Corredores del Viento",
-    "nivel_ideal": 2
+    "nivel_ideal": 2,
+    "estado_actual": "vivo"
   },
   {
     "id": "eshonai",
     "nombre": "Eshonai",
     "orden": "Escultores de Voluntad",
-    "nivel_ideal": null
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "estrella",
     "nombre": "Estrella",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "godeke",
     "nombre": "Godeke",
     "orden": "Danzantes del Filo",
-    "nivel_ideal": null
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "huio",
     "nombre": "Huio",
     "orden": "Corredores del Viento",
-    "nivel_ideal": 3
+    "nivel_ideal": 3,
+    "estado_actual": "vivo"
   },
   {
     "id": "jasnah",
     "nombre": "Jasnah",
     "orden": "Nominadores de Lo Otro",
-    "nivel_ideal": null
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "kaladin",
     "nombre": "Kaladin",
     "orden": "Corredores del Viento",
-    "nivel_ideal": 4
+    "nivel_ideal": 4,
+    "estado_actual": "vivo"
   },
   {
     "id": "kumatiki",
     "nombre": "Kuma'tiki",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "leshwi",
     "nombre": "Leshwi",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "leyten",
     "nombre": "Leyten",
     "orden": "Corredores del Viento",
-    "nivel_ideal": null
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "lift",
     "nombre": "Lift",
     "orden": "Danzantes del Filo",
-    "nivel_ideal": 3
+    "nivel_ideal": 3,
+    "estado_actual": "vivo"
   },
   {
     "id": "lopen",
     "nombre": "Lopen",
     "orden": "Corredores del Viento",
-    "nivel_ideal": 3
+    "nivel_ideal": 3,
+    "estado_actual": "vivo"
   },
   {
     "id": "lunamor",
     "nombre": "Lunamor",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "lyn",
     "nombre": "Lyn",
     "orden": "Corredores del Viento",
-    "nivel_ideal": 3
+    "nivel_ideal": 3,
+    "estado_actual": "vivo"
   },
   {
     "id": "moash",
     "nombre": "Moash",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "navani",
     "nombre": "Navani",
     "orden": "Forjadores de Vínculos",
-    "nivel_ideal": 1
+    "nivel_ideal": 1,
+    "estado_actual": "vivo"
   },
   {
     "id": "rabeniel",
     "nombre": "Rabeniel",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida"
   },
   {
     "id": "renarin",
     "nombre": "Renarin",
     "orden": "Vigilantes de la Verdad",
-    "nivel_ideal": null
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "ristina",
     "nombre": "Ristina",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "rlain",
     "nombre": "Rlain",
     "orden": "Vigilantes de la Verdad",
-    "nivel_ideal": 2
+    "nivel_ideal": 2,
+    "estado_actual": "vivo"
   },
   {
     "id": "roca_junior",
     "nombre": "Roca (junior)",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "rushu",
     "nombre": "Rushu",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "shallan",
     "nombre": "Shallan",
     "orden": "Tejedores de Luz",
-    "nivel_ideal": 4
+    "nivel_ideal": 4,
+    "estado_actual": "vivo"
   },
   {
     "id": "sigzil",
     "nombre": "Sigzil",
     "orden": "Corredores del Viento",
-    "nivel_ideal": 3
+    "nivel_ideal": 3,
+    "estado_actual": "vivo"
   },
   {
     "id": "szeth",
     "nombre": "Szeth",
     "orden": "Rompedores del Cielo",
-    "nivel_ideal": 4
+    "nivel_ideal": 4,
+    "estado_actual": "vivo"
   },
   {
     "id": "taravangian",
     "nombre": "Taravangian",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "teft",
     "nombre": "Teft",
     "orden": "Corredores del Viento",
-    "nivel_ideal": 3
+    "nivel_ideal": 3,
+    "estado_actual": "vivo"
   },
   {
     "id": "tuaka",
     "nombre": "Tuaka",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "vasher",
     "nombre": "Vasher",
-    "orden": "",
-    "nivel_ideal": null
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "venli",
     "nombre": "Venli",
     "orden": "Escultores de Voluntad",
-    "nivel_ideal": 2
+    "nivel_ideal": 2,
+    "estado_actual": "vivo"
   }
 ]
