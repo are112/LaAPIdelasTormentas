@@ -54,7 +54,7 @@
   ],
   "orden_radiantes": {
     "orden": "Corredores del Viento",
-    "nivel_ideal": 4,
+    "nivel_ideal": 5,
     "spren_asociado": {
       "principal": "Sylphrena"
     },
