@@ -4,7 +4,8 @@
   "nombre_completo": "Szeth-hijo-hijo-Vallano",
   "apodos": [
     "Asesino de Blanco",
-    "Sin Verdad"
+    "Sin Verdad",
+    "Szeth-hijo-Neturo"
   ],
   "sexo": "masculino",
   "especie": "humano",
@@ -36,7 +37,7 @@
       },
       {
         "titulo": "Viento y Verdad",
-        "rol": "secundario importante",
+        "rol": "protagonista",
         "pov": true
       }
     ]
@@ -45,7 +46,7 @@
     "Shinovar",
     "Rompedores del Cielo",
     "Caballeros Radiantes",
-    "Seguidores de Dalinar Kholin"
+    "Guardaespaldas de Dalinar Kholin (anteriormente)"
   ],
   "orden_radiantes": {
     "orden": "Rompedores del Cielo",
@@ -61,88 +62,96 @@
         "Gravitación",
         "División"
       ],
-      "fuente_de_luz": "Luz tormentosa"
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "Maestría excepcional con la espada",
-      "Entrenamiento shin en combate",
+      "Maestría excepcional con la espada (entrenamiento shin)",
+      "Combate con Sangre Nocturna",
       "Gran capacidad táctica",
       "Dominio de hojas esquirladas"
     ]
   },
   "identidades": {
     "principales": [
-      "Sin Verdad",
+      "Sin Verdad (declarado por los Líderes de las Piedras de Shinovar)",
       "Asesino de Blanco",
-      "Portador de la Hoja de Honor de Jezrien",
-      "Portador de Sangre Nocturna",
-      "Caballero Radiante"
+      "Rompedor del Cielo",
+      "Antiguo portador de la Hoja de Honor de Jezrien",
+      "Portador actual de Sangre Nocturna"
     ],
-    "descripcion": "Szeth fue declarado Sin Verdad por los líderes de Shinovar, lo que lo obligó a obedecer a cualquiera que poseyera su Juramento de Piedra. Durante años fue utilizado como asesino por distintos amos mientras portaba la Hoja de Honor de Jezrien, que le permitía usar la Gravitación. Tras su muerte a manos de Kaladin fue resucitado por Nale y posteriormente se convirtió en miembro de los Rompedores del Cielo.",
-    "estado_en_viento_y_verdad": "Busca redención por los asesinatos cometidos bajo coacción mientras se enfrenta a su pasado en Shinovar."
+    "descripcion": "Szeth fue declarado Sin Verdad por los Líderes de las Piedras de Shinovar, lo que lo obligó a obedecer a cualquier poseedor de su Juramento de Piedra durante años. Porató la Hoja de Honor de Jezrien hasta que pasó a manos de Moash. Tras ser asesinado por Kaladin fue resucitado por Nale y se convirtió en Rompedor del Cielo. En Viento y Verdad regresa a Shinovar para enfrentarse a los Líderes de las Piedras y liberar a su pueblo.",
+    "estado_en_viento_y_verdad": "Protagoniza los flashbacks del libro. Regresa a Shinovar, se enfrenta a los Líderes de las Piedras y lidera la liberación del pueblo shin."
   },
   "relaciones": {
     "familia": [
       {
-        "personaje": "neturo-hijo-vallano",
+        "personaje": "Neturo-hijo-Vallano",
         "relacion": "padre"
       },
       {
-        "personaje": "zeenid-hija-beth",
+        "personaje": "Zeenid-hija-Beth",
         "relacion": "madre"
       },
       {
-        "personaje": "elid-hija-neturo",
+        "personaje": "Elid-hija-Neturo",
         "relacion": "hermana"
       }
     ],
     "amigos": [
       {
         "personaje": "kaladin",
-        "relacion": "aliado"
+        "relacion": "aliado; lo mató y fue su principal rival antes de convertirse en aliado"
       },
       {
         "personaje": "dalinar",
-        "relacion": "aliado"
+        "relacion": "guardaespaldas personal; fallecido"
+      },
+      {
+        "personaje": "Sangre Nocturna",
+        "relacion": "espada despertada que porta; relación intensa y compleja"
       }
     ],
     "enemigos": [
       {
         "personaje": "taravangian",
-        "relacion": "enemigo"
+        "relacion": "enemigo; Szeth fue su asesino antes de su traición"
       },
       {
-        "personaje": "portadores-del-vacio",
-        "relacion": "enemigos"
+        "personaje": "Líderes de las Piedras",
+        "relacion": "los declararon Sin Verdad injustamente; se enfrenta a ellos en VyV"
+      },
+      {
+        "personaje": "nale",
+        "relacion": "lo reclutó para los Rompedores del Cielo; relación de tensión"
       }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "Profunda culpa y trauma psicológico derivados de los asesinatos que se vio obligado a cometer.",
-    "evolucion": "Pasa de una obediencia fatalista y resignada a buscar justicia y redención personal.",
-    "situacion_en_viento_y_verdad": "Enfrenta su pasado en Shinovar y trata de reconciliar sus acciones pasadas con su búsqueda de justicia."
+    "diagnostico_general": "Profunda culpa y trauma psicológico por los asesinatos cometidos bajo coacción. Obediencia fatalista convertida progresivamente en búsqueda activa de justicia.",
+    "evolucion": "Pasa de una resignación absoluta —cumplir órdenes porque cree que el mundo tiene razón y él está equivocado— a cuestionar activamente la injusticia y buscar redención enfrentándose a quienes lo convirtieron en arma.",
+    "situacion_en_viento_y_verdad": "Regresa a Shinovar para confrontar su pasado y a los Líderes de las Piedras. Su arco de redención alcanza su punto culminante."
   },
   "arco_narrativo": {
-    "resumen": "Szeth comienza como el temido Asesino de Blanco, obligado a obedecer a cualquiera que posea su Juramento de Piedra tras ser declarado Sin Verdad. Tras su muerte a manos de Kaladin fue resucitado por Nale e incorporado a los Rompedores del Cielo. Desde entonces busca justicia y redención.",
+    "resumen": "Szeth es declarado Sin Verdad en Shinovar y convertido en el arma más temida de Roshar, el Asesino de Blanco. Porta la Hoja de Honor de Jezrien y cumple las órdenes de sucesivos amos, incluyendo el asesinato del rey Gavilar. Es matado por Kaladin, resucitado por Nale e incorporado a los Rompedores del Cielo. En Viento y Verdad regresa a Shinovar para liberar a su pueblo y afrontar su pasado.",
     "puntos_clave": [
-      "Declarado Sin Verdad por los líderes de Shinovar",
-      "Portador del Juramento de Piedra",
-      "Asesinato del rey Gavilar Kholin",
-      "Uso de la Hoja de Honor de Jezrien",
-      "Muerte a manos de Kaladin",
-      "Resurrección por Nale",
-      "Ingreso en los Rompedores del Cielo",
-      "Vinculación con un altospren",
-      "Obtención de Sangre Nocturna",
-      "Viaje a Shinovar para enfrentarse a su pasado"
+      "Declarado Sin Verdad injustamente por los Líderes de las Piedras de Shinovar.",
+      "Portador del Juramento de Piedra; obligado a obedecer a su poseedor.",
+      "Asesina al rey Gavilar Kholin por orden de Taravangian, desencadenando la Guerra de la Venganza.",
+      "Portador de la Hoja de Honor de Jezrien; uso de Gravitación sin ser Radiante.",
+      "Muerto por Kaladin en las Llanuras Quebradas.",
+      "Resurrección por Nale.",
+      "Forma vínculo Nahel con un altospren (Isah); se convierte en Caballero Radiante.",
+      "Recibe Sangre Nocturna de Vasher/Zahel.",
+      "Sirve como guardaespaldas personal de Dalinar.",
+      "Regresa a Shinovar en Viento y Verdad; se enfrenta a los Líderes de las Piedras y lidera la liberación del pueblo shin."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Caballero Radiante",
-    "rol": "Rompedor del Cielo",
-    "relacion_con_spren": "Vínculo roto con el altospren",
-    "otros_detalles": "Antiguo portador de la Hoja de Honor de Jezrien y actual portador de Sangre Nocturna."
+    "ocupacion": "Caballero Radiante Rompedor del Cielo",
+    "rol": "Portador de Sangre Nocturna; liberador de Shinovar",
+    "relacion_con_spren": "Vínculo activo con el altospren Isah.",
+    "otros_detalles": "Ya no porta la Hoja de Honor de Jezrien, que pasó a manos de Moash. Porta Sangre Nocturna, la espada despertada creada por Vasher y Shashara en Nalthis."
   },
-  "descripcion_breve": "Szeth-hijo-hijo-Vallano es un shin conocido como el Asesino de Blanco. Obligado durante años a servir como asesino, más tarde se une a los Rompedores del Cielo en busca de justicia y redención.",
-  "notas": "Szeth es el segundo hijo de Neturo-hijo-Vallano y Zeenid-hija-Beth."
+  "descripcion_breve": "Shin conocido como el Asesino de Blanco. Declarado Sin Verdad y convertido en arma durante años, se redime como Rompedor del Cielo y portador de Sangre Nocturna, culminando su arco con la liberación de Shinovar.",
+  "notas": "Szeth es el segundo hijo de Neturo-hijo-Vallano. La Hoja de Honor de Jezrien pasó a Moash tras la muerte de Jezrien. Sangre Nocturna es un personaje crossover de Warbreaker, igual que Vasher/Zahel."
 }
