@@ -18,7 +18,7 @@
     "nombre": "Cikatriz",
     "orden": "Corredores del Viento",
     "nivel_ideal": 2,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "cuerda",
@@ -53,7 +53,7 @@
     "nombre": "Eshonai",
     "orden": "Escultores de Voluntad",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "fallecida"
   },
   {
     "id": "estrella",
@@ -81,7 +81,7 @@
     "nombre": "Jasnah",
     "orden": "Nominadores de Lo Otro",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "kaladin",
@@ -116,7 +116,7 @@
     "nombre": "Lift",
     "orden": "Danzantes del Filo",
     "nivel_ideal": 3,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "lopen",
@@ -137,7 +137,7 @@
     "nombre": "Lyn",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "moash",
@@ -151,7 +151,7 @@
     "nombre": "Navani",
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 1,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "rabeniel",
@@ -172,7 +172,7 @@
     "nombre": "Ristina",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "rlain",
@@ -193,14 +193,14 @@
     "nombre": "Rushu",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "shallan",
     "nombre": "Shallan",
     "orden": "Tejedores de Luz",
     "nivel_ideal": 4,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "sigzil",
@@ -228,7 +228,7 @@
     "nombre": "Teft",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "estado_actual": "vivo"
+    "estado_actual": "fallecido"
   },
   {
     "id": "tuaka",
@@ -249,6 +249,6 @@
     "nombre": "Venli",
     "orden": "Escultores de Voluntad",
     "nivel_ideal": 2,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   }
 ]
