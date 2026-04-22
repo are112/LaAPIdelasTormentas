@@ -140,7 +140,7 @@
       "Portador de la Hoja de Honor de Jezrien; uso de Gravitación sin ser Radiante.",
       "Muerto por Kaladin en las Llanuras Quebradas.",
       "Resurrección por Nale.",
-      "Forma vínculo Nahel con un altospren (Isah); se convierte en Caballero Radiante.",
+      "Forma vínculo Nahel con un altospren (12124); se convierte en Caballero Radiante.",
       "Recibe Sangre Nocturna de Vasher/Zahel.",
       "Sirve como guardaespaldas personal de Dalinar.",
       "Regresa a Shinovar en Viento y Verdad; se enfrenta a los Líderes de las Piedras y lidera la liberación del pueblo shin."
@@ -149,7 +149,7 @@
   "situacion_actual": {
     "ocupacion": "Caballero Radiante Rompedor del Cielo",
     "rol": "Portador de Sangre Nocturna; liberador de Shinovar",
-    "relacion_con_spren": "Vínculo activo con el altospren Isah.",
+    "relacion_con_spren": "Vínculo activo con el altospren 12124.",
     "otros_detalles": "Ya no porta la Hoja de Honor de Jezrien, que pasó a manos de Moash. Porta Sangre Nocturna, la espada despertada creada por Vasher y Shashara en Nalthis."
   },
   "descripcion_breve": "Shin conocido como el Asesino de Blanco. Declarado Sin Verdad y convertido en arma durante años, se redime como Rompedor del Cielo y portador de Sangre Nocturna, culminando su arco con la liberación de Shinovar.",
