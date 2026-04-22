@@ -21,6 +21,14 @@ tags:
     description: Consulta de personajes individuales y listados
   - name: Búsqueda
     description: Búsqueda avanzada con filtros, ordenación y paginación
+  - name: Heraldos
+    description: Consulta de los Diez Heraldos de la Todopoderosa
+  - name: Spren
+    description: Consulta de spren de Roshar
+  - name: Órdenes
+    description: Consulta de las Órdenes de Caballeros Radiantes
+  - name: Estadísticas
+    description: Estadísticas generales de la API
 
 paths:
 
@@ -215,7 +223,7 @@ paths:
           description: Estado vital del personaje
           schema:
             type: string
-            enum: [vivo, muerto]
+            enum: [vivo, viva, fallecido, fallecida]
           example: vivo
 
         - name: afiliacion
@@ -279,6 +287,14 @@ paths:
             minimum: 1
           example: 5
 
+        - name: tipo
+          in: query
+          description: Filtra por tipo de entidad a buscar
+          schema:
+            type: string
+            enum: [personaje, heraldo, spren]
+          example: personaje
+
         - name: fields
           in: query
           description: |
@@ -315,6 +331,199 @@ paths:
                   value:
                     mensaje: "No se ha encontrado ningún personaje que cumpla los parámetros de búsqueda."
                     resultados: []
+
+
+  /heraldos:
+    get:
+      tags: [Heraldos]
+      summary: Listar todos los heraldos
+      description: Devuelve el índice de los Diez Heraldos de la Todopoderosa.
+      responses:
+        "200":
+          description: Lista de heraldos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+
+  /heraldos/{id}:
+    get:
+      tags: [Heraldos]
+      summary: Detalle de un heraldo
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: jezrien
+      responses:
+        "200":
+          description: Perfil completo del heraldo
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /heraldos/{id}/{seccion}:
+    get:
+      tags: [Heraldos]
+      summary: Sección concreta de un heraldo
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: jezrien
+        - name: seccion
+          in: path
+          required: true
+          schema:
+            type: string
+          example: habilidades
+      responses:
+        "200":
+          description: Sección del heraldo
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /spren:
+    get:
+      tags: [Spren]
+      summary: Listar todos los spren
+      description: Devuelve el índice de spren disponibles.
+      responses:
+        "200":
+          description: Lista de spren
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+
+  /spren/{id}:
+    get:
+      tags: [Spren]
+      summary: Detalle de un spren
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: sylphrena
+      responses:
+        "200":
+          description: Perfil completo del spren
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /spren/{id}/{seccion}:
+    get:
+      tags: [Spren]
+      summary: Sección concreta de un spren
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: seccion
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Sección del spren
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /ordenes:
+    get:
+      tags: [Órdenes]
+      summary: Listar todas las Órdenes de Caballeros Radiantes
+      description: Devuelve las diez órdenes con sus datos y número de personajes.
+      responses:
+        "200":
+          description: Lista de órdenes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total_ordenes:
+                    type: integer
+                  ordenes:
+                    type: array
+                    items:
+                      type: object
+
+  /ordenes/{nombre}:
+    get:
+      tags: [Órdenes]
+      summary: Detalle de una Orden
+      description: Devuelve los datos de la orden y todos sus miembros.
+      parameters:
+        - name: nombre
+          in: path
+          required: true
+          description: Nombre o ID de la orden
+          schema:
+            type: string
+          example: corredores-del-viento
+      responses:
+        "200":
+          description: Detalle completo de la orden
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /stats:
+    get:
+      tags: [Estadísticas]
+      summary: Estadísticas generales de la API
+      description: |
+        Devuelve estadísticas agregadas sobre todos los personajes:
+        totales por estado vital, orden radiante, especie, sexo, nacionalidad y libro.
+      responses:
+        "200":
+          description: Estadísticas generales
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  personajes:
+                    type: integer
+                  heraldos:
+                    type: integer
+                  spren:
+                    type: integer
+                  vivos:
+                    type: integer
+                  fallecidos:
+                    type: integer
+                  sin_estado:
+                    type: integer
+                  caballeros_radiantes:
+                    type: integer
+                  no_radiantes:
+                    type: integer
+                  por_orden:
+                    type: object
+                  por_especie:
+                    type: object
+                  por_sexo:
+                    type: object
+                  por_nacionalidad:
+                    type: object
+                  nivel_ideal_promedio:
+                    type: number
+                    nullable: true
+                  libros:
+                    type: object
 
 components:
 
@@ -399,7 +608,7 @@ components:
           example: Roshar
         estado_actual:
           type: string
-          enum: [vivo, muerto]
+          enum: [vivo, viva, fallecido, fallecida]
           example: vivo
         apariciones:
           type: object
