@@ -1231,11 +1231,15 @@ router.get("/", (req, res) => {
       }
       wrap.innerHTML = filtrada.map(h => {
         const activo = seleccionado === 'heraldo_' + h.id ? 'activo' : '';
-        const avatarHtml = h.orden_patron ? logoOrden(h.orden_patron) : '👑';
+        const imgSrc = `/images/heraldos/${h.id}.webp`;
+        const avatarHtml = `<div class="item-avatar-heraldo">
+          <div class="ring-s"></div><div class="ring-s-inner"></div>
+          <img src="${imgSrc}" onerror="this.parentElement.innerHTML='👑'" />
+        </div>`;
         return \`
           <div class="item-personaje \${activo}"
                onclick="verHeraldo('\${h.id}')" data-id="heraldo_\${h.id}">
-            <div class="item-avatar">\${avatarHtml}</div>
+            ${avatarHtml}
             <div class="item-info">
               <div class="item-nombre">\${h.nombre}</div>
               <div class="item-orden">\${h.titulo || 'Heraldo'}</div>
@@ -1324,7 +1328,11 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar">\${herald.orden_patron ? logoOrden(herald.orden_patron, 60) : '👑'}</div>
+            <div class="ficha-avatar-heraldo">
+              <div class="ring-l"></div><div class="ring-l-inner"></div>
+              <img src="/images/heraldos/\${h.id}.webp"
+                   onerror="this.src='/images/heraldos/\${h.id}.jpg';this.onerror=function(){this.parentElement.innerHTML='👑'};" />
+            </div>
             <div class="ficha-titulo">
               <h2>\${h.nombre}</h2>
               \${h.nombre_completo && h.nombre_completo !== h.nombre
