@@ -8,29 +8,33 @@
   "nacionalidad": "alezi",
   "origen": "Alezkar",
   "planeta_natal": "Roshar",
-  "estado_actual": "vivo",
-
+  "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      { "titulo": "Juramentada", "rol": "menor", "pov": false },
-      { "titulo": "El ritmo de la guerra", "rol": "menor", "pov": false }
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "menor",
+        "pov": false
+      }
     ]
   },
-
   "afiliaciones": [
     "Urithiru",
     "Caballeros Radiantes (personal civil de apoyo)"
   ],
-
   "orden_radiantes": {
-    "orden": "",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
     },
     "estado_del_vinculo": "no es Caballero Radiante"
   },
-
   "habilidades": {
     "magia": {
       "potencias": [],
@@ -43,7 +47,6 @@
       "sentido del humor poco común entre escribas"
     ]
   },
-
   "identidades": {
     "principales": [
       "escriba",
@@ -52,25 +55,31 @@
     "descripcion": "Escriba alezi de baja estatura pero gran carácter. Destaca por su sentido del humor y su actitud directa, incluso al tratar con figuras importantes como los Caballeros Radiantes.",
     "estado_en_viento_y_verdad": "desconocido"
   },
-
   "relaciones": {
-    "familia": [      
-      { "personaje": "cikatriz", "relacion": "pareja" }
+    "familia": [
+      {
+        "personaje": "cikatriz",
+        "relacion": "pareja"
+      }
     ],
     "amigos": [],
     "enemigos": [],
     "otros": [
-      { "personaje": "kaladin", "relacion": "interacción profesional" },
-      { "personaje": "Lyn", "relacion": "coincide durante eventos en Narak" }
+      {
+        "personaje": "kaladin",
+        "relacion": "interacción profesional"
+      },
+      {
+        "personaje": "Lyn",
+        "relacion": "coincide durante eventos en Narak"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "mente despierta, práctica y con sentido del humor",
     "evolucion": "se mantiene consistente en su carácter directo y profesional",
     "situacion_en_viento_y_verdad": "sin cambios conocidos"
   },
-
   "arco_narrativo": {
     "resumen": "Escriba destinada en la Puerta Jurada de Narak, encargada de registrar el tránsito. Aporta un toque de humor y humanidad en un entorno militar y Radiantemente serio.",
     "puntos_clave": [
@@ -80,15 +89,12 @@
       "inicia una relación con Cikatriz"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "escriba",
     "rol": "personal civil en Urithiru",
     "relacion_con_spren": "ninguna conocida",
     "otros_detalles": "ejemplo de la importancia del personal no combatiente en la infraestructura de los Caballeros Radiantes"
   },
-
   "descripcion_breve": "Escriba alezi de Urithiru, conocida por su baja estatura y su sorprendente sentido del humor, incluso en situaciones formales.",
-
   "notas": "Posible cameo basado en Kristina, esposa de Ethan Skarstedt, amigo de Brandon Sanderson."
 }

@@ -2,38 +2,52 @@
   "id": "lunamor",
   "nombre": "Lunamor",
   "nombre_completo": "Numuhukumakiaki'aialunamor",
-  "apodos": ["Roca"],
+  "apodos": [
+    "Roca"
+  ],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "comecuernos",
   "origen": "Picos Comecuernos",
   "planeta_natal": "Roshar",
   "estado_actual": "vivo",
-
   "apariciones": {
     "libros": [
-      { "titulo": "El camino de los reyes", "rol": "secundario", "pov": false },
-      { "titulo": "Palabras radiantes", "rol": "secundario", "pov": false },
-      { "titulo": "Juramentada", "rol": "secundario", "pov": false },
-      { "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }
+      {
+        "titulo": "El camino de los reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "secundario",
+        "pov": false
+      }
     ]
   },
-
   "afiliaciones": [
     "Puente Cuatro",
     "Ejército de Sadeas (anteriormente)",
     "Ejército de Dalinar Kholin"
   ],
-
   "orden_radiantes": {
-    "orden": "",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
     },
     "estado_del_vinculo": "no es Caballero Radiante"
   },
-
   "habilidades": {
     "magia": {
       "potencias": [],
@@ -47,7 +61,6 @@
       "arquero competente"
     ]
   },
-
   "identidades": {
     "principales": [
       "miembro de Puente Cuatro",
@@ -57,33 +70,63 @@
     "descripcion": "Guerrero comecuernos de enorme tamaño y carácter amable. Prefiere cocinar para sus amigos antes que luchar, pero cuando la situación lo requiere demuestra ser un combatiente formidable.",
     "estado_en_viento_y_verdad": "regresó a los Picos Comecuernos y no ha vuelto con Puente Cuatro"
   },
-
   "relaciones": {
     "familia": [
-      { "personaje": "tuaka", "relacion": "esposa" },
-      { "personaje": "don", "relacion": "hijo" },
-      { "personaje": "cuerda", "relacion": "hija" },
-      { "personaje": "roca (hijo)", "relacion": "hijo" },
-      { "personaje": "estrella", "relacion": "hijo" },
-      { "personaje": "kuma'tiki", "relacion": "hija" },
-      { "personaje": "Canción Hermosa", "relacion": "hija" }
+      {
+        "personaje": "tuaka",
+        "relacion": "esposa"
+      },
+      {
+        "personaje": "don",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "cuerda",
+        "relacion": "hija"
+      },
+      {
+        "personaje": "roca (hijo)",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "estrella",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "kuma'tiki",
+        "relacion": "hija"
+      },
+      {
+        "personaje": "Canción Hermosa",
+        "relacion": "hija"
+      }
     ],
     "amigos": [
-      { "personaje": "kaladin", "relacion": "amigo cercano y capitán" },
-      { "personaje": "Puente Cuatro", "relacion": "compañeros y hermanos de armas" },
-      { "personaje": "Sylphrena", "relacion": "spren con la que mantiene conversaciones respetuosas" }
+      {
+        "personaje": "kaladin",
+        "relacion": "amigo cercano y capitán"
+      },
+      {
+        "personaje": "Puente Cuatro",
+        "relacion": "compañeros y hermanos de armas"
+      },
+      {
+        "personaje": "Sylphrena",
+        "relacion": "spren con la que mantiene conversaciones respetuosas"
+      }
     ],
     "enemigos": [
-      { "personaje": "Portadores del Vacío", "relacion": "enemigos durante la guerra" }
+      {
+        "personaje": "Portadores del Vacío",
+        "relacion": "enemigos durante la guerra"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "personalidad estable, reflexiva y profundamente leal",
     "evolucion": "mantiene una fuerte brújula moral y respeto por la tradición de su pueblo",
     "situacion_en_viento_y_verdad": "centrado en su deber y en el destino que le espera en los Picos Comecuernos"
   },
-
   "arco_narrativo": {
     "resumen": "Guerrero comecuernos que termina como esclavo portador de puentes en el ejército de Sadeas. Encuentra una nueva familia en Puente Cuatro y se convierte en una figura paternal dentro del grupo.",
     "puntos_clave": [
@@ -94,15 +137,12 @@
       "regresa a los Picos Comecuernos para afrontar su destino"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "guerrero comecuernos",
     "rol": "antiguo miembro de Puente Cuatro",
     "relacion_con_spren": "capaz de ver spren de forma natural",
     "otros_detalles": "los comecuernos llaman alaii'iku a las personas con su habilidad para ver spren"
   },
-
   "descripcion_breve": "Guerrero comecuernos conocido como Roca, miembro de Puente Cuatro y famoso por su enorme tamaño, su amabilidad y su legendario guiso.",
-
   "notas": "Posee la habilidad de ver spren incluso cuando estos no desean manifestarse físicamente, algo que en la cultura comecuernos se considera una bendición."
 }

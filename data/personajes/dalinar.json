@@ -2,23 +2,45 @@
   "id": "dalinar",
   "nombre": "Dalinar",
   "nombre_completo": "Dalinar Kholin",
-  "apodos": ["Espina Negra", "Alto Príncipe de la Guerra"],
+  "apodos": [
+    "Espina Negra",
+    "Alto Príncipe de la Guerra"
+  ],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "alezi",
   "origen": "Alezkar",
   "planeta_natal": "Roshar",
-  "estado_actual": "muerto",
+  "estado_actual": "fallecido",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "principal", "pov": true },
-      { "titulo": "Palabras Radiantes",     "rol": "principal", "pov": true },
-      { "titulo": "Juramentada",            "rol": "principal", "pov": true },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "principal", "pov": true },
-      { "titulo": "Viento y Verdad",        "rol": "principal", "pov": true }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": true
+      }
     ]
   },
-
   "afiliaciones": [
     "Casa Kholin",
     "Reino de Alezkar",
@@ -26,17 +48,20 @@
     "Coalición de monarcas",
     "Urithiru"
   ],
-
   "orden_radiantes": {
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 3,
-    "spren_asociado": { "principal": "Padre Tormenta" },
+    "spren_asociado": {
+      "principal": "Padre Tormenta"
+    },
     "estado_del_vinculo": "activo"
   },
-
   "habilidades": {
     "magia": {
-      "potencias": ["Adhesión", "Tensión"],
+      "potencias": [
+        "Adhesión",
+        "Tensión"
+      ],
       "fuente_de_luz": "Luz tormentosa"
     },
     "no_magicas": [
@@ -47,7 +72,6 @@
       "oratoria e inspiración"
     ]
   },
-
   "identidades": {
     "principales": [
       "alto príncipe alezi",
@@ -55,37 +79,66 @@
       "forjador de vínculos",
       "líder de los Caballeros Radiantes"
     ],
-    "descripcion":
-      "Dalinar es uno de los líderes más importantes de Roshar durante la nueva Desolación. Antiguamente conocido como el temido guerrero Espina Negra, ha evolucionado hasta convertirse en un líder moral y político que busca unir a los pueblos de Roshar contra Odium.",
-    "estado_en_viento_y_verdad":
-      "continúa liderando la resistencia contra Odium y guiando a los Caballeros Radiantes."
+    "descripcion": "Dalinar es uno de los líderes más importantes de Roshar durante la nueva Desolación. Antiguamente conocido como el temido guerrero Espina Negra, ha evolucionado hasta convertirse en un líder moral y político que busca unir a los pueblos de Roshar contra Odium.",
+    "estado_en_viento_y_verdad": "continúa liderando la resistencia contra Odium y guiando a los Caballeros Radiantes."
   },
-
   "relaciones": {
     "familia": [
-      { "personaje": "gavilar", "relacion": "hermano" },
-      { "personaje": "navani",  "relacion": "esposa" },
-      { "personaje": "evi",     "relacion": "esposa" },
-      { "personaje": "adolin",  "relacion": "hijo" },
-      { "personaje": "renarin", "relacion": "hijo" },
-      { "personaje": "elhokar", "relacion": "sobrino" },
-      { "personaje": "jasnah",  "relacion": "sobrina" }
+      {
+        "personaje": "gavilar",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "esposa"
+      },
+      {
+        "personaje": "evi",
+        "relacion": "esposa"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "sobrino"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "sobrina"
+      }
     ],
     "amigos": [
-      { "personaje": "Kaladin", "relacion": "amigo" }],
+      {
+        "personaje": "Kaladin",
+        "relacion": "amigo"
+      }
+    ],
     "enemigos": [
-      { "personaje": "Odium",       "relacion": "enemigo" },
-      { "personaje": "Taravangian", "relacion": "enemigo" },
-      { "personaje": "Sadeas",      "relacion": "enemigo" }
+      {
+        "personaje": "Odium",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "Taravangian",
+        "relacion": "enemigo"
+      },
+      {
+        "personaje": "Sadeas",
+        "relacion": "enemigo"
+      }
     ]
   },
-
   "estado_mental": {
     "diagnostico_general": "trauma de guerra y culpa profunda por su pasado violento",
     "evolucion": "Dalinar pasa de ser un brutal conquistador a un hombre que busca la redención y la unidad. Enfrenta su pasado, incluida la muerte de su esposa Evi.",
     "situacion_en_viento_y_verdad": "ha aceptado plenamente su pasado y utiliza esa experiencia para liderar con sabiduría."
   },
-
   "arco_narrativo": {
     "resumen": "Dalinar comienza como un poderoso alto príncipe que intenta restaurar el honor en Alezkar tras la muerte de su hermano. A lo largo de la saga redescubre los ideales de los Caballeros Radiantes, forma un vínculo con el Padre Tormenta y se convierte en el principal líder de la resistencia contra Odium.",
     "puntos_clave": [
@@ -98,16 +151,12 @@
       "liderazgo de la coalición de Roshar"
     ]
   },
-
   "situacion_actual": {
     "ocupacion": "rey de Urithiru",
     "rol": "líder de la coalición contra Odium",
     "relacion_con_spren": "vínculo Nahel con el Padre Tormenta",
     "otros_detalles": "uno de los tres posibles Forjadores de Vínculos del nuevo ciclo de Caballeros Radiantes."
   },
-
-  "descripcion_breve":
-    "Dalinar Kholin, conocido como la Espina Negra, es un alto príncipe alezi convertido en Caballero Radiante de la Orden de los Forjadores de Vínculos y líder de la coalición que lucha contra Odium.",
+  "descripcion_breve": "Dalinar Kholin, conocido como la Espina Negra, es un alto príncipe alezi convertido en Caballero Radiante de la Orden de los Forjadores de Vínculos y líder de la coalición que lucha contra Odium.",
   "notas": "Durante los eventos más recientes llegó a sostener brevemente el poder de Honor antes de renunciar a esa responsabilidad."
 }
-
