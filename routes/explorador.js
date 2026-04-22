@@ -897,8 +897,8 @@ router.get("/", (req, res) => {
       // Badges
       const badges = [
         orden ? \`<span class="badge badge-orden">\${orden}</span>\` : '',
-        (estado === 'vivo' || estado === 'viva') ? `<span class="badge badge-vivo">${estado === 'viva' ? 'Viva' : 'Vivo'}</span>` : '',
-        (estado === 'fallecido' || estado === 'fallecida' || estado === 'muerto') ? `<span class="badge badge-muerto">${estado === 'fallecida' ? 'Fallecida' : 'Fallecido'}</span>` : '',
+        (estado === 'vivo' || estado === 'viva') ? \`<span class=\"badge badge-vivo\">\${estado === 'viva' ? 'Viva' : 'Vivo'}</span>\` : '',
+        (estado === 'fallecido' || estado === 'fallecida' || estado === 'muerto') ? \`<span class=\"badge badge-muerto\">\${estado === 'fallecida' ? 'Fallecida' : 'Fallecido'}</span>\` : '',
         p.especie ? \`<span class="badge badge-especie">\${p.especie}</span>\` : '',
         nivel !== null && nivel !== undefined ? \`<span class="badge badge-nivel">Ideal \${nivel}</span>\` : '',
       ].filter(Boolean).join('');
