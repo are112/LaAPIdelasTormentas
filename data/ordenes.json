@@ -1,0 +1,112 @@
+[
+  {
+    "id": "corredores-del-viento",
+    "nombre": "Corredores del Viento",
+    "herald": "Jezrien",
+    "virtud": "Protección / Liderazgo",
+    "defecto": "Cobardía",
+    "potencias": ["Gravitación", "Adhesión"],
+    "spren_tipico": "Honorspren",
+    "descripcion": "Orden dedicada a la protección de los demás. Sus miembros destacan por su liderazgo y voluntad de sacrificio. Usan la Gravitación para volar y la Adhesión para controlar superficies.",
+    "imagen": "/images/ordenes/corredores-del-viento.svg"
+  },
+  {
+    "id": "custodios-de-la-piedra",
+    "nombre": "Custodios de la Piedra",
+    "herald": "Talenelat",
+    "virtud": "Dependencia / Deber",
+    "defecto": "Rigidez",
+    "potencias": ["Cohesión", "Tensión"],
+    "spren_tipico": "Pedraspren",
+    "descripcion": "Orden de caballeros resistentes y de voluntad inquebrantable. Se especializan en manipular la materia sólida, endureciendo o ablandando piedra y otros materiales.",
+    "imagen": "/images/ordenes/custodios-de-la-piedra.svg"
+  },
+  {
+    "id": "danzantes-del-filo",
+    "nombre": "Danzantes del Filo",
+    "herald": "Vedel",
+    "virtud": "Habilidad / Cuidado",
+    "defecto": "Descuido",
+    "potencias": ["Abrasión", "Progresión"],
+    "spren_tipico": "Cultivationspren",
+    "descripcion": "Ágiles y curativos, los Danzantes del Filo combinan velocidad de movimiento con la capacidad de sanar heridas. Son combatientes esquivos y sanadores en el campo de batalla.",
+    "imagen": "/images/ordenes/danzantes-del-filo.svg"
+  },
+  {
+    "id": "escultores-de-voluntad",
+    "nombre": "Escultores de Voluntad",
+    "herald": "Kalak",
+    "virtud": "Creatividad / Ingenio",
+    "defecto": "Arrogancia",
+    "potencias": ["Cohesión", "Transporte"],
+    "spren_tipico": "Inkspren",
+    "descripcion": "Orden de guerreros creativos capaces de moldear materia y transportarse a través de ella. Su talento reside en la manipulación física del entorno con precisión artística.",
+    "imagen": "/images/ordenes/escultores-de-voluntad.svg"
+  },
+  {
+    "id": "forjadores-de-vinculos",
+    "nombre": "Forjadores de Vínculos",
+    "herald": "Ishar",
+    "virtud": "Unidad / Liderazgo",
+    "defecto": "Dominio",
+    "potencias": ["Adhesión", "Tensión"],
+    "spren_tipico": "Bondsmiths spren (únicos)",
+    "descripcion": "La orden más escasa y poderosa. Solo pueden existir tres simultáneamente, vinculados a los tres grandes spren. Tienen el poder de unir cosas: personas, ejércitos, incluso reinos espirituales.",
+    "imagen": "/images/ordenes/forjadores-de-vinculos.svg"
+  },
+  {
+    "id": "nominadores-de-lo-otro",
+    "nombre": "Nominadores de Lo Otro",
+    "herald": "Shalash",
+    "virtud": "Creatividad / Ingenuidad",
+    "defecto": "Falta de rumbo",
+    "potencias": ["Transformación", "Transportación"],
+    "spren_tipico": "Cryptics (Patrones)",
+    "descripcion": "Maestros de la ilusión y la transformación. Pueden crear imágenes perfectas de cualquier cosa que hayan visto y transformar objetos físicos. Sus spren son los Crípticos, amantes de los patrones y la verdad.",
+    "imagen": "/images/ordenes/nominadores-de-lo-otro.svg"
+  },
+  {
+    "id": "portadores-del-polvo",
+    "nombre": "Portadores del Polvo",
+    "herald": "Battar",
+    "virtud": "Aprendizaje / Diligencia",
+    "defecto": "Acumulación",
+    "potencias": ["División", "Abrasión"],
+    "spren_tipico": "Dustspren",
+    "descripcion": "Guerreros que canalizan energía destructiva. La División les permite desintegrar materia y vida con el tacto, mientras que la Abrasión reduce la fricción para moverse con velocidad sobrehumana.",
+    "imagen": "/images/ordenes/portadores-del-polvo.svg"
+  },
+  {
+    "id": "rompedores-del-cielo",
+    "nombre": "Rompedores del Cielo",
+    "herald": "Nale",
+    "virtud": "Justicia / Lealtad",
+    "defecto": "Fanatismo",
+    "potencias": ["Gravitación", "División"],
+    "spren_tipico": "Highspren",
+    "descripcion": "Orden de justicieros que combinan el vuelo con la capacidad de destruir. Conocidos por su apego a la ley y la justicia, a veces llevado al extremo. Sus highspren son rígidos y legalistas.",
+    "imagen": "/images/ordenes/rompedores-del-cielo.svg"
+  },
+  {
+    "id": "tejedores-de-luz",
+    "nombre": "Tejedores de Luz",
+    "herald": "Pralla",
+    "virtud": "Creativity / Fervor",
+    "defecto": "Superficialidad",
+    "potencias": ["Iluminación", "Transformación"],
+    "spren_tipico": "Cryptics (Patrones)",
+    "descripcion": "Maestros de la ilusión y la transformación de materia. Pueden generar imágenes tan convincentes que engañan todos los sentidos, y alterar la forma física de los objetos. Comparten orden spren con los Nominadores.",
+    "imagen": "/images/ordenes/tejedores-de-luz.svg"
+  },
+  {
+    "id": "vigilantes-de-la-verdad",
+    "nombre": "Vigilantes de la Verdad",
+    "herald": "Chanarach",
+    "virtud": "Pasión / Inspiración",
+    "defecto": "Fanatismo",
+    "potencias": ["Progresión", "Iluminación"],
+    "spren_tipico": "Truthwatcher spren",
+    "descripcion": "Sanadores y visionarios. La Progresión les otorga poderes curativos excepcionales, mientras que la Iluminación les permite ver visiones y proyectar imágenes. Son conocidos por su espiritualidad y sus presagios.",
+    "imagen": "/images/ordenes/vigilantes-de-la-verdad.svg"
+  }
+]
