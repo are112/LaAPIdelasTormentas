@@ -49,6 +49,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "elhokar",
+    "nombre": "Elhokar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
     "id": "eshonai",
     "nombre": "Eshonai",
     "orden": "Escultores de Voluntad",
@@ -68,6 +75,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida"
+  },
+  {
+    "id": "gavilar",
+    "nombre": "Gavilar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
   },
   {
     "id": "godeke",
