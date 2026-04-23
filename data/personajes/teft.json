@@ -1,136 +1,94 @@
 {
   "id": "teft",
   "nombre": "Teft",
-  "nombre_completo": "Teft",
-  "apodos": [],
+  "nombre_completo": "Teft hijo de Teft",
+  "apodos": ["Sargento Teft"],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "alezi",
-  "origen": "Talinar",
+  "origen": "Alezkar",
   "planeta_natal": "Roshar",
   "estado_actual": "fallecido",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario importante",
-        "pov": true
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario importante",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "menor",
-        "pov": false
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario importante", "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "principal",            "pov": true  }
     ]
   },
   "afiliaciones": [
     "Puente Cuatro",
-    "Ejército de Sadeas",
-    "Ejército de Dalinar Kholin",
-    "Caballeros Radiantes"
+    "Corredores del Viento",
+    "Caballeros Radiantes",
+    "Heraldos de la Fe (familia; anteriormente)"
   ],
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "spren_asociado": {
-      "principal": "Phendorana"
-    },
-    "estado_del_vinculo": "spren destruido tras la muerte de Teft"
+    "spren_asociado": { "principal": "Phendorana" },
+    "estado_del_vinculo": "Activo hasta su muerte. Alcanzó el Tercer Ideal durante la ocupación de Urithiru."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Adhesión",
-        "Gravitación"
-      ],
+      "potencias": ["Gravitación", "Adhesión"],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "entrenamiento militar",
-      "liderazgo de escuadra",
-      "instrucción de escuderos Radiantes"
+      "Veterano militar experimentado",
+      "Entrenador de reclutas",
+      "Conocimiento de las tradiciones de los Heraldos de la Fe",
+      "Supervivencia y combate de infantería"
     ]
   },
   "identidades": {
     "principales": [
-      "soldado alezi",
-      "miembro de Puente Cuatro",
-      "Caballero Radiante"
+      "Sargento del Puente Cuatro",
+      "Corredor del Viento del Tercer Ideal",
+      "Mentor de Kaladin"
     ],
-    "descripcion": "Veterano soldado alezi y uno de los primeros miembros de Puente Cuatro en unirse a Kaladin. Actúa como mentor y figura de apoyo dentro del grupo.",
-    "estado_en_viento_y_verdad": "fallecido durante los acontecimientos anteriores"
+    "descripcion": "Hombre mayor de barba descuidada y aspecto tosco que oculta un corazón leal y compasivo. Veterano de guerra con un pasado oscuro marcado por la adicción a la hierba de efimero y por haber traicionado a su familia a los Heraldos de la Fe. Se convirtió en el pilar emocional del Puente Cuatro y en el mentor más cercano de Kaladin.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro. Su muerte durante la ocupación de Urithiru es uno de los momentos más devastadores de la saga."
   },
   "relaciones": {
-    "familia": [],
+    "familia": [
+      { "personaje": "Madre y hermanos (Heraldos de la Fe)", "relacion": "los delató siendo niño, condicionando toda su vida posterior" }
+    ],
     "amigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "capitán y amigo cercano"
-      },
-      {
-        "personaje": "rlain",
-        "relacion": "compañero de Puente Cuatro"
-      },
-      {
-        "personaje": "dabbid",
-        "relacion": "compañero de Puente Cuatro"
-      },
-      {
-        "personaje": "roca",
-        "relacion": "compañero de Puente Cuatro"
-      },
-      {
-        "personaje": "leyten",
-        "relacion": "aliado"
-      },
-      {
-        "personaje": "sigzil",
-        "relacion": "aliado"
-      }
+      { "personaje": "kaladin",  "relacion": "comandante y amigo; su figura paterna en el Puente Cuatro" },
+      { "personaje": "lunamor",  "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "lopen",    "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "sigzil",   "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "drehy",    "relacion": "compañero del Puente Cuatro" }
     ],
     "enemigos": [
-      {
-        "personaje": "moash",
-        "relacion": "asesino de Teft"
-      }
+      { "personaje": "moash", "relacion": "lo mata durante la ocupación de Urithiru" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "profundos sentimientos de culpa y baja autoestima; adicción al musgoardiente",
-    "evolucion": "lucha durante años contra su adicción y su sensación de no merecer ser Radiante, pero logra encontrar propósito ayudando a otros y defendiendo los ideales de los Corredores del Viento.",
-    "situacion_en_viento_y_verdad": "fallecido"
+    "diagnostico_general": "Adicción crónica a la hierba de efimero (droga de Roshar), con períodos de abstinencia y recaída a lo largo de toda la saga. Profunda culpa por haber delatado a su familia siendo niño.",
+    "evolucion": "Pasa de ser un hombre roto por la culpa y la adicción a encontrar redención en el Puente Cuatro. Su vínculo con Phendorana y su Tercer Ideal representan la aceptación de que merece vivir a pesar de sus errores.",
+    "situacion_en_viento_y_verdad": "Fallecido. Su muerte es recordada como una de las más impactantes de la saga."
   },
   "arco_narrativo": {
-    "resumen": "Teft pasa de ser un soldado traumatizado y adicto que se considera indigno a convertirse en un Caballero Radiante que acepta sus fallos y decide seguir luchando por proteger a los demás.",
+    "resumen": "Teft llegó al Puente Cuatro siendo un veterano roto por la culpa y la adicción. Fue uno de los primeros en creer en Kaladin y en ayudarle a transformar al Puente Cuatro en una unidad de combate. Su propio arco como Corredor del Viento culminó con el Tercer Ideal durante la ocupación de Urithiru, siendo asesinado poco después por Moash en uno de los momentos más impactantes de la saga.",
     "puntos_clave": [
-      "sirve como miembro de Puente Cuatro bajo el mando de Kaladin",
-      "actúa como mentor sobre la historia de los Caballeros Radiantes",
-      "forma un vínculo Nahel con el honorspren Phendorana",
-      "supera parcialmente su adicción al musgoardiente",
-      "es asesinado por Moash durante la ocupación de Urithiru"
+      "De niño delató a su familia, miembros de los Heraldos de la Fe, a las autoridades; vivió toda su vida con esa culpa.",
+      "Llegó al Puente Cuatro como portador esclavo bajo Sadeas.",
+      "Fue uno de los primeros en creer en Kaladin y en ayudarle a entrenar al Puente Cuatro.",
+      "Reconoce instintivamente las habilidades de potenciador de Kaladin; conoce las tradiciones de los Radiantes por los Heraldos de la Fe.",
+      "Lucha contra la adicción a la hierba de efimero a lo largo de toda la saga.",
+      "Se vincula con Phendorana y se convierte en Corredor del Viento.",
+      "Durante la ocupación de Urithiru jura el Tercer Ideal.",
+      "Es asesinado por Moash durante la ocupación de Urithiru, en manos de Kaladin."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "antiguo Caballero Radiante",
-    "rol": "miembro veterano de Puente Cuatro",
-    "relacion_con_spren": "vínculo Nahel con Phendorana hasta su muerte",
-    "otros_detalles": "su muerte tiene un impacto profundo en Kaladin y en los miembros de Puente Cuatro"
+    "ocupacion": "Fallecido",
+    "rol": "Figura clave en el Puente Cuatro y en el arco de Kaladin",
+    "relacion_con_spren": "Vínculo con Phendorana activo hasta su muerte.",
+    "otros_detalles": "Su muerte a manos de Moash fue diseñada para mostrar la caída definitiva de Moash al servicio de Odium, de forma similar a la muerte de Elhokar."
   },
-  "descripcion_breve": "Veterano soldado alezi y miembro clave de Puente Cuatro que se convierte en Corredor del Viento y lucha contra su adicción y su sentimiento de indignidad antes de morir defendiendo Urithiru.",
-  "notas": "Nació en Talinar en una familia del sexto nahn. Durante su infancia fue influido por el culto de los Vislumbradores. Su muerte a manos de Moash ocurre durante la ocupación de Urithiru."
+  "descripcion_breve": "Veterano alezi y sargento del Puente Cuatro. Corredor del Viento del Tercer Ideal asesinado por Moash durante la ocupación de Urithiru. Pilar emocional del Puente Cuatro y mentor de Kaladin, su muerte es una de las más devastadoras de la saga.",
+  "notas": "Su nombre completo 'Teft hijo de Teft' refleja la tradición alezi. La hierba de efimero es una sustancia adictiva de Roshar equivalente funcional a los opiáceos. Su muerte fue uno de los momentos más discutidos por los lectores de El Ritmo de la Guerra."
 }

@@ -2,9 +2,7 @@
   "id": "renarin",
   "nombre": "Renarin",
   "nombre_completo": "Renarin Kholin",
-  "apodos": [
-    "Hijo de Espinas"
-  ],
+  "apodos": ["El Raro"],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "alezi",
@@ -13,158 +11,88 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": true
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "secundario",
-        "pov": true
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario",           "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante","pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario importante","pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante","pov": true  },
+      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
     ]
   },
   "afiliaciones": [
     "Casa Kholin",
     "Caballeros Radiantes",
-    "Puente Cuatro",
-    "Coalición de Urithiru"
+    "Vigilantes de la Verdad",
+    "Coalición de Monarcas"
   ],
   "orden_radiantes": {
     "orden": "Vigilantes de la Verdad",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": "Glys"
-    },
-    "estado_del_vinculo": "activo"
+    "spren_asociado": { "principal": "Glys" },
+    "estado_del_vinculo": "Activo y único. Glys es un spren corrompido por Encubridor (Sja-anat), lo que otorga a Renarin la capacidad de ver el futuro, una habilidad prohibida en Roshar."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Progresión",
-        "Iluminación"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Progresión", "Illuminación (alterada — visión del futuro en lugar de ilusiones)"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "erudición",
-      "análisis estratégico",
-      "conocimiento religioso",
-      "capacidad de observación",
-      "empatía"
+      "Curación mediante Progresión",
+      "Médico en formación",
+      "Combate básico con espada"
     ]
   },
   "identidades": {
     "principales": [
-      "príncipe de Alezkar",
-      "Caballero Radiante",
-      "Vigilante de la Verdad"
+      "Hijo menor de Dalinar",
+      "Vigilante de la Verdad con habilidades únicas",
+      "Vidente — puede ver posibles futuros",
+      "Pareja de Rlain"
     ],
-    "descripcion": "Renarin es el segundo hijo de Dalinar Kholin. A diferencia de la mayoría de los nobles alezi, no es un guerrero natural y prefiere el estudio y la reflexión. Durante la guerra de las Llanuras Quebradas desarrolla un vínculo Nahel con el spren Glys, convirtiéndose en un Caballero Radiante con habilidades inusuales relacionadas con la visión del futuro.",
-    "estado_en_viento_y_verdad": "miembro activo de los Caballeros Radiantes y aliado clave en la coalición contra Odium."
+    "descripcion": "Joven alezi delgado y tranquilo, de ojos claros. Considerado 'el raro' por su familia y la corte debido a su carácter introvertido y sus dificultades sociales. Su vínculo con Glys, un spren corrompido por Sja-anat, le otorga poderes únicos que no corresponden exactamente a ningún Radiante conocido.",
+    "estado_en_viento_y_verdad": "Investiga junto a Shallan y Rlain el misterio de la Deshecha Ba-Ado-Mishram. Su relación con Rlain se consolida. Sus visiones del futuro son clave en la crisis final."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "dalinar",
-        "relacion": "padre"
-      },
-      {
-        "personaje": "evi",
-        "relacion": "madre"
-      },
-      {
-        "personaje": "adolin",
-        "relacion": "hermano"
-      },
-      {
-        "personaje": "jasnah",
-        "relacion": "prima"
-      },
-      {
-        "personaje": "gavilar",
-        "relacion": "tio"
-      },
-      {
-        "personaje": "navani",
-        "relacion": "tia"
-      },
-      {
-        "personaje": "elhokar",
-        "relacion": "primo"
-      },
-      {
-        "personaje": "gavinor",
-        "relacion": "sobrino"
-      }
+      { "personaje": "dalinar",  "relacion": "padre; fallecido" },
+      { "personaje": "evi",      "relacion": "madre; fallecida" },
+      { "personaje": "adolin",   "relacion": "hermano mayor" },
+      { "personaje": "navani",   "relacion": "madrastra" },
+      { "personaje": "gavilar",  "relacion": "tío; fallecido" },
+      { "personaje": "jasnah",   "relacion": "prima" }
     ],
     "amigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "amigo"
-      },
-      {
-        "personaje": "Puente Cuatro",
-        "relacion": "aliados"
-      },
-      {
-        "personaje": "rlain",
-        "relacion": "amigo"
-      },
-      {
-        "personaje": "zahel",
-        "relacion": "aliado"
-      }
+      { "personaje": "rlain",   "relacion": "pareja romántica" },
+      { "personaje": "adolin",  "relacion": "hermano; relación de apoyo mutuo" },
+      { "personaje": "shallan", "relacion": "aliada; compañera de investigación en VyV" },
+      { "personaje": "kaladin", "relacion": "aliado; le salvó la vida en varias ocasiones" },
+      { "personaje": "zahel",   "relacion": "maestro de esgrima" }
     ],
-    "enemigos": [
-      {
-        "personaje": "Odium",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "Cantores de Odium",
-        "relacion": "enemigos"
-      }
-    ]
+    "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "ansiedad social y crisis similares a epilepsia conocidas como debilidad sanguínea",
-    "evolucion": "pasa de sentirse inútil e inseguro a aceptar su identidad como Caballero Radiante y el valor de sus habilidades únicas",
-    "situacion_en_viento_y_verdad": "más seguro de sí mismo y de su papel dentro de los Caballeros Radiantes"
+    "diagnostico_general": "Posiblemente rasgos del espectro autista (no diagnosticado en el universo). Introvertido, con dificultades sociales y gran sensibilidad emocional. Su capacidad de ver el futuro añade una carga adicional de aislamiento.",
+    "evolucion": "Pasa de ser el 'hermano raro' que se siente una carga para su familia a aceptar sus habilidades únicas y encontrar su lugar tanto como Radiante como persona. Su relación con Rlain es un punto de apoyo fundamental.",
+    "situacion_en_viento_y_verdad": "Más seguro de sí mismo. Su relación con Rlain está consolidada. Sus visiones del futuro le permiten actuar de forma decisiva en la crisis final."
   },
   "arco_narrativo": {
-    "resumen": "Renarin comienza como un noble físicamente débil y poco adaptado a la cultura guerrera alezi. A lo largo de la historia desarrolla un vínculo con el spren Glys y se convierte en un Caballero Radiante de la orden de los Vigilantes de la Verdad. Sus poderes están alterados por la corrupción de su spren, otorgándole visiones del futuro y habilidades únicas.",
+    "resumen": "Renarin creció sintiéndose una carga para su familia por su carácter y sus dificultades. Su vínculo con Glys, corrompido por Sja-anat, le otorga la capacidad de ver posibles futuros, una habilidad sin precedentes entre los Radiantes. A lo largo de la saga aprende a aceptar su singularidad y encuentra en Rlain un compañero que le comprende.",
     "puntos_clave": [
-      "sufre debilidad sanguínea durante su juventud",
-      "acompaña a Dalinar en las Llanuras Quebradas",
-      "forma un vínculo Nahel con el spren Glys",
-      "se convierte en Caballero Radiante",
-      "participa en la defensa de Urithiru",
-      "acepta su papel en la guerra contra Odium"
+      "Crece a la sombra de Adolin, sintiéndose inferior e inadecuado.",
+      "Se vincula con Glys, un spren corrompido por Sja-anat; sus habilidades no corresponden a ningún Radiante conocido.",
+      "Descubre que puede ver posibles futuros, lo que le aterra y le aísla.",
+      "Usa Progresión para curar a Adolin y a otros durante la batalla de Thaylenah.",
+      "Su vínculo con Glys es investigado por Ishar, que desea diseccionarlo.",
+      "Desarrolla una relación romántica con Rlain, el único cantor Radiante.",
+      "En Viento y Verdad investiga junto a Shallan y Rlain el misterio de Ba-Ado-Mishram.",
+      "Sus visiones del futuro resultan decisivas en la resolución de la crisis final."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Caballero Radiante",
-    "rol": "Vigilante de la Verdad dentro de la coalición de Urithiru",
-    "relacion_con_spren": "vínculo Nahel activo con Glys",
-    "otros_detalles": "sus poderes difieren de los Vigilantes de la Verdad tradicionales debido a la corrupción de su spren"
+    "ocupacion": "Vigilante de la Verdad; investigador",
+    "rol": "Vidente; pareja de Rlain; investigador de Ba-Ado-Mishram",
+    "relacion_con_spren": "Vínculo activo con Glys, spren corrompido por Sja-anat (Encubridor).",
+    "otros_detalles": "Su habilidad de ver el futuro es única entre los Radiantes y no está documentada en ningún texto histórico. Glys y Rlain son los únicos de su especie en convertirse en Radiantes."
   },
-  "descripcion_breve": "Renarin Kholin es el segundo hijo de Dalinar Kholin y un Caballero Radiante de la orden de los Vigilantes de la Verdad vinculado al spren Glys.",
-  "notas": "Las habilidades de Renarin están alteradas debido a la corrupción de su spren por influencia del Vacío."
+  "descripcion_breve": "Hijo menor de Dalinar, Vigilante de la Verdad con poderes únicos gracias a su vínculo con Glys, un spren corrompido. Capaz de ver posibles futuros, su singularidad fue durante mucho tiempo una fuente de aislamiento que aprendió a aceptar.",
+  "notas": "Glys fue corrompido por Sja-anat (Encubridor), lo que alteró sus potencias: en lugar de ilusiones tiene visión del futuro. Brandon Sanderson ha confirmado que Renarin tiene rasgos que se inspiraron en personas del espectro autista."
 }

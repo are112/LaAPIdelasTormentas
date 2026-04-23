@@ -2,9 +2,7 @@
   "id": "navani",
   "nombre": "Navani",
   "nombre_completo": "Navani Kholin",
-  "apodos": [
-    "Voz de las Luces"
-  ],
+  "apodos": ["Reina Navani", "La Madre de los Fabriales"],
   "sexo": "femenino",
   "especie": "humano",
   "nacionalidad": "alezi",
@@ -13,153 +11,95 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario",
-        "pov": true
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": true
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": true
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "principal",
-        "pov": true
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": false },
+      { "titulo": "Juramentada",            "rol": "principal",            "pov": true  },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "protagonista",         "pov": true  },
+      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
     ]
   },
   "afiliaciones": [
     "Casa Kholin",
-    "Monarquía de Alezkar",
+    "Corona de Alezkar",
     "Caballeros Radiantes",
-    "Artifabrianos de Urithiru"
+    "Forjadores de Vínculos",
+    "Coalición de Monarcas"
   ],
   "orden_radiantes": {
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 1,
-    "spren_asociado": {
-      "principal": "El Hermano"
-    },
-    "estado_del_vinculo": "activo"
+    "spren_asociado": { "principal": "El Hermano (Sibling)" },
+    "estado_del_vinculo": "Activo. Se convirtió en la primera Forjadora de Vínculos de la nueva era al vincularse con el Hermano durante la ocupación de Urithiru."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Adhesión",
-        "Tensión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Adhesión", "Tensión"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "artifabrianía",
-      "ingeniería fabrial",
-      "investigación científica",
-      "liderazgo",
-      "estrategia logística"
+      "Inventora e ingeniera de fabriales excepcional",
+      "Co-descubridora de la antiluz tormentosa, la antiluz del vacío y la luz de guerra",
+      "Investigadora científica",
+      "Diplomática y estadista",
+      "Artista y calígrafa"
     ]
   },
   "identidades": {
     "principales": [
-      "reina de Alezkar",
-      "artifabriana",
-      "Forjadora de Vínculos"
+      "Reina consorte de Alezkar (viuda de Gavilar)",
+      "Esposa de Dalinar Kholin",
+      "Forjadora de Vínculos",
+      "Arquitecta científica de la resistencia"
     ],
-    "descripcion": "Erudita y científica alezi, reconocida por su liderazgo en el desarrollo de fabriales y por su papel clave en los avances científicos durante la guerra contra Odium.",
-    "estado_en_viento_y_verdad": "Continúa como Forjadora de Vínculos vinculada al Hermano y una de las principales líderes de Urithiru."
+    "descripcion": "Mujer de mediana edad de pelo negro moteado de gris y porte regio. Considerada la mente científica más brillante de Roshar. Pasó años siendo marginada como 'viuda del rey' hasta que Dalinar la reconoció como igual. Su curiosidad insaciable y su capacidad inventora cambiaron el curso de la guerra contra Odium.",
+    "estado_en_viento_y_verdad": "Activa como Forjadora de Vínculos y reina consorte. Investiga con Dalinar soluciones en el Reino Espiritual para la crisis final."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "gavilar",
-        "relacion": "esposo"
-      },
-      {
-        "personaje": "dalinar",
-        "relacion": "esposo"
-      },
-      {
-        "personaje": "jasnah",
-        "relacion": "hija"
-      },
-      {
-        "personaje": "elhokar",
-        "relacion": "hijo"
-      },
-      {
-        "personaje": "gavinor",
-        "relacion": "nieto"
-      },
-      {
-        "personaje": "adolin",
-        "relacion": "sobrino"
-      },
-      {
-        "personaje": "renarin",
-        "relacion": "sobrino"
-      }
+      { "personaje": "gavilar",  "relacion": "primer esposo; fallecido" },
+      { "personaje": "dalinar",  "relacion": "segundo esposo; fallecido" },
+      { "personaje": "jasnah",   "relacion": "hija" },
+      { "personaje": "elhokar",  "relacion": "hijo; fallecido" },
+      { "personaje": "adolin",   "relacion": "hijastro" },
+      { "personaje": "renarin",  "relacion": "hijastro" },
+      { "personaje": "Gavinor",  "relacion": "nieto; heredero del trono" }
     ],
     "amigos": [
-      {
-        "personaje": "rabeniel",
-        "relacion": "aliada"
-      },
-      {
-        "personaje": "dalinar",
-        "relacion": "aliado"
-      },
-      {
-        "personaje": "rushu",
-        "relacion": "aliado"
-      },
-      {
-        "personaje": "shallan",
-        "relacion": "aliado"
-      }
+      { "personaje": "shallan",  "relacion": "aliada y pupila de Jasnah; le tiene gran aprecio" },
+      { "personaje": "kaladin",  "relacion": "aliado" },
+      { "personaje": "rushu",    "relacion": "ayudante de investigación de confianza" }
     ],
     "enemigos": [
-      {
-        "personaje": "Odium",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "moash",
-        "relacion": "enemigo"
-      }
+      { "personaje": "rabeniel", "relacion": "antagonista durante la ocupación de Urithiru; la fuerza a colaborar; Navani la mata" },
+      { "personaje": "moash",    "relacion": "la secuestra durante la ocupación de Urithiru" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "mente analítica y resiliente",
-    "evolucion": "pasa de ser una noble influyente a una científica líder y finalmente a una Caballera Radiante con un papel crucial en la defensa de Urithiru.",
-    "situacion_en_viento_y_verdad": "estable y decidida, centrada en el desarrollo científico y la lucha contra Odium."
+    "diagnostico_general": "Estable. Mujer pragmática y resiliente que convierte la adversidad en descubrimiento. Su mayor conflicto interno ha sido aceptar su propio valor más allá de ser 'la viuda del rey'.",
+    "evolucion": "Pasa de figura decorativa de la corte a inventora reconocida, esposa de Dalinar y finalmente Forjadora de Vínculos. Su vinculación con el Hermano es la culminación de una trayectoria de autodescubrimiento científico y personal.",
+    "situacion_en_viento_y_verdad": "Consolidada como Forjadora de Vínculos. Trabaja con Dalinar en el Reino Espiritual buscando soluciones a la crisis final."
   },
   "arco_narrativo": {
-    "resumen": "Navani comienza como reina viuda y mecenas de la investigación fabrial, pero con el tiempo se convierte en una de las principales científicas de Roshar. Durante el asedio de Urithiru colabora con Rabeniel en experimentos sobre las Luces y descubre la antiluz. Finalmente forma un vínculo Nahel con el Hermano, convirtiéndose en Forjadora de Vínculos.",
+    "resumen": "Navani pasó años siendo marginada como viuda del rey Gavilar, pese a ser la mente científica más brillante de Roshar. Su relación con Dalinar, primero prohibida y luego oficial, y su trabajo en fabriales la llevaron a ser el eje científico de la resistencia. Durante la ocupación de Urithiru por Rabeniel colaboró forzosamente en la investigación de la antiluz, descubriendo la luz de guerra, y acabó matando a Rabeniel para salvar Urithiru, vinculándose con el Hermano.",
     "puntos_clave": [
-      "liderazgo de los artifabrianos",
-      "investigación sobre las Luces de Roshar",
-      "descubrimiento de la antiluz",
-      "conflicto intelectual con Rabeniel",
-      "vínculo con el Hermano"
+      "Viuda del rey Gavilar; marginada como figura decorativa de la corte pese a su brillantez científica.",
+      "Desarrolla una relación prohibida con Dalinar, cuñado de su difunto esposo.",
+      "Se convierte en el motor científico de la campaña de Dalinar, diseñando fabriales de comunicación y transporte.",
+      "Se casa con Dalinar en una ceremonia secreta.",
+      "Durante la ocupación de Urithiru es tomada prisionera por Rabeniel.",
+      "Forzada a colaborar con Rabeniel, co-descubre la antiluz tormentosa, la antiluz del vacío y la luz de guerra.",
+      "Rabeniel le permite escapar de Moash como gesto de afecto; Navani la mata con una daga de antiluz.",
+      "Se vincula con el Hermano (Sibling), el spren de Urithiru, convirtiéndose en Forjadora de Vínculos.",
+      "Restaura al Hermano y libera Urithiru del control fusionado.",
+      "Investiga con Dalinar el Reino Espiritual en Viento y Verdad."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "reina de Alezkar y científica",
-    "rol": "Forjadora de Vínculos y líder en Urithiru",
-    "relacion_con_spren": "vínculo Nahel activo con el Hermano",
-    "otros_detalles": "figura central en la investigación de las Luces y en el desarrollo tecnológico de los fabriales."
+    "ocupacion": "Reina consorte de Alezkar; Forjadora de Vínculos",
+    "rol": "Arquitecta científica de la coalición; vínculo con el Hermano",
+    "relacion_con_spren": "Vinculada con el Hermano (Sibling), el spren de Urithiru.",
+    "otros_detalles": "Es la primera Forjadora de Vínculos de la nueva era. Su descubrimiento de la luz de guerra y la antiluz transformó el equilibrio de la guerra contra Odium."
   },
-  "descripcion_breve": "Navani Kholin es una reina alezi, científica y artifabriana brillante que acaba convirtiéndose en Forjadora de Vínculos al formar un vínculo Nahel con el Hermano.",
-  "notas": "Personaje clave en la revolución científica de Roshar y en el descubrimiento de la antiluz."
+  "descripcion_breve": "Inventora e ingeniera de fabriales, primera Forjadora de Vínculos de la nueva era y esposa de Dalinar. Su descubrimiento de la antiluz y su vínculo con el Hermano fueron decisivos para salvar Urithiru.",
+  "notas": "Es técnicamente la primera Forjadora de Vínculos de la nueva era. El Hermano (Sibling) es el spren de Urithiru, hijo del Padre Tormenta y la Vigilante Nocturna."
 }

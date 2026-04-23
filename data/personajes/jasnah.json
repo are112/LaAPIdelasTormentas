@@ -2,10 +2,7 @@
   "id": "jasnah",
   "nombre": "Jasnah",
   "nombre_completo": "Jasnah Kholin",
-  "apodos": [
-    "Reina de Alezkar",
-    "Erudita de la Casa Kholin"
-  ],
+  "apodos": ["La Hereje", "Reina Jasnah"],
   "sexo": "femenino",
   "especie": "humano",
   "nacionalidad": "alezi",
@@ -14,149 +11,98 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "secundario",
-        "pov": false
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "principal",            "pov": true  },
+      { "titulo": "Juramentada",            "rol": "principal",            "pov": true  },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "principal",            "pov": true  },
+      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
     ]
   },
   "afiliaciones": [
     "Casa Kholin",
-    "Alezkar",
-    "Veristitalianos",
-    "Eruditos de Roshar"
+    "Corona de Alezkar",
+    "Caballeros Radiantes",
+    "Nominadores de Lo Otro",
+    "Coalición de Monarcas"
   ],
   "orden_radiantes": {
     "orden": "Nominadores de Lo Otro",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": "marfil"
-    },
-    "estado_del_vinculo": "Activo"
+    "spren_asociado": { "principal": "Ivory" },
+    "estado_del_vinculo": "Activo. Primera Caballera Radiante de la nueva era, vinculada con Ivory antes que Kaladin con Sylphrena."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Transformación",
-        "Transportación (Nominación)"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Transformación", "Transporte"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "Gran erudición y conocimiento de los libros antiguos",
-      "Capacidad estratégica y diplomática",
-      "Dominio de la lógica y argumentación",
-      "Denuncia del vorinismo"
+      "Erudita e historiadora excepcional",
+      "Estratega política de primer nivel",
+      "Espada esquirlada (Navaja Negra)",
+      "Armadura esquirlada",
+      "Oratoria y debate filosófico",
+      "Dominio de múltiples idiomas y escrituras",
+      "Investigación histórica y arqueológica"
     ]
   },
   "identidades": {
     "principales": [
       "Reina de Alezkar",
-      "Erudita de la Casa Kholin",
-      "Potenciadora y Nominadora de Lo Otro"
+      "Nominadora de Lo Otro",
+      "Erudita y académica",
+      "Atea declarada en una sociedad profundamente religiosa"
     ],
-    "descripcion": "Jasnah Kholin es la Reina de Alezkar, erudita y poderosa Nominadora de Lo Otro, capaz de usar las Potencias de Transformación y Transportación. Es ampliamente conocida por su brillantez intelectual y su crítica al vorinismo. Actúa como tutora de Shallan Davar y miembro de los Veristitalianos, dedicados a preservar y reconstruir relatos históricos veraces.",
-    "estado_en_viento_y_verdad": "Activa en política y magia, ejerciendo como reina y defensora de la historia real, mientras guía a los nuevos héroes y lucha contra Odium."
+    "descripcion": "Mujer alta de pelo negro y ojos color ámbar, considerada la persona más inteligente de Roshar. Su ateísmo la convirtió en la 'Hereje' a ojos de la sociedad vorin, pero nunca renunció a sus convicciones. Fría y calculadora en apariencia, esconde una capacidad de afecto y lealtad profunda hacia quienes se ganan su respeto.",
+    "estado_en_viento_y_verdad": "Actúa en Ciudad Thaylen como Reina de Alezkar durante la crisis final. Su arco en este libro es principalmente intelectual y político, preparándose para lo que viene tras la guerra."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "gavilar",
-        "relacion": "padre"
-      },
-      {
-        "personaje": "navani",
-        "relacion": "madre"
-      },
-      {
-        "personaje": "elhokar",
-        "relacion": "hermano"
-      },
-      {
-        "personaje": "gavinor",
-        "relacion": "sobrino"
-      },
-      {
-        "personaje": "adolin",
-        "relacion": "primo"
-      },
-      {
-        "personaje": "renarin",
-        "relacion": "primo"
-      },
-      {
-        "personaje": "dalinar",
-        "relacion": "tio"
-      }
+      { "personaje": "gavilar",  "relacion": "padre; fallecido" },
+      { "personaje": "navani",   "relacion": "madre" },
+      { "personaje": "elhokar",  "relacion": "hermano; fallecido" },
+      { "personaje": "dalinar",  "relacion": "tío; fallecido" },
+      { "personaje": "adolin",   "relacion": "primo" },
+      { "personaje": "renarin",  "relacion": "primo" },
+      { "personaje": "Gavinor",  "relacion": "sobrino; heredero del trono" }
     ],
     "amigos": [
-      {
-        "personaje": "shallan",
-        "relacion": "amiga"
-      },
-      {
-        "personaje": "hoid",
-        "relacion": "aliado"
-      }
+      { "personaje": "shallan",  "relacion": "pupila y aliada; relación de respeto y afecto" },
+      { "personaje": "hoid",     "relacion": "aliado antiguo; él la recibe a su salida de Shadesmar" },
+      { "personaje": "kaladin",  "relacion": "aliado" },
+      { "personaje": "navani",   "relacion": "madre y consejera de confianza" }
     ],
     "enemigos": [
-      {
-        "personaje": "taravangian",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "portadores-del-vacio",
-        "relacion": "enemigos"
-      }
+      { "personaje": "taravangian", "relacion": "descubrió su traición a Dalinar; adversaria política" },
+      { "personaje": "Sangre Espectral", "relacion": "organización que intentó matarla en el Placer del Viento" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "Altamente racional y centrada, con fuertes convicciones morales y éticas.",
-    "evolucion": "De erudita aislada a reina activa y estratega central de Alezkar.",
-    "situacion_en_viento_y_verdad": "Guía a sus aliados y pupilos mientras enfrenta desafíos políticos y mágicos, manteniendo su posición como Reina de Alezkar."
+    "diagnostico_general": "Estable. Mente analítica y controlada que rara vez muestra vulnerabilidad. Su ateísmo y pragmatismo extremo son también un escudo emocional.",
+    "evolucion": "Comienza como erudita solitaria y hereje marginada. A lo largo de la saga asume responsabilidades cada vez mayores — pupila, líder, reina — sin perder su identidad intelectual. En VyV acepta dimensiones de sí misma que había reprimido.",
+    "situacion_en_viento_y_verdad": "Acepta aspectos de su identidad que había mantenido suprimidos. Su arco es de maduración personal más que de conflicto externo."
   },
   "arco_narrativo": {
-    "resumen": "Jasnah Kholin combina su rol de reina con sus habilidades mágicas como Nominadora. Inicialmente centrada en la erudición, se involucra activamente en la política y la lucha contra Odium, ejerciendo influencia sobre sus familiares y pupilos.",
+    "resumen": "Jasnah es la primera Caballera Radiante de la nueva era, aunque lo ocultó durante años. Erudita hereje que investiga la historia de las Desolaciones, tomó a Shallan como pupila en Kharbranth y fue aparentemente asesinada en el Placer del Viento, reapareciendo en Shadesmar. Fue coronada Reina de Alezkar tras la muerte de Elhokar y lidera la coalición junto a Dalinar como figura política y militar clave.",
     "puntos_clave": [
-      "Hija del rey Gavilar y de Navani",
-      "Hermana del rey Elhokar",
-      "Tía del heredero Gavinor",
-      "Prima de Adolin y Renarin",
-      "Reina de Alezkar",
-      "Potenciadora y Nominadora de Lo Otro",
-      "Uso de las Potencias de Transformación y Transportación",
-      "Miembro de los Veristitalianos",
-      "Mentora de Shallan Davar",
-      "Denuncia del vorinismo"
+      "Vinculada con Ivory, se convierte en la primera Caballera Radiante de la nueva era, antes incluso que Kaladin.",
+      "Declarada hereje por el clero vorin debido a su ateísmo; apodada 'La Hereje'.",
+      "Investiga la historia de las Desolaciones y la naturaleza de los Portadores del Vacío.",
+      "Acepta a Shallan Davar como pupila en Kharbranth, descubriendo sus intenciones pero viendo su potencial.",
+      "Aparentemente asesinada a bordo del Placer del Viento; en realidad escapa a Shadesmar.",
+      "Hoid la recibe a su salida de Shadesmar al final de Palabras Radiantes.",
+      "Descubre y denuncia la traición de Taravangian.",
+      "Coronada Reina de Alezkar por sugerencia de Shallan tras la muerte de Elhokar.",
+      "Abolición de la esclavitud de ojos oscuros en Alezkar mediante nueva legislación.",
+      "Actúa en Ciudad Thaylen durante la crisis final de Viento y Verdad."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Reina de Alezkar y erudita",
-    "rol": "Figura política y mágica central",
-    "relacion_con_spren": "Vínculo Nahel activo con Marfil (tintaspren)",
-    "otros_detalles": "Miembro de los Veristitalianos y tutora de Shallan Davar."
+    "ocupacion": "Reina de Alezkar; Nominadora de Lo Otro",
+    "rol": "Líder política y militar de la coalición; figura intelectual clave",
+    "relacion_con_spren": "Vínculo activo con Ivory, un inkspren.",
+    "otros_detalles": "Porta la hoja esquirlada Navaja Negra. Promulgó la abolición de la esclavitud de ojos oscuros en Alezkar. Su sobrino Gavinor es el heredero del trono."
   },
-  "descripcion_breve": "Jasnah Kholin es la Reina de Alezkar, erudita y poderosa Nominadora de Lo Otro, destacada por su inteligencia, capacidades sobrehumanas bajo luz tormentosa y denuncia del vorinismo.",
-  "notas": "Jasnah es hija del difunto rey Gavilar y de Navani, hermana de Elhokar, tía del heredero Gavinor y prima de Adolin y Renarin. Es miembro de los Veristitalianos y tutora de Shallan Davar."
+  "descripcion_breve": "Reina de Alezkar, primera Caballera Radiante de la nueva era y atea declarada en una sociedad profundamente religiosa. Nominadora de Lo Otro de intelecto excepcional, figura clave tanto en la política como en la guerra contra Odium.",
+  "notas": "Es técnicamente la primera Caballera Radiante de la nueva era, pues se vinculó con Ivory antes que Kaladin con Sylphrena, aunque lo mantuvo en secreto durante años. Su spren Ivory es un inkspren, una especie de spren del Reino Cognitivo."
 }

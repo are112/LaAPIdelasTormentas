@@ -2,140 +2,93 @@
   "id": "sigzil",
   "nombre": "Sigzil",
   "nombre_completo": "Sigzil",
-  "apodos": [],
+  "apodos": ["Sig"],
   "sexo": "masculino",
   "especie": "humano",
-  "nacionalidad": "Azish",
-  "origen": "Azir",
+  "nacionalidad": "makabaki",
+  "origen": "Makabak",
   "planeta_natal": "Roshar",
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "secundario importante",
-        "pov": false
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario",           "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario",           "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario",           "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante","pov": false },
+      { "titulo": "Esquirla del Amanecer",  "rol": "secundario importante","pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
     ]
   },
   "afiliaciones": [
     "Puente Cuatro",
     "Corredores del Viento",
-    "Ejército de Dalinar Kholin"
+    "Caballeros Radiantes",
+    "Aprendiz de Hoid (anteriormente)"
   ],
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "spren_asociado": {
-      "principal": "Vienta"
-    },
-    "estado_del_vinculo": "roto"
+    "spren_asociado": { "principal": "Auxiliar (Aux)" },
+    "estado_del_vinculo": "Activo. Alcanzó el Tercer Ideal en Roshar. Aux puede transformarse en distintas herramientas y armas."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Gravitación",
-        "Adhesión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "Erudición y formación como escriba",
-      "Conocimiento de culturas y lenguas",
-      "Disciplina azish",
-      "Capacidad organizativa",
-      "Experiencia militar básica en Puente Cuatro"
+      "Escriba y administrador excepcional",
+      "Capacidad organizativa y logística",
+      "Investigador y experimentador de potencias de Radiante",
+      "Políglota",
+      "Aprendiz de Hoid en artes diversas"
     ]
   },
   "identidades": {
     "principales": [
-      "Miembro de Puente Cuatro",
-      "Escriba",
-      "Azish exiliado"
+      "Escriba del Puente Cuatro",
+      "Corredor del Viento del Tercer Ideal",
+      "Aprendiz de Hoid",
+      "Experimentador de las capacidades de vuelo radiante"
     ],
-    "descripcion": "Sigzil es un azish culto y disciplinado que pasa de mensajero y aprendiz a esclavo, y posteriormente a miembro clave de Puente Cuatro, donde actúa como escriba y apoyo estratégico.",
-    "estado_en_viento_y_verdad": "consolidado como miembro veterano de Puente Cuatro y figura de apoyo intelectual dentro de los Corredores del Viento"
+    "descripcion": "Hombre makabaki de piel oscura, metódico y preciso. El escriba oficial del Puente Cuatro. Fue aprendiz de Hoid durante un tiempo antes de unirse a los ejércitos alezi. Su carácter ordenado y analítico contrasta con el caos de la guerra.",
+    "estado_en_viento_y_verdad": "Actúa con Venli en las Llanuras Quebradas durante la crisis final. Su arco en este libro es duro y marcado por la pérdida."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "líder directo y figura de referencia"
-      },
-      {
-        "personaje": "teft",
-        "relacion": "compañero en Puente Cuatro"
-      },
-      {
-        "personaje": "roca",
-        "relacion": "compañero en Puente Cuatro"
-      },
-      {
-        "personaje": "lopen",
-        "relacion": "compañero en Puente Cuatro"
-      },
-      {
-        "personaje": "cikatriz",
-        "relacion": "aliado"
-      },
-      {
-        "personaje": "leyten",
-        "relacion": "aliado"
-      }
+      { "personaje": "kaladin",  "relacion": "comandante y amigo; le confió la administración del Puente Cuatro" },
+      { "personaje": "teft",     "relacion": "compañero del Puente Cuatro; fallecido" },
+      { "personaje": "lunamor",  "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "lopen",    "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "venli",    "relacion": "aliada en las Llanuras Quebradas en VyV" },
+      { "personaje": "hoid",     "relacion": "antiguo maestro; le transfiere la Esquirla del Amanecer al final de VyV" }
     ],
-    "enemigos": [
-      {
-        "personaje": "odium",
-        "relacion": "enemigo global"
-      },
-      {
-        "personaje": "cantores",
-        "relacion": "enemigos en guerra"
-      }
-    ]
+    "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "estable, con fuerte sentido del deber",
-    "evolucion": "pasa de individuo reservado y observador a miembro integrado en Puente Cuatro con fuerte lealtad al grupo",
-    "situacion_en_viento_y_verdad": "mentalmente firme y plenamente adaptado a su rol dentro de la guerra"
+    "diagnostico_general": "Estable. Metódico y controlado, aunque carga con el peso de la responsabilidad y la pérdida de compañeros.",
+    "evolucion": "Pasa de ser un escriba entre soldados a convertirse en un Corredor del Viento que lidera operaciones independientes. Su arco en VyV es especialmente duro.",
+    "situacion_en_viento_y_verdad": "Actúa con Venli en las Llanuras Quebradas. Su trama en este libro es descrita por lectores como una de las más duras de la saga. Al final recibe la Esquirla del Amanecer de Hoid."
   },
   "arco_narrativo": {
-    "resumen": "Sigzil evoluciona de mensajero azish y erudito a esclavo, para finalmente integrarse en Puente Cuatro y convertirse en un apoyo clave como escriba y escudero de los Corredores del Viento.",
+    "resumen": "Sigzil llegó al Puente Cuatro como soldado makabaki y se convirtió en el administrador y escriba de la unidad. Fue aprendiz de Hoid antes de la saga. Como Corredor del Viento participó en la investigación de las capacidades de vuelo radiante. En Viento y Verdad opera en las Llanuras Quebradas junto a Venli en una trama particularmente dura, y al final de los eventos recibe la Esquirla del Amanecer de manos de Hoid.",
     "puntos_clave": [
-      "Origen en Azir y formación como escriba",
-      "Caída en esclavitud",
-      "Llegada a Puente Cuatro",
-      "Integración en el grupo de Kaladin",
-      "Participación como escudero de los Corredores del Viento"
+      "Fue aprendiz de Hoid durante un período anterior a los eventos de la saga.",
+      "Llega al Puente Cuatro como portador bajo Sadeas.",
+      "Se convierte en el escriba y administrador oficial del Puente Cuatro.",
+      "Se vincula con Auxiliar (Aux) y se convierte en Corredor del Viento.",
+      "Participa en experimentos sobre las capacidades de vuelo y potencias de los Corredores del Viento.",
+      "En Viento y Verdad opera con Venli en las Llanuras Quebradas en una trama de alto coste personal.",
+      "Hoid le transfiere la Esquirla del Amanecer al final de VyV antes de que Represalia destruya el cuerpo de Hoid."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "escriba y soldado",
-    "rol": "apoyo logístico e intelectual en Puente Cuatro",
-    "relacion_con_spren": "vínculo Nahel con Vienta hasta su rotura",
-    "otros_detalles": "destaca por su conocimiento y disciplina dentro del grupo"
+    "ocupacion": "Corredor del Viento; portador temporal de la Esquirla del Amanecer",
+    "rol": "Miembro senior del Puente Cuatro; figura de importancia creciente en el Cosmere",
+    "relacion_con_spren": "Vínculo activo con Auxiliar (Aux), que puede transformarse en distintas herramientas.",
+    "otros_detalles": "Recibió la Esquirla del Amanecer de Hoid al final de VyV. Su historia fuera de Roshar se omite deliberadamente en esta ficha."
   },
-  "descripcion_breve": "Azish erudito y disciplinado, miembro de Puente Cuatro que actúa como escriba y escudero de los Corredores del Viento.",
-  "notas": ""
+  "descripcion_breve": "Escriba makabaki del Puente Cuatro, Corredor del Viento y antiguo aprendiz de Hoid. Su arco en Viento y Verdad, junto a Venli en las Llanuras Quebradas, es uno de los más duros de la saga.",
+  "notas": "Ficha limitada a su tiempo en Roshar. Su historia posterior fuera del planeta (El Hombre Iluminado) se omite deliberadamente. Aux, su spren, puede transformarse en distintos objetos, una capacidad inusual entre los spren de vínculo."
 }
