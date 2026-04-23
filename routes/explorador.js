@@ -805,6 +805,8 @@ router.get("/", (req, res) => {
   <script>
     const API = '';
     let todos = [];
+    let todosHeraldos = [];
+    let todosSpren = [];
     let filtrados = [];
     let seleccionado = null;
 
@@ -1308,7 +1310,6 @@ router.get("/", (req, res) => {
     }
 
     // ── Heraldos ───────────────────────────────────────────
-    let todosHeraldos = [];
 
     async function cargarHeraldos() {
       try {
@@ -1518,7 +1519,6 @@ router.get("/", (req, res) => {
     }
 
     // ── Spren ──────────────────────────────────────────────
-    let todosSpren = [];
     let ordenPorSpren = {}; // id → orden_radiante
 
     async function cargarSpren() {
