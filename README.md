@@ -6,19 +6,15 @@ Construida con **Node.js** (ESModules) y **Express 5**.
 
 ---
 
-## Instalación
+## Acceso
 
-```bash
-npm install
-npm start
-```
-
-El servidor arranca en el puerto `3000` por defecto. Se puede cambiar con la variable de entorno `PORT`.
+La API está disponible públicamente sin necesidad de instalación ni autenticación.
 
 | Recurso | URL |
 |---|---|
-| Explorador visual | `http://localhost:3000/explorador` |
-| Documentación Swagger | `http://localhost:3000/api-docs` |
+| Explorador visual | `https://laapidelastormentas.onrender.com/explorador` |
+| Documentación Swagger | `https://laapidelastormentas.onrender.com/api-docs` |
+| Base URL | `https://laapidelastormentas.onrender.com` |
 
 ---
 
