@@ -1407,45 +1407,24 @@ router.get("/", (req, res) => {
         : '<p class="sin-datos">Sin habilidades registradas</p>';
 
       const relacionesHtml = [
-        ...(h.relaciones?.familia ?? []).map(r => {
-          const personajeRef = todos.find(p => p.id === r.personaje);
-          const tieneJSON = !!personajeRef;
-          const nombreMostrado = personajeRef ? personajeRef.nombre : r.personaje;
-          const clickAttr = tieneJSON ? \`onclick="verPersonaje('\${r.personaje}')"\` : '';
-          const clase = tieneJSON ? 'relacion-nombre clickable' : 'relacion-nombre';
-          return \`
+        ...(h.relaciones?.familia ?? []).map(r => \`
           <div class="relacion-grupo">
             <div class="relacion-grupo-titulo">👪 familia</div>
             <div class="relacion-item">
-              <span class="\${clase}" \${clickAttr}>\${nombreMostrado}</span>
+              <span class="relacion-nombre">${enlazarEntidad(r.personaje)}</span>
               <span class="relacion-tipo">\${r.relacion}</span>
             </div>
-          </div>\`;
-        }),
-        ...(h.relaciones?.heraldos ?? []).map(r => {
-          const personajeRef = todos.find(p => p.id === r.personaje);
-          const tieneJSON = !!personajeRef;
-          const nombreMostrado = personajeRef ? personajeRef.nombre : r.personaje;
-          const clickAttr = tieneJSON ? \`onclick="verPersonaje('\${r.personaje}')"\` : '';
-          const clase = tieneJSON ? 'relacion-nombre clickable' : 'relacion-nombre';
-          return \`
+          </div>\`),
+        ...(h.relaciones?.heraldos ?? []).map(r => \`
           <div class="relacion-item">
-            <span class="\${clase}" \${clickAttr}>\${nombreMostrado}</span>
+            <span class="relacion-nombre">\${enlazarEntidad(r.personaje)}</span>
             <span class="relacion-tipo">\${r.relacion}</span>
-          </div>\`;
-        }),
-        ...(h.relaciones?.otros ?? []).map(r => {
-          const personajeRef = todos.find(p => p.id === r.personaje);
-          const tieneJSON = !!personajeRef;
-          const nombreMostrado = personajeRef ? personajeRef.nombre : r.personaje;
-          const clickAttr = tieneJSON ? \`onclick="verPersonaje('\${r.personaje}')"\` : '';
-          const clase = tieneJSON ? 'relacion-nombre clickable' : 'relacion-nombre';
-          return \`
+          </div>\`),
+        ...(h.relaciones?.otros ?? []).map(r => \`
           <div class="relacion-item">
-            <span class="\${clase}" \${clickAttr}>\${nombreMostrado}</span>
+            <span class="relacion-nombre">\${enlazarEntidad(r.personaje)}</span>
             <span class="relacion-tipo">\${r.relacion}</span>
-          </div>\`;
-        }),
+          </div>\`),
       ].join('') || '<p class="sin-datos">Sin relaciones registradas</p>';
 
       return \`
