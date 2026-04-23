@@ -1,0 +1,55 @@
+{
+  "id": "ba_ado_mishram",
+  "nombre": "Ba-Ado-Mishram",
+  "apodos": [
+    "La Dama de los Suplicios",
+    "La Dama de los Deseos (nombre de Rabeniel)"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "aprisionada",
+  "especie": "deshecho",
+  "nivel_consciencia": "alta — la más inteligente de los Deshechos",
+  "afiliacion": "Odium (anteriormente); aprisionada",
+  "poderes": [
+    "Conexión masiva con todos los cantores de Roshar",
+    "Suministro de luz del vacío a escala continental",
+    "Otorga formas de poder a los cantores (los convierte en Regios)",
+    "Accedió a la Perpendicularidad de Honor durante la Última Desolación",
+    "Transformación (según Rabeniel)"
+  ],
+  "descripcion_fisica": "Apariencia desconocida. Su presencia se manifiesta como una fuerza de Conexión que abarca todo Roshar.",
+  "descripcion_breve": "La más poderosa e inteligente de los Deshechos. Aprisionada por los Caballeros Radiantes al final de la Última Desolación, lo que privó a todos los cantores de sus almas y los convirtió en parshmenios. Liberada en Viento y Verdad por Renarin y Rlain.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mencionada",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mencionada",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Ba-Ado-Mishram participó en las Desolaciones como la más poderosa aliada de Odium. Durante la Última Desolación, cuando los Fusionados fueron apartados por Odium como castigo, Ba-Ado-Mishram tomó el papel de Odium al Conectarse con todos los cantores de Roshar, suministrándoles luz del vacío y formas de poder. Los Caballeros Radiantes, liderados por Melishi, la aprisionaron en una gema — acto que privó a todos los cantores de sus almas, convirtiéndolos en parshmenios durante milenios. En Viento y Verdad, Renarin y Rlain la liberan.",
+    "puntos_clave": [
+      "Participa en las Desolaciones como aliada de Odium.",
+      "Cuando los Fusionados son apartados, asume el papel de Odium conectándose con todos los cantores de Roshar.",
+      "Suministra luz del vacío y formas de poder a los cantores; los convierte en Regios.",
+      "Accede a la Perpendicularidad de Honor.",
+      "Los Caballeros Radiantes, dirigidos por Melishi, la aprisionan en una gema de tormenta.",
+      "Su aprisionamiento priva a todos los cantores de sus almas — origen de los parshmenios.",
+      "También corrompe todos los vínculos de Honor, creando los spren ojomuertos.",
+      "Renarin y Rlain la liberan en Viento y Verdad, restaurando las almas de los cantores."
+    ]
+  },
+  "notas": "Su nombre tiene tres partes, lo que según la Coppermind indica su alto nivel de inteligencia. Rabeniel tomó su título 'Dama de los Suplicios' y lo cambió por 'Dama de los Deseos'. Su liberación restaura los ojos de los spren ojomuertos vinculados a los Injuramentados."
+}

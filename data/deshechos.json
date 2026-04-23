@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ba_ado_mishram",
+    "nombre": "Ba-Ado-Mishram",
+    "apodos": [
+      "La Dama de los Suplicios"
+    ],
+    "estado_actual": "aprisionada"
+  },
+  {
+    "id": "ashertmarn",
+    "nombre": "Ashertmarn",
+    "apodos": [
+      "El Gran Corazón de la Juerga"
+    ],
+    "estado_actual": "activo (localización desconocida)"
+  },
+  {
+    "id": "chemoarish",
+    "nombre": "Chemoarish",
+    "apodos": [
+      "La Madre Bruja"
+    ],
+    "estado_actual": "activo (localización desconocida)"
+  },
+  {
+    "id": "dai_gonarthis",
+    "nombre": "Dai-Gonarthis",
+    "apodos": [
+      "El Pescador Negro"
+    ],
+    "estado_actual": "activo (localización desconocida)"
+  },
+  {
+    "id": "moelach",
+    "nombre": "Moelach",
+    "apodos": [
+      "El Sin Rostro"
+    ],
+    "estado_actual": "activo"
+  },
+  {
+    "id": "nergaoul",
+    "nombre": "Nergaoul",
+    "apodos": [
+      "La Emoción"
+    ],
+    "estado_actual": "aprisionado"
+  },
+  {
+    "id": "re_shephir",
+    "nombre": "Re-Shephir",
+    "apodos": [
+      "La Madre de Medianoche"
+    ],
+    "estado_actual": "activo (localización desconocida; huyó de Urithiru)"
+  },
+  {
+    "id": "sja_anat",
+    "nombre": "Sja-anat",
+    "apodos": [
+      "La Tomadora de Secretos"
+    ],
+    "estado_actual": "activo; colabora con los Radiantes"
+  },
+  {
+    "id": "yelig_nar",
+    "nombre": "Yelig-nar",
+    "apodos": [
+      "Vientomaldito"
+    ],
+    "estado_actual": "activo (localización desconocida)"
+  }
+]

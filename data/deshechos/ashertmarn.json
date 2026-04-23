@@ -1,0 +1,40 @@
+{
+  "id": "ashertmarn",
+  "nombre": "Ashertmarn",
+  "apodos": [
+    "El Gran Corazón de la Juerga",
+    "El Corazón de la Fiesta"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo (localización desconocida)",
+  "especie": "deshecho",
+  "nivel_consciencia": "baja — principalmente instintivo",
+  "afiliacion": "Odium",
+  "poderes": [
+    "Induce hedonismo extremo e indulgencia sin límites en quienes están cerca",
+    "Corrupción de los deseos y placeres",
+    "Paralización por exceso de goce"
+  ],
+  "descripcion_fisica": "Apariencia desconocida. Su influencia se percibe como un anhelo irresistible de placer y juerga.",
+  "descripcion_breve": "Deshecho asociado al hedonismo extremo. Su presencia induce una indulgencia sin límites que paraliza a quienes están cerca. Estuvo activo en Kholinar durante el asedio.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Ashertmarn estuvo presente en Kholinar durante el asedio de la ciudad. Su influencia transformó el palacio real en un lugar de juerga y exceso sin fin, paralizando a la guardia y la corte real con un hedonismo irrefrenable. Adolin, Shallan y Kaladin lo encontraron durante su misión para abrir la Puerta Jurada.",
+    "puntos_clave": [
+      "Activo en Kholinar durante el asedio.",
+      "Su influencia convierte el palacio real en un antro de juerga y exceso.",
+      "La guardia y la corte son incapaces de actuar bajo su influencia.",
+      "Adolin, Shallan y Kaladin lo encuentran en el palacio durante la misión a Kholinar.",
+      "Sja-anat y Ashertmarn colaboraron en la caída de Kholinar."
+    ]
+  },
+  "notas": "Su nombre deriva posiblemente de Asherah, diosa sumeria del mar. Es uno de los Deshechos menos conscientes, actuando por instinto más que por razonamiento."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chemoarish",
+  "nombre": "Chemoarish",
+  "apodos": [
+    "La Madre Bruja"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo (localización desconocida)",
+  "especie": "deshecho",
+  "nivel_consciencia": "desconocida",
+  "afiliacion": "Odium",
+  "poderes": [
+    "Poderes desconocidos"
+  ],
+  "descripcion_fisica": "Apariencia desconocida.",
+  "descripcion_breve": "Deshecho conocida como la Madre Bruja. Es el Deshecho sobre el que menos información existe en la saga.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mencionada",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Chemoarish es el Deshecho sobre el que menos se sabe. Solo se le menciona brevemente en la saga y sus poderes, apariencia y rol en las Desolaciones son prácticamente desconocidos.",
+    "puntos_clave": [
+      "Mencionada brevemente en la saga como uno de los nueve Deshechos.",
+      "Sus poderes y apariencia son desconocidos.",
+      "Su título 'La Madre Bruja' es lo más que se sabe de ella."
+    ]
+  },
+  "notas": "Su nombre deriva probablemente de Chemosh, dios de moabitas y ammonitas. Es el Deshecho con menos información en toda la saga."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "yelig_nar",
+  "nombre": "Yelig-nar",
+  "apodos": [
+    "Vientomaldito",
+    "El Blightwind"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo (localización desconocida)",
+  "especie": "deshecho",
+  "nivel_consciencia": "media — cierto nivel de consciencia",
+  "afiliacion": "Odium",
+  "poderes": [
+    "Puede ser absorbido por un cantor o humano, otorgándole acceso a todas las potencias de los Radiantes",
+    "El huésped desarrolla cristales en el cuerpo y ojos rojos",
+    "El huésped debe controlar a Yelig-nar o será consumido",
+    "Envuelve al huésped en un viento negro"
+  ],
+  "descripcion_fisica": "Se manifiesta como un viento negro. Sus huéspedes desarrollan cristales en el cuerpo y ojos rojos.",
+  "descripcion_breve": "Deshecho conocido como Vientomaldito. Puede ser absorbido por un individuo, otorgándole acceso a todas las potencias radiantes, pero a riesgo de ser consumido. Amaram lo absorbió en la batalla de Thaylenah.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mencionado (visión de Dalinar)",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "principal",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Yelig-nar es uno de los Deshechos más peligrosos para sus propios aliados: otorga poder inmenso al huésped que lo absorbe, pero puede consumirlo si no lo controla. Highlord Amaram lo absorbió durante la batalla de Thaylenah, desarrollando cristales en el cuerpo y acceso a múltiples potencias. Kaladin lo enfrentó. Szeth lo mató junto con Amaram.",
+    "puntos_clave": [
+      "Mencionado en una visión de Dalinar donde Nohadon describía cómo irrumpió en su cancillería.",
+      "El highlord Amaram lo absorbe durante la batalla de Thaylenah.",
+      "Amaram desarrolla cristales en el cuerpo, ojos rojos y acceso a múltiples potencias radiantes.",
+      "Kaladin enfrenta a Amaram poseído durante la batalla.",
+      "Szeth mata a Amaram con Sangre Nocturna, eliminando también a Yelig-nar."
+    ]
+  },
+  "notas": "Su nombre tiene dos partes como Re-Shephir y Sja-anat, indicando nivel medio de consciencia. La absorción de Yelig-nar es uno de los pocos casos en que un no-Radiante accede temporalmente a potencias radiantes."
+}

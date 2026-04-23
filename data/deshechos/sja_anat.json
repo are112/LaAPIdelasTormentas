@@ -1,0 +1,53 @@
+{
+  "id": "sja_anat",
+  "nombre": "Sja-anat",
+  "apodos": [
+    "La Tomadora de Secretos",
+    "Encubridor"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo; colabora con los Radiantes",
+  "especie": "deshecho",
+  "nivel_consciencia": "alta — plenamente consciente y autónoma",
+  "afiliacion": "Odium (en proceso de deserción activa)",
+  "poderes": [
+    "Corrompe spren con la Investidura de Odium",
+    "Los spren corrompidos adquieren nuevas capacidades o se transforman",
+    "Puede corromper spren verdaderos (corrompió a Glys)",
+    "Sus spren corrompidos actúan como espías"
+  ],
+  "descripcion_fisica": "Apariencia humanoide femenina de luz tenue y cambiante. Sus ojos brillan con luz extraña.",
+  "descripcion_breve": "Deshecho plenamente consciente conocida como la Tomadora de Secretos. Capaz de corromper spren. Corrompió a Glys, el spren de Renarin. Busca activamente liberarse de Odium y colaborar con los Radiantes.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Sja-anat es el Deshecho más temido por los Radiantes históricos por su capacidad de corromper spren. Colaboró con Ashertmarn en la caída de Kholinar. Tras localizar al grupo de Kaladin en Shadesmar, decidió engañar a Odium sobre su posición — primer acto de deserción. Ha corrompido a Glys, el spren de Renarin, otorgándole la capacidad de ver el futuro. Busca activamente liberarse de la influencia de Odium y ha iniciado conversaciones con los Radiantes.",
+    "puntos_clave": [
+      "Participa en las Desolaciones corrompiendo spren para espiar a los humanos.",
+      "Corrompió a Glys, el spren de Renarin, alterando sus potencias.",
+      "Colabora con Ashertmarn en la caída de Kholinar.",
+      "Al localizar al grupo de Kaladin en Shadesmar, informa falsamente a Odium sobre su posición.",
+      "Contacta con Shallan para negociar su deserción de las fuerzas de Odium.",
+      "Tiene un hijo llamado Espejo o Elhokar — un spren corrompido con conciencia propia.",
+      "Colabora activamente con los Radiantes en Viento y Verdad."
+    ]
+  },
+  "notas": "Su nombre deriva de Anat, diosa semita de la guerra. Es junto a Ba-Ado-Mishram el Deshecho más inteligente y autónomo. Sus spren corrompidos funcionan en fabriales de forma distinta a los normales."
+}

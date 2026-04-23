@@ -1,0 +1,49 @@
+{
+  "id": "moelach",
+  "nombre": "Moelach",
+  "apodos": [
+    "El Sin Rostro"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo",
+  "especie": "deshecho",
+  "nivel_consciencia": "baja — principalmente instintivo",
+  "afiliacion": "Odium",
+  "poderes": [
+    "Genera susurros de muerte — visiones proféticas en el momento de morir",
+    "Su presencia activa los susurros de muerte en quienes mueren cerca de él",
+    "Efecto local: no tiene alcance continental como Ba-Ado-Mishram"
+  ],
+  "descripcion_fisica": "Apariencia desconocida. Su presencia se detecta por la aparición de susurros de muerte en la zona.",
+  "descripcion_breve": "Deshecho asociado a la precognición y los susurros de muerte. Su presencia permite que los moribundos pronuncien visiones del futuro — los susurros de muerte que Taravangian recopiló para crear el Diagrama.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mencionado",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Moelach es responsable de los susurros de muerte que Taravangian usó para crear el Diagrama. Su presencia en una región hace que los moribundos pronuncien visiones proféticas del futuro. En 1166 estaba cerca de Kholinar, en 1167 en Kharbranth — lo que explica la abundancia de susurros de muerte que Taravangian pudo recopilar allí — y años después se desplazó a los Picos Comecuernos.",
+    "puntos_clave": [
+      "Su presencia genera susurros de muerte en los moribundos de la zona.",
+      "Taravangian aprovechó su proximidad a Kharbranth para recopilar susurros de muerte y crear el Diagrama.",
+      "En 1166 estaba cerca de Kholinar.",
+      "En 1167 residía en Kharbranth.",
+      "Años después se desplazó a los Picos Comecuernos por razones desconocidas."
+    ]
+  },
+  "notas": "Su nombre deriva probablemente de Moloch, término bíblico interpretado como dios canaanita del fuego. Los susurros de muerte son proféticos pero frecuentemente confusos e incompletos."
+}

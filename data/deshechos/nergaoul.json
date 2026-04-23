@@ -1,0 +1,50 @@
+{
+  "id": "nergaoul",
+  "nombre": "Nergaoul",
+  "apodos": [
+    "La Emoción",
+    "El Thrill"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "aprisionado",
+  "especie": "deshecho",
+  "nivel_consciencia": "baja — principalmente instintivo",
+  "afiliacion": "Odium",
+  "poderes": [
+    "Infunde una ira combativa irresistible en guerreros cercanos",
+    "Afecta a ambos bandos en combate indiscriminadamente",
+    "Crea adicción a la sensación de batalla"
+  ],
+  "descripcion_fisica": "Se manifiesta como una niebla roja que cubre los campos de batalla.",
+  "descripcion_breve": "Deshecho conocido como la Emoción o el Thrill. Infunde una ira combativa irresistible en todos los guerreros de un campo de batalla, sin distinción de bando. Dalinar fue adicto a su influencia durante décadas. Aprisionado en Thaylenah.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "presente (sin nombre)",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "presente (sin nombre)",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "principal",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Nergaoul es el Deshecho responsable de la Emoción — la sensación de euforia combativa que Dalinar persiguió durante décadas. Infunde ira y ferocidad en todos los combatientes de un campo de batalla sin distinción de bando. Dalinar fue adicto a su influencia y luchar contra ella fue parte fundamental de su arco de redención. Durante la batalla de Thaylenah, Dalinar lo aprisionó en una gema de tormenta.",
+    "puntos_clave": [
+      "Activo en campos de batalla de Roshar durante siglos.",
+      "Dalinar fue adicto a su influencia — la Emoción — durante décadas.",
+      "Afecta a ambos bandos en combate indiscriminadamente.",
+      "Se manifiesta como una niebla roja sobre los campos de batalla.",
+      "Durante la batalla de Thaylenah, Dalinar lo aprisionó en una gema de tormenta usando la Perpendicularidad de Honor."
+    ]
+  },
+  "notas": "Su nombre deriva de Nergal, dios mesopotámico de la guerra y la muerte. Es uno de los elementos clave del arco de Dalinar — superar la adicción a la Emoción es central en su redención."
+}

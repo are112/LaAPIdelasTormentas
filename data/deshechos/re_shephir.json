@@ -1,0 +1,40 @@
+{
+  "id": "re_shephir",
+  "nombre": "Re-Shephir",
+  "apodos": [
+    "La Madre de Medianoche"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo (localización desconocida; huyó de Urithiru)",
+  "especie": "deshecho",
+  "nivel_consciencia": "media — cierto nivel de consciencia",
+  "afiliacion": "Odium",
+  "poderes": [
+    "Crea criaturas de medianoche — copias oscuras de seres vivos",
+    "Las criaturas imitan comportamientos violentos observados",
+    "Puede intentar corromper vínculos de spren e insertarse en su lugar"
+  ],
+  "descripcion_fisica": "Se manifiesta como oscuridad líquida o sombras que se mueven. Sus criaturas son copias negras y brillantes de animales o personas.",
+  "descripcion_breve": "Deshecho conocida como la Madre de Medianoche. Crea criaturas de oscuridad que imitan a seres vivos. Estuvo aprisionada en Urithiru y fue liberada accidentalmente. Intentó corromper el vínculo de Shallan con Patrón.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "antagonista",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Re-Shephir estuvo aprisionada en algún lugar de Urithiru durante siglos. Fue liberada accidentalmente cuando los Caballeros Radiantes comenzaron a ocupar la torre. Creó criaturas de medianoche que imitaban asesinatos en los niveles inferiores. Shallan la enfrentó y la derrotó, obligándola a huir. Re-Shephir intentó insertar su vínculo en lugar del de Patrón con Shallan, pero fracasó.",
+    "puntos_clave": [
+      "Aprisionada en Urithiru durante siglos.",
+      "Liberada accidentalmente con la reocupación de la torre.",
+      "Crea criaturas de medianoche que imitan asesinatos en los niveles inferiores de Urithiru.",
+      "Shallan la enfrenta; Re-Shephir retrocede ante la creatividad de Shallan, posiblemente porque fue aprisionada por un Tejedor de Luz en el pasado.",
+      "Intenta corromper el vínculo de Shallan con Patrón e insertarse en su lugar; fracasa.",
+      "Huye de Urithiru a través de los túneles; localización desconocida."
+    ]
+  },
+  "notas": "Su nombre deriva de Resheph, deidad canaanita de la plaga. Retrocedió ante Shallan posiblemente porque fue aprisionada por un Tejedor de Luz en una vida anterior."
+}

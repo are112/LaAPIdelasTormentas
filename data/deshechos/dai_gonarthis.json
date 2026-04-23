@@ -1,0 +1,42 @@
+{
+  "id": "dai_gonarthis",
+  "nombre": "Dai-Gonarthis",
+  "apodos": [
+    "El Pescador Negro"
+  ],
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo (localización desconocida)",
+  "especie": "deshecho",
+  "nivel_consciencia": "desconocida",
+  "afiliacion": "Odium",
+  "poderes": [
+    "Absorción o consumo de la pena y el dolor emocional",
+    "Posiblemente relacionado con el arrasamiento de Aimia"
+  ],
+  "descripcion_fisica": "Apariencia desconocida. Asociado a la imagen de un pescador en las aguas oscuras.",
+  "descripcion_breve": "Deshecho conocido como el Pescador Negro. Sus poderes parecen relacionados con el consumo de la pena y el dolor. Posiblemente implicado en el arrasamiento de Aimia.",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mencionado (susurro de muerte)",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mencionado",
+        "pov": false
+      }
+    ]
+  },
+  "historia": {
+    "resumen": "Dai-Gonarthis aparece mencionado en un susurro de muerte recogido por los Recolectores Silenciosos, donde una moribunda lo invoca como quien consume su pena. Jezrien, disfrazado de mendigo, también lo menciona junto a Re-Shephir y Moelach. La erudita Hessi especula que pudo estar implicado en el arrasamiento de Aimia.",
+    "puntos_clave": [
+      "Mencionado en un susurro de muerte: 'Dai-Gonarthis, el Pescador Negro, sostiene mi pena y la consume.'",
+      "Jezrien lo menciona junto a Re-Shephir y Moelach en Juramentada.",
+      "Hessi especula sobre su posible implicación en el arrasamiento de Aimia.",
+      "Su naturaleza como Deshecho se infiere por el estilo de su nombre y las menciones, no por confirmación directa."
+    ]
+  },
+  "notas": "Su nombre deriva probablemente de Dagon, dios pescador canaanita y entidad marina en los Mitos de Cthulhu. Su estatus como Deshecho es el menos confirmado del grupo, aunque se considera probable."
+}
