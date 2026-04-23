@@ -945,6 +945,32 @@ router.get("/", (req, res) => {
     }
 
     // ── Render ficha ───────────────────────────────────────
+    // ── Enlace automático de entidades por nombre ─────────
+    function enlazarEntidad(nombre) {
+      if (!nombre || typeof nombre !== 'string') return nombre;
+      const nombreLower = nombre.toLowerCase().trim();
+
+      const persona = todos.find(p =>
+        p.nombre.toLowerCase() === nombreLower ||
+        p.id.toLowerCase() === nombreLower
+      );
+      if (persona) return \`<span class="relacion-nombre clickable" onclick="verPersonaje('\${persona.id}')">\${nombre}</span>\`;
+
+      const spren = todosSpren.find(s =>
+        s.nombre.toLowerCase() === nombreLower ||
+        s.id.toLowerCase() === nombreLower
+      );
+      if (spren) return \`<span class="relacion-nombre clickable" onclick="verSpren('\${spren.id}')">\${nombre}</span>\`;
+
+      const heraldo = todosHeraldos.find(h =>
+        h.nombre.toLowerCase() === nombreLower ||
+        h.id.toLowerCase() === nombreLower
+      );
+      if (heraldo) return \`<span class="relacion-nombre clickable" onclick="verHeraldo('\${heraldo.id}')">\${nombre}</span>\`;
+
+      return nombre;
+    }
+
     function renderFicha(p, rel) {
       const orden = p.orden_radiantes?.orden;
       const nivel = p.orden_radiantes?.nivel_ideal;
@@ -1249,35 +1275,6 @@ router.get("/", (req, res) => {
     });
 
     // ── Init ───────────────────────────────────────────────
-    // ── Enlace automático de entidades por nombre ─────────
-    function enlazarEntidad(nombre) {
-      if (!nombre || typeof nombre !== 'string') return nombre;
-      const nombreLower = nombre.toLowerCase().trim();
-
-      // Buscar en personajes
-      const persona = todos.find(p =>
-        p.nombre.toLowerCase() === nombreLower ||
-        p.id.toLowerCase() === nombreLower
-      );
-      if (persona) return \`<span class="relacion-nombre clickable" onclick="verPersonaje('\${persona.id}')">\${nombre}</span>\`;
-
-      // Buscar en spren
-      const spren = todosSpren.find(s =>
-        s.nombre.toLowerCase() === nombreLower ||
-        s.id.toLowerCase() === nombreLower
-      );
-      if (spren) return \`<span class="relacion-nombre clickable" onclick="verSpren('\${spren.id}')">\${nombre}</span>\`;
-
-      // Buscar en heraldos
-      const heraldo = todosHeraldos.find(h =>
-        h.nombre.toLowerCase() === nombreLower ||
-        h.id.toLowerCase() === nombreLower
-      );
-      if (heraldo) return \`<span class="relacion-nombre clickable" onclick="verHeraldo('\${heraldo.id}')">\${nombre}</span>\`;
-
-      return nombre;
-    }
-
     function heraldoImgError(img, id) {
       if (!img.dataset.fallback) {
         img.dataset.fallback = '1';
