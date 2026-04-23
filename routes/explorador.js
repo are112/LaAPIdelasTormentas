@@ -956,19 +956,19 @@ router.get("/", (req, res) => {
         p.nombre.toLowerCase() === nombreLower ||
         p.id.toLowerCase() === nombreLower
       );
-      if (persona) return '<span class=\"relacion-nombre clickable\" onclick=\"verPersonaje(\'' + persona.id + '\')\">' + nombre + '</span>';
+      if (persona) return "<span class='relacion-nombre clickable' onclick='verPersonaje(" + JSON.stringify(persona.id) + ")'>" + nombre + "</span>";
 
       const spren = todosSpren.find(s =>
         s.nombre.toLowerCase() === nombreLower ||
         s.id.toLowerCase() === nombreLower
       );
-      if (spren) return '<span class=\"relacion-nombre clickable\" onclick=\"verSpren(\'' + spren.id + '\')\">' + nombre + '</span>';
+      if (spren) return "<span class='relacion-nombre clickable' onclick='verSpren(" + JSON.stringify(spren.id) + ")'>" + nombre + "</span>";
 
       const heraldo = todosHeraldos.find(h =>
         h.nombre.toLowerCase() === nombreLower ||
         h.id.toLowerCase() === nombreLower
       );
-      if (heraldo) return '<span class=\"relacion-nombre clickable\" onclick=\"verHeraldo(\'' + heraldo.id + '\')\">' + nombre + '</span>';
+      if (heraldo) return "<span class='relacion-nombre clickable' onclick='verHeraldo(" + JSON.stringify(heraldo.id) + ")'>" + nombre + "</span>";
 
       return nombre;
     }
