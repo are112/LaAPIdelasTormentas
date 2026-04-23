@@ -11,6 +11,8 @@ info:
     name: La API de las Tormentas
 
 servers:
+  - url: https://laapidelastormentas.onrender.com
+    description: Producción (Render)
   - url: http://localhost:3000
     description: Servidor local
 
