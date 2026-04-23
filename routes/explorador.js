@@ -320,6 +320,18 @@ router.get("/", (req, res) => {
     #lista-spren::-webkit-scrollbar { width: 4px; }
     #lista-spren::-webkit-scrollbar-track { background: transparent; }
     #lista-spren::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
+    #lista-deshechos {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      overflow-y: auto;
+      flex: 1;
+      min-height: 0;
+      padding-right: 0.25rem;
+    }
+    #lista-deshechos::-webkit-scrollbar { width: 4px; }
+    #lista-deshechos::-webkit-scrollbar-track { background: transparent; }
+    #lista-deshechos::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
     #lista-heraldos {
       display: flex;
       flex-direction: column;
@@ -766,6 +778,7 @@ router.get("/", (req, res) => {
       <div class="tabs">
         <button class="tab activo" id="tab-personajes" onclick="cambiarTab('personajes')">Personajes</button>
         <button class="tab" id="tab-spren" onclick="cambiarTab('spren')">Spren</button>
+        <button class="tab" id="tab-deshechos" onclick="cambiarTab('deshechos')">Deshechos</button>
         <button class="tab" id="tab-heraldos" onclick="cambiarTab('heraldos')">Heraldos</button>
       </div>
 
@@ -790,6 +803,7 @@ router.get("/", (req, res) => {
       </div>
       <div id="lista-personajes"></div>
       <div id="lista-spren" style="display:none;flex-direction:column"></div>
+      <div id="lista-deshechos" style="display:none;flex-direction:column"></div>
       <div id="lista-heraldos" style="display:none;flex-direction:column"></div>
     </aside>
 
@@ -807,6 +821,7 @@ router.get("/", (req, res) => {
     let todos = [];
     let todosHeraldos = [];
     let todosSpren = [];
+    let todosDeshechos = [];
     let filtrados = [];
     let seleccionado = null;
 
@@ -1197,6 +1212,9 @@ router.get("/", (req, res) => {
       }
       for (const h of todosHeraldos) {
         resultados.push({ id: h.id, nombre: h.nombre, tipo: 'heraldo', subtipo: h.titulo || 'Heraldo', accion: () => { cambiarTab('heraldos'); verHeraldo(h.id); } });
+      for (const d of todosDeshechos)
+        if (!texto || d.nombre.toLowerCase().includes(texto) || (d.apodos?.[0] ?? '').toLowerCase().includes(texto))
+          resultados.push({ id: d.id, nombre: d.nombre, tipo: 'deshecho', subtipo: d.apodos?.[0] || 'Deshecho', accion: () => { cambiarTab('deshechos'); verDeshecho(d.id); } });
       }
       return resultados;
     }
@@ -1290,23 +1308,160 @@ router.get("/", (req, res) => {
     cargarLista();
     cargarSpren();
     cargarHeraldos();
+    cargarDeshechos();
 
     // ── Tabs ───────────────────────────────────────────────
     let tabActual = 'personajes';
 
     function cambiarTab(tab) {
       tabActual = tab;
-      ['personajes','spren','heraldos'].forEach(t => {
+      ['personajes','spren','deshechos','heraldos'].forEach(t => {
         document.getElementById('tab-' + t).classList.toggle('activo', t === tab);
         document.getElementById('lista-' + t).style.display = t === tab ? 'flex' : 'none';
       });
       document.getElementById('filtro-personajes-wrap').style.display = tab === 'personajes' ? '' : 'none';
       document.getElementById('filtro-spren-wrap').style.display = tab === 'spren' ? '' : 'none';
       document.getElementById('label-lista').textContent =
-        tab === 'personajes' ? 'Personajes' : tab === 'spren' ? 'Spren' : 'Heraldos';
+        tab === 'personajes' ? 'Personajes' : tab === 'spren' ? 'Spren' : tab === 'deshechos' ? 'Deshechos' : 'Heraldos';
       if (tab === 'personajes') aplicarFiltros();
       else if (tab === 'spren') renderListaSpren(todosSpren);
+      else if (tab === 'deshechos') renderListaDeshechos(todosDeshechos);
       else renderListaHeraldos(todosHeraldos);
+    }
+
+    // ── Deshechos ──────────────────────────────────────────
+
+    async function cargarDeshechos() {
+      try {
+        const res = await fetch(\`\${API}/deshechos\`);
+        todosDeshechos = await res.json();
+        if (tabActual === 'deshechos') renderListaDeshechos(todosDeshechos);
+      } catch (e) {
+        document.getElementById('lista-deshechos').innerHTML =
+          '<p class=\"sin-datos\">Error cargando deshechos</p>';
+      }
+    }
+
+    function renderListaDeshechos(lista) {
+      const texto = document.getElementById('buscador').value.toLowerCase();
+      const filtrada = lista.filter(d =>
+        !texto || d.nombre.toLowerCase().includes(texto) ||
+        (d.apodos?.[0] ?? '').toLowerCase().includes(texto)
+      );
+      if (tabActual === 'deshechos') document.getElementById('contador').textContent = filtrada.length;
+      const wrap = document.getElementById('lista-deshechos');
+      if (!filtrada.length) { wrap.innerHTML = '<p class=\"sin-datos\">Sin resultados</p>'; return; }
+      wrap.innerHTML = filtrada.map(d => {
+        const activo = seleccionado === 'deshecho_' + d.id ? 'activo' : '';
+        return \`
+          <div class="item-personaje \${activo}"
+               onclick="verDeshecho('\${d.id}')" data-id="deshecho_\${d.id}">
+            <div class="item-avatar" style="font-size:1.1rem">🔴</div>
+            <div class="item-info">
+              <div class="item-nombre">\${d.nombre}</div>
+              <div class="item-orden">\${d.apodos?.[0] || 'Deshecho'}</div>
+            </div>
+          </div>
+        \`;
+      }).join('');
+    }
+
+    async function verDeshecho(id) {
+      seleccionado = 'deshecho_' + id;
+      document.querySelectorAll('.item-personaje').forEach(el => {
+        el.classList.toggle('activo', el.dataset.id === 'deshecho_' + id);
+      });
+      const panel = document.getElementById('panel-detalle');
+      panel.innerHTML = '<div class=\"cargando\"><div class=\"spinner\"></div>Invocando la ficha...</div>';
+      try {
+        const res = await fetch(\`\${API}/deshechos/\${id}\`);
+        const d = await res.json();
+        panel.innerHTML = renderFichaDeshecho(d);
+      } catch (e) {
+        panel.innerHTML = '<p class=\"sin-datos\">Error cargando el deshecho</p>';
+      }
+    }
+
+    function renderFichaDeshecho(d) {
+      const libros = d.apariciones?.libros ?? [];
+      const librosHtml = libros.length
+        ? libros.map(l => \`
+          <div class="libro-item">
+            <span class="libro-titulo">📕 \${l.titulo}</span>
+            \${l.rol ? \`<span class="libro-rol">\${l.rol}</span>\` : ''}
+            \${l.pov ? '<span class="libro-pov">POV</span>' : ''}
+          </div>\`).join('')
+        : '<p class=\"sin-datos\">Sin apariciones registradas</p>';
+
+      const poderesHtml = (d.poderes ?? []).length
+        ? \`<div class="tags">\${d.poderes.map(p => \`<span class="tag">⚡ \${p}</span>\`).join('')}</div>\`
+        : '<p class=\"sin-datos\">Sin poderes registrados</p>';
+
+      const histHtml = d.historia
+        ? \`
+          \${d.historia.resumen ? \`<p class="arco-resumen">\${d.historia.resumen}</p>\` : ''}
+          \${(d.historia.puntos_clave ?? []).map(pk => \`<div class="punto-clave">\${pk}</div>\`).join('')}
+        \` : '<p class=\"sin-datos\">Sin historia registrada</p>';
+
+      const badgeEstado = d.estado_actual?.includes('aprisiona') ? 'badge-muerto' :
+                          d.estado_actual?.includes('activo') ? 'badge-vivo' : 'badge-orden';
+
+      return \`
+        <div class="ficha">
+          <div class="ficha-header">
+            <div class="ficha-avatar" style="font-size:2.5rem;background:rgba(192,57,43,0.15);border-color:rgba(192,57,43,0.4)">🔴</div>
+            <div class="ficha-titulo">
+              <h2>\${d.nombre}</h2>
+              \${(d.apodos ?? []).length ? \`<div class="nombre-completo"><em>"\${d.apodos.join('", "')}"</em></div>\` : ''}
+              <div class="badges">
+                <span class="badge badge-heraldo">Deshecho</span>
+                <span class="badge \${badgeEstado}">\${d.estado_actual}</span>
+                <span class="badge badge-orden">\${d.nivel_consciencia?.split('—')[0]?.trim() || 'Consciencia desconocida'}</span>
+              </div>
+            </div>
+          </div>
+
+          \${d.descripcion_breve ? \`<div class="descripcion">\${d.descripcion_breve}</div>\` : ''}
+
+          <div class="grid-secciones">
+            <div class="seccion">
+              <div class="seccion-titulo">Datos generales</div>
+              \${[
+                ['Especie', d.especie],
+                ['Afiliación', d.afiliacion],
+                ['Consciencia', d.nivel_consciencia],
+                ['Estado', d.estado_actual],
+              ].map(([l,v]) => v ? \`
+                <div class="campo">
+                  <span class="campo-label">\${l}</span>
+                  <span class="campo-valor">\${v}</span>
+                </div>\` : '').join('')}
+            </div>
+
+            <div class="seccion">
+              <div class="seccion-titulo">Descripción física</div>
+              <p style="font-size:0.9rem;color:var(--blanco-perla)">\${d.descripcion_fisica || 'Apariencia desconocida'}</p>
+            </div>
+
+            <div class="seccion">
+              <div class="seccion-titulo">Poderes</div>
+              \${poderesHtml}
+            </div>
+
+            <div class="seccion">
+              <div class="seccion-titulo">Apariciones</div>
+              \${librosHtml}
+            </div>
+          </div>
+
+          <div class="seccion" style="margin-bottom:2rem">
+            <div class="seccion-titulo">Historia</div>
+            \${histHtml}
+          </div>
+
+          \${d.notas ? \`<div class="seccion"><div class="seccion-titulo">Notas</div><p style="font-size:0.85rem;color:var(--gris-plata);font-style:italic">\${d.notas}</p></div>\` : ''}
+        </div>
+      \`;
     }
 
     // ── Heraldos ───────────────────────────────────────────
