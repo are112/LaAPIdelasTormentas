@@ -84,6 +84,13 @@
     "estado_actual": "fallecido"
   },
   {
+    "id": "gavinor",
+    "nombre": "Gavinor",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "godeke",
     "nombre": "Godeke",
     "orden": "Danzantes del Filo",

@@ -1,0 +1,79 @@
+{
+  "id": "gavinor",
+  "nombre": "Gavinor",
+  "nombre_completo": "Gavinor Kholin",
+  "apodos": ["El Príncipe Heredero"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      { "titulo": "Juramentada",           "rol": "menor", "pov": false },
+      { "titulo": "El Ritmo de la Guerra", "rol": "menor", "pov": false },
+      { "titulo": "Viento y Verdad",       "rol": "menor", "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Corona de Alezkar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Príncipe heredero de Alezkar",
+      "Hijo del rey Elhokar",
+      "Nieto de Gavilar y Navani"
+    ],
+    "descripcion": "Niño pequeño, hijo único del rey Elhokar y la reina Aesudan. Es el heredero legítimo del trono de Alezkar. Presenció la muerte de su padre siendo un bebé, sosteniéndolo Elhokar en brazos en su último momento.",
+    "estado_en_viento_y_verdad": "Bajo la tutela de Jasnah como heredero del trono. Su futuro como rey es una de las responsabilidades que pesan sobre la familia Kholin."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "elhokar", "relacion": "padre; fallecido" },
+      { "personaje": "Aesudan", "relacion": "madre; fallecida en Kholinar" },
+      { "personaje": "gavilar", "relacion": "abuelo paterno; fallecido" },
+      { "personaje": "navani",  "relacion": "abuela paterna" },
+      { "personaje": "jasnah",  "relacion": "tía; tutora y regente" },
+      { "personaje": "adolin",  "relacion": "primo" },
+      { "personaje": "renarin", "relacion": "primo" },
+      { "personaje": "dalinar", "relacion": "tío abuelo; fallecido" }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Niño que ha sufrido pérdidas devastadoras desde muy temprana edad — padre asesinado, madre fallecida, ciudad natal destruida.",
+    "evolucion": "Sin información suficiente por su corta edad y escasa presencia narrativa.",
+    "situacion_en_viento_y_verdad": "Bajo tutela de Jasnah. Su desarrollo psicológico tras las pérdidas sufridas no está desarrollado en los textos."
+  },
+  "arco_narrativo": {
+    "resumen": "Gavinor nació como príncipe heredero de Alezkar. Su madre Aesudan fue corrompida por un Portador del Vacío durante el asedio de Kholinar y murió. Su padre Elhokar lo sostenía en brazos cuando Moash lo asesinó, intentando pronunciar el Primer Ideal de los Radiantes. Quedó huérfano de ambos padres siendo un bebé y está bajo la tutela de su tía Jasnah, actual Reina de Alezkar.",
+    "puntos_clave": [
+      "Nace como hijo único del rey Elhokar y la reina Aesudan, heredero del trono de Alezkar.",
+      "Su madre Aesudan es corrompida por un Portador del Vacío durante el asedio de Kholinar y muere.",
+      "Su padre Elhokar lo sostenía en brazos cuando fue asesinado por Moash en el palacio de Kholinar.",
+      "Queda bajo la tutela de su tía Jasnah, coronada Reina de Alezkar.",
+      "Es el heredero legítimo del trono de Alezkar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Príncipe heredero de Alezkar",
+    "rol": "Heredero dinástico bajo tutela de Jasnah",
+    "relacion_con_spren": "",
+    "otros_detalles": "Heredero legítimo del trono de Alezkar. Jasnah gobierna como regente hasta que tenga edad de reinar."
+  },
+  "descripcion_breve": "Hijo único del rey Elhokar y heredero del trono de Alezkar. Quedó huérfano de ambos padres siendo un bebé y está bajo la tutela de su tía Jasnah. Su importancia es dinástica — el futuro de la corona de Alezkar recae en él.",
+  "notas": "Elhokar sostenía a Gavinor en brazos intentando pronunciar el Primer Ideal cuando Moash lo mató — uno de los momentos más impactantes de Juramentada."
+}
