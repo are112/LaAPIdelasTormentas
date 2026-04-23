@@ -945,32 +945,6 @@ router.get("/", (req, res) => {
     }
 
     // ── Render ficha ───────────────────────────────────────
-    // ── Enlace automático de entidades por nombre ─────────
-    function enlazarEntidad(nombre) {
-      if (!nombre || typeof nombre !== 'string') return nombre;
-      const nombreLower = nombre.toLowerCase().trim();
-
-      const persona = todos.find(p =>
-        p.nombre.toLowerCase() === nombreLower ||
-        p.id.toLowerCase() === nombreLower
-      );
-      if (persona) return '<span class="relacion-nombre clickable" onclick="verPersonaje(\'' + persona.id + '\')">'+nombre+'</span>';
-
-      const spren = todosSpren.find(s =>
-        s.nombre.toLowerCase() === nombreLower ||
-        s.id.toLowerCase() === nombreLower
-      );
-      if (spren) return '<span class="relacion-nombre clickable" onclick="verSpren(\'' + spren.id + '\')">'+nombre+'</span>';
-
-      const heraldo = todosHeraldos.find(h =>
-        h.nombre.toLowerCase() === nombreLower ||
-        h.id.toLowerCase() === nombreLower
-      );
-      if (heraldo) return '<span class="relacion-nombre clickable" onclick="verHeraldo(\'' + heraldo.id + '\')">'+nombre+'</span>';
-
-      return nombre;
-    }
-
     function renderFicha(p, rel) {
       const orden = p.orden_radiantes?.orden;
       const nivel = p.orden_radiantes?.nivel_ideal;
@@ -1275,6 +1249,35 @@ router.get("/", (req, res) => {
     });
 
     // ── Init ───────────────────────────────────────────────
+    // ── Enlace automático de entidades por nombre ─────────
+    function enlazarEntidad(nombre) {
+      if (!nombre || typeof nombre !== 'string') return nombre;
+      const nombreLower = nombre.toLowerCase().trim();
+
+      // Buscar en personajes
+      const persona = todos.find(p =>
+        p.nombre.toLowerCase() === nombreLower ||
+        p.id.toLowerCase() === nombreLower
+      );
+      if (persona) return \`<span class="relacion-nombre clickable" onclick="verPersonaje('\${persona.id}')">\${nombre}</span>\`;
+
+      // Buscar en spren
+      const spren = todosSpren.find(s =>
+        s.nombre.toLowerCase() === nombreLower ||
+        s.id.toLowerCase() === nombreLower
+      );
+      if (spren) return \`<span class="relacion-nombre clickable" onclick="verSpren('\${spren.id}')">\${nombre}</span>\`;
+
+      // Buscar en heraldos
+      const heraldo = todosHeraldos.find(h =>
+        h.nombre.toLowerCase() === nombreLower ||
+        h.id.toLowerCase() === nombreLower
+      );
+      if (heraldo) return \`<span class="relacion-nombre clickable" onclick="verHeraldo('\${heraldo.id}')">\${nombre}</span>\`;
+
+      return nombre;
+    }
+
     function heraldoImgError(img, id) {
       if (!img.dataset.fallback) {
         img.dataset.fallback = '1';
@@ -1404,24 +1407,45 @@ router.get("/", (req, res) => {
         : '<p class="sin-datos">Sin habilidades registradas</p>';
 
       const relacionesHtml = [
-        ...(h.relaciones?.familia ?? []).map(r => \`
+        ...(h.relaciones?.familia ?? []).map(r => {
+          const personajeRef = todos.find(p => p.id === r.personaje);
+          const tieneJSON = !!personajeRef;
+          const nombreMostrado = personajeRef ? personajeRef.nombre : r.personaje;
+          const clickAttr = tieneJSON ? \`onclick="verPersonaje('\${r.personaje}')"\` : '';
+          const clase = tieneJSON ? 'relacion-nombre clickable' : 'relacion-nombre';
+          return \`
           <div class="relacion-grupo">
             <div class="relacion-grupo-titulo">👪 familia</div>
             <div class="relacion-item">
-              <span class="relacion-nombre">${enlazarEntidad(r.personaje)}</span>
+              <span class="\${clase}" \${clickAttr}>\${nombreMostrado}</span>
               <span class="relacion-tipo">\${r.relacion}</span>
             </div>
-          </div>\`),
-        ...(h.relaciones?.heraldos ?? []).map(r => \`
+          </div>\`;
+        }),
+        ...(h.relaciones?.heraldos ?? []).map(r => {
+          const personajeRef = todos.find(p => p.id === r.personaje);
+          const tieneJSON = !!personajeRef;
+          const nombreMostrado = personajeRef ? personajeRef.nombre : r.personaje;
+          const clickAttr = tieneJSON ? \`onclick="verPersonaje('\${r.personaje}')"\` : '';
+          const clase = tieneJSON ? 'relacion-nombre clickable' : 'relacion-nombre';
+          return \`
           <div class="relacion-item">
-            <span class="relacion-nombre">\${enlazarEntidad(r.personaje)}</span>
+            <span class="\${clase}" \${clickAttr}>\${nombreMostrado}</span>
             <span class="relacion-tipo">\${r.relacion}</span>
-          </div>\`),
-        ...(h.relaciones?.otros ?? []).map(r => \`
+          </div>\`;
+        }),
+        ...(h.relaciones?.otros ?? []).map(r => {
+          const personajeRef = todos.find(p => p.id === r.personaje);
+          const tieneJSON = !!personajeRef;
+          const nombreMostrado = personajeRef ? personajeRef.nombre : r.personaje;
+          const clickAttr = tieneJSON ? \`onclick="verPersonaje('\${r.personaje}')"\` : '';
+          const clase = tieneJSON ? 'relacion-nombre clickable' : 'relacion-nombre';
+          return \`
           <div class="relacion-item">
-            <span class="relacion-nombre">\${enlazarEntidad(r.personaje)}</span>
+            <span class="\${clase}" \${clickAttr}>\${nombreMostrado}</span>
             <span class="relacion-tipo">\${r.relacion}</span>
-          </div>\`),
+          </div>\`;
+        }),
       ].join('') || '<p class="sin-datos">Sin relaciones registradas</p>';
 
       return \`
