@@ -2,11 +2,7 @@
   "id": "shallan",
   "nombre": "Shallan",
   "nombre_completo": "Shallan Davar",
-  "apodos": [
-    "LuzdeSol",
-    "Velo",
-    "Radiante"
-  ],
+  "apodos": ["LuzdeSol", "Velo", "Radiante", "Luminosa"],
   "sexo": "femenino",
   "especie": "humano",
   "nacionalidad": "veden",
@@ -15,164 +11,100 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario",
-        "pov": true
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "protagonista",
-        "pov": true
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "protagonista",
-        "pov": true
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "protagonista",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "protagonista",
-        "pov": true
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": true  },
+      { "titulo": "Palabras Radiantes",     "rol": "protagonista",         "pov": true  },
+      { "titulo": "Juramentada",            "rol": "protagonista",         "pov": true  },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "protagonista",         "pov": true  },
+      { "titulo": "Viento y Verdad",        "rol": "protagonista",         "pov": true  }
     ]
   },
   "afiliaciones": [
     "Casa Davar",
     "Caballeros Radiantes",
     "Tejedores de Luz",
-    "Velo",
-    "Radiante",
-    "Coalición de Urithiru",
+    "Coalición de Monarcas",
     "Sangre Espectral (infiltración)"
   ],
   "orden_radiantes": {
     "orden": "Tejedores de Luz",
     "nivel_ideal": 4,
-    "spren_asociado": {
-      "principal": "Patrón"
-    },
-    "spren_anterior": "Testimonio",
-    "estado_del_vinculo": "complejo pero funcional"
+    "spren_asociado": { "principal": "Patrón" },
+    "estado_del_vinculo": "Activo. Alcanzó el Cuarto Ideal en Viento y Verdad al aceptar plenamente la verdad de haber matado a su madre y a su padre."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Iluminación",
-        "Transformación"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Iluminación", "Transformación"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "memoria fotográfica",
-      "dibujo y arte",
-      "espionaje",
-      "infiltración",
-      "manipulación social",
-      "investigación"
+      "Memoria fotográfica y capacidad de dibujo excepcional",
+      "Espionaje e infiltración",
+      "Manipulación social y actuación",
+      "Investigación y análisis",
+      "Oratoria"
     ]
   },
   "identidades": {
     "principales": [
-      "Shallan",
-      "Velo",
-      "Radiante"
+      "Shallan Davar — su identidad base, creativa y vulnerable",
+      "Velo — identidad de espía callejera, práctica y sin escrúpulos",
+      "Radiante — identidad de Caballera Radiante, disciplinada y marcial",
+      "LuzdeSol — identidad de esposa de Adolin, cálida y social"
     ],
-    "descripcion": "Identidades creadas como mecanismo de supervivencia y herramientas funcionales para misiones de infiltración.",
-    "estado_en_viento_y_verdad": "proceso de integración y aceptación parcial"
+    "descripcion": "Joven veden de pelo rojizo y ojos azules. Sus múltiples identidades nacieron como mecanismo de supervivencia frente a los traumas de su infancia. Cada una encarna un aspecto distinto de su personalidad que Shallan disocióescindió para poder funcionar. A lo largo de la saga trabaja para integrarlas en una identidad unificada.",
+    "estado_en_viento_y_verdad": "Investiga el misterio de la Deshecha Ba-Ado-Mishram junto a Renarin y Rlain. Alcanza el Cuarto Ideal al pronunciar las verdades más difíciles de su pasado. Avanza hacia la integración de sus identidades."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "lin_davar",
-        "relacion": "padre"
-      },
-      {
-        "personaje": "malise_gevelmar",
-        "relacion": "madre"
-      },
-      {
-        "personaje": "helaran",
-        "relacion": "hermano"
-      },
-      {
-        "personaje": "balat",
-        "relacion": "hermano"
-      },
-      {
-        "personaje": "wikim",
-        "relacion": "hermano"
-      },
-      {
-        "personaje": "jushu",
-        "relacion": "hermano"
-      }
+      { "personaje": "adolin",          "relacion": "esposo" },
+      { "personaje": "Lin Davar",       "relacion": "padre; fallecido — ella lo envenenó" },
+      { "personaje": "Malise Gevelmar", "relacion": "madre; fallecida — ella la mató en defensa propia con Testimonio" },
+      { "personaje": "Helaran",         "relacion": "hermano mayor; fallecido" },
+      { "personaje": "Balat",           "relacion": "hermano" },
+      { "personaje": "Wikim",           "relacion": "hermano" },
+      { "personaje": "Jushu",           "relacion": "hermano" }
     ],
     "amigos": [
-      {
-        "personaje": "adolin",
-        "relacion": "esposo"
-      },
-      {
-        "personaje": "kaladin",
-        "relacion": "amigo"
-      },
-      {
-        "personaje": "navani",
-        "relacion": "aliada"
-      },
-      {
-        "personaje": "Patrón",
-        "relacion": "spren aliado"
-      },
-      {
-        "personaje": "hoid",
-        "relacion": "aliado"
-      },
-      {
-        "personaje": "jasnah",
-        "relacion": "aliado"
-      }
+      { "personaje": "jasnah",  "relacion": "mentora y aliada; relación de respeto mutuo y afecto" },
+      { "personaje": "kaladin", "relacion": "amigo; tensión romántica no resuelta en el pasado" },
+      { "personaje": "navani",  "relacion": "aliada" },
+      { "personaje": "renarin", "relacion": "aliado; compañero en la investigación de VyV" },
+      { "personaje": "rlain",   "relacion": "aliado; compañero en la investigación de VyV" },
+      { "personaje": "hoid",    "relacion": "aliado misterioso; conexión desde su infancia" }
     ],
     "enemigos": [
-      {
-        "personaje": "mraize",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "Sangre Espectral",
-        "relacion": "enemigos"
-      }
+      { "personaje": "Mraize",         "relacion": "líder de la Sangre Espectral; la manipula y usa como agente" },
+      { "personaje": "Sangre Espectral","relacion": "organización que la controla mediante chantaje" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "trastorno disociativo con identidades funcionales",
-    "evolucion": "oscilante, con avances significativos en integración",
-    "situacion_en_viento_y_verdad": "mayor aceptación de su pasado y de sus identidades"
+    "diagnostico_general": "Trastorno disociativo de identidad desarrollado como mecanismo de supervivencia frente a los traumas de haber matado a su madre a los once años y a su padre años después. Cada identidad cumple una función protectora distinta.",
+    "evolucion": "Comienza negando sus traumas detrás de las identidades. A lo largo de la saga pronuncia Verdades progresivamente más difíciles que la acercan a aceptar lo que hizo. El Cuarto Ideal — reconocer que mató a su madre y a su padre y que sobrevivir no la hace mala persona — es la culminación de su arco de salud mental.",
+    "situacion_en_viento_y_verdad": "Mayor integración entre sus identidades. Pronuncia las verdades más oscuras de su pasado y avanza hacia una identidad más unificada y estable."
   },
   "arco_narrativo": {
-    "resumen": "Shallan pasa de ser una joven noble traumatizada a una espía maestra, Caballera Radiante y figura clave en la lucha contra la Sangre Espectral.",
+    "resumen": "Shallan crece en una familia disfuncional en Jah Keved, mata a su madre a los once años en defensa propia y reprime el recuerdo, rompiendo su primer vínculo con la críptica Testimonio. Años después viaja a Kharbranth para robar el moldeador de almas de Jasnah y salvar a su familia. Acaba convirtiéndose en discípula de Jasnah, Tejedora de Luz y figura clave en la lucha contra la Sangre Espectral, mientras trabaja por integrar sus identidades disociadas.",
     "puntos_clave": [
-      "muerte de sus padres",
-      "vínculo con Patrón",
-      "creación de identidades disociadas",
-      "matrimonio con Adolin",
-      "infiltración en la Sangre Espectral",
-      "descubrimiento de verdades sobre su pasado",
-      "proceso de integración emocional en Viento y Verdad"
+      "A los once años mata a su madre con la hoja esquirlada de Testimonio en defensa propia; reprime el recuerdo y rompe el vínculo, convirtiendo a Testimonio en ojomuerta.",
+      "Años después envenena a su padre Lin Davar para proteger a sus hermanos.",
+      "Viaja a Kharbranth con intención de robar el moldeador de almas de Jasnah Kholin.",
+      "Jasnah descubre sus intenciones pero decide tomarla como pupila.",
+      "Se vincula con Patrón, un nuevo críptico, sin recordar que ya había tenido vínculo con Testimonio.",
+      "Sobrevive al hundimiento del Placer del Viento; llega a las Llanuras Quebradas.",
+      "Se infiltra en la Sangre Espectral adoptando la identidad de Velo.",
+      "Se casa con Adolin en Urithiru.",
+      "Pronuncia el Tercer Ideal al aceptar que mató a su madre.",
+      "En Viento y Verdad investiga el misterio de Ba-Ado-Mishram junto a Renarin y Rlain.",
+      "Pronuncia el Cuarto Ideal al aceptar también la muerte de su padre y que sobrevivir no la convierte en mala persona.",
+      "Avanza hacia la integración de LuzdeSol, Velo, Radiante y Shallan en una identidad unificada."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "espía e investigadora para la Coalición de Urithiru",
-    "rol": "agente clave contra la Sangre Espectral",
-    "relacion_con_spren": "vínculo Nahel con Patrón",
-    "otros_detalles": "fuerte vínculo emocional y operativo con Adolin"
+    "ocupacion": "Tejedora de Luz del Cuarto Ideal; investigadora y agente de la Coalición",
+    "rol": "Protagonista; figura clave en la investigación de Ba-Ado-Mishram",
+    "relacion_con_spren": "Vínculo activo con Patrón. Testimonio, su críptica original, sigue ojomuerta.",
+    "otros_detalles": "Porta la hoja esquirlada de Testimonio (ojomuerta). La Sangre Espectral sigue siendo una amenaza activa en su vida."
   },
-  "descripcion_breve": "Caballera Radiante de los Tejedores de Luz, espía experta y artista con memoria perfecta.",
-  "notas": "Uno de los personajes más complejos psicológicamente de la saga, con un arco centrado en la identidad, el trauma y la verdad."
+  "descripcion_breve": "Tejedora de Luz veden con múltiples identidades disociadas nacidas del trauma. Espía, artista y Caballera Radiante cuyo arco gira en torno a la verdad, el trauma y la integración de su identidad.",
+  "notas": "Es descendiente de un Heraldo según Testimonio. Su primer vínculo fue con Testimonio, una críptica que se convirtió en ojomuerta al romper Shallan el vínculo. Patrón es su segundo críptico. El campo spren_anterior se elimina de la plantilla estándar y se documenta aquí."
 }
