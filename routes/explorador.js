@@ -1092,7 +1092,7 @@ router.get("/", (req, res) => {
               \${orden ? \`
                 <div class="campo"><span class="campo-label">Orden</span><span class="campo-valor">\${orden}</span></div>
                 \${p.orden_radiantes?.spren_asociado?.principal
-                  ? \`<div class="campo"><span class="campo-label">Spren</span><span class="campo-valor">\${p.orden_radiantes.spren_asociado.principal}</span></div>\`
+                  ? \`<div class="campo"><span class="campo-label">Spren</span><span class="campo-valor">\${enlazarEntidad(p.orden_radiantes.spren_asociado.principal)}</span></div>\`
                   : ''}
                 \${p.orden_radiantes?.estado_del_vinculo
                   ? \`<div class="campo"><span class="campo-label">Vínculo</span><span class="campo-valor">\${p.orden_radiantes.estado_del_vinculo}</span></div>\`
@@ -1249,6 +1249,35 @@ router.get("/", (req, res) => {
     });
 
     // ── Init ───────────────────────────────────────────────
+    // ── Enlace automático de entidades por nombre ─────────
+    function enlazarEntidad(nombre) {
+      if (!nombre || typeof nombre !== 'string') return nombre;
+      const nombreLower = nombre.toLowerCase().trim();
+
+      // Buscar en personajes
+      const persona = todos.find(p =>
+        p.nombre.toLowerCase() === nombreLower ||
+        p.id.toLowerCase() === nombreLower
+      );
+      if (persona) return \`<span class="relacion-nombre clickable" onclick="verPersonaje('\${persona.id}')">\${nombre}</span>\`;
+
+      // Buscar en spren
+      const spren = todosSpren.find(s =>
+        s.nombre.toLowerCase() === nombreLower ||
+        s.id.toLowerCase() === nombreLower
+      );
+      if (spren) return \`<span class="relacion-nombre clickable" onclick="verSpren('\${spren.id}')">\${nombre}</span>\`;
+
+      // Buscar en heraldos
+      const heraldo = todosHeraldos.find(h =>
+        h.nombre.toLowerCase() === nombreLower ||
+        h.id.toLowerCase() === nombreLower
+      );
+      if (heraldo) return \`<span class="relacion-nombre clickable" onclick="verHeraldo('\${heraldo.id}')">\${nombre}</span>\`;
+
+      return nombre;
+    }
+
     function heraldoImgError(img, id) {
       if (!img.dataset.fallback) {
         img.dataset.fallback = '1';
@@ -1685,11 +1714,11 @@ router.get("/", (req, res) => {
             <div class="seccion">
               <div class="seccion-titulo">Vínculo Nahel</div>
               \${[
-                ['Radiante', vinculo.radiante_actual],
+                ['Radiante', enlazarEntidad(vinculo.radiante_actual)],
                 ['Orden', vinculo.orden_radiante],
                 ['Forma esquirlada', vinculo.forma_shardblade],
                 ['Estado vínculo', vinculo.estado_vinculo],
-                ['Radiante anterior', vinculo.radiante_anterior],
+                ['Radiante anterior', enlazarEntidad(vinculo.radiante_anterior)],
               ].map(([l,v]) => v ? \`
                 <div class="campo">
                   <span class="campo-label">\${l}</span>
