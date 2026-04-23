@@ -266,17 +266,17 @@
     "estado_actual": "viva"
   },
   {
-    "id": "vasher",
-    "nombre": "Vasher",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo"
-  },
-  {
     "id": "venli",
     "nombre": "Venli",
     "orden": "Escultores de Voluntad",
     "nivel_ideal": 2,
     "estado_actual": "viva"
+  },
+  {
+    "id": "zahel",
+    "nombre": "Zahel",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   }
 ]

@@ -1,0 +1,117 @@
+{
+  "id": "zahel",
+  "nombre": "Zahel",
+  "nombre_completo": "Zahel",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "retornado",
+  "nacionalidad": "nalthiense",
+  "origen": "Desconocido (externo a Roshar)",
+  "planeta_natal": "Nalthis",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fervorosos de Urithiru (como Zahel)",
+    "Casa Kholin (maestro espadachín)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Despertar (usado puntualmente en Roshar)",
+        "Retornado: cambio de apariencia a voluntad y curación acelerada",
+        "Uso de luz tormentosa como sustituto de Alientos para mantenerse vivo"
+      ],
+      "fuente_de_luz": "luz tormentosa (como sustituto de Alientos en Roshar)"
+    },
+    "no_magicas": [
+      "Espadachín excepcional",
+      "Maestro de armas alezi en Urithiru",
+      "Entrenó a Adolin, Renarin y Kaladin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Zahel, maestro espadachín y fervoroso en Urithiru",
+      "Portador de Sangre Nocturna (temporalmente)",
+      "Saltamundos del Cosmere"
+    ],
+    "descripcion": "En Roshar se presenta como Zahel, maestro de armas de la familia Kholin. Hombre alto, brusco y cascarrabias con problemas para expresarse. Pelo largo, barba negra corta, ropas pardas y ojos que parecen muy viejos. Usa expresiones con referencias a colores que confunden a los rosharianos.",
+    "estado_en_viento_y_verdad": "Activo en Roshar; pendiente de actualización."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "discípulo en esgrima; le traspasa Sangre Nocturna"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "discípulo en esgrima"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "discípulo en esgrima"
+      },
+      {
+        "personaje": "szeth",
+        "relacion": "le entrega Sangre Nocturna para que la porte"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Cargado por siglos de culpa y pérdida que arrastra desde antes de llegar a Roshar. Su ira oculta lo mejor de él. Mantiene un perfil deliberadamente bajo.",
+    "evolucion": "En Roshar vive un exilio voluntario como Zahel. Muestra momentos de genuina implicación, especialmente al entregar Sangre Nocturna a Szeth.",
+    "situacion_en_viento_y_verdad": "Activo; pendiente de actualización."
+  },
+  "arco_narrativo": {
+    "resumen": "Vasher llegó a Roshar en algún momento previo a los eventos de la saga adoptando la identidad de Zahel, maestro de armas de la familia Kholin en Urithiru. Usa luz tormentosa para mantenerse vivo en sustitución de los Alientos que necesitaría en Nalthis. Entrena a Adolin, Renarin y Kaladin, y finalmente entrega Sangre Nocturna a Szeth.",
+    "puntos_clave": [
+      "Llega a Roshar con una historia previa desconocida para los rosharianos; adopta la identidad de Zahel.",
+      "Se establece como maestro de armas y fervoroso en Urithiru.",
+      "Entrena en esgrima a Adolin, Renarin y Kaladin.",
+      "Usa luz tormentosa absorbida para mantenerse vivo, en lugar de consumir Alientos.",
+      "Entrega Sangre Nocturna a Szeth para que la porte en Viento y Verdad."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Maestro espadachín y fervoroso en Urithiru (como Zahel)",
+    "rol": "Personaje de trasfondo con conocimiento profundo del Cosmere",
+    "relacion_con_spren": "",
+    "otros_detalles": "No puede usar luz tormentosa para despertar objetos, solo para mantenerse vivo."
+  },
+  "descripcion_breve": "Conocido en Roshar como Zahel, maestro de armas de la familia Kholin en Urithiru. Saltamundos de origen externo a Roshar que usa luz tormentosa para mantenerse vivo y mantiene un perfil deliberadamente bajo.",
+  "notas": "En Roshar se presenta exclusivamente como Zahel. Su nombre real y su historia previa al llegar al planeta se omiten deliberadamente. Usa expresiones con referencias a colores, herencia de su cultura de origen."
+}
