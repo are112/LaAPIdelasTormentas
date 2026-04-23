@@ -24,7 +24,8 @@ router.get("/openapi.json", (req, res) => {
 
 // Endpoint que sirve la UI de Swagger vía CDN
 router.get("/", (req, res) => {
-  const baseUrl = `${req.protocol}://${req.get("host")}`;
+  const proto = req.headers["x-forwarded-proto"] || req.protocol;
+  const baseUrl = `${proto}://${req.get("host")}`;
 
   const html = `<!DOCTYPE html>
 <html lang="es">
