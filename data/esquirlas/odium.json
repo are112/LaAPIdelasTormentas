@@ -1,0 +1,61 @@
+{
+  "id": "odium",
+  "nombre": "Odium",
+  "apodos": ["El Dios Oscuro", "La Pasión (como se llama a sí mismo)"],
+  "estado_actual": "absorbida por Represalia",
+  "planeta": "Roshar",
+  "intencion": "Odio, pasión destructiva y división",
+  "descripcion_breve": "Esquirla del odio y la pasión destructiva. El principal antagonista de la saga hasta el final de Viento y Verdad. Tuvo dos Recipientes en Roshar: Rayse, asesinado por Taravangian, y el propio Taravangian, hasta que absorbió también Honor creando Represalia.",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "mencionado",           "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "mencionado",           "pov": false },
+      { "titulo": "Juramentada",            "rol": "antagonista",          "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "antagonista principal","pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "antagonista principal","pov": false }
+    ]
+  },
+  "recipientes": [
+    {
+      "nombre": "Rayse",
+      "estado": "fallecido",
+      "periodo": "Desde la llegada de la Esquirla a Roshar hasta su muerte en El Ritmo de la Guerra",
+      "notas": "Rayse fue el Recipiente original de Odium en Roshar. De carácter cruel y calculador, usó la Esquirla para matar a otros Recipientes de Esquirlas, incluyendo a Tanavast (Honor). Fue asesinado por Taravangian con una daga de fabriales en un momento de máxima inteligencia y mínima compasión."
+    },
+    {
+      "nombre": "Taravangian",
+      "estado": "activo (como Represalia)",
+      "periodo": "Desde la muerte de Rayse en El Ritmo de la Guerra hasta la fusión con Honor al final de Viento y Verdad",
+      "notas": "Taravangian absorbió Odium al matar a Rayse. Como nuevo Recipiente desarrolló una voluntad e intención propias distintas a las de Rayse, renombrando la Esquirla como Represalia. Al final de VyV absorbe también los fragmentos de Honor, creando una nueva Esquirla combinada."
+    }
+  ],
+  "manifestaciones_en_roshar": [
+    "Luz del vacío — contrapartida de la luz tormentosa, fuente de poder de los Fusionados",
+    "Los Fusionados — cantores que entregaron sus almas a Odium durante las Desolaciones",
+    "Los Portadores del Vacío — cantores poseídos por espíritus de Odium",
+    "Los Deshechos — fragmentos de la mente de Odium con voluntad propia",
+    "La Emoción (Nergaoul) — uno de los Deshechos que infunde ira combativa",
+    "El Ritmo del Odio — ritmo cantor asociado a la Esquirla"
+  ],
+  "historia": {
+    "resumen": "Odium llegó a Roshar con Rayse como Recipiente y desencadenó las Desolaciones enviando a los Fusionados y Portadores del Vacío contra la humanidad. Mató a Tanavast, fragmentando Honor. Estuvo atrapado en el sistema de Roshar por los límites del Juramento. Rayse fue asesinado por Taravangian, quien absorbió la Esquirla. Como nuevo Recipiente, Taravangian renombró la Esquirla Represalia y al final de VyV absorbió también los fragmentos de Honor.",
+    "puntos_clave": [
+      "Llega a Roshar con Rayse como Recipiente.",
+      "Desencadena las Desolaciones enviando Fusionados y Portadores del Vacío.",
+      "Mata a Tanavast (Honor), fragmentando esa Esquirla.",
+      "Queda atrapado en el sistema de Roshar por los límites del Juramento establecido con Honor.",
+      "Corrompe a los cantores durante las Desolaciones; los Fusionados entregan sus almas.",
+      "Crea o libera a los Deshechos como extensiones de su voluntad.",
+      "Establece el pacto del duelo de campeones con Dalinar en El Ritmo de la Guerra.",
+      "Rayse es asesinado por Taravangian con una daga de fabriales.",
+      "Taravangian absorbe Odium y lo renombra Represalia.",
+      "Al final de VyV, Taravangian absorbe también los fragmentos de Honor, creando Represalia."
+    ]
+  },
+  "relacion_con_otras_esquirlas": {
+    "honor": "Enemiga. Odium mató a Tanavast y fragmentó Honor. Al final absorbida junto con los fragmentos de Honor en Represalia.",
+    "cultivacion": "Enemiga. No logró eliminar a Cultivación pese a haber matado a Honor.",
+    "represalia": "Absorbida. Odium es uno de los componentes de Represalia."
+  },
+  "notas": "Rayse prefería llamar a la Esquirla 'la Pasión' en lugar de Odium. Los límites del Juramento entre Honor y Odium atraparon a la Esquirla en el sistema de Roshar, impidiendo que Rayse pudiera escapar. Taravangian al absorberla la renombró Represalia, reflejando su intención diferente a la de Rayse."
+}

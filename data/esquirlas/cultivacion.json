@@ -1,0 +1,51 @@
+{
+  "id": "cultivacion",
+  "nombre": "Cultivación",
+  "apodos": ["La Vigilante Nocturna (creación suya, no la Esquirla misma)"],
+  "estado_actual": "activa",
+  "planeta": "Roshar",
+  "intencion": "Crecimiento, cambio, desarrollo y adaptación",
+  "descripcion_breve": "Esquirla activa en Roshar que reside en los Picos Comecuernos. Su intención es el crecimiento y el cambio a largo plazo. Actúa de forma sutil y planificada, manipulando eventos con una visión a muy largo plazo.",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "mencionada",           "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario",           "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario",           "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario importante","pov": false }
+    ]
+  },
+  "recipientes": [
+    {
+      "nombre": "Koravellium Avast",
+      "estado": "viva",
+      "periodo": "Desde la llegada de la Esquirla a Roshar hasta el presente",
+      "notas": "Koravellium Avast es el Recipiente actual de Cultivación. Reside en los Picos Comecuernos. Actúa con una visión a larguísimo plazo, manipulando sutilmente los eventos de Roshar. Concedió la bendición a Lift y a Taravangian, entre otros."
+    }
+  ],
+  "manifestaciones_en_roshar": [
+    "Cultivationspren — spren creados por Cultivación (wyndle, entre otros)",
+    "La Vigilante Nocturna — entidad creada por Cultivación que concede deseos",
+    "Perpendicularidad de Cultivación — acceso al Reino Espiritual en los Picos Comecuernos",
+    "Viva Luz — investidura otorgada a Lift que convierte alimentos en investidura",
+    "Bendiciones de la Vigilante Nocturna — modificaciones concedidas a través de su agente"
+  ],
+  "historia": {
+    "resumen": "Cultivación llegó a Roshar junto con Honor y se alió con él frente a Odium. Mientras Honor murió durante las Desolaciones, Cultivación sobrevivió actuando con extrema cautela y una visión a muy largo plazo. Sus acciones incluyen la creación de la Vigilante Nocturna, la concesión de bendiciones a personajes clave como Lift y Taravangian, y una manipulación sutil de los eventos que se va revelando a lo largo de la saga.",
+    "puntos_clave": [
+      "Llega a Roshar junto con Honor; se alían frente a Odium.",
+      "Crea a la Vigilante Nocturna como agente en el mundo.",
+      "Sobrevive a las Desolaciones gracias a su cautela y visión a largo plazo.",
+      "Concede una bendición a Taravangian: inteligencia fluctuante sin compasión o compasión sin inteligencia.",
+      "Concede una bendición a Lift: la Viva Luz, convirtiendo alimentos en investidura.",
+      "Sus cultivationspren se vinculan con Radiantes de la orden Danzantes del Filo.",
+      "Su plan a largo plazo para Roshar no se ha revelado completamente en la saga.",
+      "Activa durante los eventos de Viento y Verdad desde los Picos Comecuernos."
+    ]
+  },
+  "relacion_con_otras_esquirlas": {
+    "honor": "Aliada histórica. Colaboraron en la defensa de Roshar durante las Desolaciones.",
+    "odium": "Enemiga. Odium mató a Honor pero no ha podido eliminar a Cultivación.",
+    "represalia": "Pendiente — su relación con Represalia tras los eventos de VyV aún se desarrolla."
+  },
+  "notas": "Koravellium Avast es el nombre de su Recipiente. La Vigilante Nocturna es una entidad creada por Cultivación, no la Esquirla misma. Sus bendiciones siempre tienen un coste o torsión que refleja la naturaleza del crecimiento y el cambio."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "represalia",
+  "nombre": "Represalia",
+  "apodos": [],
+  "estado_actual": "activa",
+  "planeta": "Roshar",
+  "intencion": "Represalia — combinación de Honor y Odium; su intención exacta aún se está definiendo",
+  "descripcion_breve": "Esquirla resultante de la fusión de Odium y los fragmentos de Honor, portada por Taravangian al final de Viento y Verdad. La primera Esquirla combinada de la saga. Su intención y alcance están aún en formación.",
+  "apariciones": {
+    "libros": [
+      { "titulo": "Viento y Verdad", "rol": "antagonista principal", "pov": false }
+    ]
+  },
+  "recipientes": [
+    {
+      "nombre": "Taravangian",
+      "estado": "activo",
+      "periodo": "Desde el final de Viento y Verdad",
+      "notas": "Taravangian absorbe los fragmentos de Honor junto con Odium al final de VyV, creando Represalia. Es el único Recipiente de esta nueva Esquirla. Su carácter como dios es distinto al de Rayse — tiene voluntad e intención propias que se están definiendo."
+    }
+  ],
+  "manifestaciones_en_roshar": [
+    "Poder combinado de Honor y Odium — aún en definición",
+    "Luz de guerra — creada por Rabeniel y Navani, posiblemente una manifestación temprana de esta combinación",
+    "Control sobre los Fusionados y Portadores del Vacío (heredado de Odium)",
+    "Capacidad de crear y sostener vínculos (heredado de Honor)"
+  ],
+  "historia": {
+    "resumen": "Represalia nace al final de Viento y Verdad cuando Taravangian, ya Recipiente de Odium, absorbe también los fragmentos de la Esquirla de Honor. Es la primera Esquirla combinada conocida en la saga. Su naturaleza, intención y alcance están aún en proceso de formación durante los eventos del libro.",
+    "puntos_clave": [
+      "Taravangian, ya Recipiente de Odium, absorbe los fragmentos de Honor al final de VyV.",
+      "Nace Represalia — primera Esquirla combinada de la saga.",
+      "Su intención es una combinación de las de Honor y Odium, aún en definición.",
+      "Taravangian actúa como antagonista principal durante los eventos de VyV.",
+      "Su poder combinado supera al de cualquiera de las Esquirlas individuales."
+    ]
+  },
+  "relacion_con_otras_esquirlas": {
+    "honor": "Componente absorbido. Los fragmentos de Honor forman parte de Represalia.",
+    "odium": "Componente absorbido. Odium es el otro componente de Represalia.",
+    "cultivacion": "Relación pendiente de definir tras los eventos de VyV."
+  },
+  "notas": "Represalia es una entidad sin precedentes en Roshar — la fusión de dos Esquirlas en una sola. Su intención exacta y su relación con Cultivación son los grandes interrogantes que quedan abiertos al final de la saga."
+}

@@ -8,6 +8,7 @@ import exploradorRoutes from "./routes/explorador.js";
 import sprenRoutes from "./routes/spren.js";
 import heraldosRoutes from "./routes/heraldos.js";
 import deshechoRoutes from "./routes/deshechos.js";
+import esquirlasRoutes from "./routes/esquirlas.js";
 
 const app = express();
 app.use(express.json());
@@ -20,6 +21,7 @@ app.use("/ordenes", ordenesRoutes);
 app.use("/spren", sprenRoutes);
 app.use("/heraldos", heraldosRoutes);
 app.use("/deshechos", deshechoRoutes);
+app.use("/esquirlas", esquirlasRoutes);
 app.use("/stats", statsRoutes);
 app.use("/explorador", exploradorRoutes);
 app.use("/api-docs", docsRoutes);

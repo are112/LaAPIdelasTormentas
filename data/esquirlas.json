@@ -1,0 +1,6 @@
+[
+  { "id": "honor",      "nombre": "Honor",      "estado_actual": "fragmentada",           "recipiente_actual": null },
+  { "id": "cultivacion","nombre": "Cultivación","estado_actual": "activa",                "recipiente_actual": "Koravellium Avast" },
+  { "id": "odium",      "nombre": "Odium",      "estado_actual": "absorbida por Represalia","recipiente_actual": null },
+  { "id": "represalia", "nombre": "Represalia", "estado_actual": "activa",                "recipiente_actual": "Taravangian" }
+]

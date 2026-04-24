@@ -1,0 +1,55 @@
+{
+  "id": "honor",
+  "nombre": "Honor",
+  "apodos": ["El Todopoderoso", "Dios Tormenta (confusión popular con el Padre Tormenta)"],
+  "estado_actual": "fragmentada",
+  "planeta": "Roshar",
+  "intencion": "Honor, juramentos, vínculos y compromisos",
+  "descripcion_breve": "Esquirla que rigió Roshar durante milenios a través de los Heraldos y los Caballeros Radiantes. Fragmentada por Odium, su poder residual persiste en la luz tormentosa, los spren de honor y el Padre Tormenta.",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "mencionada (visiones)", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "mencionada",           "pov": false },
+      { "titulo": "Juramentada",            "rol": "mencionada",           "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "mencionada",           "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario importante","pov": false }
+    ]
+  },
+  "recipientes": [
+    {
+      "nombre": "Tanavast",
+      "estado": "fallecido",
+      "periodo": "Desde la llegada de la Esquirla a Roshar hasta su muerte a manos de Odium",
+      "notas": "Tanavast fue el Recipiente de Honor durante toda la era de las Desolaciones. Odium lo mató, fragmentando la Esquirla. Sus últimas comunicaciones con los Heraldos se produjeron a través del Padre Tormenta."
+    }
+  ],
+  "manifestaciones_en_roshar": [
+    "Luz tormentosa — energía fundamental de los Caballeros Radiantes",
+    "Honorspren — spren creados directamente por Honor",
+    "El Padre Tormenta — fragmento consciente de Honor que habita en la Gran Tormenta",
+    "Perpendicularidad de Honor — acceso al Reino Espiritual creado por Honor",
+    "Los Ideales de los Caballeros Radiantes — estructura de vínculos basada en la intención de Honor",
+    "Los Heraldos — creados y vinculados por Honor al Juramento"
+  ],
+  "historia": {
+    "resumen": "Honor llegó a Roshar y se alió con Cultivación. Creó a los Heraldos y estableció el sistema de los Caballeros Radiantes para defender a la humanidad durante las Desolaciones. Odium lo mató, fragmentando la Esquirla. Su poder residual persiste en el Padre Tormenta y la luz tormentosa. Al final de Viento y Verdad, Taravangian absorbe los fragmentos de Honor junto con Odium, creando Represalia.",
+    "puntos_clave": [
+      "Llega a Roshar y se alía con Cultivación.",
+      "Crea a los Diez Heraldos y los vincula al Juramento.",
+      "Establece el sistema de los Caballeros Radiantes y los vínculos Nahel.",
+      "Durante las Desolaciones protege a la humanidad contra los Portadores del Vacío.",
+      "Odium lo mata; la Esquirla se fragmenta pero no se destruye.",
+      "Sus fragmentos persisten en el Padre Tormenta, la luz tormentosa y los honorspren.",
+      "El Padre Tormenta envía visiones a Dalinar instándole a unificar a los Radiantes.",
+      "Dalinar abre la Perpendicularidad de Honor en Thaylenah usando el poder residual de la Esquirla.",
+      "Navani se convierte en Forjadora de Vínculos al vincularse con el Hermano, spren de Urithiru.",
+      "Al final de VyV, Taravangian absorbe los fragmentos de Honor junto con Odium, creando Represalia."
+    ]
+  },
+  "relacion_con_otras_esquirlas": {
+    "cultivacion": "Aliada. Honor y Cultivación colaboraron en la defensa de Roshar durante las Desolaciones.",
+    "odium": "Enemiga. Odium mató a Tanavast y fragmentó la Esquirla de Honor.",
+    "represalia": "Absorbida. Los fragmentos de Honor forman parte de Represalia al final de VyV."
+  },
+  "notas": "El Padre Tormenta es un fragmento consciente de Honor que habita en la Gran Tormenta. Los honorspren son hijos directos de Honor. La Perpendicularidad de Honor permite el acceso al Reino Espiritual en Roshar."
+}
