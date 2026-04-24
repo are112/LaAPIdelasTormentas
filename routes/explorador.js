@@ -587,13 +587,13 @@ router.get("/", (req, res) => {
 
     /* Grid de secciones */
     .grid-secciones {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1.25rem;
+      columns: 2 280px;
+      column-gap: 1.25rem;
       margin-bottom: 2rem;
-      align-items: start;
     }
     .seccion {
+      break-inside: avoid;
+      margin-bottom: 1.25rem;
       background: rgba(255,255,255,0.025);
       border: 1px solid rgba(255,255,255,0.07);
       border-radius: 7px;
@@ -851,7 +851,7 @@ router.get("/", (req, res) => {
       }
       .lista-scroll { max-height: 160px; }
       .ficha-header { flex-direction: column; }
-      .grid-secciones { grid-template-columns: 1fr; }
+      .grid-secciones { columns: 1; }
       .historial-barra { display: none; }
     }
   </style>
