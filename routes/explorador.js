@@ -591,6 +591,7 @@ router.get("/", (req, res) => {
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 1.25rem;
       margin-bottom: 2rem;
+      align-items: start;
     }
     .seccion {
       background: rgba(255,255,255,0.025);
