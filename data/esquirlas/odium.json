@@ -1,11 +1,11 @@
 {
   "id": "odium",
   "nombre": "Odium",
-  "apodos": ["El Dios Oscuro", "La Pasión (como se llama a sí mismo)"],
-  "estado_actual": "absorbida por Represalia",
+  "apodos": ["La Pasión (como prefería llamarse Rayse)", "El Dios Oscuro"],
+  "estado_actual": "absorbida en Represalia",
   "planeta": "Roshar",
-  "intencion": "Odio, pasión destructiva y división",
-  "descripcion_breve": "Esquirla del odio y la pasión destructiva. El principal antagonista de la saga hasta el final de Viento y Verdad. Tuvo dos Recipientes en Roshar: Rayse, asesinado por Taravangian, y el propio Taravangian, hasta que absorbió también Honor creando Represalia.",
+  "intencion": "Odio puro y pasión destructiva sin consecuencias",
+  "descripcion_breve": "Esquirla del odio y la pasión destructiva. Principal antagonista de la saga. Llegó a Roshar habiendo ya asesinado a Dominio, Devoción y Ambición. Fue atrapada en el sistema roshariano por Honor y Cultivación. Tuvo dos Recipientes: Rayse, que la portó durante milenios hasta ser asesinado por Taravangian, y el propio Taravangian hasta que fusionó Odium con Honor creando Represalia.",
   "apariciones": {
     "libros": [
       { "titulo": "El Camino de los Reyes", "rol": "mencionado",           "pov": false },
@@ -19,43 +19,48 @@
     {
       "nombre": "Rayse",
       "estado": "fallecido",
-      "periodo": "Desde la llegada de la Esquirla a Roshar hasta su muerte en El Ritmo de la Guerra",
-      "notas": "Rayse fue el Recipiente original de Odium en Roshar. De carácter cruel y calculador, usó la Esquirla para matar a otros Recipientes de Esquirlas, incluyendo a Tanavast (Honor). Fue asesinado por Taravangian con una daga de fabriales en un momento de máxima inteligencia y mínima compasión."
+      "periodo": "Desde antes de la llegada a Roshar hasta su muerte en El Ritmo de la Guerra (1174)",
+      "notas": "Rayse portó Odium durante decenas de miles de años. Era cruel, calculador y obsesionado con eliminar a otras Esquirlas. Había asesinado a Dominio, Devoción y Ambición antes de llegar a Roshar. Fue debilitándose progresivamente por sus batallas contra Honor. Taravangian lo mató manipulando a Szeth para que ambos acudieran a él simultáneamente: cuando Rayse lo llevó a una visión, Taravangian agarró el aspecto cognitivo de Sangre Nocturna y lo apuñaló. Sangre Nocturna consumió su cuerpo, dejando el de Taravangian en su lugar para confundir a Szeth."
     },
     {
       "nombre": "Taravangian",
       "estado": "activo (como Represalia)",
-      "periodo": "Desde la muerte de Rayse en El Ritmo de la Guerra hasta la fusión con Honor al final de Viento y Verdad",
-      "notas": "Taravangian absorbió Odium al matar a Rayse. Como nuevo Recipiente desarrolló una voluntad e intención propias distintas a las de Rayse, renombrando la Esquirla como Represalia. Al final de VyV absorbe también los fragmentos de Honor, creando una nueva Esquirla combinada."
+      "periodo": "Desde la muerte de Rayse (Vevishev 1174) hasta la fusión con Honor al final de Viento y Verdad (Palahanah 1175)",
+      "notas": "Taravangian ascendió en su día menos inteligente y más emocional, lo que le permitió conectar con la Intención de la Esquirla. Al ascender obtuvo tanto emoción como inteligencia en mayor proporción que antes, junto con todo el poder de Odium. Se dio cuenta de que Rayse había sido esclavizado por el poder. Renombró la Esquirla Represalia y desarrolló una filosofía distinta a la de Rayse: celebrar las pasiones en lugar de consumirlas. Manipuló a Hoid borrando sus recuerdos para que creyera que Rayse seguía siendo el Recipiente. Al final de VyV fusionó Odium con Honor creando Represalia."
     }
   ],
   "manifestaciones_en_roshar": [
-    "Luz del vacío — contrapartida de la luz tormentosa, fuente de poder de los Fusionados",
-    "Los Fusionados — cantores que entregaron sus almas a Odium durante las Desolaciones",
-    "Los Portadores del Vacío — cantores poseídos por espíritus de Odium",
-    "Los Deshechos — fragmentos de la mente de Odium con voluntad propia",
-    "La Emoción (Nergaoul) — uno de los Deshechos que infunde ira combativa",
+    "Luz del vacío — contrapartida de la luz tormentosa; fuente de poder de los Fusionados",
+    "Los Fusionados — cantores que entregaron sus almas a Odium durante las primeras Desolaciones",
+    "Los Portadores del Vacío — cantores poseídos por espíritus de vacío (vacíospren)",
+    "Los Deshechos — nueve fragmentos de la mente de Odium con voluntad propia",
+    "La tormenta eterna — creada por Odium como contrapartida de la Gran Tormenta de Honor",
     "El Ritmo del Odio — ritmo cantor asociado a la Esquirla"
   ],
   "historia": {
-    "resumen": "Odium llegó a Roshar con Rayse como Recipiente y desencadenó las Desolaciones enviando a los Fusionados y Portadores del Vacío contra la humanidad. Mató a Tanavast, fragmentando Honor. Estuvo atrapado en el sistema de Roshar por los límites del Juramento. Rayse fue asesinado por Taravangian, quien absorbió la Esquirla. Como nuevo Recipiente, Taravangian renombró la Esquirla Represalia y al final de VyV absorbió también los fragmentos de Honor.",
+    "resumen": "Odium llegó a Roshar con Rayse como Recipiente, habiendo ya eliminado a otras tres Esquirlas. Junto con Honor y Cultivación firmó un contrato que le ató al sistema roshariano. Desencadenó las Desolaciones cuando los cantores invocaron su protección. Mató a Tanavast tras que Honor abandonara a su Recipiente. Quedó atrapado durante milenios hasta que Taravangian mató a Rayse y ascendió como nuevo Recipiente, renombrando la Esquirla Represalia. Al final de VyV fusionó Odium con Honor.",
     "puntos_clave": [
-      "Llega a Roshar con Rayse como Recipiente.",
-      "Desencadena las Desolaciones enviando Fusionados y Portadores del Vacío.",
-      "Mata a Tanavast (Honor), fragmentando esa Esquirla.",
-      "Queda atrapado en el sistema de Roshar por los límites del Juramento establecido con Honor.",
-      "Corrompe a los cantores durante las Desolaciones; los Fusionados entregan sus almas.",
-      "Crea o libera a los Deshechos como extensiones de su voluntad.",
-      "Establece el pacto del duelo de campeones con Dalinar en El Ritmo de la Guerra.",
-      "Rayse es asesinado por Taravangian con una daga de fabriales.",
-      "Taravangian absorbe Odium y lo renombra Represalia.",
-      "Al final de VyV, Taravangian absorbe también los fragmentos de Honor, creando Represalia."
+      "Llega a Roshar con Rayse habiendo ya asesinado a las Esquirlas Dominio, Devoción y Ambición.",
+      "Cincuenta años tras su llegada, Honor, Cultivación y Odium firman un contrato que ata a las tres Esquirlas al sistema roshariano.",
+      "Cuando las relaciones entre humanos y cantores se deterioran, los cantores invocan la protección de Odium. Los primeros Fusionados nacen al entregar sus almas.",
+      "Odium crea o libera a los Deshechos como extensiones de su voluntad durante las Desolaciones.",
+      "Durante la Falsa Desolación, Odium amenaza con atacar directamente a Honor. Ambos pactan: Honor se encargará de Ba-Ado-Mishram; Odium no atacará a Honor y acordará un duelo de campeones futuro.",
+      "Honor traiciona a Ba-Ado-Mishram; la Esquirla abandona a Tanavast. Odium aprovecha su debilidad para matarlo.",
+      "El Juramento que ata a Odium al sistema sobrevive a la muerte de Tanavast — Rayse no puede escapar.",
+      "Odium permanece atrapado en el sistema durante unos 4.500 años tras el Aharietiam.",
+      "Negocia con Taravangian: a cambio del Diagrama y la hoja de Honor, garantiza la seguridad de Kharbranth.",
+      "Propone a Dalinar un duelo de campeones. Dalinar rechaza que Odium pueda abandonar el sistema. Finalmente acuerdan términos: si gana el campeón de Dalinar, Odium devuelve Alezkar y Herdaz; si gana el de Odium, Dalinar sirve a sus intereses. En ambos casos Odium permanece en el sistema.",
+      "Odium intenta nombrar a Dalinar como su propio campeón; Dalinar se niega. Odium elige a Gavinor.",
+      "Taravangian manipula a Szeth y a Rayse para que acudan a él simultáneamente. Lo mata con el aspecto cognitivo de Sangre Nocturna.",
+      "Taravangian asciende como nuevo Recipiente de Odium (Vevishev 1174). Renombra la Esquirla Represalia.",
+      "Como nuevo Recipiente, Taravangian ve posibilidades de futuro que Rayse no había visto. Borra los recuerdos de Hoid para ocultar el cambio de Recipiente.",
+      "Al final de Viento y Verdad (Palahanah 1175), Taravangian fusiona Odium con los fragmentos de Honor creando Represalia."
     ]
   },
   "relacion_con_otras_esquirlas": {
-    "honor": "Enemiga. Odium mató a Tanavast y fragmentó Honor. Al final absorbida junto con los fragmentos de Honor en Represalia.",
-    "cultivacion": "Enemiga. No logró eliminar a Cultivación pese a haber matado a Honor.",
-    "represalia": "Absorbida. Odium es uno de los componentes de Represalia."
+    "honor": "Enemiga histórica. Odium mató a Tanavast y astilló Honor. El Juramento que ató a Odium al sistema fue creado por Honor. Al final absorbida junto con los fragmentos de Honor en Represalia.",
+    "cultivacion": "Enemiga. No logró eliminar a Cultivación pese a haber matado a Honor. Cultivación huyó del sistema tras la creación de Represalia.",
+    "represalia": "Componente absorbida. Odium es uno de los dos elementos de Represalia."
   },
-  "notas": "Rayse prefería llamar a la Esquirla 'la Pasión' en lugar de Odium. Los límites del Juramento entre Honor y Odium atraparon a la Esquirla en el sistema de Roshar, impidiendo que Rayse pudiera escapar. Taravangian al absorberla la renombró Represalia, reflejando su intención diferente a la de Rayse."
+  "notas": "Rayse prefería llamar a la Esquirla 'la Pasión' en lugar de Odium, considerando que su Intención era la pasión pura sin consecuencias. El Juramento que ata Odium al sistema roshariano sobrevivió a la muerte de Tanavast — solo podría romperse si el planeta era destruido o si el mayor Recipiente del poder de Honor lo liberaba voluntariamente. Al ascender Taravangian vio posibilidades de futuro que Rayse no había visto, lo que sugiere que la capacidad de visión futura está vinculada también al Recipiente."
 }
