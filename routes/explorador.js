@@ -977,7 +977,7 @@ router.get("/", (req, res) => {
       <span class="subtitulo">Un proyecto fan del Cosmere</span>
     </div>
     <div class="header-der">
-      <a href="/docs" title="Documentación de la API">API Docs</a>
+      <a href="https://laapidelastormentas.onrender.com/api-docs" title="Documentación de la API">API Docs</a>
     </div>
   </header>
 
