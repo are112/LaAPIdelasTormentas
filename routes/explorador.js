@@ -1162,6 +1162,37 @@ router.get("/", (req, res) => {
         .replace(/\b\w/g, c => c.toUpperCase());
     }
 
+    // ── Helper compartido: sección de relaciones estandarizada ──────────────
+    function renderSeccionRelaciones(grupos) {
+      const conDatos = grupos.filter(g => g.items?.length);
+      if (!conDatos.length) return '';
+      const columnas = conDatos.map(g => \`
+        <div class="relacion-grupo">
+          <div class="relacion-grupo-titulo">\${g.icono} \${g.titulo}</div>
+          \${g.items.map(r => {
+            const ref        = todos.find(px => px.id === r.id) || todos.find(px => px.nombre?.toLowerCase() === r.nombre?.toLowerCase());
+            const sprenRef   = todosSpren.find(s => s.id === r.id || s.nombre?.toLowerCase() === r.nombre?.toLowerCase());
+            const heraldoRef = todosHeraldos.find(h => h.id === r.id || h.nombre?.toLowerCase() === r.nombre?.toLowerCase());
+            let attr = 'class="relacion-nombre"';
+            if (ref)             attr = \`class="relacion-nombre clickable" onclick="verPersonaje('\${ref.id}')"\`;
+            else if (sprenRef)   attr = \`class="relacion-nombre clickable" onclick="verSpren('\${sprenRef.id}')"\`;
+            else if (heraldoRef) attr = \`class="relacion-nombre clickable" onclick="verHeraldo('\${heraldoRef.id}')"\`;
+            return \`
+            <div class="relacion-item">
+              <span \${attr}>\${r.nombre}</span>
+              <span class="relacion-tipo">\${r.relacion}</span>
+            </div>\`;
+          }).join('')}
+        </div>
+      \`).join('');
+      return \`
+        <div class="seccion-relaciones">
+          <div class="seccion-titulo">Relaciones</div>
+          <div class="relaciones-columnas">\${columnas}</div>
+        </div>
+      \`;
+    }
+
     // ── Render ficha personaje ─────────────────────────────
     function enlazarEntidad(nombre) {
       if (!nombre || typeof nombre !== 'string') return nombre;
@@ -1215,30 +1246,19 @@ router.get("/", (req, res) => {
       ].filter(Boolean).join('');
 
       // Relaciones
-      let relHtml = '<p class="sin-datos">Sin relaciones registradas</p>';
-      let tieneRelaciones = false;
-      if (rel?.relaciones) {
-        const iconos = { familia: '👪', amigos: '🤝', enemigos: '⚔' };
-        const grupos = Object.entries(rel.relaciones).filter(([,items]) => items?.length);
-        tieneRelaciones = grupos.length > 0;
-        relHtml = grupos.map(([tipo, items]) => \`
-          <div class="relacion-grupo">
-            <div class="relacion-grupo-titulo">\${iconos[tipo] || '•'} \${tipo}</div>
-            \${items.map(r => {
-              const personajeRef = todos.find(px => px.id === r.personaje);
-              const tieneJSON = !!personajeRef;
-              const nombreMostrado = personajeRef ? personajeRef.nombre : r.personaje;
-              const clickAttr = tieneJSON ? \`onclick="verPersonaje('\${r.personaje}')"\` : '';
-              const clase = tieneJSON ? 'relacion-nombre clickable' : 'relacion-nombre';
-              return \`
-              <div class="relacion-item">
-                <span class="\${clase}" \${clickAttr}>\${nombreMostrado}</span>
-                <span class="relacion-tipo">\${r.relacion}</span>
-              </div>\`;
-            }).join('')}
-          </div>
-        \`).join('');
-      }
+      // Relaciones — normalizar al formato del helper
+      const iconos = { familia: '👪', amigos: '🤝', enemigos: '⚔' };
+      const gruposRel = rel?.relaciones
+        ? Object.entries(rel.relaciones).map(([tipo, items]) => ({
+            titulo: tipo,
+            icono: iconos[tipo] || '•',
+            items: (items || []).map(r => {
+              const ref = todos.find(px => px.id === r.personaje);
+              return { id: r.personaje, nombre: ref ? ref.nombre : r.personaje, relacion: r.relacion };
+            })
+          }))
+        : [];
+      const relacionesPersonajeHtml = renderSeccionRelaciones(gruposRel);
 
       // Libros
       const librosHtml = libros.length
@@ -1403,12 +1423,7 @@ router.get("/", (req, res) => {
 
           </div>
 
-          \${tieneRelaciones ? \`
-          <div class="seccion-relaciones">
-            <div class="seccion-titulo">Relaciones</div>
-            <div class="relaciones-columnas">\${relHtml}</div>
-          </div>
-          \` : ''}
+          \${relacionesPersonajeHtml}
 
           <div class="seccion" style="margin-bottom:2rem">
             <div class="seccion-titulo">Arco narrativo</div>
@@ -1817,26 +1832,13 @@ router.get("/", (req, res) => {
         ? \`<div class="tags">\${h.habilidades.como_herald.map(hab => \`<span class="tag">✦ \${hab}</span>\`).join('')}</div>\`
         : '<p class="sin-datos">Sin habilidades registradas</p>';
 
-      const relacionesHtml = [
-        ...(h.relaciones?.familia ?? []).map(r => \`
-          <div class="relacion-grupo">
-            <div class="relacion-grupo-titulo">👪 familia</div>
-            <div class="relacion-item">
-              <span class="relacion-nombre">\${enlazarEntidad(r.personaje)}</span>
-              <span class="relacion-tipo">\${r.relacion}</span>
-            </div>
-          </div>\`),
-        ...(h.relaciones?.heraldos ?? []).map(r => \`
-          <div class="relacion-item">
-            <span class="relacion-nombre">\${enlazarEntidad(r.personaje)}</span>
-            <span class="relacion-tipo">\${r.relacion}</span>
-          </div>\`),
-        ...(h.relaciones?.otros ?? []).map(r => \`
-          <div class="relacion-item">
-            <span class="relacion-nombre">\${enlazarEntidad(r.personaje)}</span>
-            <span class="relacion-tipo">\${r.relacion}</span>
-          </div>\`),
-      ].join('') || '<p class="sin-datos">Sin relaciones registradas</p>';
+      // Relaciones heraldo — normalizar al helper
+      const gruposHeraldo = [
+        { titulo: 'familia',  icono: '👪', items: (h.relaciones?.familia  ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
+        { titulo: 'heraldos', icono: '🛡', items: (h.relaciones?.heraldos ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
+        { titulo: 'otros',    icono: '•',  items: (h.relaciones?.otros    ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
+      ];
+      const relacionesHeraldoHtml = renderSeccionRelaciones(gruposHeraldo);
 
       return \`
         <div class="ficha">
@@ -1917,16 +1919,13 @@ router.get("/", (req, res) => {
             </div>
 
             <div class="seccion">
-              <div class="seccion-titulo">Relaciones</div>
-              \${relacionesHtml}
-            </div>
-
-            <div class="seccion">
               <div class="seccion-titulo">Apariciones</div>
               \${librosHtml}
             </div>
 
           </div>
+
+          \${relacionesHeraldoHtml}
 
           <div class="seccion" style="margin-bottom:2rem">
             <div class="seccion-titulo">Historia</div>
@@ -2188,6 +2187,11 @@ router.get("/", (req, res) => {
             </div>
 
           </div>
+
+          \${renderSeccionRelaciones([
+            { titulo: 'radiante vinculado', icono: '✦', items: s.relaciones?.radiante_vinculado ? [{ id: s.relaciones.radiante_vinculado.personaje, nombre: s.relaciones.radiante_vinculado.personaje, relacion: s.relaciones.radiante_vinculado.relacion }] : [] },
+            { titulo: 'otros', icono: '•', items: (s.relaciones?.otros ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
+          ])}
 
           <div class="seccion" style="margin-bottom:2rem">
             <div class="seccion-titulo">Historia</div>
