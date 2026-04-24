@@ -651,8 +651,23 @@ router.get("/", (req, res) => {
       opacity: 1;
     }
 
-    /* Relaciones */
-    .relacion-grupo { margin-bottom: 0.75rem; }
+    /* Relaciones — sección ancho completo con columnas internas */
+    .seccion-relaciones {
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 7px;
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+      transition: border-color 0.2s;
+    }
+    .seccion-relaciones:hover { border-color: rgba(255,255,255,0.13); }
+    .relaciones-columnas {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.25rem;
+      align-items: start;
+    }
+    .relacion-grupo { margin-bottom: 0; }
     .relacion-grupo-titulo {
       font-size: 0.75rem;
       text-transform: uppercase;
@@ -1201,9 +1216,12 @@ router.get("/", (req, res) => {
 
       // Relaciones
       let relHtml = '<p class="sin-datos">Sin relaciones registradas</p>';
+      let tieneRelaciones = false;
       if (rel?.relaciones) {
         const iconos = { familia: '👪', amigos: '🤝', enemigos: '⚔' };
-        relHtml = Object.entries(rel.relaciones).map(([tipo, items]) => \`
+        const grupos = Object.entries(rel.relaciones).filter(([,items]) => items?.length);
+        tieneRelaciones = grupos.length > 0;
+        relHtml = grupos.map(([tipo, items]) => \`
           <div class="relacion-grupo">
             <div class="relacion-grupo-titulo">\${iconos[tipo] || '•'} \${tipo}</div>
             \${items.map(r => {
@@ -1362,11 +1380,6 @@ router.get("/", (req, res) => {
             </div>
 
             <div class="seccion">
-              <div class="seccion-titulo">Relaciones</div>
-              \${relHtml}
-            </div>
-
-            <div class="seccion">
               <div class="seccion-titulo">Apariciones</div>
               \${librosHtml}
             </div>
@@ -1389,6 +1402,13 @@ router.get("/", (req, res) => {
             </div>
 
           </div>
+
+          \${tieneRelaciones ? \`
+          <div class="seccion-relaciones">
+            <div class="seccion-titulo">Relaciones</div>
+            <div class="relaciones-columnas">\${relHtml}</div>
+          </div>
+          \` : ''}
 
           <div class="seccion" style="margin-bottom:2rem">
             <div class="seccion-titulo">Arco narrativo</div>
