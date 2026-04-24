@@ -1,51 +1,59 @@
 {
   "id": "cultivacion",
   "nombre": "Cultivación",
-  "apodos": ["La Vigilante Nocturna (creación suya, no la Esquirla misma)"],
-  "estado_actual": "activa",
-  "planeta": "Roshar",
-  "intencion": "Crecimiento, cambio, desarrollo y adaptación",
-  "descripcion_breve": "Esquirla activa en Roshar que reside en los Picos Comecuernos. Su intención es el crecimiento y el cambio a largo plazo. Actúa de forma sutil y planificada, manipulando eventos con una visión a muy largo plazo.",
+  "apodos": ["Aquella Que Trae los Rocíos al Alba", "Koravari"],
+  "estado_actual": "activa (huyó del sistema roshariano tras la creación de Represalia)",
+  "planeta": "Roshar (hasta la Noche de las Penas)",
+  "intencion": "Crecimiento, cambio, desarrollo y mejora a través del esfuerzo y el conflicto",
+  "descripcion_breve": "Esquirla del crecimiento y el cambio, portada por la dragona Koravellium Avast. Aliada y pareja de Honor. Sobrevivió a las Desolaciones actuando con extrema cautela y una visión de futuro superior a la de Honor. Intervino personalmente en las bendiciones de Dalinar, Lift y Taravangian, orquestando sutilmente el ascenso de Taravangian a Odium. Su Investidura se asocia al color verde.",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "mencionada",           "pov": false },
-      { "titulo": "Juramentada",            "rol": "secundario",           "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario",           "pov": false },
-      { "titulo": "Viento y Verdad",        "rol": "secundario importante","pov": false }
+      { "titulo": "El Camino de los Reyes",  "rol": "mencionada",           "pov": false },
+      { "titulo": "Palabras Radiantes",      "rol": "secundario",           "pov": false },
+      { "titulo": "Juramentada",             "rol": "secundario",           "pov": false },
+      { "titulo": "El Ritmo de la Guerra",   "rol": "mencionada",           "pov": false },
+      { "titulo": "Viento y Verdad",         "rol": "secundario importante","pov": false }
     ]
   },
   "recipientes": [
     {
       "nombre": "Koravellium Avast",
-      "estado": "viva",
-      "periodo": "Desde la llegada de la Esquirla a Roshar hasta el presente",
-      "notas": "Koravellium Avast es el Recipiente actual de Cultivación. Reside en los Picos Comecuernos. Actúa con una visión a larguísimo plazo, manipulando sutilmente los eventos de Roshar. Concedió la bendición a Lift y a Taravangian, entre otros."
+      "estado": "activa",
+      "periodo": "Desde la Fragmentación de Adonalsium hasta el presente",
+      "notas": "Koravellium Avast era una dragona de Yolen antes de tomar la Esquirla. Era pareja romántica de Tanavast (Recipiente de Honor) — comparten las cinco últimas letras de sus nombres. Cuando interactúa con mortales adopta la apariencia de una mujer de tez oscura, complexión matronal, cara redonda y melena negra muy rizada. Tiene visión de futuro superior a la de Honor. Lloró la muerte de Tanavast. Hoid la conoce con el apodo de Slammer, aunque están en malos términos por razones desconocidas. Orquestó el ascenso de Taravangian a Odium concediéndole personalmente su bendición. Huyó del sistema roshariano tras la creación de Represalia."
     }
   ],
   "manifestaciones_en_roshar": [
-    "Cultivationspren — spren creados por Cultivación (wyndle, entre otros)",
-    "La Vigilante Nocturna — entidad creada por Cultivación que concede deseos",
-    "Perpendicularidad de Cultivación — acceso al Reino Espiritual en los Picos Comecuernos",
-    "Viva Luz — investidura otorgada a Lift que convierte alimentos en investidura",
-    "Bendiciones de la Vigilante Nocturna — modificaciones concedidas a través de su agente"
+    "Cultivationspren — spren de Cultivación; los más conocidos son los wyndle (vinculados a Danzantes del Filo)",
+    "La Vigilante Nocturna — poderoso spren creado directamente por Cultivación; concede bendiciones y maldiciones mediante la Antigua Magia",
+    "El Hermano (Sibling) — creado junto a Honor; spren de Urithiru",
+    "Perpendicularidad de Cultivación — uno o todos los Océanos Comecuernos en los Picos Comecuernos; puerta al Reino Espiritual",
+    "Antigua Magia — sistema de bendiciones y maldiciones gestionado por la Vigilante Nocturna pero supervisado por Cultivación",
+    "Viva Luz — investidura concedida a Lift que convierte alimentos en luz tormentosa propia",
+    "La habilidad alaii'iku de los Unkalaki — posiblemente influenciada por la proximidad a la Perpendicularidad de Cultivación"
   ],
   "historia": {
-    "resumen": "Cultivación llegó a Roshar junto con Honor y se alió con él frente a Odium. Mientras Honor murió durante las Desolaciones, Cultivación sobrevivió actuando con extrema cautela y una visión a muy largo plazo. Sus acciones incluyen la creación de la Vigilante Nocturna, la concesión de bendiciones a personajes clave como Lift y Taravangian, y una manipulación sutil de los eventos que se va revelando a lo largo de la saga.",
+    "resumen": "Cultivación llegó a Roshar junto con Honor, con quien mantenía una relación romántica. Juntos invistieron el planeta por igual y se convirtieron en dioses de los cantores. Tras la llegada de Odium, colaboró con Honor para atraparlo en el sistema. A diferencia de Honor, sobrevivió a las Desolaciones actuando con extrema cautela y planificación a muy largo plazo. Creó a la Vigilante Nocturna y al Hermano junto con Honor. En la Era de la Soledad, intervino personalmente en las bendiciones de tres individuos clave: Dalinar, Lift y Taravangian, orquestando sutilmente el ascenso de este último a Odium. Huyó del sistema tras la creación de Represalia.",
     "puntos_clave": [
-      "Llega a Roshar junto con Honor; se alían frente a Odium.",
-      "Crea a la Vigilante Nocturna como agente en el mundo.",
-      "Sobrevive a las Desolaciones gracias a su cautela y visión a largo plazo.",
-      "Concede una bendición a Taravangian: inteligencia fluctuante sin compasión o compasión sin inteligencia.",
-      "Concede una bendición a Lift: la Viva Luz, convirtiendo alimentos en investidura.",
-      "Sus cultivationspren se vinculan con Radiantes de la orden Danzantes del Filo.",
-      "Su plan a largo plazo para Roshar no se ha revelado completamente en la saga.",
-      "Activa durante los eventos de Viento y Verdad desde los Picos Comecuernos."
+      "Llega a Roshar junto con Honor; eran pareja romántica. Invisten el planeta por igual.",
+      "Se convierten en dioses de los cantores. Acogen a los humanos llegados de Ashyn.",
+      "Colabora con Honor para crear el pacto que atrapa a Odium en el sistema roshariano.",
+      "Crea a la Vigilante Nocturna directamente, con el objetivo de hacer una criatura que crezca sin influencia de la percepción humana.",
+      "Crea al Hermano (Sibling) junto con Honor — spren de Urithiru.",
+      "Tras la muerte de Honor, Cultivación se retira públicamente de los asuntos de Roshar. Los cultivacispren creen que los ha abandonado. En realidad, estaba planificando.",
+      "Conserva capacidad de herir o matar a Odium — Rayse se abstuvo de matar al Padre Tormenta por miedo a exponerse a un contraataque de Cultivación.",
+      "Interviene personalmente (no a través de la Vigilante Nocturna) en la bendición de Dalinar: le borra el recuerdo de Evi como 'poda' para que pueda crecer y sanar; promete que los recuerdos volverán.",
+      "Interviene personalmente en la bendición de Lift: le otorga la Viva Luz — convierte alimentos en investidura propia.",
+      "Interviene personalmente en la bendición de Taravangian: le concede inteligencia y emoción fluctuantes, preparándolo para poder Ascender a Odium cuando tuviera un día de alta emoción y baja inteligencia.",
+      "Conversa con Taravangian tras su Ascensión a Odium, explicándole algo sobre la naturaleza de su nuevo poder.",
+      "Huye del sistema roshariano tras la creación de Represalia y se esconde en un lugar desconocido.",
+      "La Perpendicularidad de Cultivación desaparece cuando Cultivación abandona el sistema."
     ]
   },
   "relacion_con_otras_esquirlas": {
-    "honor": "Aliada histórica. Colaboraron en la defensa de Roshar durante las Desolaciones.",
-    "odium": "Enemiga. Odium mató a Honor pero no ha podido eliminar a Cultivación.",
-    "represalia": "Pendiente — su relación con Represalia tras los eventos de VyV aún se desarrolla."
+    "honor": "Aliada y pareja romántica de sus Recipientes. Invistieron Roshar por igual. Cultivación lloró la muerte de Tanavast. El Padre Tormenta le recuerda a Honor y ella siente por él lo mismo que sentía por la Esquirla.",
+    "odium": "Enemiga. Odium no atacó a Honor en ciertas ocasiones por temor al contraataque de Cultivación. Orquestó el ascenso de Taravangian a Odium, influyendo en el cambio de Recipiente.",
+    "represalia": "Huyó del sistema tras su creación. Su relación futura con Represalia es desconocida."
   },
-  "notas": "Koravellium Avast es el nombre de su Recipiente. La Vigilante Nocturna es una entidad creada por Cultivación, no la Esquirla misma. Sus bendiciones siempre tienen un coste o torsión que refleja la naturaleza del crecimiento y el cambio."
+  "notas": "La Investidura de Cultivación se asocia al color verde. Koravellium Avast era una dragona de Yolen. Hoid la llama Slammer y están en malos términos por razones desconocidas. La Perpendicularidad de Cultivación forma uno o todos los Océanos Comecuernos en los Picos Comecuernos. Las tres bendiciones directas de Cultivación (Dalinar, Lift, Taravangian) son confirmadas por Brandon Sanderson como especialmente importantes, aunque aún no ha explicado por qué. Koravellium orquestó deliberadamente el ascenso de Taravangian a Odium — le concedió una bendición diseñada para permitirle Ascender cuando llegara el momento adecuado."
 }
