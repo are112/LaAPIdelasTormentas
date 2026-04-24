@@ -447,6 +447,7 @@ router.get("/", (req, res) => {
       padding: 2rem;
       overflow-y: auto;
       height: 100%;
+      position: relative;
     }
 
     /* Estado vacío */
@@ -455,13 +456,15 @@ router.get("/", (req, res) => {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      width: 100%;
       height: 100%;
-      min-height: 400px;
       opacity: 0.4;
       text-align: center;
       gap: 1rem;
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
     }
-    .estado-vacio .icono { font-size: 4rem; animation: pulsar 4s infinite; }
     .estado-vacio p { font-size: 1.1rem; font-style: italic; color: var(--gris-plata); }
 
     /* Cargando */
@@ -2101,7 +2104,7 @@ router.get("/", (req, res) => {
                 ['Creador',       s.origen?.creador],
                 ['Lugar creación',s.origen?.lugar_creacion],
                 ['Generación',    s.origen?.generacion],
-                ['Splinter de',   s.es_splinter_de],
+                ['Astilla de',    s.es_splinter_de],
                 ['Mundo natal',   s.mundo_natal],
                 ['Estado',        s.estado_actual],
               ].map(([l,v]) => v ? \`
