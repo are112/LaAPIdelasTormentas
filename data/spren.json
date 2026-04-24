@@ -1,42 +1,322 @@
 [
-  { "id": "sylphrena",               "nombre": "Sylphrena",               "apodo": "Syl",    "tipo_spren": "honorspren",       "radiante_vinculado": "kaladin",        "estado_actual": "activa" },
-  { "id": "patron",                  "nombre": "Patrón",                  "apodo": null,     "tipo_spren": "críptico",         "radiante_vinculado": "shallan",        "estado_actual": "activo" },
-  { "id": "wyndle",                  "nombre": "Wyndle",                  "apodo": null,     "tipo_spren": "cultivacispren",   "radiante_vinculado": "lift",           "estado_actual": "activo" },
-  { "id": "glys",                    "nombre": "Glys",                    "apodo": null,     "tipo_spren": "brumaspren",       "radiante_vinculado": "renarin",        "estado_actual": "activo" },
-  { "id": "marfil",                  "nombre": "Marfil",                  "apodo": null,     "tipo_spren": "tintaspren",       "radiante_vinculado": "jasnah",         "estado_actual": "activo" },
-  { "id": "timbre",                  "nombre": "Timbre",                  "apodo": null,     "tipo_spren": "alcanzador",       "radiante_vinculado": "venli",          "estado_actual": "activo" },
-  { "id": "mayalaran",               "nombre": "Mayalaran",               "apodo": "Maya",   "tipo_spren": "cultivacispren",   "radiante_vinculado": "adolin",         "estado_actual": "activa" },
-  { "id": "testimonio",              "nombre": "Testimonio",              "apodo": null,     "tipo_spren": "críptico",         "radiante_vinculado": "shallan",        "estado_actual": "activa" },
-  { "id": "chispa",                  "nombre": "Chispa",                  "apodo": null,     "tipo_spren": "cenizaspren",      "radiante_vinculado": "malata",         "estado_actual": "activa" },
-  { "id": "auxiliar",                "nombre": "Auxiliar",                "apodo": "Aux",    "tipo_spren": "altospren",        "radiante_vinculado": "nomada",         "estado_actual": "muerto" },
-  { "id": "mayal",                   "nombre": "Mayal",                   "apodo": null,     "tipo_spren": "altospren",        "radiante_vinculado": "ki",             "estado_actual": "activo" },
-  { "id": "121",                     "nombre": "121",                     "apodo": null,     "tipo_spren": "altospren",        "radiante_vinculado": "nale",           "estado_actual": "activo" },
-  { "id": "archinal",                "nombre": "Archinal",                "apodo": null,     "tipo_spren": "cultivacispren",   "radiante_vinculado": "godeke",         "estado_actual": "activa" },
-  { "id": "borea",                   "nombre": "Borea",                   "apodo": null,     "tipo_spren": "honorspren",       "radiante_vinculado": null,             "estado_actual": "activa" },
-  { "id": "caelinora",               "nombre": "Caelinora",               "apodo": null,     "tipo_spren": "honorspren",       "radiante_vinculado": "huio",           "estado_actual": "activa" },
-  { "id": "diseno",                  "nombre": "Diseño",                  "apodo": null,     "tipo_spren": "críptico",         "radiante_vinculado": "hoid",           "estado_actual": "activa" },
-  { "id": "el-hermano",              "nombre": "El Hermano",              "apodo": null,     "tipo_spren": "spren primigenio", "radiante_vinculado": "navani",         "estado_actual": "activo" },
-  { "id": "ico",                     "nombre": "Ico",                     "apodo": null,     "tipo_spren": "alcanzador",       "radiante_vinculado": null,             "estado_actual": "activo" },
-  { "id": "mezcla",                  "nombre": "Mezcla",                  "apodo": null,     "tipo_spren": "tintaspren",       "radiante_vinculado": null,             "estado_actual": "activa" },
-  { "id": "mosaico",                 "nombre": "Mosaico",                 "apodo": null,     "tipo_spren": "críptico",         "radiante_vinculado": "vathah",         "estado_actual": "activo" },
-  { "id": "motivo",                  "nombre": "Motivo",                  "apodo": null,     "tipo_spren": "críptico",         "radiante_vinculado": "ishnah",         "estado_actual": "activo" },
-  { "id": "noche",                   "nombre": "La Noche",                "apodo": null,     "tipo_spren": "spren primigenio", "radiante_vinculado": null,             "estado_actual": "ausente de Roshar" },
-  { "id": "notum",                   "nombre": "Notum",                   "apodo": null,     "tipo_spren": "honorspren",       "radiante_vinculado": null,             "estado_actual": "activo" },
-  { "id": "ornamento",               "nombre": "Ornamento",               "apodo": null,     "tipo_spren": "críptico",         "radiante_vinculado": "berila",         "estado_actual": "activo" },
-  { "id": "padre-tormenta",          "nombre": "Padre Tormenta",          "apodo": null,     "tipo_spren": "spren primigenio", "radiante_vinculado": null,             "estado_actual": "muerto" },
-  { "id": "phendorana",              "nombre": "Phendorana",              "apodo": null,     "tipo_spren": "honorspren",       "radiante_vinculado": null,             "estado_actual": "muerta" },
-  { "id": "piedra",                  "nombre": "La Piedra",               "apodo": null,     "tipo_spren": "spren primigenio", "radiante_vinculado": null,             "estado_actual": "activa" },
-  { "id": "riah",                    "nombre": "Riah",                    "apodo": null,     "tipo_spren": "honorspren",       "radiante_vinculado": null,             "estado_actual": "muerta" },
-  { "id": "rua",                     "nombre": "Rua",                     "apodo": "Naco",   "tipo_spren": "honorspren",       "radiante_vinculado": "lopen",          "estado_actual": "activo" },
-  { "id": "sekeir",                  "nombre": "Sekeir",                  "apodo": null,     "tipo_spren": "honorspren",       "radiante_vinculado": null,             "estado_actual": "activo" },
-  { "id": "sonando-aunque-despierta","nombre": "Soñando-aunque-Despierta","apodo": null,     "tipo_spren": "brumaspren",       "radiante_vinculado": "arshqqam",       "estado_actual": "activa" },
-  { "id": "tono",                    "nombre": "Tono",                    "apodo": null,     "tipo_spren": "lumispren",        "radiante_vinculado": null,             "estado_actual": "desconocido" },
-  { "id": "tumi",                    "nombre": "Tumi",                    "apodo": null,     "tipo_spren": "brumaspren",       "radiante_vinculado": "rlain",          "estado_actual": "activo" },
-  { "id": "ua-pam",                  "nombre": "Ua'pam",                  "apodo": null,     "tipo_spren": "cumbrespren",      "radiante_vinculado": "zu",             "estado_actual": "activo" },
-  { "id": "uma",                     "nombre": "Uma",                     "apodo": null,     "tipo_spren": "brumaspren",       "radiante_vinculado": "madre de Dyel",  "estado_actual": "activa" },
-  { "id": "unativi",                 "nombre": "Unativi",                 "apodo": null,     "tipo_spren": "cumbrespren",      "radiante_vinculado": null,             "estado_actual": "activo" },
-  { "id": "vienta",                  "nombre": "Vienta",                  "apodo": null,     "tipo_spren": "honorspren",       "radiante_vinculado": null,             "estado_actual": "activa" },
-  { "id": "viento",                  "nombre": "El Viento",               "apodo": null,     "tipo_spren": "spren primigenio", "radiante_vinculado": null,             "estado_actual": "activo" },
-  { "id": "vigilante-nocturna",      "nombre": "Vigilante Nocturna",      "apodo": null,     "tipo_spren": "spren primigenio", "radiante_vinculado": null,             "estado_actual": "activa" },
-  { "id": "yunfah",                  "nombre": "Yunfah",                  "apodo": null,     "tipo_spren": "honorspren",       "radiante_vinculado": null,             "estado_actual": "activo" }
+  {
+    "id": "sylphrena",
+    "nombre": "Sylphrena",
+    "apodo": "Syl",
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": "kaladin",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "patron",
+    "nombre": "Patrón",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "shallan",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "wyndle",
+    "nombre": "Wyndle",
+    "apodo": null,
+    "tipo_spren": "cultivacispren",
+    "radiante_vinculado": "lift",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "glys",
+    "nombre": "Glys",
+    "apodo": null,
+    "tipo_spren": "brumaspren",
+    "radiante_vinculado": "renarin",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "marfil",
+    "nombre": "Marfil",
+    "apodo": null,
+    "tipo_spren": "tintaspren",
+    "radiante_vinculado": "jasnah",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "timbre",
+    "nombre": "Timbre",
+    "apodo": null,
+    "tipo_spren": "alcanzador",
+    "radiante_vinculado": "venli",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "mayalaran",
+    "nombre": "Mayalaran",
+    "apodo": "Maya",
+    "tipo_spren": "cultivacispren",
+    "radiante_vinculado": "adolin",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "testimonio",
+    "nombre": "Testimonio",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "shallan",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "chispa",
+    "nombre": "Chispa",
+    "apodo": null,
+    "tipo_spren": "cenizaspren",
+    "radiante_vinculado": "malata",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "12124",
+    "nombre": "12124",
+    "apodo": "Auxiliar / Aux",
+    "tipo_spren": "altospren",
+    "radiante_vinculado": "nomada",
+    "estado_actual": "muerto"
+  },
+  {
+    "id": "mayal",
+    "nombre": "Mayal",
+    "apodo": null,
+    "tipo_spren": "altospren",
+    "radiante_vinculado": "ki",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "121",
+    "nombre": "121",
+    "apodo": null,
+    "tipo_spren": "altospren",
+    "radiante_vinculado": "nale",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "archinal",
+    "nombre": "Archinal",
+    "apodo": null,
+    "tipo_spren": "cultivacispren",
+    "radiante_vinculado": "godeke",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "borea",
+    "nombre": "Borea",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": null,
+    "estado_actual": "activa"
+  },
+  {
+    "id": "caelinora",
+    "nombre": "Caelinora",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": "huio",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "diseno",
+    "nombre": "Diseño",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "hoid",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "el-hermano",
+    "nombre": "El Hermano",
+    "apodo": null,
+    "tipo_spren": "spren primigenio",
+    "radiante_vinculado": "navani",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "ico",
+    "nombre": "Ico",
+    "apodo": null,
+    "tipo_spren": "alcanzador",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "mezcla",
+    "nombre": "Mezcla",
+    "apodo": null,
+    "tipo_spren": "tintaspren",
+    "radiante_vinculado": null,
+    "estado_actual": "activa"
+  },
+  {
+    "id": "mosaico",
+    "nombre": "Mosaico",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "vathah",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "motivo",
+    "nombre": "Motivo",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "ishnah",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "noche",
+    "nombre": "La Noche",
+    "apodo": null,
+    "tipo_spren": "spren primigenio",
+    "radiante_vinculado": null,
+    "estado_actual": "ausente de Roshar"
+  },
+  {
+    "id": "notum",
+    "nombre": "Notum",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "ornamento",
+    "nombre": "Ornamento",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "berila",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "padre-tormenta",
+    "nombre": "Padre Tormenta",
+    "apodo": null,
+    "tipo_spren": "spren primigenio",
+    "radiante_vinculado": null,
+    "estado_actual": "muerto"
+  },
+  {
+    "id": "phendorana",
+    "nombre": "Phendorana",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": null,
+    "estado_actual": "muerta"
+  },
+  {
+    "id": "piedra",
+    "nombre": "La Piedra",
+    "apodo": null,
+    "tipo_spren": "spren primigenio",
+    "radiante_vinculado": null,
+    "estado_actual": "activa"
+  },
+  {
+    "id": "riah",
+    "nombre": "Riah",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": null,
+    "estado_actual": "muerta"
+  },
+  {
+    "id": "rua",
+    "nombre": "Rua",
+    "apodo": "Naco",
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": "lopen",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "sekeir",
+    "nombre": "Sekeir",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "sonando-aunque-despierta",
+    "nombre": "Soñando-aunque-Despierta",
+    "apodo": null,
+    "tipo_spren": "brumaspren",
+    "radiante_vinculado": "arshqqam",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "tono",
+    "nombre": "Tono",
+    "apodo": null,
+    "tipo_spren": "lumispren",
+    "radiante_vinculado": null,
+    "estado_actual": "desconocido"
+  },
+  {
+    "id": "tumi",
+    "nombre": "Tumi",
+    "apodo": null,
+    "tipo_spren": "brumaspren",
+    "radiante_vinculado": "rlain",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "ua-pam",
+    "nombre": "Ua'pam",
+    "apodo": null,
+    "tipo_spren": "cumbrespren",
+    "radiante_vinculado": "zu",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "uma",
+    "nombre": "Uma",
+    "apodo": null,
+    "tipo_spren": "brumaspren",
+    "radiante_vinculado": "madre de Dyel",
+    "estado_actual": "activa"
+  },
+  {
+    "id": "unativi",
+    "nombre": "Unativi",
+    "apodo": null,
+    "tipo_spren": "cumbrespren",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "vienta",
+    "nombre": "Vienta",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": null,
+    "estado_actual": "activa"
+  },
+  {
+    "id": "viento",
+    "nombre": "El Viento",
+    "apodo": null,
+    "tipo_spren": "spren primigenio",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "vigilante-nocturna",
+    "nombre": "Vigilante Nocturna",
+    "apodo": null,
+    "tipo_spren": "spren primigenio",
+    "radiante_vinculado": null,
+    "estado_actual": "activa"
+  },
+  {
+    "id": "yunfah",
+    "nombre": "Yunfah",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  }
 ]

@@ -1,19 +1,20 @@
 {
-  "id": "auxiliar",
-  "nombre": "Auxiliar",
-  "apodos": ["Aux", "12 124"],
+  "id": "12124",
+  "nombre": "12124",
+  "apodos": [
+    "Auxiliar",
+    "Aux"
+  ],
   "tipo_spren": "altospren",
   "es_splinter_de": null,
   "mundo_natal": "Roshar",
   "estado_actual": "muerto",
-
   "origen": {
     "creador": "desconocido",
     "lugar_creacion": "Roshar",
     "generacion": "desconocida",
-    "notas": "Su nombre original era 12 124. Fue el altospren de Szeth hasta Palahanah de 1175, cuando pasó a vincularse con Nómada."
+    "notas": "Su nombre original era 12124. Fue el altospren de Szeth hasta Palahanah de 1175, cuando pasó a vincularse con Nómada."
   },
-
   "apariencia": {
     "reino_fisico": {
       "forma_preferida": "desconocida",
@@ -32,7 +33,6 @@
       "material": "desconocido"
     }
   },
-
   "personalidad": {
     "rasgos": [
       "leal",
@@ -44,7 +44,6 @@
     ],
     "notas": "Incluso tras ser parcialmente consumido por la Esquirla del Amanecer, continuó viajando con Nómada como fragmentos de mente y personalidad."
   },
-
   "habilidades": {
     "generales": [
       "comunicación telepática",
@@ -57,17 +56,18 @@
       "Vínculo Nahel que otorga magia de Rompedor del Cielo"
     ]
   },
-
   "vinculo_nahel": {
     "radiante_actual": "nomada",
     "orden_radiante": "Rompedores del Cielo",
-    "potencias_otorgadas": ["Gravitación", "División"],
+    "potencias_otorgadas": [
+      "Gravitación",
+      "División"
+    ],
     "forma_shardblade": "desconocida",
     "estado_vinculo": "disuelto por muerte",
     "radiante_anterior": "szeth",
     "notas": "Fue consumido por la Esquirla del Amanecer que Nómada poseía temporalmente. Su esencia restante fue sacrificada en Cántico para salvar a Nómada y a los habitantes de Baliza."
   },
-
   "historia": {
     "resumen": "Altospren vinculado a Szeth hasta 1175. Posteriormente se vinculó con Nómada y comenzó a recorrer el Cosmere junto a él mientras escapaban de la Brigada Nocturna. Fue consumido por la Esquirla del Amanecer que Nómada portaba temporalmente, quedando como fragmentos de mente y personalidad. Finalmente sacrificó su esencia restante en Cántico para salvar a Nómada y a los habitantes de Baliza.",
     "puntos_clave": [
@@ -78,22 +78,33 @@
       "sacrificó su esencia restante en Cántico para salvar a Nómada y los habitantes de Baliza"
     ]
   },
-
   "apariciones": {
     "libros": [
-      { "titulo": "Juramentada",         "rol": "secundario (mención)", "pov": false },
-      { "titulo": "Esquirla del Amanecer", "rol": "principal",           "pov": false }
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario (mención)",
+        "pov": false
+      },
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "principal",
+        "pov": false
+      }
     ]
   },
-
   "relaciones": {
-    "radiante_vinculado": { "personaje": "nomada", "relacion": "vínculo Nahel" },
+    "radiante_vinculado": {
+      "personaje": "nomada",
+      "relacion": "vínculo Nahel"
+    },
     "creador": null,
     "otros": [
-      { "personaje": "szeth", "relacion": "radiante anterior" }
+      {
+        "personaje": "szeth",
+        "relacion": "radiante anterior"
+      }
     ]
   },
-
   "descripcion_breve": "Altospren que fue el spren de Szeth y luego de Nómada. Sacrificó su esencia restante en Cántico para salvar a su compañero y a los habitantes de Baliza.",
-  "notas": "Su nombre original era el número 12 124. Es uno de los pocos spren conocidos que han viajado fuera de Roshar por el Cosmere."
+  "notas": "Su nombre original era el número 12124. Es uno de los pocos spren conocidos que han viajado fuera de Roshar por el Cosmere."
 }
