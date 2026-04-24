@@ -11,119 +11,83 @@
   "estado_actual": "fallecida",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario importante",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "secundario",
-        "pov": false
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "principal",            "pov": true  },
+      { "titulo": "Juramentada",            "rol": "secundario",           "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante","pov": true  },
+      { "titulo": "Viento y Verdad",        "rol": "menor",                "pov": false }
     ]
   },
   "afiliaciones": [
-    "oyentes",
+    "Oyentes",
     "Consejo de los Cinco"
   ],
   "orden_radiantes": {
     "orden": "Escultores de Voluntad",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": "timbre"
-    },
-    "estado_del_vinculo": "vinculo iniciado antes de su muerte"
+    "spren_asociado": { "principal": "Timbre" },
+    "estado_del_vinculo": "Iniciado justo antes de su muerte. Timbre intentó vincularse con ella en sus últimos momentos. Tras su muerte, Timbre siguió a Venli."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Transporte",
-        "Cohesión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": [],
+      "fuente_de_luz": ""
     },
     "no_magicas": [
-      "liderazgo militar",
-      "combate",
-      "exploración",
-      "cambio de forma cantor"
+      "Liderazgo militar excepcional",
+      "Combate cuerpo a cuerpo con armadura de forma tormenta",
+      "Exploración y supervivencia en las Llanuras Quebradas",
+      "Cambio de forma cantor",
+      "Estrategia táctica"
     ]
   },
   "identidades": {
     "principales": [
-      "exploradora de los oyentes",
-      "general oyente",
-      "miembro del Consejo de los Cinco"
+      "Exploradora de los oyentes",
+      "General y miembro del Consejo de los Cinco",
+      "Portadora de forma tormenta"
     ],
-    "descripcion": "Eshonai fue una de las líderes más influyentes de los oyentes durante la Guerra de la Venganza contra Alezkar. Curiosa por naturaleza, disfrutaba explorando las Llanuras Quebradas y estudiando a los humanos. Su adopción de la forma tormenta alteró profundamente su personalidad y contribuyó a la escalada del conflicto con los alezi.",
-    "estado_en_viento_y_verdad": "fallecida; su historia continúa influyendo en Venli y en el destino de los cantores"
+    "descripcion": "Cantora de gran estatura en forma tormenta, con caparazón que actúa como armadura. Por naturaleza era curiosa, reflexiva y amante de la exploración — quería ver el mundo más allá de las Llanuras. La adopción de la forma tormenta alteró profundamente su personalidad, suprimiendo su curiosidad e incrementando su agresividad. Es la figura trágica central de los oyentes.",
+    "estado_en_viento_y_verdad": "Fallecida. Su legado influye en Venli y en el destino de los cantores."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "venli",
-        "relacion": "hermana"
-      },
-      {
-        "personaje": "jaxlim",
-        "relacion": "madre"
-      }
+      { "personaje": "venli",  "relacion": "hermana menor" },
+      { "personaje": "Jaxlim", "relacion": "madre; sufre pérdida de memoria" }
     ],
     "amigos": [
-      {
-        "personaje": "rlain",
-        "relacion": "aliado entre los oyentes"
-      }
+      { "personaje": "rlain", "relacion": "amigo y compañero de exploración; fue su contacto más cercano entre los humanos" }
     ],
     "enemigos": [
-      {
-        "personaje": "dalinar",
-        "relacion": "enemigo durante la Guerra de la Venganza"
-      },
-      {
-        "personaje": "adolin",
-        "relacion": "oponente en combate en Narak"
-      }
+      { "personaje": "dalinar", "relacion": "comandante enemigo durante la Guerra de la Venganza" },
+      { "personaje": "adolin",  "relacion": "oponente en combate en Narak" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "mente estable como oyente tradicional; alterada tras adoptar la forma tormenta",
-    "evolucion": "comenzó como una exploradora curiosa y reflexiva; la influencia de la forma tormenta incrementó su agresividad y beligerancia",
-    "situacion_en_viento_y_verdad": "fallecida; su legado influye en la evolución de Venli y los cantores"
+    "diagnostico_general": "Estable como oyente en formas naturales; profundamente alterada tras adoptar la forma tormenta, que suprimió su curiosidad y amplificó su agresividad.",
+    "evolucion": "Comenzó como exploradora curiosa que quería conocer el mundo. La forma tormenta la convirtió en general agresiva que impulsó la guerra. En sus últimos momentos, recupera parte de su personalidad original al sentir el contacto de Timbre.",
+    "situacion_en_viento_y_verdad": "Fallecida. Sus flashbacks en El Ritmo de la Guerra muestran quién era antes de la forma tormenta."
   },
   "arco_narrativo": {
-    "resumen": "Eshonai fue una exploradora y líder oyente que inicialmente buscaba comprender a los humanos y el mundo exterior. Con el estallido de la Guerra de la Venganza asumió el liderazgo militar de su pueblo. La adopción de la forma tormenta la empujó hacia una postura más agresiva contra Alezkar. Murió durante la Batalla de Narak, cuando cayó a un abismo mientras combatía contra Adolin Kholin.",
+    "resumen": "Eshonai fue la exploradora más aventurera de los oyentes, que soñaba con ver el mundo más allá de las Llanuras. La guerra con Alezkar la convirtió en general. Su hermana Venli la convirtió en la primera en adoptar la forma tormenta, que alteró su mente. Murió en la Batalla de Narak, cayendo a un abismo mientras luchaba contra Adolin, en un momento en que Timbre intentaba vincularse con ella.",
     "puntos_clave": [
-      "exploración de las Llanuras Quebradas",
-      "contacto inicial con los humanos alezi",
-      "liderazgo durante la Guerra de la Venganza",
-      "adopción de la forma tormenta",
-      "muerte durante la Batalla de Narak",
-      "inicio de un vínculo con el spren Timbre"
+      "Exploradora que sueña con conocer el mundo más allá de las Llanuras Quebradas.",
+      "Negocia la firma del tratado de paz con Gavilar en nombre de los oyentes.",
+      "La muerte de Gavilar inicia la guerra; Eshonai asume el liderazgo militar.",
+      "Venli la convierte en la primera oyente en adoptar la forma tormenta.",
+      "La forma tormenta altera su mente; pierde su curiosidad y su conexión emocional.",
+      "Lidera a los oyentes durante la invasión de las Llanuras Quebradas.",
+      "En la Batalla de Narak cae a un abismo mientras lucha contra Adolin.",
+      "Timbre intenta vincularse con ella en sus últimos momentos; no llega a completarse.",
+      "Sus flashbacks en El Ritmo de la Guerra revelan quién era antes de la forma tormenta."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "antigua líder militar de los oyentes",
-    "rol": "figura histórica clave para los cantores",
-    "relacion_con_spren": "estableció un vínculo incipiente con Timbre antes de morir",
-    "otros_detalles": "su legado influye directamente en el desarrollo de Venli como Radiante"
+    "ocupacion": "Fallecida",
+    "rol": "Figura trágica central de los oyentes; precursora del arco de Venli",
+    "relacion_con_spren": "Timbre intentó vincularse con ella antes de su muerte; tras su muerte siguió a Venli.",
+    "otros_detalles": "Su historia completa se narra en los flashbacks de El Ritmo de la Guerra."
   },
-  "descripcion_breve": "Líder oyente y exploradora de las Llanuras Quebradas que comandó a su pueblo durante la Guerra de la Venganza contra Alezkar.",
-  "notas": "Eshonai inició un vínculo con Timbre poco antes de su muerte, lo que la habría convertido en Escultora de Voluntad si hubiese sobrevivido."
+  "descripcion_breve": "Exploradora y general oyente. Su adopción de la forma tormenta —impulsada por su hermana Venli— la transformó en el instrumento de la guerra. Murió en Narak cuando Timbre intentaba vincularse con ella.",
+  "notas": "Sus flashbacks en El Ritmo de la Guerra son los capítulos más reveladores sobre la cultura oyente. La novela se abre con su perspectiva del asesinato de Gavilar."
 }

@@ -1,0 +1,81 @@
+{
+  "id": "hesina",
+  "nombre": "Hesina",
+  "nombre_completo": "Hesina",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "menor",      "pov": false },
+      { "titulo": "Juramentada",            "rol": "menor",      "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "menor",      "pov": false }
+    ]
+  },
+  "afiliaciones": ["Piedralar"],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Capacidad de leer y escribir (inusual para una mujer de ojos oscuros)",
+      "Fortaleza emocional excepcional",
+      "Gestión del hogar familiar en condiciones adversas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Madre de Kaladin",
+      "Esposa de Lirin",
+      "Mujer de ojos oscuros alfabetizada"
+    ],
+    "descripcion": "Mujer alezi de ojos oscuros, esposa del cirujano Lirin y madre de Kaladin, Tien y Oroden. Sabe leer y escribir, algo inusual para una mujer de su estatus. Su presencia en la saga es discreta pero su influencia emocional sobre Kaladin es profunda.",
+    "estado_en_viento_y_verdad": "Activa con Lirin en los territorios afectados por la guerra."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "kaladin", "relacion": "hijo mayor" },
+      { "personaje": "lirin",   "relacion": "esposo" },
+      { "personaje": "Tien",    "relacion": "hijo; fallecido" },
+      { "personaje": "Oroden",  "relacion": "hijo menor" }
+    ],
+    "amigos": [],
+    "enemigos": [
+      { "personaje": "Roshone", "relacion": "highlord responsable del reclutamiento de Tien" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Resiliencia excepcional ante la pérdida de Tien y la larga ausencia de Kaladin.",
+    "evolucion": "Mantiene a la familia unida durante las ausencias y tragedias. Su fortaleza silenciosa es el contrapunto emocional de la angustia de Lirin.",
+    "situacion_en_viento_y_verdad": "Activa junto a Lirin."
+  },
+  "arco_narrativo": {
+    "resumen": "Hesina es la madre de Kaladin, cuya presencia discreta pero constante es uno de los anclajes emocionales del protagonista. Sobrevivió al reclutamiento y muerte de Tien, a la larga ausencia de Kaladin, a la ocupación de Piedralar y a la evacuación a Urithiru.",
+    "puntos_clave": [
+      "Cría a Kaladin y Tien en Piedralar junto a Lirin.",
+      "Tien es reclutado forzosamente; Kaladin lo sigue para protegerlo.",
+      "Tien muere; Hesina y Lirin afrontan la pérdida en Piedralar.",
+      "Kaladin no regresa durante años.",
+      "La familia es evacuada a Urithiru durante la guerra.",
+      "Durante la ocupación de Urithiru, Leshwi protege a la familia.",
+      "Reencuentro con Kaladin en Urithiru."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ama de casa; apoya el trabajo médico de Lirin",
+    "rol": "Figura materna de Kaladin",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su alfabetización es inusual para una mujer de ojos oscuros en la sociedad vorin."
+  },
+  "descripcion_breve": "Madre de Kaladin y esposa de Lirin. Figura de fortaleza silenciosa cuya presencia es uno de los anclajes emocionales del protagonista.",
+  "notas": "Su habilidad de leer y escribir es inusual para una mujer de ojos oscuros en la sociedad vorin de Alezkar."
+}

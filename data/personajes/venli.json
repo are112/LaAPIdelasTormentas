@@ -11,127 +11,85 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario importante",
-        "pov": true
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario importante",
-        "pov": true
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "principal",
-        "pov": true
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario",           "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante","pov": true  },
+      { "titulo": "Juramentada",            "rol": "secundario importante","pov": true  },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "principal",            "pov": true  },
+      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
     ]
   },
   "afiliaciones": [
     "Oyentes",
-    "Cantores",
-    "Fuerzas de Odium",
+    "Fuerzas de Odium (anteriormente)",
     "Caballeros Radiantes",
     "Escultores de Voluntad"
   ],
   "orden_radiantes": {
     "orden": "Escultores de Voluntad",
     "nivel_ideal": 2,
-    "spren_asociado": {
-      "principal": "Timbre"
-    },
-    "estado_del_vinculo": "activo"
+    "spren_asociado": { "principal": "Timbre" },
+    "estado_del_vinculo": "Activo. Timbre se vinculó primero con Eshonai; tras su muerte siguió a Venli."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Cohesión",
-        "Transporte"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Cohesión", "Transporte"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "erudición en formas oyentes",
-      "investigación sobre antiguas canciones",
-      "conocimiento de historia oyente",
-      "capacidad de liderazgo entre cantores"
+      "Erudita en formas cantoras e historia oyente",
+      "Investigadora de canciones antiguas",
+      "Liderazgo entre cantores",
+      "Cambio de forma cantor"
     ]
   },
   "identidades": {
     "principales": [
-      "oyente erudita",
-      "agente de Odium",
-      "Caballera Radiante"
+      "Erudita oyente",
+      "Escultora de Voluntad",
+      "Líder de cantores disidentes de Odium"
     ],
-    "descripcion": "Inicialmente una erudita ambiciosa entre los oyentes que busca recuperar el poder antiguo de su pueblo. Su investigación la lleva a traer de vuelta las formas de poder de los cantores y, sin pretenderlo, contribuye al regreso de los Portadores del Vacío. Posteriormente desarrolla remordimiento y comienza un camino de redención al vincularse con un spren radiante.",
-    "estado_en_viento_y_verdad": "actúa como Caballera Radiante intentando proteger a los cantores que desean liberarse de Odium"
+    "descripcion": "Cantora ambiciosa e inteligente cuya obsesión por restaurar la grandeza perdida de los oyentes la llevó a desencadenar el regreso de los Portadores del Vacío. Carga con una culpa profunda por ello, especialmente por la muerte de su hermana Eshonai. Su arco es uno de los más complejos de la saga: de traidora involuntaria a Radiante que lucha por la liberación de su pueblo.",
+    "estado_en_viento_y_verdad": "Actúa con Sigzil en las Llanuras Quebradas. Lidera a cantores que desean independencia de Odium. Su trama es dura y marcada por la pérdida."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "eshonai",
-        "relacion": "hermana"
-      }
+      { "personaje": "eshonai", "relacion": "hermana mayor; fallecida" },
+      { "personaje": "Jaxlim",  "relacion": "madre; afectada por pérdida de memoria" }
     ],
     "amigos": [
-      {
-        "personaje": "Timbre",
-        "relacion": "spren vinculado"
-      },
-      {
-        "personaje": "rlain",
-        "relacion": "aliado entre los cantores"
-      },
-      {
-        "personaje": "leshwi",
-        "relacion": "aliado"
-      }
+      { "personaje": "leshwi",  "relacion": "su Voz en las fuerzas de Odium; la protege y apoya su camino como Radiante" },
+      { "personaje": "rlain",   "relacion": "aliado; comparten el camino como cantores Radiantes" },
+      { "personaje": "sigzil",  "relacion": "aliado en las Llanuras Quebradas en VyV" }
     ],
     "enemigos": [
-      {
-        "personaje": "Odium",
-        "relacion": "deidad a la que anteriormente sirvió"
-      },
-      {
-        "personaje": "Fused",
-        "relacion": "oposición creciente a su control sobre los cantores"
-      }
+      { "personaje": "Lezian",  "relacion": "Fusionado que la amenazó; antagonista dentro de las fuerzas de Odium" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "culpa profunda y conflicto moral por haber provocado el regreso del poder de Odium entre los cantores",
-    "evolucion": "pasa de ambición intelectual y deseo de poder a un proceso de arrepentimiento y redención",
-    "situacion_en_viento_y_verdad": "continúa intentando reparar el daño causado y ayudar a los cantores a encontrar independencia"
+    "diagnostico_general": "Culpa profunda por haber desencadenado el regreso de Odium. Conflicto moral constante entre su ambición original y su deseo de reparar el daño causado.",
+    "evolucion": "Pasa de ambición intelectual ciega a remordimiento genuino y acción activa por reparar el daño. El vínculo con Timbre es el inicio formal de su redención.",
+    "situacion_en_viento_y_verdad": "Más resuelta. Actúa por convicción propia, no por culpa. Su trama en VyV es una de las más duras de la saga."
   },
   "arco_narrativo": {
-    "resumen": "Venli comienza como una investigadora obsesionada con restaurar la grandeza perdida de los oyentes. Su búsqueda del conocimiento conduce al descubrimiento de las formas de poder y al regreso de los cantores bajo la influencia de Odium. Tras presenciar las consecuencias de sus acciones y la muerte de su hermana Eshonai, inicia un camino de redención al vincularse con el spren Timbre y convertirse en una Caballera Radiante.",
+    "resumen": "Venli investigó las canciones antiguas y descubrió cómo acceder a las formas de poder cantoras, creyendo que daría independencia a su pueblo. En realidad desencadenó el regreso de los Portadores del Vacío y de Odium. Tras la muerte de Eshonai, Timbre se vinculó con ella y comenzó su camino de redención como Escultora de Voluntad, trabajando para liberar a los cantores de Odium.",
     "puntos_clave": [
-      "investiga las antiguas canciones y formas de los oyentes",
-      "introduce las formas de poder entre su pueblo",
-      "contribuye al regreso de los cantores y de los Fused",
-      "muerte de su hermana Eshonai",
-      "vínculo Nahel con el spren Timbre",
-      "se convierte en una Escultora de Voluntad",
-      "busca liberar a los cantores del dominio de Odium"
+      "Investiga las canciones antiguas para restaurar las formas perdidas de los oyentes.",
+      "Descubre y comparte cómo acceder a las formas de poder.",
+      "Su investigación desencadena sin querer el regreso de los Portadores del Vacío.",
+      "Su hermana Eshonai adopta la forma tormenta; Venli pierde a quien era su hermana.",
+      "Actúa como agente de Odium durante la invasión, colaborando por supervivencia.",
+      "Eshonai muere en Narak; Timbre, que había intentado vincularse con Eshonai, se acerca a Venli.",
+      "Se vincula con Timbre; jura el Primer y Segundo Ideal de los Escultores de Voluntad.",
+      "Leshwi la protege dentro de las fuerzas de Odium mientras desarrolla su vínculo.",
+      "En VyV lidera a cantores disidentes y actúa con Sigzil en las Llanuras Quebradas."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Caballera Radiante",
-    "rol": "líder emergente entre los cantores que buscan independencia",
-    "relacion_con_spren": "vínculo Nahel activo con el spren Timbre",
-    "otros_detalles": "intenta crear un futuro en el que cantores y humanos puedan coexistir sin la influencia de Odium"
+    "ocupacion": "Escultora de Voluntad; líder de cantores disidentes",
+    "rol": "Protagonista del arco cantor; figura de redención",
+    "relacion_con_spren": "Vínculo activo con Timbre, que se vinculó primero con Eshonai.",
+    "otros_detalles": "Es junto a Rlain uno de los pocos cantores Radiantes. Su madre Jaxlim sufre pérdida de memoria progresiva."
   },
-  "descripcion_breve": "Cantora erudita que provoca accidentalmente el regreso del poder de Odium entre su pueblo y posteriormente inicia un camino de redención como Escultora de Voluntad.",
-  "notas": "Es uno de los pocos cantores que se convierte en Caballero Radiante durante la guerra contra Odium."
+  "descripcion_breve": "Erudita oyente cuya investigación desencadenó el regreso de Odium. Escultora de Voluntad en proceso de redención que lucha por liberar a los cantores de la influencia de Odium.",
+  "notas": "Timbre se vinculó primero con Eshonai justo antes de su muerte, y luego siguió a Venli. Es junto a Rlain uno de los pocos cantores que se convierten en Caballeros Radiantes."
 }

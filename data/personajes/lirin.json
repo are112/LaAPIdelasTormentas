@@ -1,0 +1,83 @@
+{
+  "id": "lirin",
+  "nombre": "Lirin",
+  "nombre_completo": "Lirin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "menor",                "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario",           "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante","pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario",           "pov": false }
+    ]
+  },
+  "afiliaciones": ["Piedralar", "Clínica de Urithiru (anteriormente)"],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Cirujano excepcional — uno de los mejores de Alezkar",
+      "Conocimiento médico profundo",
+      "Valentía civil en situaciones de extremo peligro",
+      "Resistencia moral ante la presión"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Cirujano de Piedralar",
+      "Padre de Kaladin",
+      "Pacifista convencido"
+    ],
+    "descripcion": "Hombre delgado de ojos oscuros, cirujano de pueblo que ejercía su oficio en Piedralar. Su filosofía pacifista — 'la espada solo crea más heridas' — chocaba directamente con el llamado de Kaladin a ser soldado. Su relación con Kaladin es uno de los conflictos emocionales más duraderos de la saga.",
+    "estado_en_viento_y_verdad": "Activo. Trabaja como médico en los territorios ocupados durante los eventos de VyV."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "kaladin",  "relacion": "hijo mayor" },
+      { "personaje": "hesina",   "relacion": "esposa" },
+      { "personaje": "Oroden",   "relacion": "hijo menor" },
+      { "personaje": "Tien",     "relacion": "hijo; fallecido en el ejército de Amaram" }
+    ],
+    "amigos": [],
+    "enemigos": [
+      { "personaje": "Roshone",  "relacion": "highlord de Piedralar que los persiguió; responsable indirecto de la muerte de Tien" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Pacifista convencido que mantiene sus principios incluso bajo ocupación y amenaza de muerte.",
+    "evolucion": "Su conflicto con Kaladin sobre la violencia y la guerra es constante. Durante la ocupación de Urithiru y los eventos de VyV su pacifismo es puesto a prueba al límite.",
+    "situacion_en_viento_y_verdad": "Trabaja como médico en condiciones extremas. Su pacifismo sigue siendo su identidad central."
+  },
+  "arco_narrativo": {
+    "resumen": "Lirin es el cirujano de Piedralar que entrenó a Kaladin en medicina con la esperanza de que siguiera su camino. El reclutamiento forzoso de Tien — y la decisión de Kaladin de seguirle para protegerle — marcó el inicio de la separación entre padre e hijo. Reencontrado en Urithiru durante la ocupación, su pacifismo choca con la realidad de la guerra.",
+    "puntos_clave": [
+      "Entrena a Kaladin en cirugía desde niño.",
+      "Roshone, highlord de Piedralar, fuerza el reclutamiento de Tien.",
+      "Kaladin abandona los estudios de medicina para seguir a Tien al ejército.",
+      "Tien muere en el ejército de Amaram; Kaladin carga con esa culpa.",
+      "Lirin y su familia son evacuados a Urithiru durante la guerra.",
+      "Durante la ocupación de Urithiru por los Fusionados trabaja como médico bajo presión extrema.",
+      "Leshwi protege a su familia durante la ocupación.",
+      "En VyV trabaja como médico en territorios ocupados, manteniendo su pacifismo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Cirujano",
+    "rol": "Figura paterna de Kaladin; encarnación del conflicto entre violencia y pacifismo",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su filosofía pacifista es el contrapunto moral del arco de Kaladin durante toda la saga."
+  },
+  "descripcion_breve": "Cirujano de Piedralar y padre de Kaladin. Su pacifismo convencido choca con el llamado de su hijo a ser soldado, creando uno de los conflictos emocionales más duraderos de la saga.",
+  "notas": "La muerte de Tien, indirectamente causada por Roshone y la inacción de Amaram, es el trauma fundacional de Kaladin. Lirin es la encarnación del dilema: ¿es más valioso salvar vidas con medicina o protegerlas con la espada?"
+}

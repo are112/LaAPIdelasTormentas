@@ -98,6 +98,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "hesina",
+    "nombre": "Hesina",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
+  },
+  {
     "id": "hoid",
     "nombre": "Hoid",
     "orden": "Tejedores de Luz",
@@ -147,11 +154,25 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "lezian",
+    "nombre": "Lezian",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
     "id": "lift",
     "nombre": "Lift",
     "orden": "Danzantes del Filo",
     "nivel_ideal": 3,
     "estado_actual": "viva"
+  },
+  {
+    "id": "lirin",
+    "nombre": "Lirin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "lopen",

@@ -1,0 +1,76 @@
+{
+  "id": "lezian",
+  "nombre": "Lezian",
+  "nombre_completo": "Lezian",
+  "apodos": ["El Perseguidor"],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar (época predesolacional)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Ritmo de la Guerra", "rol": "antagonista",          "pov": false },
+      { "titulo": "Viento y Verdad",       "rol": "secundario importante","pov": false }
+    ]
+  },
+  "afiliaciones": ["Fusionados", "Shanay-im"],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": ["Gravitación"],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Combatiente excepcional con lanza",
+      "Velocidad y agilidad en vuelo superiores a otros shanay-im",
+      "Perseverancia obsesiva"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fusionado shanay-im",
+      "El Perseguidor — debe matar a quien lo mató en vida anterior o no puede reencarnarse con honra"
+    ],
+    "descripcion": "Fusionado shanay-im de carácter obsesivo e impulsivo. Su código personal le obliga a matar a quien lo mató en una vida anterior antes de poder reencarnarse con honra. Esta obsesión lo convierte en uno de los antagonistas más persistentes de Kaladin.",
+    "estado_en_viento_y_verdad": "Fallecido. Kaladin lo mata definitivamente en Viento y Verdad."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      { "personaje": "kaladin", "relacion": "lo mató en una vida anterior; lo persigue obsesivamente durante dos libros" },
+      { "personaje": "leshwi",  "relacion": "rivalidad interna; Leshwi se opone a sus métodos y lo enfrenta para proteger civiles" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Obsesión compulsiva con la venganza como código de honor. Su necesidad de matar a Kaladin supera cualquier consideración táctica o moral.",
+    "evolucion": "No muestra evolución — su obsesión es constante e inmutable, lo que lo hace predecible y finalmente le cuesta la vida.",
+    "situacion_en_viento_y_verdad": "Fallecido a manos de Kaladin."
+  },
+  "arco_narrativo": {
+    "resumen": "Lezian es el Fusionado shanay-im conocido como el Perseguidor. Su código personal lo obliga a matar a quien lo mató en una vida anterior para poder reencarnarse con honra. Kaladin lo mató durante la Guerra de la Venganza y desde entonces Lezian lo persiguió obsesivamente a través de dos libros hasta que Kaladin lo mata definitivamente en Viento y Verdad.",
+    "puntos_clave": [
+      "Kaladin lo mata durante los eventos de la Guerra de la Venganza.",
+      "Su código personal lo obliga a matar a Kaladin antes de poder reencarnarse con honra.",
+      "Durante la ocupación de Urithiru lidera tropas en busca de Kaladin.",
+      "Leshwi se enfrenta a sus tropas para proteger a civiles inocentes, creando tensión interna entre los Fusionados.",
+      "Sigue persiguiendo a Kaladin en Viento y Verdad.",
+      "Kaladin lo mata definitivamente en VyV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Antagonista recurrente de Kaladin",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su muerte a manos de Kaladin en VyV cierra uno de los hilos de tensión más persistentes de la saga."
+  },
+  "descripcion_breve": "Fusionado shanay-im conocido como el Perseguidor. Su código de honor le obliga a matar a quien lo mató en vida anterior. Persiguió obsesivamente a Kaladin durante dos libros hasta ser finalmente derrotado en Viento y Verdad.",
+  "notas": "Su código — el Perseguidor debe matar a quien lo mató — es un rasgo cultural de los Fusionados shanay-im, no una anomalía personal de Lezian."
+}
