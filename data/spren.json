@@ -318,5 +318,13 @@
     "tipo_spren": "honorspren",
     "radiante_vinculado": null,
     "estado_actual": "activo"
+  },
+  {
+    "id": "ethenia",
+    "nombre": "Ethenia",
+    "apodo": null,
+    "tipo_spren": "honorspren",
+    "radiante_vinculado": "leyten",
+    "estado_actual": "activa"
   }
 ]
