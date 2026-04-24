@@ -1687,14 +1687,16 @@ router.get("/", (req, res) => {
       document.getElementById('label-lista').textContent =
         tab === 'personajes' ? 'Personajes' :
         tab === 'spren'      ? 'Spren'      :
-        tab === 'deshechos'  ? 'Deshechos'  : 'Heraldos';
+        tab === 'deshechos'  ? 'Deshechos'  :
+        tab === 'heraldos'   ? 'Heraldos'   : 'Esquirlas';
 
       // BUG CORREGIDO: cada tab re-aplica sus propios filtros respetando
       // el texto del buscador en lugar de pasar la lista completa.
       if      (tab === 'personajes') aplicarFiltros();
       else if (tab === 'spren')      renderListaSpren(todosSpren);
       else if (tab === 'deshechos')  renderListaDeshechos(todosDeshechos);
-      else                           renderListaHeraldos(todosHeraldos);
+      else if (tab === 'heraldos')   renderListaHeraldos(todosHeraldos);
+      else                           renderListaEsquirlas(todosEsquirlas);
     }
 
     // ── Deshechos ──────────────────────────────────────────
@@ -1845,6 +1847,158 @@ router.get("/", (req, res) => {
               <p style="font-size:0.85rem;color:var(--gris-plata);font-style:italic">\${d.notas}</p>
             </div>
           \` : ''}
+        </div>
+      \`;
+    }
+
+    // ── Esquirlas ──────────────────────────────────────────
+
+    async function cargarEsquirlas() {
+      document.getElementById('lista-esquirlas').innerHTML = skeletonLista(4);
+      try {
+        const res = await fetch(\`\${API}/esquirlas\`);
+        todosEsquirlas = await res.json();
+        if (tabActual === 'esquirlas') renderListaEsquirlas(todosEsquirlas);
+        else document.getElementById('lista-esquirlas').innerHTML = '';
+      } catch(e) {
+        document.getElementById('lista-esquirlas').innerHTML =
+          '<p class=\"sin-datos\">Error cargando esquirlas</p>';
+      }
+    }
+
+    function renderListaEsquirlas(lista) {
+      const texto = document.getElementById('buscador').value.toLowerCase();
+      const filtrada = lista.filter(e => !texto || e.nombre.toLowerCase().includes(texto));
+      if (tabActual === 'esquirlas') document.getElementById('contador').textContent = filtrada.length;
+      const wrap = document.getElementById('lista-esquirlas');
+      if (!filtrada.length) { wrap.innerHTML = '<p class=\"sin-datos\">Sin resultados</p>'; return; }
+
+      const iconos  = { honor:'✨', cultivacion:'🌿', odium:'🔥', represalia:'⚡' };
+      const colores = { honor:'rgba(240,192,64,0.2)', cultivacion:'rgba(39,174,96,0.2)', odium:'rgba(192,57,43,0.2)', represalia:'rgba(79,195,247,0.2)' };
+
+      wrap.innerHTML = filtrada.map(e => {
+        const activo = seleccionado === 'esquirla_' + e.id ? 'activo' : '';
+        const icono  = iconos[e.id]  || '💠';
+        const color  = colores[e.id] || 'rgba(79,195,247,0.1)';
+        return \`
+          <div class="item-personaje \${activo}"
+               onclick="verEsquirla('\${e.id}')" data-id="esquirla_\${e.id}">
+            <div class="item-avatar" style="background:\${color}">\${icono}</div>
+            <div class="item-info">
+              <div class="item-nombre">\${e.nombre}</div>
+              <div class="item-orden">\${e.estado_actual}</div>
+            </div>
+          </div>
+        \`;
+      }).join('');
+    }
+
+    async function verEsquirla(id) {
+      seleccionado = 'esquirla_' + id;
+      document.querySelectorAll('.item-personaje').forEach(el => {
+        el.classList.toggle('activo', el.dataset.id === 'esquirla_' + id);
+      });
+      const panel = document.getElementById('panel-detalle');
+      panel.innerHTML = skeletonFicha();
+      try {
+        const res = await fetch(\`\${API}/esquirlas/\${id}\`);
+        const e   = await res.json();
+        panel.innerHTML = renderFichaEsquirla(e);
+      } catch(err) {
+        panel.innerHTML = '<p class=\"sin-datos\">Error cargando la esquirla</p>';
+      }
+    }
+
+    function renderFichaEsquirla(e) {
+      const iconos  = { honor:'✨', cultivacion:'🌿', odium:'🔥', represalia:'⚡' };
+      const bgMap   = { honor:'rgba(240,192,64,0.15)', cultivacion:'rgba(39,174,96,0.15)', odium:'rgba(192,57,43,0.15)', represalia:'rgba(79,195,247,0.15)' };
+      const borMap  = { honor:'rgba(240,192,64,0.4)',  cultivacion:'rgba(39,174,96,0.4)',  odium:'rgba(192,57,43,0.4)',  represalia:'rgba(79,195,247,0.4)'  };
+      const icono  = iconos[e.id]  || '💠';
+      const bg     = bgMap[e.id]   || 'rgba(79,195,247,0.1)';
+      const border = borMap[e.id]  || 'rgba(79,195,247,0.3)';
+
+      const badgeEstado = e.estado_actual?.includes('activa')
+        ? 'badge-vivo'
+        : (e.estado_actual?.includes('fragmentada') || e.estado_actual?.includes('absorbida'))
+          ? 'badge-muerto' : 'badge-orden';
+
+      const manifestacionesHtml = (e.manifestaciones_en_roshar ?? []).length
+        ? \`<div class="tags">\${e.manifestaciones_en_roshar.map(m => \`<span class="tag">🌀 \${m}</span>\`).join('')}</div>\`
+        : '<p class=\"sin-datos\">Sin manifestaciones registradas</p>';
+
+      const recipientesHtml = (e.recipientes ?? []).map(r => \`
+        <div class="campo" style="flex-direction:column;align-items:flex-start;gap:0.3rem;border-bottom:1px solid rgba(79,195,247,0.08);padding-bottom:0.75rem;margin-bottom:0.5rem">
+          <span class="campo-label">
+            \${enlazarEntidad(r.nombre)}
+            <span class="badge \${r.estado === 'fallecido' || r.estado === 'fallecida' ? 'badge-muerto' : 'badge-vivo'}" style="font-size:0.65rem;margin-left:0.4rem">\${r.estado}</span>
+          </span>
+          <span class="campo-valor" style="font-size:0.82rem">\${r.periodo}</span>
+          \${r.notas ? \`<span style="font-size:0.8rem;color:var(--gris-plata);font-style:italic">\${r.notas}</span>\` : ''}
+        </div>
+      \`).join('');
+
+      const relacionesHtml = e.relacion_con_otras_esquirlas
+        ? Object.entries(e.relacion_con_otras_esquirlas).map(([k, v]) => \`
+          <div class="campo">
+            <span class="campo-label">\${k.charAt(0).toUpperCase() + k.slice(1)}</span>
+            <span class="campo-valor">\${v}</span>
+          </div>\`).join('')
+        : '';
+
+      const histHtml = e.historia ? \`
+        \${e.historia.resumen ? \`<p class="arco-resumen">\${e.historia.resumen}</p>\` : ''}
+        \${(e.historia.puntos_clave ?? []).map(pk => \`<div class="punto-clave">▸ \${pk}</div>\`).join('')}
+      \` : '';
+
+      return \`
+        <div class="ficha">
+          <div class="ficha-header">
+            <div class="ficha-avatar" style="font-size:2.5rem;background:\${bg};border-color:\${border}">\${icono}</div>
+            <div class="ficha-titulo">
+              <h2>\${e.nombre}</h2>
+              \${(e.apodos ?? []).length ? \`<div class="nombre-completo"><em>"\${e.apodos.join('", "')}"</em></div>\` : ''}
+              <div class="badges">
+                <span class="badge badge-heraldo">Esquirla</span>
+                <span class="badge \${badgeEstado}">\${e.estado_actual}</span>
+              </div>
+            </div>
+          </div>
+
+          \${e.descripcion_breve ? \`<div class="descripcion">\${e.descripcion_breve}</div>\` : ''}
+
+          <div class="grid-secciones">
+            <div class="seccion">
+              <div class="seccion-titulo">Datos generales</div>
+              \${[['Intención', e.intencion], ['Estado', e.estado_actual], ['Planeta', e.planeta]]
+                .filter(([,v]) => v)
+                .map(([l,v]) => \`<div class="campo"><span class="campo-label">\${l}</span><span class="campo-valor">\${v}</span></div>\`)
+                .join('')}
+            </div>
+            <div class="seccion">
+              <div class="seccion-titulo">Recipientes</div>
+              \${recipientesHtml || '<p class=\"sin-datos\">Sin recipientes registrados</p>'}
+            </div>
+            <div class="seccion" style="grid-column:1/-1">
+              <div class="seccion-titulo">Manifestaciones en Roshar</div>
+              \${manifestacionesHtml}
+            </div>
+            \${relacionesHtml ? \`
+            <div class="seccion" style="grid-column:1/-1">
+              <div class="seccion-titulo">Relación con otras Esquirlas</div>
+              \${relacionesHtml}
+            </div>\` : ''}
+          </div>
+
+          <div class="seccion" style="margin-bottom:2rem">
+            <div class="seccion-titulo">Historia en Roshar</div>
+            \${histHtml}
+          </div>
+
+          \${e.notas ? \`
+          <div class="seccion">
+            <div class="seccion-titulo">Notas</div>
+            <p style="font-size:0.85rem;color:var(--gris-plata);font-style:italic">\${e.notas}</p>
+          </div>\` : ''}
         </div>
       \`;
     }
