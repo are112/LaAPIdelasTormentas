@@ -998,6 +998,7 @@ router.get("/", (req, res) => {
         <button class="tab" id="tab-spren" onclick="cambiarTab('spren')">Spren</button>
         <button class="tab" id="tab-deshechos" onclick="cambiarTab('deshechos')">Deshechos</button>
         <button class="tab" id="tab-heraldos" onclick="cambiarTab('heraldos')">Heraldos</button>
+        <button class="tab" id="tab-esquirlas" onclick="cambiarTab('esquirlas')">Esquirlas</button>
       </div>
 
       <!-- Filtro personajes -->
@@ -1024,6 +1025,7 @@ router.get("/", (req, res) => {
       <div id="lista-spren"      class="lista-scroll" style="display:none"></div>
       <div id="lista-deshechos"  class="lista-scroll" style="display:none"></div>
       <div id="lista-heraldos"   class="lista-scroll" style="display:none"></div>
+      <div id="lista-esquirlas"  class="lista-scroll" style="display:none"></div>
     </aside>
 
     <!-- Panel derecho -->
@@ -1041,6 +1043,7 @@ router.get("/", (req, res) => {
     let todosHeraldos = [];
     let todosSpren    = [];
     let todosDeshechos= [];
+    let todosEsquirlas = [];
     let filtrados     = [];
     let seleccionado  = null;
 
@@ -1670,13 +1673,14 @@ router.get("/", (req, res) => {
     cargarSpren();
     cargarHeraldos();
     cargarDeshechos();
+    cargarEsquirlas();
 
     // ── Tabs ───────────────────────────────────────────────
     let tabActual = 'personajes';
 
     function cambiarTab(tab) {
       tabActual = tab;
-      ['personajes','spren','deshechos','heraldos'].forEach(t => {
+      ['personajes','spren','deshechos','heraldos','esquirlas'].forEach(t => {
         document.getElementById('tab-' + t).classList.toggle('activo', t === tab);
         const lista = document.getElementById('lista-' + t);
         lista.style.display = t === tab ? 'flex' : 'none';
