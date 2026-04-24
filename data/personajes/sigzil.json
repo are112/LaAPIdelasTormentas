@@ -34,6 +34,11 @@
         "pov": false
       },
       {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
         "titulo": "Viento y Verdad",
         "rol": "principal",
         "pov": true
@@ -50,9 +55,9 @@
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
     "spren_asociado": {
-      "principal": "vienta"
+      "principal": "12124"
     },
-    "estado_del_vinculo": "Activo. Alcanzó el Tercer Ideal en Roshar."
+    "estado_del_vinculo": "Activo. Alcanzó el Tercer Ideal en Roshar. Aux puede transformarse en distintas herramientas y armas."
   },
   "habilidades": {
     "magia": {
@@ -121,7 +126,7 @@
       "Fue aprendiz de Hoid durante un período anterior a los eventos de la saga.",
       "Llega al Puente Cuatro como portador bajo Sadeas.",
       "Se convierte en el escriba y administrador oficial del Puente Cuatro.",
-      "Se vincula con Auxiliar (Aux) y se convierte en Corredor del Viento.",
+      "Se vincula con 12124 y se convierte en Corredor del Viento.",
       "Participa en experimentos sobre las capacidades de vuelo y potencias de los Corredores del Viento.",
       "En Viento y Verdad opera con Venli en las Llanuras Quebradas en una trama de alto coste personal.",
       "Hoid le transfiere la Esquirla del Amanecer al final de VyV antes de que Represalia destruya el cuerpo de Hoid."
@@ -129,8 +134,8 @@
   },
   "situacion_actual": {
     "ocupacion": "Corredor del Viento; portador temporal de la Esquirla del Amanecer",
-    "rol": "Miembro senior del Puente Cuatro; portador de la Esquirla del Amanecer",
-    "relacion_con_spren": "Vínculo roto con vienta",
+    "rol": "Miembro senior del Puente Cuatro; figura de importancia creciente en el Cosmere",
+    "relacion_con_spren": "Vínculo activo con 12124, que puede transformarse en distintas herramientas.",
     "otros_detalles": "Recibió la Esquirla del Amanecer de Hoid al final de VyV. Su historia fuera de Roshar se omite deliberadamente en esta ficha."
   },
   "descripcion_breve": "Escriba makabaki del Puente Cuatro, Corredor del Viento y antiguo aprendiz de Hoid. Su arco en Viento y Verdad, junto a Venli en las Llanuras Quebradas, es uno de los más duros de la saga.",

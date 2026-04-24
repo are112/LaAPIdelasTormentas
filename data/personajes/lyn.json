@@ -42,7 +42,7 @@
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
     "spren_asociado": {
-      "principal": "Desconocido"
+      "principal": ""
     },
     "estado_del_vinculo": "activo"
   },
