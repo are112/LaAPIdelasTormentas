@@ -58,7 +58,7 @@
       "Visión de spren (alaii'iku) — puede ver todos los spren incluso los invisibles",
       "Fuerza física excepcional incluso para los estándares Unkalaki",
       "Cocinero legendario — su guiso es famoso en el Puente Cuatro",
-      "Arquero con arco unkalaki — uno de los pocos capaces de usar un arco de ese tamaño",
+      "Arquero con arco esquirlado",
       "Puede escuchar un débil ritmo de origen desconocido, similar a los Ritmos de los cantores"
     ]
   },
@@ -69,7 +69,7 @@
       "Padre de seis hijos"
     ],
     "descripcion": "Hombre Unkalaki de estatura enorme, pelo largo y carácter afable. Nació como cuarto hijo de su familia en los Picos Comecuernos. En su cultura, los alaii'iku — quienes pueden ver todos los spren — tienen prohibido matar. También puede escuchar un débil ritmo, habilidad de origen desconocido que recuerda a los Ritmos de los cantores. Viajó a las Llanuras Quebradas con Kef'ha, el nuatoma de su familia, con la esperanza de obtener esquirladas para su pueblo.",
-    "estado_en_viento_y_verdad": "Regresó a los Picos Comecuernos para afrontar su destino tras matar a Amaram durante la batalla de Thaylenah."
+    "estado_en_viento_y_verdad": "Regresó a los Picos Comecuernos para afrontar su destino tras matar a Amaram en la batalla de la Explanada Thayleña, violando su voto de no violencia."
   },
   "relaciones": {
     "familia": [
@@ -128,7 +128,7 @@
   },
   "estado_mental": {
     "diagnostico_general": "Estable. Personalidad tranquila y reflexiva con una brújula moral sólida. Carga con la responsabilidad de la muerte del príncipe Kef'ha y sus consecuencias para su familia.",
-    "evolucion": "Mantiene un carácter constante a lo largo de la saga. Su mayor crisis emocional es tomar el arco durante la batalla de Thaylenah — acto que viola su restricción cultural y lo obliga a regresar a los Picos.",
+    "evolucion": "Mantiene un carácter constante a lo largo de la saga. Su mayor crisis emocional es tomar el arco esquirlado en la batalla de la Explanada Thayleña para matar a Amaram y salvar a Kaladin — acto que viola su restricción cultural y lo obliga a regresar a los Picos.",
     "situacion_en_viento_y_verdad": "Ausente — regresó a los Picos Comecuernos para afrontar las consecuencias de haber matado."
   },
   "arco_narrativo": {
@@ -140,7 +140,7 @@
       "Llegó al Puente Cuatro de Sadeas como portador de puentes.",
       "Se convirtió en el cocinero del grupo — su guiso se hizo legendario entre el Puente Cuatro.",
       "Su familia viaja desde los Picos Comecuernos para reunirse con él en Urithiru.",
-      "Durante la batalla de Thaylenah dispara una flecha con su arco unkalaki y mata a Amaram para salvar a Kaladin, que estaba siendo superado por él. Este acto viola su código cultural y lo obliga a regresar a los Picos."
+      "En la batalla de la Explanada Thayleña mata a Amaram — vinculado con Yelig-nar — disparándole dos flechas con un arco esquirlado: una a través de la cabeza y otra a través de su gema corazón. El acto viola su voto de no violencia y le provoca una profunda crisis; es consolado por Kaladin y Teft."
     ]
   },
   "situacion_actual": {
