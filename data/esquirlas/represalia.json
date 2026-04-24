@@ -2,10 +2,10 @@
   "id": "represalia",
   "nombre": "Represalia",
   "apodos": [],
-  "estado_actual": "activa",
-  "planeta": "Roshar",
-  "intencion": "Represalia — combinación de Honor y Odium; su intención exacta aún se está definiendo",
-  "descripcion_breve": "Esquirla resultante de la fusión de Odium y los fragmentos de Honor, portada por Taravangian al final de Viento y Verdad. La primera Esquirla combinada de la saga. Su intención y alcance están aún en formación.",
+  "estado_actual": "activa (liberada del sistema roshariano; escondida)",
+  "planeta": "Roshar (origen); liberada del sistema en Palahanah 1175",
+  "intencion": "Combinación alineada de Honor y Odium — juramentos y pasión destructiva orientados hacia un mismo fin",
+  "descripcion_breve": "Esquirla híbrida resultante de la fusión de Honor y Odium, portada por Taravangian desde el Palahanah 1175. Es uno de los seres más Investidos del Cosmere y una de sus mayores amenazas. Su nacimiento puso fin a las altas tormentas, desencadenó la Noche de las Penas y liberó a Taravangian del sistema roshariano. Se escondió tras su creación antes de que las demás Esquirlas pudieran actuar contra ella.",
   "apariciones": {
     "libros": [
       { "titulo": "Viento y Verdad", "rol": "antagonista principal", "pov": false }
@@ -15,30 +15,41 @@
     {
       "nombre": "Taravangian",
       "estado": "activo",
-      "periodo": "Desde el final de Viento y Verdad",
-      "notas": "Taravangian absorbe los fragmentos de Honor junto con Odium al final de VyV, creando Represalia. Es el único Recipiente de esta nueva Esquirla. Su carácter como dios es distinto al de Rayse — tiene voluntad e intención propias que se están definiendo."
+      "periodo": "Desde Palahanah 1175 (final de Viento y Verdad) hasta el presente",
+      "notas": "Taravangian tomó la Esquirla de Honor cuando Dalinar la liberó al renunciar a todos sus juramentos durante el duelo de campeones, fusionándola con Odium para crear Represalia. Sus acciones provocaron la muerte de Dalinar e intentó tomar su sombra cognitiva para Deshacerla. Como Represalia es considerablemente más poderoso que como portador de Odium solo, ya que Honor y Odium tienen intenciones casi alineadas. Planea regresar a Roshar tras esconderse."
     }
   ],
   "manifestaciones_en_roshar": [
-    "Poder combinado de Honor y Odium — aún en definición",
-    "Luz de guerra — creada por Rabeniel y Navani, posiblemente una manifestación temprana de esta combinación",
-    "Control sobre los Fusionados y Portadores del Vacío (heredado de Odium)",
-    "Capacidad de crear y sostener vínculos (heredado de Honor)"
+    "Noche de las Penas — noche eterna en todo Roshar excepto Azir y Urithiru, causada por su nacimiento",
+    "Tormenta eterna extendida — cubrió todo Roshar al crearse Represalia; cesó en Azir un mes después",
+    "Perpendicularidad de Represalia — ubicada en las Llanuras Quebradas",
+    "Desaparición de la luz tormentosa — la Investidura de Honor se volvió inaccesible en Roshar tras su creación",
+    "Dilatación temporal — el nacimiento de Represalia causó una dilatación de ~70-80 años para el resto del Cosmere por cada 10 años en Roshar",
+    "Capacidad de quitar emociones — al Conectar con alguien, puede quitarle emociones y pasiones negativas (miedo, ira, dolor, inseguridades)"
   ],
   "historia": {
-    "resumen": "Represalia nace al final de Viento y Verdad cuando Taravangian, ya Recipiente de Odium, absorbe también los fragmentos de la Esquirla de Honor. Es la primera Esquirla combinada conocida en la saga. Su naturaleza, intención y alcance están aún en proceso de formación durante los eventos del libro.",
+    "resumen": "Represalia nace en el duelo de campeones del Palahanah 1175 cuando Dalinar Kholin, que brevemente ascendió como Recipiente de Honor, renuncia a todos sus juramentos y libera la Esquirla. Taravangian la absorbe y la fusiona con Odium. Es la segunda Esquirla híbrida conocida en la historia del Cosmere, tras Armonía. A diferencia de Armonía, cuyos componentes tienen intenciones opuestas, Honor y Odium tienen intenciones casi alineadas, lo que hace a Represalia extraordinariamente poderosa. Su nacimiento desencadenó la Noche de las Penas y la liberó del sistema roshariano.",
     "puntos_clave": [
-      "Taravangian, ya Recipiente de Odium, absorbe los fragmentos de Honor al final de VyV.",
-      "Nace Represalia — primera Esquirla combinada de la saga.",
-      "Su intención es una combinación de las de Honor y Odium, aún en definición.",
-      "Taravangian actúa como antagonista principal durante los eventos de VyV.",
-      "Su poder combinado supera al de cualquiera de las Esquirlas individuales."
+      "Dalinar Kholin asciende brevemente como Recipiente de Honor el Palahanah 1175 durante el duelo de campeones.",
+      "Dalinar renuncia a todos sus juramentos y a los de Honor, expulsando la Esquirla de sí mismo y convirtiéndose en una Lasca.",
+      "Taravangian absorbe Honor y lo fusiona con Odium, creando Represalia. Sus acciones provocan la muerte de Dalinar.",
+      "Represalia intenta tomar la sombra cognitiva de Dalinar para Deshacerla.",
+      "Al nacer Represalia, cesa la alta tormenta y la tormenta eterna se extiende para cubrir todo Roshar excepto Urithiru — comienza la Noche de las Penas.",
+      "La luz tormentosa, Investidura de Honor, se vuelve inaccesible en todo Roshar.",
+      "El nacimiento de Represalia libera a Taravangian del sistema roshariano — el Juramento que ataba a Odium queda disuelto.",
+      "La creación de Represalia provoca una dilatación temporal severa: ~70-80 años para el Cosmere por cada 10 años en Roshar.",
+      "Represalia se esconde rápidamente antes de que las demás Esquirlas puedan actuar contra ella.",
+      "Cultivación huye del sistema roshariano al mismo tiempo.",
+      "La perpendicularidad de Odium (el Pozo de Control) pierde su Investidura. La nueva perpendicularidad de Represalia se forma en las Llanuras Quebradas.",
+      "Hoid, ahora desprotegido por la ruptura del contrato, transfiere la Esquirla del Amanecer a Sigzil para protegerla antes de que Represalia pueda actuar contra él.",
+      "Represalia planea regresar a Roshar más tarde."
     ]
   },
   "relacion_con_otras_esquirlas": {
-    "honor": "Componente absorbido. Los fragmentos de Honor forman parte de Represalia.",
-    "odium": "Componente absorbido. Odium es el otro componente de Represalia.",
-    "cultivacion": "Relación pendiente de definir tras los eventos de VyV."
+    "honor": "Componente fusionado. Honor forma parte de Represalia. Sus intenciones estaban casi alineadas con las de Odium, lo que hace a Represalia extraordinariamente poderosa.",
+    "odium": "Componente fusionado. Odium es el otro elemento de Represalia.",
+    "cultivacion": "Cultivación huyó del sistema roshariano al mismo tiempo que Represalia nacía. Su relación futura es desconocida.",
+    "armonia": "La única otra Esquirla híbrida conocida, formada por Ruina y Conservación. A diferencia de Represalia, los componentes de Armonía tienen intenciones opuestas, lo que la hace menos efectiva."
   },
-  "notas": "Represalia es una entidad sin precedentes en Roshar — la fusión de dos Esquirlas en una sola. Su intención exacta y su relación con Cultivación son los grandes interrogantes que quedan abiertos al final de la saga."
+  "notas": "Represalia es solo la segunda Esquirla híbrida de la historia del Cosmere, tras Armonía. A diferencia de Armonía — cuyos componentes (Ruina y Conservación) tienen intenciones opuestas y desalineadas — Honor y Odium tienen intenciones casi alineadas, lo que hace a Represalia uno de los seres más poderosos del Cosmere. La dilatación temporal causada por su nacimiento (~70-80 años externos por cada 10 en Roshar) interrumpió gravemente el comercio y las comunicaciones interplanetarias. El Palahanah es el décimo mes del calendario roshariano."
 }
