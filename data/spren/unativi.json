@@ -6,14 +6,86 @@
   "es_splinter_de": null,
   "mundo_natal": "Roshar",
   "estado_actual": "activo",
-  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Primo de Ua'pam. Capitán de una barcaza en Shadesmar." },
-  "apariencia": { "reino_fisico": { "forma_preferida": "calvo como otros cumbrespren, con más grietas en la cabeza que en el resto del cuerpo. Le gusta llevar un sombrero. Emana luz de su interior fundido a través de profundas grietas.", "formas_alternativas": [], "color": "roca con grietas luminosas", "visibilidad": "visible", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null } },
-  "personalidad": { "rasgos": ["desconfía de los humanos", "desaprueba el vínculo de Ua'pam", "cree que puede huir del conflicto"], "valores": [], "notas": "No confía en los humanos. Cree que puede evitar la guerra de Odium en Shadesmar." },
-  "habilidades": { "generales": ["capitán de barcaza en Shadesmar", "puede manifestar bienes mediante luz tormentosa", "conocimiento de Shadesmar"] },
-  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": null, "potencias_otorgadas": [], "forma_shardblade": null, "estado_vinculo": "sin vínculo", "radiante_anterior": null, "notas": null },
-  "historia": { "resumen": "Cumbrespren capitán de barcaza primo de Ua'pam. Transportó la misión diplomática humana desde Urithiru hasta Innominado en 1175, negándose a llevarlos hasta Integridad Duradera.", "puntos_clave": ["primo de Ua'pam", "capitán de barcaza en Shadesmar", "transportó la misión diplomática a Innominado en 1175"] },
-  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundario", "pov": false }] },
-  "relaciones": { "radiante_vinculado": null, "creador": null, "otros": [{ "personaje": "ua-pam", "relacion": "primo" }, { "personaje": "notum", "relacion": "se cruzaron en el camino de vuelta" }] },
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Primo de Ua'pam. Capitán de una barcaza en Shadesmar."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "calvo como otros cumbrespren, con más grietas en la cabeza que en el resto del cuerpo. Le gusta llevar un sombrero. Emana luz de su interior fundido a través de profundas grietas.",
+      "formas_alternativas": [],
+      "color": "roca con grietas luminosas",
+      "visibilidad": "visible",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": null
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": null,
+      "otras_formas": [],
+      "material": null
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "desconfía de los humanos",
+      "desaprueba el vínculo de Ua'pam",
+      "cree que puede huir del conflicto"
+    ],
+    "valores": [],
+    "notas": "No confía en los humanos. Cree que puede evitar la guerra de Odium en Shadesmar."
+  },
+  "habilidades": {
+    "generales": [
+      "capitán de barcaza en Shadesmar",
+      "puede manifestar bienes mediante luz tormentosa",
+      "conocimiento de Shadesmar"
+    ]
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": "Custodios de la Piedra",
+    "potencias_otorgadas": [],
+    "forma_shardblade": null,
+    "estado_vinculo": "sin vínculo",
+    "radiante_anterior": null,
+    "notas": null
+  },
+  "historia": {
+    "resumen": "Cumbrespren capitán de barcaza primo de Ua'pam. Transportó la misión diplomática humana desde Urithiru hasta Innominado en 1175, negándose a llevarlos hasta Integridad Duradera.",
+    "puntos_clave": [
+      "primo de Ua'pam",
+      "capitán de barcaza en Shadesmar",
+      "transportó la misión diplomática a Innominado en 1175"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "ua-pam",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "notum",
+        "relacion": "se cruzaron en el camino de vuelta"
+      }
+    ]
+  },
   "descripcion_breve": "Cumbrespren capitán de barcaza en Shadesmar y primo de Ua'pam. Desconfía de los humanos. Transportó la misión diplomática hasta Innominado.",
   "notas": "Le gusta llevar sombrero, a diferencia de otros cumbrespren calvos."
 }

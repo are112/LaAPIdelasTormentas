@@ -6,14 +6,92 @@
   "es_splinter_de": null,
   "mundo_natal": "Roshar",
   "estado_actual": "activa",
-  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Estaba viva durante la Traición y vio morir a amigos y familiares." },
-  "apariencia": { "reino_fisico": { "forma_preferida": "cuerpo negro ébano con brillo iridiscente. Cara redonda y nariz pequeña. Lleva falda larga hasta las rodillas con blusa y chal de mercader thayleña. Pelo recogido en algo parecido a una trenza.", "formas_alternativas": [], "color": "negro ébano con brillo iridiscente similar al aceite en agua", "visibilidad": "visible", "notas_emocionales": "tiene la costumbre de no mirar a los demás cuando tiene algo difícil que decir" }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null } },
-  "personalidad": { "rasgos": ["directa", "cortada al hablar", "conocedora de la ley honorspren", "no le gustan los honorspren"], "valores": ["odio a los humanos presente aunque quiera un juicio justo"], "notas": "Fue quien sugirió a Maya como testigo final en el juicio de Adolin." },
-  "habilidades": { "generales": ["representante de los tintaspren en Integridad Duradera", "conocimiento exhaustivo de la ley honorspren", "puede sentir la alta tormenta como tamborileo"], "magicas": [] },
-  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": null, "potencias_otorgadas": [], "forma_shardblade": null, "estado_vinculo": "sin vínculo", "radiante_anterior": null, "notas": null },
-  "historia": { "resumen": "Tintaspren representante en Integridad Duradera. Entrenó a Adolin en la legislación honorspren antes de su juicio pero testificó contra él declarando que aunque quería un juicio justo, su odio a los humanos también estaba presente. Fue quien sugirió a Maya como testigo final.", "puntos_clave": ["estaba viva durante la Traición", "representante tintaspren en Integridad Duradera", "entrenó a Adolin en la ley honorspren", "testificó contra Adolin en el juicio", "sugirió a Maya como testigo final"] },
-  "apariciones": { "libros": [{ "titulo": "El ritmo de la guerra", "rol": "secundaria", "pov": false }] },
-  "relaciones": { "radiante_vinculado": null, "creador": null, "otros": [{ "personaje": "adolin", "relacion": "lo entrenó en la ley y luego testificó contra él" }, { "personaje": "mayalaran", "relacion": "fue quien la propuso como testigo final" }] },
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Estaba viva durante la Traición y vio morir a amigos y familiares."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "cuerpo negro ébano con brillo iridiscente. Cara redonda y nariz pequeña. Lleva falda larga hasta las rodillas con blusa y chal de mercader thayleña. Pelo recogido en algo parecido a una trenza.",
+      "formas_alternativas": [],
+      "color": "negro ébano con brillo iridiscente similar al aceite en agua",
+      "visibilidad": "visible",
+      "notas_emocionales": "tiene la costumbre de no mirar a los demás cuando tiene algo difícil que decir"
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": null
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": null,
+      "otras_formas": [],
+      "material": null
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "directa",
+      "cortada al hablar",
+      "conocedora de la ley honorspren",
+      "no le gustan los honorspren"
+    ],
+    "valores": [
+      "odio a los humanos presente aunque quiera un juicio justo"
+    ],
+    "notas": "Fue quien sugirió a Maya como testigo final en el juicio de Adolin."
+  },
+  "habilidades": {
+    "generales": [
+      "representante de los tintaspren en Integridad Duradera",
+      "conocimiento exhaustivo de la ley honorspren",
+      "puede sentir la alta tormenta como tamborileo"
+    ],
+    "magicas": []
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": "Nominadores de Lo Otro",
+    "potencias_otorgadas": [],
+    "forma_shardblade": null,
+    "estado_vinculo": "sin vínculo",
+    "radiante_anterior": null,
+    "notas": null
+  },
+  "historia": {
+    "resumen": "Tintaspren representante en Integridad Duradera. Entrenó a Adolin en la legislación honorspren antes de su juicio pero testificó contra él declarando que aunque quería un juicio justo, su odio a los humanos también estaba presente. Fue quien sugirió a Maya como testigo final.",
+    "puntos_clave": [
+      "estaba viva durante la Traición",
+      "representante tintaspren en Integridad Duradera",
+      "entrenó a Adolin en la ley honorspren",
+      "testificó contra Adolin en el juicio",
+      "sugirió a Maya como testigo final"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El ritmo de la guerra",
+        "rol": "secundaria",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "adolin",
+        "relacion": "lo entrenó en la ley y luego testificó contra él"
+      },
+      {
+        "personaje": "mayalaran",
+        "relacion": "fue quien la propuso como testigo final"
+      }
+    ]
+  },
   "descripcion_breve": "Tintaspren representante en Integridad Duradera. Entrenó a Adolin en la ley honorspren pero testificó contra él. Fue quien propuso a Maya como testigo final del juicio.",
   "notas": "Como tintaspren, todo su cuerpo es negro como el ébano con brillo iridiscente similar al aceite en agua."
 }

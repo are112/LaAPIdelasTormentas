@@ -6,14 +6,90 @@
   "es_splinter_de": null,
   "mundo_natal": "Roshar",
   "estado_actual": "activo",
-  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Nació antes de la Traición. Capitán de un barco mercante en Shadesmar." },
-  "apariencia": { "reino_fisico": { "forma_preferida": "piel de bronce metálico, aspecto humano. Más bajo que un alezi, constitución robusta. Viste ropas humanas de color canela con muchos bolsillos abotonados.", "formas_alternativas": [], "color": "bronce metálico", "visibilidad": "visible", "notas_emocionales": null }, "reino_cognitivo": { "forma": "ojos parecidos a los shin hechos de bronce con agujeros en las pupilas", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": null, "otras_formas": [], "material": null } },
-  "personalidad": { "rasgos": ["brusco", "dice lo que piensa", "práctico", "comprensivo"], "valores": ["cree que no se puede confiar en los juramentos de los humanos"], "notas": "Se avergüenza cuando se da cuenta de que ha sido grosero. Tiene una hija." },
-  "habilidades": { "generales": ["capitán de barco en Shadesmar", "conocimiento de moneda y funcionamiento de la luz tormentosa en Shadesmar", "conocimiento de los spren ojomuertos"], "magicas": [] },
-  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": null, "potencias_otorgadas": [], "forma_shardblade": null, "estado_vinculo": "sin vínculo", "radiante_anterior": null, "notas": null },
-  "historia": { "resumen": "Alcanzador capitán de un barco mercante en Shadesmar nacido antes de la Traición. En 1174 transportó a Kaladin, Shallan, Adolin, Sylphrena, Patrón, Vivenna y Mayalaran desde el faro de Riino hasta Celebrant.", "puntos_clave": ["nació antes de la Traición", "capitán de barco mercante en Shadesmar", "transportó al grupo de Kaladin desde el faro de Riino a Celebrant en 1174"] },
-  "apariciones": { "libros": [{ "titulo": "Juramentada", "rol": "secundario", "pov": false }] },
-  "relaciones": { "radiante_vinculado": null, "creador": null, "otros": [{ "personaje": "kaladin", "relacion": "pasajero en su barco" }, { "personaje": "sylphrena", "relacion": "pasajera, la conocía de oídas" }] },
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Nació antes de la Traición. Capitán de un barco mercante en Shadesmar."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "piel de bronce metálico, aspecto humano. Más bajo que un alezi, constitución robusta. Viste ropas humanas de color canela con muchos bolsillos abotonados.",
+      "formas_alternativas": [],
+      "color": "bronce metálico",
+      "visibilidad": "visible",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": {
+      "forma": "ojos parecidos a los shin hechos de bronce con agujeros en las pupilas",
+      "limitaciones": null
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": null,
+      "otras_formas": [],
+      "material": null
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "brusco",
+      "dice lo que piensa",
+      "práctico",
+      "comprensivo"
+    ],
+    "valores": [
+      "cree que no se puede confiar en los juramentos de los humanos"
+    ],
+    "notas": "Se avergüenza cuando se da cuenta de que ha sido grosero. Tiene una hija."
+  },
+  "habilidades": {
+    "generales": [
+      "capitán de barco en Shadesmar",
+      "conocimiento de moneda y funcionamiento de la luz tormentosa en Shadesmar",
+      "conocimiento de los spren ojomuertos"
+    ],
+    "magicas": []
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": "Escultores de Voluntad",
+    "potencias_otorgadas": [],
+    "forma_shardblade": null,
+    "estado_vinculo": "sin vínculo",
+    "radiante_anterior": null,
+    "notas": null
+  },
+  "historia": {
+    "resumen": "Alcanzador capitán de un barco mercante en Shadesmar nacido antes de la Traición. En 1174 transportó a Kaladin, Shallan, Adolin, Sylphrena, Patrón, Vivenna y Mayalaran desde el faro de Riino hasta Celebrant.",
+    "puntos_clave": [
+      "nació antes de la Traición",
+      "capitán de barco mercante en Shadesmar",
+      "transportó al grupo de Kaladin desde el faro de Riino a Celebrant en 1174"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "kaladin",
+        "relacion": "pasajero en su barco"
+      },
+      {
+        "personaje": "sylphrena",
+        "relacion": "pasajera, la conocía de oídas"
+      }
+    ]
+  },
   "descripcion_breve": "Alcanzador capitán de un barco mercante en Shadesmar. Brusco pero práctico, transportó al grupo de Kaladin desde el faro de Riino hasta Celebrant.",
   "notas": "Tiene una hija. Cree que no se puede confiar en los juramentos de los humanos pero se avergüenza cuando es grosero innecesariamente."
 }
