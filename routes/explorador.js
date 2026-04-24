@@ -622,16 +622,26 @@ router.get("/", (req, res) => {
     }
 
     /* Campos básicos */
-    .campo { margin-bottom: 0.5rem; display: flex; gap: 0.5rem; align-items: baseline; }
+    .campo {
+      margin-bottom: 0.5rem;
+      display: grid;
+      grid-template-columns: 38% 1fr;
+      gap: 0.5rem;
+      align-items: baseline;
+    }
     .campo-label {
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       color: var(--gris-plata);
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      flex-shrink: 0;
-      min-width: 90px;
+      opacity: 0.7;
+      padding-top: 0.1rem;
     }
-    .campo-valor { font-size: 0.95rem; color: var(--blanco-perla); }
+    .campo-valor {
+      font-size: 0.9rem;
+      color: var(--blanco-perla);
+      line-height: 1.4;
+    }
 
     /* Tags */
     .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.25rem; }
