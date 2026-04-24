@@ -881,17 +881,91 @@ router.get("/", (req, res) => {
     }
 
     /* Responsive */
+    /* ── MÓVIL: vista de una sola pantalla a la vez ── */
     @media (max-width: 768px) {
-      .contenedor { grid-template-columns: 1fr; }
-      .panel-izq {
-        border-right: none;
-        border-bottom: 1px solid rgba(79,195,247,0.15);
-        height: 45vh;
+
+      /* Header más compacto */
+      header { padding: 0 1rem; height: 48px; }
+      h1 { font-size: 0.85rem; }
+      .subtitulo { display: none; }
+      .header-der { display: none; }
+
+      /* Contenedor: columna única, ocupa toda la pantalla bajo el header */
+      .contenedor {
+        grid-template-columns: 1fr;
+        height: calc(100vh - 48px);
+        position: relative;
       }
-      .lista-scroll { max-height: 160px; }
-      .ficha-header { flex-direction: column; }
+
+      /* Panel izquierdo: ocupa toda la pantalla por defecto */
+      .panel-izq {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        border-right: none;
+        border-bottom: none;
+        z-index: 10;
+        transition: transform 0.3s ease;
+        transform: translateX(0);
+        padding: 1rem;
+      }
+      .panel-izq.oculto {
+        transform: translateX(-100%);
+        pointer-events: none;
+      }
+
+      /* Panel derecho: ocupa toda la pantalla, oculto hasta que se selecciona algo */
+      .panel-der {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        z-index: 20;
+        transition: transform 0.3s ease;
+        transform: translateX(100%);
+        padding: 1rem;
+        padding-top: 0.5rem;
+      }
+      .panel-der.visible {
+        transform: translateX(0);
+      }
+
+      /* Botón volver en móvil */
+      .btn-volver {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        background: none;
+        border: none;
+        color: var(--gris-plata);
+        font-family: 'Crimson Pro', serif;
+        font-size: 0.85rem;
+        cursor: pointer;
+        padding: 0.75rem 0 0.75rem 0;
+        margin-bottom: 0.75rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        opacity: 0.7;
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid rgba(255,255,255,0.06);
+      }
+      .btn-volver:active { opacity: 1; }
+
+      /* Ficha: ajustes para pantalla pequeña */
+      .ficha-header { flex-direction: column; gap: 1rem; }
+      .ficha-avatar, .ficha-avatar-deshecho,
+      .ficha-avatar-heraldo { width: 56px; height: 56px; font-size: 1.6rem; }
+      .ficha-titulo h2 { font-size: 1.3rem; }
       .grid-secciones { columns: 1; }
       .historial-barra { display: none; }
+      .relaciones-columnas { grid-template-columns: 1fr; }
+
+      /* Estado vacío centrado */
+      .estado-vacio { display: none; }
+
+      /* Tabs más compactos */
+      .tabs { gap: 0.25rem; margin-bottom: 1rem; }
+      .tab { font-size: 0.75rem; padding: 0.4rem 0.2rem; }
     }
   </style>
 </head>
@@ -969,6 +1043,27 @@ router.get("/", (req, res) => {
     let todosDeshechos= [];
     let filtrados     = [];
     let seleccionado  = null;
+
+    // ── Detección móvil y navegación de paneles ──────────────
+    const esMobil = () => window.innerWidth <= 768;
+
+    function mostrarFichaMovil() {
+      if (!esMobil()) return;
+      document.querySelector('.panel-izq').classList.add('oculto');
+      document.querySelector('.panel-der').classList.add('visible');
+    }
+
+    function volverListaMovil() {
+      document.querySelector('.panel-izq').classList.remove('oculto');
+      document.querySelector('.panel-der').classList.remove('visible');
+      seleccionado = null;
+    }
+
+    function botonVolver() {
+      return esMobil()
+        ? '<button class="btn-volver" onclick="volverListaMovil()">← Volver</button>'
+        : '';
+    }
 
     // ── Historial de navegación ────────────────────────────
     let historialNavegacion = []; // { tipo, id, nombre }
@@ -1170,7 +1265,8 @@ router.get("/", (req, res) => {
           : null;
 
         document.getElementById('estado-vacio').style.display = 'none';
-        panel.innerHTML = renderFicha(p, rel);
+        panel.innerHTML = botonVolver() + renderFicha(p, rel);
+        mostrarFichaMovil();
         if (!desdeHistorial) agregarHistorial('personaje', id, p.nombre);
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1653,7 +1749,8 @@ router.get("/", (req, res) => {
         const res = await fetch(\`\${API}/deshechos/\${id}\`);
         const d = await res.json();
         document.getElementById('estado-vacio').style.display = 'none';
-        panel.innerHTML = renderFichaDeshecho(d);
+        panel.innerHTML = botonVolver() + renderFichaDeshecho(d);
+        mostrarFichaMovil();
         if (!desdeHistorial) agregarHistorial('deshecho', id, d.nombre);
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1808,7 +1905,8 @@ router.get("/", (req, res) => {
         const res = await fetch(\`\${API}/heraldos/\${id}\`);
         const h = await res.json();
         document.getElementById('estado-vacio').style.display = 'none';
-        panel.innerHTML = renderFichaHeraldo(h);
+        panel.innerHTML = botonVolver() + renderFichaHeraldo(h);
+        mostrarFichaMovil();
         if (!desdeHistorial) agregarHistorial('heraldo', id, h.nombre);
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2058,7 +2156,8 @@ router.get("/", (req, res) => {
         const res = await fetch(\`\${API}/spren/\${id}\`);
         const s = await res.json();
         document.getElementById('estado-vacio').style.display = 'none';
-        panel.innerHTML = renderFichaSpren(s);
+        panel.innerHTML = botonVolver() + renderFichaSpren(s);
+        mostrarFichaMovil();
         if (!desdeHistorial) agregarHistorial('spren', id, s.nombre);
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
