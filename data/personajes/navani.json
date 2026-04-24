@@ -2,7 +2,10 @@
   "id": "navani",
   "nombre": "Navani",
   "nombre_completo": "Navani Kholin",
-  "apodos": ["Reina Navani", "La Madre de los Fabriales"],
+  "apodos": [
+    "Reina Navani",
+    "La Madre de los Fabriales"
+  ],
   "sexo": "femenino",
   "especie": "humano",
   "nacionalidad": "alezi",
@@ -11,11 +14,31 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": false },
-      { "titulo": "Juramentada",            "rol": "principal",            "pov": true  },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "protagonista",         "pov": true  },
-      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": true
+      }
     ]
   },
   "afiliaciones": [
@@ -28,12 +51,17 @@
   "orden_radiantes": {
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 1,
-    "spren_asociado": { "principal": "El Hermano (Sibling)" },
+    "spren_asociado": {
+      "principal": "el-hermano"
+    },
     "estado_del_vinculo": "Activo. Se convirtió en la primera Forjadora de Vínculos de la nueva era al vincularse con el Hermano durante la ocupación de Urithiru."
   },
   "habilidades": {
     "magia": {
-      "potencias": ["Adhesión", "Tensión"],
+      "potencias": [
+        "Adhesión",
+        "Tensión"
+      ],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
@@ -56,22 +84,58 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "gavilar",  "relacion": "primer esposo; fallecido" },
-      { "personaje": "dalinar",  "relacion": "segundo esposo; fallecido" },
-      { "personaje": "jasnah",   "relacion": "hija" },
-      { "personaje": "elhokar",  "relacion": "hijo; fallecido" },
-      { "personaje": "adolin",   "relacion": "hijastro" },
-      { "personaje": "renarin",  "relacion": "hijastro" },
-      { "personaje": "Gavinor",  "relacion": "nieto; heredero del trono" }
+      {
+        "personaje": "gavilar",
+        "relacion": "primer esposo; fallecido"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "segundo esposo; fallecido"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "hija"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "hijo; fallecido"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "hijastro"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "hijastro"
+      },
+      {
+        "personaje": "Gavinor",
+        "relacion": "nieto; heredero del trono"
+      }
     ],
     "amigos": [
-      { "personaje": "shallan",  "relacion": "aliada y pupila de Jasnah; le tiene gran aprecio" },
-      { "personaje": "kaladin",  "relacion": "aliado" },
-      { "personaje": "rushu",    "relacion": "ayudante de investigación de confianza" }
+      {
+        "personaje": "shallan",
+        "relacion": "aliada y pupila de Jasnah; le tiene gran aprecio"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "rushu",
+        "relacion": "ayudante de investigación de confianza"
+      }
     ],
     "enemigos": [
-      { "personaje": "rabeniel", "relacion": "antagonista durante la ocupación de Urithiru; la fuerza a colaborar; Navani la mata" },
-      { "personaje": "moash",    "relacion": "la secuestra durante la ocupación de Urithiru" }
+      {
+        "personaje": "rabeniel",
+        "relacion": "antagonista durante la ocupación de Urithiru; la fuerza a colaborar; Navani la mata"
+      },
+      {
+        "personaje": "moash",
+        "relacion": "la secuestra durante la ocupación de Urithiru"
+      }
     ]
   },
   "estado_mental": {

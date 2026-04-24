@@ -2,7 +2,10 @@
   "id": "jasnah",
   "nombre": "Jasnah",
   "nombre_completo": "Jasnah Kholin",
-  "apodos": ["La Hereje", "Reina Jasnah"],
+  "apodos": [
+    "La Hereje",
+    "Reina Jasnah"
+  ],
   "sexo": "femenino",
   "especie": "humano",
   "nacionalidad": "alezi",
@@ -11,11 +14,31 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "principal",            "pov": true  },
-      { "titulo": "Juramentada",            "rol": "principal",            "pov": true  },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "principal",            "pov": true  },
-      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "principal",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": true
+      }
     ]
   },
   "afiliaciones": [
@@ -28,12 +51,17 @@
   "orden_radiantes": {
     "orden": "Nominadores de Lo Otro",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "Ivory" },
+    "spren_asociado": {
+      "principal": "marfil"
+    },
     "estado_del_vinculo": "Activo. Primera Caballera Radiante de la nueva era, vinculada con Ivory antes que Kaladin con Sylphrena."
   },
   "habilidades": {
     "magia": {
-      "potencias": ["Transformación", "Transporte"],
+      "potencias": [
+        "Transformación",
+        "Transporte"
+      ],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
@@ -58,23 +86,62 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "gavilar",  "relacion": "padre; fallecido" },
-      { "personaje": "navani",   "relacion": "madre" },
-      { "personaje": "elhokar",  "relacion": "hermano; fallecido" },
-      { "personaje": "dalinar",  "relacion": "tío; fallecido" },
-      { "personaje": "adolin",   "relacion": "primo" },
-      { "personaje": "renarin",  "relacion": "primo" },
-      { "personaje": "Gavinor",  "relacion": "sobrino; heredero del trono" }
+      {
+        "personaje": "gavilar",
+        "relacion": "padre; fallecido"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "madre"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "hermano; fallecido"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "tío; fallecido"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "Gavinor",
+        "relacion": "sobrino; heredero del trono"
+      }
     ],
     "amigos": [
-      { "personaje": "shallan",  "relacion": "pupila y aliada; relación de respeto y afecto" },
-      { "personaje": "hoid",     "relacion": "aliado antiguo; él la recibe a su salida de Shadesmar" },
-      { "personaje": "kaladin",  "relacion": "aliado" },
-      { "personaje": "navani",   "relacion": "madre y consejera de confianza" }
+      {
+        "personaje": "shallan",
+        "relacion": "pupila y aliada; relación de respeto y afecto"
+      },
+      {
+        "personaje": "hoid",
+        "relacion": "aliado antiguo; él la recibe a su salida de Shadesmar"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "aliado"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "madre y consejera de confianza"
+      }
     ],
     "enemigos": [
-      { "personaje": "taravangian", "relacion": "descubrió su traición a Dalinar; adversaria política" },
-      { "personaje": "Sangre Espectral", "relacion": "organización que intentó matarla en el Placer del Viento" }
+      {
+        "personaje": "taravangian",
+        "relacion": "descubrió su traición a Dalinar; adversaria política"
+      },
+      {
+        "personaje": "Sangre Espectral",
+        "relacion": "organización que intentó matarla en el Placer del Viento"
+      }
     ]
   },
   "estado_mental": {
