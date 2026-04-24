@@ -571,7 +571,8 @@ router.get("/", (req, res) => {
     .badge-muerto   { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
     .badge-especie  { background: rgba(255,255,255,0.05); color: var(--gris-plata); border: 1px solid rgba(255,255,255,0.1); }
     .badge-nivel    { background: rgba(200,146,42,0.1);   color: #b8832a;  border: 1px solid rgba(200,146,42,0.2); }
-    .badge-deshecho { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
+    .badge-deshecho  { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
+    .badge-esquirla  { background: rgba(240,192,64,0.1);   color: #d4a82a;  border: 1px solid rgba(240,192,64,0.2); }
 
     /* Descripción */
     .descripcion {
@@ -1102,7 +1103,7 @@ router.get("/", (req, res) => {
         if (i < historialNavegacion.length - 1) {
           btn.onclick = () => {
             historialNavegacion = historialNavegacion.slice(0, i + 1);
-            const accion = { personaje: verPersonaje, spren: verSpren, heraldo: verHeraldo, deshecho: verDeshecho };
+            const accion = { personaje: verPersonaje, spren: verSpren, heraldo: verHeraldo, deshecho: verDeshecho, esquirla: verEsquirla };
             accion[h.tipo]?.(h.id, true);
           };
         }
@@ -1576,6 +1577,9 @@ router.get("/", (req, res) => {
       for (const d of todosDeshechos) {
         resultados.push({ id: d.id, nombre: d.nombre, tipo: 'deshecho', subtipo: d.apodos?.[0] || 'Deshecho', accion: () => { cambiarTab('deshechos'); verDeshecho(d.id); } });
       }
+      for (const e of todosEsquirlas) {
+        resultados.push({ id: e.id, nombre: e.nombre, tipo: 'esquirla', subtipo: e.estado_actual || 'Esquirla', accion: () => { cambiarTab('esquirlas'); verEsquirla(e.id); } });
+      }
       return resultados;
     }
 
@@ -1595,8 +1599,9 @@ router.get("/", (req, res) => {
         spren:     'rgba(200,146,42,0.15)',
         heraldo:   'rgba(192,57,43,0.15)',
         deshecho:  'rgba(192,57,43,0.2)',
+        esquirla:  'rgba(240,192,64,0.15)',
       };
-      const badgeText = { personaje: 'Personaje', spren: 'Spren', heraldo: 'Heraldo', deshecho: 'Deshecho' };
+      const badgeText = { personaje: 'Personaje', spren: 'Spren', heraldo: 'Heraldo', deshecho: 'Deshecho', esquirla: 'Esquirla' };
 
       lista.innerHTML = matches.map((r, i) => \`
         <div class="autocomplete-item" data-idx="\${i}" onmousedown="seleccionarAC(\${i})">
@@ -1897,19 +1902,24 @@ router.get("/", (req, res) => {
       }).join('');
     }
 
-    async function verEsquirla(id) {
+    async function verEsquirla(id, desdeHistorial) {
       seleccionado = 'esquirla_' + id;
       document.querySelectorAll('.item-personaje').forEach(el => {
         el.classList.toggle('activo', el.dataset.id === 'esquirla_' + id);
       });
       const panel = document.getElementById('panel-detalle');
-      panel.innerHTML = skeletonFicha();
+      panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
       try {
         const res = await fetch(\`\${API}/esquirlas/\${id}\`);
         const e   = await res.json();
-        panel.innerHTML = renderFichaEsquirla(e);
+        document.getElementById('estado-vacio').style.display = 'none';
+        panel.innerHTML = botonVolver() + renderFichaEsquirla(e);
+        mostrarFichaMovil();
+        if (!desdeHistorial) agregarHistorial('esquirla', id, e.nombre);
+        renderHistorial();
+        panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch(err) {
-        panel.innerHTML = '<p class=\"sin-datos\">Error cargando la esquirla</p>';
+        panel.innerHTML = '<p class="sin-datos">Error cargando la esquirla</p>';
       }
     }
 
@@ -1962,7 +1972,7 @@ router.get("/", (req, res) => {
               <h2>\${e.nombre}</h2>
               \${(e.apodos ?? []).length ? \`<div class="nombre-completo"><em>"\${e.apodos.join('", "')}"</em></div>\` : ''}
               <div class="badges">
-                <span class="badge badge-heraldo">Esquirla</span>
+                <span class="badge badge-esquirla">Esquirla</span>
                 <span class="badge \${badgeEstado}">\${e.estado_actual}</span>
               </div>
             </div>
@@ -1982,12 +1992,12 @@ router.get("/", (req, res) => {
               <div class="seccion-titulo">Recipientes</div>
               \${recipientesHtml || '<p class=\"sin-datos\">Sin recipientes registrados</p>'}
             </div>
-            <div class="seccion" style="grid-column:1/-1">
+            <div class="seccion">
               <div class="seccion-titulo">Manifestaciones en Roshar</div>
               \${manifestacionesHtml}
             </div>
             \${relacionesHtml ? \`
-            <div class="seccion" style="grid-column:1/-1">
+            <div class="seccion">
               <div class="seccion-titulo">Relación con otras Esquirlas</div>
               \${relacionesHtml}
             </div>\` : ''}
