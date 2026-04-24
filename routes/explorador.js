@@ -456,14 +456,12 @@ router.get("/", (req, res) => {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 100%;
-      height: 100%;
       opacity: 0.4;
       text-align: center;
-      gap: 1rem;
-      position: absolute;
-      inset: 0;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
       pointer-events: none;
+      z-index: 5;
     }
     .estado-vacio p { font-size: 1.1rem; font-style: italic; color: var(--gris-plata); }
 
