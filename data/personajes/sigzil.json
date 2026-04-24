@@ -2,7 +2,9 @@
   "id": "sigzil",
   "nombre": "Sigzil",
   "nombre_completo": "Sigzil",
-  "apodos": ["Sig"],
+  "apodos": [
+    "Sig"
+  ],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "makabaki",
@@ -11,12 +13,31 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario",           "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "secundario",           "pov": false },
-      { "titulo": "Juramentada",            "rol": "secundario",           "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante","pov": false },
-      { "titulo": "Esquirla del Amanecer",  "rol": "secundario importante","pov": false },
-      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "principal",
+        "pov": true
+      }
     ]
   },
   "afiliaciones": [
@@ -28,12 +49,17 @@
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "spren_asociado": { "principal": "Auxiliar (Aux)" },
+    "spren_asociado": {
+      "principal": "Auxiliar (Aux)"
+    },
     "estado_del_vinculo": "Activo. Alcanzó el Tercer Ideal en Roshar. Aux puede transformarse en distintas herramientas y armas."
   },
   "habilidades": {
     "magia": {
-      "potencias": ["Gravitación", "Adhesión"],
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
@@ -57,12 +83,30 @@
   "relaciones": {
     "familia": [],
     "amigos": [
-      { "personaje": "kaladin",  "relacion": "comandante y amigo; le confió la administración del Puente Cuatro" },
-      { "personaje": "teft",     "relacion": "compañero del Puente Cuatro; fallecido" },
-      { "personaje": "lunamor",  "relacion": "compañero del Puente Cuatro" },
-      { "personaje": "lopen",    "relacion": "compañero del Puente Cuatro" },
-      { "personaje": "venli",    "relacion": "aliada en las Llanuras Quebradas en VyV" },
-      { "personaje": "hoid",     "relacion": "antiguo maestro; le transfiere la Esquirla del Amanecer al final de VyV" }
+      {
+        "personaje": "kaladin",
+        "relacion": "comandante y amigo; le confió la administración del Puente Cuatro"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "compañero del Puente Cuatro; fallecido"
+      },
+      {
+        "personaje": "lunamor",
+        "relacion": "compañero del Puente Cuatro"
+      },
+      {
+        "personaje": "lopen",
+        "relacion": "compañero del Puente Cuatro"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "aliada en las Llanuras Quebradas en VyV"
+      },
+      {
+        "personaje": "hoid",
+        "relacion": "antiguo maestro; le transfiere la Esquirla del Amanecer al final de VyV"
+      }
     ],
     "enemigos": []
   },
@@ -85,7 +129,7 @@
   },
   "situacion_actual": {
     "ocupacion": "Corredor del Viento; portador temporal de la Esquirla del Amanecer",
-    "rol": "Miembro senior del Puente Cuatro; figura de importancia creciente en el Cosmere",
+    "rol": "Miembro senior del Puente Cuatro; portador de la Esquirla del Amanecer",
     "relacion_con_spren": "Vínculo activo con Auxiliar (Aux), que puede transformarse en distintas herramientas.",
     "otros_detalles": "Recibió la Esquirla del Amanecer de Hoid al final de VyV. Su historia fuera de Roshar se omite deliberadamente en esta ficha."
   },
