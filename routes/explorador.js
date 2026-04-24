@@ -1315,9 +1315,14 @@ router.get("/", (req, res) => {
               <div class="seccion-titulo">Orden Radiante</div>
               \${orden ? \`
                 <div class="campo"><span class="campo-label">Orden</span><span class="campo-valor">\${orden}</span></div>
-                \${p.orden_radiantes?.spren_asociado?.principal
-                  ? \`<div class="campo"><span class="campo-label">Spren</span><span class="campo-valor">\${enlazarEntidad(p.orden_radiantes.spren_asociado.principal)}</span></div>\`
-                  : ''}
+                <div class="campo">
+                  <span class="campo-label">Spren</span>
+                  <span class="campo-valor">\${(() => {
+                    const raw = p.orden_radiantes?.spren_asociado?.principal;
+                    if (!raw || raw.trim() === '') return '<em style="color:var(--gris-plata);font-style:italic">Desconocido</em>';
+                    return enlazarEntidad(raw);
+                  })()}</span>
+                </div>
                 \${p.orden_radiantes?.estado_del_vinculo
                   ? \`<div class="campo"><span class="campo-label">Vínculo</span><span class="campo-valor">\${p.orden_radiantes.estado_del_vinculo}</span></div>\`
                   : ''}
