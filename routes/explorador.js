@@ -120,7 +120,8 @@ router.get("/", (req, res) => {
       display: grid;
       grid-template-columns: 320px 1fr;
       gap: 0;
-      min-height: calc(100vh - 160px);
+      height: calc(100vh - 160px);
+      overflow: hidden;
     }
 
     /* Tabs */
@@ -160,6 +161,8 @@ router.get("/", (req, res) => {
       backdrop-filter: blur(4px);
       display: flex;
       flex-direction: column;
+      overflow: hidden;
+      height: 100%;
     }
 
     /* Buscador */
@@ -426,6 +429,7 @@ router.get("/", (req, res) => {
     .panel-der {
       padding: 2rem;
       overflow-y: auto;
+      height: 100%;
     }
 
     /* Estado vacío */
@@ -831,7 +835,7 @@ router.get("/", (req, res) => {
       .panel-izq {
         border-right: none;
         border-bottom: 1px solid rgba(79,195,247,0.15);
-        max-height: 45vh;
+        height: 45vh;
       }
       .lista-scroll { max-height: 160px; }
       .ficha-header { flex-direction: column; }
@@ -1111,6 +1115,7 @@ router.get("/", (req, res) => {
         panel.innerHTML = renderFicha(p, rel);
         if (!desdeHistorial) agregarHistorial('personaje', id, p.nombre);
         renderHistorial();
+        panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
         panel.innerHTML = '<p class="sin-datos">Error cargando el personaje</p>';
       }
@@ -1573,6 +1578,7 @@ router.get("/", (req, res) => {
         panel.innerHTML = renderFichaDeshecho(d);
         if (!desdeHistorial) agregarHistorial('deshecho', id, d.nombre);
         renderHistorial();
+        panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
         panel.innerHTML = '<p class="sin-datos">Error cargando el deshecho</p>';
       }
@@ -1726,6 +1732,7 @@ router.get("/", (req, res) => {
         panel.innerHTML = renderFichaHeraldo(h);
         if (!desdeHistorial) agregarHistorial('heraldo', id, h.nombre);
         renderHistorial();
+        panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
         panel.innerHTML = '<p class="sin-datos">Error cargando el heraldo</p>';
       }
@@ -1990,6 +1997,7 @@ router.get("/", (req, res) => {
         panel.innerHTML = renderFichaSpren(s);
         if (!desdeHistorial) agregarHistorial('spren', id, s.nombre);
         renderHistorial();
+        panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
         panel.innerHTML = '<p class="sin-datos">Error cargando el spren</p>';
       }
