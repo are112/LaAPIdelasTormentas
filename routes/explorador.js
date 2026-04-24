@@ -623,19 +623,20 @@ router.get("/", (req, res) => {
 
     /* Campos básicos */
     .campo {
-      margin-bottom: 0.5rem;
       display: grid;
       grid-template-columns: 38% 1fr;
       gap: 0.5rem;
       align-items: baseline;
+      padding: 0.45rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
     }
+    .campo:last-child { border-bottom: none; }
     .campo-label {
       font-size: 0.7rem;
       color: var(--gris-plata);
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      opacity: 0.7;
-      padding-top: 0.1rem;
+      opacity: 0.65;
     }
     .campo-valor {
       font-size: 0.9rem;
@@ -644,7 +645,7 @@ router.get("/", (req, res) => {
     }
 
     /* Tags */
-    .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.25rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.4rem; margin-bottom: 0.1rem; }
     .tag {
       font-size: 0.78rem;
       padding: 0.15rem 0.5rem;
@@ -679,20 +680,24 @@ router.get("/", (req, res) => {
     }
     .relacion-grupo { margin-bottom: 0; }
     .relacion-grupo-titulo {
-      font-size: 0.75rem;
+      font-size: 0.65rem;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.12em;
       color: var(--gris-plata);
-      margin-bottom: 0.35rem;
+      opacity: 0.6;
+      margin-bottom: 0.4rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
     }
     .relacion-item {
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      padding: 0.3rem 0;
-      border-bottom: 1px solid rgba(255,255,255,0.04);
-      font-size: 0.9rem;
+      padding: 0.4rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.88rem;
     }
+    .relacion-item:last-child { border-bottom: none; }
     .relacion-nombre { color: var(--blanco-perla); }
     .relacion-nombre.clickable {
       color: var(--blanco-perla);
@@ -712,10 +717,11 @@ router.get("/", (req, res) => {
       display: flex;
       align-items: center;
       gap: 0.6rem;
-      padding: 0.4rem 0;
-      border-bottom: 1px solid rgba(255,255,255,0.04);
-      font-size: 0.9rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.88rem;
     }
+    .libro-item:last-child { border-bottom: none; }
     .libro-titulo { color: var(--blanco-perla); flex: 1; }
     .libro-rol { font-size: 0.75rem; color: var(--dorado-suave); font-style: italic; }
     .libro-pov {
@@ -737,25 +743,32 @@ router.get("/", (req, res) => {
     }
     .punto-clave {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.6rem;
       align-items: flex-start;
-      padding: 0.25rem 0;
+      padding: 0.4rem 0;
       font-size: 0.88rem;
       color: var(--gris-plata);
-      border-bottom: 1px solid rgba(255,255,255,0.04);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      line-height: 1.5;
     }
-    .punto-clave::before { content: '–'; color: var(--gris-plata); flex-shrink: 0; opacity: 0.5; }
+    .punto-clave:last-child { border-bottom: none; }
+    .punto-clave::before { content: '–'; color: var(--gris-plata); flex-shrink: 0; opacity: 0.4; margin-top: 0.1rem; }
 
     /* Estado mental */
-    .mental-item { margin-bottom: 0.75rem; }
+    .mental-item {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .mental-item:last-child { border-bottom: none; }
     .mental-label {
-      font-size: 0.75rem;
+      font-size: 0.65rem;
       color: var(--gris-plata);
       text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 0.2rem;
+      letter-spacing: 0.1em;
+      opacity: 0.6;
+      margin-bottom: 0.25rem;
     }
-    .mental-valor { font-size: 0.9rem; color: var(--blanco-perla); line-height: 1.5; }
+    .mental-valor { font-size: 0.88rem; color: var(--blanco-perla); line-height: 1.55; }
 
     /* Nivel ideal — círculos */
     .nivel-ideales-wrap { margin-top: 0.75rem; }
@@ -813,10 +826,11 @@ router.get("/", (req, res) => {
     /* Afiliaciones */
     .afiliacion-item {
       display: flex; align-items: center; gap: 0.5rem;
-      padding: 0.3rem 0;
-      font-size: 0.9rem;
-      border-bottom: 1px solid rgba(255,255,255,0.04);
+      padding: 0.4rem 0;
+      font-size: 0.88rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
     }
+    .afiliacion-item:last-child { border-bottom: none; }
     .afiliacion-item::before { content: '–'; font-size: 0.8rem; color: var(--gris-plata); opacity: 0.4; }
 
     /* Sin datos */
