@@ -39,7 +39,6 @@
   "afiliaciones": [
     "Puente Cuatro",
     "Ejército de Sadeas (anteriormente)",
-    "Ejército de Dalinar Kholin (anteriormente)",
     "Picos Comecuernos"
   ],
   "orden_radiantes": {
@@ -60,17 +59,17 @@
       "Fuerza física excepcional incluso para los estándares Unkalaki",
       "Cocinero legendario — su guiso es famoso en el Puente Cuatro",
       "Arquero con arco unkalaki — uno de los pocos capaces de usar un arco de ese tamaño",
-      "Combatiente formidable cuando la situación lo requiere"
+      "Puede escuchar un débil ritmo de origen desconocido, similar a los Ritmos de los cantores"
     ]
   },
   "identidades": {
     "principales": [
       "Cocinero y pilar emocional del Puente Cuatro",
-      "Guerrero Unkalaki de la casta alaii'iku",
+      "Portador de la habilidad alaii'iku (ver todos los spren)",
       "Padre de seis hijos"
     ],
-    "descripcion": "Hombre Unkalaki de estatura enorme, pelo largo y carácter afable. En su cultura, los alaii'iku — quienes pueden ver todos los spren — tienen prohibido matar, pues podrían ver los spren asociados a la muerte. Esta restricción le impedía combatir directamente, lo que le convirtió en el cocinero del Puente Cuatro. Cuando finalmente toma un arco en combate, es por una razón de máxima gravedad.",
-    "estado_en_viento_y_verdad": "Regresó a los Picos Comecuernos para afrontar su destino tras matar a un hombre con el arco durante la evacuación de Piedralar."
+    "descripcion": "Hombre Unkalaki de estatura enorme, pelo largo y carácter afable. Nació como cuarto hijo de su familia en los Picos Comecuernos. En su cultura, los alaii'iku — quienes pueden ver todos los spren — tienen prohibido matar. También puede escuchar un débil ritmo, habilidad de origen desconocido que recuerda a los Ritmos de los cantores. Viajó a las Llanuras Quebradas con Kef'ha, el nuatoma de su familia, con la esperanza de obtener esquirladas para su pueblo.",
+    "estado_en_viento_y_verdad": "Regresó a los Picos Comecuernos para afrontar su destino tras matar a Amaram durante la batalla de Thaylenah."
   },
   "relaciones": {
     "familia": [
@@ -101,10 +100,6 @@
       {
         "personaje": "cancion_hermosa",
         "relacion": "hija menor"
-      },
-      {
-        "personaje": "Kef'ha",
-        "relacion": "antiguo príncipe unkalaki; murió bajo su guardia, lo que lo convirtió en esclavo"
       }
     ],
     "amigos": [
@@ -127,17 +122,13 @@
       {
         "personaje": "drehy",
         "relacion": "compañero del Puente Cuatro"
-      },
-      {
-        "personaje": "huio",
-        "relacion": "primo; también miembro del Puente Cuatro"
       }
     ],
     "enemigos": []
   },
   "estado_mental": {
     "diagnostico_general": "Estable. Personalidad tranquila y reflexiva con una brújula moral sólida. Carga con la responsabilidad de la muerte del príncipe Kef'ha y sus consecuencias para su familia.",
-    "evolucion": "Mantiene un carácter constante a lo largo de la saga. Su mayor crisis emocional es tomar el arco durante la evacuación de Piedralar — acto que viola su restricción cultural y lo obliga a regresar a los Picos.",
+    "evolucion": "Mantiene un carácter constante a lo largo de la saga. Su mayor crisis emocional es tomar el arco durante la batalla de Thaylenah — acto que viola su restricción cultural y lo obliga a regresar a los Picos.",
     "situacion_en_viento_y_verdad": "Ausente — regresó a los Picos Comecuernos para afrontar las consecuencias de haber matado."
   },
   "arco_narrativo": {
@@ -145,10 +136,9 @@
     "puntos_clave": [
       "Nació en los Picos Comecuernos con la habilidad alaii'iku de ver todos los spren.",
       "Como alaii'iku, su cultura le prohíbe matar para no ver los spren asociados a la muerte.",
-      "El príncipe Kef'ha murió bajo su guardia; como consecuencia fue enviado como esclavo a los ejércitos alezi.",
+      "Viajó con Kef'ha, el nuatoma de su familia, a las Llanuras Quebradas con la esperanza de ganar esquirladas. Kef'ha desafió a Torol Sadeas a un duelo y murió. Lunamor fue esclavizado como consecuencia.",
       "Llegó al Puente Cuatro de Sadeas como portador de puentes.",
       "Se convirtió en el cocinero del grupo — su guiso se hizo legendario entre el Puente Cuatro.",
-      "Huio, su primo, también termina en el Puente Cuatro.",
       "Su familia viaja desde los Picos Comecuernos para reunirse con él en Urithiru.",
       "Durante la batalla de Thaylenah dispara una flecha con su arco unkalaki y mata a Amaram para salvar a Kaladin, que estaba siendo superado por él. Este acto viola su código cultural y lo obliga a regresar a los Picos."
     ]
@@ -160,5 +150,5 @@
     "otros_detalles": "Sus hijos Don y Cuerda permanecieron en Urithiru; el resto de la familia regresó a los Picos con él. Matar a Amaram — un acto necesario para salvar a Kaladin — es la razón por la que debió regresar a los Picos a afrontar las consecuencias según su código cultural."
   },
   "descripcion_breve": "Guerrero Unkalaki conocido como Roca, pilar emocional y cocinero del Puente Cuatro. Su habilidad de ver todos los spren y la restricción cultural de no matar son los ejes de su personaje.",
-  "notas": "Su nombre completo Numuhukumakiaki'aialunamor se abrevia como Lunamor o Roca. Los alaii'iku unkalaki tienen prohibido matar porque al hacerlo ven los spren de la muerte, algo considerado una carga insoportable en su cultura."
+  "notas": "Su nombre completo Numuhukumakiaki'aialunamor se abrevia como Lunamor o Roca. Los alaii'iku unkalaki tienen prohibido matar porque al hacerlo ven los spren de la muerte. Kef'ha era el nuatoma de su familia — el campeón que fue a disputar un duelo por esquirladas contra Sadeas. Kef'ha murió en ese duelo, lo que convirtió a Lunamor en esclavo de Sadeas. Huio es primo de Lopen, no tiene relación familiar con Lunamor."
 }
