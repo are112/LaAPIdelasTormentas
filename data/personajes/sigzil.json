@@ -50,9 +50,9 @@
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
     "spren_asociado": {
-      "principal": "Auxiliar (Aux)"
+      "principal": "vienta"
     },
-    "estado_del_vinculo": "Activo. Alcanzó el Tercer Ideal en Roshar. Aux puede transformarse en distintas herramientas y armas."
+    "estado_del_vinculo": "Activo. Alcanzó el Tercer Ideal en Roshar."
   },
   "habilidades": {
     "magia": {
@@ -130,7 +130,7 @@
   "situacion_actual": {
     "ocupacion": "Corredor del Viento; portador temporal de la Esquirla del Amanecer",
     "rol": "Miembro senior del Puente Cuatro; portador de la Esquirla del Amanecer",
-    "relacion_con_spren": "Vínculo activo con Auxiliar (Aux), que puede transformarse en distintas herramientas.",
+    "relacion_con_spren": "Vínculo roto con vienta",
     "otros_detalles": "Recibió la Esquirla del Amanecer de Hoid al final de VyV. Su historia fuera de Roshar se omite deliberadamente en esta ficha."
   },
   "descripcion_breve": "Escriba makabaki del Puente Cuatro, Corredor del Viento y antiguo aprendiz de Hoid. Su arco en Viento y Verdad, junto a Venli en las Llanuras Quebradas, es uno de los más duros de la saga.",
