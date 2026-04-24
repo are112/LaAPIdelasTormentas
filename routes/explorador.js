@@ -125,12 +125,12 @@ router.get("/", (req, res) => {
 
     /* Tabs */
     .tabs {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       gap: 0.4rem;
       margin-bottom: 1rem;
     }
     .tab {
-      flex: 1;
       padding: 0.5rem;
       background: rgba(255,255,255,0.04);
       border: 1px solid rgba(79,195,247,0.15);
@@ -140,6 +140,7 @@ router.get("/", (req, res) => {
       font-size: 0.9rem;
       cursor: pointer;
       transition: all 0.15s ease;
+      text-align: center;
     }
     .tab:hover {
       background: rgba(79,195,247,0.08);
