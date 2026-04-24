@@ -1051,7 +1051,8 @@ router.get("/", (req, res) => {
         wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
         return;
       }
-      wrap.innerHTML = lista.map(p => \`
+      const listaOrdenada = [...lista].sort((a,b) => a.nombre.localeCompare(b.nombre, 'es'));
+      wrap.innerHTML = listaOrdenada.map(p => \`
         <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
           <div class="item-avatar">\${logoOrden(p.orden)}</div>
@@ -1543,7 +1544,8 @@ router.get("/", (req, res) => {
       if (tabActual === 'deshechos') document.getElementById('contador').textContent = filtrada.length;
       const wrap = document.getElementById('lista-deshechos');
       if (!filtrada.length) { wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>'; return; }
-      wrap.innerHTML = filtrada.map(d => {
+      const filtradaOrdenada = [...filtrada].sort((a,b) => a.nombre.localeCompare(b.nombre, 'es'));
+      wrap.innerHTML = filtradaOrdenada.map(d => {
         const activo = seleccionado === 'deshecho_' + d.id ? 'activo' : '';
         return \`
           <div class="item-personaje \${activo}"
@@ -1694,7 +1696,8 @@ router.get("/", (req, res) => {
         wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
         return;
       }
-      wrap.innerHTML = filtrada.map(h => {
+      const filtradaHOrdenada = [...filtrada].sort((a,b) => a.nombre.localeCompare(b.nombre, 'es'));
+      wrap.innerHTML = filtradaHOrdenada.map(h => {
         const activo = seleccionado === 'heraldo_' + h.id ? 'activo' : '';
         const avatarHtml = '<div class="item-avatar-heraldo"><img src="/images/heraldos/' + h.id + '.webp" onerror="heraldoImgError(this, &quot;' + h.id + '&quot;)" /></div>';
         return \`
@@ -1954,7 +1957,8 @@ router.get("/", (req, res) => {
         wrap.innerHTML = '<p class="sin-datos">Sin resultados</p>';
         return;
       }
-      wrap.innerHTML = filtrada.map(s => {
+      const filtradaSOrdenada = [...filtrada].sort((a,b) => a.nombre.localeCompare(b.nombre, 'es'));
+      wrap.innerHTML = filtradaSOrdenada.map(s => {
         const activo    = seleccionado === 'spren_' + s.id ? 'activo' : '';
         const ordenS    = ordenPorSpren[s.id];
         const avatarHtml = ordenS ? logoOrden(ordenS) : logoSpren(s.tipo_spren);
