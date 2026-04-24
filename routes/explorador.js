@@ -198,6 +198,31 @@ router.get("/", (req, res) => {
       box-shadow: 0 0 12px rgba(79,195,247,0.2);
     }
     #buscador::placeholder { color: var(--gris-plata); opacity: 0.6; }
+    #buscador-limpiar {
+      position: absolute;
+      right: 0.6rem;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--gris-plata);
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 0.15rem 0.3rem;
+      border-radius: 4px;
+      line-height: 1;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s, color 0.15s;
+      z-index: 2;
+    }
+    #buscador-limpiar.visible {
+      opacity: 0.6;
+      pointer-events: auto;
+    }
+    #buscador-limpiar:hover { opacity: 1; color: var(--blanco-perla); }
+    /* Padding derecho del input cuando el botón es visible */
+    #buscador.con-texto { padding-right: 2rem; }
 
     /* Autocomplete */
     .autocomplete-lista {
@@ -861,6 +886,7 @@ router.get("/", (req, res) => {
       <!-- Buscador global -->
       <div class="buscador-wrap">
         <input type="text" id="buscador" placeholder="Buscar en todo..." autocomplete="off" />
+        <button id="buscador-limpiar" title="Limpiar búsqueda" tabindex="-1">✕</button>
         <div class="autocomplete-lista" id="autocomplete-lista" style="display:none"></div>
       </div>
 
@@ -1071,13 +1097,34 @@ router.get("/", (req, res) => {
     // ── Filtros ────────────────────────────────────────────
     // BUG CORREGIDO: el input del buscador ahora llama a aplicarFiltros()
     // para respetar el filtro de orden activo al mismo tiempo.
+    function actualizarBotonLimpiar() {
+      const input = document.getElementById('buscador');
+      const btn   = document.getElementById('buscador-limpiar');
+      const tieneTexto = input.value.length > 0;
+      btn.classList.toggle('visible', tieneTexto);
+      input.classList.toggle('con-texto', tieneTexto);
+    }
+
     document.getElementById('buscador').addEventListener('input', () => {
       const v = document.getElementById('buscador').value;
+      actualizarBotonLimpiar();
       mostrarAutocomplete(v);
       aplicarFiltros();
       renderListaSpren(todosSpren);
       renderListaHeraldos(todosHeraldos);
       renderListaDeshechos(todosDeshechos);
+    });
+
+    document.getElementById('buscador-limpiar').addEventListener('click', () => {
+      const input = document.getElementById('buscador');
+      input.value = '';
+      actualizarBotonLimpiar();
+      document.getElementById('autocomplete-lista').style.display = 'none';
+      aplicarFiltros();
+      renderListaSpren(todosSpren);
+      renderListaHeraldos(todosHeraldos);
+      renderListaDeshechos(todosDeshechos);
+      input.focus();
     });
     document.getElementById('filtro-orden').addEventListener('change', aplicarFiltros);
 
