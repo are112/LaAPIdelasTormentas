@@ -11,128 +11,81 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "secundario importante",
-        "pov": false
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante", "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario importante", "pov": false }
     ]
   },
   "afiliaciones": [
     "Puente Cuatro",
     "Corredores del Viento",
-    "Ejército de Sadeas (antiguo)",
+    "Ejército de Sadeas (anteriormente)",
     "Ejército de Kholin"
   ],
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 2,
-    "spren_asociado": {
-      "principal": ""
-    },
+    "spren_asociado": { "principal": "" },
     "estado_del_vinculo": "activo"
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Gravitación",
-        "Adhesión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "combate",
-      "entrenamiento de tropas",
-      "liderazgo táctico",
-      "resistencia física"
+      "Combate con lanza",
+      "Liderazgo táctico",
+      "Entrenamiento de reclutas",
+      "Resistencia física"
     ]
   },
   "identidades": {
     "principales": [
-      "miembro de Puente Cuatro",
-      "segundo al mando de los Corredores del Viento"
+      "Miembro veterano del Puente Cuatro",
+      "Segundo al mando de los Corredores del Viento",
+      "Corredor del Viento"
     ],
-    "descripcion": "Soldado alezi y miembro destacado de Puente Cuatro, conocido por su lealtad, disciplina y papel como instructor y líder dentro de los Corredores del Viento.",
-    "estado_en_viento_y_verdad": "activo como líder dentro de los Corredores del Viento"
+    "descripcion": "Soldado alezi de los primeros miembros del Puente Cuatro. Su nombre proviene de la cicatriz que lleva en la cara. Hombre de pocas palabras pero gran lealtad, se convirtió en uno de los pilares del grupo junto a Teft y Sigzil.",
+    "estado_en_viento_y_verdad": "Activo como segundo al mando de los Corredores del Viento."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "ristina",
-        "relacion": "esposa"
-      }
+      { "personaje": "ristina", "relacion": "esposa" }
     ],
     "amigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "líder y figura de referencia"
-      },
-      {
-        "personaje": "drehy",
-        "relacion": "compañero de Puente Cuatro"
-      },
-      {
-        "personaje": "sigzil",
-        "relacion": "compañero de Puente Cuatro"
-      },
-      {
-        "personaje": "lyn",
-        "relacion": "entrenada como escudera"
-      }
+      { "personaje": "kaladin", "relacion": "capitán y figura de referencia" },
+      { "personaje": "drehy",   "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "sigzil",  "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "lyn",     "relacion": "compañera del Puente Cuatro" }
     ],
     "enemigos": [
-      {
-        "personaje": "moash",
-        "relacion": "enemigo directo"
-      },
-      {
-        "personaje": "Fusionados",
-        "relacion": "enemigos en combate"
-      }
+      { "personaje": "moash", "relacion": "traidor al Puente Cuatro; enemigo" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "estable",
-    "evolucion": "pasa de superviviente endurecido a líder responsable dentro de los Corredores del Viento",
-    "situacion_en_viento_y_verdad": "mentalmente firme, centrado en sus responsabilidades como líder y formador"
+    "diagnostico_general": "Estable. Carácter firme y leal.",
+    "evolucion": "Pasa de superviviente endurecido a líder responsable dentro de los Corredores del Viento.",
+    "situacion_en_viento_y_verdad": "Firme, centrado en sus responsabilidades de mando."
   },
   "arco_narrativo": {
-    "resumen": "Cikatriz comienza como esclavo en las cuadrillas de puentes tras un intento fallido de ascenso social. Bajo el liderazgo de Kaladin, se convierte en un soldado competente y posteriormente en un Caballero Radiante, asumiendo responsabilidades de mando dentro de los Corredores del Viento.",
+    "resumen": "Uno de los miembros originales del Puente Cuatro. Bajo el mando de Kaladin se convirtió en combatiente competente y posteriormente en Corredor del Viento, asumiendo el papel de segundo al mando.",
     "puntos_clave": [
-      "esclavizado y asignado al Puente Cuatro",
-      "entrenamiento bajo Kaladin",
-      "desarrollo como combatiente destacado",
-      "juramento como Corredor del Viento",
-      "ascenso a segundo al mando",
-      "participación en la defensa contra los Fusionados"
+      "Portador de puentes bajo Sadeas; uno de los primeros en seguir a Kaladin.",
+      "Entrenamiento bajo Kaladin; se convierte en combatiente destacado.",
+      "Se vincula con un honorspren y se convierte en Corredor del Viento.",
+      "Asume el papel de segundo al mando de los Corredores del Viento.",
+      "Participa en los conflictos de la Verdadera Desolación."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Caballero Radiante",
-    "rol": "segundo al mando de los Corredores del Viento",
-    "relacion_con_spren": "vínculo activo (spren no identificado)",
-    "otros_detalles": "dedicado al entrenamiento de nuevos reclutas y a la organización de las fuerzas"
+    "ocupacion": "Corredor del Viento; segundo al mando",
+    "rol": "Segundo al mando de los Corredores del Viento",
+    "relacion_con_spren": "Vínculo activo con un honorspren.",
+    "otros_detalles": "Casado con Ristina. Dedicado al entrenamiento de nuevos reclutas."
   },
-  "descripcion_breve": "Miembro de Puente Cuatro y Corredor del Viento que actúa como segundo al mando y entrenador dentro de la orden.",
-  "notas": "La información disponible es parcial y puede ampliarse con eventos posteriores a El ritmo de la guerra."
+  "descripcion_breve": "Miembro veterano del Puente Cuatro y Corredor del Viento. Segundo al mando de la orden, conocido por su lealtad y disciplina.",
+  "notas": "Su nombre hace referencia a la cicatriz visible en su cara."
 }

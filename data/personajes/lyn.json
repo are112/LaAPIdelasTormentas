@@ -11,102 +11,73 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "secundario",
-        "pov": false
-      }
+      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario", "pov": false }
     ]
   },
   "afiliaciones": [
     "Puente Cuatro",
-    "Ejército de Kholin",
-    "Caballeros Radiantes"
+    "Corredores del Viento",
+    "Ejército de Kholin"
   ],
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "spren_asociado": {
-      "principal": ""
-    },
+    "spren_asociado": { "principal": "" },
     "estado_del_vinculo": "activo"
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Gravitación",
-        "Adhesión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "combate con lanza",
-      "exploración",
-      "mensajería"
+      "Exploración y reconocimiento",
+      "Mensajería",
+      "Combate con lanza"
     ]
   },
   "identidades": {
     "principales": [
-      "exploradora",
-      "escudera",
-      "Corredora del Viento"
+      "Exploradora del ejército alezi",
+      "Corredora del Viento",
+      "Miembro del Puente Cuatro"
     ],
-    "descripcion": "Exploradora alezi que se une a Puente Cuatro y posteriormente se convierte en Caballera Radiante.",
-    "estado_en_viento_y_verdad": "activa como Corredora del Viento"
+    "descripcion": "Exploradora alezi que se unió al Puente Cuatro tras la apertura de la orden a mujeres. Tuvo una relación romántica con Kaladin que terminó de forma amistosa. Directa y decidida.",
+    "estado_en_viento_y_verdad": "Activa como Corredora del Viento."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "expareja"
-      },
-      {
-        "personaje": "Puente Cuatro",
-        "relacion": "compañeros"
-      },
-      {
-        "personaje": "cikatriz",
-        "relacion": "aliado"
-      }
+      { "personaje": "kaladin",  "relacion": "expareja; relación terminada amistosamente" },
+      { "personaje": "cikatriz", "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "drehy",    "relacion": "compañero del Puente Cuatro" }
     ],
     "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "estable",
-    "evolucion": "pasa de exploradora a integrante comprometida de los Corredores del Viento",
-    "situacion_en_viento_y_verdad": "estable y funcional dentro del grupo"
+    "diagnostico_general": "Estable.",
+    "evolucion": "Pasa de exploradora a Corredora del Viento comprometida con la causa.",
+    "situacion_en_viento_y_verdad": "Estable y funcional."
   },
   "arco_narrativo": {
-    "resumen": "Lyn comienza como exploradora del ejército alezi, se une a Puente Cuatro y progresa hasta convertirse en Corredora del Viento durante la guerra contra los cantores.",
+    "resumen": "Exploradora del ejército alezi que se incorporó al Puente Cuatro cuando Kaladin abrió la orden a mujeres. Se convirtió en escudera y posteriormente en Corredora del Viento.",
     "puntos_clave": [
-      "Se une a Puente Cuatro",
-      "Actúa como escudera de los Corredores del Viento",
-      "Se convierte en Caballera Radiante",
-      "Participa en conflictos de la Verdadera Desolación"
+      "Exploradora del ejército alezi.",
+      "Se incorpora al Puente Cuatro cuando Kaladin acepta mujeres en la unidad.",
+      "Actúa como escudera de los Corredores del Viento.",
+      "Tiene una relación romántica con Kaladin que termina amistosamente.",
+      "Se convierte en Corredora del Viento."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Caballera Radiante",
-    "rol": "miembro de los Corredores del Viento",
-    "relacion_con_spren": "vínculo activo (spren no especificado)",
-    "otros_detalles": "participa en operaciones militares junto a Puente Cuatro"
+    "ocupacion": "Corredora del Viento",
+    "rol": "Miembro del Puente Cuatro",
+    "relacion_con_spren": "Vínculo activo con un honorspren.",
+    "otros_detalles": ""
   },
-  "descripcion_breve": "Exploradora alezi y miembro de Puente Cuatro que asciende a Corredora del Viento.",
-  "notas": "Artículo parcialmente traducido en Coppermind; algunos detalles específicos no están completamente definidos."
+  "descripcion_breve": "Exploradora alezi y Corredora del Viento. Una de las primeras mujeres en unirse al Puente Cuatro. Mantuvo una relación romántica con Kaladin que terminó de forma amistosa.",
+  "notas": ""
 }

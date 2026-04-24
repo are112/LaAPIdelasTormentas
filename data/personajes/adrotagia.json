@@ -1,0 +1,81 @@
+{
+  "id": "adrotagia",
+  "nombre": "Adrotagia",
+  "nombre_completo": "Adrotagia",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "kharbranth",
+  "origen": "Kharbranth",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras Radiantes",    "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",           "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra", "rol": "secundario", "pov": false },
+      { "titulo": "Viento y Verdad",       "rol": "secundario", "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama",
+    "Reino de Kharbranth",
+    "Reino de Jah Keved (anteriormente)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Erudita e investigadora excepcional",
+      "Política y diplomacia",
+      "Gestión del Diagrama",
+      "Consejera estratégica de máximo nivel"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Consejera y mano derecha de Taravangian",
+      "Gestora del Diagrama",
+      "Erudita de Kharbranth"
+    ],
+    "descripcion": "Mujer de Kharbranth de edad avanzada, amiga íntima y consejera de toda la vida de Taravangian. Es la única persona que conoce plenamente el alcance del Diagrama y las intenciones de Taravangian. Su lealtad es absoluta y su inteligencia, excepcional.",
+    "estado_en_viento_y_verdad": "Activa; gestiona los asuntos del Diagrama y apoya a Taravangian en su papel como Represalia."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "taravangian", "relacion": "amigo íntimo de toda la vida; sirve como su consejera y mano derecha" }
+    ],
+    "enemigos": [
+      { "personaje": "dalinar",  "relacion": "adversario político" },
+      { "personaje": "jasnah",   "relacion": "adversaria; descubrió la traición de Taravangian" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Mente fría y analítica, completamente dedicada a la causa del Diagrama.",
+    "evolucion": "Constante a lo largo de la saga — su lealtad a Taravangian y su pragmatismo no varían.",
+    "situacion_en_viento_y_verdad": "Activa apoyando a Taravangian en su nueva forma como Represalia."
+  },
+  "arco_narrativo": {
+    "resumen": "Adrotagia es la amiga y consejera de toda la vida de Taravangian. Conoce el Diagrama en su totalidad y lo gestiona mientras Taravangian ejerce como rey. Tras su transformación en Represalia, continúa siendo su apoyo más cercano.",
+    "puntos_clave": [
+      "Amiga íntima de Taravangian desde la infancia.",
+      "Gestiona el Diagrama y asesora a Taravangian en sus decisiones políticas.",
+      "Mantiene el funcionamiento del Diagrama mientras Taravangian gobierna Kharbranth y Jah Keved.",
+      "Continúa como apoyo de Taravangian tras su transformación en Represalia."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Consejera y gestora del Diagrama",
+    "rol": "Mano derecha de Taravangian",
+    "relacion_con_spren": "",
+    "otros_detalles": "Es la persona más cercana a Taravangian y la única que conoce el Diagrama en su totalidad."
+  },
+  "descripcion_breve": "Amiga íntima y consejera de toda la vida de Taravangian. Gestora del Diagrama y su apoyo más fiel en todas sus transformaciones, desde rey hasta Recipiente de Represalia.",
+  "notas": "Su lealtad a Taravangian es incondicional y va más allá de cualquier consideración moral o política."
+}

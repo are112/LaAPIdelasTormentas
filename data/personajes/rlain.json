@@ -2,9 +2,7 @@
   "id": "rlain",
   "nombre": "Rlain",
   "nombre_completo": "Rlain",
-  "apodos": [
-    "Shen"
-  ],
+  "apodos": ["Shen"],
   "sexo": "masculino",
   "especie": "cantor",
   "nacionalidad": "oyente",
@@ -13,129 +11,82 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "principal",
-        "pov": true
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "principal",
-        "pov": true
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario",           "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario",           "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario importante","pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "principal",            "pov": true  },
+      { "titulo": "Viento y Verdad",        "rol": "principal",            "pov": true  }
     ]
   },
   "afiliaciones": [
     "Puente Cuatro",
-    "Ejército de Kholin",
-    "Caballeros Radiantes"
+    "Caballeros Radiantes",
+    "Vigilantes de la Verdad",
+    "Oyentes (origen)"
   ],
   "orden_radiantes": {
     "orden": "Vigilantes de la Verdad",
     "nivel_ideal": 2,
-    "spren_asociado": {
-      "principal": "Tumi"
-    },
-    "estado_del_vinculo": "activo"
+    "spren_asociado": { "principal": "Tumi" },
+    "estado_del_vinculo": "Activo. Tumi es un brumaspren corrompido por Sja-anat."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Iluminación",
-        "Progresión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Iluminación", "Progresión"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "Espionaje",
-      "Infiltración",
-      "Capacidad para pasar desapercibido",
-      "Lectura de ritmos",
-      "Habilidad para el engaño y el farol"
+      "Espionaje e infiltración",
+      "Capacidad de pasar desapercibido entre humanos",
+      "Lectura de Ritmos cantores",
+      "Cambio de forma cantor"
     ]
   },
   "identidades": {
     "principales": [
-      "Miembro de Puente Cuatro",
-      "Espía infiltrado entre humanos",
-      "Cantor integrado en sociedad humana",
-      "Caballero Radiante"
+      "Antiguo espía oyente infiltrado entre humanos",
+      "Miembro del Puente Cuatro",
+      "Vigilante de la Verdad",
+      "Pareja de Renarin"
     ],
-    "descripcion": "Rlain es un oyente que vivió infiltrado entre los humanos como espía durante la guerra. Posteriormente se integra en Puente Cuatro, convirtiéndose en uno de los pocos cantores aceptados entre humanos y desarrollando una identidad propia entre ambas culturas.",
-    "estado_en_viento_y_verdad": "Consolidado como Caballero Radiante y miembro clave de Puente Cuatro, aceptado como individuo independiente."
+    "descripcion": "Cantor oyente que vivió infiltrado entre los ejércitos humanos como espía usando forma mano. Tras la caída de los oyentes quedó aislado, encontrando un nuevo hogar en el Puente Cuatro. Su identidad dual — cantor entre humanos, humano entre cantores — es el núcleo de su arco. Es el único cantor del Puente Cuatro y junto a Venli uno de los pocos cantores Radiantes.",
+    "estado_en_viento_y_verdad": "Activo. Investiga con Shallan y Renarin el misterio de Ba-Ado-Mishram. Su relación con Renarin está consolidada."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "líder y amigo cercano"
-      },
-      {
-        "personaje": "Puente Cuatro",
-        "relacion": "compañeros y grupo de pertenencia"
-      },
-      {
-        "personaje": "renarin",
-        "relacion": "afinidad como Radiantes atípicos"
-      },
-      {
-        "personaje": "eshonai",
-        "relacion": "aliado"
-      },
-      {
-        "personaje": "teft",
-        "relacion": "aliado"
-      },
-      {
-        "personaje": "venli",
-        "relacion": "aliado"
-      }
+      { "personaje": "renarin", "relacion": "pareja romántica" },
+      { "personaje": "kaladin", "relacion": "capitán y amigo" },
+      { "personaje": "venli",   "relacion": "aliada; comparten el camino como cantores Radiantes" },
+      { "personaje": "eshonai", "relacion": "antigua aliada; fue su principal contacto entre los oyentes" },
+      { "personaje": "teft",    "relacion": "compañero del Puente Cuatro; fallecido" },
+      { "personaje": "shallan", "relacion": "aliada; compañera de investigación en VyV" }
     ],
-    "enemigos": [
-      {
-        "personaje": "cantores de Odium",
-        "relacion": "conflicto ideológico y militar"
-      }
-    ]
+    "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "conflicto de identidad y pertenencia",
-    "evolucion": "Pasa de ser un espía aislado y desconectado a aceptar su identidad dual como cantor y miembro de Puente Cuatro.",
-    "situacion_en_viento_y_verdad": "Mayor estabilidad emocional y aceptación personal, aunque mantiene tensiones internas por su origen."
+    "diagnostico_general": "Conflicto de identidad y pertenencia resuelto progresivamente. Aislamiento profundo tras la desaparición de los oyentes.",
+    "evolucion": "Pasa de espía aislado sin pueblo ni hogar a aceptar su identidad dual y encontrar su lugar en el Puente Cuatro. Su relación con Renarin es un punto de apoyo fundamental.",
+    "situacion_en_viento_y_verdad": "Mayor estabilidad emocional. Su relación con Renarin está consolidada. Actúa con convicción propia en la investigación de Ba-Ado-Mishram."
   },
   "arco_narrativo": {
-    "resumen": "Rlain comienza como un espía oyente infiltrado entre humanos durante la guerra. Tras la caída de los oyentes, queda aislado entre humanos y encuentra un nuevo hogar en Puente Cuatro. Su arco gira en torno a la aceptación, la identidad y la integración entre culturas enfrentadas.",
+    "resumen": "Rlain fue enviado como espía oyente a los ejércitos humanos usando forma mano. Tras la Batalla de Narak y la transformación de los oyentes en Regios, quedó aislado — el único oyente que no adoptó una forma de poder. Encontró hogar en el Puente Cuatro y se convirtió en Vigilante de la Verdad gracias a Tumi, un brumaspren corrompido por Sja-anat.",
     "puntos_clave": [
-      "Infiltración como espía entre los ejércitos humanos",
-      "Integración en Puente Cuatro",
-      "Aislamiento tras la desaparición de los oyentes",
-      "Aceptación dentro de la sociedad humana",
-      "Vinculación con un spren iluminado",
-      "Ascenso como Caballero Radiante"
+      "Enviado como espía oyente a los ejércitos humanos; usa el nombre Shen para pasar desapercibido.",
+      "Vive en forma mano entre los humanos durante años.",
+      "Tras la Batalla de Narak, todos los oyentes adoptan formas de poder menos él; queda aislado.",
+      "Encuentra hogar en el Puente Cuatro bajo el mando de Kaladin.",
+      "Se vincula con Tumi, un brumaspren corrompido por Sja-anat; se convierte en Vigilante de la Verdad.",
+      "Desarrolla una relación romántica con Renarin.",
+      "En VyV investiga con Shallan y Renarin el misterio de Ba-Ado-Mishram."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Caballero Radiante",
-    "rol": "miembro de Puente Cuatro y representante de los cantores aliados",
-    "relacion_con_spren": "Vinculado a Tumi, un brumaspren iluminado por Sja-anat",
-    "otros_detalles": "Destaca por ser uno de los primeros cantores plenamente integrados en la sociedad humana tras el conflicto."
+    "ocupacion": "Vigilante de la Verdad; investigador",
+    "rol": "Miembro del Puente Cuatro; pareja de Renarin; investigador de Ba-Ado-Mishram",
+    "relacion_con_spren": "Vínculo activo con Tumi, brumaspren corrompido por Sja-anat.",
+    "otros_detalles": "Es junto a Venli uno de los únicos cantores Radiantes. Su vínculo con Tumi es posible gracias a la corrupción de Sja-anat, igual que el de Renarin con Glys."
   },
-  "descripcion_breve": "Rlain es un cantor y antiguo espía que se convierte en miembro de Puente Cuatro y en Caballero Radiante, representando la unión entre humanos y cantores.",
-  "notas": "Posee una orientación homosexual. Sus habilidades radiantes están influenciadas por su naturaleza como cantor y su conexión con los Ritmos."
+  "descripcion_breve": "Cantor oyente e infiltrado que encontró hogar en el Puente Cuatro. Vigilante de la Verdad y pareja de Renarin. Junto a Venli, uno de los pocos cantores Caballeros Radiantes.",
+  "notas": "Tumi es un brumaspren corrompido por Sja-anat, igual que Glys (spren de Renarin). Rlain es homosexual. Su apodo Shen fue el nombre que usó para pasar desapercibido entre los humanos."
 }

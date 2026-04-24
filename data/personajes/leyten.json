@@ -11,122 +11,78 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "secundario importante",
-        "pov": false
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario importante", "pov": false }
     ]
   },
   "afiliaciones": [
     "Puente Cuatro",
-    "Ejército de Sadeas",
-    "Ejército de Kholin",
-    "Caballeros Radiantes"
+    "Corredores del Viento",
+    "Ejército de Sadeas (anteriormente)",
+    "Ejército de Kholin"
   ],
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": "Ethenia"
-    },
+    "spren_asociado": { "principal": "" },
     "estado_del_vinculo": "activo"
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Gravitación",
-        "Adhesión"
-      ],
-      "fuente_de_luz": "Luz tormentosa"
+      "potencias": ["Gravitación", "Adhesión"],
+      "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "logística",
-      "organización de suministros",
-      "mantenimiento de equipo",
-      "combate básico"
+      "Logística y organización de suministros",
+      "Mantenimiento de equipo",
+      "Combate básico"
     ]
   },
   "identidades": {
     "principales": [
-      "miembro de Puente Cuatro",
-      "intendente",
-      "Caballero Radiante"
+      "Miembro del Puente Cuatro",
+      "Intendente y responsable logístico",
+      "Corredor del Viento"
     ],
-    "descripcion": "Miembro de Puente Cuatro caracterizado por su pulcritud y organización, responsable de la logística y suministros del grupo.",
-    "estado_en_viento_y_verdad": "activo como Corredor del Viento y responsable logístico"
+    "descripcion": "Miembro del Puente Cuatro conocido por su pulcritud y su preferencia por las tareas organizativas sobre el combate. Se convirtió en el intendente del grupo, gestionando suministros y equipamiento.",
+    "estado_en_viento_y_verdad": "Activo como Corredor del Viento con funciones logísticas."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "líder"
-      },
-      {
-        "personaje": "teft",
-        "relacion": "compañero"
-      },
-      {
-        "personaje": "roca",
-        "relacion": "compañero"
-      },
-      {
-        "personaje": "sigzil",
-        "relacion": "compañero cercano"
-      }
+      { "personaje": "kaladin",  "relacion": "capitán" },
+      { "personaje": "teft",     "relacion": "compañero del Puente Cuatro; fallecido" },
+      { "personaje": "lunamor",  "relacion": "compañero del Puente Cuatro" },
+      { "personaje": "sigzil",   "relacion": "compañero cercano" }
     ],
     "enemigos": [
-      {
-        "personaje": "moash",
-        "relacion": "enemigo declarado"
-      }
+      { "personaje": "moash", "relacion": "traidor al Puente Cuatro; enemigo" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "estable",
-    "evolucion": "mantiene una personalidad constante, priorizando el orden y tareas prácticas sobre el combate",
-    "situacion_en_viento_y_verdad": "mentalmente estable, centrado en funciones logísticas"
+    "diagnostico_general": "Estable. Personalidad ordenada y práctica.",
+    "evolucion": "Mantiene una personalidad constante, priorizando el orden y las tareas prácticas sobre el combate.",
+    "situacion_en_viento_y_verdad": "Estable, centrado en funciones logísticas."
   },
   "arco_narrativo": {
-    "resumen": "Leyten pasa de aprendiz de armero a esclavo de los puentes tras un fallo por el que es culpado. En Puente Cuatro sobrevive a heridas graves y se integra en el grupo, convirtiéndose en su intendente y posteriormente en Caballero Radiante.",
+    "resumen": "Leyten llegó al Puente Cuatro como portador de puentes. Herido gravemente y salvado por Kaladin, se integró en el grupo asumiendo el papel de intendente. Posteriormente se convirtió en Corredor del Viento.",
     "puntos_clave": [
-      "aprendiz de armero",
-      "degradación a cuadrillas de puentes",
-      "herido gravemente y salvado por Kaladin",
-      "integración en Puente Cuatro",
-      "asume rol de intendente",
-      "se convierte en escudero",
-      "vincula a su spren Ethenia",
-      "participa en batallas contra los Fusionados"
+      "Portador de puentes bajo Sadeas.",
+      "Herido gravemente; salvado por Kaladin.",
+      "Asume el rol de intendente del Puente Cuatro.",
+      "Se convierte en Corredor del Viento.",
+      "Participa en los conflictos de la Verdadera Desolación."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Caballero Radiante",
-    "rol": "intendente y apoyo logístico",
-    "relacion_con_spren": "vínculo Nahel activo con Ethenia",
-    "otros_detalles": "prefiere tareas organizativas y rutinarias frente al combate"
+    "ocupacion": "Corredor del Viento; intendente del Puente Cuatro",
+    "rol": "Apoyo logístico del Puente Cuatro",
+    "relacion_con_spren": "Vínculo activo con un honorspren.",
+    "otros_detalles": "Prefiere tareas organizativas y rutinarias frente al combate directo."
   },
-  "descripcion_breve": "Miembro de Puente Cuatro y Corredor del Viento especializado en logística y organización.",
-  "notas": "Destaca por su pulcritud y preferencia por trabajos no relacionados con el combate."
+  "descripcion_breve": "Miembro del Puente Cuatro y Corredor del Viento especializado en logística. Conocido por su pulcritud y su preferencia por las tareas organizativas.",
+  "notas": ""
 }
