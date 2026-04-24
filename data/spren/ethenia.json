@@ -1,0 +1,86 @@
+{
+  "id": "ethenia",
+  "nombre": "Ethenia",
+  "apodos": [],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+
+  "origen": {
+    "creador": "Padre Tormenta",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Honorspren vinculada a Leyten de Puente Cuatro. Información limitada disponible en los textos."
+  },
+
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "figura femenina pequeña de luz azul-blanca, característica de los honorspren",
+      "formas_alternativas": [],
+      "color": "azul blanco brillante",
+      "visibilidad": "invisible para la mayoría"
+    },
+    "reino_cognitivo": {
+      "forma": "figura femenina de tamaño humano",
+      "limitaciones": "no puede cambiar de forma ni volverse invisible en Shadesmar"
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "desconocida",
+      "otras_formas": [],
+      "material": "desconocido"
+    }
+  },
+
+  "personalidad": {
+    "rasgos": [
+      "leal",
+      "protectora"
+    ],
+    "valores": [],
+    "notas": "Información limitada disponible. Su personalidad no ha sido desarrollada en detalle en los textos publicados."
+  },
+
+  "habilidades": {
+    "generales": [
+      "comunicación telepática con Leyten"
+    ],
+    "magicas": [
+      "Vínculo Nahel que otorga Gravitación y Adhesión a Leyten"
+    ]
+  },
+
+  "vinculo_nahel": {
+    "radiante_actual": "leyten",
+    "orden_radiante": "Corredores del Viento",
+    "potencias_otorgadas": ["Gravitación", "Adhesión"],
+    "forma_shardblade": "desconocida",
+    "estado_vinculo": "activo",
+    "radiante_anterior": null,
+    "notas": "Información limitada. Leyten es miembro de Puente Cuatro y Corredor del Viento."
+  },
+
+  "historia": {
+    "resumen": "Honorspren vinculada a Leyten de Puente Cuatro, convirtiéndole en Corredor del Viento. La información disponible sobre Ethenia es limitada, ya que Leyten es un personaje secundario cuyos detalles no han sido ampliamente desarrollados en los textos publicados.",
+    "puntos_clave": [
+      "se vinculó con Leyten de Puente Cuatro",
+      "le convirtió en Corredor del Viento de la nueva era"
+    ]
+  },
+
+  "apariciones": {
+    "libros": [
+      { "titulo": "El ritmo de la guerra", "rol": "mención", "pov": false },
+      { "titulo": "Viento y verdad",       "rol": "mención", "pov": false }
+    ]
+  },
+
+  "relaciones": {
+    "radiante_vinculado": { "personaje": "leyten", "relacion": "vínculo Nahel" },
+    "creador": null,
+    "otros": []
+  },
+
+  "descripcion_breve": "Honorspren vinculada a Leyten de Puente Cuatro, a quien convirtió en Corredor del Viento. Información limitada disponible en los textos publicados.",
+  "notas": "Al ser Leyten un personaje secundario, los detalles de Ethenia son escasos en los libros publicados. Esta ficha refleja lo conocido hasta Viento y Verdad."
+}
