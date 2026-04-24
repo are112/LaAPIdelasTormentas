@@ -82,15 +82,7 @@ router.get("/", (req, res) => {
       border-bottom: 1px solid rgba(79,195,247,0.2);
       background: linear-gradient(to bottom, rgba(10,22,40,0.9), transparent);
     }
-    header::after {
-      content: '⚡';
-      position: absolute;
-      top: 1rem; left: 50%;
-      transform: translateX(-50%);
-      font-size: 1.2rem;
-      opacity: 0.5;
-      animation: pulsar 3s infinite;
-    }
+
     @keyframes pulsar {
       0%, 100% { opacity: 0.3; transform: translateX(-50%) scale(1); }
       50%       { opacity: 0.8; transform: translateX(-50%) scale(1.3); }
@@ -927,8 +919,7 @@ router.get("/", (req, res) => {
     <!-- Panel derecho -->
     <main class="panel-der" id="panel-detalle">
       <div class="estado-vacio">
-        <div class="icono">⚡</div>
-        <p>Selecciona un personaje para explorar su ficha</p>
+        <p>Selecciona un elemento para explorar su ficha</p>
       </div>
     </main>
   </div>
