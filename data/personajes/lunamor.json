@@ -2,7 +2,10 @@
   "id": "lunamor",
   "nombre": "Lunamor",
   "nombre_completo": "Numuhukumakiaki'aialunamor",
-  "apodos": ["Roca", "Lu"],
+  "apodos": [
+    "Roca",
+    "Lu"
+  ],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "unkalaki",
@@ -11,10 +14,26 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": false },
-      { "titulo": "Juramentada",            "rol": "secundario importante", "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante", "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": false
+      }
     ]
   },
   "afiliaciones": [
@@ -26,11 +45,16 @@
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "" },
+    "spren_asociado": {
+      "principal": ""
+    },
     "estado_del_vinculo": ""
   },
   "habilidades": {
-    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
     "no_magicas": [
       "Visión de spren (alaii'iku) — puede ver todos los spren incluso los invisibles",
       "Fuerza física excepcional incluso para los estándares Unkalaki",
@@ -50,22 +74,64 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "tuaka",          "relacion": "esposa" },
-      { "personaje": "don",            "relacion": "hijo mayor" },
-      { "personaje": "cuerda",         "relacion": "hija mayor" },
-      { "personaje": "roca_junior",    "relacion": "hijo" },
-      { "personaje": "estrella",       "relacion": "hijo" },
-      { "personaje": "kumatiki",       "relacion": "hija" },
-      { "personaje": "cancion_hermosa","relacion": "hija menor" },
-      { "personaje": "Kef'ha",         "relacion": "antiguo príncipe unkalaki; murió bajo su guardia, lo que lo convirtió en esclavo" }
+      {
+        "personaje": "tuaka",
+        "relacion": "esposa"
+      },
+      {
+        "personaje": "don",
+        "relacion": "hijo mayor"
+      },
+      {
+        "personaje": "cuerda",
+        "relacion": "hija mayor"
+      },
+      {
+        "personaje": "roca_junior",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "estrella",
+        "relacion": "hijo"
+      },
+      {
+        "personaje": "kumatiki",
+        "relacion": "hija"
+      },
+      {
+        "personaje": "cancion_hermosa",
+        "relacion": "hija menor"
+      },
+      {
+        "personaje": "Kef'ha",
+        "relacion": "antiguo príncipe unkalaki; murió bajo su guardia, lo que lo convirtió en esclavo"
+      }
     ],
     "amigos": [
-      { "personaje": "kaladin",  "relacion": "capitán y amigo; lo respeta profundamente" },
-      { "personaje": "teft",     "relacion": "compañero del Puente Cuatro; fallecido" },
-      { "personaje": "lopen",    "relacion": "compañero del Puente Cuatro" },
-      { "personaje": "sigzil",   "relacion": "compañero del Puente Cuatro" },
-      { "personaje": "drehy",    "relacion": "compañero del Puente Cuatro" },
-      { "personaje": "huio",     "relacion": "primo; también miembro del Puente Cuatro" }
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán y amigo; lo respeta profundamente"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "compañero del Puente Cuatro; fallecido"
+      },
+      {
+        "personaje": "lopen",
+        "relacion": "compañero del Puente Cuatro"
+      },
+      {
+        "personaje": "sigzil",
+        "relacion": "compañero del Puente Cuatro"
+      },
+      {
+        "personaje": "drehy",
+        "relacion": "compañero del Puente Cuatro"
+      },
+      {
+        "personaje": "huio",
+        "relacion": "primo; también miembro del Puente Cuatro"
+      }
     ],
     "enemigos": []
   },
@@ -84,15 +150,14 @@
       "Se convirtió en el cocinero del grupo — su guiso se hizo legendario entre el Puente Cuatro.",
       "Huio, su primo, también termina en el Puente Cuatro.",
       "Su familia viaja desde los Picos Comecuernos para reunirse con él en Urithiru.",
-      "Durante la evacuación de Piedralar toma un arco y mata a un Portador del Vacío para salvar al grupo.",
-      "Este acto viola su código cultural; regresa a los Picos Comecuernos para afrontar su destino."
+      "Durante la batalla de Thaylenah dispara una flecha con su arco unkalaki y mata a Amaram para salvar a Kaladin, que estaba siendo superado por él. Este acto viola su código cultural y lo obliga a regresar a los Picos."
     ]
   },
   "situacion_actual": {
     "ocupacion": "Regresó a los Picos Comecuernos",
     "rol": "Antiguo miembro del Puente Cuatro; figura paterna del grupo",
     "relacion_con_spren": "Puede ver todos los spren de forma natural (alaii'iku).",
-    "otros_detalles": "Sus hijos Don y Cuerda permanecieron en Urithiru; el resto de la familia regresó a los Picos con él."
+    "otros_detalles": "Sus hijos Don y Cuerda permanecieron en Urithiru; el resto de la familia regresó a los Picos con él. Matar a Amaram — un acto necesario para salvar a Kaladin — es la razón por la que debió regresar a los Picos a afrontar las consecuencias según su código cultural."
   },
   "descripcion_breve": "Guerrero Unkalaki conocido como Roca, pilar emocional y cocinero del Puente Cuatro. Su habilidad de ver todos los spren y la restricción cultural de no matar son los ejes de su personaje.",
   "notas": "Su nombre completo Numuhukumakiaki'aialunamor se abrevia como Lunamor o Roca. Los alaii'iku unkalaki tienen prohibido matar porque al hacerlo ven los spren de la muerte, algo considerado una carga insoportable en su cultura."
