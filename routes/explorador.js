@@ -49,70 +49,59 @@ router.get("/", (req, res) => {
       z-index: 0;
     }
 
-    /* Partículas de luz tormentosa */
-    .particulas {
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      z-index: 0;
-      overflow: hidden;
-    }
-    .particula {
-      position: absolute;
-      width: 2px;
-      height: 2px;
-      border-radius: 50%;
-      background: var(--celeste-luz);
-      opacity: 0;
-      animation: flotar var(--dur, 8s) var(--delay, 0s) infinite ease-in-out;
-    }
-    @keyframes flotar {
-      0%   { opacity: 0; transform: translateY(100vh) scale(0); }
-      10%  { opacity: 0.8; }
-      90%  { opacity: 0.4; }
-      100% { opacity: 0; transform: translateY(-10vh) scale(1.5); }
-    }
-
-    /* Header */
+    /* Header compacto */
     header {
       position: relative;
       z-index: 10;
-      text-align: center;
-      padding: 3rem 2rem 2rem;
-      border-bottom: 1px solid rgba(79,195,247,0.2);
-      background: linear-gradient(to bottom, rgba(10,22,40,0.9), transparent);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 56px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      background: rgba(8,18,35,0.95);
+      backdrop-filter: blur(8px);
+      flex-shrink: 0;
     }
-
-    @keyframes pulsar {
-      0%, 100% { opacity: 0.3; transform: translateX(-50%) scale(1); }
-      50%       { opacity: 0.8; transform: translateX(-50%) scale(1.3); }
+    .header-izq {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
     }
-
     h1 {
       font-family: 'Cinzel Decorative', serif;
-      font-size: clamp(1.4rem, 4vw, 2.6rem);
+      font-size: 1.05rem;
       font-weight: 700;
-      color: var(--celeste-luz);
-      text-shadow: 0 0 30px rgba(79,195,247,0.5), 0 0 60px rgba(79,195,247,0.2);
-      letter-spacing: 0.05em;
-      margin-top: 1rem;
+      color: var(--blanco-perla);
+      letter-spacing: 0.08em;
+      white-space: nowrap;
     }
     .subtitulo {
-      font-size: 1rem;
+      font-size: 0.78rem;
       color: var(--gris-plata);
       font-style: italic;
-      margin-top: 0.5rem;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.06em;
+      opacity: 0.7;
     }
+    .header-der a {
+      font-size: 0.78rem;
+      color: var(--gris-plata);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.6;
+      transition: opacity 0.15s;
+    }
+    .header-der a:hover { opacity: 1; color: var(--blanco-perla); }
 
     /* Layout principal */
     .contenedor {
       position: relative;
       z-index: 10;
       display: grid;
-      grid-template-columns: 320px 1fr;
+      grid-template-columns: 300px 1fr;
       gap: 0;
-      height: calc(100vh - 160px);
+      height: calc(100vh - 56px);
       overflow: hidden;
     }
 
@@ -120,37 +109,38 @@ router.get("/", (req, res) => {
     .tabs {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 0.4rem;
-      margin-bottom: 1rem;
+      gap: 0.3rem;
+      margin-bottom: 1.25rem;
     }
     .tab {
-      padding: 0.5rem;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(79,195,247,0.15);
-      border-radius: 6px;
+      padding: 0.45rem 0.3rem;
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 5px;
       color: var(--gris-plata);
       font-family: 'Crimson Pro', serif;
-      font-size: 0.9rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.03em;
       cursor: pointer;
       transition: all 0.15s ease;
       text-align: center;
     }
     .tab:hover {
-      background: rgba(79,195,247,0.08);
+      background: rgba(255,255,255,0.05);
       color: var(--blanco-perla);
+      border-color: rgba(255,255,255,0.14);
     }
     .tab.activo {
-      background: rgba(79,195,247,0.12);
-      border-color: rgba(79,195,247,0.4);
-      color: var(--celeste-luz);
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.18);
+      color: var(--blanco-perla);
     }
 
     /* Panel izquierdo */
     .panel-izq {
-      border-right: 1px solid rgba(79,195,247,0.15);
-      padding: 1.5rem;
-      background: rgba(13,31,60,0.5);
-      backdrop-filter: blur(4px);
+      border-right: 1px solid rgba(255,255,255,0.06);
+      padding: 1.25rem 1rem;
+      background: rgba(8,18,35,0.6);
       display: flex;
       flex-direction: column;
       overflow: hidden;
@@ -175,21 +165,21 @@ router.get("/", (req, res) => {
     }
     #buscador {
       width: 100%;
-      padding: 0.6rem 0.75rem 0.6rem 2.2rem;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(79,195,247,0.25);
-      border-radius: 6px;
+      padding: 0.55rem 0.75rem 0.55rem 2.1rem;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 5px;
       color: var(--blanco-perla);
       font-family: 'Crimson Pro', serif;
-      font-size: 1rem;
+      font-size: 0.95rem;
       outline: none;
-      transition: border-color 0.2s, box-shadow 0.2s;
+      transition: border-color 0.2s, background 0.2s;
     }
     #buscador:focus {
-      border-color: var(--celeste-luz);
-      box-shadow: 0 0 12px rgba(79,195,247,0.2);
+      border-color: rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.06);
     }
-    #buscador::placeholder { color: var(--gris-plata); opacity: 0.6; }
+    #buscador::placeholder { color: var(--gris-plata); opacity: 0.45; }
     #buscador-limpiar {
       position: absolute;
       right: 0.6rem;
@@ -280,38 +270,39 @@ router.get("/", (req, res) => {
     }
     .filtro-select {
       width: 100%;
-      padding: 0.5rem 0.75rem;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(79,195,247,0.2);
-      border-radius: 6px;
+      padding: 0.45rem 0.65rem;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 5px;
       color: var(--blanco-perla);
       font-family: 'Crimson Pro', serif;
-      font-size: 0.95rem;
+      font-size: 0.88rem;
       outline: none;
       cursor: pointer;
       transition: border-color 0.2s;
     }
-    .filtro-select:focus { border-color: var(--celeste-luz); }
-    .filtro-select option { background: var(--azul-profundo); }
+    .filtro-select:focus { border-color: rgba(255,255,255,0.22); }
+    .filtro-select option { background: #0d1f3c; }
 
     /* Cabecera lista */
     .lista-titulo {
-      font-size: 0.75rem;
+      font-size: 0.65rem;
       text-transform: uppercase;
-      letter-spacing: 0.15em;
+      letter-spacing: 0.18em;
       color: var(--gris-plata);
-      margin-bottom: 0.75rem;
+      opacity: 0.5;
+      margin-bottom: 0.6rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-shrink: 0;
     }
     .lista-titulo span {
-      background: rgba(79,195,247,0.15);
-      color: var(--celeste-luz);
-      border-radius: 10px;
-      padding: 0.1rem 0.5rem;
-      font-size: 0.7rem;
+      background: rgba(255,255,255,0.07);
+      color: var(--gris-plata);
+      border-radius: 3px;
+      padding: 0.1rem 0.4rem;
+      font-size: 0.65rem;
     }
 
     /* Listas de entidades — clase compartida */
@@ -365,22 +356,20 @@ router.get("/", (req, res) => {
     .item-personaje {
       display: flex;
       align-items: center;
-      gap: 0.6rem;
-      padding: 0.6rem 0.75rem;
-      border-radius: 6px;
+      gap: 0.55rem;
+      padding: 0.5rem 0.6rem;
+      border-radius: 5px;
       cursor: pointer;
       border: 1px solid transparent;
-      transition: all 0.15s ease;
-      background: rgba(255,255,255,0.02);
+      transition: background 0.12s ease;
     }
     .item-personaje:hover {
-      background: rgba(79,195,247,0.08);
-      border-color: rgba(79,195,247,0.2);
+      background: rgba(255,255,255,0.05);
     }
     .item-personaje.activo {
-      background: rgba(79,195,247,0.12);
-      border-color: rgba(79,195,247,0.4);
-      box-shadow: inset 3px 0 0 var(--celeste-luz);
+      background: rgba(255,255,255,0.07);
+      border-color: rgba(255,255,255,0.1);
+      box-shadow: inset 3px 0 0 rgba(255,255,255,0.35);
     }
     .item-avatar {
       width: 32px; height: 32px;
@@ -419,7 +408,7 @@ router.get("/", (req, res) => {
     }
     .item-info { flex: 1; min-width: 0; }
     .item-nombre {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       font-weight: 600;
       color: var(--blanco-perla);
       white-space: nowrap;
@@ -427,9 +416,9 @@ router.get("/", (req, res) => {
       text-overflow: ellipsis;
     }
     .item-orden {
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       color: var(--gris-plata);
-      font-style: italic;
+      opacity: 0.7;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -557,10 +546,10 @@ router.get("/", (req, res) => {
 
     .ficha-titulo h2 {
       font-family: 'Cinzel Decorative', serif;
-      font-size: clamp(1.2rem, 3vw, 1.8rem);
-      color: var(--celeste-luz);
-      text-shadow: 0 0 20px rgba(79,195,247,0.3);
-      margin-bottom: 0.25rem;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      color: var(--blanco-perla);
+      margin-bottom: 0.3rem;
+      line-height: 1.2;
     }
     .ficha-titulo .nombre-completo {
       font-size: 0.9rem;
@@ -570,29 +559,30 @@ router.get("/", (req, res) => {
     }
     .badges { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
     .badge {
-      font-size: 0.72rem;
-      padding: 0.2rem 0.6rem;
-      border-radius: 20px;
+      font-size: 0.68rem;
+      padding: 0.18rem 0.55rem;
+      border-radius: 3px;
       font-family: 'Crimson Pro', serif;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
     }
-    .badge-orden    { background: rgba(240,192,64,0.15);  color: var(--dorado);       border: 1px solid rgba(240,192,64,0.3); }
-    .badge-vivo     { background: rgba(39,174,96,0.15);   color: #5dca8a;             border: 1px solid rgba(39,174,96,0.3); }
-    .badge-muerto   { background: rgba(192,57,43,0.15);   color: #e57367;             border: 1px solid rgba(192,57,43,0.3); }
-    .badge-especie  { background: rgba(79,195,247,0.1);   color: var(--celeste-luz);  border: 1px solid rgba(79,195,247,0.25); }
-    .badge-nivel    { background: rgba(200,146,42,0.15);  color: var(--dorado-suave); border: 1px solid rgba(200,146,42,0.3); }
-    .badge-deshecho { background: rgba(192,57,43,0.18);   color: #e57367;             border: 1px solid rgba(192,57,43,0.35); }
+    .badge-orden    { background: rgba(240,192,64,0.1);   color: #d4a82a;  border: 1px solid rgba(240,192,64,0.2); }
+    .badge-vivo     { background: rgba(39,174,96,0.1);    color: #4db87a;  border: 1px solid rgba(39,174,96,0.2); }
+    .badge-muerto   { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
+    .badge-especie  { background: rgba(255,255,255,0.05); color: var(--gris-plata); border: 1px solid rgba(255,255,255,0.1); }
+    .badge-nivel    { background: rgba(200,146,42,0.1);   color: #b8832a;  border: 1px solid rgba(200,146,42,0.2); }
+    .badge-deshecho { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
 
     /* Descripción */
     .descripcion {
-      background: rgba(79,195,247,0.04);
-      border-left: 3px solid rgba(79,195,247,0.3);
-      padding: 1rem 1.25rem;
-      border-radius: 0 6px 6px 0;
+      background: transparent;
+      border-left: 2px solid rgba(255,255,255,0.15);
+      padding: 0.75rem 1.25rem;
       font-style: italic;
+      font-size: 1.05rem;
       color: var(--gris-plata);
-      margin-bottom: 2rem;
-      line-height: 1.6;
+      margin-bottom: 1.75rem;
+      line-height: 1.7;
     }
 
     /* Grid de secciones */
@@ -603,19 +593,21 @@ router.get("/", (req, res) => {
       margin-bottom: 2rem;
     }
     .seccion {
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(79,195,247,0.1);
-      border-radius: 8px;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 7px;
       padding: 1.25rem;
       transition: border-color 0.2s;
     }
-    .seccion:hover { border-color: rgba(79,195,247,0.25); }
+    .seccion:hover { border-color: rgba(255,255,255,0.13); }
     .seccion-titulo {
-      font-family: 'Cinzel Decorative', serif;
-      font-size: 0.7rem;
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.68rem;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--dorado-suave);
+      letter-spacing: 0.18em;
+      color: var(--gris-plata);
+      opacity: 0.7;
       margin-bottom: 0.85rem;
       display: flex;
       align-items: center;
@@ -625,7 +617,7 @@ router.get("/", (req, res) => {
       content: '';
       flex: 1;
       height: 1px;
-      background: rgba(200,146,42,0.2);
+      background: rgba(255,255,255,0.07);
     }
 
     /* Campos básicos */
@@ -643,17 +635,19 @@ router.get("/", (req, res) => {
     /* Tags */
     .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.25rem; }
     .tag {
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       padding: 0.15rem 0.5rem;
-      background: rgba(79,195,247,0.08);
-      border: 1px solid rgba(79,195,247,0.15);
-      border-radius: 4px;
-      color: var(--celeste-luz);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 3px;
+      color: var(--blanco-perla);
+      opacity: 0.85;
     }
     .tag-dorado {
-      border-color: rgba(200,146,42,0.25);
-      color: var(--dorado-suave);
-      background: rgba(200,146,42,0.08);
+      border-color: rgba(200,146,42,0.2);
+      color: #b8832a;
+      background: rgba(200,146,42,0.07);
+      opacity: 1;
     }
 
     /* Relaciones */
@@ -675,16 +669,15 @@ router.get("/", (req, res) => {
     }
     .relacion-nombre { color: var(--blanco-perla); }
     .relacion-nombre.clickable {
-      color: var(--celeste-luz);
+      color: var(--blanco-perla);
       cursor: pointer;
       text-decoration: underline;
-      text-decoration-color: rgba(79,195,247,0.3);
+      text-decoration-color: rgba(255,255,255,0.2);
       text-underline-offset: 3px;
-      transition: color 0.15s, text-decoration-color 0.15s;
+      transition: text-decoration-color 0.15s;
     }
     .relacion-nombre.clickable:hover {
-      color: #fff;
-      text-decoration-color: var(--celeste-luz);
+      text-decoration-color: rgba(255,255,255,0.6);
     }
     .relacion-tipo { font-size: 0.75rem; color: var(--gris-plata); font-style: italic; margin-left: auto; }
 
@@ -725,7 +718,7 @@ router.get("/", (req, res) => {
       color: var(--gris-plata);
       border-bottom: 1px solid rgba(255,255,255,0.04);
     }
-    .punto-clave::before { content: '▸'; color: var(--celeste-luz); flex-shrink: 0; }
+    .punto-clave::before { content: '–'; color: var(--gris-plata); flex-shrink: 0; opacity: 0.5; }
 
     /* Estado mental */
     .mental-item { margin-bottom: 0.75rem; }
@@ -798,7 +791,7 @@ router.get("/", (req, res) => {
       font-size: 0.9rem;
       border-bottom: 1px solid rgba(255,255,255,0.04);
     }
-    .afiliacion-item::before { content: '⚔'; font-size: 0.7rem; color: var(--dorado-suave); }
+    .afiliacion-item::before { content: '–'; font-size: 0.8rem; color: var(--gris-plata); opacity: 0.4; }
 
     /* Sin datos */
     .sin-datos {
@@ -864,12 +857,14 @@ router.get("/", (req, res) => {
 </head>
 <body>
 
-  <!-- Partículas de luz tormentosa -->
-  <div class="particulas" id="particulas"></div>
-
   <header>
-    <h1>La API de las Tormentas</h1>
-    <p class="subtitulo">Un proyecto Fan del Cosmere</p>
+    <div class="header-izq">
+      <h1>La API de las Tormentas</h1>
+      <span class="subtitulo">Un proyecto fan del Cosmere</span>
+    </div>
+    <div class="header-der">
+      <a href="/docs" title="Documentación de la API">API Docs</a>
+    </div>
   </header>
 
   <div class="contenedor">
@@ -918,11 +913,12 @@ router.get("/", (req, res) => {
     </aside>
 
     <!-- Panel derecho -->
-    <main class="panel-der" id="panel-detalle">
-      <div class="estado-vacio">
-        <p>Selecciona un elemento para explorar su ficha</p>
-      </div>
-    </main>
+    <main class="panel-der" id="panel-detalle"></main>
+
+    <!-- Estado vacío: fuera del panel, centrado en toda la ventana -->
+    <div class="estado-vacio" id="estado-vacio">
+      <p>Selecciona un elemento para explorar su ficha</p>
+    </div>
   </div>
 
   <script>
@@ -978,24 +974,6 @@ router.get("/", (req, res) => {
       // Insertar al principio del panel antes del .ficha
       const ficha = panel.querySelector('.ficha');
       if (ficha) panel.insertBefore(barra, ficha);
-    }
-
-    // ── Partículas ─────────────────────────────────────────
-    function crearParticulas() {
-      const wrap = document.getElementById('particulas');
-      for (let i = 0; i < 35; i++) {
-        const p = document.createElement('div');
-        p.className = 'particula';
-        p.style.cssText = \`
-          left: \${Math.random() * 100}%;
-          --dur: \${6 + Math.random() * 10}s;
-          --delay: \${-Math.random() * 15}s;
-          width: \${1 + Math.random() * 2}px;
-          height: \${1 + Math.random() * 2}px;
-          opacity: \${0.3 + Math.random() * 0.5};
-        \`;
-        wrap.appendChild(p);
-      }
     }
 
     // ── Logo por orden ─────────────────────────────────────
@@ -1151,6 +1129,7 @@ router.get("/", (req, res) => {
           ? (await relRes.value.json())
           : null;
 
+        document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = renderFicha(p, rel);
         if (!desdeHistorial) agregarHistorial('personaje', id, p.nombre);
         renderHistorial();
@@ -1531,7 +1510,6 @@ router.get("/", (req, res) => {
       }
     }
 
-    crearParticulas();
     cargarLista();
     cargarSpren();
     cargarHeraldos();
@@ -1614,6 +1592,7 @@ router.get("/", (req, res) => {
       try {
         const res = await fetch(\`\${API}/deshechos/\${id}\`);
         const d = await res.json();
+        document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = renderFichaDeshecho(d);
         if (!desdeHistorial) agregarHistorial('deshecho', id, d.nombre);
         renderHistorial();
@@ -1768,6 +1747,7 @@ router.get("/", (req, res) => {
       try {
         const res = await fetch(\`\${API}/heraldos/\${id}\`);
         const h = await res.json();
+        document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = renderFichaHeraldo(h);
         if (!desdeHistorial) agregarHistorial('heraldo', id, h.nombre);
         renderHistorial();
@@ -2033,6 +2013,7 @@ router.get("/", (req, res) => {
       try {
         const res = await fetch(\`\${API}/spren/\${id}\`);
         const s = await res.json();
+        document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = renderFichaSpren(s);
         if (!desdeHistorial) agregarHistorial('spren', id, s.nombre);
         renderHistorial();
