@@ -6,14 +6,87 @@
   "es_splinter_de": "Honor",
   "mundo_natal": "Roshar",
   "estado_actual": "activa",
-  "origen": { "creador": "desconocido", "lugar_creacion": "Roshar", "generacion": "desconocida", "notas": "Su nombre deriva de Bóreas, el antiguo dios griego del viento del norte, como el de otros honorspren." },
-  "apariencia": { "reino_fisico": { "forma_preferida": "uniforme almidonado y sin tonterías, similar a Notum", "formas_alternativas": [], "color": "azul-blanco", "visibilidad": "visible", "notas_emocionales": null }, "reino_cognitivo": { "forma": "desconocida", "limitaciones": null }, "como_hoja_esquirlada": { "forma_habitual": "desconocida", "otras_formas": [], "material": "desconocido" } },
-  "personalidad": { "rasgos": ["directa", "pragmática", "sin tonterías"], "valores": ["interesada en los métodos de creación de armas sin esclavitud de spren"], "notas": "Tiene algún encuentro con Sangre Nocturna o ha oído de su paso por Integridad Duradera." },
-  "habilidades": { "generales": ["primera oficial del Sendero de Honor"], "magicas": [] },
-  "vinculo_nahel": { "radiante_actual": null, "orden_radiante": null, "potencias_otorgadas": [], "forma_shardblade": null, "estado_vinculo": "sin vínculo conocido", "radiante_anterior": null, "notas": "No está vinculada a ningún Radiante conocido. Sirve como primera oficial en el Sendero de Honor." },
-  "historia": { "resumen": "Honorspren que sirve como primera oficial en el Sendero de Honor. En 1174 tomó a Sylphrena y sus compañeros a bordo. Llegó a un acuerdo con Celeste: a cambio de devolverle su arma, información de Sangre Nocturna y pasaje, Celeste le explicaría cómo se creó su espada esquirlada sin necesitar un spren.", "puntos_clave": ["primera oficial del Sendero de Honor", "tomó a Sylphrena y sus compañeros a bordo en 1174", "acordó con Celeste información sobre armas esquirladas sin spren"] },
-  "apariciones": { "libros": [{ "titulo": "Juramentada", "rol": "secundaria", "pov": false }] },
-  "relaciones": { "radiante_vinculado": null, "creador": null, "otros": [{ "personaje": "Celeste", "relacion": "acuerdo de información mutua" }, { "personaje": "sylphrena", "relacion": "compañera de viaje en el Sendero de Honor" }] },
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Su nombre deriva de Bóreas, el antiguo dios griego del viento del norte, como el de otros honorspren."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "uniforme almidonado y sin tonterías, similar a Notum",
+      "formas_alternativas": [],
+      "color": "azul-blanco",
+      "visibilidad": "visible",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": null
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "desconocida",
+      "otras_formas": [],
+      "material": "desconocido"
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "directa",
+      "pragmática",
+      "sin tonterías"
+    ],
+    "valores": [
+      "interesada en los métodos de creación de armas sin esclavitud de spren"
+    ],
+    "notas": "Tiene algún encuentro con Sangre Nocturna o ha oído de su paso por Integridad Duradera."
+  },
+  "habilidades": {
+    "generales": [
+      "primera oficial del Sendero de Honor"
+    ],
+    "magicas": []
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": "Corredores del Viento",
+    "potencias_otorgadas": [],
+    "forma_shardblade": null,
+    "estado_vinculo": "sin vínculo conocido",
+    "radiante_anterior": null,
+    "notas": "No está vinculada a ningún Radiante conocido. Sirve como primera oficial en el Sendero de Honor."
+  },
+  "historia": {
+    "resumen": "Honorspren que sirve como primera oficial en el Sendero de Honor. En 1174 tomó a Sylphrena y sus compañeros a bordo. Llegó a un acuerdo con Celeste: a cambio de devolverle su arma, información de Sangre Nocturna y pasaje, Celeste le explicaría cómo se creó su espada esquirlada sin necesitar un spren.",
+    "puntos_clave": [
+      "primera oficial del Sendero de Honor",
+      "tomó a Sylphrena y sus compañeros a bordo en 1174",
+      "acordó con Celeste información sobre armas esquirladas sin spren"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundaria",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "Celeste",
+        "relacion": "acuerdo de información mutua"
+      },
+      {
+        "personaje": "sylphrena",
+        "relacion": "compañera de viaje en el Sendero de Honor"
+      }
+    ]
+  },
   "descripcion_breve": "Honorspren primera oficial del Sendero de Honor. Pragmática y directa, llegó a un acuerdo con Celeste para obtener información sobre armas esquirladas sin esclavitud de spren.",
   "notas": "Su nombre, como el de otros honorspren, deriva de una forma lingüística relacionada con el viento. Bóreas era el dios griego del viento del norte."
 }
