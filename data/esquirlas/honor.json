@@ -1,55 +1,63 @@
 {
   "id": "honor",
   "nombre": "Honor",
-  "apodos": ["El Todopoderoso", "Dios Tormenta (confusión popular con el Padre Tormenta)"],
-  "estado_actual": "fragmentada",
+  "apodos": ["El Todopoderoso", "Elithanathile (nombre cantor)"],
+  "estado_actual": "astillada",
   "planeta": "Roshar",
-  "intencion": "Honor, juramentos, vínculos y compromisos",
-  "descripcion_breve": "Esquirla que rigió Roshar durante milenios a través de los Heraldos y los Caballeros Radiantes. Fragmentada por Odium, su poder residual persiste en la luz tormentosa, los spren de honor y el Padre Tormenta.",
+  "intencion": "Honor, juramentos, acuerdos y vínculos entre cosas",
+  "descripcion_breve": "Esquirla que rigió Roshar durante milenios junto a Cultivación. Ató a Odium al sistema roshariano, creó a los Heraldos y estableció los Caballeros Radiantes. Asesinada por Odium tras traicionar a Ba-Ado-Mishram, su poder residual persiste en el Padre Tormenta, la luz tormentosa y los honorspren. Al final de Viento y Verdad, sus fragmentos son absorbidos por Taravangian creando Represalia.",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "mencionada (visiones)", "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "mencionada",           "pov": false },
-      { "titulo": "Juramentada",            "rol": "mencionada",           "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "mencionada",           "pov": false },
-      { "titulo": "Viento y Verdad",        "rol": "secundario importante","pov": false }
+      { "titulo": "El Camino de los Reyes",  "rol": "presente (visiones de Dalinar)", "pov": false },
+      { "titulo": "Palabras Radiantes",      "rol": "mencionada",                    "pov": false },
+      { "titulo": "Juramentada",             "rol": "mencionada",                    "pov": false },
+      { "titulo": "El Ritmo de la Guerra",   "rol": "mencionada",                    "pov": false },
+      { "titulo": "Viento y Verdad",         "rol": "secundario importante",         "pov": false }
     ]
   },
   "recipientes": [
     {
       "nombre": "Tanavast",
       "estado": "fallecido",
-      "periodo": "Desde la llegada de la Esquirla a Roshar hasta su muerte a manos de Odium",
-      "notas": "Tanavast fue el Recipiente de Honor durante toda la era de las Desolaciones. Odium lo mató, fragmentando la Esquirla. Sus últimas comunicaciones con los Heraldos se produjeron a través del Padre Tormenta."
+      "periodo": "Desde la llegada al sistema roshariano hasta su muerte a manos de Odium",
+      "notas": "Tanavast era pareja romántica de Koravellium Avast (Recipiente de Cultivación). Viajaron juntos a Roshar. Se debilitó progresivamente hasta que Odium, aprovechando que la Esquirla le había abandonado tras traicionar a Ba-Ado-Mishram, pudo matarlo. Conocía a Hoid desde antes de la Fragmentación. Sus últimas comunicaciones se producen a través del Padre Tormenta en las visiones que recibe Dalinar."
     }
   ],
   "manifestaciones_en_roshar": [
-    "Luz tormentosa — energía fundamental de los Caballeros Radiantes",
-    "Honorspren — spren creados directamente por Honor",
+    "Luz tormentosa — energía fundamental de los Caballeros Radiantes, color azul-blanco",
+    "Honorspren — spren creados directamente por Honor; los más cercanos a su esencia",
     "El Padre Tormenta — fragmento consciente de Honor que habita en la Gran Tormenta",
-    "Perpendicularidad de Honor — acceso al Reino Espiritual creado por Honor",
-    "Los Ideales de los Caballeros Radiantes — estructura de vínculos basada en la intención de Honor",
-    "Los Heraldos — creados y vinculados por Honor al Juramento"
+    "Perpendicularidad de Honor — acceso al Reino Espiritual; puede ser abierta por un Forjador de Vínculos",
+    "Los Heraldos — creados y vinculados por Honor al Juramento; atados a Braize",
+    "Los vínculos Nahel — sistema de conexión entre spren y humanos establecido por Honor",
+    "Los Ideales de los Caballeros Radiantes — estructura de juramentos basada en la intención de Honor"
   ],
   "historia": {
-    "resumen": "Honor llegó a Roshar y se alió con Cultivación. Creó a los Heraldos y estableció el sistema de los Caballeros Radiantes para defender a la humanidad durante las Desolaciones. Odium lo mató, fragmentando la Esquirla. Su poder residual persiste en el Padre Tormenta y la luz tormentosa. Al final de Viento y Verdad, Taravangian absorbe los fragmentos de Honor junto con Odium, creando Represalia.",
+    "resumen": "Honor llegó a Roshar junto a Cultivación, con quien mantenía una relación romántica. Ambas Esquirlas invistieron el planeta por igual y se convirtieron en los dioses de los cantores. Cuando llegaron humanos desde Ashyn — que habían destruido su mundo — los acogieron en Shinovar. Con ellos llegó también Odium. Honor creó a los Heraldos, estableció el Juramento y ató a Odium al sistema roshariano. Tras milenios de Desolaciones, tomó la decisión desesperada de encargar a Melishi apresar a Ba-Ado-Mishram — traicionando un pacto con ella — lo que hizo que la Esquirla le abandonara. Debilitado y sin Esquirla, Odium pudo matarlo. Sus fragmentos persisten en el Padre Tormenta y la luz tormentosa.",
     "puntos_clave": [
-      "Llega a Roshar y se alía con Cultivación.",
-      "Crea a los Diez Heraldos y los vincula al Juramento.",
-      "Establece el sistema de los Caballeros Radiantes y los vínculos Nahel.",
-      "Durante las Desolaciones protege a la humanidad contra los Portadores del Vacío.",
-      "Odium lo mata; la Esquirla se fragmenta pero no se destruye.",
-      "Sus fragmentos persisten en el Padre Tormenta, la luz tormentosa y los honorspren.",
-      "El Padre Tormenta envía visiones a Dalinar instándole a unificar a los Radiantes.",
+      "Honor y Cultivación llegan juntos al sistema roshariano; eran pareja romántica. Invisten el planeta por igual.",
+      "Se convierten en dioses de los cantores, especie nativa de Roshar.",
+      "Acogen a los humanos llegados desde Ashyn, que habían destruido accidentalmente su mundo.",
+      "Con los humanos llega Odium, que ya había asesinado a Dominio, Devoción y Ambición.",
+      "Crea a los Diez Heraldos y los vincula al Juramento, atándolos al ciclo de Desolaciones.",
+      "Junto a Cultivación crea un pacto para atrapar a Odium en el sistema roshariano.",
+      "Ata a Odium de forma que solo puede escapar si el planeta es destruido o si el mayor Recipiente del poder de Honor lo libera voluntariamente.",
+      "Establece los vínculos Nahel y el sistema de Caballeros Radiantes como defensa contra Odium.",
+      "Durante la Falsa Desolación, Odium amenaza con atacar directamente a Honor para liberarse. Honor, desesperado, pacta con Odium: se encargará de Ba-Ado-Mishram a cambio de que Odium nunca ataque a Honor y acuerde un duelo de campeones futuro.",
+      "Tanavast traiciona a Ba-Ado-Mishram ayudando a Melishi a apresarla en una gema perfecta, incumpliendo su promesa a ella.",
+      "La Esquirla Honor abandona a Tanavast al percibir la traición — acto contrario a su intención.",
+      "Debilitado y sin la Esquirla, Odium puede matar a Tanavast. Honor queda astillada.",
+      "Sus fragmentos persisten: el Padre Tormenta, la luz tormentosa y los honorspren.",
+      "El Padre Tormenta envía visiones a Dalinar instándole a reunir a los Caballeros Radiantes.",
       "Dalinar abre la Perpendicularidad de Honor en Thaylenah usando el poder residual de la Esquirla.",
-      "Navani se convierte en Forjadora de Vínculos al vincularse con el Hermano, spren de Urithiru.",
-      "Al final de VyV, Taravangian absorbe los fragmentos de Honor junto con Odium, creando Represalia."
+      "El Padre Tormenta acuerda con la Esquirla buscar a alguien digno para ser su nuevo Recipiente.",
+      "Al final de Viento y Verdad, Taravangian absorbe los fragmentos de Honor junto con Odium, creando Represalia."
     ]
   },
   "relacion_con_otras_esquirlas": {
-    "cultivacion": "Aliada. Honor y Cultivación colaboraron en la defensa de Roshar durante las Desolaciones.",
-    "odium": "Enemiga. Odium mató a Tanavast y fragmentó la Esquirla de Honor.",
+    "cultivacion": "Aliada y pareja romántica de sus Recipientes. Honor y Cultivación invistieron Roshar por igual y colaboraron contra Odium.",
+    "odium": "Enemiga. Odium mató a Tanavast y astilló Honor. El Juramento que ató a Odium al sistema sobrevivió a la muerte de Tanavast.",
     "represalia": "Absorbida. Los fragmentos de Honor forman parte de Represalia al final de VyV."
   },
-  "notas": "El Padre Tormenta es un fragmento consciente de Honor que habita en la Gran Tormenta. Los honorspren son hijos directos de Honor. La Perpendicularidad de Honor permite el acceso al Reino Espiritual en Roshar."
+  "notas": "La Investidura de Honor se asocia al color azul-blanco. El nombre cantor de Honor es Elithanathile. Tanavast y Koravellium Avast eran pareja; comparten las cinco últimas letras de sus nombres. El Juramento que ata a Odium al sistema roshariano sobrevivió a la muerte de Tanavast, lo que impidió que Rayse pudiera escapar. La Perpendicularidad de Honor puede ser abierta por un Forjador de Vínculos — Dalinar lo hizo en Thaylenah, Navani al vincularse con el Hermano."
 }
