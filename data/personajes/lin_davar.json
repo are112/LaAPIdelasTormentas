@@ -1,0 +1,123 @@
+{
+  "id": "lin_davar",
+  "nombre": "Lin Davar",
+  "nombre_completo": "Lin Davar",
+  "apodos": [
+    "Brillante Señor Davar"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Davar",
+    "Jah Keved"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política local y aspiraciones de alto príncipe",
+      "Portador de un moldeador de almas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Brillante señor de la casa Davar",
+      "Padre abusivo"
+    ],
+    "descripcion": "Hombre veden de ojos claros, brillante señor de la casa Davar en Jah Keved. Inicialmente cariñoso con sus hijos, se volvió violento y volátil tras asumir la culpa de la muerte de su primera esposa para proteger a Shallan. Aspiraba en secreto al título de alto príncipe, apoyado por hombres poderosos desconocidos.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "shallan",
+        "relacion": "hija menor; ella lo estranguló con un collar de aluminio"
+      },
+      {
+        "personaje": "helaran",
+        "relacion": "hijo mayor bastardo, de madre desconocida"
+      },
+      {
+        "personaje": "balat",
+        "relacion": "segundo hijo; lo golpeó con un atizador rompiéndole la pierna"
+      },
+      {
+        "personaje": "wikim",
+        "relacion": "tercer hijo"
+      },
+      {
+        "personaje": "jushu",
+        "relacion": "cuarto hijo"
+      },
+      {
+        "personaje": "malise",
+        "relacion": "segunda esposa; la mató al descubrir el plan de huida de Balat"
+      },
+      {
+        "personaje": "Chana",
+        "relacion": "primera esposa; posiblemente la Heraldo Chana — fallecida"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "helaran",
+        "relacion": "conflicto abierto; Helaran lo amenazó de muerte"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Inicialmente protector; derivó en violencia y volatilidad al cargar en silencio con el secreto de la muerte de su esposa. La culpa y el aislamiento lo corrompieron.",
+    "evolucion": "Pasó de padre cariñoso a señor abusivo y errático. Su violencia escaló progresivamente.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Lin Davar era un brillante señor con aspiraciones de alto príncipe. Cuando Shallan mató a su primera esposa en defensa propia, Lin asumió la culpa para protegerla. El peso del secreto lo transformó en un hombre violento y volátil que maltrató a sus hijos durante años. Shallan lo envenenó con ruinaoscura y lo estranguló con su collar de aluminio la noche en que mató a Malise.",
+    "puntos_clave": [
+      "Tiene un hijo bastardo, Helaran, con una mujer desconocida antes de casarse con su primera esposa Chana.",
+      "Asume la culpa de la muerte de su primera esposa para proteger a Shallan.",
+      "El secreto lo transforma progresivamente en un hombre violento y errático.",
+      "Maltrata física y emocionalmente a sus hijos durante años.",
+      "Aspiraba en secreto al título de alto príncipe, apoyado por hombres poderosos.",
+      "Poseía un moldeador de almas y una colección de mapas misteriosos.",
+      "Mata a Malise al descubrir el plan de huida de Balat.",
+      "Shallan lo envenena con ruinaoscura y lo estrangula con su collar de aluminio."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Figura de trauma central en el arco de Shallan",
+    "relacion_con_spren": "",
+    "otros_detalles": "Se desconoce si sabía que su primera esposa Chana era en realidad la Heraldo Chanarach."
+  },
+  "descripcion_breve": "Brillante señor veden de la casa Davar. Asumió la culpa de la muerte de su primera esposa para proteger a Shallan, lo que lo transformó en un hombre violento y abusivo. Matado por Shallan la noche que asesinó a Malise.",
+  "notas": "Poseía un moldeador de almas y colecciones de mapas de Urithiru, lo que sugería ambiciones más grandes. Su primera esposa Chana podría ser la Heraldo Chanarach — Lin no sabía su verdadera identidad."
+}

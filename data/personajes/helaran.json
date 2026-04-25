@@ -1,0 +1,117 @@
+{
+  "id": "helaran",
+  "nombre": "Helaran",
+  "nombre_completo": "Nan Helaran Davar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Davar",
+    "Rompedores del Cielo (agente de Nale)"
+  ],
+  "orden_radiantes": {
+    "orden": "Rompedores del Cielo",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Portaba armadura y hoja esquirlada — posiblemente las de un Caballero Radiante Rompedor del Cielo o adquiridas."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Portador de armadura y hoja esquirlada",
+      "Combate excepcional"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hijo mayor de Lin Davar",
+      "Agente de Nale — cazador de Radiantes potenciales"
+    ],
+    "descripcion": "Hijo bastardo mayor de Lin Davar, nacido de madre desconocida antes del matrimonio de Lin con su primera esposa Chana. El único de los hermanos que se enfrentó abiertamente a Lin. Portaba armadura y hoja esquirlada. Era agente de Nale y los Rompedores del Cielo, cazando a posibles Radiantes para eliminarlos antes de que completaran sus vínculos.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "lin_davar",
+        "relacion": "padre; relación de conflicto abierto"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "hermanastra; le enviaba libros durante su ausencia"
+      },
+      {
+        "personaje": "balat",
+        "relacion": "hermanastro; le pidió que cuidara de la familia antes de partir"
+      },
+      {
+        "personaje": "wikim",
+        "relacion": "hermanastro"
+      },
+      {
+        "personaje": "jushu",
+        "relacion": "hermanastro"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "lo mató durante la batalla — sin que ninguno de los dos supiera su conexión con Shallan"
+      },
+      {
+        "personaje": "amaram",
+        "relacion": "intentó matarlo durante la batalla; Kaladin lo mató antes"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Valiente y decidido, con una brújula moral más sólida que su padre. Cargaba con la responsabilidad de proteger a sus hermanos desde la distancia.",
+    "evolucion": "No se desarrolla en el presente de la saga — aparece principalmente en flashbacks.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Helaran fue el único de los hijos Davar que desafió abiertamente a Lin. Abandonó la casa tras enfrentarse a él y se convirtió en agente de Nale, cazando Radiantes potenciales. Fue enviado a matar a Amaram. Kaladin lo mató durante la batalla para salvar a Amaram, sin saber que era el hermano de Shallan. Sus esquirladas fueron robadas por Amaram.",
+    "puntos_clave": [
+      "Hijo bastardo de Lin con una madre desconocida — no es hijo de Chana como sus hermanos.",
+      "El único de los hermanos que desafió abiertamente a Lin.",
+      "Abandonó la casa tras amenazar a Lin de muerte.",
+      "Se convirtió en agente de Nale y los Rompedores del Cielo.",
+      "Su misión era matar a posibles Radiantes antes de que completaran sus vínculos.",
+      "Fue enviado a matar a Amaram durante una batalla.",
+      "Kaladin lo mató para salvar a Amaram, sin saber que era el hermano de Shallan.",
+      "Sus esquirladas fueron robadas por Amaram, que las usó para esclavizar a Kaladin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Figura de trasfondo clave — su muerte conecta a Kaladin, Shallan y Amaram",
+    "relacion_con_spren": "",
+    "otros_detalles": "La conexión entre Kaladin (su asesino) y Shallan (su hermana) fue descubierta mucho después por ambos."
+  },
+  "descripcion_breve": "Hijo mayor bastardo de Lin Davar. El único hermano que se enfrentó a su padre. Agente de Nale y los Rompedores del Cielo. Muerto por Kaladin durante una batalla, sin que ninguno supiera su vínculo con Shallan.",
+  "notas": "Su muerte conecta tres arcos narrativos: el de Kaladin (quien lo mató), el de Shallan (su hermana) y el de Amaram (a quien fue enviado a matar y quien robó sus esquirladas)."
+}

@@ -1,0 +1,110 @@
+{
+  "id": "wikim",
+  "nombre": "Wikim",
+  "nombre_completo": "Tet Wikim Davar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Davar",
+    "Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Matemáticas — talento excepcional para los cálculos y la predicción de tormentas",
+      "Contabilidad y distracción de acreedores"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Tercer hijo de Lin Davar",
+      "Gemelo mayor de Jushu",
+      "Matemático talentoso"
+    ],
+    "descripcion": "Gemelo mayor de Jushu. Cayó en una depresión profunda tras la muerte de su madre, raramente hablando o sonriendo, pasando horas mirando fijamente a las llamas o las paredes. Shallan lo rescató de su depresión dándole problemas de matemáticas para predecir tormentas — encontró en los números un ancla emocional. Tenía pensamientos suicidas en su peor momento.",
+    "estado_en_viento_y_verdad": "Activo en Urithiru."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "shallan",
+        "relacion": "hermana menor; le salvó de la depresión con problemas matemáticos"
+      },
+      {
+        "personaje": "jushu",
+        "relacion": "hermano gemelo menor"
+      },
+      {
+        "personaje": "balat",
+        "relacion": "hermano mayor"
+      },
+      {
+        "personaje": "lin_davar",
+        "relacion": "padre; objetivo frecuente de su violencia; fallecido"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Depresión severa tras la muerte de su madre. Pensamientos suicidas — guardaba ruinaoscura para ese fin. Shallan lo rescató antes de que llegara a usarla.",
+    "evolucion": "Pasó de la depresión más profunda a encontrar en las matemáticas un propósito y un ancla. Le dio la ruinaoscura a Shallan sin saber que ella la usaría para envenenar a su padre.",
+    "situacion_en_viento_y_verdad": "Más estable. En Urithiru con su familia."
+  },
+  "arco_narrativo": {
+    "resumen": "Wikim cayó en una depresión profunda tras la muerte de su madre y se convirtió en objetivo frecuente de la violencia de Lin. Tenía pensamientos suicidas y guardaba ruinaoscura para ese fin. Shallan lo rescató dándole problemas matemáticos para predecir la siguiente alta tormenta. Le dio la ruinaoscura a Shallan en señal de gratitud, sin saber que ella la usaría para envenenar a su padre.",
+    "puntos_clave": [
+      "Cae en depresión severa tras la muerte de su madre; raramente habla o sonríe.",
+      "Objetivo frecuente de la violencia de Lin.",
+      "Tenía pensamientos suicidas; guardaba ruinaoscura para ese fin.",
+      "Shallan le rescata de la depresión con problemas matemáticos para predecir tormentas.",
+      "Le da la ruinaoscura a Shallan como muestra de que ya no la necesita.",
+      "Shallan usa esa ruinaoscura para envenenar a Lin la noche de su muerte.",
+      "Ayudó a Balat a distraer acreedores tras la muerte de Lin.",
+      "Llega a Urithiru con la familia gracias a Mraize."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Residente en Urithiru",
+    "rol": "Miembro superviviente de la casa Davar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su talento matemático lo convirtió en un activo valioso para gestionar los asuntos de la familia."
+  },
+  "descripcion_breve": "Tercer hijo de Lin Davar, gemelo mayor de Jushu. Cayó en depresión severa con pensamientos suicidas. Shallan lo rescató con problemas matemáticos. Dio sin saberlo la ruinaoscura que Shallan usó para matar a su padre.",
+  "notas": "La ruinaoscura que Wikim dio a Shallan como señal de gratitud fue el veneno que Shallan usó para matar a Lin. Tiene un talento excepcional para las matemáticas que su padre nunca valoró."
+}

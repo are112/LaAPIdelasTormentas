@@ -1,0 +1,119 @@
+{
+  "id": "balat",
+  "nombre": "Balat",
+  "nombre_completo": "Nan Balat Davar",
+  "apodos": [
+    "Tet Balat (antes de la desheredación de Helaran)"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Davar",
+    "Urithiru (guardia)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Gestión de los asuntos de la casa Davar tras la muerte de Lin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Segundo hijo y heredero de la casa Davar",
+      "Guardia en Urithiru",
+      "Esposo de Eylita Tavinar"
+    ],
+    "descripcion": "Hombre veden de cara redonda, pelo oscuro y mirada atormentada. Camina con bastón por culpa de una herida que le causó su padre al golpearle la pierna con un atizador. Arrastra secuelas psicológicas del abuso paterno — de niño tendía a provocar incendios y maltratar animales. Encontró estabilidad junto a Eylita.",
+    "estado_en_viento_y_verdad": "Activo en Urithiru como guardia."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "shallan",
+        "relacion": "hermana menor; la persona que más lo apoyó"
+      },
+      {
+        "personaje": "lin_davar",
+        "relacion": "padre; le rompió la pierna con un atizador; fallecido"
+      },
+      {
+        "personaje": "helaran",
+        "relacion": "hermano mayor; le pedía que cuidara de la familia; fallecido"
+      },
+      {
+        "personaje": "wikim",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "jushu",
+        "relacion": "hermano"
+      },
+      {
+        "personaje": "Eylita Tavinar",
+        "relacion": "esposa"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Secuelas del abuso paterno. Tendencias piromaníacas y crueldad hacia animales en su infancia — mecanismos de descarga ante la impotencia. Encontró estabilidad con Eylita.",
+    "evolucion": "Pasa de joven aterrorizado e incapaz de enfrentarse a su padre a hombre que asume la responsabilidad de la familia tras la muerte de Lin.",
+    "situacion_en_viento_y_verdad": "Estable en Urithiru junto a Eylita. Es amigo de Mraize sin saber su verdadera identidad."
+  },
+  "arco_narrativo": {
+    "resumen": "Balat creció bajo el abuso de Lin, desarrollando tendencias piromaníacas como mecanismo de descarga. Su relación con Eylita Tavinar fue su primer ancla emocional. Intentó huir con ella, lo que desencadenó la noche del asesinato de Malise y la muerte de Lin. Tras la muerte de su padre asumió la gestión de la casa. Llegó a Urithiru con el resto de la familia gracias a Mraize.",
+    "puntos_clave": [
+      "Arrastra secuelas del abuso de Lin — piromanía y maltrato de animales en su infancia.",
+      "Lin le golpea la pierna con un atizador, dejándole una cojera permanente.",
+      "Conoce a Eylita Tavinar en una fiesta; con ayuda de Shallan inician una relación.",
+      "Lin deshereda a Helaran; Balat pasa a llamarse Nan Balat como nuevo heredero.",
+      "Planea huir con Eylita; Malise revela el plan a Lin desencadenando la noche fatal.",
+      "Tras la muerte de Lin asume la gestión de la casa Davar.",
+      "Llega a Urithiru con su familia gracias a Mraize.",
+      "Trabaja como guardia en Urithiru; es amigo de Mraize sin saber su identidad real."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardia en Urithiru",
+    "rol": "Heredero de la casa Davar; esposo de Eylita",
+    "relacion_con_spren": "",
+    "otros_detalles": "Es amigo de Mraize — quien se hace llamar Gobby — sin conocer su verdadera identidad ni su afiliación a la Sangre Espectral."
+  },
+  "descripcion_breve": "Segundo hijo de Lin Davar y heredero de la casa. Arrastra secuelas del abuso paterno. Encontró estabilidad con Eylita Tavinar. Vive en Urithiru como guardia, donde mantiene amistad con Mraize sin saber quién es realmente.",
+  "notas": "Mraize se hizo pasar por un guardia llamado Gobby para infiltrarse en su círculo. Balat desconoce su verdadera identidad y afiliación."
+}

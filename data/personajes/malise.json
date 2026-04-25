@@ -1,0 +1,87 @@
+{
+  "id": "malise",
+  "nombre": "Malise",
+  "nombre_completo": "Malise Gevelmar",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Davar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Segunda esposa de Lin Davar",
+      "Madrastra de los hijos Davar"
+    ],
+    "descripcion": "Segunda esposa de Lin Davar. Se casó con él aproximadamente dos años después de la muerte de su primera esposa. Era inteligente — Evi Kholin la admiraba por ello. Su relación con los hijos de Lin era tensa, especialmente con Balat. Reveló el plan de huida de Balat a Lin, lo que desencadenó la noche de su muerte.",
+    "estado_en_viento_y_verdad": "Fallecida antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "lin_davar",
+        "relacion": "esposo; la mató al descubrir el plan de Balat"
+      },
+      {
+        "personaje": "balat",
+        "relacion": "hijastro; relación tensa"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "hijastra"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Poco conocido. Vivía bajo la sombra de Lin Davar.",
+    "evolucion": "Sin arco propio desarrollado en la saga.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Malise se casó con Lin Davar como su segunda esposa. Reveló el plan de Balat para huir con Eylita, lo que desencadenó la violencia de Lin esa noche. Lin la mató como castigo. Su muerte fue uno de los catalizadores de la decisión de Shallan de envenenar a su padre.",
+    "puntos_clave": [
+      "Se casa con Lin Davar aproximadamente dos años tras la muerte de su primera esposa.",
+      "Revela a Lin el plan de huida de Balat con Eylita.",
+      "Lin la mata como castigo esa misma noche.",
+      "Su muerte es el detonante que lleva a Shallan a actuar contra su padre."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Detonante del clímax de la historia de la casa Davar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Segunda esposa de Lin Davar. Su revelación del plan de huida de Balat desencadenó la noche en que Lin la mató y Shallan acabó con la vida de su padre.",
+  "notas": "Evi Kholin la admiraba por su inteligencia."
+}
