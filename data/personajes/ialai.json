@@ -1,0 +1,90 @@
+{
+  "id": "ialai",
+  "nombre": "Ialai",
+  "nombre_completo": "Ialai Sadeas",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "secundario",           "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante","pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario importante","pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante","pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Sadeas",
+    "Red de espías de los Sadeas",
+    "Conspiración anti-Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Inteligencia política excepcional",
+      "Gestión de redes de espionaje",
+      "Manipulación e intriga política",
+      "Conspiración a largo plazo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Esposa y socia política de Torol Sadeas",
+      "Conspiradora anti-Kholin tras la muerte de Sadeas",
+      "Cerebro político de la casa Sadeas"
+    ],
+    "descripcion": "Mujer alezi de ojos claros, inteligente y peligrosa. Torol Sadeas se sentía atraído precisamente por su personalidad peligrosa. Trabajaron juntos como equipo político desde el principio. Tras la muerte de Torol, continuó sus conspiraciones con genuino dolor por su pérdida y rabia por la injusticia de no poder probar quién lo había matado.",
+    "estado_en_viento_y_verdad": "Fallecida antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "sadeas", "relacion": "esposo; fallecido" }
+    ],
+    "amigos": [
+      { "personaje": "navani", "relacion": "antigua aliada en su juventud; la relación se deterioró cuando Navani se unió a Dalinar" }
+    ],
+    "enemigos": [
+      { "personaje": "dalinar",  "relacion": "principal objetivo de sus conspiraciones" },
+      { "personaje": "adolin",   "relacion": "sospechosa del asesinato de Torol; no pudo probarlo" },
+      { "personaje": "jasnah",   "relacion": "adversaria; sabía que no debía intentar luchar contra ella directamente" },
+      { "personaje": "shallan",  "relacion": "Shallan la infiltró y la encontró muerta — asesinada por la Sangre Espectral" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Inteligente y fría, pero con un dolor genuino por la muerte de Torol. Su luto se transformó en una obsesión por continuar sus planes y destruir a los Kholin.",
+    "evolucion": "Tras la muerte de Torol pierde parte de su estabilidad al perder a su principal aliado. Su red de espías se debilita y su posición política se vuelve progresivamente más frágil.",
+    "situacion_en_viento_y_verdad": "Fallecida antes de los eventos del libro."
+  },
+  "arco_narrativo": {
+    "resumen": "Ialai fue la cerebro político de la casa Sadeas, trabajando en tándem con Torol desde el principio. Gestionaba redes de espías, descubrió las notas de Navani sobre las visiones de Dalinar y conspiró activamente contra la familia Kholin. Tras el asesinato de Torol por Adolin, continuó sola duplicando sus esfuerzos. Regresó a las Llanuras Quebradas y fue asesinada por la Sangre Espectral antes de que Shallan pudiera interrogarla.",
+    "puntos_clave": [
+      "Se casa con Torol Sadeas antes de la unificación de Alezkar; se involucra de inmediato en la política alezi.",
+      "Trabajó junto a Torol como equipo político, gestionando espías y conspiraciones.",
+      "Usando su red de espías descubrió las notas de Navani sobre las visiones de Dalinar y las usó como arma política.",
+      "Trabajó junto a Navani en su juventud; la relación se deterioró al unirse Navani a Dalinar.",
+      "Torol fue asesinado por Adolin en Urithiru; Ialai sospechó de él pero no pudo probarlo.",
+      "Reclutó a Amaram para investigar el asesinato de Torol; Amaram no descubrió que Adolin era el culpable.",
+      "La Sangre Espectral la vigilaba activamente; Mraize se infiltró personalmente entre sus soldados.",
+      "Regresó a las Llanuras Quebradas y continuó conspirando.",
+      "Fue asesinada por la Sangre Espectral antes de que Shallan pudiera interrogarla en El Ritmo de la Guerra."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Conspiradora anti-Kholin; cerebro político de la casa Sadeas",
+    "relacion_con_spren": "",
+    "otros_detalles": "Fue asesinada por la Sangre Espectral, que la eliminó para evitar que se convirtiera en un problema. Jasnah investigó su muerte."
+  },
+  "descripcion_breve": "Esposa y socia política de Torol Sadeas. Cerebro político de la casa Sadeas y gestora de su red de espías. Continuó las conspiraciones contra los Kholin tras la muerte de su esposo hasta ser asesinada por la Sangre Espectral.",
+  "notas": "Torol Sadeas se sentía atraído por su personalidad peligrosa — era un rasgo que él admiraba activamente. Navani e Ialai trabajaron juntas en su juventud antes de que sus lealtades las separaran. Fue asesinada por la Sangre Espectral en las Llanuras Quebradas."
+}
