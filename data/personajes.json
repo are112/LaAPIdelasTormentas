@@ -217,6 +217,13 @@
     "estado_actual": "viva"
   },
   {
+    "id": "palona",
+    "nombre": "Palona",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
+  },
+  {
     "id": "rabeniel",
     "nombre": "Rabeniel",
     "orden": "Ninguna",
@@ -254,6 +261,13 @@
   {
     "id": "rushu",
     "nombre": "Rushu",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
+    "id": "sebarial",
+    "nombre": "Sebarial",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
