@@ -382,21 +382,20 @@ router.get("/", (req, res) => {
     /* Avatar deshecho — gradiente rojo oscuro */
     .item-avatar-deshecho {
       width: 32px; height: 32px;
-      border-radius: 50%;
+      border-radius: 6px;
       display: flex; align-items: center; justify-content: center;
       font-size: 0.85rem;
-      background: radial-gradient(circle, rgba(192,57,43,0.35), rgba(80,10,10,0.6));
-      border: 1px solid rgba(192,57,43,0.4);
+      background: rgba(176,56,40,0.15);
+      border: 1px solid rgba(176,56,40,0.25);
       flex-shrink: 0;
     }
-    /* Heraldo lista — foto circular con borde dorado estático */
+    /* Heraldo lista — foto cuadrada con borde dorado */
     .item-avatar-heraldo {
       width: 32px; height: 32px;
-      border-radius: 50%;
+      border-radius: 6px;
       overflow: hidden;
       flex-shrink: 0;
-      border: 1.5px solid rgba(201,168,76,0.6);
-      box-shadow: 0 0 6px rgba(201,168,76,0.25);
+      border: 1px solid rgba(201,168,76,0.35);
     }
     .item-avatar-heraldo img {
       width: 100%; height: 100%;
@@ -498,49 +497,30 @@ router.get("/", (req, res) => {
     }
     /* Avatar ficha deshecho */
     .ficha-avatar-deshecho {
-      width: 80px; height: 80px;
-      border-radius: 50%;
-      background: radial-gradient(circle at 40% 35%, rgba(192,57,43,0.4), rgba(60,5,5,0.8));
-      border: 2px solid rgba(192,57,43,0.5);
+      width: 72px; height: 72px;
+      border-radius: 12px;
+      background: rgba(176,56,40,0.12);
+      border: 1px solid rgba(176,56,40,0.25);
       display: flex; align-items: center; justify-content: center;
       font-size: 2rem;
       flex-shrink: 0;
-      box-shadow: 0 0 20px rgba(192,57,43,0.2);
     }
-    /* Heraldo ficha grande — anillo dorado giratorio */
+    /* Heraldo ficha grande — cuadrado con borde dorado */
     .ficha-avatar-heraldo {
-      width: 80px; height: 80px;
-      border-radius: 50%;
+      width: 72px; height: 72px;
+      border-radius: 12px;
+      overflow: hidden;
       flex-shrink: 0;
+      border: 1px solid rgba(201,168,76,0.35);
       position: relative;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .ring-l {
-      position: absolute;
-      inset: -3px;
-      border-radius: 50%;
-      background: conic-gradient(#c9a84c 0deg, #a8833a 120deg, transparent 180deg, #c9a84c 360deg);
-      animation: girar-heraldo 4s linear infinite;
-      z-index: 0;
-    }
-    .ring-l-inner {
-      position: absolute;
-      inset: 2px;
-      border-radius: 50%;
-      background: var(--azul-profundo, #0c1422);
-      z-index: 1;
     }
     .ficha-avatar-heraldo img {
-      position: relative;
-      width: 72px; height: 72px;
-      border-radius: 50%;
+      width: 100%; height: 100%;
       object-fit: cover;
       object-position: center 10%;
-      filter: sepia(0.3) contrast(1.1) brightness(1.0);
-      z-index: 2;
+      filter: sepia(0.2) contrast(1.05) brightness(1.05);
       display: block;
     }
-    @keyframes girar-heraldo { to { transform: rotate(360deg); } }
 
     .ficha-titulo h2 {
       font-family: 'Cinzel Decorative', serif;
@@ -1036,7 +1016,7 @@ router.get("/", (req, res) => {
       /* Ficha: ajustes para pantalla pequeña */
       .ficha-header { flex-direction: column; gap: 1rem; }
       .ficha-avatar, .ficha-avatar-deshecho,
-      .ficha-avatar-heraldo { width: 56px; height: 56px; font-size: 1.6rem; }
+      .ficha-avatar-heraldo { width: 52px; height: 52px; font-size: 1.5rem; }
       .ficha-titulo h2 { font-size: 1.3rem; }
       .grid-secciones { columns: 1; }
       .historial-barra { display: none; }
@@ -2215,7 +2195,6 @@ router.get("/", (req, res) => {
         <div class="ficha">
           <div class="ficha-header">
             <div class="ficha-avatar-heraldo">
-              <div class="ring-l"></div><div class="ring-l-inner"></div>
               <img src="/images/heraldos/\${h.id}.webp"
                    onerror="heraldoImgError(this, '\${h.id}')" />
             </div>
