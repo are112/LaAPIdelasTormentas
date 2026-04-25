@@ -1,0 +1,96 @@
+{
+  "id": "amaram",
+  "nombre": "Amaram",
+  "nombre_completo": "Meridas Amaram",
+  "apodos": ["Brillante Señor Amaram", "Cabeza de los Caballeros Radiantes"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "menor",                "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "antagonista",          "pov": false },
+      { "titulo": "Juramentada",            "rol": "antagonista principal", "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram",
+    "Hijos de Honor",
+    "Caballeros Radiantes (nombrado cabeza por Dalinar; destituido)",
+    "Fuerzas de Odium (al final)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": "Ninguno. Absorbió a Yelig-nar — un Deshecho — en lugar de vincularse con un spren."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": ["Acceso temporal a todas las potencias de los Radiantes (absorbiendo a Yelig-nar)"],
+      "fuente_de_luz": "luz del vacío (al absorber a Yelig-nar)"
+    },
+    "no_magicas": [
+      "Portador de armadura y hoja esquirlada excepcional",
+      "Comandante militar brillante",
+      "Político y manipulador hábil",
+      "Oratoria y justificación de sus actos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Comandante del ejército de Amaram",
+      "Cabeza nominal de los Caballeros Radiantes (antes de ser destituido)",
+      "Miembro de los Hijos de Honor",
+      "Antagonista personal de Kaladin"
+    ],
+    "descripcion": "Alto señor alezi de ojos claros considerado por muchos como un modelo de honor y virtud. Comandante brillante y carismático cuya reputación de hombre honorable era una fachada que ocultaba su adhesión a la Filosofía de la Aspiración: los objetivos justifican los medios. Su traición a Kaladin —a quien acababa de salvarle la vida— es el trauma fundacional que convierte a Kaladin en esclavo y define su desconfianza hacia los ojos claros.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "Roshone", "relacion": "primo lejano; señor de Piedralar" }
+    ],
+    "amigos": [
+      { "personaje": "dalinar", "relacion": "amigo de confianza; Dalinar lo nombró cabeza de los Radiantes sin saber su verdadera naturaleza" }
+    ],
+    "enemigos": [
+      { "personaje": "kaladin", "relacion": "traicionó a Kaladin, mató a sus hombres y lo vendió como esclavo; antagonista personal de Kaladin durante toda la saga" },
+      { "personaje": "jasnah",  "relacion": "antagonismo personal y desprecio mutuo; Jasnah lo rechazó públicamente con dureza" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Adherente convencido de la Filosofía de la Aspiración: los objetivos son más importantes que los medios para alcanzarlos. Siente culpa genuina por sus actos pero la suprime con la convicción de estar haciendo el bien mayor.",
+    "evolucion": "Comienza como modelo aparente de virtud y va revelándose progresivamente como un hombre que se autoengaña. Su descenso final — absorber a Yelig-nar y alinearse con Odium — es una consecuencia lógica de su filosofía llevada al extremo.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Amaram era considerado un modelo de virtud alezi. En 1168 reclutó a Kaladin y Tien en Piedralar, prometiendo que Tien sería mensajero. Traicionó esa promesa y Tien murió en combate. Tras ser salvado por Kaladin de un ataque de Helaran Davar, mató a los hombres de Kaladin, robó las esquirladas y vendió a Kaladin como esclavo. Ocultó sus crímenes con testigos falsos. En las Llanuras fue nombrado cabeza de los Radiantes por Dalinar, quien descubrió su traición y lo destituyó. En Juramentada absorbió a Yelig-nar y luchó contra Kaladin en la batalla de Thaylenah, siendo finalmente matado por Lunamor.",
+    "puntos_clave": [
+      "Considera que los objetivos justifican los medios — Filosofía de la Aspiración.",
+      "Miembro de los Hijos de Honor: organización que buscaba traer de vuelta a los Heraldos provocando las Desolaciones.",
+      "En 1168 recluta a Tien y Kaladin en Piedralar. Promete a Lirin que Tien será mensajero.",
+      "Tien es enviado al combate y muerto. Kaladin salva a Amaram matando al portador de esquirlada Helaran Davar.",
+      "Amaram mata a los hombres de Kaladin, roba las esquirladas y vende a Kaladin como esclavo.",
+      "Fabrica a diecisiete testigos falsos para ocultar cómo obtuvo las esquirladas.",
+      "Dalinar lo nombra cabeza de los Caballeros Radiantes en las Llanuras, ignorando su traición.",
+      "Dalinar descubre la traición mediante una trampa; Amaram confiesa y es destituido.",
+      "Se une a las fuerzas de Odium durante la Verdadera Desolación.",
+      "Investiga el asesinato de Sadeas por encargo de Ialai; no descubre que fue Adolin.",
+      "Absorbe a Yelig-nar tragando la gema que lo contenía. Desarrolla cristales en el cuerpo y acceso a múltiples potencias.",
+      "Combate contra Kaladin en la batalla de la Explanada Thayleña.",
+      "Lunamor lo mata con un arco esquirlado — dos flechas: una en la cabeza y otra en su gema corazón."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Antagonista personal de Kaladin; trauma fundacional de su desconfianza hacia los ojos claros",
+    "relacion_con_spren": "",
+    "otros_detalles": "Helaran Davar, a quien Kaladin mató para salvar a Amaram, era el hermano mayor de Shallan — detalle que Kaladin y Shallan descubren mucho después. La hoja esquirlada que Amaram robó a Kaladin era la de Helaran."
+  },
+  "descripcion_breve": "Comandante alezi con reputación de hombre honorable que ocultaba una filosofía sin escrúpulos. Traicionó a Kaladin, mató a sus hombres y lo vendió como esclavo. Miembro de los Hijos de Honor. Absorbió al Deshecho Yelig-nar y fue matado por Lunamor en la batalla de Thaylenah.",
+  "notas": "La hoja esquirlada que Amaram robó a Kaladin pertenecía a Helaran Davar, hermano mayor de Shallan. Kaladin no supo hasta mucho después que había matado al hermano de su aliada. Amaram fue uno de los pocos personajes de la saga que se arrepintió ante Kaladin — pero convencido de que volvería a hacer lo mismo."
+}
