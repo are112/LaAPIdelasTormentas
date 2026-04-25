@@ -266,6 +266,13 @@
     "estado_actual": "viva"
   },
   {
+    "id": "oroden",
+    "nombre": "Oroden",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "palona",
     "nombre": "Palona",
     "orden": "Ninguna",
@@ -361,6 +368,13 @@
     "nombre": "Teft",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
+    "estado_actual": "fallecido"
+  },
+  {
+    "id": "tien",
+    "nombre": "Tien",
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
     "estado_actual": "fallecido"
   },
   {
