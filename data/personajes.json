@@ -98,6 +98,13 @@
     "estado_actual": "fallecida"
   },
   {
+    "id": "felt",
+    "nombre": "Felt",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "gavilar",
     "nombre": "Gavilar",
     "orden": "Ninguna",
@@ -154,9 +161,23 @@
     "estado_actual": "fallecida"
   },
   {
+    "id": "iyatil",
+    "nombre": "Iyatil",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida"
+  },
+  {
     "id": "jasnah",
     "nombre": "Jasnah",
     "orden": "Nominadores de Lo Otro",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
+  },
+  {
+    "id": "jin",
+    "nombre": "Jin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva"
   },
@@ -166,6 +187,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
+  },
+  {
+    "id": "kabsal",
+    "nombre": "Kabsal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
   },
   {
     "id": "kaladin",
@@ -231,6 +259,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "luesh",
+    "nombre": "Luesh",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
     "id": "lunamor",
     "nombre": "Lunamor",
     "orden": "Ninguna",
@@ -257,6 +292,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
+  },
+  {
+    "id": "mraize",
+    "nombre": "Mraize",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
   },
   {
     "id": "navani",
@@ -290,6 +332,13 @@
     "id": "renarin",
     "nombre": "Renarin",
     "orden": "Vigilantes de la Verdad",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
+    "id": "restares",
+    "nombre": "Restares",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
   },
@@ -383,6 +432,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva"
+  },
+  {
+    "id": "tyn",
+    "nombre": "Tyn",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida"
   },
   {
     "id": "venli",
