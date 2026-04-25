@@ -126,6 +126,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "ialai",
+    "nombre": "Ialai",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida"
+  },
+  {
     "id": "jasnah",
     "nombre": "Jasnah",
     "orden": "Nominadores de Lo Otro",
@@ -264,6 +271,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
+  },
+  {
+    "id": "sadeas",
+    "nombre": "Sadeas",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
   },
   {
     "id": "sebarial",
