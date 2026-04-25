@@ -889,6 +889,59 @@ router.get("/", (req, res) => {
       opacity: 0.5;
     }
 
+    /* Recipientes de Esquirla */
+    .recipiente-item {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .recipiente-item:last-child { border-bottom: none; }
+    .recipiente-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+    .recipiente-nombre {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--blanco-perla);
+    }
+    .recipiente-periodo {
+      font-size: 0.78rem;
+      color: var(--gris-plata);
+      opacity: 0.7;
+      margin-bottom: 0.3rem;
+      line-height: 1.4;
+    }
+    .recipiente-notas {
+      font-size: 0.82rem;
+      color: var(--gris-plata);
+      font-style: italic;
+      line-height: 1.5;
+      opacity: 0.8;
+    }
+
+    /* Relaciones entre Esquirlas */
+    .relacion-esquirla-item {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .relacion-esquirla-item:last-child { border-bottom: none; }
+    .relacion-esquirla-nombre {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gris-plata);
+      opacity: 0.65;
+      margin-bottom: 0.2rem;
+    }
+    .relacion-esquirla-desc {
+      font-size: 0.88rem;
+      color: var(--blanco-perla);
+      line-height: 1.5;
+    }
+
     /* Responsive */
     /* ── MÓVIL: vista de una sola pantalla a la vez ── */
     @media (max-width: 768px) {
@@ -1945,31 +1998,31 @@ router.get("/", (req, res) => {
           ? 'badge-muerto' : 'badge-orden';
 
       const manifestacionesHtml = (e.manifestaciones_en_roshar ?? []).length
-        ? \`<div class="tags">\${e.manifestaciones_en_roshar.map(m => \`<span class="tag">🌀 \${m}</span>\`).join('')}</div>\`
+        ? \`<div class="tags">\${e.manifestaciones_en_roshar.map(m => \`<span class="tag">\${m}</span>\`).join('')}</div>\`
         : '<p class=\"sin-datos\">Sin manifestaciones registradas</p>';
 
       const recipientesHtml = (e.recipientes ?? []).map(r => \`
-        <div class="campo" style="flex-direction:column;align-items:flex-start;gap:0.3rem;border-bottom:1px solid rgba(79,195,247,0.08);padding-bottom:0.75rem;margin-bottom:0.5rem">
-          <span class="campo-label">
-            \${enlazarEntidad(r.nombre)}
-            <span class="badge \${r.estado === 'fallecido' || r.estado === 'fallecida' ? 'badge-muerto' : 'badge-vivo'}" style="font-size:0.65rem;margin-left:0.4rem">\${r.estado}</span>
-          </span>
-          <span class="campo-valor" style="font-size:0.82rem">\${r.periodo}</span>
-          \${r.notas ? \`<span style="font-size:0.8rem;color:var(--gris-plata);font-style:italic">\${r.notas}</span>\` : ''}
+        <div class="recipiente-item">
+          <div class="recipiente-header">
+            <span class="recipiente-nombre">\${enlazarEntidad(r.nombre)}</span>
+            <span class="badge \${r.estado === 'fallecido' || r.estado === 'fallecida' ? 'badge-muerto' : 'badge-vivo'}" >\${r.estado}</span>
+          </div>
+          \${r.periodo ? \`<div class="recipiente-periodo">\${r.periodo}</div>\` : ''}
+          \${r.notas   ? \`<div class="recipiente-notas">\${r.notas}</div>\`   : ''}
         </div>
       \`).join('');
 
       const relacionesHtml = e.relacion_con_otras_esquirlas
         ? Object.entries(e.relacion_con_otras_esquirlas).map(([k, v]) => \`
-          <div class="campo">
-            <span class="campo-label">\${k.charAt(0).toUpperCase() + k.slice(1)}</span>
-            <span class="campo-valor">\${v}</span>
+          <div class="relacion-esquirla-item">
+            <div class="relacion-esquirla-nombre">\${k.charAt(0).toUpperCase() + k.slice(1)}</div>
+            <div class="relacion-esquirla-desc">\${v}</div>
           </div>\`).join('')
         : '';
 
       const histHtml = e.historia ? \`
         \${e.historia.resumen ? \`<p class="arco-resumen">\${e.historia.resumen}</p>\` : ''}
-        \${(e.historia.puntos_clave ?? []).map(pk => \`<div class="punto-clave">▸ \${pk}</div>\`).join('')}
+        \${(e.historia.puntos_clave ?? []).map(pk => \`<div class="punto-clave">\${pk}</div>\`).join('')}
       \` : '';
 
       return \`
@@ -2019,7 +2072,7 @@ router.get("/", (req, res) => {
           \${e.notas ? \`
           <div class="seccion">
             <div class="seccion-titulo">Notas</div>
-            <p style="font-size:0.85rem;color:var(--gris-plata);font-style:italic">\${e.notas}</p>
+            <p class="arco-resumen">\${e.notas}</p>
           </div>\` : ''}
         </div>
       \`;
