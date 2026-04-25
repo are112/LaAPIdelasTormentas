@@ -21,6 +21,13 @@
     "estado_actual": "fallecido"
   },
   {
+    "id": "balat",
+    "nombre": "Balat",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "cancion_hermosa",
     "nombre": "Canción Hermosa",
     "orden": "Ninguna",
@@ -112,6 +119,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "helaran",
+    "nombre": "Helaran",
+    "orden": "Rompedores del Cielo",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
     "id": "hesina",
     "nombre": "Hesina",
     "orden": "Ninguna",
@@ -145,6 +159,13 @@
     "orden": "Nominadores de Lo Otro",
     "nivel_ideal": null,
     "estado_actual": "viva"
+  },
+  {
+    "id": "jushu",
+    "nombre": "Jushu",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "kaladin",
@@ -189,6 +210,13 @@
     "estado_actual": "viva"
   },
   {
+    "id": "lin_davar",
+    "nombre": "Lin Davar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
     "id": "lirin",
     "nombre": "Lirin",
     "orden": "Ninguna",
@@ -215,6 +243,13 @@
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
     "estado_actual": "viva"
+  },
+  {
+    "id": "malise",
+    "nombre": "Malise",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida"
   },
   {
     "id": "moash",
@@ -341,6 +376,13 @@
     "orden": "Escultores de Voluntad",
     "nivel_ideal": 2,
     "estado_actual": "viva"
+  },
+  {
+    "id": "wikim",
+    "nombre": "Wikim",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "zahel",
