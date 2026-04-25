@@ -1727,9 +1727,17 @@ router.get("/", (req, res) => {
 
     // ── Init ───────────────────────────────────────────────
     function heraldoImgError(img, id) {
-      if (!img.dataset.fallback) {
+      const fb = img.dataset.fallback || '0';
+      if (fb === '0') {
         img.dataset.fallback = '1';
         img.src = '/images/heraldos/' + id + '.jpg';
+      } else if (fb === '1') {
+        img.dataset.fallback = '2';
+        img.src = '/images/heraldos/' + id + '.png';
+      } else if (fb === '2') {
+        img.dataset.fallback = '3';
+        // Intentar con la B mayúscula por si el archivo tiene ese nombre
+        img.src = '/images/heraldos/' + id.charAt(0).toUpperCase() + id.slice(1) + '.png';
       } else {
         img.parentElement.innerHTML = '&#128081;';
       }
