@@ -11,21 +11,44 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "menor",      "pov": false },
-      { "titulo": "Juramentada",            "rol": "menor",      "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
-      { "titulo": "Viento y Verdad",        "rol": "menor",      "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "menor",
+        "pov": false
+      }
     ]
   },
-  "afiliaciones": ["Piedralar"],
+  "afiliaciones": [
+    "Piedralar"
+  ],
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "" },
+    "spren_asociado": {
+      "principal": ""
+    },
     "estado_del_vinculo": ""
   },
   "habilidades": {
-    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
     "no_magicas": [
       "Capacidad de leer y escribir (inusual para una mujer de ojos oscuros)",
       "Fortaleza emocional excepcional",
@@ -43,14 +66,29 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "kaladin", "relacion": "hijo mayor" },
-      { "personaje": "lirin",   "relacion": "esposo" },
-      { "personaje": "Tien",    "relacion": "hijo; fallecido" },
-      { "personaje": "Oroden",  "relacion": "hijo menor" }
+      {
+        "personaje": "kaladin",
+        "relacion": "hijo mayor"
+      },
+      {
+        "personaje": "lirin",
+        "relacion": "esposo"
+      },
+      {
+        "personaje": "tien",
+        "relacion": "hijo; fallecido"
+      },
+      {
+        "personaje": "oroden",
+        "relacion": "hijo menor; nacido durante la saga"
+      }
     ],
     "amigos": [],
     "enemigos": [
-      { "personaje": "Roshone", "relacion": "highlord responsable del reclutamiento de Tien" }
+      {
+        "personaje": "Roshone",
+        "relacion": "highlord responsable del reclutamiento de Tien"
+      }
     ]
   },
   "estado_mental": {
@@ -67,7 +105,9 @@
       "Kaladin no regresa durante años.",
       "La familia es evacuada a Urithiru durante la guerra.",
       "Durante la ocupación de Urithiru, Leshwi protege a la familia.",
-      "Reencuentro con Kaladin en Urithiru."
+      "Reencuentro con Kaladin en Urithiru.",
+      "Durante la ocupación de Urithiru, le dice a Lirin que Kaladin es la mejor persona posible para ser soldado — defendiendo a su hijo cuando Lirin cuestiona su camino.",
+      "Estuvo atada y amordazada junto a Lirin y Oroden durante la ocupación cuando los Fusionados descubrieron el nodo final del Hermano."
     ]
   },
   "situacion_actual": {

@@ -1,0 +1,68 @@
+{
+  "id": "oroden",
+  "nombre": "Oroden",
+  "nombre_completo": "Oroden",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Ritmo de la Guerra", "rol": "menor", "pov": false },
+      { "titulo": "Viento y Verdad",       "rol": "menor", "pov": false }
+    ]
+  },
+  "afiliaciones": ["Piedralar", "Urithiru"],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Hermano menor de Kaladin",
+      "Hijo pequeño de Lirin y Hesina"
+    ],
+    "descripcion": "Bebé nacido durante los eventos de la saga, mucho después de que Kaladin abandonara Piedralar. Su nombre fue elegido por Kaladin — quería que su hermano pequeño tuviera un nombre que sonara esperanzador. Su existencia es un ancla emocional para Kaladin durante los eventos más duros de El Ritmo de la Guerra.",
+    "estado_en_viento_y_verdad": "Niño pequeño en Urithiru con sus padres."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "kaladin", "relacion": "hermano mayor" },
+      { "personaje": "lirin",   "relacion": "padre" },
+      { "personaje": "hesina",  "relacion": "madre" }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Bebé/niño pequeño — sin desarrollo psicológico registrado en la saga.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Niño pequeño en Urithiru."
+  },
+  "arco_narrativo": {
+    "resumen": "Oroden nació durante la saga, convirtiéndose en el hermano pequeño que Kaladin nunca supo que tendría. Su nombre fue elegido por Kaladin. Su presencia en Urithiru durante la ocupación lo pone en peligro, lo que amplifica la angustia de Kaladin durante esos eventos.",
+    "puntos_clave": [
+      "Nació durante los eventos de la saga, mucho después de que Kaladin abandonara Piedralar.",
+      "Su nombre fue elegido por Kaladin.",
+      "Durante la ocupación de Urithiru por los Fusionados, estuvo en peligro junto a sus padres.",
+      "Moash entregó a Lirin al Perseguidor con indicaciones de matarle si Kaladin volvía en sí — Oroden estaba presente."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Niño pequeño",
+    "rol": "Ancla emocional de Kaladin; símbolo de esperanza",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su nombre fue elegido por Kaladin."
+  },
+  "descripcion_breve": "Hermano pequeño de Kaladin, nacido durante la saga. Su nombre fue elegido por el propio Kaladin. Representa la esperanza y el futuro en contraste con la muerte de Tien.",
+  "notas": "Oroden es el contraste emocional de Tien — el hermano que Kaladin no pudo salvar frente al hermano que sí puede ver crecer."
+}

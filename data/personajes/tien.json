@@ -1,0 +1,82 @@
+{
+  "id": "tien",
+  "nombre": "Tien",
+  "nombre_completo": "Tien",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "secundario", "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Piedralar",
+    "Ejército de Amaram (reclutado forzosamente)"
+  ],
+  "orden_radiantes": {
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "críptica (sin nombre; paradero desconocido tras su muerte)" },
+    "estado_del_vinculo": "Iniciado. Se vinculó con una críptica mientras servía en el ejército. Murió antes de pronunciar ningún Ideal. Los Rompedores del Cielo sabían de su vínculo y lo consideraban el único potenciador en las fuerzas de Amaram."
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Capacidad innata para encontrar belleza en las cosas pequeñas",
+      "Efecto positivo sobre el estado de ánimo de quienes le rodeaban",
+      "Recolección de rocas — encontraba patrones ocultos en las piedras"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hermano menor de Kaladin",
+      "Potencial Tejedor de Luz — vinculado con una críptica sin saberlo"
+    ],
+    "descripcion": "Joven alezi de carácter alegre y sensible, con un don natural para encontrar belleza en las cosas pequeñas — rocas con patrones ocultos, lurgs, pequeños detalles del mundo. Era el ancla emocional de Kaladin durante su infancia, capaz de sacarle de sus depresiones con una sonrisa. Fue reclutado forzosamente por orden de Roshone menos de cuatro meses antes de su muerte.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos de la saga."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "kaladin", "relacion": "hermano mayor; su muerte es el trauma fundacional de Kaladin" },
+      { "personaje": "lirin",   "relacion": "padre" },
+      { "personaje": "hesina",  "relacion": "madre" }
+    ],
+    "amigos": [],
+    "enemigos": [
+      { "personaje": "amaram", "relacion": "comandante que incumplió su promesa de mantenerlo como mensajero y lo envió al frente" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Alegre y sensible. Su naturaleza positiva era un don natural, no un esfuerzo.",
+    "evolucion": "No tiene arco propio — muere muy joven. Su importancia es su efecto sobre Kaladin.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Tien fue reclutado forzosamente por Roshone para el ejército de Amaram. Kaladin se alistó voluntariamente para protegerlo, prometiendo a sus padres traerlo de vuelta sano y salvo en cuatro años. Amaram prometió mantenerlo como mensajero. Menos de cuatro meses después, Tien fue enviado al frente como táctica dilatoria y murió. Kaladin llegó al campo de batalla momentos antes de que fuera abatido. Su muerte es el trauma fundacional del protagonista.",
+    "puntos_clave": [
+      "Hermano menor de Kaladin — su ancla emocional durante la infancia.",
+      "Tenía el hábito de recoger rocas con patrones ocultos y dárselas a Kaladin para animarle.",
+      "Roshone lo incluyó en la lista de reclutas para vengarse de Lirin.",
+      "Amaram prometió mantenerlo como mensajero y alejarlo del peligro.",
+      "Kaladin se alistó voluntariamente para protegerlo, prometiendo traerlo a casa.",
+      "Murió menos de cuatro meses después de salir de Piedralar, enviado al frente como táctica dilatoria.",
+      "Kaladin llegó al campo de batalla momentos antes de que fuera abatido — demasiado tarde para salvarlo.",
+      "Sin saberlo, se había vinculado con una críptica — era un potencial Tejedor de Luz.",
+      "Los Rompedores del Cielo lo identificaron como el único potenciador en las fuerzas de Amaram.",
+      "El paradero de su críptica tras su muerte es desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Trauma fundacional de Kaladin; su protección fallida impulsa todo el arco del protagonista",
+    "relacion_con_spren": "Se había vinculado con una críptica sin saberlo. Su paradero es desconocido.",
+    "otros_detalles": "La roca con patrones ocultos que le dio a Kaladin de niño es uno de los objetos más queridos del protagonista."
+  },
+  "descripcion_breve": "Hermano menor de Kaladin, su ancla emocional durante la infancia. Reclutado forzosamente, murió en su primera batalla menos de cuatro meses después. Sin saberlo, se había vinculado con una críptica. Su muerte es el trauma fundacional que define a Kaladin.",
+  "notas": "Tien se había vinculado con una críptica sin saberlo — habría sido Tejedor de Luz. Los Rompedores del Cielo lo identificaron como el único potenciador en las fuerzas de Amaram. El paradero de su spren tras su muerte es uno de los misterios menores de la saga."
+}

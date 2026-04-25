@@ -11,21 +11,45 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "menor",                "pov": false },
-      { "titulo": "Juramentada",            "rol": "secundario",           "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante","pov": false },
-      { "titulo": "Viento y Verdad",        "rol": "secundario",           "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
     ]
   },
-  "afiliaciones": ["Piedralar", "Clínica de Urithiru (anteriormente)"],
+  "afiliaciones": [
+    "Piedralar",
+    "Clínica de Urithiru (anteriormente)"
+  ],
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "" },
+    "spren_asociado": {
+      "principal": ""
+    },
     "estado_del_vinculo": ""
   },
   "habilidades": {
-    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
     "no_magicas": [
       "Cirujano excepcional — uno de los mejores de Alezkar",
       "Conocimiento médico profundo",
@@ -44,14 +68,38 @@
   },
   "relaciones": {
     "familia": [
-      { "personaje": "kaladin",  "relacion": "hijo mayor" },
-      { "personaje": "hesina",   "relacion": "esposa" },
-      { "personaje": "Oroden",   "relacion": "hijo menor" },
-      { "personaje": "Tien",     "relacion": "hijo; fallecido en el ejército de Amaram" }
+      {
+        "personaje": "kaladin",
+        "relacion": "hijo mayor"
+      },
+      {
+        "personaje": "hesina",
+        "relacion": "esposa"
+      },
+      {
+        "personaje": "oroden",
+        "relacion": "hijo menor; nacido durante la saga"
+      },
+      {
+        "personaje": "tien",
+        "relacion": "hijo; fallecido en el ejército de Amaram menos de cuatro meses tras ser reclutado"
+      }
     ],
-    "amigos": [],
+    "amigos": [
+      {
+        "personaje": "leshwi",
+        "relacion": "lo liberó del Perseguidor durante la ocupación de Urithiru"
+      }
+    ],
     "enemigos": [
-      { "personaje": "Roshone",  "relacion": "highlord de Piedralar que los persiguió; responsable indirecto de la muerte de Tien" }
+      {
+        "personaje": "Roshone",
+        "relacion": "highlord de Piedralar que los persiguió; responsable indirecto de la muerte de Tien"
+      },
+      {
+        "personaje": "moash",
+        "relacion": "lo entregó al Perseguidor como cebo para Kaladin durante la ocupación de Urithiru"
+      }
     ]
   },
   "estado_mental": {
@@ -64,7 +112,8 @@
     "puntos_clave": [
       "Entrena a Kaladin en cirugía desde niño.",
       "Roshone, highlord de Piedralar, fuerza el reclutamiento de Tien.",
-      "Kaladin abandona los estudios de medicina para seguir a Tien al ejército.",
+      "Kaladin se alista voluntariamente para acompañar a Tien. Promete a sus devastados padres traer a Tien de vuelta en cuatro años.",
+      "Tien muere menos de cuatro meses después de salir de Piedralar. Kaladin envía una carta a sus padres diciéndoles que no regresará por no haber cumplido su promesa. Lirin y Hesina no le contestaron.",
       "Tien muere en el ejército de Amaram; Kaladin carga con esa culpa.",
       "Lirin y su familia son evacuados a Urithiru durante la guerra.",
       "Durante la ocupación de Urithiru por los Fusionados trabaja como médico bajo presión extrema.",
