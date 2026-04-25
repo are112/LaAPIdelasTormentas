@@ -484,19 +484,18 @@ router.get("/", (req, res) => {
       display: flex;
       gap: 1.5rem;
       align-items: flex-start;
-      margin-bottom: 2rem;
+      margin-bottom: 1.75rem;
       padding-bottom: 1.5rem;
-      border-bottom: 1px solid rgba(79,195,247,0.15);
+      border-bottom: 1px solid rgba(255,255,255,0.07);
     }
     .ficha-avatar {
       width: 80px; height: 80px;
       border-radius: 50%;
-      background: linear-gradient(135deg, rgba(79,195,247,0.2), rgba(79,195,247,0.05));
-      border: 2px solid rgba(79,195,247,0.4);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
       display: flex; align-items: center; justify-content: center;
       font-size: 2.5rem;
       flex-shrink: 0;
-      box-shadow: 0 0 20px rgba(79,195,247,0.15);
     }
     /* Avatar ficha deshecho */
     .ficha-avatar-deshecho {
@@ -552,10 +551,11 @@ router.get("/", (req, res) => {
       line-height: 1.2;
     }
     .ficha-titulo .nombre-completo {
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       color: var(--gris-plata);
       font-style: italic;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.3rem;
+      opacity: 0.8;
     }
     .badges { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
     .badge {
@@ -691,9 +691,10 @@ router.get("/", (req, res) => {
       border-bottom: 1px solid rgba(255,255,255,0.06);
     }
     .relacion-item {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.4rem 0.75rem;
+      align-items: baseline;
       padding: 0.4rem 0;
       border-bottom: 1px solid rgba(255,255,255,0.05);
       font-size: 0.88rem;
@@ -711,7 +712,7 @@ router.get("/", (req, res) => {
     .relacion-nombre.clickable:hover {
       text-decoration-color: rgba(255,255,255,0.6);
     }
-    .relacion-tipo { font-size: 0.75rem; color: var(--gris-plata); font-style: italic; margin-left: auto; }
+    .relacion-tipo { font-size: 0.75rem; color: var(--gris-plata); font-style: italic; opacity: 0.7; }
 
     /* Libros */
     .libro-item {
@@ -723,8 +724,8 @@ router.get("/", (req, res) => {
       font-size: 0.88rem;
     }
     .libro-item:last-child { border-bottom: none; }
-    .libro-titulo { color: var(--blanco-perla); flex: 1; }
-    .libro-rol { font-size: 0.75rem; color: var(--dorado-suave); font-style: italic; }
+    .libro-titulo { color: var(--blanco-perla); flex: 1; line-height: 1.4; }
+    .libro-rol { font-size: 0.72rem; color: var(--gris-plata); font-style: italic; opacity: 0.7; flex-shrink: 0; }
     .libro-pov {
       font-size: 0.65rem;
       padding: 0.1rem 0.35rem;
@@ -736,10 +737,12 @@ router.get("/", (req, res) => {
 
     /* Arco narrativo */
     .arco-resumen {
-      font-size: 0.95rem;
-      line-height: 1.65;
-      color: var(--blanco-perla);
-      margin-bottom: 0.75rem;
+      font-size: 0.92rem;
+      line-height: 1.7;
+      color: var(--gris-plata);
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
       font-style: italic;
     }
     .punto-clave {
@@ -772,12 +775,13 @@ router.get("/", (req, res) => {
     .mental-valor { font-size: 0.88rem; color: var(--blanco-perla); line-height: 1.55; }
 
     /* Nivel ideal — círculos */
-    .nivel-ideales-wrap { margin-top: 0.75rem; }
+    .nivel-ideales-wrap { margin-top: 0.75rem; padding-top: 0.45rem; border-top: 1px solid rgba(255,255,255,0.05); }
     .nivel-ideales-label {
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       color: var(--gris-plata);
       text-transform: uppercase;
       letter-spacing: 0.08em;
+      opacity: 0.65;
       margin-bottom: 0.5rem;
     }
     .nivel-ideales-circulos {
@@ -809,9 +813,9 @@ router.get("/", (req, res) => {
       display: flex;
       gap: 1.5rem;
       padding: 1rem 1.5rem;
-      background: rgba(79,195,247,0.04);
-      border: 1px solid rgba(79,195,247,0.1);
-      border-radius: 8px;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 7px;
       margin-bottom: 2rem;
       flex-wrap: wrap;
     }
@@ -819,10 +823,10 @@ router.get("/", (req, res) => {
     .stat-num {
       font-family: 'Cinzel Decorative', serif;
       font-size: 1.4rem;
-      color: var(--celeste-luz);
+      color: var(--blanco-perla);
       display: block;
     }
-    .stat-label { font-size: 0.72rem; color: var(--gris-plata); text-transform: uppercase; letter-spacing: 0.1em; }
+    .stat-label { font-size: 0.65rem; color: var(--gris-plata); text-transform: uppercase; letter-spacing: 0.12em; opacity: 0.6; }
 
     /* Afiliaciones */
     .afiliacion-item {
@@ -836,10 +840,11 @@ router.get("/", (req, res) => {
 
     /* Sin datos */
     .sin-datos {
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       color: var(--gris-plata);
       font-style: italic;
-      opacity: 0.6;
+      opacity: 0.45;
+      padding: 0.25rem 0;
     }
 
     /* Historial de navegación */
@@ -852,28 +857,31 @@ router.get("/", (req, res) => {
     }
     .historial-btn {
       padding: 0.25rem 0.6rem;
-      background: rgba(79,195,247,0.06);
-      border: 1px solid rgba(79,195,247,0.18);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
       border-radius: 4px;
       color: var(--gris-plata);
       font-family: 'Crimson Pro', serif;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       cursor: pointer;
       transition: all 0.15s ease;
       white-space: nowrap;
-      max-width: 140px;
+      max-width: 160px;
       overflow: hidden;
       text-overflow: ellipsis;
+      opacity: 0.7;
     }
     .historial-btn:hover {
-      background: rgba(79,195,247,0.12);
+      background: rgba(255,255,255,0.07);
       color: var(--blanco-perla);
-      border-color: rgba(79,195,247,0.35);
+      border-color: rgba(255,255,255,0.15);
+      opacity: 1;
     }
     .historial-btn.actual {
-      color: var(--celeste-luz);
-      border-color: rgba(79,195,247,0.4);
-      background: rgba(79,195,247,0.1);
+      color: var(--blanco-perla);
+      border-color: rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.07);
+      opacity: 1;
     }
     .historial-separador {
       color: var(--gris-plata);
@@ -1388,7 +1396,7 @@ router.get("/", (req, res) => {
       const librosHtml = libros.length
         ? libros.map(l => \`
           <div class="libro-item">
-            <span class="libro-titulo">📕 \${l.titulo}</span>
+            <span class="libro-titulo">\${l.titulo}</span>
             \${l.rol  ? \`<span class="libro-rol">\${l.rol}</span>\` : ''}
             \${l.pov  ? '<span class="libro-pov">POV</span>' : ''}
           </div>
@@ -1775,7 +1783,7 @@ router.get("/", (req, res) => {
       const librosHtml = libros.length
         ? libros.map(l => \`
           <div class="libro-item">
-            <span class="libro-titulo">📕 \${l.titulo}</span>
+            <span class="libro-titulo">\${l.titulo}</span>
             \${l.rol ? \`<span class="libro-rol">\${l.rol}</span>\` : ''}
             \${l.pov ? '<span class="libro-pov">POV</span>' : ''}
           </div>\`).join('')
@@ -2098,7 +2106,7 @@ router.get("/", (req, res) => {
       const librosHtml = libros.length
         ? libros.map(l => \`
           <div class="libro-item">
-            <span class="libro-titulo">📕 \${l.titulo}</span>
+            <span class="libro-titulo">\${l.titulo}</span>
             \${l.rol ? \`<span class="libro-rol">\${l.rol}</span>\` : ''}
             \${l.pov ? '<span class="libro-pov">POV</span>' : ''}
           </div>
@@ -2356,7 +2364,7 @@ router.get("/", (req, res) => {
       const librosHtml = libros.length
         ? libros.map(l => \`
           <div class="libro-item">
-            <span class="libro-titulo">📕 \${l.titulo}</span>
+            <span class="libro-titulo">\${l.titulo}</span>
             \${l.rol ? \`<span class="libro-rol">\${l.rol}</span>\` : ''}
             \${l.pov ? '<span class="libro-pov">POV</span>' : ''}
           </div>
