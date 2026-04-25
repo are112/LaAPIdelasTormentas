@@ -12,18 +12,18 @@ router.get("/", (req, res) => {
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <style>
     :root {
-      --azul-tormenta: #0a1628;
-      --azul-profundo: #0d1f3c;
-      --azul-medio: #122a52;
+      --azul-tormenta: #080c14;
+      --azul-profundo: #0c1422;
+      --azul-medio: #111c30;
       --celeste-luz: #4fc3f7;
       --celeste-vivo: #29b6f6;
-      --dorado: #f0c040;
-      --dorado-suave: #c8922a;
-      --blanco-perla: #e8f4fd;
-      --gris-plata: #8baabf;
-      --rojo-sangre: #c0392b;
-      --verde-esmeralda: #27ae60;
-      --sombra: rgba(0,0,0,0.6);
+      --dorado: #c9a84c;
+      --dorado-suave: #a8833a;
+      --blanco-perla: #f0ece8;
+      --gris-plata: #7a8694;
+      --rojo-sangre: #b03828;
+      --verde-esmeralda: #2d9e5f;
+      --sombra: rgba(0,0,0,0.7);
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -41,10 +41,7 @@ router.get("/", (req, res) => {
       content: '';
       position: fixed;
       inset: 0;
-      background:
-        radial-gradient(ellipse at 20% 50%, rgba(79,195,247,0.06) 0%, transparent 60%),
-        radial-gradient(ellipse at 80% 20%, rgba(41,182,246,0.04) 0%, transparent 50%),
-        radial-gradient(ellipse at 50% 80%, rgba(192,57,43,0.03) 0%, transparent 50%);
+      background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.03) 0%, transparent 55%);
       pointer-events: none;
       z-index: 0;
     }
@@ -99,7 +96,7 @@ router.get("/", (req, res) => {
       position: relative;
       z-index: 10;
       display: grid;
-      grid-template-columns: 300px 1fr;
+      grid-template-columns: 260px 1fr;
       gap: 0;
       height: calc(100vh - 56px);
       overflow: hidden;
@@ -131,9 +128,9 @@ router.get("/", (req, res) => {
       border-color: rgba(255,255,255,0.14);
     }
     .tab.activo {
-      background: rgba(255,255,255,0.08);
-      border-color: rgba(255,255,255,0.18);
-      color: var(--blanco-perla);
+      background: rgba(201,168,76,0.1);
+      border-color: rgba(201,168,76,0.35);
+      color: var(--dorado);
     }
 
     /* Panel izquierdo */
@@ -212,16 +209,16 @@ router.get("/", (req, res) => {
       top: 100%;
       left: 0; right: 0;
       background: var(--azul-profundo);
-      border: 1px solid rgba(79,195,247,0.3);
+      border: 1px solid rgba(255,255,255,0.1);
       border-top: none;
       border-radius: 0 0 6px 6px;
       max-height: 220px;
       overflow-y: auto;
       z-index: 100;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
     }
-    .autocomplete-lista::-webkit-scrollbar { width: 4px; }
-    .autocomplete-lista::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
+    .autocomplete-lista::-webkit-scrollbar { width: 3px; }
+    .autocomplete-lista::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
     .autocomplete-item {
       display: flex;
       align-items: center;
@@ -236,7 +233,7 @@ router.get("/", (req, res) => {
     }
     .autocomplete-item:last-child { border-bottom: none; }
     .autocomplete-item:hover, .autocomplete-item.seleccionado-ac {
-      background: rgba(79,195,247,0.12);
+      background: rgba(255,255,255,0.06);
     }
     .autocomplete-tipo {
       font-size: 0.72rem;
@@ -249,9 +246,9 @@ router.get("/", (req, res) => {
       font-size: 0.65rem;
       padding: 0.1rem 0.4rem;
       border-radius: 3px;
-      background: rgba(79,195,247,0.15);
-      color: var(--celeste-luz);
-      border: 1px solid rgba(79,195,247,0.2);
+      background: rgba(255,255,255,0.06);
+      color: var(--gris-plata);
+      border: 1px solid rgba(255,255,255,0.1);
       white-space: nowrap;
     }
 
@@ -282,7 +279,7 @@ router.get("/", (req, res) => {
       transition: border-color 0.2s;
     }
     .filtro-select:focus { border-color: rgba(255,255,255,0.22); }
-    .filtro-select option { background: #0d1f3c; }
+    .filtro-select option { background: #0c1422; }
 
     /* Cabecera lista */
     .lista-titulo {
@@ -315,9 +312,10 @@ router.get("/", (req, res) => {
       min-height: 0;
       padding-right: 0.25rem;
     }
-    .lista-scroll::-webkit-scrollbar { width: 4px; }
+    .lista-scroll::-webkit-scrollbar { width: 3px; }
     .lista-scroll::-webkit-scrollbar-track { background: transparent; }
-    .lista-scroll::-webkit-scrollbar-thumb { background: rgba(79,195,247,0.3); border-radius: 2px; }
+    .lista-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 2px; }
+    .lista-scroll::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.22); }
 
     /* Skeleton de carga en lista */
     .skeleton-item {
@@ -331,7 +329,7 @@ router.get("/", (req, res) => {
     .skeleton-avatar {
       width: 32px; height: 32px;
       border-radius: 50%;
-      background: rgba(79,195,247,0.06);
+      background: rgba(255,255,255,0.05);
       animation: esqueleto 1.4s ease-in-out infinite;
       flex-shrink: 0;
     }
@@ -344,7 +342,7 @@ router.get("/", (req, res) => {
     .skeleton-linea {
       height: 10px;
       border-radius: 4px;
-      background: rgba(79,195,247,0.06);
+      background: rgba(255,255,255,0.05);
       animation: esqueleto 1.4s ease-in-out infinite;
     }
     .skeleton-linea.corta { width: 55%; animation-delay: 0.15s; }
@@ -367,18 +365,19 @@ router.get("/", (req, res) => {
       background: rgba(255,255,255,0.05);
     }
     .item-personaje.activo {
-      background: rgba(255,255,255,0.07);
-      border-color: rgba(255,255,255,0.1);
-      box-shadow: inset 3px 0 0 rgba(255,255,255,0.35);
+      background: rgba(201,168,76,0.07);
+      border-color: rgba(201,168,76,0.2);
+      box-shadow: inset 3px 0 0 rgba(201,168,76,0.6);
     }
     .item-avatar {
       width: 32px; height: 32px;
-      border-radius: 50%;
+      border-radius: 6px;
       display: flex; align-items: center; justify-content: center;
       font-size: 1rem;
-      background: rgba(79,195,247,0.1);
-      border: 1px solid rgba(79,195,247,0.2);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
       flex-shrink: 0;
+      overflow: hidden;
     }
     /* Avatar deshecho — gradiente rojo oscuro */
     .item-avatar-deshecho {
@@ -396,8 +395,8 @@ router.get("/", (req, res) => {
       border-radius: 50%;
       overflow: hidden;
       flex-shrink: 0;
-      border: 2px solid #c8922a;
-      box-shadow: 0 0 6px rgba(200,146,42,0.5);
+      border: 1.5px solid rgba(201,168,76,0.6);
+      box-shadow: 0 0 6px rgba(201,168,76,0.25);
     }
     .item-avatar-heraldo img {
       width: 100%; height: 100%;
@@ -433,7 +432,7 @@ router.get("/", (req, res) => {
 
     /* Panel derecho - detalle */
     .panel-der {
-      padding: 2rem;
+      padding: 1.5rem 2rem 2rem;
       overflow-y: auto;
       height: 100%;
       position: relative;
@@ -466,8 +465,8 @@ router.get("/", (req, res) => {
     }
     .spinner {
       width: 28px; height: 28px;
-      border: 2px solid rgba(79,195,247,0.2);
-      border-top-color: var(--celeste-luz);
+      border: 1.5px solid rgba(255,255,255,0.08);
+      border-top-color: rgba(255,255,255,0.5);
       border-radius: 50%;
       animation: girar 0.8s linear infinite;
     }
@@ -489,12 +488,12 @@ router.get("/", (req, res) => {
       border-bottom: 1px solid rgba(255,255,255,0.07);
     }
     .ficha-avatar {
-      width: 80px; height: 80px;
-      border-radius: 50%;
+      width: 72px; height: 72px;
+      border-radius: 12px;
       background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.09);
       display: flex; align-items: center; justify-content: center;
-      font-size: 2.5rem;
+      font-size: 2.2rem;
       flex-shrink: 0;
     }
     /* Avatar ficha deshecho */
@@ -520,7 +519,7 @@ router.get("/", (req, res) => {
       position: absolute;
       inset: -3px;
       border-radius: 50%;
-      background: conic-gradient(#f0c040 0deg, #c8922a 120deg, transparent 180deg, #f0c040 360deg);
+      background: conic-gradient(#c9a84c 0deg, #a8833a 120deg, transparent 180deg, #c9a84c 360deg);
       animation: girar-heraldo 4s linear infinite;
       z-index: 0;
     }
@@ -528,7 +527,7 @@ router.get("/", (req, res) => {
       position: absolute;
       inset: 2px;
       border-radius: 50%;
-      background: var(--azul-profundo, #0d1f3c);
+      background: var(--azul-profundo, #0c1422);
       z-index: 1;
     }
     .ficha-avatar-heraldo img {
@@ -545,10 +544,11 @@ router.get("/", (req, res) => {
 
     .ficha-titulo h2 {
       font-family: 'Cinzel Decorative', serif;
-      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
       color: var(--blanco-perla);
       margin-bottom: 0.3rem;
-      line-height: 1.2;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
     }
     .ficha-titulo .nombre-completo {
       font-size: 0.88rem;
@@ -577,7 +577,7 @@ router.get("/", (req, res) => {
     /* Descripción */
     .descripcion {
       background: transparent;
-      border-left: 2px solid rgba(255,255,255,0.15);
+      border-left: 2px solid rgba(201,168,76,0.3);
       padding: 0.75rem 1.25rem;
       font-style: italic;
       font-size: 1.05rem;
@@ -595,13 +595,16 @@ router.get("/", (req, res) => {
     .seccion {
       break-inside: avoid;
       margin-bottom: 1.25rem;
-      background: rgba(255,255,255,0.025);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: 7px;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 6px;
       padding: 1.25rem;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, background 0.2s;
     }
-    .seccion:hover { border-color: rgba(255,255,255,0.13); }
+    .seccion:hover {
+      border-color: rgba(255,255,255,0.11);
+      background: rgba(255,255,255,0.03);
+    }
     .seccion-titulo {
       font-family: 'Crimson Pro', serif;
       font-size: 0.68rem;
@@ -640,9 +643,9 @@ router.get("/", (req, res) => {
       opacity: 0.65;
     }
     .campo-valor {
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       color: var(--blanco-perla);
-      line-height: 1.4;
+      line-height: 1.5;
     }
 
     /* Tags */
@@ -695,9 +698,9 @@ router.get("/", (req, res) => {
       grid-template-columns: 1fr auto;
       gap: 0.4rem 0.75rem;
       align-items: baseline;
-      padding: 0.4rem 0;
+      padding: 0.45rem 0;
       border-bottom: 1px solid rgba(255,255,255,0.05);
-      font-size: 0.88rem;
+      font-size: 0.93rem;
     }
     .relacion-item:last-child { border-bottom: none; }
     .relacion-nombre { color: var(--blanco-perla); }
@@ -721,7 +724,7 @@ router.get("/", (req, res) => {
       gap: 0.6rem;
       padding: 0.5rem 0;
       border-bottom: 1px solid rgba(255,255,255,0.05);
-      font-size: 0.88rem;
+      font-size: 0.93rem;
     }
     .libro-item:last-child { border-bottom: none; }
     .libro-titulo { color: var(--blanco-perla); flex: 1; line-height: 1.4; }
@@ -729,10 +732,10 @@ router.get("/", (req, res) => {
     .libro-pov {
       font-size: 0.65rem;
       padding: 0.1rem 0.35rem;
-      background: rgba(240,192,64,0.15);
+      background: rgba(201,168,76,0.12);
       color: var(--dorado);
       border-radius: 3px;
-      border: 1px solid rgba(240,192,64,0.3);
+      border: 1px solid rgba(201,168,76,0.25);
     }
 
     /* Arco narrativo */
@@ -749,14 +752,14 @@ router.get("/", (req, res) => {
       display: flex;
       gap: 0.6rem;
       align-items: flex-start;
-      padding: 0.4rem 0;
-      font-size: 0.88rem;
+      padding: 0.55rem 0;
+      font-size: 0.92rem;
       color: var(--gris-plata);
       border-bottom: 1px solid rgba(255,255,255,0.05);
-      line-height: 1.5;
+      line-height: 1.65;
     }
     .punto-clave:last-child { border-bottom: none; }
-    .punto-clave::before { content: '–'; color: var(--gris-plata); flex-shrink: 0; opacity: 0.4; margin-top: 0.1rem; }
+    .punto-clave::before { content: '–'; color: var(--gris-plata); flex-shrink: 0; opacity: 0.35; margin-top: 0.2rem; }
 
     /* Estado mental */
     .mental-item {
@@ -772,7 +775,7 @@ router.get("/", (req, res) => {
       opacity: 0.6;
       margin-bottom: 0.25rem;
     }
-    .mental-valor { font-size: 0.88rem; color: var(--blanco-perla); line-height: 1.55; }
+    .mental-valor { font-size: 0.93rem; color: var(--blanco-perla); line-height: 1.65; }
 
     /* Nivel ideal — círculos */
     .nivel-ideales-wrap { margin-top: 0.75rem; padding-top: 0.45rem; border-top: 1px solid rgba(255,255,255,0.05); }
@@ -831,8 +834,8 @@ router.get("/", (req, res) => {
     /* Afiliaciones */
     .afiliacion-item {
       display: flex; align-items: center; gap: 0.5rem;
-      padding: 0.4rem 0;
-      font-size: 0.88rem;
+      padding: 0.45rem 0;
+      font-size: 0.93rem;
       border-bottom: 1px solid rgba(255,255,255,0.05);
     }
     .afiliacion-item:last-child { border-bottom: none; }
