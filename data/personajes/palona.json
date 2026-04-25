@@ -1,0 +1,77 @@
+{
+  "id": "palona",
+  "nombre": "Palona",
+  "nombre_completo": "Palona",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "parshmeniana",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario", "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Sebarial",
+    "Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Gestión del hogar y los asuntos personales de Sebarial",
+      "Perspicacia política",
+      "Carácter directo y sin filtros"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Concubina y compañera de vida de Sebarial",
+      "Parshmeniana libre en una sociedad que esclavizaba a su especie"
+    ],
+    "descripcion": "Cantora parshmeniana de carácter directo, irónico y sin pelos en la lengua. Es la concubina de Sebarial, con quien mantiene una relación de genuino afecto e igualdad. En una sociedad vorin que trataba a los parshmenios como esclavos sin alma, su posición junto a un alto príncipe es extraordinariamente inusual. No tiene reparos en contradecir a Sebarial ni en decir lo que piensa.",
+    "estado_en_viento_y_verdad": "Activa en Urithiru junto a Sebarial."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "sebarial", "relacion": "compañero de vida; la persona más importante para ella" },
+      { "personaje": "shallan",  "relacion": "la trata con respeto inusual; relación de afecto" }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Segura de sí misma e irónica. Su posición social inusual no parece afectarle negativamente.",
+    "evolucion": "Constante a lo largo de la saga. Su carácter directo y su seguridad no varían.",
+    "situacion_en_viento_y_verdad": "Activa en Urithiru. Con la llegada de la Noche de las Penas y la recuperación del alma de los cantores, su situación adquiere una nueva dimensión."
+  },
+  "arco_narrativo": {
+    "resumen": "Palona es la concubina parshmeniana de Sebarial, con quien vive abiertamente en las Llanuras Quebradas y luego en Urithiru. Su presencia es significativa como representación de que no todos los parshmenios vivían como esclavos anónimos — algunos existían en relaciones más complejas con los humanos, aun antes de la recuperación de sus almas.",
+    "puntos_clave": [
+      "Vive con Sebarial en las Llanuras Quebradas como su concubina.",
+      "Se traslada con Sebarial a Urithiru.",
+      "Su relación con Sebarial es de genuino afecto e igualdad inusual para su época.",
+      "Trata a Shallan con respeto y afecto desde su primer encuentro.",
+      "La recuperación de las almas de los cantores en VyV tiene implicaciones directas para su identidad."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Compañera de vida de Sebarial en Urithiru",
+    "rol": "Figura de representación de la humanidad de los cantores previa a VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su existencia como parshmeniana libre y en una relación de igualdad con un alto príncipe alezi era extraordinariamente inusual en la sociedad roshariana antes de la Verdadera Desolación."
+  },
+  "descripcion_breve": "Cantora parshmeniana, concubina y compañera de vida de Sebarial. Su carácter directo e irónico y su relación de genuina igualdad con un alto príncipe la hacen un personaje singular en la sociedad vorin.",
+  "notas": "Palona representa una de las pocas relaciones genuinamente igualitarias entre humano y cantor que existían antes de que los parshmenios recuperaran sus almas en VyV."
+}

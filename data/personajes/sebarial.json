@@ -1,0 +1,85 @@
+{
+  "id": "sebarial",
+  "nombre": "Sebarial",
+  "nombre_completo": "Sebarial",
+  "apodos": ["El Perezoso", "El Incompetente"],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "secundario",           "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante","pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario importante","pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario",           "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario",           "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Sebarial",
+    "Alto Principado de Sebarial",
+    "Coalición de Monarcas",
+    "Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": { "potencias": [], "fuente_de_luz": "" },
+    "no_magicas": [
+      "Inteligencia económica y comercial excepcional",
+      "Gestión de recursos y logística",
+      "Visión política pragmática",
+      "Disimulo — oculta deliberadamente su competencia bajo una fachada de pereza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe del principado de Sebarial",
+      "El alto príncipe más aparentemente incompetente de Alezkar",
+      "En realidad uno de los más astutos y ricos de todos"
+    ],
+    "descripcion": "Hombre entrado en carnes, de aspecto descuidado y actitud permanentemente aburrida. Su reputación de perezoso e incompetente es en gran parte una fachada deliberada que le permite operar sin que nadie le preste demasiada atención. Bajo esa apariencia es un comerciante y gestor brillante que ha acumulado una enorme fortuna mientras los demás altos príncipes se obsesionaban con la guerra.",
+    "estado_en_viento_y_verdad": "Activo en Urithiru gestionando los asuntos económicos de la coalición."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "palona",   "relacion": "concubina y compañera de vida; la persona más importante para él" },
+      { "personaje": "shallan",  "relacion": "la acoge en su caravana y luego en Urithiru; relación de afecto irónico" },
+      { "personaje": "navani",   "relacion": "aliada política en la coalición" },
+      { "personaje": "dalinar",  "relacion": "aliado; Sebarial es uno de los pocos altos príncipes que apoya activamente a Dalinar" }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Cínico y pragmático, pero con una lealtad genuina hacia quienes se la ganan.",
+    "evolucion": "No cambia sustancialmente — su carácter es constante. Lo que evoluciona es la percepción que los demás tienen de él al descubrir su verdadera capacidad.",
+    "situacion_en_viento_y_verdad": "Estable. Sigue gestionando los recursos de la coalición desde Urithiru."
+  },
+  "arco_narrativo": {
+    "resumen": "Sebarial es el alto príncipe alezi que todos consideran un inútil pero que en realidad es uno de los más ricos y astutos del reino. Mientras los demás se obsesionan con el honor militar, él acumula riqueza y gestiona recursos. Acoge a Shallan en su caravana y luego en Urithiru, y se convierte en uno de los pilares económicos de la coalición de Dalinar.",
+    "puntos_clave": [
+      "Conocido en la corte alezi como el alto príncipe más perezoso e incompetente.",
+      "Ocultaba deliberadamente su riqueza y astucia para operar sin interferencias.",
+      "Acoge a Shallan en su caravana de camino a las Llanuras Quebradas.",
+      "Se establece en Urithiru gestionando el comercio y los recursos de la torre.",
+      "Se convierte en uno de los pilares económicos de la coalición de Dalinar.",
+      "Su relación con Palona — una parshmeniana — es abierta y sin disculpas en una sociedad que lo desaprueba."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alto príncipe de Sebarial; gestor económico de la coalición",
+    "rol": "Pilar económico de Urithiru y la coalición",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su riqueza real supera con creces lo que cualquiera en la corte sospechaba. Vive con Palona abiertamente en Urithiru."
+  },
+  "descripcion_breve": "Alto príncipe alezi famoso por su aparente incompetencia y pereza. En realidad es uno de los hombres más ricos y astutos de Alezkar, cuya fachada le permite acumular poder económico mientras los demás lo ignoran.",
+  "notas": "Su relación con Palona, una parshmeniana, es uno de los detalles más significativos de su personaje — la mantiene abiertamente y sin disculpas en una sociedad vorin que lo desaprueba."
+}
