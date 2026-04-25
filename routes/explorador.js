@@ -889,6 +889,23 @@ router.get("/", (req, res) => {
       opacity: 0.5;
     }
 
+    /* Utilidades de texto reutilizables */
+    .texto-normal { font-size: 0.9rem; color: var(--blanco-perla); line-height: 1.5; }
+    .texto-secundario { font-size: 0.85rem; color: var(--gris-plata); font-style: italic; line-height: 1.5; }
+    .texto-nota { font-size: 0.82rem; color: var(--gris-plata); font-style: italic; line-height: 1.55; opacity: 0.85; margin-top: 0.4rem; }
+    .subseccion-label {
+      font-size: 0.65rem;
+      color: var(--gris-plata);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.6;
+      margin-top: 0.75rem;
+      margin-bottom: 0.35rem;
+    }
+    .seccion-fullwidth {
+      margin-bottom: 1.25rem;
+    }
+
     /* Recipientes de Esquirla */
     .recipiente-item {
       padding: 0.6rem 0;
@@ -1461,17 +1478,17 @@ router.get("/", (req, res) => {
       const noMagicas  = habilidades?.no_magicas         ?? [];
       const habilidadesHtml = \`
         \${potencias.length ? \`
-          <div class="campo-label" style="margin-bottom:0.3rem">Potencias mágicas</div>
+          <div class="campo-label">Potencias mágicas</div>
           <div class="tags">\${potencias.map(t => \`<span class="tag">⚡ \${t}</span>\`).join('')}</div>
         \` : ''}
         \${habilidades?.magia?.fuente_de_luz ? \`
-          <div class="campo" style="margin-top:0.5rem">
+          <div class="campo">
             <span class="campo-label">Fuente</span>
             <span class="campo-valor">\${habilidades.magia.fuente_de_luz}</span>
           </div>
         \` : ''}
         \${noMagicas.length ? \`
-          <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">No mágicas</div>
+          <div class="campo-label">No mágicas</div>
           <div class="tags">\${noMagicas.map(t => \`<span class="tag tag-dorado">\${t}</span>\`).join('')}</div>
         \` : ''}
         \${!potencias.length && !noMagicas.length ? '<p class="sin-datos">Sin habilidades registradas</p>' : ''}
@@ -1533,7 +1550,7 @@ router.get("/", (req, res) => {
               \${p.nombre_completo && p.nombre_completo !== p.nombre
                 ? \`<div class="nombre-completo">\${p.nombre_completo}</div>\` : ''}
               \${apodos.length
-                ? \`<div class="nombre-completo" style="color:var(--gris-plata)">"<em>\${apodos.join('", "')}</em>"</div>\`
+                ? \`<div class="nombre-completo">"<em>\${apodos.join('", "')}</em>"</div>\`
                 : ''}
               <div class="badges">\${badges}</div>
             </div>
@@ -1568,7 +1585,7 @@ router.get("/", (req, res) => {
                   <span class="campo-label">Spren</span>
                   <span class="campo-valor">\${(() => {
                     const raw = p.orden_radiantes?.spren_asociado?.principal;
-                    if (!raw || raw.trim() === '') return '<em style="color:var(--gris-plata);font-style:italic">Desconocido</em>';
+                    if (!raw || raw.trim() === '') return '<em class="sin-datos">Desconocido</em>';
                     return enlazarEntidad(raw);
                   })()}</span>
                 </div>
@@ -1610,7 +1627,7 @@ router.get("/", (req, res) => {
 
           \${relacionesPersonajeHtml}
 
-          <div class="seccion" style="margin-bottom:2rem">
+          <div class="seccion seccion-fullwidth">
             <div class="seccion-titulo">Arco narrativo</div>
             \${arcoHtml}
           </div>
@@ -1892,7 +1909,7 @@ router.get("/", (req, res) => {
 
             <div class="seccion">
               <div class="seccion-titulo">Descripción física</div>
-              <p style="font-size:0.9rem;color:var(--blanco-perla)">\${d.descripcion_fisica || 'Apariencia desconocida'}</p>
+              <p class="texto-normal">\${d.descripcion_fisica || 'Apariencia desconocida'}</p>
             </div>
 
             <div class="seccion">
@@ -1906,15 +1923,15 @@ router.get("/", (req, res) => {
             </div>
           </div>
 
-          <div class="seccion" style="margin-bottom:2rem">
+          <div class="seccion" class="seccion-fullwidth">
             <div class="seccion-titulo">Historia</div>
             \${histHtml}
           </div>
 
           \${d.notas ? \`
-            <div class="seccion" style="margin-bottom:2rem">
+            <div class="seccion" class="seccion-fullwidth">
               <div class="seccion-titulo">Notas</div>
-              <p style="font-size:0.85rem;color:var(--gris-plata);font-style:italic">\${d.notas}</p>
+              <p class="texto-secundario">\${d.notas}</p>
             </div>
           \` : ''}
         </div>
@@ -2064,7 +2081,7 @@ router.get("/", (req, res) => {
             </div>\` : ''}
           </div>
 
-          <div class="seccion" style="margin-bottom:2rem">
+          <div class="seccion seccion-fullwidth">
             <div class="seccion-titulo">Historia en Roshar</div>
             \${histHtml}
           </div>
@@ -2227,7 +2244,7 @@ router.get("/", (req, res) => {
                   <span class="campo-valor">\${v}</span>
                 </div>\` : '').join('')}
               \${(herald.otros_titulos ?? []).length ? \`
-                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">Otros títulos</div>
+                <div class="subseccion-label">Otros títulos</div>
                 <div class="tags">\${herald.otros_titulos.map(t => \`<span class="tag">\${t}</span>\`).join('')}</div>
               \` : ''}
             </div>
@@ -2235,14 +2252,14 @@ router.get("/", (req, res) => {
             <div class="seccion">
               <div class="seccion-titulo">Apariencia</div>
               \${h.apariencia?.fisica
-                ? \`<p style="font-size:0.9rem;color:var(--blanco-perla);margin-bottom:0.5rem">\${h.apariencia.fisica}</p>\`
+                ? \`<p class="texto-normal">\${h.apariencia.fisica}</p>\`
                 : ''}
               \${h.apariencia?.voz
                 ? \`<div class="campo"><span class="campo-label">Voz</span><span class="campo-valor">\${h.apariencia.voz}</span></div>\`
                 : ''}
               \${h.apariencia?.apariencia_como_mendigo ? \`
-                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.25rem">Como mendigo</div>
-                <p style="font-size:0.85rem;color:var(--gris-plata);font-style:italic">\${h.apariencia.apariencia_como_mendigo}</p>
+                <div class="subseccion-label">Como mendigo</div>
+                <p class="texto-secundario">\${h.apariencia.apariencia_como_mendigo}</p>
               \` : ''}
             </div>
 
@@ -2250,7 +2267,7 @@ router.get("/", (req, res) => {
               <div class="seccion-titulo">Personalidad</div>
               \${rasgosHtml}
               \${h.personalidad?.evolucion
-                ? \`<p style="font-size:0.85rem;color:var(--gris-plata);margin-top:0.5rem;font-style:italic">\${h.personalidad.evolucion}</p>\`
+                ? \`<p class="texto-nota">\${h.personalidad.evolucion}</p>\`
                 : ''}
             </div>
 
@@ -2258,11 +2275,11 @@ router.get("/", (req, res) => {
               <div class="seccion-titulo">Habilidades</div>
               \${habilidadesHtml}
               \${potenciasHtml ? \`
-                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">Potencias</div>
+                <div class="subseccion-label">Potencias</div>
                 \${potenciasHtml}
               \` : ''}
               \${h.habilidades?.liderazgo ? \`
-                <div class="campo" style="margin-top:0.5rem">
+                <div class="campo">
                   <span class="campo-label">Liderazgo</span>
                   <span class="campo-valor">\${h.habilidades.liderazgo}</span>
                 </div>
@@ -2278,7 +2295,7 @@ router.get("/", (req, res) => {
 
           \${relacionesHeraldoHtml}
 
-          <div class="seccion" style="margin-bottom:2rem">
+          <div class="seccion" class="seccion-fullwidth">
             <div class="seccion-titulo">Historia</div>
             \${histHtml}
           </div>
@@ -2482,10 +2499,10 @@ router.get("/", (req, res) => {
                 </div>
               \` : '').join('')}
               \${(vinculo.potencias_otorgadas ?? []).length ? \`
-                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">Potencias</div>
+                <div class="subseccion-label">Potencias</div>
                 <div class="tags">\${vinculo.potencias_otorgadas.map(p => \`<span class="tag">⚡ \${p}</span>\`).join('')}</div>
               \` : ''}
-              \${vinculo.notas ? \`<p style="font-size:0.85rem;color:var(--gris-plata);margin-top:0.5rem;font-style:italic">\${vinculo.notas}</p>\` : ''}
+              \${vinculo.notas ? \`<p class="texto-nota">\${vinculo.notas}</p>\` : ''}
             </div>
             \` : ''}
 
@@ -2493,21 +2510,21 @@ router.get("/", (req, res) => {
             <div class="seccion">
               <div class="seccion-titulo">Apariencia</div>
               \${aparienciaFisica.forma_preferida ? \`
-                <div class="campo-label" style="margin-bottom:0.25rem">Forma principal</div>
-                <p style="font-size:0.9rem;color:var(--blanco-perla);margin-bottom:0.5rem">\${aparienciaFisica.forma_preferida}</p>
+                <div class="subseccion-label">Forma principal</div>
+                <p class="texto-normal">\${aparienciaFisica.forma_preferida}</p>
               \` : ''}
               \${(aparienciaFisica.formas_alternativas ?? []).length ? \`
-                <div class="campo-label" style="margin-bottom:0.3rem">Formas alternativas</div>
+                <div class="subseccion-label">Formas alternativas</div>
                 <div class="tags">\${aparienciaFisica.formas_alternativas.map(f => \`<span class="tag">\${f}</span>\`).join('')}</div>
               \` : ''}
               \${aparienciaFisica.color ? \`
-                <div class="campo" style="margin-top:0.5rem">
+                <div class="campo">
                   <span class="campo-label">Color</span>
                   <span class="campo-valor">\${aparienciaFisica.color}</span>
                 </div>
               \` : ''}
               \${hoja ? \`
-                <div class="campo-label" style="margin-top:0.75rem;margin-bottom:0.25rem">Como Hoja Esquirlada</div>
+                <div class="subseccion-label">Como Hoja Esquirlada</div>
                 <div class="campo"><span class="campo-label">Forma</span><span class="campo-valor">\${hoja.forma_habitual}</span></div>
                 \${hoja.material ? \`<div class="campo"><span class="campo-label">Material</span><span class="campo-valor">\${hoja.material}</span></div>\` : ''}
               \` : ''}
@@ -2517,7 +2534,7 @@ router.get("/", (req, res) => {
             <div class="seccion">
               <div class="seccion-titulo">Personalidad</div>
               \${rasgosHtml}
-              \${personalidad?.notas ? \`<p style="font-size:0.85rem;color:var(--gris-plata);margin-top:0.5rem;font-style:italic">\${personalidad.notas}</p>\` : ''}
+              \${personalidad?.notas ? \`<p class="texto-nota">\${personalidad.notas}</p>\` : ''}
             </div>
 
             \${habilidades ? \`
@@ -2527,7 +2544,7 @@ router.get("/", (req, res) => {
                 <div class="tags">\${habilidades.generales.map(h => \`<span class="tag">✦ \${h}</span>\`).join('')}</div>
               \` : ''}
               \${(habilidades.magicas ?? []).length ? \`
-                <div class="campo-label" style="margin-top:0.5rem;margin-bottom:0.3rem">Mágicas</div>
+                <div class="subseccion-label">Mágicas</div>
                 <div class="tags">\${habilidades.magicas.map(h => \`<span class="tag">⚡ \${h}</span>\`).join('')}</div>
               \` : ''}
             </div>
@@ -2545,7 +2562,7 @@ router.get("/", (req, res) => {
             { titulo: 'otros', icono: '•', items: (s.relaciones?.otros ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
           ])}
 
-          <div class="seccion" style="margin-bottom:2rem">
+          <div class="seccion" class="seccion-fullwidth">
             <div class="seccion-titulo">Historia</div>
             \${histHtml}
           </div>
