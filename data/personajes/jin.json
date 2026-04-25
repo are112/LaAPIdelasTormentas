@@ -1,0 +1,73 @@
+{
+  "id": "jin",
+  "nombre": "Jin",
+  "nombre_completo": "Jin",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Sangre Espectral"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Espionaje"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Agente menor de los Sangre Espectral en Roshar"
+    ],
+    "descripcion": "Agente de los Sangre Espectral con presencia menor en la saga. Poca información disponible sobre su rol específico.",
+    "estado_en_viento_y_verdad": "Estado desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Agente de los Sangre Espectral con papel menor en la saga. Poca información disponible.",
+    "puntos_clave": [
+      "Miembro de los Sangre Espectral activo en Roshar.",
+      "Aparece brevemente en El Ritmo de la Guerra."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Agente de los Sangre Espectral",
+    "rol": "Agente menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Agente menor de los Sangre Espectral en Roshar. Escasa presencia narrativa.",
+  "notas": "La información disponible sobre Jin es muy limitada."
+}

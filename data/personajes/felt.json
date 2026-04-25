@@ -1,0 +1,93 @@
+{
+  "id": "felt",
+  "nombre": "Felt",
+  "nombre_completo": "Felt",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin (explorador)",
+    "Sangre Espectral"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Exploración y reconocimiento",
+      "Espionaje",
+      "Doble agente"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Explorador de la casa Kholin",
+      "Agente de los Sangre Espectral"
+    ],
+    "descripcion": "Explorador al servicio de Dalinar Kholin que opera también como agente de los Sangre Espectral. Su doble lealtad no se revela explícitamente en el texto pero está confirmada por la Coppermind.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su empleador oficial como explorador"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Doble agente profesional.",
+    "evolucion": "Sin arco propio desarrollado en la saga.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Felt sirve como explorador de la casa Kholin en las Llanuras Quebradas mientras opera también como agente de los Sangre Espectral. Su doble lealtad le permite pasar información entre ambas organizaciones.",
+    "puntos_clave": [
+      "Sirve como explorador de la casa Kholin en las Llanuras Quebradas.",
+      "Opera simultáneamente como agente de los Sangre Espectral.",
+      "Su doble lealtad no es conocida por Dalinar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Explorador de la casa Kholin; agente de los Sangre Espectral",
+    "rol": "Doble agente",
+    "relacion_con_spren": "",
+    "otros_detalles": "Es un saltamundos según la Coppermind — su historia fuera de Roshar se omite en esta ficha."
+  },
+  "descripcion_breve": "Explorador de la casa Kholin que opera también como agente de los Sangre Espectral. Doble agente cuya lealtad real es a la organización secreta.",
+  "notas": "Ficha limitada a su estancia en Roshar. Es un saltamundos pero su historia fuera del planeta se omite deliberadamente."
+}

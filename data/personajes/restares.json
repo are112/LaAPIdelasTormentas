@@ -1,0 +1,104 @@
+{
+  "id": "restares",
+  "nombre": "Restares",
+  "nombre_completo": "Restares",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi (como Restares)",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mencionado",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mencionado",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mencionado",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Hijos de Honor"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo de los Hijos de Honor",
+      "Conocimiento excepcional del Cosmere y los Heraldos",
+      "Manipulación política"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Líder de los Hijos de Honor bajo el alias Restares",
+      "Objetivo de eliminación de los Sangre Espectral"
+    ],
+    "descripcion": "Restares es el nombre que usa el Heraldo Kalak para liderar los Hijos de Honor en secreto. Como Restares, dirige la organización que busca traer de vuelta a los Heraldos y provocar una nueva Desolación. Los Sangre Espectral lo consideran una amenaza y encargan a Shallan capturar su alma. Esta ficha cubre exclusivamente su actividad como Restares — para su historia como Heraldo, ver la ficha de Kalak.",
+    "estado_en_viento_y_verdad": "Activo como Kalak en Integridad Duradera. Su papel como Restares al frente de los Hijos de Honor está activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "amaram",
+        "relacion": "convenció a Amaram de robar las esquirladas de Kaladin; lo manipuló en nombre de los Hijos de Honor"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "mraize",
+        "relacion": "los Sangre Espectral lo consideran una amenaza y quieren capturar su alma"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "Mraize encargó a Shallan capturar su alma; Shallan decidió no hacerlo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Como Restares opera con claridad y propósito. Su identidad real como Heraldo conlleva milenios de trauma psicológico que esta ficha no cubre.",
+    "evolucion": "Su papel como Restares no tiene evolución desarrollada en el texto — actúa principalmente desde las sombras.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Restares es la identidad que usa Kalak para dirigir los Hijos de Honor. Desde las sombras convenció a Amaram de robar las esquirladas de Kaladin y manipuló a otros miembros de la organización. Los Sangre Espectral lo identificaron como amenaza porque los Hijos de Honor se estaban acercando a descubrir cómo exportar luz tormentosa. Mraize encargó a Shallan capturar su alma en Integridad Duradera — Shallan se negó.",
+    "puntos_clave": [
+      "Dirige los Hijos de Honor bajo el alias Restares.",
+      "Convenció a Amaram de que tomara para sí las esquirladas de Kaladin tras la traición.",
+      "Los Sangre Espectral lo identificaron como amenaza por las investigaciones de los Hijos de Honor.",
+      "Mraize encargó a Shallan capturar su alma con una daga especial en Integridad Duradera.",
+      "Shallan descubrió que Restares era el Heraldo Kalak y decidió no matarlo.",
+      "Ofreció a Shallan intercambiar información sobre los Sangre Espectral a cambio de ayuda con el juicio de Adolin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Líder de los Hijos de Honor (como Restares)",
+    "rol": "Objetivo de eliminación de los Sangre Espectral",
+    "relacion_con_spren": "",
+    "otros_detalles": "Restares es la identidad de Kalak como líder de los Hijos de Honor. Para su historia completa como Heraldo ver la ficha de Kalak."
+  },
+  "descripcion_breve": "Alias del Heraldo Kalak al frente de los Hijos de Honor. Desde las sombras manipuló a Amaram y otros miembros. Objetivo de eliminación de los Sangre Espectral. Shallan descubrió su identidad y decidió no capturar su alma.",
+  "notas": "Restares es Kalak, el Heraldo. Esta ficha cubre solo su actividad como Restares al frente de los Hijos de Honor. Su historia como Heraldo Kalak se trata en la sección de Heraldos."
+}

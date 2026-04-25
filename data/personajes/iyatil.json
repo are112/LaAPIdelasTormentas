@@ -1,0 +1,114 @@
+{
+  "id": "iyatil",
+  "nombre": "Iyatil",
+  "nombre_completo": "Iyatil",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida en Roshar (de Luzdeplata, fuera de Roshar)",
+  "origen": "Desconocido en Roshar",
+  "planeta_natal": "Roshar (estancia temporal)",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Sangre Espectral"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "tintaspren iluminado por Sja-anat (recibido en VyV)"
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Asesina excepcional — cerbatana y dardos envenenados",
+      "Espionaje y vigilancia",
+      "Negociación en nombre de Thaidakar",
+      "Disfraz e infiltración",
+      "Manejo de ilusiones en el Reino Espiritual"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro de alto rango de los Sangre Espectral en Roshar",
+      "Babsk (maestra) de Mraize",
+      "Representante de Thaidakar en Roshar"
+    ],
+    "descripcion": "Mujer de habilidades excepcionales como asesina y espía. Usa máscara — su rostro no se describe directamente. Babsk de Mraize en jerga thayleña — su maestra y supervisora. Tiene poderes para negociar en nombre de Thaidakar. Lidera la célula de Roshar de forma independiente dado que Thaidakar no puede visitar el planeta.",
+    "estado_en_viento_y_verdad": "Fallecida durante los eventos de VyV en el Reino Espiritual."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "mraize",
+        "relacion": "su alumno — ella es su babsk"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "se enfrenta a ella en el Reino Espiritual disfrazada como Sinforma; Shallan la ataca con un cuchillo de antiluz"
+      },
+      {
+        "personaje": "amaram",
+        "relacion": "intentó matarlo con su cerbatana en Juramentada"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Fría y profesional. Más orientada al propósito más amplio de la organización que Mraize.",
+    "evolucion": "Constante a lo largo de la saga.",
+    "situacion_en_viento_y_verdad": "Fallecida en el Reino Espiritual."
+  },
+  "arco_narrativo": {
+    "resumen": "Iyatil llegó a Roshar antes de 1173 para instruir a Mraize. Intentó matar a Amaram tras la Batalla de Narak — habría tenido éxito de no ser por la intervención de Talenel. En VyV se infiltró en la guardia de los Corredores del Viento y atacó a Shallan. En el Reino Espiritual se disfrazó como Sinforma para manipular a Shallan y que matara a Mraize y a Dalinar. Shallan descubrió el disfraz y la atacó. Fallecida en VyV.",
+    "puntos_clave": [
+      "Llegó a Roshar antes de 1173 para instruir a Mraize.",
+      "Intentó matar a Amaram con su cerbatana tras la Batalla de Narak — la intervención de Talenel lo impidió.",
+      "Vigiló a Shallan en las Llanuras; Patrón la descubrió.",
+      "Recibió un tintaspren iluminado de Sja-anat.",
+      "En VyV trajo refuerzos de otros mundos a Roshar.",
+      "Se infiltró con Mraize en la guardia de los Corredores del Viento.",
+      "En el Reino Espiritual se disfrazó como Sinforma para manipular a Shallan.",
+      "Shallan descubrió el disfraz y la atacó con un cuchillo de antiluz. Fallecida."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Miembro de alto rango de los Sangre Espectral en Roshar; babsk de Mraize",
+    "relacion_con_spren": "Recibió un tintaspren iluminado por Sja-anat.",
+    "otros_detalles": "Su historia fuera de Roshar se omite en esta ficha. Hermano: Dlavil."
+  },
+  "descripcion_breve": "Miembro de alto rango de los Sangre Espectral y babsk de Mraize. Asesina de élite que usaba cerbatana y dardos envenenados. Fallecida en el Reino Espiritual de VyV.",
+  "notas": "Ficha limitada a su estancia en Roshar. Su origen fuera de Roshar se omite deliberadamente. Usa máscara — su rostro no se describe. Hermano: Dlavil."
+}

@@ -1,0 +1,116 @@
+{
+  "id": "mraize",
+  "nombre": "Mraize",
+  "nombre_completo": "Mraize (nombre real: Betd; nombre verdadero desconocido en Roshar)",
+  "apodos": [
+    "Mraize (título, no nombre)"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "antagonista",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "antagonista",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "antagonista",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Sangre Espectral"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Espionaje y operaciones encubiertas",
+      "Combate cuerpo a cuerpo",
+      "Manipulación y reclutamiento",
+      "Gestión de agentes y redes",
+      "Acceso a artefactos de otros mundos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Agente principal de los Sangre Espectral en Roshar",
+      "Superior directo de Shallan dentro de la organización",
+      "Alumno de Iyatil"
+    ],
+    "descripcion": "Hombre alto de pelo negro azabache y ojos violeta claro. El rostro y las manos cubiertos de cicatrices, incluyendo una que le cruza la mejilla verticalmente y le deforma el labio superior. Siempre elegantemente vestido. Mraize es un título, no un nombre — corrige a Shallan cuando ella intenta llamarle 'brillante señor'. Es thayleño de nacimiento.",
+    "estado_en_viento_y_verdad": "Fallecido durante los eventos de VyV."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "iyatil",
+        "relacion": "su babsk — maestra y mentora dentro de los Sangre Espectral"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "la reclutó como agente; relación de manipulación mutua; Shallan abandonó la organización"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "los Sangre Espectral han intentado asesinar a Jasnah en múltiples ocasiones"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Frío, calculador y seguro de sí mismo. Pragmático hasta el extremo. Iyatil cree que está demasiado centrado en sí mismo y pierde de vista el propósito más amplio de la organización.",
+    "evolucion": "No muestra evolución moral. Su relación con Shallan es siempre instrumental.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Mraize es el principal agente de los Sangre Espectral en Roshar y el contacto directo de Shallan. Identificó su potencial tras la muerte de Tyn y la fue incorporando progresivamente. Le encargó misiones en las Llanuras, en Urithiru y finalmente la misión de capturar el alma de Restares (Kalak). Shallan rechazó esa misión y abandonó los Sangre Espectral, convirtiéndose en su enemiga.",
+    "puntos_clave": [
+      "Alumno de Iyatil; ella es su babsk.",
+      "Identificó el potencial de Shallan tras la muerte de Tyn y la reclutó.",
+      "Le encargó investigar al 'loco' de los campamentos — resultó ser Talenel.",
+      "Reveló a Shallan su verdadera identidad tras la Batalla de Narak y la presionó con la situación de sus hermanos.",
+      "Entregó los hermanos de Shallan en Urithiru como compensación por sus servicios.",
+      "En Integridad Duradera encargó a Shallan capturar el alma de Restares (Kalak) con una daga especial.",
+      "Shallan rechazó matar a Kaladin y abandonó los Sangre Espectral.",
+      "Falleció durante los eventos de Viento y Verdad."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Principal antagonista de Shallan dentro de los Sangre Espectral",
+    "relacion_con_spren": "",
+    "otros_detalles": "Mraize es un título. Su nombre real en Roshar era desconocido; fuera de Roshar se le conoce como Betd. Portaba artefactos de otros mundos en su colección personal."
+  },
+  "descripcion_breve": "Agente principal de los Sangre Espectral en Roshar y superior directo de Shallan. Thayleño de nacimiento, elegante, cubierto de cicatrices. Mraize es un título, no un nombre. Fallecido en VyV.",
+  "notas": "Mraize es un título thayleño. Su nombre real fuera de Roshar es Betd. Su historia fuera de Roshar se omite en esta ficha. El tatuaje de los Sangre Espectral son tres diamantes entrelazados."
+}

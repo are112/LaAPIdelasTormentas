@@ -1,0 +1,89 @@
+{
+  "id": "tyn",
+  "nombre": "Tyn",
+  "nombre_completo": "Tyn",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Sangre Espectral"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Espionaje e infiltración",
+      "Mentoría de agentes",
+      "Combate",
+      "Supervivencia en las Llanuras Quebradas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Agente de los Sangre Espectral",
+      "Mentora de Shallan en espionaje"
+    ],
+    "descripcion": "Mujer alezi, agente de los Sangre Espectral. Encontró a Shallan en el barco camino a las Llanuras y se convirtió en su mentora informal en espionaje, enseñándole a sobrevivir y a actuar. Shallan la mató cuando descubrió que era una agente de los Sangre Espectral enviada a matarla.",
+    "estado_en_viento_y_verdad": "Fallecida antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "la tomó como pupila; Shallan la mató al descubrir sus intenciones"
+      },
+      {
+        "personaje": "mraize",
+        "relacion": "superior en los Sangre Espectral; dedujo su muerte por manos de Shallan y la elogió por ello"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmática y profesional. Su relación con Shallan tenía un componente genuino de mentoría a pesar de sus intenciones ocultas.",
+    "evolucion": "Sin arco propio desarrollado — muere antes de que su personaje pueda evolucionar.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Tyn encontró a Shallan en un barco camino a las Llanuras Quebradas. La tomó bajo su ala y le enseñó las bases del espionaje y la supervivencia. Cuando Shallan descubrió que era una agente de los Sangre Espectral con órdenes de matarla, la mató con una hoja esquirlada. Mraize dedujo lo ocurrido y elogió a Shallan por ello, ofreciéndole un lugar en la organización.",
+    "puntos_clave": [
+      "Agente de los Sangre Espectral enviada a vigilar y potencialmente eliminar a Shallan.",
+      "Encontró a Shallan en un barco camino a las Llanuras y se convirtió en su mentora.",
+      "Le enseñó las bases del espionaje, la infiltración y la supervivencia.",
+      "Shallan descubrió sus verdaderas intenciones y la mató con una hoja esquirlada.",
+      "Mraize dedujo que Shallan la había matado y la elogió por ello, ofreciéndole un lugar en la organización."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Puerta de entrada de Shallan a los Sangre Espectral",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su muerte fue el catalizador del reclutamiento de Shallan por parte de Mraize."
+  },
+  "descripcion_breve": "Agente de los Sangre Espectral que se convirtió en mentora de Shallan en espionaje. Matada por Shallan al descubrir sus verdaderas intenciones. Su muerte fue el catalizador del reclutamiento de Shallan.",
+  "notas": ""
+}

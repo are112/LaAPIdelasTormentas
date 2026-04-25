@@ -1,0 +1,89 @@
+{
+  "id": "kabsal",
+  "nombre": "Kabsal",
+  "nombre_completo": "Kabsal",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Sangre Espectral",
+    "Fervorosos de Kharbranth (infiltración)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Infiltración en organizaciones religiosas",
+      "Uso de venenos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervoroso de Kharbranth (identidad falsa)",
+      "Agente de los Sangre Espectral encargado de matar a Jasnah"
+    ],
+    "descripcion": "Hombre que se infiltró en el fervor de Kharbranth haciéndose pasar por fervoroso. Usó a Shallan para acercarse a Jasnah. Desarrolló una relación con Shallan que puede haber tenido cierta autenticidad. Intentó envenenar a Jasnah con pan y murió accidentalmente al comer él mismo del pan envenenado cuando Jasnah moldeó el antídoto que creía que era el veneno.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos de la saga."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "jasnah",
+        "relacion": "su objetivo; intentó envenenarla; murió en el intento"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "la usó para acercarse a Jasnah; desarrolló una relación con ella"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Agente encubierto. Su relación con Shallan puede haber tenido cierta autenticidad personal más allá de su misión.",
+    "evolucion": "Sin arco propio — muere en El Camino de los Reyes.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Kabsal se infiltró en el fervor de Kharbranth como agente de los Sangre Espectral con la misión de asesinar a Jasnah Kholin. Usó a Shallan para acercarse a ella. Intentó envenenarla con pan. Jasnah moldeó el antídoto creyendo que era el veneno, dejando a Kabsal sin protección contra su propio veneno. Murió accidentalmente al comer del pan envenenado.",
+    "puntos_clave": [
+      "Se infiltró en el fervor de Kharbranth con identidad falsa de fervoroso.",
+      "Usó a Shallan para acercarse a Jasnah Kholin.",
+      "Desarrolló una relación con Shallan que puede haber sido parcialmente auténtica.",
+      "Intentó envenenar a Jasnah con pan.",
+      "Jasnah moldeó el antídoto creyendo que era el veneno.",
+      "Kabsal murió accidentalmente al comer del pan envenenado sin protección."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Primer agente de los Sangre Espectral que aparece en la saga",
+    "relacion_con_spren": "",
+    "otros_detalles": "Tenía el tatuaje de los Sangre Espectral (tres diamantes entrelazados) en la zona interior del brazo."
+  },
+  "descripcion_breve": "Agente de los Sangre Espectral infiltrado como fervoroso en Kharbranth. Intentó asesinar a Jasnah usando a Shallan para acercarse a ella. Murió accidentalmente con su propio veneno.",
+  "notas": "Tenía el tatuaje de los Sangre Espectral en la zona interior del brazo. Es el primer agente de los Sangre Espectral que aparece en la saga, aunque su afiliación no se confirma hasta más tarde."
+}
