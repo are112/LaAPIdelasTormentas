@@ -1,0 +1,147 @@
+{
+  "id": "rysn",
+  "nombre": "Rysn",
+  "nombre_completo": "Rysn Ftori bah-Vstim",
+  "apodos": [
+    "Rebsk del Vela Errante"
+  ],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": true
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": true
+      },
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Gremio de comerciantes thayleños",
+    "Vela Errante",
+    "Coalición de Monarcas (colaboradora)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "No es Caballera Radiante. Portadora de la Esquirla del Amanecer Cambio — no puede vincularse con un spren ni recibir otra Investidura sin romper el pacto con los Insomnes."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Esquirla del Amanecer Cambio — el Mandato de Cambio; uno de los poderes más antiguos del Cosmere"
+      ],
+      "fuente_de_luz": "Investidura propia de la Esquirla del Amanecer"
+    },
+    "no_magicas": [
+      "Comerciante y negociadora excepcional",
+      "Navegación y gestión marítima",
+      "Uso de silla de ruedas adaptada con ballesta incorporada",
+      "Resiliencia y adaptación ante la discapacidad"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Rebsk del Vela Errante",
+      "Portadora de la Esquirla del Amanecer Cambio",
+      "Guardiana del secreto de Akinah"
+    ],
+    "descripcion": "Joven comerciante thayleña que perdió el uso de las piernas en un accidente en las Islas Reshi durante su aprendizaje. Usa silla de ruedas. Acompañada de su larkin Chiri-Chiri, especie creída extinta. Su formación comercial bajo Vstim le dio las herramientas para negociar con los Insomnes en Akinah y convertirse en portadora de la Esquirla del Amanecer.",
+    "estado_en_viento_y_verdad": "Activa. Participa en la reunión con Hoid antes del duelo de campeones, donde las dos Esquirlas del Amanecer reaccionan violentamente entre sí."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "vstim",
+        "relacion": "babsk — maestro, mentor y padre legal durante el aprendizaje; le regaló el Vela Errante"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "la encargó la misión a Akinah"
+      },
+      {
+        "personaje": "lopen",
+        "relacion": "Corredor del Viento que la acompañó en la expedición a Akinah"
+      },
+      {
+        "personaje": "huio",
+        "relacion": "Corredor del Viento que la acompañó en la expedición; juró el Tercer Ideal durante la misión"
+      },
+      {
+        "personaje": "cuerda",
+        "relacion": "miembro de la tripulación; la salvó saltando con ella al agua en Akinah"
+      },
+      {
+        "personaje": "rushu",
+        "relacion": "erudita que la acompañó en la expedición"
+      },
+      {
+        "personaje": "hoid",
+        "relacion": "ambos son portadores de una Esquirla del Amanecer; se reunieron en VyV con consecuencias físicas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Resiliencia excepcional ante la discapacidad. Luchó inicialmente con la pérdida de su identidad como comerciante ambulante, pero encontró una nueva forma de ser ella misma.",
+    "evolucion": "Pasó de aprendiz impulsiva que subestimaba otras culturas a negociadora experta y Rebsk que lidera su propio barco. La pérdida de sus piernas fue el punto de inflexión que la obligó a reinventarse.",
+    "situacion_en_viento_y_verdad": "Estable. Portadora de la Esquirla del Amanecer, custodiada por los Insomnes."
+  },
+  "arco_narrativo": {
+    "resumen": "Rysn comenzó como aprendiz comerciante bajo Vstim, viajando por Shinovar y las Islas Reshi. Un accidente en Relu-na le rompió las piernas y la dejó en silla de ruedas. Vstim le regaló el Vela Errante para que siguiera siendo comerciante. Navani la encargó la expedición a Akinah para buscar una Puerta Jurada. En las cuevas bajo la isla, la Esquirla del Amanecer se unió a ella. Negoció con los Insomnes y se convirtió en guardiana del secreto de Akinah.",
+    "puntos_clave": [
+      "Aprendiz de Vstim — viaja a Shinovar donde aprende sobre la cultura shin.",
+      "En las Islas Reshi intenta demostrar valentía ante el Tai-na Relu-na; cae y se rompe las piernas.",
+      "Recibe a Chiri-Chiri — una larkin alada, especie creída extinta — como regalo del Tai-na.",
+      "Trabaja en la Reserva de Gemas thayleña arreglada por Vstim; salva la gema corazón con una ballesta improvisada.",
+      "Vstim la declara comerciante independiente y le regala el Vela Errante.",
+      "Navani la encarga la expedición secreta a Akinah para buscar una Puerta Jurada.",
+      "Nikli — un Insomne infiltrado como mozo — intenta sabotear la misión.",
+      "En las cuevas de Akinah, la Esquirla del Amanecer Cambio se une a ella.",
+      "Negocia con los Insomnes — ofrece ser guardiana de la Esquirla para mantenerla alejada de Akinah.",
+      "Los Insomnes aceptan y prometen acompañarla permanentemente.",
+      "En VyV, Hoid y Rysn se reúnen — las dos Esquirlas del Amanecer reaccionan violentamente entre sí."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Rebsk del Vela Errante; portadora de la Esquirla del Amanecer",
+    "rol": "Guardiana de la Esquirla del Amanecer; figura clave en la política comercial thayleña",
+    "relacion_con_spren": "No puede vincularse con un spren — condición de su pacto con los Insomnes.",
+    "otros_detalles": "Los Insomnes la siguen permanentemente como parte del acuerdo. Chiri-Chiri aprendió a hablar al final de Esquirla del Amanecer. Su Esquirla del Amanecer tiene la Intención Cambio."
+  },
+  "descripcion_breve": "Comerciante thayleña en silla de ruedas, Rebsk del Vela Errante y portadora de la Esquirla del Amanecer Cambio. Guardiana del secreto de Akinah y custodiada por los Insomnes.",
+  "notas": "Su nombre completo incluye el apellido de su babsk: Rysn Ftori bah-Vstim. Renarin intentó curarle las piernas — no fue posible porque habían pasado demasiados años. La Esquirla del Amanecer Cambio la irá transformando progresivamente con el tiempo."
+}

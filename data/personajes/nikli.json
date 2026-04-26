@@ -1,0 +1,89 @@
+{
+  "id": "nikli",
+  "nombre": "Nikli",
+  "nombre_completo": "Nikliasorm",
+  "apodos": [
+    "Nikli"
+  ],
+  "sexo": "desconocido",
+  "especie": "Insomne (dysian aimiano)",
+  "nacionalidad": "",
+  "origen": "Aimia",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "antagonista",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Insomnes — guardianes de Akinah"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Transformación de cuerpo — puede adoptar forma humana convincente"
+      ],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Infiltración",
+      "Sabotaje",
+      "Negociación"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Insomne — enjambre de criaturas con mente colectiva",
+      "Vigésimo cuarto Insomne en Separarse",
+      "Infiltrado como mozo personal de Rysn"
+    ],
+    "descripcion": "Nikli es un dysian aimiano — un Insomne — que puede adoptar forma humana. Es el más joven de los Insomnes actualmente en Roshar. Fue enviado a bordo del Vela Errante haciéndose pasar por el mozo personal de Rysn para sabotear la expedición a Akinah y evitar que llegara a la Puerta Jurada. Acabó siendo el negociador de los Insomnes tras que Rysn se convirtiera en portadora de la Esquirla del Amanecer.",
+    "estado_en_viento_y_verdad": "Activo. Acompaña a Rysn permanentemente como parte del acuerdo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "la sigue permanentemente como parte del acuerdo con los Insomnes"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Mente colectiva de enjambre. Su perspectiva es radicalmente diferente a la humana.",
+    "evolucion": "Pasó de agente saboteador a aceptar el acuerdo con Rysn.",
+    "situacion_en_viento_y_verdad": "Activo junto a Rysn."
+  },
+  "arco_narrativo": {
+    "resumen": "Nikli fue enviado por los Insomnes para infiltrarse en el Vela Errante y sabotear la expedición a Akinah. Envenenó a la anguila mascota del barco para asustar a la tripulación. Cuando Rysn se convirtió en portadora de la Esquirla del Amanecer, el objetivo de matarla cambió. Negoció el acuerdo que permite a los Insomnes seguir a Rysn permanentemente.",
+    "puntos_clave": [
+      "Enviado por los Insomnes para infiltrarse en el Vela Errante como mozo de Rysn.",
+      "Envenenó a la anguila mascota del barco para asustar a la tripulación.",
+      "Intentó matar a Rysn en Akinah.",
+      "Llegó demasiado tarde a la cueva — Rysn ya era portadora de la Esquirla del Amanecer.",
+      "Negoció el acuerdo: los Insomnes siguen a Rysn permanentemente; ella protege la Esquirla fuera de Akinah."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardian permanente de Rysn en nombre de los Insomnes",
+    "rol": "Representante de los Insomnes junto a Rysn",
+    "relacion_con_spren": "",
+    "otros_detalles": "El vigésimo cuarto Insomne en Separarse — el más joven actualmente en Roshar."
+  },
+  "descripcion_breve": "Insomne (dysian aimiano) infiltrado como mozo de Rysn para sabotear la expedición a Akinah. Acabó negociando el acuerdo por el que los Insomnes acompañan a Rysn permanentemente.",
+  "notas": "Los Insomnes son enjambres de criaturas con mente colectiva capaces de adoptar forma humana. Su misión era proteger los secretos de Akinah."
+}

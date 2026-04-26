@@ -1,0 +1,92 @@
+{
+  "id": "drlwan",
+  "nombre": "Drlwan",
+  "nombre_completo": "Drlwan",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Vela Errante"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación y mando naval",
+      "Liderazgo de tripulación"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitana del Vela Errante"
+    ],
+    "descripcion": "Mujer thayleña de estatura baja, nariz afilada y pelo rubio inusualmente claro. Porte de mando. Su uniforme oficial es blanco inmaculado con medallas, sombrero tricornio y cejas rizadas. Fue elegida por Vstim para capitanear el Vela Errante. Creyó inicialmente que Vstim le regalaría el barco a ella; cuando se lo regaló a Rysn, trató a la joven rebsk con frialdad. Cambió de actitud tras ver cómo Rysn negoció en Akinah.",
+    "estado_en_viento_y_verdad": "Activa como capitana del Vela Errante."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Kstled",
+        "relacion": "hermano; hombre de armas del barco"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "vstim",
+        "relacion": "quien la eligió para capitanear el Vela Errante"
+      },
+      {
+        "personaje": "rysn",
+        "relacion": "su rebsk; pasó de frialdad a respeto genuino"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional, orgullosa y directa. Su respeto debe ganarse.",
+    "evolucion": "Pasó de la frialdad hacia Rysn al respeto genuino tras la expedición a Akinah.",
+    "situacion_en_viento_y_verdad": "Estable."
+  },
+  "arco_narrativo": {
+    "resumen": "Drlwan fue elegida por Vstim para capitanear el Vela Errante y creyó que el barco sería suyo. Cuando fue para Rysn, trató a la joven rebsk con la mínima cortesía. Durante la expedición a Akinah cambió de opinión al ver cómo Rysn negoció con los Insomnes poniendo la tripulación por delante de su propia seguridad. Al final le ofreció el honor de tomar el timón.",
+    "puntos_clave": [
+      "Elegida por Vstim para capitanear el Vela Errante.",
+      "Creyó que el barco sería suyo al ascender Vstim a Ministro.",
+      "Trató a Rysn con frialdad y mínima cortesía.",
+      "Participó en la expedición a Akinah.",
+      "Cambió de actitud tras ver cómo Rysn negoció con los Insomnes.",
+      "Le ofreció a Rysn el honor de tomar el timón al regresar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Capitana del Vela Errante",
+    "rol": "Capitana de la nave de Rysn",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su hermano Kstled sirve como hombre de armas del barco."
+  },
+  "descripcion_breve": "Capitana thayleña del Vela Errante, elegida por Vstim. Inicialmente fría con Rysn, ganó su respeto genuino tras la expedición a Akinah.",
+  "notas": "Su nombre aparece como Dlrwan en algunas fuentes — Drlwan es la forma correcta según la Coppermind."
+}

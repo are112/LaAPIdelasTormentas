@@ -1,0 +1,103 @@
+{
+  "id": "chiri_chiri",
+  "nombre": "Chiri-Chiri",
+  "nombre_completo": "Chiri-Chiri",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "larkin (especie creída extinta)",
+  "nacionalidad": "",
+  "origen": "Islas Reshi / Aimia (origen ancestral)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Vela Errante"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Absorción de luz tormentosa e Investidura"
+      ],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Vuelo",
+      "Comunicación limitada con humanos (aprendida)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mascota y compañera de Rysn",
+      "Larkin — especie nativa de Aimia creída extinta",
+      "Descendiente de los antiguos lanceryn"
+    ],
+    "descripcion": "Larkin alada de pequeño tamaño, especie creída extinta cuyo hogar ancestral es Aimia. Los larkin se alimentan de luz tormentosa e Investidura. Fue regalada a Rysn por el Tai-na Relu-na. Enfermó durante El Ritmo de la Guerra, lo que motivó la expedición a Akinah. Al final de Esquirla del Amanecer pronunció las primeras palabras reconocibles en lengua humana.",
+    "estado_en_viento_y_verdad": "Activa junto a Rysn."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "compañera y mascota; Rysn la considera su ancla emocional"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Animal inteligente con capacidad de aprendizaje superior a lo esperado para su especie.",
+    "evolucion": "Aprendió a pronunciar palabras humanas al final de Esquirla del Amanecer.",
+    "situacion_en_viento_y_verdad": "Activa y sana."
+  },
+  "arco_narrativo": {
+    "resumen": "Chiri-Chiri fue regalada a Rysn por el Tai-na Relu-na tras el accidente. Creció junto a Rysn convirtiéndose en su compañera inseparable. Enfermó durante la Verdadera Desolación — su recuperación solo podía encontrarse en su hogar ancestral, Aimia. La expedición a Akinah fue motivada en parte por su enfermedad. Se recuperó al regresar a las aguas de Aimia y al final pronunció sus primeras palabras humanas.",
+    "puntos_clave": [
+      "Regalada a Rysn por el Tai-na Relu-na tras su accidente en las Islas Reshi.",
+      "Pertenece a los larkin — especie nativa de Aimia creída extinta.",
+      "Se alimenta de luz tormentosa e Investidura.",
+      "Enfermó durante la Verdadera Desolación.",
+      "Su recuperación motivó en parte la expedición a Akinah.",
+      "Se recuperó al regresar a las aguas de Aimia.",
+      "Al final de Esquirla del Amanecer pronunció las primeras palabras reconocibles en lengua humana."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Compañera de Rysn",
+    "rol": "Ancla emocional de Rysn; descendiente de los lanceryn",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su capacidad de hablar al final de Esquirla del Amanecer sugiere un nivel de inteligencia superior al esperado para su especie."
+  },
+  "descripcion_breve": "Larkin alada especie creída extinta, compañera inseparable de Rysn. Se alimenta de luz tormentosa. Al final de Esquirla del Amanecer pronunció sus primeras palabras humanas.",
+  "notas": "Los larkin son descendientes de los lanceryn, criaturas de Aimia. Se creían extintos hasta la aparición de Chiri-Chiri."
+}

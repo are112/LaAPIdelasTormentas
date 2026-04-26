@@ -1,0 +1,91 @@
+{
+  "id": "yalb",
+  "nombre": "Yalb",
+  "nombre_completo": "Yalb",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Vela Errante (tripulación)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación",
+      "Supervivencia marítima"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Marinero thayleño",
+      "Superviviente del hundimiento del Placer del Viento"
+    ],
+    "descripcion": "Marinero thayleño que formó parte de la tripulación del Placer del Viento, el barco de Jasnah. Sobrevivió al hundimiento del barco al final de Palabras Radiantes. En Esquirla del Amanecer aparece sirviendo bajo la capitana Smta antes de unirse a la tripulación del Vela Errante.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "sobrevivieron juntos al hundimiento del Placer del Viento"
+      },
+      {
+        "personaje": "rysn",
+        "relacion": "compañero en la expedición a Akinah"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Marinero experimentado y superviviente.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Yalb era marinero del Placer del Viento, el barco de Jasnah. Sobrevivió al hundimiento al final de Palabras Radiantes. Reapareció en Esquirla del Amanecer como miembro de la tripulación del Vela Errante, participando en la expedición a Akinah.",
+    "puntos_clave": [
+      "Marinero del Placer del Viento; sobrevivió a su hundimiento.",
+      "Reapareció sirviendo bajo la capitana Smta.",
+      "Se unió a la tripulación del Vela Errante.",
+      "Participó en la expedición a Akinah."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Marinero en el Vela Errante",
+    "rol": "Tripulante del Vela Errante",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su supervivencia al hundimiento del Placer del Viento es uno de los retornos inesperados de la saga."
+  },
+  "descripcion_breve": "Marinero thayleño superviviente del hundimiento del Placer del Viento. Reapareció en Esquirla del Amanecer como tripulante del Vela Errante.",
+  "notas": ""
+}

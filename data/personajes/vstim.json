@@ -1,0 +1,113 @@
+{
+  "id": "vstim",
+  "nombre": "Vstim",
+  "nombre_completo": "Vstim",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Gremio de comerciantes thayleños",
+    "Ministerio de Comercio de Thaylenah"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comerciante excepcional con conocimiento profundo de múltiples culturas",
+      "Negociación intercultural",
+      "Mentoría y formación de aprendices"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Babsk de Rysn",
+      "Ministro de Comercio de Thaylenah",
+      "Comerciante legendario"
+    ],
+    "descripcion": "Hombre thayleño en la setentena, ágil para su edad, con cejas thayleñas dobladas detrás de las orejas. Viste ropas de comerciante thaylen con sombrero cónico. Sabio y calculador pero nunca ofensivo. Siguió las Pasiones toda su vida. Fue babsk de Talik antes que de Rysn, y fue el único comerciante conocido capaz de negociar ventajosamente con los shin.",
+    "estado_en_viento_y_verdad": "Activo como Ministro de Comercio de Thaylenah."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "su aprendiz y pupila; le regaló el Vela Errante"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "trabaja con la reina como Ministro de Comercio"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "habló con ella en nombre de Rysn sobre los Insomnes"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sabio, paciente y perspicaz. Su mayor habilidad es entender qué necesita cada cultura para hacer un buen trato.",
+    "evolucion": "Constante a lo largo de la saga. Su evolución es la de un hombre que prepara a su sucesora.",
+    "situacion_en_viento_y_verdad": "Estable. Ministro de Comercio."
+  },
+  "arco_narrativo": {
+    "resumen": "Vstim fue babsk de Talik y luego de Rysn. Viajó con ella a Shinovar y las Islas Reshi, fingiendo enfermedad en Relu-na para que Rysn tomara decisiones con consecuencias reales. Tras la lesión de Rysn le consiguió trabajo en la Reserva de Gemas y finalmente le regaló el Vela Errante al aceptar el puesto de Ministro de Comercio. Conoce el secreto de la Esquirla del Amanecer de Rysn — prometió guardarlo incluso ante la reina Fen.",
+    "puntos_clave": [
+      "Fue babsk de Talik antes que de Rysn.",
+      "Fue el único comerciante capaz de negociar ventajosamente con los shin.",
+      "Obtuvo a Szeth de Thresh-son-Esan hace años — lo intercambió más tarde.",
+      "En las Islas Reshi fingió enfermedad para que Rysn tomara el mando — ella cayó y se lesionó.",
+      "Le consiguió trabajo en la Reserva de Gemas thayleña tras la lesión.",
+      "Fue herido por un espía parshmenio durante el asalto a la Reserva.",
+      "Aceptó el cargo de Ministro de Comercio de la reina Fen.",
+      "Le regaló el Vela Errante a Rysn.",
+      "Conoce el secreto de la Esquirla del Amanecer — prometió guardarlo incluso ante la reina Fen."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ministro de Comercio de Thaylenah",
+    "rol": "Mentor de Rysn; figura política thayleña",
+    "relacion_con_spren": "",
+    "otros_detalles": "Sabe la verdad sobre los Insomnes y la Esquirla del Amanecer de Rysn. Prometió guardar el secreto."
+  },
+  "descripcion_breve": "Babsk de Rysn y Ministro de Comercio de Thaylenah. Comerciante legendario conocido por su habilidad intercultural. Le regaló el Vela Errante a Rysn y guarda su secreto sobre la Esquirla del Amanecer.",
+  "notas": "Fue quien obtuvo a Szeth de Thresh-son-Esan en Shinovar — lo intercambió después sin saber su importancia futura."
+}
