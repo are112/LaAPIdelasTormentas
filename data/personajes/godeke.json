@@ -23,7 +23,7 @@
   "orden_radiantes": {
     "orden": "Danzantes del Filo",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "Archinal (cultivacispren)" },
+    "spren_asociado": { "principal": "Archinal" },
     "estado_del_vinculo": "Activo. Archinal adopta en el Reino Cognitivo la forma de una mujer baja con túnica hecha de enredaderas y cristal."
   },
   "habilidades": {
