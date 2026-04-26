@@ -4,17 +4,16 @@
   "nombre_completo": "Palona",
   "apodos": [],
   "sexo": "femenino",
-  "especie": "cantor",
-  "nacionalidad": "parshmeniana",
-  "origen": "Alezkar",
+  "especie": "humano",
+  "nacionalidad": "herdaziana",
+  "origen": "Herdaz",
   "planeta_natal": "Roshar",
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false },
-      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
-      { "titulo": "Viento y Verdad",        "rol": "secundario", "pov": false }
+      { "titulo": "Palabras Radiantes",    "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",           "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra", "rol": "secundario", "pov": false }
     ]
   },
   "afiliaciones": [
@@ -30,48 +29,53 @@
   "habilidades": {
     "magia": { "potencias": [], "fuente_de_luz": "" },
     "no_magicas": [
-      "Gestión del hogar y los asuntos personales de Sebarial",
-      "Perspicacia política",
-      "Carácter directo y sin filtros"
+      "Gestión del hogar y la residencia de Sebarial — tiene más mano en el día a día que él mismo",
+      "Perspicacia política y social",
+      "Carácter directo, irónico y sin filtros"
     ]
   },
   "identidades": {
     "principales": [
-      "Concubina y compañera de vida de Sebarial",
-      "Parshmeniana libre en una sociedad que esclavizaba a su especie"
+      "Amante y gestora del hogar de Sebarial",
+      "Mujer herdaziana de ojos oscuros en la corte alezi"
     ],
-    "descripcion": "Cantora parshmeniana de carácter directo, irónico y sin pelos en la lengua. Es la concubina de Sebarial, con quien mantiene una relación de genuino afecto e igualdad. En una sociedad vorin que trataba a los parshmenios como esclavos sin alma, su posición junto a un alto príncipe es extraordinariamente inusual. No tiene reparos en contradecir a Sebarial ni en decir lo que piensa.",
-    "estado_en_viento_y_verdad": "Activa en Urithiru junto a Sebarial."
+    "descripcion": "Mujer herdaziana de baja estatura, ojos oscuros y uñas con un aspecto pétreо característico de los herdazianos. Viste ropas finas que dejan claro que no es una sirvienta. Tiene más mano en el funcionamiento diario de la residencia de Sebarial que él mismo. Le llama 'Turi' — apodo que él detesta — y también 'el idiota'. Sebarial quiere casarse con ella pero ella lo rechaza continuamente sin dar razones claras. Ella misma se ha referido a sí misma como un 'vagabundo' que Turinad recogió.",
+    "estado_en_viento_y_verdad": "Activa junto a Sebarial — probablemente en los campamentos de guerra o Urithiru."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
-      { "personaje": "sebarial", "relacion": "compañero de vida; la persona más importante para ella" },
-      { "personaje": "shallan",  "relacion": "la trata con respeto inusual; relación de afecto" }
+      { "personaje": "sebarial", "relacion": "su amante; él quiere casarse con ella pero ella lo rechaza; relación de afecto irónico" },
+      { "personaje": "shallan",  "relacion": "la acogió en la residencia de Sebarial con calidez directa; le organizó habitación, criada y estipendio" },
+      { "personaje": "navani",   "relacion": "presente en la boda de Navani y Dalinar; en los círculos de la coalición" }
     ],
-    "enemigos": []
+    "enemigos": [
+      { "personaje": "sadeas", "relacion": "llamó su muerte 'un problema resuelto' — era una de las muchas personas que lo odiaban" }
+    ]
   },
   "estado_mental": {
-    "diagnostico_general": "Estable. Segura de sí misma e irónica. Su posición social inusual no parece afectarle negativamente.",
-    "evolucion": "Constante a lo largo de la saga. Su carácter directo y su seguridad no varían.",
-    "situacion_en_viento_y_verdad": "Activa en Urithiru. Con la llegada de la Noche de las Penas y la recuperación del alma de los cantores, su situación adquiere una nueva dimensión."
+    "diagnostico_general": "Segura de sí misma, irónica y directa. Su rechazo persistente al matrimonio con Sebarial sugiere barreras personales que no ha explicado — él cree que ella o bien lo considera indigno de ella o bien se considera indigna de él.",
+    "evolucion": "Constante a lo largo de la saga. Su carácter no varía.",
+    "situacion_en_viento_y_verdad": "Activa junto a Sebarial."
   },
   "arco_narrativo": {
-    "resumen": "Palona es la concubina parshmeniana de Sebarial, con quien vive abiertamente en las Llanuras Quebradas y luego en Urithiru. Su presencia es significativa como representación de que no todos los parshmenios vivían como esclavos anónimos — algunos existían en relaciones más complejas con los humanos, aun antes de la recuperación de sus almas.",
+    "resumen": "Palona es la amante herdaziana de Sebarial y gestora real de su hogar. Acogió a Shallan en las Llanuras Quebradas con calidez práctica. Estuvo presente en momentos clave de la coalición — la boda de Dalinar y Navani, el descubrimiento del cadáver de Sadeas, los primeros días en Urithiru. Sebarial la quiere casar pero ella lo rechaza sin explicación.",
     "puntos_clave": [
-      "Vive con Sebarial en las Llanuras Quebradas como su concubina.",
-      "Se traslada con Sebarial a Urithiru.",
-      "Su relación con Sebarial es de genuino afecto e igualdad inusual para su época.",
-      "Trata a Shallan con respeto y afecto desde su primer encuentro.",
-      "La recuperación de las almas de los cantores en VyV tiene implicaciones directas para su identidad."
+      "Gestiona el día a día de la residencia de Sebarial con más eficacia que él mismo.",
+      "Acogió a Shallan en el campamento de Sebarial en las Llanuras Quebradas — le organizó habitación, criada y estipendio.",
+      "Fue una de las primeras personas en ver el cadáver de Sadeas; lo llamó 'un problema resuelto'.",
+      "Estuvo presente en la boda de Dalinar y Navani.",
+      "Estuvo presente cuando Jasnah fue coronada reina.",
+      "Sebarial reveló a Navani que quiere casarse con ella; Navani le aconsejó mostrarle su sinceridad.",
+      "Navani envió a Sebarial de vuelta a los campamentos de guerra durante la ocupación — Palona probablemente le acompañó; no estuvieron en la ocupación de Urithiru."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Compañera de vida de Sebarial en Urithiru",
-    "rol": "Figura de representación de la humanidad de los cantores previa a VyV",
+    "ocupacion": "Gestora del hogar de Sebarial; su amante",
+    "rol": "Compañera de vida de Sebarial",
     "relacion_con_spren": "",
-    "otros_detalles": "Su existencia como parshmeniana libre y en una relación de igualdad con un alto príncipe alezi era extraordinariamente inusual en la sociedad roshariana antes de la Verdadera Desolación."
+    "otros_detalles": "Se ha referido a sí misma como un 'vagabundo' que Turinad recogió. Rechaza casarse con él sin dar razones claras."
   },
-  "descripcion_breve": "Cantora parshmeniana, concubina y compañera de vida de Sebarial. Su carácter directo e irónico y su relación de genuina igualdad con un alto príncipe la hacen un personaje singular en la sociedad vorin.",
-  "notas": "Palona representa una de las pocas relaciones genuinamente igualitarias entre humano y cantor que existían antes de que los parshmenios recuperaran sus almas en VyV."
+  "descripcion_breve": "Mujer herdaziana de ojos oscuros, amante de Sebarial y gestora real de su hogar. Directa, irónica y más capaz que él en el día a día. Le llama 'Turi', apodo que él odia. Rechaza casarse con él sin dar razones.",
+  "notas": "Palona es herdaziana, no parshmeniana. Las uñas de aspecto pétreо son un rasgo físico característico de los herdazianos en Roshar."
 }
