@@ -11,90 +11,65 @@
   "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "Juramentada",
-        "rol": "menor",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "menor",
-        "pov": false
-      }
+      { "titulo": "Juramentada",           "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra", "rol": "secundario", "pov": false }
     ]
   },
-  "afiliaciones": [
-    "Urithiru",
-    "Caballeros Radiantes (personal civil de apoyo)"
-  ],
+  "afiliaciones": ["Urithiru"],
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": ""
-    },
-    "estado_del_vinculo": "no es Caballero Radiante"
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
   },
   "habilidades": {
-    "magia": {
-      "potencias": [],
-      "fuente_de_luz": ""
-    },
+    "magia": { "potencias": [], "fuente_de_luz": "" },
     "no_magicas": [
-      "escritura y registro administrativo",
-      "organización y control de tránsito en Puertas Juradas",
-      "agudeza mental",
-      "sentido del humor poco común entre escribas"
+      "Escritura y registro administrativo",
+      "Organización y control de tránsito en Puertas Juradas",
+      "Sentido del humor agudo"
     ]
   },
   "identidades": {
     "principales": [
-      "escriba",
-      "trabajadora de la Puerta Jurada de Narak"
+      "Escriba de Urithiru",
+      "Esposa de Cikatriz"
     ],
-    "descripcion": "Escriba alezi de baja estatura pero gran carácter. Destaca por su sentido del humor y su actitud directa, incluso al tratar con figuras importantes como los Caballeros Radiantes.",
-    "estado_en_viento_y_verdad": "desconocido"
+    "descripcion": "Escriba alezi de baja estatura destinada en la Puerta Jurada de Narak. De carácter directo y con un sentido del humor que llamó la atención de Cikatriz. Adolin pensó que podría haber sido buena pareja para Kaladin — a quien le gustan las mujeres inteligentes y no le importa la altura — de no haber estado ya con Cikatriz.",
+    "estado_en_viento_y_verdad": "Activa en Urithiru."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "cikatriz",
-        "relacion": "pareja"
-      }
+      { "personaje": "cikatriz", "relacion": "esposo" }
     ],
-    "amigos": [],
-    "enemigos": [],
-    "otros": [
-      {
-        "personaje": "kaladin",
-        "relacion": "interacción profesional"
-      },
-      {
-        "personaje": "Lyn",
-        "relacion": "coincide durante eventos en Narak"
-      }
-    ]
+    "amigos": [
+      { "personaje": "lyn", "relacion": "ambas asistieron a la boda de Cikatriz; Lyn y Kaladin fueron juntos tras separarse" }
+    ],
+    "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "mente despierta, práctica y con sentido del humor",
-    "evolucion": "se mantiene consistente en su carácter directo y profesional",
-    "situacion_en_viento_y_verdad": "sin cambios conocidos"
+    "diagnostico_general": "Estable. Directa y con sentido del humor.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activa."
   },
   "arco_narrativo": {
-    "resumen": "Escriba destinada en la Puerta Jurada de Narak, encargada de registrar el tránsito. Aporta un toque de humor y humanidad en un entorno militar y Radiantemente serio.",
+    "resumen": "Escriba alezi destinada en la Puerta Jurada de Narak. Estaba de guardia el día en que Cikatriz y Lyn se convirtieron en escuderos de los Corredores del Viento. Reprendió a Kaladin por llegar tarde en nombre de los mercaderes que esperaban. Cikatriz le gustó su sentido del humor y empezaron a salir. Se casaron en El Ritmo de la Guerra con el Puente Cuatro al completo presente.",
     "puntos_clave": [
-      "trabaja registrando el paso en la Puerta Jurada de Narak",
-      "presencia el momento en que Lyn y Cikatriz se convierten en escuderos",
-      "reprende a Kaladin por llegar tarde",
-      "inicia una relación con Cikatriz"
+      "Escriba destinada en la Puerta Jurada de Narak; usaba un libro de registro para anotar quién atravesaba la puerta.",
+      "Estaba de guardia el día que Cikatriz y Lyn se convirtieron en escuderos de los Corredores del Viento.",
+      "Reprendió a Kaladin por llegar tarde en nombre de los mercaderes que esperaban.",
+      "Cikatriz le gustó su sentido del humor; empezaron a salir.",
+      "Adolin pensó que podría haber sido buena pareja para Kaladin de no haber estado con Cikatriz.",
+      "Se casó con Cikatriz en El Ritmo de la Guerra; el Puente Cuatro al completo estuvo presente en la boda.",
+      "Kaladin y Lyn asistieron juntos a la boda poco después de separarse."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "escriba",
-    "rol": "personal civil en Urithiru",
-    "relacion_con_spren": "ninguna conocida",
-    "otros_detalles": "ejemplo de la importancia del personal no combatiente en la infraestructura de los Caballeros Radiantes"
+    "ocupacion": "Escriba en Urithiru",
+    "rol": "Esposa de Cikatriz",
+    "relacion_con_spren": "",
+    "otros_detalles": "Posiblemente es un cameo de Kristina Skarstedt, esposa del amigo de Brandon Sanderson en quien se basa Cikatriz."
   },
-  "descripcion_breve": "Escriba alezi de Urithiru, conocida por su baja estatura y su sorprendente sentido del humor, incluso en situaciones formales.",
-  "notas": "Posible cameo basado en Kristina, esposa de Ethan Skarstedt, amigo de Brandon Sanderson."
+  "descripcion_breve": "Escriba alezi de Urithiru, esposa de Cikatriz. Conocida por su sentido del humor y su carácter directo. Reprendió a Kaladin por llegar tarde a la Puerta Jurada de Narak el día en que Cikatriz y Lyn se convirtieron en escuderos.",
+  "notas": "Adolin pensó que Ristina podría haber sido buena pareja para Kaladin — a quien le gustan las mujeres inteligentes y no le importa la altura — de no haber estado ya con Cikatriz. Kaladin y Lyn asistieron juntos a su boda poco después de separarse."
 }
