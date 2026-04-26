@@ -6,110 +6,82 @@
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "roshariano",
-  "origen": "",
+  "origen": "Desconocido",
   "planeta_natal": "Roshar",
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario",
-        "pov": false
-      }
+      { "titulo": "Juramentada",           "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra", "rol": "secundario", "pov": false }
     ]
   },
   "afiliaciones": [
     "Caballeros Radiantes",
-    "Urithiru",
-    "Fervor (anteriormente)"
+    "Danzantes del Filo",
+    "Coalición de Monarcas"
   ],
   "orden_radiantes": {
     "orden": "Danzantes del Filo",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": "Archinal"
-    },
-    "estado_del_vinculo": "vínculo Nahel activo"
+    "spren_asociado": { "principal": "Archinal (cultivacispren)" },
+    "estado_del_vinculo": "Activo. Archinal adopta en el Reino Cognitivo la forma de una mujer baja con túnica hecha de enredaderas y cristal."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Abrasión",
-        "Progresión"
-      ],
+      "potencias": ["Abrasión", "Progresión"],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "conocimientos eruditos",
-      "formación como fervoroso",
-      "diplomacia básica",
-      "idiomas (incluido thayleno)",
-      "combate con espada esquirlada"
+      "Conocimientos eruditos — fue fervoroso antes de vincularse",
+      "Diplomacia — habla thayleño además de alezi",
+      "Curación mediante Progresión",
+      "Memorización de rostros de caídos — rasgo característico de su orden"
     ]
   },
   "identidades": {
     "principales": [
       "Danzante del Filo",
-      "ex fervoroso",
-      "erudito"
+      "Antiguo fervoroso"
     ],
-    "descripcion": "Antiguo fervoroso convertido en Caballero Radiante. Combina una mentalidad religiosa con una curiosidad genuina por el mundo, mostrando tanto solemnidad como una capacidad de asombro casi infantil ante las maravillas de Roshar y Shadesmar.",
-    "estado_en_viento_y_verdad": "activo como Radiante"
+    "descripcion": "Hombre de barba cuadrada, recuerdo de su pasado como fervoroso. Fue fervoroso antes de vincularse con Archinal. Declaró que pasó toda su vida sintiéndose 'deforme' — en sentido figurado, sin ser quien realmente era — y que su vínculo Nahel le permitió convertirse en la persona que siempre se había visto a sí mismo. Tiene experiencia diplomática y habla thayleño además de alezi.",
+    "estado_en_viento_y_verdad": "Activo."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
-      {
-        "personaje": "lift",
-        "relacion": "compañera Danzante del Filo"
-      },
-      {
-        "personaje": "adolin",
-        "relacion": "compañero en expedición a Shadesmar"
-      }
+      { "personaje": "lift",   "relacion": "compañera Danzante del Filo; lo evacuó herido en Piedralar" },
+      { "personaje": "adolin", "relacion": "compañero en la expedición diplomática a Shadesmar" },
+      { "personaje": "felt",   "relacion": "acampó junto a él fuera de Integridad Duradera" }
     ],
-    "enemigos": [
-      {
-        "personaje": "Fusionados",
-        "relacion": "enemigos en combate"
-      }
-    ],
-    "otros": [
-      {
-        "personaje": "kaladin",
-        "relacion": "aliado en combate; le salva la vida"
-      },
-      {
-        "personaje": "dalinar",
-        "relacion": "lo considera una figura casi sagrada"
-      }
-    ]
+    "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "mente equilibrada con fuerte base espiritual",
-    "evolucion": "pasa de fervoroso a Radiante manteniendo su fe pero reinterpretándola",
-    "situacion_en_viento_y_verdad": "estable, con visión optimista del mundo"
+    "diagnostico_general": "Reflexivo y compasivo. Su pasado como fervoroso le da una perspectiva filosófica y religiosa. Siente profundamente el deber de recordar a los caídos.",
+    "evolucion": "Pasó de fervoroso a Danzante del Filo, encontrando en el vínculo Nahel la identidad que siempre había buscado.",
+    "situacion_en_viento_y_verdad": "Activo."
   },
   "arco_narrativo": {
-    "resumen": "Antiguo fervoroso que encuentra en el vínculo Nahel una transformación tanto física como espiritual. Participa en misiones clave de los Radiantes, incluyendo la expedición a Shadesmar, donde actúa como apoyo, observador y voz reflexiva.",
+    "resumen": "Godeke fue fervoroso antes de vincularse con Archinal y convertirse en Danzante del Filo. Participó en la expedición diplomática a Shadesmar para persuadir a los honorspren. En Piedralar fue herido gravemente por un Fusionado con un fabrial que anuló su capacidad de curación; Kaladin lo rescató y Lift lo evacuó.",
     "puntos_clave": [
-      "vivió gran parte de su vida con deformidades físicas",
-      "el vínculo Nahel le permite curarse",
-      "se convierte en Danzante del Filo",
-      "participa en la defensa de civiles durante ataques de los fusionados",
-      "es gravemente herido e incapaz de curarse temporalmente por un fabrial enemigo",
-      "es rescatado por Kaladin",
-      "forma parte de la expedición diplomática a Shadesmar",
-      "muestra fascinación por el Reino Cognitivo",
-      "se opone a estrategias agresivas con los honorspren"
+      "Fue fervoroso antes de vincularse — lleva barba cuadrada como recuerdo de esa época.",
+      "Declaró que pasó toda su vida sintiéndose 'deforme' — en sentido figurado — y que el vínculo le permitió ser quien siempre se vio a sí mismo.",
+      "Se convierte en Danzante del Filo vinculado con Archinal, un cultivacispren.",
+      "Cuando Dalinar propone enviar un emisario a los honorspren, Lift se ofrece voluntaria pero los gobernantes la rechazan; Godeke se ofrece en su lugar alegando experiencia diplomática.",
+      "Participa en la expedición a Shadesmar junto a Adolin, Shallan y otros Radiantes.",
+      "Habla thayleño; actúa como intérprete con una caravana tukari hostil.",
+      "Antes de partir de Shadesmar, recorre los caídos y memoriza sus caras — rasgo característico de los Danzantes del Filo.",
+      "Se opone al plan de Adolin de ir a juicio en Integridad Duradera.",
+      "Acampa fuera de Integridad Duradera con Felt y Malli mientras esperan el resultado del juicio.",
+      "En Piedralar es herido gravemente en el estómago por un Fusionado; un fabrial suprime su capacidad de curación; Kaladin lo rescata y Lift lo evacúa.",
+      "Usó el último de su luz tormentosa para hacer comida — rasgo de su carácter altruista."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Caballero Radiante",
-    "rol": "Danzante del Filo en activo",
-    "relacion_con_spren": "vínculo con Archinal plenamente funcional",
-    "otros_detalles": "participa en misiones diplomáticas y de apoyo, además de combate y sanación"
+    "ocupacion": "Danzante del Filo",
+    "rol": "Radiante con funciones diplomáticas y de curación",
+    "relacion_con_spren": "Vínculo activo con Archinal, cultivacispren que adopta forma de mujer con túnica de enredaderas y cristal en el Reino Cognitivo.",
+    "otros_detalles": "Su referencia al Libro de las Páginas Interminables sugiere que perteneció al Devotario de la Sinceridad."
   },
-  "descripcion_breve": "Danzante del Filo y antiguo fervoroso que combina fe, curiosidad y compasión, viendo el mundo como una manifestación del Todopoderoso.",
-  "notas": "Considera que Honor es solo un aspecto del Todopoderoso. Su vínculo Nahel no solo le otorga poder, sino también una transformación personal profunda tras una vida marcada por deformidades."
+  "descripcion_breve": "Danzante del Filo y antiguo fervoroso. Su vínculo con Archinal le permitió convertirse en quien siempre se vio a sí mismo. Diplomático, erudito y compasivo.",
+  "notas": "El personaje es un homenaje a un fan de larga trayectoria muy querido en la comunidad de Brandon Sanderson. Su referencia al Libro de las Páginas Interminables puede indicar que perteneció al Devotario de la Sinceridad."
 }
