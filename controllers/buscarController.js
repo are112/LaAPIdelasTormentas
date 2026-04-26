@@ -4,6 +4,10 @@ import { loadHeraldosList } from "../utils/loadHeraldosList.js";
 import { loadHeraldo } from "../utils/loadHeraldo.js";
 import { loadSprenList } from "../utils/loadSprenList.js";
 import { loadSpren } from "../utils/loadSpren.js";
+import { loadDeshechosList } from "../utils/loadDeshechosList.js";
+import { loadDeshecho } from "../utils/loadDeshecho.js";
+import { loadEsquirlasList } from "../utils/loadEsquirlasList.js";
+import { loadEsquirla } from "../utils/loadEsquirla.js";
 
 // ─── Helpers ────────────────────────────────────────────
 
@@ -42,7 +46,7 @@ function getSortValue(obj, pathOrKey) {
   return JSON.stringify(raw ?? "").toLowerCase();
 }
 
-// ─── Filtro genérico (compartido por personajes, heraldos y spren) ───────────
+// ─── Filtro genérico (compartido por todos los tipos) ────
 
 function aplicarFiltros(detalle, filtros) {
   const {
@@ -118,11 +122,13 @@ export function buscar(req, res) {
 
   let resultados = [];
 
-  // ── Personajes ──────────────────────────────────────────
   const buscarPersonajes = !tipo || tipo === "personaje";
   const buscarHeraldos   = !tipo || tipo === "heraldo";
   const buscarSpren      = !tipo || tipo === "spren";
+  const buscarDeshechos  = !tipo || tipo === "deshecho";
+  const buscarEsquirlas  = !tipo || tipo === "esquirla";
 
+  // ── Personajes ──────────────────────────────────────────
   if (buscarPersonajes) {
     const lista = id
       ? loadList().filter((x) => String(x.id).toLowerCase() === String(id).toLowerCase())
@@ -161,6 +167,34 @@ export function buscar(req, res) {
       if (!detalle) continue;
       if (aplicarFiltros(detalle, filtros))
         resultados.push({ ...detalle, _tipo: "spren" });
+    }
+  }
+
+  // ── Deshechos ───────────────────────────────────────────
+  if (buscarDeshechos) {
+    const listaD = id
+      ? loadDeshechosList().filter((x) => String(x.id).toLowerCase() === String(id).toLowerCase())
+      : loadDeshechosList();
+
+    for (const d of listaD) {
+      const detalle = loadDeshecho(d.id);
+      if (!detalle) continue;
+      if (aplicarFiltros(detalle, filtros))
+        resultados.push({ ...detalle, _tipo: "deshecho" });
+    }
+  }
+
+  // ── Esquirlas ───────────────────────────────────────────
+  if (buscarEsquirlas) {
+    const listaE = id
+      ? loadEsquirlasList().filter((x) => String(x.id).toLowerCase() === String(id).toLowerCase())
+      : loadEsquirlasList();
+
+    for (const e of listaE) {
+      const detalle = loadEsquirla(e.id);
+      if (!detalle) continue;
+      if (aplicarFiltros(detalle, filtros))
+        resultados.push({ ...detalle, _tipo: "esquirla" });
     }
   }
 
