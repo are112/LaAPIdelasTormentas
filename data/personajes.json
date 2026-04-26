@@ -35,6 +35,13 @@
     "estado_actual": "viva"
   },
   {
+    "id": "chiri_chiri",
+    "nombre": "Chiri-Chiri",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
+  },
+  {
     "id": "cikatriz",
     "nombre": "Cikatriz",
     "orden": "Corredores del Viento",
@@ -68,6 +75,13 @@
     "orden": "Corredores del Viento",
     "nivel_ideal": 2,
     "estado_actual": "vivo"
+  },
+  {
+    "id": "drlwan",
+    "nombre": "Drlwan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "elhokar",
@@ -308,6 +322,13 @@
     "estado_actual": "viva"
   },
   {
+    "id": "nikli",
+    "nombre": "Nikli",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "oroden",
     "nombre": "Oroden",
     "orden": "Ninguna",
@@ -369,6 +390,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
+  },
+  {
+    "id": "rysn",
+    "nombre": "Rysn",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "sadeas",
@@ -448,8 +476,22 @@
     "estado_actual": "viva"
   },
   {
+    "id": "vstim",
+    "nombre": "Vstim",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "wikim",
     "nombre": "Wikim",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
+    "id": "yalb",
+    "nombre": "Yalb",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
