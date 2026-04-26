@@ -1,46 +1,36 @@
 {
   "id": "yelig_nar",
   "nombre": "Yelig-nar",
-  "apodos": [
-    "Vientomaldito",
-    "El Blightwind"
-  ],
+  "apodos": ["Vientomaldito"],
   "planeta_natal": "Roshar",
   "estado_actual": "activo (localización desconocida)",
   "especie": "deshecho",
   "nivel_consciencia": "media — cierto nivel de consciencia",
   "afiliacion": "Odium",
   "poderes": [
-    "Puede ser absorbido por un cantor o humano, otorgándole acceso a todas las potencias de los Radiantes",
+    "Puede ser absorbido por un cantor o humano tragando la gema que lo contiene, otorgándole acceso a todas las potencias de los Radiantes",
     "El huésped desarrolla cristales en el cuerpo y ojos rojos",
-    "El huésped debe controlar a Yelig-nar o será consumido",
+    "El huésped debe controlar a Yelig-nar o será consumido desde dentro",
     "Envuelve al huésped en un viento negro"
   ],
   "descripcion_fisica": "Se manifiesta como un viento negro. Sus huéspedes desarrollan cristales en el cuerpo y ojos rojos.",
-  "descripcion_breve": "Deshecho conocido como Vientomaldito. Puede ser absorbido por un individuo, otorgándole acceso a todas las potencias radiantes, pero a riesgo de ser consumido. Amaram lo absorbió en la batalla de Thaylenah.",
+  "descripcion_breve": "Deshecho conocido como Vientomaldito. Puede ser absorbido por un individuo tragando la gema que lo contiene, otorgándole acceso a todas las potencias radiantes pero a riesgo de ser consumido. Poseyó a Aesudan en Kholinar y luego fue absorbido por Amaram en la batalla de la Explanada Thayleña.",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "mencionado (visión de Dalinar)",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "principal",
-        "pov": false
-      }
+      { "titulo": "Juramentada",           "rol": "secundario — posee a Aesudan en Kholinar", "pov": false },
+      { "titulo": "El Ritmo de la Guerra", "rol": "secundario — absorbido por Amaram en Thaylenah", "pov": false }
     ]
   },
   "historia": {
-    "resumen": "Yelig-nar es uno de los Deshechos más peligrosos para sus propios aliados: otorga poder inmenso al huésped que lo absorbe, pero puede consumirlo si no lo controla. Highlord Amaram lo absorbió durante la batalla de Thaylenah, desarrollando cristales en el cuerpo y acceso a múltiples potencias. Kaladin lo enfrentó. Szeth lo mató junto con Amaram.",
+    "resumen": "Yelig-nar es uno de los Deshechos más peligrosos para sus propios aliados: otorga poder inmenso al huésped que lo absorbe, pero puede consumirlo si no lo controla. Poseyó a la reina Aesudan en Kholinar durante la toma de la ciudad. Posteriormente fue absorbido por Amaram durante la batalla de la Explanada Thayleña, quien desarrolló cristales en el cuerpo y acceso a múltiples potencias. Kaladin lo enfrentó. Lunamor mató a Amaram con un arco esquirlado, eliminando también a Yelig-nar.",
     "puntos_clave": [
-      "Mencionado en una visión de Dalinar donde Nohadon describía cómo irrumpió en su cancillería.",
-      "El highlord Amaram lo absorbe durante la batalla de Thaylenah.",
+      "Posee a la reina Aesudan en Kholinar — cuando Kaladin, Shallan y Adolin llegan a la ciudad ya está bajo su control.",
+      "Aesudan es destruida junto con Yelig-nar cuando Adolin mata a su huésped.",
+      "Amaram absorbe a Yelig-nar durante la batalla de la Explanada Thayleña tragando la gema que lo contenía.",
       "Amaram desarrolla cristales en el cuerpo, ojos rojos y acceso a múltiples potencias radiantes.",
       "Kaladin enfrenta a Amaram poseído durante la batalla.",
-      "Szeth mata a Amaram con Sangre Nocturna, eliminando también a Yelig-nar."
+      "Lunamor mata a Amaram con dos flechas de un arco esquirlado — una en la cabeza y otra en su gema corazón — eliminando también a Yelig-nar."
     ]
   },
-  "notas": "Su nombre tiene dos partes como Re-Shephir y Sja-anat, indicando nivel medio de consciencia. La absorción de Yelig-nar es uno de los pocos casos en que un no-Radiante accede temporalmente a potencias radiantes."
+  "notas": "Su nombre tiene dos partes como Re-Shephir y Sja-anat, indicando nivel medio de consciencia. La absorción de Yelig-nar es uno de los pocos casos en que un no-Radiante accede temporalmente a potencias radiantes. A diferencia de otros Deshechos, Yelig-nar puede ser contenido en una gema y liberado deliberadamente."
 }
