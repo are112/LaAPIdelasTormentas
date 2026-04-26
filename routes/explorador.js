@@ -1195,7 +1195,7 @@ router.get("/", (req, res) => {
       const slug = ORDEN_SLUG[orden];
       if (slug) {
         // Reducir al 75% para que respire dentro del cuadrado
-        const inner = Math.round(s * 0.72);
+        const inner = Math.round(s * 0.85);
         return \`<img src="/images/ordenes/\${slug}.svg" width="\${inner}" height="\${inner}" style="filter:brightness(2.5) saturate(1.2);object-fit:contain;display:block" alt="\${orden}" />\`;
       }
       return '⚡';
