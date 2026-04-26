@@ -384,10 +384,10 @@ router.get("/", (req, res) => {
       width: 32px; height: 32px;
       border-radius: 6px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 0.85rem;
-      background: rgba(176,56,40,0.15);
+      background: rgba(176,56,40,0.12);
       border: 1px solid rgba(176,56,40,0.25);
       flex-shrink: 0;
+      overflow: hidden;
     }
     /* Heraldo lista — foto cuadrada con borde dorado */
     .item-avatar-heraldo {
@@ -502,8 +502,8 @@ router.get("/", (req, res) => {
       background: rgba(176,56,40,0.12);
       border: 1px solid rgba(176,56,40,0.25);
       display: flex; align-items: center; justify-content: center;
-      font-size: 2rem;
       flex-shrink: 0;
+      overflow: hidden;
     }
     /* Heraldo ficha grande — cuadrado con borde dorado */
     .ficha-avatar-heraldo {
@@ -1195,7 +1195,7 @@ router.get("/", (req, res) => {
       const slug = ORDEN_SLUG[orden];
       if (slug) {
         // Reducir al 75% para que respire dentro del cuadrado
-        const inner = Math.round(s * 0.85);
+        const inner = Math.round(s * 0.72);
         return \`<img src="/images/ordenes/\${slug}.svg" width="\${inner}" height="\${inner}" style="filter:brightness(2.5) saturate(1.2);object-fit:contain;display:block" alt="\${orden}" />\`;
       }
       return '⚡';
@@ -1810,7 +1810,7 @@ router.get("/", (req, res) => {
         return \`
           <div class="item-personaje \${activo}"
                onclick="verDeshecho('\${d.id}')" data-id="deshecho_\${d.id}">
-            <div class="item-avatar-deshecho">👁</div>
+            <div class="item-avatar-deshecho"><img src="/images/odium.svg" width="27" height="27" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
             <div class="item-info">
               <div class="item-nombre">\${d.nombre}</div>
               <div class="item-orden">\${d.apodos?.[0] || 'Deshecho'}</div>
@@ -1871,7 +1871,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar-deshecho">👁</div>
+            <div class="ficha-avatar-deshecho"><img src="/images/odium.svg" width="61" height="61" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
             <div class="ficha-titulo">
               <h2>\${d.nombre}</h2>
               \${(d.apodos ?? []).length ? \`<div class="nombre-completo"><em>"\${d.apodos.join('", "')}"</em></div>\` : ''}
