@@ -12,7 +12,15 @@ import esquirlasRoutes from "./routes/esquirlas.js";
 
 const app = express();
 app.use(express.json());
-app.use(express.static('public'));
+
+// ─── Assets estáticos con caché de 1 día ─────────────────
+// Las imágenes y SVGs no cambian en cada deploy, el navegador
+// las cachea durante 24h evitando peticiones innecesarias.
+app.use(express.static("public", {
+  maxAge: "1d",
+  etag: true,
+  lastModified: true,
+}));
 
 // ─── Rutas ───────────────────────────────────────────────
 app.use("/personajes", personajesRoutes);
