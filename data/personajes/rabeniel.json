@@ -2,10 +2,7 @@
   "id": "rabeniel",
   "nombre": "Rabeniel",
   "nombre_completo": "Rabeniel",
-  "apodos": [
-    "Dama de los Deseos",
-    "Dama de los Suplicios"
-  ],
+  "apodos": ["Dama de los Deseos", "Dama de los Suplicios (nombre antiguo)", "Antigua (título que exigía a Navani)"],
   "sexo": "femenino",
   "especie": "cantor",
   "nacionalidad": "",
@@ -14,11 +11,7 @@
   "estado_actual": "fallecida",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "principal",
-        "pov": false
-      }
+      { "titulo": "El Ritmo de la Guerra", "rol": "antagonista principal", "pov": false }
     ]
   },
   "afiliaciones": [
@@ -29,82 +22,78 @@
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": ""
-    },
+    "spren_asociado": { "principal": "" },
     "estado_del_vinculo": ""
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Alteración (transformar objetos en polvo)",
-        "Exhalación de compuesto tóxico"
-      ],
+      "potencias": ["Alteración — puede transformar materia; exhalación de compuesto tóxico"],
       "fuente_de_luz": "luz del vacío"
     },
     "no_magicas": [
-      "Erudita excepcional en fabriales y luces",
-      "Conocimiento del Cosmere (conoce el nombre de Adonalsium)",
-      "Políglota: habla alezi y escribe con escritura femenina",
+      "Erudita excepcional en fabriales, luces e Investidura",
+      "Co-inventora de la antiluz tormentosa, antiluz del vacío y luz de guerra",
+      "Conoce el nombre de Adonalsium — conocimiento del Cosmere superior a casi cualquier Fusionado",
+      "Políglota — habla alezi y escribe con escritura femenina",
       "Manipuladora consumada",
-      "Co-inventora de la antiluz tormentosa, antiluz del vacío y luz de guerra"
+      "Creó una enfermedad para matar humanos — aunque resultó mayormente ineficaz"
     ]
   },
   "identidades": {
     "principales": [
-      "Fannahn-im",
-      "Organizadora de la invasión de Urithiru",
-      "Erudita fusionada"
+      "Fannahn-im de alto rango",
+      "Organizadora y líder de la invasión de Urithiru",
+      "Erudita obsesionada con acabar la guerra"
     ],
-    "descripcion": "Fusionada muy alta y esbelta con piel marmoleada roja y negra, pelo rojo anaranjado en cola alta y caparazón como yelmo. Obsesionada con poner fin al ciclo eterno de guerra entre Fusionados y Radiantes.",
+    "descripcion": "Fusionada muy alta y esbelta, con piel marmoleada roja y negra, pelo rojo anaranjado en cola alta y caparazón como yelmo. Dedos dos veces más largos que los de un cantor normal. Leshwi la consideraba peligrosa y la creía loca tras la última Desolación — en principio debía permanecer dormida. Se llama a sí misma 'Dama de los Deseos' aunque el Hermano la llama 'Dama de los Suplicios', su nombre antiguo. Exigía ser llamada 'Antigua' pero dejó de exigirlo cuando Navani se convirtió en su igual científica.",
     "estado_en_viento_y_verdad": "Fallecida antes de los eventos del libro."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "Essu",
-        "relacion": "hija; enloqueció durante las Desolaciones"
-      }
+      { "personaje": "Essu", "relacion": "hija; enloquecida por el ciclo de muerte y renacimiento; Rabeniel la mató con antiluz del vacío por compasión" }
     ],
     "amigos": [
-      {
-        "personaje": "navani",
-        "relacion": "colaboración forzada que evoluciona a respeto mutuo y rivalidad intelectual"
-      }
+      { "personaje": "navani", "relacion": "colaboración forzada que evolucionó a respeto mutuo genuino y rivalidad intelectual; Navani le concedió una muerte digna tomándole la mano" }
     ],
     "enemigos": [
-      {
-        "personaje": "navani",
-        "relacion": "adversaria que finalmente la mata"
-      },
-      {
-        "personaje": "leshwi",
-        "relacion": "desacuerdo filosófico y táctico"
-      }
+      { "personaje": "navani",  "relacion": "adversaria que finalmente la mata; Navani le dejó una nota en el cuerpo llamándola heroína" },
+      { "personaje": "leshwi", "relacion": "desacuerdo filosófico; Leshwi la espiaba a través de Venli y Rabeniel lo sabía — ambas fingían no saberlo" },
+      { "personaje": "kaladin", "relacion": "lo interceptó mientras corrompía el Hermano; lo apuñaló para estudiar su curación radiante" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "Razonablemente cuerda para una Fusionada de siete mil años. Agotada y obsesionada con acabar la guerra a cualquier precio.",
-    "evolucion": "Su obsesión la lleva a actuar al margen de Odium. No carece de empatía: siente dolor genuino por la muerte de su hija Essu y un cariño real por Navani.",
+    "diagnostico_general": "Razonablemente cuerda para una Fusionada de siete mil años, aunque Leshwi la creía loca. Agotada por la guerra interminable. Obsesionada con acabarla a cualquier precio. No carece de empatía — siente dolor genuino por su hija Essu y desarrolla un cariño real por Navani.",
+    "evolucion": "Su obsesión la lleva a actuar al margen de Odium. Comienza siendo manipuladora pura y termina en una relación de respeto genuino con Navani. En sus últimos momentos busca consuelo en ella.",
     "situacion_en_viento_y_verdad": "Fallecida."
   },
   "arco_narrativo": {
-    "resumen": "Organiza y lidera la invasión de Urithiru, corrompiendo al Hermano para suprimir los poderes de los Radiantes. Colabora con Navani en la investigación de la antiluz. Es finalmente asesinada por Navani con una daga de antiluz.",
+    "resumen": "Rabeniel propuso y lideró la invasión de Urithiru creyendo que el Hermano era un ojomaldito. Corrupta el Hermano con luz del vacío para suprimir los poderes de los Radiantes. Fuerza a Navani a colaborar en investigación de fabriales y luces. Juntas descubren la antiluz tormentosa, la antiluz del vacío y la luz de guerra. Usa la antiluz del vacío para matar a su hija Essu por compasión. Revela a Navani que su verdadero objetivo era encontrar un modo de matar permanentemente a los spren. Navani la apuñala con la daga de antiluz. Rabeniel pide a Navani que la remate porque la mayor parte de su alma se ha quemado. Navani lo hace con reverencia, tomándole la mano mientras muere al ritmo de guerra.",
     "puntos_clave": [
-      "Propone y lidera la invasión de Urithiru ante los Nueve.",
-      "Corrompe al Hermano con luz del vacío, suprimiendo los poderes de los Radiantes.",
-      "Fuerza a Navani a colaborar en la investigación de fabriales y luces.",
-      "Junto a Navani descubren la antiluz tormentosa, la antiluz del vacío y la luz de guerra.",
-      "Da a Navani la oportunidad de escapar de Moash como gesto de cariño.",
-      "Apuñalada por Navani con una daga de antiluz en 1175."
+      "Propone la invasión de Urithiru ante los Nueve, creyendo que el Hermano es un ojomaldito.",
+      "Lidera la invasión — permite que los humanos vivan como ciudadanos de segunda clase sin matanzas innecesarias.",
+      "Corrompe el Hermano con luz del vacío, suprimiendo los poderes de los Radiantes en la torre.",
+      "Fuerza a Navani a colaborar en investigación de luces, ofreciéndole acceso a textos de Kholinar.",
+      "Exige ser llamada 'Antigua' — deja de exigirlo cuando Navani se convierte en su igual científica.",
+      "Navani la corrige sobre la imposibilidad de mezclar luces — Rabeniel se da cuenta de que no debía aceptar conocimientos antiguos sin cuestionar.",
+      "Confía a Navani la existencia de su hija Essu para ganarse su confianza.",
+      "Junto a Navani descubren la antiluz del vacío, la antiluz tormentosa y la luz de guerra. Co-autoras del Ritmo de la Guerra.",
+      "Usa la antiluz del vacío en una daga raysium para matar a Essu por compasión — llora sobre el cuerpo de su hija.",
+      "Revela a Navani que su verdadero objetivo no era matar a Odium sino encontrar un modo de matar permanentemente a los spren.",
+      "Se apodera del cuaderno de Navani y usa sus avances para crear antiluz tormentosa.",
+      "Cuando Moash ataca a Navani, Rabeniel le agarra el pie y lo araña para ganar tiempo.",
+      "Kaladin destruye el último nodo del Hermano — Rabeniel fracasa en su misión.",
+      "Navani la apuñala con la daga de antiluz restante.",
+      "Pide a Navani que la remate porque la mayor parte de su alma se ha quemado — si renaciera estaría loca.",
+      "Navani le toma la mano y la mata con reverencia mientras armonizan juntas el Ritmo de la Guerra.",
+      "Navani deja una nota en su cuerpo llamándola heroína y ordenando que no la retiren."
     ]
   },
   "situacion_actual": {
     "ocupacion": "Fallecida",
     "rol": "Antagonista principal de El Ritmo de la Guerra",
     "relacion_con_spren": "",
-    "otros_detalles": "Su título original era 'Dama de los Suplicios', que ella misma cambió por 'Dama de los Deseos'."
+    "otros_detalles": "El título 'Dama de los Suplicios' era su nombre antiguo — ella misma lo cambió por 'Dama de los Deseos'. Leshwi la consideraba peligrosa y creía que debía permanecer dormida."
   },
-  "descripcion_breve": "Fusionada erudita fannahn-im que organizó la invasión de Urithiru y co-creó la antiluz junto a Navani. Antagonista compleja con empatía genuina. Fallecida en 1175 a manos de Navani.",
-  "notas": "Tiene conocimiento del Cosmere que supera al de la mayoría de Fusionados, conociendo incluso el nombre de Adonalsium."
+  "descripcion_breve": "Fusionada fannahn-im que organizó la invasión de Urithiru y co-creó la antiluz junto a Navani. Obsesionada con acabar la guerra a cualquier precio. Mató a su hija Essu por compasión. Antagonista compleja que desarrolló un respeto genuino por Navani, quien le concedió una muerte digna.",
+  "notas": "El Ritmo de la Guerra — el libro — es el nombre del tratado científico que Navani y Rabeniel co-escribieron durante la ocupación. Rabeniel sabía que Leshwi la espiaba a través de Venli, y Leshwi sabía que Rabeniel lo sabía — ambas fingían que la subterfugio era desconocida."
 }
