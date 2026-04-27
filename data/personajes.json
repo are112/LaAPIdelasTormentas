@@ -91,6 +91,13 @@
     "estado_actual": "viva"
   },
   {
+    "id": "el_fusionado",
+    "nombre": "El",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "elhokar",
     "nombre": "Elhokar",
     "orden": "Ninguna",
@@ -396,7 +403,7 @@
     "nombre": "Rushu",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "viva"
   },
   {
     "id": "rysn",
