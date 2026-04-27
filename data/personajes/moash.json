@@ -2,11 +2,7 @@
   "id": "moash",
   "nombre": "Moash",
   "nombre_completo": "Moash",
-  "apodos": [
-    "Vyre",
-    "Aquel Que Acalla",
-    "Lord Acallador"
-  ],
+  "apodos": ["Vyre", "Aquel que Acalla"],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "alezi",
@@ -15,137 +11,101 @@
   "estado_actual": "vivo",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "El Camino de los Reyes",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario importante",
-        "pov": false
-      },
-      {
-        "titulo": "Viento y Verdad",
-        "rol": "secundario importante",
-        "pov": false
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario importante", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario importante", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario importante", "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario importante", "pov": false },
+      { "titulo": "Viento y Verdad",        "rol": "secundario importante", "pov": false }
     ]
   },
   "afiliaciones": [
     "Puente Cuatro (anteriormente)",
     "Ejército de Sadeas (anteriormente)",
-    "El Diagrama (anteriormente)",
-    "Portadores del Vacío"
+    "El Diagrama (brevemente)",
+    "Fusionados — shanay-im al servicio de Odium"
   ],
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": ""
-    },
-    "estado_del_vinculo": "Porta la hoja de Honor de Jezrien; acceso a potencias sin vínculo formal con spren."
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": "Porta la hoja de Honor de Jezrien. Accede a Gravitación y Adhesión sin vínculo con spren — al coste de no poder reencarnarse si muere."
   },
   "habilidades": {
     "magia": {
-      "potencias": [
-        "Gravitación",
-        "Adhesión"
-      ],
+      "potencias": ["Gravitación", "Adhesión"],
       "fuente_de_luz": "luz tormentosa (mediante la hoja de Honor de Jezrien)"
     },
     "no_magicas": [
       "Lancero y espadachín excepcional",
-      "Portador de armadura y hoja esquirlada (anteriormente)",
-      "Visión de Investidura mediante clavos de cristal"
+      "Combate cuerpo a cuerpo de élite",
+      "Visión de Investidura y spren mediante clavos de cristal hemalúrgicos",
+      "Portador de armadura y hoja esquirlada (anteriormente)"
     ]
   },
   "identidades": {
     "principales": [
       "Exmiembro del Puente Cuatro",
-      "Asesino del rey Elhokar",
-      "Vyre"
+      "Asesino de Elhokar y Jezrien",
+      "Asesino de Teft y Phendorana",
+      "Vyre — Aquel que Acalla"
     ],
-    "descripcion": "Hombre delgado y fuerte con rostro aguileño y pelo castaño oscuro. Ojos oscuros de nacimiento. Tras la ocupación de Urithiru quedó ciego; le insertaron clavos de cristal que emiten luz violeta y le permiten ver Investidura.",
-    "estado_en_viento_y_verdad": "Activo como antagonista; pendiente de actualización."
+    "descripcion": "Hombre delgado y fuerte, rostro aguileño, pelo castaño oscuro. Ojos oscuros de nacimiento — inusualmente grande y seguro de sí mismo para ser ojos oscuros, lo que le generaba hostilidad constante. Tras quedar ciego en Urithiru, le insertaron clavos de cristal hemalúrgicos que emiten luz violeta y le permiten ver la Investidura y los spren. Moash es un nombre cantor antiguo — Leshwi se lo revela en Kholinar.",
+    "estado_en_viento_y_verdad": "Activo. Mata a Leyten y Ethenia en VyV. Su arco con Sigzil es uno de los más tensos del libro."
   },
   "relaciones": {
     "familia": [
-      {
-        "personaje": "Ana y Da (abuelos)",
-        "relacion": "criado por ellos; su muerte injusta en las mazmorras reales marcó su carácter"
-      }
+      { "personaje": "Ana y Da", "relacion": "abuelos; criado por ellos; murieron en las mazmorras reales por el caso Roshone mientras Moash estaba fuera trabajando en una caravana" }
     ],
     "amigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "antigua amistad profunda; rota por la traición de Moash"
-      },
-      {
-        "personaje": "leshwi",
-        "relacion": "aliado"
-      }
+      { "personaje": "kaladin", "relacion": "antigua amistad profunda; Kaladin le nombró comandante de subescuadrón por su fuerza de voluntad; rota definitivamente por la traición" }
     ],
     "enemigos": [
-      {
-        "personaje": "kaladin",
-        "relacion": "ex amigo; relación de antagonismo irresoluble"
-      },
-      {
-        "personaje": "elhokar",
-        "relacion": "lo asesina por considerarlo responsable de la muerte de sus abuelos"
-      },
-      {
-        "personaje": "cikatriz",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "leyten",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "navani",
-        "relacion": "enemigo"
-      },
-      {
-        "personaje": "teft",
-        "relacion": "enemigo"
-      }
+      { "personaje": "kaladin",  "relacion": "ex amigo; obsesionado con que Kaladin admita que tenía razón — cree que convencerle de suicidarse sería una misericordia" },
+      { "personaje": "elhokar",  "relacion": "lo mató dos veces — en el pecho y en el ojo — justo cuando iba a pronunciar el Primer Ideal" },
+      { "personaje": "teft",     "relacion": "lo mató con una daga de antiluz; mató primero a Phendorana, su spren" },
+      { "personaje": "leyten",   "relacion": "lo mató con un cuchillo de antiluz tras matar a Ethenia" },
+      { "personaje": "navani",   "relacion": "intentó asesinarla en Urithiru; Rabeniel le frenó" },
+      { "personaje": "lirin",    "relacion": "lo entregó a los Fusionados como seguro contra Kaladin" },
+      { "personaje": "leshwi",   "relacion": "la mató en su primer encuentro — por eso los Fusionados lo capturaron, para que pudiera vengarse; luego lo tomó bajo su protección" }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "Profunda alienación emocional; se entrega voluntariamente al vacío emocional de Odium para escapar del dolor.",
-    "evolucion": "Pasa de hombre con sentido de la justicia deformado por la rabia a una figura completamente vaciada de emoción al servicio de Odium.",
-    "situacion_en_viento_y_verdad": "Activo como antagonista; pendiente de actualización."
+    "diagnostico_general": "Profunda alienación emocional. Se entregó voluntariamente al vacío emocional de Odium para escapar del dolor. Kaladin es la única cosa que regularmente le hace sentir emociones brevemente. Matar a Elhokar solo le dejó frío, sin la satisfacción esperada.",
+    "evolucion": "Pasa de hombre con sentido de la justicia deformado por la rabia a una figura completamente vaciada de emoción al servicio de Odium. Su culpa por casi matar a Kaladin y su dolor por Elhokar lo empujaron a aceptar el vacío de Odium.",
+    "situacion_en_viento_y_verdad": "Vaciado de emoción como Vyre. Su obsesión con Kaladin persiste. Mata a Leyten y Ethenia en VyV."
   },
   "arco_narrativo": {
-    "resumen": "Miembro del Puente Cuatro que traiciona a Kaladin movido por la venganza. Pasa por el Diagrama y los Fusionados hasta convertirse en Vyre, identidad vaciada de emoción al servicio de Odium.",
+    "resumen": "Moash llegó a las Llanuras buscando venganza contra Elhokar por la muerte de sus abuelos. En el Puente Cuatro se convirtió en uno de los líderes más capaces. Intentó asesinar a Elhokar con Graves y desertó. Capturado por los Fusionados tras matar a Leshwi, fue tomado bajo su protección. Mató a Elhokar en Kholinar y luego a Jezrien con un cuchillo especial. Leshwi le ofreció la hoja de Honor de Jezrien y el nombre Vyre. Entregó a Odium sus emociones. En El Ritmo de la Guerra mató a Teft y Phendorana. En VyV mató a Leyten y Ethenia.",
     "puntos_clave": [
-      "Sus abuelos mueren injustamente en las mazmorras reales por el caso Roshone.",
-      "Se une al Puente Cuatro y entabla amistad profunda con Kaladin.",
-      "Intenta asesinar al rey Elhokar; fracasa y deserta.",
-      "Se une al Diagrama y luego a los Fusionados de la mano de Leshwi.",
-      "Recibe el nombre Vyre tras matar al Herald Jezrien con su propia hoja de Honor.",
-      "Queda ciego en Urithiru; le insertan clavos de cristal con visión de Investidura.",
-      "Insta a Kaladin a suicidarse como forma de salvación."
+      "Sus abuelos Ana y Da murieron en las mazmorras reales encarcelados por Roshone a petición de Elhokar, mientras Moash trabajaba en una caravana — llevaban dos meses muertos cuando regresó.",
+      "Se alistó voluntariamente con la esperanza de ganar una hoja esquirlada; fue enviado a los puentes.",
+      "Kaladin lo nombró comandante de subescuadrón por su fuerza de voluntad y capacidad.",
+      "Se involucra en la conspiración de Graves para asesinar a Elhokar; Kaladin la frustró.",
+      "Deserta con Graves y las esquirladas; huyen a las llanuras con una caravana de bienes robados.",
+      "La caravana es atacada por Fusionados; Moash mata a Leshwi — los Fusionados lo capturan para que ella pueda vengarse al renacer.",
+      "Leshwi, tras renacer, lo toma bajo su protección en lugar de vengarse.",
+      "Durante el asedio de Kholinar encuentra y mata a Elhokar — lo apuñala en el pecho y luego en el ojo justo cuando iba a terminar de jurar el Primer Ideal. Saluda a Kaladin y se marcha.",
+      "Matar a Elhokar solo le dejó frío, sin satisfacción.",
+      "La Fusionada Hnanan le entrega un cuchillo dorado con zafiro para matar a Jezrien. Lo mata en los jardines del palacio de Kholinar — muerte permanente del Heraldo.",
+      "Leshwi le ofrece la hoja de Honor de Jezrien y una nueva identidad. Le advierte que Moash dejará de existir. La acepta y toma el nombre cantor Vyre — Aquel que Acalla.",
+      "Entrega sus emociones a Odium para escapar del dolor.",
+      "El título Vyre pertenecía antiguamente al Fusionado El; Lezian lo consideró una falta de respeto que se diera a un humano.",
+      "Durante la ocupación de Urithiru activa la Puerta Jurada de Kholinar para que los Fusionados entren.",
+      "Tiende una trampa en la clínica para Kaladin; caen Teft y Lift. Hiere a Lift con la hoja de Honor.",
+      "Mata a Phendorana, el spren de Teft, con una daga de raysium con antiluz tormentosa. Mata a Teft.",
+      "Entrega a Lirin a los Fusionados como seguro contra Kaladin — con orden de matarle si Kaladin reacciona.",
+      "Intenta matar a Navani; Rabeniel le frena agarrándole el pie.",
+      "Queda ciego; le insertan clavos de cristal hemalúrgicos que le permiten ver Investidura y spren.",
+      "En VyV mata a Ethenia, el spren de Leyten, con un cuchillo de antiluz. Mata a Leyten con el mismo cuchillo.",
+      "Su estertor de muerte de Leyten presagiaba la muerte de Sigzil y Vienta."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Guerrero y asesino al servicio de los Portadores del Vacío",
-    "rol": "Antagonista principal en el eje Kaladin",
+    "ocupacion": "Guerrero shanay-im al servicio de los Fusionados",
+    "rol": "Antagonista recurrente en el eje Kaladin/Sigzil",
     "relacion_con_spren": "Porta la hoja de Honor de Jezrien.",
-    "otros_detalles": "Ciego, con clavos de cristal de luz violeta en las cuencas oculares."
+    "otros_detalles": "Ciego, con clavos de cristal de luz violeta en las cuencas oculares que le permiten ver Investidura y spren — esto le permitió ver a Ethenia y matarla."
   },
-  "descripcion_breve": "Exmiembro del Puente Cuatro que traicionó a Kaladin y se entregó a Odium. Porta la hoja de Honor de Jezrien y se ha convertido en Vyre, el Aquel que Acalla.",
-  "notas": "El nombre Moash tiene origen cantor. Su arco es uno de los más oscuros de la saga: la caída de alguien con sentido de la justicia que termina vaciado de toda emoción."
+  "descripcion_breve": "Exmiembro del Puente Cuatro que traicionó a Kaladin movido por la venganza. Se convirtió en Vyre al entregar sus emociones a Odium. Mató a Elhokar, Jezrien, Teft, Phendorana, Leyten y Ethenia. Su obsesión con Kaladin persiste incluso vaciado de emoción.",
+  "notas": "Moash es un nombre cantor antiguo — Leshwi se lo revela en Kholinar. El título Vyre pertenecía antes al Fusionado El, a quien se lo quitaron como castigo. Lezian consideró una falta de respeto que se diera a un humano. Sus clavos de cristal hemalúrgicos le permiten ver spren — por eso pudo ver y matar a Ethenia."
 }
