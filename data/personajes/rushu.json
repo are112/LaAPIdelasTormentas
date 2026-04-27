@@ -3,114 +3,86 @@
   "nombre": "Rushu",
   "nombre_completo": "Rushu",
   "apodos": [],
-  "sexo": "no binario",
+  "sexo": "femenino",
   "especie": "humano",
   "nacionalidad": "alezi",
   "origen": "Alezkar",
   "planeta_natal": "Roshar",
-  "estado_actual": "vivo",
+  "estado_actual": "viva",
   "apariciones": {
     "libros": [
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Juramentada",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "El Ritmo de la Guerra",
-        "rol": "secundario",
-        "pov": false
-      },
-      {
-        "titulo": "Esquirla del Amanecer",
-        "rol": "secundario",
-        "pov": false
-      }
+      { "titulo": "El Camino de los Reyes", "rol": "secundario", "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
+      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
+      { "titulo": "Esquirla del Amanecer",  "rol": "secundario", "pov": false }
     ]
   },
   "afiliaciones": [
-    "Principado Kholin",
-    "Fervor",
-    "Artifabrianos"
+    "Fervorosos Kholin",
+    "Eruditos de Navani",
+    "Urithiru"
   ],
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "spren_asociado": {
-      "principal": ""
-    },
-    "estado_del_vinculo": "no es Caballero Radiante"
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
   },
   "habilidades": {
-    "magia": {
-      "potencias": [],
-      "fuente_de_luz": ""
-    },
+    "magia": { "potencias": [], "fuente_de_luz": "" },
     "no_magicas": [
-      "artifabrianía avanzada",
-      "investigación sobre fabriales",
-      "estudio de spren",
-      "conocimiento de escritura y glifos",
-      "uso de moldeador de almas",
-      "ingeniería aplicada"
+      "Erudita e inventora de fabriales",
+      "Experta en caligrafía y escritura — conoce la escritura mejor que nadie según Navani",
+      "Conocimiento profundo de investigación sobre hojas esquirladas",
+      "Diseñadora del dispositivo de movilidad fabrial para Rysn",
+      "Primera ardente en escribir un ketek al revés",
+      "Mente brillante pero tendencia a distraerse con detalles irrelevantes"
     ]
   },
   "identidades": {
     "principales": [
-      "erudite",
-      "artifabriane",
-      "fervorose"
+      "Ardente erudita al servicio de Navani",
+      "Inventora de fabriales"
     ],
-    "descripcion": "Erudite brillante pero dispersa, con una curiosidad insaciable que la lleva a perderse en sus propios pensamientos. Capaz de saltar de una idea a otra sin aviso, combina genialidad técnica con una desconexión ocasional de lo que ocurre a su alrededor.",
-    "estado_en_viento_y_verdad": "activa en investigaciones fabriales"
+    "descripcion": "Ardente alezi de apariencia extremadamente atractiva — se unió a la ardentía precisamente para escapar de los avances de los hombres. Aun así, los ardentes varones siempre quieren trabajar con ella. Navani la aprecia profundamente y confía en su inteligencia, aunque reconoce que Rushu presta atención a las cosas más extrañas y nunca parece notar los detalles importantes. Directa, entusiasta con los experimentos y propensa a las distracciones.",
+    "estado_en_viento_y_verdad": "Activa en Urithiru."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
-      {
-        "personaje": "navani",
-        "relacion": "superiora y mentora en investigación"
-      },
-      {
-        "personaje": "rysn",
-        "relacion": "colaboradora; crea un dispositivo para ella"
-      }
+      { "personaje": "navani",  "relacion": "superior y figura de admiración mutua; Navani confía plenamente en su inteligencia" },
+      { "personaje": "rysn",    "relacion": "compañera en la expedición a Akinah; le diseñó un dispositivo de movilidad fabrial" },
+      { "personaje": "lopen",   "relacion": "compañero en la expedición a Akinah; lo reprendió por bromas inapropiadas" },
+      { "personaje": "huio",    "relacion": "compañero en la expedición; su descubrimiento sobre el aluminio llevó a Rushu a crear el dispositivo para Rysn" }
     ],
-    "enemigos": [],
-    "otros": [
-      {
-        "personaje": "lopen",
-        "relacion": "interacciones ocasionales durante expedición a Aimia"
-      }
-    ]
+    "enemigos": []
   },
   "estado_mental": {
-    "diagnostico_general": "mente extremadamente creativa pero dispersa",
-    "evolucion": "mantiene su patrón de pensamiento caótico mientras incrementa su impacto como artifabriane",
-    "situacion_en_viento_y_verdad": "centrada en la investigación, aunque con tendencia a la distracción"
+    "diagnostico_general": "Estable. Mente brillante y entusiasta. Tendencia a distraerse con detalles periféricos y perder de vista lo importante.",
+    "evolucion": "Constante a lo largo de la saga — su carácter curioso y distraído no varía.",
+    "situacion_en_viento_y_verdad": "Activa."
   },
   "arco_narrativo": {
-    "resumen": "Erudite del Principado Kholin que pasa de ser una investigadora excéntrica a una figura clave en el desarrollo de la artifabrianía moderna, participando en descubrimientos relevantes sobre fabriales y fenómenos asociados a los spren.",
+    "resumen": "Ardente erudita al servicio de Navani. Participa en investigaciones sobre glífos de la Gran Tormenta, fabriales, hojas esquirladas y luces. Acompañó a Rysn en la expedición a Akinah. Inventó un dispositivo de movilidad fabrial para Rysn. Participó en la investigación de la antiluz junto a Navani y Rabeniel en Urithiru.",
     "puntos_clave": [
-      "analiza los glifos relacionados con la tormenta eterna",
-      "trabaja bajo las órdenes de Navani Kholin",
-      "participa en experimentos con fabriales",
-      "diseña un asiento flotante para Rysn",
-      "forma parte de la expedición a Aimia",
-      "usa un moldeador de almas durante dicha expedición"
+      "Se unió a la ardentía para escapar de los avances de los hombres debido a su apariencia atractiva.",
+      "Es la primera ardente en haber escrito un ketek al revés.",
+      "Navani la encargó copiar los glífos del conteo de la Gran Tormenta y guardar silencio sobre ellos.",
+      "Investigó durante semanas por qué las hojas esquirladas pueden invocarse aunque la gema esté apagada — encontró registros históricos sobre las gemas ornamentales añadidas posteriormente.",
+      "Rechazó casarse a Dalinar y Navani junto a otros ardentes — salió corriendo literalmente.",
+      "Participó en la expedición a Akinah junto a Rysn, Lopen y Huio.",
+      "Reprendió a Lopen por bromas inapropiadas cerca de Rysn.",
+      "El descubrimiento de Huio sobre el comportamiento de los fabriales con aluminio llevó a Rushu a diseñar un dispositivo de movilidad fabrial para la silla de Rysn.",
+      "Participó en la investigación de la antiluz tormentosa junto a Navani y Rabeniel durante la ocupación de Urithiru."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "erudite y artifabriane",
-    "rol": "investigadora en el entorno de Navani",
-    "relacion_con_spren": "interés académico en los spren",
-    "otros_detalles": "su trabajo contribuye a avances importantes en la comprensión de los fabriales y las hojas esquirladas"
+    "ocupacion": "Ardente erudita e inventora de fabriales",
+    "rol": "Investigadora principal del equipo de Navani",
+    "relacion_con_spren": "",
+    "otros_detalles": "Navani la considera brillante pero reconoce que a veces es un poco ajena a los detalles importantes."
   },
-  "descripcion_breve": "Artifabriane del Principado Kholin, brillante pero caótica, cuya mente inquieta impulsa avances clave en el estudio de los fabriales.",
-  "notas": "Se unió al fervor en parte para evitar la atención masculina debido a su gran atractivo. Destaca por su valentía al arriesgarse personalmente en experimentos fabriales."
+  "descripcion_breve": "Ardente erudita alezi, investigadora principal del equipo de Navani. Brillante e inventiva pero propensa a distraerse. Diseñó el dispositivo de movilidad fabrial de Rysn. Primera ardente en escribir un ketek al revés.",
+  "notas": "Se unió a la ardentía para escapar de los avances de los hombres por su apariencia. Navani la describe como alguien que conoce la escritura mejor que nadie pero que presta atención a las cosas más extrañas y nunca nota los detalles importantes."
 }

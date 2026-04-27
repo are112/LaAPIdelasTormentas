@@ -1,0 +1,85 @@
+{
+  "id": "el_fusionado",
+  "nombre": "El",
+  "nombre_completo": "El",
+  "apodos": ["Vyre (título anterior, despojado como castigo)"],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar (época predesolacional)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Ritmo de la Guerra", "rol": "menor",                "pov": false },
+      { "titulo": "Viento y Verdad",       "rol": "secundario importante","pov": false }
+    ]
+  },
+  "afiliaciones": ["Fusionados"],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": ["Desconocidas — sus potencias no han sido confirmadas"],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Erudito excepcional — uno de los Fusionados más temidos e inteligentes",
+      "Reemplaza su caparazón por metal en cada renacimiento mediante luz del vacío y habilidades propias desconocidas",
+      "Poeta — escribió un ketek para celebrar el regreso del Hermano",
+      "Fascinado por el arte y la cultura humanas",
+      "Combatiente letal — mató a Lezian con facilidad"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fusionado sin título ni Ritmos — despojado de ambos como castigo",
+      "Erudito y uno de los Fusionados más temidos",
+      "El Vyre original — antes de que el título se diera a Moash"
+    ],
+    "descripcion": "Fusionado alto con espléndidos cuernos metálicos y caparazón transformado en reluciente acero — aspecto violento con toque artístico, todo líneas fluidas que terminan en punta. En cada renacimiento se quita el caparazón y lo sustituye por metal mediante luz del vacío y habilidades propias aún desconocidas. No puede oír los Ritmos — le fueron despojados como castigo. Incluso Fusionados tan poderosos como Lezian desconfían de cruzarse con él. Su nombre comparte raíz con Nahel aunque no es el origen del término.",
+    "estado_en_viento_y_verdad": "Activo. Lidera una segunda fuerza a las Llanuras Quebradas. Usa a Dai-Gonarthis para intentar crear una Puerta de lo Otro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      { "personaje": "lezian", "relacion": "lo mató permanentemente con antiluz del vacío para probar sus propiedades — sin aparente animosidad personal" },
+      { "personaje": "venli",  "relacion": "la fuerza de cantores de Venli tomó las Llanuras Quebradas antes de que El pudiera actuar" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sereno, inteligente y profundamente filosófico para ser un Fusionado. Fascinado por los humanos — los ve como un poema, una canción. No oír los Ritmos parece haberle dado una perspectiva distinta al resto de Fusionados.",
+    "evolucion": "Lleva milenios sin Ritmos ni título. Según Brandon Sanderson, es uno de esos Fusionados extraños que llevan demasiado tiempo en Roshar.",
+    "situacion_en_viento_y_verdad": "Activo y con un papel importante en VyV."
+  },
+  "arco_narrativo": {
+    "resumen": "El fue uno de los cantores más poderosos y talentosos antes de las Desolaciones. Fue apuñalado mortalmente por el Heraldo Jezrien — su muerte sirvió de advertencia a los Heraldos sobre la capacidad de resurrección de los Fusionados. En el pasado sugirió que los Fusionados debían gobernar a los humanos en lugar de exterminarlos — como castigo, Odium le despojó de sus Ritmos y de su título Vyre. Regresó durante la Verdadera Desolación con una perspectiva diferente al resto de Fusionados. En VyV mata a Lezian permanentemente con antiluz del vacío, lidera una fuerza a las Llanuras y negocia con Venli.",
+    "puntos_clave": [
+      "Uno de los cantores más poderosos y talentosos de la época predesolacional.",
+      "Fue apuñalado mortalmente por Jezrien — primera demostración de que los cantores pueden reencarnarse.",
+      "Sugirió gobernar a los humanos en lugar de exterminarlos — Odium lo castigó despojándole de sus Ritmos y su título Vyre.",
+      "El título Vyre — Aquel que Acalla — fue dado posteriormente a Moash; Lezian lo consideró una falta de respeto aunque al propio El no pareció molestarle.",
+      "Regresó durante la Verdadera Desolación estudiando el arte humano que representaba a los Fusionados como Portadores del Vacío.",
+      "Escribió un ketek para celebrar el regreso del Hermano.",
+      "Odium le eligió para probar la antiluz del vacío — El mató permanentemente a Lezian con ella tras su muerte en Urithiru.",
+      "Mató definitivamente a Jezrien destruyendo su gema, por respeto a su antigua amistad.",
+      "Habló con Taravangian como Odium — expresó admiración de que fuera humano hasta poco antes.",
+      "Elegido para liderar una segunda fuerza a las Llanuras Quebradas con Dai-Gonarthis para crear una Puerta de lo Otro.",
+      "Acordó una tregua con el ejército cantor de Venli antes de atacar.",
+      "Venli reveló que los cantores ya controlaban las Llanuras Quebradas — El mató al Fusionado que se enfureció por ello."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionado activo sin título ni Ritmos",
+    "rol": "Figura de autoridad entre los Fusionados en VyV; erudito y combatiente temido",
+    "relacion_con_spren": "",
+    "otros_detalles": "No puede oír los Ritmos cantores — le fueron despojados como castigo. Reemplaza su caparazón por metal en cada renacimiento. Su nombre comparte raíz con Nahel pero no es el origen del término."
+  },
+  "descripcion_breve": "Fusionado sin título ni Ritmos, despojado de ambos por sugerir gobernar a los humanos en lugar de exterminarlos. Erudito, filósofo y uno de los más temidos entre los Fusionados. El Vyre original. Mató permanentemente a Lezian con antiluz del vacío.",
+  "notas": "El fue el portador original del título Vyre — Aquel que Acalla — antes de ser despojado de él. Según Brandon Sanderson, es uno de esos Fusionados extraños que llevan demasiado tiempo existiendo. No oír los Ritmos le ha dado una perspectiva filosófica inusual entre los Fusionados. Su nombre comparte raíz con Nahel aunque no es el origen del término."
+}
