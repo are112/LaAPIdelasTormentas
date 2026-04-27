@@ -1,0 +1,121 @@
+{
+  "id": "fen_rnamdi",
+  "nombre": "Fen Rnamdi",
+  "nombre_completo": "Fen Rnamdi",
+  "apodos": [
+    "Reina Fen"
+  ],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Corona de Thaylenah",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política y estrategia diplomática excepcional",
+      "Liderazgo en crisis — organizó la defensa de Thaylenah tras la tormenta eterna",
+      "Directa hasta la brusquedad cuando habla con confianza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Reina de Thaylenah",
+      "Miembro de la Coalición de Monarcas"
+    ],
+    "descripcion": "Cara ovalada, ojos amarillos y cejas blancas thayleñas rizadas que caen por sus mejillas. Pelo canoso que deja caer sobre los hombros. Cuando habla con confianza puede ser muy directa hasta la brusquedad — cuando cambia al 'habla regia' es señal de que ha perdido confianza en la conversación. Busca conversaciones genuinas y honestas. No es autoridad absoluta — necesita el apoyo de los concejos mercantiles thayleños para tomar decisiones importantes. Thaylenah es una plutocracia en la práctica.",
+    "estado_en_viento_y_verdad": "Activa como reina de Thaylenah. Participa en los eventos del duelo de campeones."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Kmakl",
+        "relacion": "esposo y príncipe consorte; almirante de la marina thayleña"
+      },
+      {
+        "personaje": "Kdralk",
+        "relacion": "hijo; recibió la hoja de Estnatil tras la Batalla de Thaylenah"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado de la coalición; relación tensa al principio — se ganó su confianza siendo honesto"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "aliada; Navani negoció con ella los términos de la coalición"
+      },
+      {
+        "personaje": "vstim",
+        "relacion": "Vstim trabaja como Ministro de Comercio de Thaylenah bajo su mando"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmática, directa y perspicaz. Desconfía por defecto de las potencias extranjeras — especialmente de los alezi — pero actualiza su opinión ante la evidencia.",
+    "evolucion": "Pasó del rechazo inicial a la coalición a convertirse en uno de sus pilares más firmes tras la Batalla de Thaylenah.",
+    "situacion_en_viento_y_verdad": "Estable. Activa en los eventos del duelo de campeones."
+  },
+  "arco_narrativo": {
+    "resumen": "Reina de Thaylenah durante la Verdadera Desolación. Inicialmente rechazó unirse a la coalición de Dalinar por miedo a que los alezi tomaran el control de su ciudad y su Puerta Jurada. Dalinar la convenció siendo honesto con ella en lugar de usar la diplomacia formal. Tras la traición de Taravangian, la coalición se rompió temporalmente — Fen comprendió que aun así no podía permitirse dejar marchar a Dalinar. Sobrevivió a la Batalla de Thaylenah y reforzó su posición en la coalición. En VyV participa en los eventos del duelo de campeones.",
+    "puntos_clave": [
+      "Reina de Thaylenah — elegida hace décadas, no por herencia directa.",
+      "La tormenta eterna golpeó Thaylenah gravemente: acueductos, alcantarillado y muelles destruidos.",
+      "Dalinar la contactó para unirse a la coalición; Fen rechazó inicialmente por miedo a perder soberanía ante los alezi.",
+      "Dalinar la mostró visiones del Padre Tormenta — en la primera, Fen organizó a los aldeanos y enfrentó al enemigo por sí sola.",
+      "Fen exigió honestidad: cuando Dalinar le gritó de frustración, fue cuando empezó a escucharle de verdad.",
+      "Aceptó unirse a la coalición y permitió acceso a la Puerta Jurada de Ciudad Thaylen.",
+      "La traición de Taravangian y la filtración de secretos de Dalinar rompió temporalmente la coalición — Fen reconoció que no podía permitirse dejarlo marchar.",
+      "Taravangian manipuló a su gobierno para reducir la fuerza defensiva de la ciudad antes de la batalla.",
+      "Durante la Batalla de Thaylenah fue apresada junto a Kmakl por soldados de Sadeas bajo la Emoción — Navani los liberó con su dolorial.",
+      "Testimonio de la apertura de la Perpendicularidad de Honor por Dalinar.",
+      "Nombró a Vstim Ministro de Comercio de Thaylenah.",
+      "Participó en la reunión con Hoid antes del duelo de campeones en VyV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Reina de Thaylenah",
+    "rol": "Figura política central de la coalición; aliada de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Thaylenah es en la práctica una plutocracia donde los concejos mercantiles tienen un poder significativo que limita la autoridad de la reina."
+  },
+  "descripcion_breve": "Reina de Thaylenah y pilar de la Coalición de Monarcas. Directa, pragmática y escéptica. Inicialmente rechazó aliarse con Dalinar por miedo a perder soberanía; cambió de opinión cuando Dalinar eligió la honestidad sobre la diplomacia.",
+  "notas": "La clave de su personaje es que no responde a la diplomacia formal — solo responde a la honestidad. Thaylenah funciona como plutocracia en la práctica; Fen no puede tomar decisiones militares importantes sin el respaldo de los concejos mercantiles."
+}

@@ -133,6 +133,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "fen_rnamdi",
+    "nombre": "Fen Rnamdi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
+  },
+  {
     "id": "gavilar",
     "nombre": "Gavilar",
     "orden": "Ninguna",
@@ -152,6 +159,13 @@
     "orden": "Danzantes del Filo",
     "nivel_ideal": null,
     "estado_actual": "vivo"
+  },
+  {
+    "id": "graves",
+    "nombre": "Graves",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
   },
   {
     "id": "helaran",
@@ -229,6 +243,13 @@
     "orden": "Corredores del Viento",
     "nivel_ideal": 5,
     "estado_actual": "vivo"
+  },
+  {
+    "id": "khen",
+    "nombre": "Khen",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "kumatiki",

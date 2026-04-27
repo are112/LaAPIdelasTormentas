@@ -1,0 +1,102 @@
+{
+  "id": "graves",
+  "nombre": "Graves",
+  "nombre_completo": "Graves",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama",
+    "Ejército alezi"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Portador de armadura y hoja esquirlada — y armadura esquirlada",
+      "Conspirador y organizador político",
+      "Mando militar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Militar alezi de ojos claros",
+      "Agente del Diagrama liderando la conspiración para asesinar a Elhokar"
+    ],
+    "descripcion": "Militar alezi de ojos claros, portador de armadura y hoja esquirlada — inusualmente también de armadura esquirlada, lo que sugiere que Graves puede ser un nombre falso y que en realidad es un alto señor de identidad no revelada. Se presenta como patriota que busca el bien de Alezkar. Líder del ala del Diagrama encargada de asesinar al rey Elhokar para que Dalinar ocupara el trono.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "moash",
+        "relacion": "principal aliado en la conspiración; Moash lo sobrevivió"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "intentó reclutarle; Kaladin frustró sus planes y salvó a Elhokar"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "objetivo de asesinato"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Convencido de que Elhokar es un rey incompetente y que Dalinar es el verdadero líder que Alezkar necesita. Se considera un patriota, no un traidor.",
+    "evolucion": "Cuando Kaladin pronunció el Tercer Ideal, Graves cayó hacia atrás en shock y empezó a reírse histéricamente — el Diagrama había predicho el ascenso de Kaladin pero no supieron interpretarlo correctamente.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Graves lideraba el ala del Diagrama encargada de asesinar a Elhokar para que Dalinar ocupara el trono. Reclutó a Moash y luego intentó reclutar a Kaladin. Sus planes fracasaron cuando Kaladin cambió de opinión y salvó a Elhokar. Huyó de los campamentos con Moash, Febrth y Fia. Murió en las Tierras Heladas cuando un grupo de cuatro Fusionados los emboscó.",
+    "puntos_clave": [
+      "Miembro del Diagrama convencido de que Dalinar debería ser rey en lugar de Elhokar.",
+      "Organizó un primer plan: hacer que Elhokar cayera desde un balcón — fracasó cuando el rey se agarró a la barandilla.",
+      "Reclutó a Moash; luego intentó reclutar a Kaladin presentándolo como una causa patriótica.",
+      "Desarrolló un plan donde Kaladin llevaría a Elhokar a una posición donde Graves lo mataría con una flecha.",
+      "Plan final: ataque directo a Elhokar en el Pináculo con hojas esquirladas.",
+      "Kaladin frustró el ataque; cuando Kaladin pronunció el Tercer Ideal, Graves cayó en shock y se rió histéricamente afirmando que el Diagrama lo había predicho pero no supieron interpretarlo.",
+      "Huyó de los campamentos con Moash, Febrth y Fia disfrazados tras la Batalla de Narak.",
+      "Se perdieron en las Tierras Heladas. Un grupo de cuatro Fusionados los emboscó — Graves fue apuñalado en el pecho. Su hoja esquirlada se materializó junto a su cuerpo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Líder de la conspiración para asesinar a Elhokar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Portaba tanto hoja como armadura esquirlada, lo que es inusual para alguien sin título conocido — posiblemente Graves era un nombre falso. Paradójicamente creía que estaba sirviendo a los intereses de Alezkar y de Dalinar, quien nunca supo de sus planes ni los habría aprobado."
+  },
+  "descripcion_breve": "Militar alezi del Diagrama que lideró la conspiración para asesinar a Elhokar. Reclutó a Moash e intentó reclutar a Kaladin. Murió emboscado por Fusionados en las Tierras Heladas tras huir de los campamentos de guerra.",
+  "notas": "Portaba armadura esquirlada además de hoja, lo que sugiere una identidad real de alto señor no revelada. Cuando Kaladin pronunció el Tercer Ideal, cayó en shock riendo — el Diagrama lo había predicho pero fallaron al interpretarlo."
+}

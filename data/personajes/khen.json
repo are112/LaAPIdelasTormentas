@@ -1,0 +1,107 @@
+{
+  "id": "khen",
+  "nombre": "Khen",
+  "nombre_completo": "Khen",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "alezi (de origen — antigua parshmenia del principado de Sadeas)",
+  "origen": "Principado de Sadeas, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate en forma de guerra — aprendido de Moash",
+      "Supervivencia en regiones salvajes",
+      "Liderazgo informal de su grupo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Cantora — antigua parshmenia liberada por la tormenta eterna",
+      "Figura de resistencia contra la opresión de Fusionados y humanos por igual"
+    ],
+    "descripcion": "Cantora grande y musculosa con piel jaspeada de rojo y blanco. Voz grave con claro acento alezi — pasó toda su vida como parshmenia en Alezkar. Su único caparazón recorre sus antebrazos y sobresale en sus sienes. La forma de guerra le sienta bien. Apasionada por su libertad hasta el punto de estar dispuesta a matar para defenderla. Directa y sin pelos en la lengua. Se frustra tanto con la opresión humana como con la de los propios Fusionados.",
+    "estado_en_viento_y_verdad": "Activa — vive su propia vida independiente, lejos del ejército cantor."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "lo tomó cautivo cuando se rindió voluntariamente; aprendió habilidades de supervivencia de él"
+      },
+      {
+        "personaje": "moash",
+        "relacion": "combatió junto a él en Kholinar; le explicó el significado del nombre Vyre; lo abandonó al ver que seguía encadenado emocionalmente"
+      },
+      {
+        "personaje": "Sah",
+        "relacion": "compañero cantor de su grupo; fallecido en el asedio de Kholinar"
+      },
+      {
+        "personaje": "Ton",
+        "relacion": "compañero cantor de su grupo"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Apasionada, directa e impulsiva. Obsesionada con su libertad recién ganada. Rechaza cualquier nueva forma de opresión — humana o de Fusionados. Cuando descubrió que los propios Fusionados los explotaban como carne de cañón, su fe en Odium se quebró.",
+    "evolucion": "Pasó de esclava sin identidad a cantora apasionada que valora su libertad por encima de todo. Al ver que Moash seguía 'encadenado' a sus emociones por Kaladin, decidió separarse.",
+    "situacion_en_viento_y_verdad": "Vive su propia vida independiente, apartada tanto de humanos como del ejército cantor."
+  },
+  "arco_narrativo": {
+    "resumen": "Khen fue parshmenia en el principado de Sadeas hasta que la tormenta eterna le devolvió la consciencia. Lideró a un grupo de cantores liberados hacia Revolar. Tomó cautivo a Kaladin cuando se rindió voluntariamente. Fue enviada como carne de cañón al asedio de Kholinar junto a Moash. Descubrió que los Fusionados los habían tendido una trampa para augmentar su infantería. Aprendió a combatir de Moash. Presenció la muerte de Elhokar y de Sah. Tras la victoria abandonó Kholinar al descubrir que Moash seguía emocionalmente encadenado a Kaladin.",
+    "puntos_clave": [
+      "Parshmenia esclava en el principado de Sadeas; recuperó su identidad con la primera tormenta eterna.",
+      "Lideró un grupo de cantores liberados — incluyendo a Sah y su hija Vai — guiados por el vacíospren Yixli hacia Revolar.",
+      "Tomó cautivo a Kaladin cuando este se rindió voluntariamente a su grupo.",
+      "Kaladin le enseñó habilidades básicas de supervivencia durante el viaje.",
+      "Cuando Kaladin reveló ser un espía humano, su grupo fue castigado por los Fusionados y enviado como carne de cañón al asedio de Kholinar.",
+      "Descubrió que los Fusionados habían tramado deliberadamente el castigo para augmentar su infantería.",
+      "Conoció a Moash entre los esclavos hauling madera; aprendió a combatir de él.",
+      "Moash habló con Leshwi en su nombre — sin éxito.",
+      "Sah murió en el asedio de Kholinar; Khen lo vengó matando al responsable.",
+      "Presenció la muerte de Elhokar a manos de Moash.",
+      "Tras la victoria se le concedió la libertad — decidió quedarse en Kholinar cerca de Moash.",
+      "Le explicó a Moash el significado de su nuevo nombre Vyre — Aquel que Acalla.",
+      "Decidió abandonar Kholinar al ver que Moash seguía emocionalmente encadenado a Kaladin — Moash todavía no era 'libre'."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Libre — vive su propia vida apartada tanto de humanos como del ejército cantor",
+    "rol": "Figura de la resistencia cantora contra toda forma de opresión",
+    "relacion_con_spren": "",
+    "otros_detalles": "Invitó a Moash a unirse a ella si alguna vez conseguía desencadenarse de sus emociones. Moash le dijo que lo haría si se desencadenaba."
+  },
+  "descripcion_breve": "Cantora liberada por la tormenta eterna, antigua parshmenia del principado de Sadeas. Luchó en Kholinar junto a Moash. Directa e impulsiva, rechaza toda opresión. Abandonó el ejército cantor al comprobar que los Fusionados también los explotan.",
+  "notas": "Su acento alezi claro refleja toda una vida como parshmenia en Alezkar. Su historia en Juramentada es uno de los mejores ejemplos de la perspectiva cantor en la saga."
+}
