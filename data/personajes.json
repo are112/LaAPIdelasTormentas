@@ -245,11 +245,25 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "kdralk",
+    "nombre": "Kdralk",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "khen",
     "nombre": "Khen",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva"
+  },
+  {
+    "id": "kmakl",
+    "nombre": "Kmakl",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "kumatiki",

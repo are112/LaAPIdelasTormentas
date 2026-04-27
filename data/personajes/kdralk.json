@@ -1,0 +1,111 @@
+{
+  "id": "kdralk",
+  "nombre": "Kdralk",
+  "nombre_completo": "Kdralk",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército thayleño",
+    "Alta Guardia thayleña (tras la Batalla de Thaylenah)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Espadachín hábil — entrenado con posiciones aunque no porta esquirlada",
+      "Conocimiento de estrategia naval thayleña",
+      "Conocimiento de política económica de Thaylenah y Roshar",
+      "Habla alezi con fuerte acento — mezcla palabras"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitán del ejército thayleño",
+      "Hijo de la reina Fen y Kmakl",
+      "Portador de la hoja esquirlada de Estnatil — Alta Guardia"
+    ],
+    "descripcion": "Hombre joven de unos veinte años, alto para ser thayleño, ojos azules. Cejas largas thayleñas peinadas y endurecidas hacia atrás a lo largo de la cabeza. Uniforme nítido cortado al estilo thayleño con chaqueta corta abotonada. Entusiasta, exuberante y transparente en sus emociones — siempre deja claras sus opiniones. Mal genio fácil de encender pero capaz de pensar críticamente. Cambia rápidamente de opinión ante suficientes pruebas. Como hijo de reina en una monarquía electiva, es simplemente otro oficial — no heredará la corona.",
+    "estado_en_viento_y_verdad": "Activo en Thaylenah."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "fen_rnamdi",
+        "relacion": "madre"
+      },
+      {
+        "personaje": "kmakl",
+        "relacion": "padre"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "lucharon juntos durante la Batalla de Thaylenah"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "relación tensa al principio — lo desafió en duelo; cambió de opinión tras ver su carácter"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Joven apasionado, protector de su ciudad y su pueblo. Su hostilidad inicial a la coalición era patriotismo genuino, no arrogancia.",
+    "evolucion": "Pasó de ser hostil a la coalición a luchar junto a Adolin durante la batalla. Su duelo con Dalinar fue el punto de inflexión.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Kdralk era capitán del ejército thayleño muy crítico con la alianza con Urithiru cuando Dalinar visitó Ciudad Thaylen por primera vez. Desafió a Dalinar en duelo con espadas largas — sin esquirladas. Le asestó un golpe en el pecho; Dalinar usó luz tormentosa para curarse, lo que conmocionó a Kdralk. Durante la Batalla de Thaylenah luchó activamente. Adolin regresó al Reino Físico y ambos ayudaron a rescatar a Fen y Kmakl. Fen lo envió a recuperar la hoja esquirlada de Estnatil — un Alto Guardia caído — con la que quedó.",
+    "puntos_clave": [
+      "Capitán del ejército thayleño; hijo de la reina Fen y Kmakl.",
+      "Era parte de un grupo de jóvenes oficiales muy críticos con la alianza con Urithiru.",
+      "Desafió a Dalinar en duelo con espadas largas sin esquirladas — le asestó un golpe en el pecho.",
+      "Dalinar usó luz tormentosa para curarse; Kdralk entró en estado de shock.",
+      "Dalinar le explicó que no quería su vida, su ciudad ni su reino.",
+      "Kdralk cambió de opinión sobre Dalinar tras este encuentro.",
+      "Participó activamente en combate durante la Batalla de Thaylenah.",
+      "Adolin regresó al Reino Físico y juntos fueron a rescatar a Fen y Kmakl en otra parte de la ciudad.",
+      "Fen le ordenó recuperar la hoja esquirlada de Estnatil — un Alto Guardia thayleño caído cuando un tronador atravesó el muro.",
+      "Obtuvo la hoja de Estnatil — pasó a ser parte de la Alta Guardia thayleña.",
+      "Señaló en las reuniones de coalición que la estrategia funciona de forma diferente en el mar que en tierra."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Capitán del ejército thayleño; miembro de la Alta Guardia con la hoja de Estnatil",
+    "rol": "Oficial thayleño y portador de esquirlada",
+    "relacion_con_spren": "",
+    "otros_detalles": "Como Thaylenah tiene una monarquía electiva, es poco probable que herede la corona pese a ser hijo de la reina."
+  },
+  "descripcion_breve": "Capitán thayleño e hijo de la reina Fen. Inicialmente hostil a la coalición, desafió a Dalinar en duelo y cambió de opinión al ver su carácter. Luchó en la Batalla de Thaylenah y heredó la hoja esquirlada de Estnatil.",
+  "notas": "Thaylenah tiene monarquía electiva — Kdralk es simplemente otro oficial, no heredero. Habla alezi con fuerte acento thayleño mezclando palabras. Sus cejas endurecidas hacia atrás son un estilo thayleño distinto al de las cejas colgantes de otros personajes."
+}

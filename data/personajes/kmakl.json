@@ -1,0 +1,109 @@
+{
+  "id": "kmakl",
+  "nombre": "Kmakl",
+  "nombre_completo": "Kmakl",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Corona de Thaylenah",
+    "Marina thayleña",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Estrategia naval — almirante de la marina thayleña",
+      "Consejero informal de la reina Fen",
+      "No porta espada ni esquirlada"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Príncipe consorte de Thaylenah",
+      "Almirante de la marina thayleña",
+      "Esposo de la reina Fen"
+    ],
+    "descripcion": "Hombre envejecido con bigotes caídos que hacen juego con sus largas cejas thayleñas. Viste chaleco y gorra. No porta espada ni esquirlada. Siempre acompaña a Fen — su función durante los actos oficiales es situarse tras ella y, cuando ella dice algo que considera significativo, asentir para que los escribas lo registren en las crónicas oficiales. No interfiere en sus deberes como monarca; se asegura de que ella tenga siempre la última palabra. Tanto Navani como Dalinar lo aprecian. Sigue las Pasiones pese a la presión sobre los líderes thayleños para practicar el vorinismo.",
+    "estado_en_viento_y_verdad": "Activo en Thaylenah."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "fen_rnamdi",
+        "relacion": "esposa y reina; la acompaña a todos lados"
+      },
+      {
+        "personaje": "Kdralk",
+        "relacion": "hijo"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado de la coalición; Dalinar lo aprecia"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "aliada; Navani lo aprecia"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Sabio, discreto y leal. Su papel es apoyar a Fen sin interferir en sus decisiones.",
+    "evolucion": "Constante a lo largo de la saga.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Kmakl es el príncipe consorte y almirante de Thaylenah. Acompañó a Fen en todas las reuniones de la coalición y fue su apoyo constante durante la Batalla de Thaylenah. Fue apresado junto a Fen por soldados de Sadeas bajo la Emoción — Navani los liberó. Informó a la coalición de la victoria naval thayleña y el bloqueo de la flota veden.",
+    "puntos_clave": [
+      "Almirante de la marina thayleña y príncipe consorte.",
+      "Acompañó a Fen en las reuniones de la coalición — actúa como consejero informal.",
+      "Su función oficial es situarse tras Fen y asentir para que los escribas registren sus palabras significativas.",
+      "No interfiere en sus decisiones — se asegura de que Fen tenga siempre la última palabra.",
+      "Fue apresado junto a Fen por soldados de Sadeas bajo la Emoción en la Batalla de Thaylenah; Navani los liberó con su dolorial.",
+      "Fue testigo de la apertura de la Perpendicularidad de Honor por Dalinar.",
+      "Informó a la coalición de que la marina thayleña bloqueó a los barcos veden en sus puertos tras la traición de Taravangian.",
+      "La flota thayleña ganó una victoria naval decisiva a finales de 1174, obteniendo control de la mayoría de los mares del sur de Roshar.",
+      "Sigue las Pasiones con Fen pese a la presión de practicar el vorinismo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Almirante de la marina thayleña; príncipe consorte",
+    "rol": "Apoyo constante de la reina Fen; estratega naval de la coalición",
+    "relacion_con_spren": "",
+    "otros_detalles": "Fen comenta que Kmakl estaba particularmente enamorado durante sus primeros días de cortejo. Tanto Navani como Dalinar lo aprecian genuinamente."
+  },
+  "descripcion_breve": "Príncipe consorte de Thaylenah y almirante de su marina. Esposo discreto y leal de la reina Fen. Su función oficial es registrar sus palabras significativas — nunca interfiere en sus decisiones. Apreciado por Dalinar y Navani.",
+  "notas": "Thaylenah tiene una monarquía electiva — Kmakl es consorte pero no co-gobernante. La flota thayleña bajo su mando obtuvo el control de la mayoría de los mares del sur de Roshar a finales de 1174."
+}
