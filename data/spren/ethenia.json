@@ -5,15 +5,13 @@
   "tipo_spren": "honorspren",
   "es_splinter_de": "Honor",
   "mundo_natal": "Roshar",
-  "estado_actual": "activa",
-
+  "estado_actual": "fallecida",
   "origen": {
     "creador": "Padre Tormenta",
     "lugar_creacion": "Roshar",
     "generacion": "desconocida",
     "notas": "Honorspren vinculada a Leyten de Puente Cuatro. Información limitada disponible en los textos."
   },
-
   "apariencia": {
     "reino_fisico": {
       "forma_preferida": "figura femenina pequeña de luz azul-blanca, característica de los honorspren",
@@ -31,16 +29,15 @@
       "material": "desconocido"
     }
   },
-
   "personalidad": {
     "rasgos": [
-      "leal",
-      "protectora"
+      "analítica y amante de los números — Syl la describía como 'casi una Críptica'",
+      "aburrida según Syl",
+      "menos expresiva que otros honorspren como Syl o Phendorana"
     ],
     "valores": [],
-    "notas": "Información limitada disponible. Su personalidad no ha sido desarrollada en detalle en los textos publicados."
+    "notas": "Syl la describía como aburrida y con gusto por los números, casi como una Críptica. A pesar de ello, formó un vínculo fuerte con Leyten."
   },
-
   "habilidades": {
     "generales": [
       "comunicación telepática con Leyten"
@@ -49,38 +46,62 @@
       "Vínculo Nahel que otorga Gravitación y Adhesión a Leyten"
     ]
   },
-
   "vinculo_nahel": {
     "radiante_actual": "leyten",
     "orden_radiante": "Corredores del Viento",
-    "potencias_otorgadas": ["Gravitación", "Adhesión"],
+    "potencias_otorgadas": [
+      "Gravitación",
+      "Adhesión"
+    ],
     "forma_shardblade": "desconocida",
-    "estado_vinculo": "activo",
+    "estado_vinculo": "roto — Ethenia fallecida",
     "radiante_anterior": null,
-    "notas": "Información limitada. Leyten es miembro de Puente Cuatro y Corredor del Viento."
+    "notas": "El vínculo se formó tras la Batalla de Thaylenah. Ethenia fue asesinada por Moash en VyV con un cuchillo de antiluz."
   },
-
   "historia": {
-    "resumen": "Honorspren vinculada a Leyten de Puente Cuatro, convirtiéndole en Corredor del Viento. La información disponible sobre Ethenia es limitada, ya que Leyten es un personaje secundario cuyos detalles no han sido ampliamente desarrollados en los textos publicados.",
+    "resumen": "Ethenia se vinculó con Leyten tras la Batalla de Thaylenah, convirtiéndole en Corredor del Viento. Participó en varias misiones junto a Leyten, incluyendo la expedición a Akinah y las batallas de VyV. Fue asesinada por Moash en las Llanuras Quebradas durante VyV con un cuchillo de antiluz — Moash podía verla gracias a sus cristales hemalúrgicos. Leyten murió conmocionado poco después. Su muerte afectó profundamente a Vienta, el honorspren de Sigzil.",
     "puntos_clave": [
-      "se vinculó con Leyten de Puente Cuatro",
-      "le convirtió en Corredor del Viento de la nueva era"
+      "Se vinculó con Leyten tras la Batalla de Thaylenah.",
+      "Convirtió a Leyten en Corredor del Viento de la nueva era.",
+      "Participó en la expedición a Akinah junto a Leyten.",
+      "En VyV actuó junto a Leyten como mano derecha de Sigzil en las Llanuras Quebradas.",
+      "Moash engañó a Leyten y Sigzil con un dispositivo de antiluz oculto.",
+      "Moash podía ver a Ethenia gracias a sus cristales hemalúrgicos — la mató con un cuchillo de antiluz.",
+      "Leyten, conmocionado por su muerte, fue asesinado por Moash con el mismo cuchillo.",
+      "Su muerte afectó profundamente a Vienta, que temió el mismo destino."
     ]
   },
-
   "apariciones": {
     "libros": [
-      { "titulo": "El ritmo de la guerra", "rol": "mención", "pov": false },
-      { "titulo": "Viento y verdad",       "rol": "mención", "pov": false }
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario (fallece en este libro)",
+        "pov": false
+      }
     ]
   },
-
   "relaciones": {
-    "radiante_vinculado": { "personaje": "leyten", "relacion": "vínculo Nahel" },
+    "radiante_vinculado": {
+      "personaje": "leyten",
+      "relacion": "vínculo Nahel"
+    },
     "creador": null,
-    "otros": []
+    "otros": [
+      {
+        "personaje": "vienta",
+        "relacion": "su muerte la afectó profundamente — Vienta temió el mismo destino"
+      },
+      {
+        "personaje": "syl",
+        "relacion": "Syl la describía como aburrida y 'casi una Críptica'"
+      }
+    ]
   },
-
-  "descripcion_breve": "Honorspren vinculada a Leyten de Puente Cuatro, a quien convirtió en Corredor del Viento. Información limitada disponible en los textos publicados.",
-  "notas": "Al ser Leyten un personaje secundario, los detalles de Ethenia son escasos en los libros publicados. Esta ficha refleja lo conocido hasta Viento y Verdad."
+  "descripcion_breve": "Honorspren vinculada a Leyten tras la Batalla de Thaylenah. Analítica y amante de los números — Syl la describía como casi una Críptica. Asesinada por Moash en VyV con un cuchillo de antiluz.",
+  "notas": "Syl la describía como aburrida con un gusto por los números que la hacía parecer casi una Críptica. Su muerte afectó profundamente a Vienta. Moash pudo verla gracias a sus cristales hemalúrgicos antes de matarla."
 }
