@@ -1,0 +1,94 @@
+{
+  "id": "aesudan",
+  "nombre": "Aesudan",
+  "nombre_completo": "Aesudan Kholin",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      { "titulo": "El Camino de los Reyes", "rol": "menor",      "pov": false },
+      { "titulo": "Palabras Radiantes",     "rol": "menor",      "pov": false },
+      { "titulo": "Juramentada",            "rol": "secundario importante", "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Corona de Alezkar (como regente)",
+    "Fuerzas de Odium (al final, bajo influencia de Ashertmarn y Yelig-nar)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": "Absorbió a Yelig-nar tragando una gema. Fue consumida por el Deshecho al no poder controlarlo."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": ["Acceso temporal a las diez potencias (absorbiendo a Yelig-nar)"],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Política y gestión cortesana — considerada competente en esto por Navani",
+      "Oratoria y manejo de la imagen pública",
+      "Manipulación de figuras religiosas — rodearse de fervorosos aduladores"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Reina de Alezkar por matrimonio con Elhokar",
+      "Regente de Alezkar durante la Guerra de la Venganza",
+      "Huésped de Yelig-nar durante el asedio a Kholinar"
+    ],
+    "descripcion": "Mujer alezi de figura esbelta y pelo negro largo que llevaba en un moño con diez gemas como accesorio. Políticamente competente según Navani, aunque ésta no la consideraba buena persona. Jasnah quería asesinarla porque la creía peligrosa para el trono. Durante la ausencia de Elhokar gobernó Kholinar como regente cayendo progresivamente en excesos y decadencia bajo la influencia de Ashertmarn y luego Yelig-nar.",
+    "estado_en_viento_y_verdad": "Fallecida antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      { "personaje": "elhokar",  "relacion": "esposo; rey de Alezkar; fallecido" },
+      { "personaje": "gavinor",  "relacion": "hijo; la influencia de los Deshechos lo traumatizó" },
+      { "personaje": "navani",   "relacion": "suegra; relación tensa — Aesudan la provocaba deliberadamente" },
+      { "personaje": "jasnah",   "relacion": "cuñada; Jasnah quería asesinarla por considerarla peligrosa para el trono" }
+    ],
+    "amigos": [],
+    "enemigos": [
+      { "personaje": "navani",  "relacion": "Aesudan la provocaba deliberadamente para incomodarla" },
+      { "personaje": "jasnah",  "relacion": "Jasnah la consideraba una amenaza para el trono y quería eliminarla" },
+      { "personaje": "kaladin", "relacion": "descubrió que Gavinor era atormentado por spren rojos bajo su custodia" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Inicialmente vanidosa y políticamente calculadora. Progresivamente corrompida por Ashertmarn — perdió el interés en gobernar, se entregó a los excesos. Finalmente vinculada con Yelig-nar, perdió el control de sí misma.",
+    "evolucion": "Pasó de regente políticamente astuta a gobernante corrompida por Ashertmarn y finalmente consumida por Yelig-nar.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Aesudan gobernó Kholinar como regente durante la ausencia de Elhokar. Navani la asesoró durante años hasta trasladarse a las Llanuras. Sin supervisión, cayó bajo la influencia de Ashertmarn — organizó festines excesivos, aumentó impuestos y dejó pudrir la comida destinada a los soldados. Ordenó ejecutar a la fervorosa Pai, que la había denunciado públicamente. El Heraldo Battar (como la ardente Dova) la visitó en varias ocasiones antes del asedio. Se vinculó con Yelig-nar durante el asedio a Kholinar y fue consumida por el Deshecho al no poder controlarlo.",
+    "puntos_clave": [
+      "Se casó con Elhokar antes de su ascensión al trono.",
+      "Gobernó Kholinar como regente durante la Guerra de la Venganza mientras Elhokar luchaba en las Llanuras.",
+      "Navani permaneció en Kholinar para asesorarla durante varios años.",
+      "Canceló la Fiesta de los Mendigos — símbolo de su desconexión con el pueblo.",
+      "Tras la marcha de Navani, cayó bajo la influencia de Ashertmarn: festines excesivos, aumento de impuestos, comida pudriéndose.",
+      "El Heraldo Battar, usando el alias de la ardente Dova, la visitó en múltiples ocasiones.",
+      "Ordenó la ejecución de la fervorosa Pai, que la había denunciado públicamente — desencadenó disturbios en Kholinar.",
+      "Una coalición de nobles fue al palacio a protestar y nunca regresó.",
+      "Se vinculó con Yelig-nar durante el asedio a Kholinar, jactándose de que el Deshecho la servía.",
+      "Kaladin encontró a Gavinor atormentado por spren rojos mientras ella afirmaba que jugaba con amigos.",
+      "Fue consumida por Yelig-nar al no poder controlar el abrumador poder del Deshecho — coincidiendo aproximadamente con la muerte de Elhokar a manos de Moash.",
+      "Gavinor quedó traumatizado por esta época — tardó más de un año en volver a ser sociable."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Regente y reina de Alezkar; antagonista secundaria en Juramentada",
+    "relacion_con_spren": "Consumida por Yelig-nar.",
+    "otros_detalles": "Navani culpa a Aesudan por lo que le ocurrió a Gavinor, aunque también se culpa a sí misma por haberla dejado sola en Kholinar."
+  },
+  "descripcion_breve": "Reina de Alezkar por matrimonio con Elhokar. Gobernó como regente durante la Guerra de la Venganza cayendo progresivamente en la decadencia bajo influencia de Ashertmarn. Se vinculó con Yelig-nar durante el asedio a Kholinar y fue consumida por el Deshecho.",
+  "notas": "Navani la consideraba políticamente competente pero poco más. Jasnah quería asesinarla. La fervorosa Pai fue ejecutada por denunciarla públicamente. Gavinor quedó tan traumatizado por esta época que tardó más de un año en volver a ser sociable y afectivo."
+}
