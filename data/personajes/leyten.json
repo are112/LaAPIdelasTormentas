@@ -8,14 +8,34 @@
   "nacionalidad": "alezi",
   "origen": "Alezkar",
   "planeta_natal": "Roshar",
-  "estado_actual": "vivo",
+  "estado_actual": "fallecido",
   "apariciones": {
     "libros": [
-      { "titulo": "El Camino de los Reyes", "rol": "secundario", "pov": false },
-      { "titulo": "Palabras Radiantes",     "rol": "secundario", "pov": false },
-      { "titulo": "Juramentada",            "rol": "secundario", "pov": false },
-      { "titulo": "El Ritmo de la Guerra",  "rol": "secundario", "pov": false },
-      { "titulo": "Viento y Verdad",        "rol": "secundario importante", "pov": false }
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario importante (fallece en este libro)",
+        "pov": false
+      }
     ]
   },
   "afiliaciones": [
@@ -27,17 +47,22 @@
   "orden_radiantes": {
     "orden": "Corredores del Viento",
     "nivel_ideal": null,
-    "spren_asociado": { "principal": "" },
+    "spren_asociado": {
+      "principal": "Ethenia"
+    },
     "estado_del_vinculo": "activo"
   },
   "habilidades": {
     "magia": {
-      "potencias": ["Gravitación", "Adhesión"],
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
       "fuente_de_luz": "luz tormentosa"
     },
     "no_magicas": [
-      "Logística y organización de suministros",
-      "Mantenimiento de equipo",
+      "Armería — aprendiz de armero antes de ser portador de puentes; fabricó armaduras de caparazón parshendi para el Puente Cuatro",
+      "Logística y organización de suministros — intendente de los Corredores del Viento",
       "Combate básico"
     ]
   },
@@ -47,19 +72,34 @@
       "Intendente y responsable logístico",
       "Corredor del Viento"
     ],
-    "descripcion": "Miembro del Puente Cuatro conocido por su pulcritud y su preferencia por las tareas organizativas sobre el combate. Se convirtió en el intendente del grupo, gestionando suministros y equipamiento.",
+    "descripcion": "Hombre alto y corpulento, de cara ovalada, complexión gruesa y pelo rubio rizado corto. De carácter afable — habla con cualquiera independientemente de su rango. Era aprendiz de armero antes de ser portador de puentes. Fue enviado a las carreras de puentes tras ser usado como chivo expiatorio cuando la armadura de un señor de ojos claros falló. Define su carácter la pulcritud y la preferencia por tareas organizativas sobre el combate.",
     "estado_en_viento_y_verdad": "Activo como Corredor del Viento con funciones logísticas."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
-      { "personaje": "kaladin",  "relacion": "capitán" },
-      { "personaje": "teft",     "relacion": "compañero del Puente Cuatro; fallecido" },
-      { "personaje": "lunamor",  "relacion": "compañero del Puente Cuatro" },
-      { "personaje": "sigzil",   "relacion": "compañero cercano" }
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "compañero del Puente Cuatro; fallecido"
+      },
+      {
+        "personaje": "lunamor",
+        "relacion": "compañero del Puente Cuatro"
+      },
+      {
+        "personaje": "sigzil",
+        "relacion": "compañero cercano"
+      }
     ],
     "enemigos": [
-      { "personaje": "moash", "relacion": "traidor al Puente Cuatro; enemigo" }
+      {
+        "personaje": "moash",
+        "relacion": "traidor al Puente Cuatro; enemigo"
+      }
     ]
   },
   "estado_mental": {
@@ -68,21 +108,29 @@
     "situacion_en_viento_y_verdad": "Estable, centrado en funciones logísticas."
   },
   "arco_narrativo": {
-    "resumen": "Leyten llegó al Puente Cuatro como portador de puentes. Herido gravemente y salvado por Kaladin, se integró en el grupo asumiendo el papel de intendente. Posteriormente se convirtió en Corredor del Viento.",
+    "resumen": "Leyten llegó al Puente Cuatro como portador de puentes. Herido y salvado por Kaladin, se integró asumiendo el papel de intendente. Se convirtió en Corredor del Viento vinculado con Ethenia. Actuó como mano derecha de Sigzil en VyV hasta que Moash los engañó con un dispositivo de antiluz y mató primero a Ethenia y luego a Leyten con un cuchillo de antiluz.",
     "puntos_clave": [
-      "Portador de puentes bajo Sadeas.",
-      "Herido gravemente; salvado por Kaladin.",
-      "Asume el rol de intendente del Puente Cuatro.",
-      "Se convierte en Corredor del Viento.",
-      "Participa en los conflictos de la Verdadera Desolación."
+      "Aprendiz de armero; enviado a las carreras de puentes tras ser usado como chivo expiatorio cuando la armadura de un señor de ojos claros falló.",
+      "Herido gravemente en una carrera de puentes; salvado y tratado por Kaladin.",
+      "Fabricó armaduras de caparazón parshendi para el Puente Cuatro usando sus habilidades como armero.",
+      "Asume el rol de intendente del Puente Cuatro — prefiere el trabajo aburrido al combate.",
+      "Se encuentra con Re-Shephir en los sótanos de Urithiru — la experiencia lo sacude profundamente.",
+      "Participa en la expedición a Akinah; una criatura le drena la luz tormentosa y cae al océano — Lyn y Sigzil lo rescatan.",
+      "Se vincula con su honorspren Ethenia tras la Batalla de Thaylenah.",
+      "Participa en la expedición del Cuarto Puente a Piedralar.",
+      "Acompaña a Dalinar a buscar a Ishar; él y otros cuatro Corredores del Viento son atados a la piedra por el Heraldo con una cuerda luminosa que les drena la luz tormentosa. Hallan cadáveres de spren en el Reino Físico al revisar el campamento de Ishar.",
+      "Participa en el funeral de Teft.",
+      "En VyV actúa como mano derecha de Sigzil en las batallas de las Llanuras Quebradas.",
+      "Moash engaña a Leyten y Sigzil con un dispositivo de antiluz oculto. Al poder ver a los spren gracias a sus cristales hemalúrgicos, mata a Ethenia con un cuchillo de antiluz. Leyten, conmocionado por la muerte de Ethenia, es asesinado por Moash con el mismo cuchillo.",
+      "Su estertor de muerte presagiaba la muerte de Sigzil y Vienta."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Corredor del Viento; intendente del Puente Cuatro",
+    "ocupacion": "Fallecido",
     "rol": "Apoyo logístico del Puente Cuatro",
-    "relacion_con_spren": "Vínculo activo con un honorspren.",
-    "otros_detalles": "Prefiere tareas organizativas y rutinarias frente al combate directo."
+    "relacion_con_spren": "Ethenia — fallecida a manos de Moash con un cuchillo de antiluz.",
+    "otros_detalles": "Murió en VyV a manos de Moash. Su estertor de muerte presagiaba la muerte de Sigzil y Vienta. La muerte de Ethenia afectó profundamente a Vienta, el honorspren de Sigzil."
   },
-  "descripcion_breve": "Miembro del Puente Cuatro y Corredor del Viento especializado en logística. Conocido por su pulcritud y su preferencia por las tareas organizativas.",
-  "notas": ""
+  "descripcion_breve": "Miembro del Puente Cuatro y Corredor del Viento especializado en logística. Mano derecha de Sigzil en VyV. Fallecido cuando Moash mató primero a su honorspren Ethenia y luego a él con un cuchillo de antiluz.",
+  "notas": "Ethenia era conocida por su gusto por los números — Syl la describía como 'casi una Críptica'. Leyten está basado en un amigo del grupo de escritura de Brandon Sanderson llamado Alan. Su estertor de muerte presagiaba la muerte de Sigzil y Vienta."
 }
