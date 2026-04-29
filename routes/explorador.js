@@ -1818,6 +1818,15 @@ router.get("/", (req, res) => {
       acciones[state.tipo]?.(state.id);
     });
 
+    // ── Tabs ───────────────────────────────────────────────
+    let tabActual = 'personajes';
+
+    cargarLista();
+    cargarSpren();
+    cargarHeraldos();
+    cargarDeshechos();
+    cargarEsquirlas();
+
     // ── Carga inicial desde URL (recarga / link compartido) ─
     (function() {
       const params = new URLSearchParams(location.search);
@@ -1834,18 +1843,9 @@ router.get("/", (req, res) => {
           esquirla:  () => verEsquirla(id,  false),
         };
         // Esperar a que los datos carguen antes de abrir la ficha
-        setTimeout(() => acciones[tipo]?.(), 600);
+        setTimeout(() => acciones[tipo]?.(), 800);
       }
     })();
-
-    cargarLista();
-    cargarSpren();
-    cargarHeraldos();
-    cargarDeshechos();
-    cargarEsquirlas();
-
-    // ── Tabs ───────────────────────────────────────────────
-    let tabActual = 'personajes';
 
     function cambiarTab(tab) {
       tabActual = tab;
