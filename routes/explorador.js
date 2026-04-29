@@ -458,6 +458,15 @@ router.get("/", (req, res) => {
       z-index: 5;
     }
     .estado-vacio p { font-size: 1.1rem; font-style: italic; color: var(--gris-plata); }
+    .estado-vacio .cita {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      color: var(--gris-plata);
+      opacity: 0.4;
+      margin-top: 0.75rem;
+      text-transform: uppercase;
+    }
 
     /* Cargando */
     .cargando {
@@ -1132,6 +1141,7 @@ router.get("/", (req, res) => {
     <!-- Estado vacío: fuera del panel, centrado en toda la ventana -->
     <div class="estado-vacio" id="estado-vacio">
       <p>Selecciona un elemento para explorar su ficha</p>
+      <div class="cita">Vida antes que muerte · Fuerza antes que debilidad · Viaje antes que destino</div>
     </div>
   </div>
 
