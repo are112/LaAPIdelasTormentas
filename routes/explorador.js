@@ -1243,13 +1243,11 @@ router.get("/", (req, res) => {
       }
       // Solo humanos sin orden llevan el badge humano
       if (!especie || especie.toLowerCase() === 'humano') {
-        const h = Math.round(s * 1.2);
-        return '<img src="/images/humano.png" width="' + h + '" height="' + h + '" style="display:block;margin:-' + Math.round(s*0.1) + 'px" alt="Humano"/>';
+        return '<img src="/images/humano.png" style="width:100%;height:100%;object-fit:cover;display:block" alt="Humano"/>';
       }
       // Cantores/Parshmenios
       if (especie.toLowerCase().includes('cantor') || especie.toLowerCase().includes('pars')) {
-        const h = Math.round(s * 1.2);
-        return '<img src="/images/parshmenios.png" width="' + h + '" height="' + h + '" style="display:block;margin:-' + Math.round(s*0.1) + 'px" alt="Cantor"/>';
+        return '<img src="/images/parshmenios.png" style="width:100%;height:100%;object-fit:cover;display:block" alt="Cantor"/>';
       }
       // Otros (larkin, insomne, retornado...) — cuadrado vacío
       return '';
@@ -2065,7 +2063,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = filtrada.map(e => {
         const activo = seleccionado === 'esquirla_' + e.id ? 'activo' : '';
         const bg     = bgMap[e.id] || 'rgba(255,255,255,0.04)';
-        const imgAvatar = '<img src="/images/' + e.id + '.png" width="38" height="38" style="display:block;margin:-3px" alt="' + e.nombre + '"/>';
+        const imgAvatar = '<img src="/images/' + e.id + '.png" style="width:100%;height:100%;object-fit:cover;display:block" alt="' + e.nombre + '"/>';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verEsquirla('\${e.id}')" data-id="esquirla_\${e.id}">
@@ -2109,7 +2107,7 @@ router.get("/", (req, res) => {
       const borMap  = { honor:'rgba(240,192,64,0.35)', cultivacion:'rgba(39,174,96,0.35)', odium:'rgba(192,57,43,0.35)', represalia:'rgba(79,195,247,0.35)' };
       const bg     = bgMap2[e.id]  || 'rgba(255,255,255,0.04)';
       const border = borMap[e.id]  || 'rgba(255,255,255,0.1)';
-      const imgFicha = '<img src="/images/' + e.id + '.png" width="86" height="86" style="display:block;margin:-7px" alt="' + e.nombre + '"/>';
+      const imgFicha = '<img src="/images/' + e.id + '.png" style="width:100%;height:100%;object-fit:cover;display:block" alt="' + e.nombre + '"/>';
 
       const badgeEstado = e.estado_actual?.includes('activa')
         ? 'badge-vivo'
