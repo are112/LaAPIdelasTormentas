@@ -159,9 +159,7 @@ router.get("/", (req, res) => {
       font-size: 0.85rem;
       opacity: 0.5;
       z-index: 1;
-      transition: opacity 0.2s;
     }
-    .buscador-wrap:focus-within::before { opacity: 0.9; }
     #buscador {
       width: 100%;
       padding: 0.55rem 0.75rem 0.55rem 2.1rem;
@@ -295,21 +293,13 @@ router.get("/", (req, res) => {
       justify-content: space-between;
       align-items: center;
       flex-shrink: 0;
-      gap: 0.4rem;
     }
     .lista-titulo span {
-      background: transparent;
+      background: rgba(255,255,255,0.07);
       color: var(--gris-plata);
       border-radius: 3px;
-      padding: 0;
+      padding: 0.1rem 0.4rem;
       font-size: 0.65rem;
-      opacity: 0.7;
-    }
-    .lista-titulo::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: rgba(255,255,255,0.05);
     }
 
     /* Listas de entidades — clase compartida */
@@ -369,11 +359,10 @@ router.get("/", (req, res) => {
       border-radius: 5px;
       cursor: pointer;
       border: 1px solid transparent;
-      transition: background 0.12s ease, transform 0.12s ease;
+      transition: background 0.12s ease;
     }
     .item-personaje:hover {
       background: rgba(255,255,255,0.05);
-      transform: translateX(2px);
     }
     .item-personaje.activo {
       background: rgba(201,168,76,0.07);
@@ -462,15 +451,6 @@ router.get("/", (req, res) => {
       z-index: 5;
     }
     .estado-vacio p { font-size: 1.1rem; font-style: italic; color: var(--gris-plata); }
-    .estado-vacio .cita {
-      font-family: 'Cinzel Decorative', serif;
-      font-size: 0.7rem;
-      letter-spacing: 0.15em;
-      color: var(--gris-plata);
-      opacity: 0.4;
-      margin-top: 0.75rem;
-      text-transform: uppercase;
-    }
 
     /* Cargando */
     .cargando {
@@ -501,7 +481,7 @@ router.get("/", (req, res) => {
     .ficha-header {
       display: flex;
       gap: 1.5rem;
-      align-items: center;
+      align-items: flex-start;
       margin-bottom: 1.75rem;
       padding-bottom: 1.5rem;
       border-bottom: 1px solid rgba(255,255,255,0.07);
@@ -568,9 +548,7 @@ router.get("/", (req, res) => {
     }
     .badge-orden    { background: rgba(240,192,64,0.1);   color: #d4a82a;  border: 1px solid rgba(240,192,64,0.2); }
     .badge-vivo     { background: rgba(39,174,96,0.1);    color: #4db87a;  border: 1px solid rgba(39,174,96,0.2); }
-    .badge-vivo::before   { content: ''; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: #4db87a; margin-right: 0.35rem; vertical-align: middle; box-shadow: 0 0 4px #4db87a; }
     .badge-muerto   { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
-    .badge-muerto::before { content: ''; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: #c0614f; margin-right: 0.35rem; vertical-align: middle; opacity: 0.7; }
     .badge-especie  { background: rgba(255,255,255,0.05); color: var(--gris-plata); border: 1px solid rgba(255,255,255,0.1); }
     .badge-nivel    { background: rgba(200,146,42,0.1);   color: #b8832a;  border: 1px solid rgba(200,146,42,0.2); }
     .badge-deshecho  { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
@@ -1140,7 +1118,6 @@ router.get("/", (req, res) => {
     <!-- Estado vacío: fuera del panel, centrado en toda la ventana -->
     <div class="estado-vacio" id="estado-vacio">
       <p>Selecciona un elemento para explorar su ficha</p>
-        <div class="cita">Vida antes que muerte · Fuerza antes que debilidad · Viaje antes que destino</div>
     </div>
   </div>
 
@@ -1265,7 +1242,9 @@ router.get("/", (req, res) => {
         const inner = Math.round(s * 0.72);
         return \`<img src="/images/ordenes/\${slug}.svg" width="\${inner}" height="\${inner}" style="filter:brightness(2.5) saturate(1.2);object-fit:contain;display:block" alt="\${orden}" />\`;
       }
-      return '⚡';
+      // Humano sin orden — imagen al 120% con overflow hidden (el contenedor ya tiene overflow:hidden)
+      const h = Math.round(s * 1.2);
+      return '<img src="/images/humano.png" width="' + h + '" height="' + h + '" style="display:block;margin:-' + Math.round(s*0.1) + 'px" alt="Humano"/>';
     }
 
     function logoSpren(tipo, size) {
@@ -1407,7 +1386,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('personaje', id, p.nombre);
-          history.pushState({ tipo: 'personaje', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=personaje&id=' + id);
+          history.pushState({ tipo: 'personaje', id: id }, '', '?tipo=personaje&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1823,17 +1802,14 @@ router.get("/", (req, res) => {
     window.addEventListener('popstate', (e) => {
       const state = e.state;
       if (!state || !state.tipo || !state.id) {
-        // Sin estado = inicio — limpiar también el historial visual
+        // Sin estado = inicio
         seleccionado = null;
-        historialNavegacion = [];
         document.querySelectorAll('.item-personaje').forEach(el => el.classList.remove('activo'));
         document.getElementById('panel-detalle').innerHTML = '';
         document.getElementById('estado-vacio').style.display = '';
         if (esMobil()) volverListaMovil();
         return;
       }
-      // Restaurar el historial visual guardado en el state
-      if (state.historial) historialNavegacion = state.historial;
       const acciones = {
         personaje: (id) => { cambiarTab('personajes'); verPersonaje(id, true); },
         spren:     (id) => { cambiarTab('spren');      verSpren(id,     true); },
@@ -1955,7 +1931,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('deshecho', id, d.nombre);
-          history.pushState({ tipo: 'deshecho', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=deshecho&id=' + id);
+          history.pushState({ tipo: 'deshecho', id: id }, '', '?tipo=deshecho&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2112,7 +2088,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('esquirla', id, e.nombre);
-          history.pushState({ tipo: 'esquirla', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=esquirla&id=' + id);
+          history.pushState({ tipo: 'esquirla', id: id }, '', '?tipo=esquirla&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2276,7 +2252,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('heraldo', id, h.nombre);
-          history.pushState({ tipo: 'heraldo', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=heraldo&id=' + id);
+          history.pushState({ tipo: 'heraldo', id: id }, '', '?tipo=heraldo&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2530,7 +2506,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('spren', id, s.nombre);
-          history.pushState({ tipo: 'spren', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=spren&id=' + id);
+          history.pushState({ tipo: 'spren', id: id }, '', '?tipo=spren&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
