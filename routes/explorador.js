@@ -382,12 +382,14 @@ router.get("/", (req, res) => {
       flex-shrink: 0;
       overflow: hidden;
       padding: 0;
+      position: relative;
     }
     .item-avatar img {
+      position: absolute;
+      inset: 0;
       width: 100%; height: 100%;
       object-fit: cover;
       display: block;
-      flex-shrink: 0;
     }
     /* Avatar deshecho — gradiente rojo oscuro */
     .item-avatar-deshecho {
@@ -515,8 +517,11 @@ router.get("/", (req, res) => {
       flex-shrink: 0;
       overflow: hidden;
       padding: 0;
+      position: relative;
     }
     .ficha-avatar img {
+      position: absolute;
+      inset: 0;
       width: 100%; height: 100%;
       object-fit: cover;
       display: block;
@@ -528,8 +533,9 @@ router.get("/", (req, res) => {
       background: rgba(176,56,40,0.12);
       border: 1px solid rgba(176,56,40,0.25);
       display: flex; align-items: center; justify-content: center;
-      font-size: 2rem;
       flex-shrink: 0;
+      overflow: hidden;
+      position: relative;
     }
     /* Heraldo ficha grande — cuadrado con borde dorado */
     .ficha-avatar-heraldo {
@@ -1272,11 +1278,11 @@ router.get("/", (req, res) => {
       }
       // Solo humanos sin orden llevan el badge humano
       if (!especie || especie.toLowerCase() === 'humano') {
-        return '<img src="/images/humano.png" style="width:100%;height:100%;object-fit:cover;display:block" alt="Humano"/>';
+        return '<img src="/images/humano.png" alt="Humano"/>';
       }
       // Cantores/Parshmenios
       if (especie.toLowerCase().includes('cantor') || especie.toLowerCase().includes('pars')) {
-        return '<img src="/images/parshmenios.png" style="width:100%;height:100%;object-fit:cover;display:block" alt="Cantor"/>';
+        return '<img src="/images/parshmenios.png" alt="Cantor"/>';
       }
       // Otros (larkin, insomne, retornado...) — cuadrado vacío
       return '';
@@ -1338,7 +1344,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = listaOrdenada.map(p => \`
         <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
-          <div class="item-avatar" style="padding:0;overflow:hidden">\${logoOrden(p.orden, 28, p.especie)}</div>
+          <div class="item-avatar">\${logoOrden(p.orden, 28, p.especie)}</div>
           <div class="item-info">
             <div class="item-nombre">\${p.nombre}</div>
             <div class="item-orden">\${p.orden || 'Sin orden'}</div>
@@ -1617,7 +1623,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar" style="padding:0;overflow:hidden">\${logoOrden(orden, 72, p.especie)}</div>
+            <div class="ficha-avatar">\${logoOrden(orden, 72, p.especie)}</div>
             <div class="ficha-titulo">
               <h2>\${p.nombre}</h2>
               \${p.nombre_completo && p.nombre_completo !== p.nombre
@@ -2093,7 +2099,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = filtrada.map(e => {
         const activo = seleccionado === 'esquirla_' + e.id ? 'activo' : '';
         const bg     = bgMap[e.id] || 'rgba(255,255,255,0.04)';
-        const imgAvatar = '<img src="/images/' + e.id + '.png" style="width:100%;height:100%;object-fit:cover;display:block" alt="' + e.nombre + '"/>';
+        const imgAvatar = '<img src="/images/' + e.id + '.png" alt="' + e.nombre + '"/>';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verEsquirla('\${e.id}')" data-id="esquirla_\${e.id}">
@@ -2137,7 +2143,7 @@ router.get("/", (req, res) => {
       const borMap  = { honor:'rgba(240,192,64,0.35)', cultivacion:'rgba(39,174,96,0.35)', odium:'rgba(192,57,43,0.35)', represalia:'rgba(79,195,247,0.35)' };
       const bg     = bgMap2[e.id]  || 'rgba(255,255,255,0.04)';
       const border = borMap[e.id]  || 'rgba(255,255,255,0.1)';
-      const imgFicha = '<img src="/images/' + e.id + '.png" style="width:100%;height:100%;object-fit:cover;display:block" alt="' + e.nombre + '"/>';
+      const imgFicha = '<img src="/images/' + e.id + '.png" alt="' + e.nombre + '"/>';
 
       const badgeEstado = e.estado_actual?.includes('activa')
         ? 'badge-vivo'
