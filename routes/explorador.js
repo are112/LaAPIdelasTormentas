@@ -1903,7 +1903,7 @@ router.get("/", (req, res) => {
         return \`
           <div class="item-personaje \${activo}"
                onclick="verDeshecho('\${d.id}')" data-id="deshecho_\${d.id}">
-            <div class="item-avatar-deshecho">👁</div>
+            <div class="item-avatar-deshecho"><img src="/images/desechos.svg" width="27" height="27" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
             <div class="item-info">
               <div class="item-nombre">\${d.nombre}</div>
               <div class="item-orden">\${d.apodos?.[0] || 'Deshecho'}</div>
@@ -1968,7 +1968,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar-deshecho">👁</div>
+            <div class="ficha-avatar-deshecho"><img src="/images/desechos.svg" width="61" height="61" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
             <div class="ficha-titulo">
               <h2>\${d.nombre}</h2>
               \${(d.apodos ?? []).length ? \`<div class="nombre-completo"><em>"\${d.apodos.join('", "')}"</em></div>\` : ''}
