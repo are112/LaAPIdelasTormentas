@@ -2060,17 +2060,16 @@ router.get("/", (req, res) => {
       const wrap = document.getElementById('lista-esquirlas');
       if (!filtrada.length) { wrap.innerHTML = '<p class=\"sin-datos\">Sin resultados</p>'; return; }
 
-      const iconos  = { honor:'✨', cultivacion:'🌿', odium:'🔥', represalia:'⚡' };
-      const colores = { honor:'rgba(240,192,64,0.2)', cultivacion:'rgba(39,174,96,0.2)', odium:'rgba(192,57,43,0.2)', represalia:'rgba(79,195,247,0.2)' };
+      const bgMap = { honor:'rgba(240,192,64,0.1)', cultivacion:'rgba(39,174,96,0.1)', odium:'rgba(192,57,43,0.1)', represalia:'rgba(79,195,247,0.1)' };
 
       wrap.innerHTML = filtrada.map(e => {
         const activo = seleccionado === 'esquirla_' + e.id ? 'activo' : '';
-        const icono  = iconos[e.id]  || '💠';
-        const color  = colores[e.id] || 'rgba(79,195,247,0.1)';
+        const bg     = bgMap[e.id] || 'rgba(255,255,255,0.04)';
+        const imgAvatar = '<img src="/images/' + e.id + '.png" width="38" height="38" style="display:block;margin:-3px" alt="' + e.nombre + '"/>';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verEsquirla('\${e.id}')" data-id="esquirla_\${e.id}">
-            <div class="item-avatar" style="background:\${color}">\${icono}</div>
+            <div class="item-avatar" style="background:\${bg};overflow:hidden">\${imgAvatar}</div>
             <div class="item-info">
               <div class="item-nombre">\${e.nombre}</div>
               <div class="item-orden">\${e.estado_actual}</div>
@@ -2106,12 +2105,11 @@ router.get("/", (req, res) => {
     }
 
     function renderFichaEsquirla(e) {
-      const iconos  = { honor:'✨', cultivacion:'🌿', odium:'🔥', represalia:'⚡' };
-      const bgMap   = { honor:'rgba(240,192,64,0.15)', cultivacion:'rgba(39,174,96,0.15)', odium:'rgba(192,57,43,0.15)', represalia:'rgba(79,195,247,0.15)' };
-      const borMap  = { honor:'rgba(240,192,64,0.4)',  cultivacion:'rgba(39,174,96,0.4)',  odium:'rgba(192,57,43,0.4)',  represalia:'rgba(79,195,247,0.4)'  };
-      const icono  = iconos[e.id]  || '💠';
-      const bg     = bgMap[e.id]   || 'rgba(79,195,247,0.1)';
-      const border = borMap[e.id]  || 'rgba(79,195,247,0.3)';
+      const bgMap2  = { honor:'rgba(240,192,64,0.1)', cultivacion:'rgba(39,174,96,0.1)', odium:'rgba(192,57,43,0.1)', represalia:'rgba(79,195,247,0.1)' };
+      const borMap  = { honor:'rgba(240,192,64,0.35)', cultivacion:'rgba(39,174,96,0.35)', odium:'rgba(192,57,43,0.35)', represalia:'rgba(79,195,247,0.35)' };
+      const bg     = bgMap2[e.id]  || 'rgba(255,255,255,0.04)';
+      const border = borMap[e.id]  || 'rgba(255,255,255,0.1)';
+      const imgFicha = '<img src="/images/' + e.id + '.png" width="86" height="86" style="display:block;margin:-7px" alt="' + e.nombre + '"/>';
 
       const badgeEstado = e.estado_actual?.includes('activa')
         ? 'badge-vivo'
@@ -2149,7 +2147,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar" style="font-size:2.5rem;background:\${bg};border-color:\${border}">\${icono}</div>
+            <div class="ficha-avatar" style="background:\${bg};border-color:\${border};overflow:hidden">\${imgFicha}</div>
             <div class="ficha-titulo">
               <h2>\${e.nombre}</h2>
               \${(e.apodos ?? []).length ? \`<div class="nombre-completo"><em>"\${e.apodos.join('", "')}"</em></div>\` : ''}
