@@ -1246,7 +1246,12 @@ router.get("/", (req, res) => {
         const h = Math.round(s * 1.2);
         return '<img src="/images/humano.png" width="' + h + '" height="' + h + '" style="display:block;margin:-' + Math.round(s*0.1) + 'px" alt="Humano"/>';
       }
-      // Otros (cantores, larkin, insomne, retornado...) — cuadrado vacío
+      // Cantores/Parshmenios
+      if (especie.toLowerCase().includes('cantor') || especie.toLowerCase().includes('pars')) {
+        const h = Math.round(s * 1.2);
+        return '<img src="/images/parshmenios.png" width="' + h + '" height="' + h + '" style="display:block;margin:-' + Math.round(s*0.1) + 'px" alt="Cantor"/>';
+      }
+      // Otros (larkin, insomne, retornado...) — cuadrado vacío
       return '';
     }
 
@@ -1908,7 +1913,7 @@ router.get("/", (req, res) => {
         return \`
           <div class="item-personaje \${activo}"
                onclick="verDeshecho('\${d.id}')" data-id="deshecho_\${d.id}">
-            <div class="item-avatar-deshecho">👁</div>
+            <div class="item-avatar-deshecho"><img src="/images/desechos.svg" width="29" height="29" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
             <div class="item-info">
               <div class="item-nombre">\${d.nombre}</div>
               <div class="item-orden">\${d.apodos?.[0] || 'Deshecho'}</div>
@@ -1973,7 +1978,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar-deshecho">👁</div>
+            <div class="ficha-avatar-deshecho"><img src="/images/desechos.svg" width="61" height="61" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
             <div class="ficha-titulo">
               <h2>\${d.nombre}</h2>
               \${(d.apodos ?? []).length ? \`<div class="nombre-completo"><em>"\${d.apodos.join('", "')}"</em></div>\` : ''}
