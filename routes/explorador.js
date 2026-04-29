@@ -72,7 +72,10 @@ router.get("/", (req, res) => {
       color: var(--blanco-perla);
       letter-spacing: 0.08em;
       white-space: nowrap;
+      cursor: pointer;
+      transition: opacity 0.15s;
     }
+    h1:hover { opacity: 0.75; }
     .subtitulo {
       font-size: 0.78rem;
       color: var(--gris-plata);
@@ -384,10 +387,10 @@ router.get("/", (req, res) => {
       width: 32px; height: 32px;
       border-radius: 6px;
       display: flex; align-items: center; justify-content: center;
-      background: rgba(176,56,40,0.12);
+      font-size: 0.85rem;
+      background: rgba(176,56,40,0.15);
       border: 1px solid rgba(176,56,40,0.25);
       flex-shrink: 0;
-      overflow: hidden;
     }
     /* Heraldo lista — foto cuadrada con borde dorado */
     .item-avatar-heraldo {
@@ -502,8 +505,8 @@ router.get("/", (req, res) => {
       background: rgba(176,56,40,0.12);
       border: 1px solid rgba(176,56,40,0.25);
       display: flex; align-items: center; justify-content: center;
+      font-size: 2rem;
       flex-shrink: 0;
-      overflow: hidden;
     }
     /* Heraldo ficha grande — cuadrado con borde dorado */
     .ficha-avatar-heraldo {
@@ -1035,7 +1038,7 @@ router.get("/", (req, res) => {
 
   <header>
     <div class="header-izq">
-      <h1>La API de las Tormentas</h1>
+      <h1 onclick="volverInicio()">La API de las Tormentas</h1>
       <span class="subtitulo">Un proyecto fan del Cosmere</span>
     </div>
     <div class="header-der">
@@ -1116,6 +1119,17 @@ router.get("/", (req, res) => {
       if (!esMobil()) return;
       document.querySelector('.panel-izq').classList.add('oculto');
       document.querySelector('.panel-der').classList.add('visible');
+    }
+
+    function volverInicio() {
+      // Limpiar selección
+      seleccionado = null;
+      document.querySelectorAll('.item-personaje').forEach(el => el.classList.remove('activo'));
+      // Vaciar panel derecho y mostrar estado vacío
+      document.getElementById('panel-detalle').innerHTML = '';
+      document.getElementById('estado-vacio').style.display = '';
+      // En móvil, volver a la lista
+      if (esMobil()) volverListaMovil();
     }
 
     function volverListaMovil() {
@@ -1810,7 +1824,7 @@ router.get("/", (req, res) => {
         return \`
           <div class="item-personaje \${activo}"
                onclick="verDeshecho('\${d.id}')" data-id="deshecho_\${d.id}">
-            <div class="item-avatar-deshecho"><img src="/images/odium.svg" width="27" height="27" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
+            <div class="item-avatar-deshecho">👁</div>
             <div class="item-info">
               <div class="item-nombre">\${d.nombre}</div>
               <div class="item-orden">\${d.apodos?.[0] || 'Deshecho'}</div>
@@ -1871,7 +1885,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar-deshecho"><img src="/images/odium.svg" width="61" height="61" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
+            <div class="ficha-avatar-deshecho">👁</div>
             <div class="ficha-titulo">
               <h2>\${d.nombre}</h2>
               \${(d.apodos ?? []).length ? \`<div class="nombre-completo"><em>"\${d.apodos.join('", "')}"</em></div>\` : ''}
