@@ -1345,7 +1345,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('personaje', id, p.nombre);
-          history.pushState({ tipo: 'personaje', id }, '', `?tipo=personaje&id=${id}`);
+          history.pushState({ tipo: 'personaje', id: id }, '', '?tipo=personaje&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1889,7 +1889,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('deshecho', id, d.nombre);
-          history.pushState({ tipo: 'deshecho', id }, '', `?tipo=deshecho&id=${id}`);
+          history.pushState({ tipo: 'deshecho', id: id }, '', '?tipo=deshecho&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2045,7 +2045,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('esquirla', id, e.nombre);
-          history.pushState({ tipo: 'esquirla', id }, '', `?tipo=esquirla&id=${id}`);
+          history.pushState({ tipo: 'esquirla', id: id }, '', '?tipo=esquirla&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2208,7 +2208,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('heraldo', id, h.nombre);
-          history.pushState({ tipo: 'heraldo', id }, '', `?tipo=heraldo&id=${id}`);
+          history.pushState({ tipo: 'heraldo', id: id }, '', '?tipo=heraldo&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2461,7 +2461,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('spren', id, s.nombre);
-          history.pushState({ tipo: 'spren', id }, '', `?tipo=spren&id=${id}`);
+          history.pushState({ tipo: 'spren', id: id }, '', '?tipo=spren&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
