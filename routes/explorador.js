@@ -1407,7 +1407,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('personaje', id, p.nombre);
-          history.pushState({ tipo: 'personaje', id: id }, '', '?tipo=personaje&id=' + id);
+          history.pushState({ tipo: 'personaje', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=personaje&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1823,14 +1823,17 @@ router.get("/", (req, res) => {
     window.addEventListener('popstate', (e) => {
       const state = e.state;
       if (!state || !state.tipo || !state.id) {
-        // Sin estado = inicio
+        // Sin estado = inicio — limpiar también el historial visual
         seleccionado = null;
+        historialNavegacion = [];
         document.querySelectorAll('.item-personaje').forEach(el => el.classList.remove('activo'));
         document.getElementById('panel-detalle').innerHTML = '';
         document.getElementById('estado-vacio').style.display = '';
         if (esMobil()) volverListaMovil();
         return;
       }
+      // Restaurar el historial visual guardado en el state
+      if (state.historial) historialNavegacion = state.historial;
       const acciones = {
         personaje: (id) => { cambiarTab('personajes'); verPersonaje(id, true); },
         spren:     (id) => { cambiarTab('spren');      verSpren(id,     true); },
@@ -1952,7 +1955,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('deshecho', id, d.nombre);
-          history.pushState({ tipo: 'deshecho', id: id }, '', '?tipo=deshecho&id=' + id);
+          history.pushState({ tipo: 'deshecho', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=deshecho&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2109,7 +2112,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('esquirla', id, e.nombre);
-          history.pushState({ tipo: 'esquirla', id: id }, '', '?tipo=esquirla&id=' + id);
+          history.pushState({ tipo: 'esquirla', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=esquirla&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2273,7 +2276,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('heraldo', id, h.nombre);
-          history.pushState({ tipo: 'heraldo', id: id }, '', '?tipo=heraldo&id=' + id);
+          history.pushState({ tipo: 'heraldo', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=heraldo&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2527,7 +2530,7 @@ router.get("/", (req, res) => {
         mostrarFichaMovil();
         if (!desdeHistorial) {
           agregarHistorial('spren', id, s.nombre);
-          history.pushState({ tipo: 'spren', id: id }, '', '?tipo=spren&id=' + id);
+          history.pushState({ tipo: 'spren', id: id, historial: JSON.parse(JSON.stringify(historialNavegacion)) }, '', '?tipo=spren&id=' + id);
         }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
