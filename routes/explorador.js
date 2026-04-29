@@ -1338,7 +1338,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = listaOrdenada.map(p => \`
         <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
-          <div class="item-avatar">\${logoOrden(p.orden, 28, p.especie)}</div>
+          <div class="item-avatar" style="padding:0;overflow:hidden">\${logoOrden(p.orden, 28, p.especie)}</div>
           <div class="item-info">
             <div class="item-nombre">\${p.nombre}</div>
             <div class="item-orden">\${p.orden || 'Sin orden'}</div>
@@ -1617,7 +1617,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar">\${logoOrden(orden, 72, p.especie)}</div>
+            <div class="ficha-avatar" style="padding:0;overflow:hidden">\${logoOrden(orden, 72, p.especie)}</div>
             <div class="ficha-titulo">
               <h2>\${p.nombre}</h2>
               \${p.nombre_completo && p.nombre_completo !== p.nombre
