@@ -378,6 +378,13 @@ router.get("/", (req, res) => {
       border: 1px solid rgba(255,255,255,0.08);
       flex-shrink: 0;
       overflow: hidden;
+      padding: 0;
+    }
+    .item-avatar img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+      flex-shrink: 0;
     }
     /* Avatar deshecho — gradiente rojo oscuro */
     .item-avatar-deshecho {
@@ -494,6 +501,13 @@ router.get("/", (req, res) => {
       display: flex; align-items: center; justify-content: center;
       font-size: 2.2rem;
       flex-shrink: 0;
+      overflow: hidden;
+      padding: 0;
+    }
+    .ficha-avatar img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
     }
     /* Avatar ficha deshecho */
     .ficha-avatar-deshecho {
