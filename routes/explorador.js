@@ -1278,11 +1278,11 @@ router.get("/", (req, res) => {
       }
       // Solo humanos sin orden llevan el badge humano
       if (!especie || especie.toLowerCase() === 'humano') {
-        return '<img src="/images/humano.png" alt="Humano"/>';
+        return '<img src="/images/humano.png" width="' + s + '" height="' + s + '" style="width:100%;height:100%;object-fit:cover" alt="Humano"/>';
       }
       // Cantores/Parshmenios
       if (especie.toLowerCase().includes('cantor') || especie.toLowerCase().includes('pars')) {
-        return '<img src="/images/parshmenios.png" alt="Cantor"/>';
+        return '<img src="/images/parshmenios.png" width="' + s + '" height="' + s + '" style="width:100%;height:100%;object-fit:cover" alt="Cantor"/>';
       }
       // Otros (larkin, insomne, retornado...) — cuadrado vacío
       return '';
@@ -2099,7 +2099,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = filtrada.map(e => {
         const activo = seleccionado === 'esquirla_' + e.id ? 'activo' : '';
         const bg     = bgMap[e.id] || 'rgba(255,255,255,0.04)';
-        const imgAvatar = '<img src="/images/' + e.id + '.png" alt="' + e.nombre + '"/>';
+        const imgAvatar = '<img src="/images/' + e.id + '.png" style="width:100%;height:100%;object-fit:cover" alt="' + e.nombre + '"/>';
         return \`
           <div class="item-personaje \${activo}"
                onclick="verEsquirla('\${e.id}')" data-id="esquirla_\${e.id}">
@@ -2143,7 +2143,7 @@ router.get("/", (req, res) => {
       const borMap  = { honor:'rgba(240,192,64,0.35)', cultivacion:'rgba(39,174,96,0.35)', odium:'rgba(192,57,43,0.35)', represalia:'rgba(79,195,247,0.35)' };
       const bg     = bgMap2[e.id]  || 'rgba(255,255,255,0.04)';
       const border = borMap[e.id]  || 'rgba(255,255,255,0.1)';
-      const imgFicha = '<img src="/images/' + e.id + '.png" alt="' + e.nombre + '"/>';
+      const imgFicha = '<img src="/images/' + e.id + '.png" style="width:100%;height:100%;object-fit:cover" alt="' + e.nombre + '"/>';
 
       const badgeEstado = e.estado_actual?.includes('activa')
         ? 'badge-vivo'
