@@ -159,7 +159,9 @@ router.get("/", (req, res) => {
       font-size: 0.85rem;
       opacity: 0.5;
       z-index: 1;
+      transition: opacity 0.2s;
     }
+    .buscador-wrap:focus-within::before { opacity: 0.9; }
     #buscador {
       width: 100%;
       padding: 0.55rem 0.75rem 0.55rem 2.1rem;
@@ -363,6 +365,7 @@ router.get("/", (req, res) => {
     }
     .item-personaje:hover {
       background: rgba(255,255,255,0.05);
+      transform: translateX(2px);
     }
     .item-personaje.activo {
       background: rgba(201,168,76,0.07);
@@ -571,7 +574,9 @@ router.get("/", (req, res) => {
     }
     .badge-orden    { background: rgba(240,192,64,0.1);   color: #d4a82a;  border: 1px solid rgba(240,192,64,0.2); }
     .badge-vivo     { background: rgba(39,174,96,0.1);    color: #4db87a;  border: 1px solid rgba(39,174,96,0.2); }
+    .badge-vivo::before   { content: ''; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: #4db87a; margin-right: 0.35rem; vertical-align: middle; box-shadow: 0 0 4px #4db87a; }
     .badge-muerto   { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
+    .badge-muerto::before { content: ''; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: #c0614f; margin-right: 0.35rem; vertical-align: middle; opacity: 0.7; }
     .badge-especie  { background: rgba(255,255,255,0.05); color: var(--gris-plata); border: 1px solid rgba(255,255,255,0.1); }
     .badge-nivel    { background: rgba(200,146,42,0.1);   color: #b8832a;  border: 1px solid rgba(200,146,42,0.2); }
     .badge-deshecho  { background: rgba(192,57,43,0.1);    color: #c0614f;  border: 1px solid rgba(192,57,43,0.2); }
@@ -1832,14 +1837,15 @@ router.get("/", (req, res) => {
     window.addEventListener('popstate', (e) => {
       const state = e.state;
       if (!state || !state.tipo || !state.id) {
-        // Sin estado = inicio
         seleccionado = null;
+        historialNavegacion = [];
         document.querySelectorAll('.item-personaje').forEach(el => el.classList.remove('activo'));
         document.getElementById('panel-detalle').innerHTML = '';
         document.getElementById('estado-vacio').style.display = '';
         if (esMobil()) volverListaMovil();
         return;
       }
+      if (state.historial) historialNavegacion = state.historial;
       const acciones = {
         personaje: (id) => { cambiarTab('personajes'); verPersonaje(id, true); },
         spren:     (id) => { cambiarTab('spren');      verSpren(id,     true); },
