@@ -1234,17 +1234,20 @@ router.get("/", (req, res) => {
       'Portadores del Polvo':    'portadores-del-polvo',
     };
 
-    function logoOrden(orden, size) {
+    function logoOrden(orden, size, especie) {
       const s = size || 28;
       const slug = ORDEN_SLUG[orden];
       if (slug) {
-        // Reducir al 75% para que respire dentro del cuadrado
-        const inner = Math.round(s * 0.72);
+        const inner = Math.round(s * 0.92);
         return \`<img src="/images/ordenes/\${slug}.svg" width="\${inner}" height="\${inner}" style="filter:brightness(2.5) saturate(1.2);object-fit:contain;display:block" alt="\${orden}" />\`;
       }
-      // Humano sin orden — imagen al 120% con overflow hidden (el contenedor ya tiene overflow:hidden)
-      const h = Math.round(s * 1.2);
-      return '<img src="/images/humano.png" width="' + h + '" height="' + h + '" style="display:block;margin:-' + Math.round(s*0.1) + 'px" alt="Humano"/>';
+      // Solo humanos sin orden llevan el badge humano
+      if (!especie || especie.toLowerCase() === 'humano') {
+        const h = Math.round(s * 1.2);
+        return '<img src="/images/humano.png" width="' + h + '" height="' + h + '" style="display:block;margin:-' + Math.round(s*0.1) + 'px" alt="Humano"/>';
+      }
+      // Otros (cantores, larkin, insomne, retornado...) — cuadrado vacío
+      return '';
     }
 
     function logoSpren(tipo, size) {
@@ -1303,7 +1306,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = listaOrdenada.map(p => \`
         <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
-          <div class="item-avatar">\${logoOrden(p.orden)}</div>
+          <div class="item-avatar">\${logoOrden(p.orden, 28, p.especie)}</div>
           <div class="item-info">
             <div class="item-nombre">\${p.nombre}</div>
             <div class="item-orden">\${p.orden || 'Sin orden'}</div>
@@ -1582,7 +1585,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar">\${logoOrden(orden, 60)}</div>
+            <div class="ficha-avatar">\${logoOrden(orden, 60, p.especie)}</div>
             <div class="ficha-titulo">
               <h2>\${p.nombre}</h2>
               \${p.nombre_completo && p.nombre_completo !== p.nombre
