@@ -829,6 +829,28 @@ router.get("/", (req, res) => {
       opacity: 0.45;
       padding: 0.25rem 0;
     }
+    .error-ficha {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      gap: 0.75rem;
+      text-align: center;
+    }
+    .error-ficha .error-icono { font-size: 2rem; opacity: 0.4; }
+    .error-ficha .error-titulo {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1rem;
+      color: var(--blanco-perla);
+      opacity: 0.7;
+    }
+    .error-ficha .error-desc {
+      font-size: 0.85rem;
+      color: var(--gris-plata);
+      font-style: italic;
+      opacity: 0.6;
+    }
 
     /* Historial de navegación */
     .historial-barra {
@@ -1109,6 +1131,20 @@ router.get("/", (req, res) => {
     let filtrados     = [];
     let seleccionado  = null;
 
+    // ── Helper de error en ficha ─────────────────────────
+    function mostrarErrorFicha(msg) {
+      const panel = document.getElementById('panel-detalle');
+      panel.innerHTML = `
+        <div class="error-ficha">
+          <div class="error-icono">⚠</div>
+          <div class="error-titulo">No encontrado</div>
+          <div class="error-desc">${msg}</div>
+        </div>`;
+      // Resetear estado para que la web no se quede bloqueada
+      seleccionado = null;
+      document.querySelectorAll('.item-personaje').forEach(el => el.classList.remove('activo'));
+    }
+
     // ── Detección móvil y navegación de paneles ──────────────
     const esMobil = () => window.innerWidth <= 768;
 
@@ -1335,6 +1371,10 @@ router.get("/", (req, res) => {
           fetch(\`\${API}/personajes/\${id}\`),
           fetch(\`\${API}/personajes/\${id}/relaciones\`),
         ]);
+        if (detRes.status === 'rejected' || !detRes.value.ok) {
+          mostrarErrorFicha('El personaje "' + id + '" no existe o no está disponible.');
+          return;
+        }
         const p = await detRes.value.json();
         const rel = relRes.status === 'fulfilled' && relRes.value.ok
           ? (await relRes.value.json())
@@ -1350,7 +1390,7 @@ router.get("/", (req, res) => {
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
-        panel.innerHTML = '<p class="sin-datos">Error cargando el personaje</p>';
+        mostrarErrorFicha('Error de conexión al cargar el personaje.');
       }
     }
 
@@ -1883,6 +1923,7 @@ router.get("/", (req, res) => {
       panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
       try {
         const res = await fetch(\`\${API}/deshechos/\${id}\`);
+        if (!res.ok) { mostrarErrorFicha('El deshecho "' + id + '" no existe o no está disponible.'); return; }
         const d = await res.json();
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFichaDeshecho(d);
@@ -1894,7 +1935,7 @@ router.get("/", (req, res) => {
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
-        panel.innerHTML = '<p class="sin-datos">Error cargando el deshecho</p>';
+        mostrarErrorFicha('Error de conexión al cargar el deshecho.');
       }
     }
 
@@ -2039,6 +2080,7 @@ router.get("/", (req, res) => {
       panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
       try {
         const res = await fetch(\`\${API}/esquirlas/\${id}\`);
+        if (!res.ok) { mostrarErrorFicha('La esquirla "' + id + '" no existe o no está disponible.'); return; }
         const e   = await res.json();
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFichaEsquirla(e);
@@ -2050,7 +2092,7 @@ router.get("/", (req, res) => {
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch(err) {
-        panel.innerHTML = '<p class="sin-datos">Error cargando la esquirla</p>';
+        mostrarErrorFicha('Error de conexión al cargar la esquirla.');
       }
     }
 
@@ -2202,6 +2244,7 @@ router.get("/", (req, res) => {
       panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
       try {
         const res = await fetch(\`\${API}/heraldos/\${id}\`);
+        if (!res.ok) { mostrarErrorFicha('El heraldo "' + id + '" no existe o no está disponible.'); return; }
         const h = await res.json();
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFichaHeraldo(h);
@@ -2213,7 +2256,7 @@ router.get("/", (req, res) => {
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
-        panel.innerHTML = '<p class="sin-datos">Error cargando el heraldo</p>';
+        mostrarErrorFicha('Error de conexión al cargar el heraldo.');
       }
     }
 
@@ -2455,6 +2498,7 @@ router.get("/", (req, res) => {
 
       try {
         const res = await fetch(\`\${API}/spren/\${id}\`);
+        if (!res.ok) { mostrarErrorFicha('El spren "' + id + '" no existe o no está disponible.'); return; }
         const s = await res.json();
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFichaSpren(s);
@@ -2466,7 +2510,7 @@ router.get("/", (req, res) => {
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
-        panel.innerHTML = '<p class="sin-datos">Error cargando el spren</p>';
+        mostrarErrorFicha('Error de conexión al cargar el spren.');
       }
     }
 
