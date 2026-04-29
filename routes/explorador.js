@@ -72,10 +72,7 @@ router.get("/", (req, res) => {
       color: var(--blanco-perla);
       letter-spacing: 0.08em;
       white-space: nowrap;
-      cursor: pointer;
-      transition: opacity 0.15s;
     }
-    h1:hover { opacity: 0.75; }
     .subtitulo {
       font-size: 0.78rem;
       color: var(--gris-plata);
@@ -1038,7 +1035,7 @@ router.get("/", (req, res) => {
 
   <header>
     <div class="header-izq">
-      <h1 onclick="volverInicio()">La API de las Tormentas</h1>
+      <h1 onclick="volverInicio()" style="cursor:pointer;transition:opacity 0.15s" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">La API de las Tormentas</h1>
       <span class="subtitulo">Un proyecto fan del Cosmere</span>
     </div>
     <div class="header-der">
@@ -1122,13 +1119,11 @@ router.get("/", (req, res) => {
     }
 
     function volverInicio() {
-      // Limpiar selección
       seleccionado = null;
       document.querySelectorAll('.item-personaje').forEach(el => el.classList.remove('activo'));
-      // Vaciar panel derecho y mostrar estado vacío
       document.getElementById('panel-detalle').innerHTML = '';
       document.getElementById('estado-vacio').style.display = '';
-      // En móvil, volver a la lista
+      history.pushState(null, '', location.pathname);
       if (esMobil()) volverListaMovil();
     }
 
@@ -1348,7 +1343,10 @@ router.get("/", (req, res) => {
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFicha(p, rel);
         mostrarFichaMovil();
-        if (!desdeHistorial) agregarHistorial('personaje', id, p.nombre);
+        if (!desdeHistorial) {
+          agregarHistorial('personaje', id, p.nombre);
+          history.pushState({ tipo: 'personaje', id }, '', `?tipo=personaje&id=${id}`);
+        }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
@@ -1759,6 +1757,48 @@ router.get("/", (req, res) => {
       }
     }
 
+    // ── Botón atrás del navegador ─────────────────────────
+    window.addEventListener('popstate', (e) => {
+      const state = e.state;
+      if (!state || !state.tipo || !state.id) {
+        // Sin estado = inicio
+        seleccionado = null;
+        document.querySelectorAll('.item-personaje').forEach(el => el.classList.remove('activo'));
+        document.getElementById('panel-detalle').innerHTML = '';
+        document.getElementById('estado-vacio').style.display = '';
+        if (esMobil()) volverListaMovil();
+        return;
+      }
+      const acciones = {
+        personaje: (id) => { cambiarTab('personajes'); verPersonaje(id, true); },
+        spren:     (id) => { cambiarTab('spren');      verSpren(id,     true); },
+        heraldo:   (id) => { cambiarTab('heraldos');   verHeraldo(id,   true); },
+        deshecho:  (id) => { cambiarTab('deshechos');  verDeshecho(id,  true); },
+        esquirla:  (id) => { cambiarTab('esquirlas');  verEsquirla(id,  true); },
+      };
+      acciones[state.tipo]?.(state.id);
+    });
+
+    // ── Carga inicial desde URL (recarga / link compartido) ─
+    (function() {
+      const params = new URLSearchParams(location.search);
+      const tipo = params.get('tipo');
+      const id   = params.get('id');
+      if (tipo && id) {
+        const tabMap = { personaje: 'personajes', spren: 'spren', heraldo: 'heraldos', deshecho: 'deshechos', esquirla: 'esquirlas' };
+        if (tabMap[tipo]) cambiarTab(tabMap[tipo]);
+        const acciones = {
+          personaje: () => verPersonaje(id, false),
+          spren:     () => verSpren(id,     false),
+          heraldo:   () => verHeraldo(id,   false),
+          deshecho:  () => verDeshecho(id,  false),
+          esquirla:  () => verEsquirla(id,  false),
+        };
+        // Esperar a que los datos carguen antes de abrir la ficha
+        setTimeout(() => acciones[tipo]?.(), 600);
+      }
+    })();
+
     cargarLista();
     cargarSpren();
     cargarHeraldos();
@@ -1847,7 +1887,10 @@ router.get("/", (req, res) => {
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFichaDeshecho(d);
         mostrarFichaMovil();
-        if (!desdeHistorial) agregarHistorial('deshecho', id, d.nombre);
+        if (!desdeHistorial) {
+          agregarHistorial('deshecho', id, d.nombre);
+          history.pushState({ tipo: 'deshecho', id }, '', `?tipo=deshecho&id=${id}`);
+        }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
@@ -2000,7 +2043,10 @@ router.get("/", (req, res) => {
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFichaEsquirla(e);
         mostrarFichaMovil();
-        if (!desdeHistorial) agregarHistorial('esquirla', id, e.nombre);
+        if (!desdeHistorial) {
+          agregarHistorial('esquirla', id, e.nombre);
+          history.pushState({ tipo: 'esquirla', id }, '', `?tipo=esquirla&id=${id}`);
+        }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch(err) {
@@ -2160,7 +2206,10 @@ router.get("/", (req, res) => {
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFichaHeraldo(h);
         mostrarFichaMovil();
-        if (!desdeHistorial) agregarHistorial('heraldo', id, h.nombre);
+        if (!desdeHistorial) {
+          agregarHistorial('heraldo', id, h.nombre);
+          history.pushState({ tipo: 'heraldo', id }, '', `?tipo=heraldo&id=${id}`);
+        }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
@@ -2410,7 +2459,10 @@ router.get("/", (req, res) => {
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFichaSpren(s);
         mostrarFichaMovil();
-        if (!desdeHistorial) agregarHistorial('spren', id, s.nombre);
+        if (!desdeHistorial) {
+          agregarHistorial('spren', id, s.nombre);
+          history.pushState({ tipo: 'spren', id }, '', `?tipo=spren&id=${id}`);
+        }
         renderHistorial();
         panel.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (e) {
