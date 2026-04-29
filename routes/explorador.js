@@ -1590,7 +1590,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar">\${logoOrden(orden, 60, p.especie)}</div>
+            <div class="ficha-avatar">\${logoOrden(orden, 72, p.especie)}</div>
             <div class="ficha-titulo">
               <h2>\${p.nombre}</h2>
               \${p.nombre_completo && p.nombre_completo !== p.nombre
