@@ -1134,13 +1134,12 @@ router.get("/", (req, res) => {
     // ── Helper de error en ficha ─────────────────────────
     function mostrarErrorFicha(msg) {
       const panel = document.getElementById('panel-detalle');
-      panel.innerHTML = `
-        <div class="error-ficha">
-          <div class="error-icono">⚠</div>
-          <div class="error-titulo">No encontrado</div>
-          <div class="error-desc">${msg}</div>
-        </div>`;
-      // Resetear estado para que la web no se quede bloqueada
+      panel.innerHTML =
+        '<div class="error-ficha">' +
+          '<div class="error-icono">\u26A0</div>' +
+          '<div class="error-titulo">No encontrado</div>' +
+          '<div class="error-desc">' + msg + '</div>' +
+        '</div>';
       seleccionado = null;
       document.querySelectorAll('.item-personaje').forEach(el => el.classList.remove('activo'));
     }
