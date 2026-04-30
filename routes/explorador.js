@@ -998,6 +998,26 @@ router.get("/", (req, res) => {
       line-height: 1.5;
     }
 
+    /* Avatares de especie (humano, cantor) — div autónomo sin herencia flex */
+    .av-especie-s {
+      width: 32px; height: 32px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.08);
+      flex-shrink: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .av-especie-g {
+      width: 72px; height: 72px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.08);
+      flex-shrink: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
     /* Responsive */
     /* ── MÓVIL: vista de una sola pantalla a la vez ── */
     @media (max-width: 768px) {
@@ -1279,16 +1299,18 @@ router.get("/", (req, res) => {
       return ''; // el fondo se pone con background-image en el contenedor
     }
 
-    function bgEspecie(orden, especie) {
-      // Si tiene orden radiante válida, no aplicar background-image
-      if (orden && ORDEN_SLUG[orden]) return '';
-      if (!especie) return '';
+    function avatarEspecie(orden, especie, size) {
+      if (orden && ORDEN_SLUG[orden]) return null;
+      if (!especie) return null;
       const e = especie.toLowerCase();
-      if (e === 'humano')
-        return 'background-image:url(/images/humano.png);background-size:cover;background-position:center;';
-      if (e.includes('cantor') || e.includes('pars'))
-        return 'background-image:url(/images/parshmenios.png);background-size:cover;background-position:center;';
-      return '';
+      const s = size || 32;
+      const r = s <= 32 ? '6px' : '12px';
+      const cls = s <= 32 ? 'av-especie-s' : 'av-especie-g';
+      let url = null;
+      if (e === 'humano') url = '/images/humano.png';
+      else if (e.includes('cantor') || e.includes('pars')) url = '/images/parshmenios.png';
+      if (!url) return null;
+      return '<div class="' + cls + '" style="background-image:url(' + url + ')"></div>';
     }
 
     function logoSpren(tipo, size) {
@@ -1347,7 +1369,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = listaOrdenada.map(p => \`
         <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
-          <div class="item-avatar" style="\${bgEspecie(p.orden, p.especie)}">\${logoOrden(p.orden, 28, p.especie)}</div>
+          \${avatarEspecie(p.orden, p.especie, 32) || '<div class="item-avatar">' + logoOrden(p.orden, 28) + '</div>'}
           <div class="item-info">
             <div class="item-nombre">\${p.nombre}</div>
             <div class="item-orden">\${p.orden || 'Sin orden'}</div>
@@ -1626,7 +1648,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar" style="\${bgEspecie(orden, p.especie)}">\${logoOrden(orden, 72, p.especie)}</div>
+            \${avatarEspecie(orden, p.especie, 72) || '<div class="ficha-avatar">' + logoOrden(orden, 72) + '</div>'}
             <div class="ficha-titulo">
               <h2>\${p.nombre}</h2>
               \${p.nombre_completo && p.nombre_completo !== p.nombre
