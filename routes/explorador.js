@@ -1279,10 +1279,14 @@ router.get("/", (req, res) => {
       return ''; // el fondo se pone con background-image en el contenedor
     }
 
-    function bgEspecie(especie) {
-      if (!especie || especie.toLowerCase() === 'humano')
+    function bgEspecie(orden, especie) {
+      // Si tiene orden radiante válida, no aplicar background-image
+      if (orden && ORDEN_SLUG[orden]) return '';
+      if (!especie) return '';
+      const e = especie.toLowerCase();
+      if (e === 'humano')
         return 'background-image:url(/images/humano.png);background-size:cover;background-position:center;';
-      if (especie.toLowerCase().includes('cantor') || especie.toLowerCase().includes('pars'))
+      if (e.includes('cantor') || e.includes('pars'))
         return 'background-image:url(/images/parshmenios.png);background-size:cover;background-position:center;';
       return '';
     }
@@ -1343,7 +1347,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = listaOrdenada.map(p => \`
         <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
-          <div class="item-avatar" style="\${bgEspecie(p.orden ? null : p.especie)}">\${logoOrden(p.orden, 28, p.especie)}</div>
+          <div class="item-avatar" style="\${bgEspecie(p.orden, p.especie)}">\${logoOrden(p.orden, 28, p.especie)}</div>
           <div class="item-info">
             <div class="item-nombre">\${p.nombre}</div>
             <div class="item-orden">\${p.orden || 'Sin orden'}</div>
@@ -1622,7 +1626,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar" style="\${bgEspecie(orden ? null : p.especie)}">\${logoOrden(orden, 72, p.especie)}</div>
+            <div class="ficha-avatar" style="\${bgEspecie(orden, p.especie)}">\${logoOrden(orden, 72, p.especie)}</div>
             <div class="ficha-titulo">
               <h2>\${p.nombre}</h2>
               \${p.nombre_completo && p.nombre_completo !== p.nombre
