@@ -1271,20 +1271,20 @@ router.get("/", (req, res) => {
 
     function logoOrden(orden, size, especie) {
       const s = size || 28;
+      const r = s <= 32 ? '6px' : '12px';
       const slug = ORDEN_SLUG[orden];
       if (slug) {
         const inner = Math.round(s * 0.92);
         return \`<img src="/images/ordenes/\${slug}.svg" width="\${inner}" height="\${inner}" style="filter:brightness(2.5) saturate(1.2);object-fit:contain;display:block" alt="\${orden}" />\`;
       }
-      // Solo humanos sin orden llevan el badge humano
+      // Humanos sin orden
       if (!especie || especie.toLowerCase() === 'humano') {
-        return '<img src="/images/humano.png" width="' + s + '" height="' + s + '" style="width:100%;height:100%;object-fit:cover" alt="Humano"/>';
+        return '<img src="/images/humano.png" style="position:absolute;inset:0;width:' + s + 'px;height:' + s + 'px;object-fit:cover;display:block" alt="Humano"/>';
       }
       // Cantores/Parshmenios
       if (especie.toLowerCase().includes('cantor') || especie.toLowerCase().includes('pars')) {
-        return '<img src="/images/parshmenios.png" width="' + s + '" height="' + s + '" style="width:100%;height:100%;object-fit:cover" alt="Cantor"/>';
+        return '<img src="/images/parshmenios.png" style="position:absolute;inset:0;width:' + s + 'px;height:' + s + 'px;object-fit:cover;display:block" alt="Cantor"/>';
       }
-      // Otros (larkin, insomne, retornado...) — cuadrado vacío
       return '';
     }
 
@@ -1344,7 +1344,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = listaOrdenada.map(p => \`
         <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
-          <div class="item-avatar">\${logoOrden(p.orden, 28, p.especie)}</div>
+          <div class="item-avatar" style="position:relative;overflow:hidden;padding:0">\${logoOrden(p.orden, 28, p.especie)}</div>
           <div class="item-info">
             <div class="item-nombre">\${p.nombre}</div>
             <div class="item-orden">\${p.orden || 'Sin orden'}</div>
@@ -1623,7 +1623,7 @@ router.get("/", (req, res) => {
       return \`
         <div class="ficha">
           <div class="ficha-header">
-            <div class="ficha-avatar">\${logoOrden(orden, 72, p.especie)}</div>
+            <div class="ficha-avatar" style="position:relative;overflow:hidden;padding:0">\${logoOrden(orden, 72, p.especie)}</div>
             <div class="ficha-titulo">
               <h2>\${p.nombre}</h2>
               \${p.nombre_completo && p.nombre_completo !== p.nombre
