@@ -346,7 +346,16 @@ paths:
               schema:
                 type: array
                 items:
-                  type: object
+                  $ref: "#/components/schemas/HeraldoResumen"
+              example:
+                - id: jezrien
+                  nombre: Jezrien
+                  herald:
+                    titulo: Heraldo de los Reyes
+                    orden_patron: Corredores del Viento
+                    numero_herald: 1
+                  estado_actual: muerto
+                  descripcion_breve: "Heraldo de los Reyes y patrón de los Corredores del Viento."
 
   /heraldos/{id}:
     get:
@@ -362,6 +371,32 @@ paths:
       responses:
         "200":
           description: Perfil completo del heraldo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HeraldoCompleto"
+              example:
+                id: jezrien
+                nombre: Jezrien
+                nombre_completo: "Jezerezeh'Elin"
+                apodos: ["Jezerezeh", "Yaezir", "Ahu"]
+                mundo_natal: Ashyn
+                estado_actual: muerto
+                fecha_muerte: "Nanabah 1174"
+                herald:
+                  titulo: Heraldo de los Reyes
+                  otros_titulos: ["Padre de las Tormentas", "Kadasix de los Reyes"]
+                  orden_patron: Corredores del Viento
+                  numero_herald: 1
+                  abandono_juramento: true
+                  condenacion: Braize
+                habilidades:
+                  como_herald: ["inmortalidad como sombra cognitiva", "reflejos y fuerza sobrehumanos"]
+                  potenciacion_honor:
+                    potencias: ["Adhesión", "Gravitación"]
+                    fuente: "Honor directamente, sin necesidad de luz tormentosa"
+                    hoja_de_honor: true
+                descripcion_breve: "Heraldo de los Reyes y patrón de los Corredores del Viento. Considerado uno de los mejores líderes que han existido."
         "404":
           $ref: "#/components/responses/NotFound"
 
@@ -381,10 +416,28 @@ paths:
           required: true
           schema:
             type: string
+            enum:
+              - herald
+              - apariencia
+              - personalidad
+              - habilidades
+              - historia
+              - apariciones
+              - relaciones
           example: habilidades
       responses:
         "200":
           description: Sección del heraldo
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                como_herald: ["inmortalidad como sombra cognitiva", "reflejos y fuerza sobrehumanos"]
+                potenciacion_honor:
+                  potencias: ["Adhesión", "Gravitación"]
+                  fuente: "Honor directamente, sin necesidad de luz tormentosa"
+                  hoja_de_honor: true
         "404":
           $ref: "#/components/responses/NotFound"
 
@@ -401,7 +454,14 @@ paths:
               schema:
                 type: array
                 items:
-                  type: object
+                  $ref: "#/components/schemas/SprenResumen"
+              example:
+                - id: sylphrena
+                  nombre: Sylphrena
+                  tipo_spren: honorspren
+                  es_splinter_de: Honor
+                  estado_actual: activa
+                  descripcion_breve: "Honorspren vinculada a Kaladin, conocida entre los suyos como la Hija Antigua."
 
   /spren/{id}:
     get:
@@ -417,6 +477,35 @@ paths:
       responses:
         "200":
           description: Perfil completo del spren
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SprenCompleto"
+              example:
+                id: sylphrena
+                nombre: Sylphrena
+                apodos: ["Syl", "Hija Antigua"]
+                tipo_spren: honorspren
+                es_splinter_de: Honor
+                mundo_natal: Roshar
+                estado_actual: activa
+                origen:
+                  creador: Padre Tormenta
+                  lugar_creacion: Forja de Dios
+                  generacion: primera
+                apariencia:
+                  reino_fisico:
+                    forma_preferida: "mujer joven de un palmo de altura con cara angular y pelo fluido que se desvanece en bruma"
+                    color: blanco azulado uniforme con tenue luz azul
+                  como_hoja_esquirlada:
+                    forma_habitual: lanza
+                    material: metal plateado y brillante con glifos grabados
+                vinculo_nahel:
+                  radiante_actual: kaladin
+                  orden_radiante: Corredores del Viento
+                  potencias_otorgadas: ["Gravitación", "Adhesión"]
+                  estado_vinculo: estable
+                descripcion_breve: "Honorspren vinculada a Kaladin, conocida entre los suyos como la Hija Antigua."
         "404":
           $ref: "#/components/responses/NotFound"
 
@@ -430,14 +519,35 @@ paths:
           required: true
           schema:
             type: string
+          example: sylphrena
         - name: seccion
           in: path
           required: true
           schema:
             type: string
+            enum:
+              - origen
+              - apariencia
+              - personalidad
+              - habilidades
+              - vinculo_nahel
+              - historia
+              - apariciones
+              - relaciones
+          example: vinculo_nahel
       responses:
         "200":
           description: Sección del spren
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                radiante_actual: kaladin
+                orden_radiante: Corredores del Viento
+                potencias_otorgadas: ["Gravitación", "Adhesión"]
+                forma_shardblade: lanza
+                estado_vinculo: estable
         "404":
           $ref: "#/components/responses/NotFound"
 
@@ -738,6 +848,348 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/PersonajeCompleto"
+
+    HeraldoResumen:
+      type: object
+      properties:
+        id:
+          type: string
+          example: jezrien
+        nombre:
+          type: string
+          example: Jezrien
+        herald:
+          type: object
+          properties:
+            titulo:
+              type: string
+              example: Heraldo de los Reyes
+            orden_patron:
+              type: string
+              example: Corredores del Viento
+            numero_herald:
+              type: integer
+              example: 1
+        estado_actual:
+          type: string
+          example: muerto
+        descripcion_breve:
+          type: string
+
+    HeraldoCompleto:
+      type: object
+      properties:
+        id:
+          type: string
+          example: jezrien
+        nombre:
+          type: string
+          example: Jezrien
+        nombre_completo:
+          type: string
+          example: "Jezerezeh'Elin"
+        apodos:
+          type: array
+          items:
+            type: string
+          example: ["Jezerezeh", "Yaezir", "Ahu"]
+        mundo_natal:
+          type: string
+          example: Ashyn
+        estado_actual:
+          type: string
+          example: muerto
+        fecha_muerte:
+          type: string
+          nullable: true
+          example: "Nanabah 1174"
+        herald:
+          type: object
+          properties:
+            titulo:
+              type: string
+            otros_titulos:
+              type: array
+              items:
+                type: string
+            orden_patron:
+              type: string
+            numero_herald:
+              type: integer
+            abandono_juramento:
+              type: boolean
+            condenacion:
+              type: string
+        apariencia:
+          type: object
+          properties:
+            fisica:
+              type: string
+            vestimenta_habitual:
+              type: string
+            apariencia_como_mendigo:
+              type: string
+            voz:
+              type: string
+        personalidad:
+          type: object
+          properties:
+            rasgos:
+              type: array
+              items:
+                type: string
+            evolucion:
+              type: string
+            notas:
+              type: string
+        habilidades:
+          type: object
+          properties:
+            como_herald:
+              type: array
+              items:
+                type: string
+            potenciacion_honor:
+              type: object
+              properties:
+                potencias:
+                  type: array
+                  items:
+                    type: string
+                fuente:
+                  type: string
+                hoja_de_honor:
+                  type: boolean
+                notas:
+                  type: string
+            potenciacion_odium:
+              type: object
+              properties:
+                concedida_en:
+                  type: string
+                efecto:
+                  type: string
+                estado:
+                  type: string
+            liderazgo:
+              type: string
+        historia:
+          type: object
+          properties:
+            resumen:
+              type: string
+            puntos_clave:
+              type: array
+              items:
+                type: string
+        apariciones:
+          type: object
+          properties:
+            libros:
+              type: array
+              items:
+                type: object
+                properties:
+                  titulo:
+                    type: string
+                  rol:
+                    type: string
+                  pov:
+                    type: boolean
+        relaciones:
+          type: object
+          properties:
+            familia:
+              type: array
+              items:
+                type: object
+            heraldos:
+              type: array
+              items:
+                type: object
+            otros:
+              type: array
+              items:
+                type: object
+        descripcion_breve:
+          type: string
+        notas:
+          type: string
+
+    SprenResumen:
+      type: object
+      properties:
+        id:
+          type: string
+          example: sylphrena
+        nombre:
+          type: string
+          example: Sylphrena
+        tipo_spren:
+          type: string
+          example: honorspren
+        es_splinter_de:
+          type: string
+          example: Honor
+        estado_actual:
+          type: string
+          example: activa
+        descripcion_breve:
+          type: string
+
+    SprenCompleto:
+      type: object
+      properties:
+        id:
+          type: string
+          example: sylphrena
+        nombre:
+          type: string
+          example: Sylphrena
+        apodos:
+          type: array
+          items:
+            type: string
+          example: ["Syl", "Hija Antigua"]
+        tipo_spren:
+          type: string
+          example: honorspren
+        es_splinter_de:
+          type: string
+          example: Honor
+        mundo_natal:
+          type: string
+          example: Roshar
+        estado_actual:
+          type: string
+          example: activa
+        origen:
+          type: object
+          properties:
+            creador:
+              type: string
+            lugar_creacion:
+              type: string
+            generacion:
+              type: string
+            notas:
+              type: string
+        apariencia:
+          type: object
+          properties:
+            reino_fisico:
+              type: object
+              properties:
+                forma_preferida:
+                  type: string
+                vestimenta:
+                  type: string
+                color:
+                  type: string
+                formas_alternativas:
+                  type: array
+                  items:
+                    type: string
+                visibilidad:
+                  type: string
+            reino_cognitivo:
+              type: object
+              properties:
+                forma:
+                  type: string
+                limitaciones:
+                  type: string
+            como_hoja_esquirlada:
+              type: object
+              properties:
+                forma_habitual:
+                  type: string
+                otras_formas:
+                  type: array
+                  items:
+                    type: string
+                material:
+                  type: string
+                detalle:
+                  type: string
+        personalidad:
+          type: object
+          properties:
+            rasgos:
+              type: array
+              items:
+                type: string
+            valores:
+              type: array
+              items:
+                type: string
+            notas:
+              type: string
+        habilidades:
+          type: object
+          properties:
+            generales:
+              type: array
+              items:
+                type: string
+            magicas:
+              type: array
+              items:
+                type: string
+        vinculo_nahel:
+          type: object
+          properties:
+            radiante_actual:
+              type: string
+              example: kaladin
+            orden_radiante:
+              type: string
+              example: Corredores del Viento
+            potencias_otorgadas:
+              type: array
+              items:
+                type: string
+              example: ["Gravitación", "Adhesión"]
+            forma_shardblade:
+              type: string
+              example: lanza
+            estado_vinculo:
+              type: string
+              example: estable
+            radiante_anterior:
+              type: string
+              nullable: true
+            notas:
+              type: string
+        historia:
+          type: object
+          properties:
+            resumen:
+              type: string
+            puntos_clave:
+              type: array
+              items:
+                type: string
+        apariciones:
+          type: object
+          properties:
+            libros:
+              type: array
+              items:
+                type: object
+                properties:
+                  titulo:
+                    type: string
+                  rol:
+                    type: string
+                  pov:
+                    type: boolean
+        relaciones:
+          type: object
+        descripcion_breve:
+          type: string
+        notas:
+          type: string
 
     BuscarVacio:
       type: object
