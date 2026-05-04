@@ -2,10 +2,90 @@ openapi: 3.0.3
 info:
   title: La API de las Tormentas
   description: |
-    API REST sobre los personajes del universo literario **El Archivo de las Tormentas** de Brandon Sanderson.
-    
-    Permite consultar perfiles completos de personajes, filtrar por múltiples criterios,
-    ordenar, paginar y seleccionar campos concretos con soporte para rutas profundas.
+    API REST sobre el universo literario **El Archivo de las Tormentas** de Brandon Sanderson.
+
+    Permite consultar perfiles completos de personajes, heraldos y spren, filtrar por múltiples
+    criterios, ordenar, paginar y seleccionar campos concretos con soporte para rutas profundas.
+
+    ---
+
+    ## 🚀 Cómo empezar
+
+    No necesitas registrarte ni obtener ninguna clave. La API es pública y gratuita.
+
+    ### Tu primera llamada
+
+    Abre el navegador y accede a esta URL para ver todos los personajes disponibles:
+
+    ```
+    GET /personajes
+    ```
+
+    O si prefieres empezar por un personaje concreto:
+
+    ```
+    GET /personajes/kaladin
+    ```
+
+    ### Desde tu código
+
+    **JavaScript / fetch**
+    ```javascript
+    const res = await fetch("https://tudominio.es/personajes/kaladin");
+    const kaladin = await res.json();
+    console.log(kaladin.nombre); // "Kaladin"
+    ```
+
+    **Python**
+    ```python
+    import requests
+    r = requests.get("https://tudominio.es/personajes/kaladin")
+    kaladin = r.json()
+    print(kaladin["nombre"])  # "Kaladin"
+    ```
+
+    **curl**
+    ```bash
+    curl https://tudominio.es/personajes/kaladin
+    ```
+
+    ---
+
+    ## 🔍 Búsqueda y filtros
+
+    El endpoint `/buscar` es el más potente de la API. Puedes combinar filtros libremente:
+
+    ```
+    GET /buscar?orden=Corredores del Viento&nivel_ideal=>=3
+    GET /buscar?nacionalidad=alezi&estado_actual=vivo
+    GET /buscar?texto=depresión&sort=-nivel_ideal
+    ```
+
+    ---
+
+    ## 📦 Formato de respuesta
+
+    Todas las respuestas son JSON con codificación UTF-8.
+    Los errores siguen siempre la misma estructura:
+
+    ```json
+    { "error": "Personaje no encontrado" }
+    ```
+
+    ---
+
+    ## ⚡ Límites de uso
+
+    Para garantizar la disponibilidad para todos los usuarios, la API aplica un límite
+    de **100 peticiones por IP cada 15 minutos**. Si lo superas recibirás un error `429`.
+
+    ---
+
+    ## 🗺️ ¿Por dónde seguir?
+
+    - Explora todos los endpoints disponibles en esta misma documentación
+    - Pruébalos directamente desde el botón **Try it out** de cada endpoint
+    - Visita el explorador interactivo en `/explorador` para una experiencia más visual
   version: 1.0.0
   contact:
     name: La API de las Tormentas
