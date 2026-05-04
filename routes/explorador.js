@@ -2867,7 +2867,7 @@ router.get("/", (req, res) => {
             <div>
               <p style="font-weight:600; margin-bottom:0.2rem;">La Coppermind Wiki</p>
               <p style="font-size:0.88rem; opacity:0.7;">Fuente de referencia canónica para todos los datos. Un trabajo enciclopédico extraordinario mantenido por la comunidad.</p>
-              <a href="https://coppermind.net" target="_blank" style="font-size:0.82rem;">coppermind.net →</a>
+              <a href="https://es.coppermind.net/" target="_blank" style="font-size:0.82rem;">coppermind.net →</a>
             </div>
           </div>
         </div>
