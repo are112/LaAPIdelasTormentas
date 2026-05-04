@@ -90,6 +90,83 @@ router.get("/", (req, res) => {
       transition: opacity 0.15s;
     }
     .header-der a:hover { opacity: 1; color: var(--blanco-perla); }
+    .header-der { display: flex; gap: 1.5rem; align-items: center; }
+
+    /* Overlay Acerca de */
+    .acerca-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.75);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .acerca-overlay.visible { display: flex; }
+    .acerca-panel {
+      background: var(--azul-profundo);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 600px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      position: relative;
+    }
+    .acerca-cerrar {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: none;
+      border: none;
+      color: var(--gris-plata);
+      font-size: 1.2rem;
+      cursor: pointer;
+      opacity: 0.6;
+      transition: opacity 0.15s;
+    }
+    .acerca-cerrar:hover { opacity: 1; }
+    .acerca-seccion {
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .acerca-seccion-titulo {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--dorado);
+      margin-bottom: 0.75rem;
+    }
+    .acerca-seccion p {
+      font-size: 0.95rem;
+      color: var(--blanco-perla);
+      opacity: 0.85;
+      line-height: 1.7;
+    }
+    .acerca-seccion a {
+      color: var(--celeste-luz);
+      text-decoration: none;
+      opacity: 0.8;
+    }
+    .acerca-seccion a:hover { opacity: 1; }
+    .acerca-aviso {
+      background: rgba(201,168,76,0.05);
+      border: 1px solid rgba(201,168,76,0.15);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .acerca-aviso p {
+      font-size: 0.82rem;
+      color: var(--gris-plata);
+      line-height: 1.6;
+      text-align: center;
+      font-style: italic;
+    }
 
     /* Layout principal */
     .contenedor {
@@ -1116,6 +1193,7 @@ router.get("/", (req, res) => {
     </div>
     <div class="header-der">
       <a href="https://laapidelastormentas.onrender.com/api-docs" title="Documentación de la API">API Docs</a>
+      <a href="#" onclick="abrirAcercaDe(); return false;" title="Acerca de este proyecto">Acerca de</a>
     </div>
   </header>
 
@@ -1941,6 +2019,84 @@ router.get("/", (req, res) => {
       else                           renderListaEsquirlas(todosEsquirlas);
     }
 
+    // ── Acerca de ─────────────────────────────────────────────
+    function mostrarAcercaDe() {
+      const panel = document.getElementById('panel-der');
+      panel.innerHTML = `
+        <div style="padding: 2rem; max-width: 680px; margin: 0 auto; font-family: 'Crimson Pro', Georgia, serif; color: var(--blanco-perla);">
+
+          <div style="text-align: center; margin-bottom: 2.5rem;">
+            <h2 style="font-family: 'Cinzel Decorative', serif; font-size: 1.4rem; color: var(--dorado); letter-spacing: 0.1em; margin-bottom: 0.5rem;">La API de las Tormentas</h2>
+            <p style="color: var(--gris-plata); font-style: italic; font-size: 1rem;">Un proyecto fan del Cosmere</p>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
+            <h3 style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--dorado); margin-bottom: 1rem;">¿Qué es esto?</h3>
+            <p style="font-size: 1rem; line-height: 1.7; color: var(--blanco-perla); opacity: 0.85;">
+              Una API REST de acceso libre dedicada al universo de <strong>El Archivo de las Tormentas</strong> de Brandon Sanderson.
+              Cubre personajes, spren, heraldos, Deshechos y Esquirlas con búsqueda avanzada, filtros y este explorador visual.
+            </p>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
+            <h3 style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--dorado); margin-bottom: 1rem;">Autor</h3>
+            <p style="font-size: 1rem; line-height: 1.7; color: var(--blanco-perla); opacity: 0.85;">
+              Proyecto creado y mantenido por <strong style="color: var(--celeste-luz);">Are112</strong>.
+            </p>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
+            <h3 style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--dorado); margin-bottom: 1rem;">Agradecimientos</h3>
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+              <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <span style="font-size: 1.4rem; flex-shrink: 0;">📖</span>
+                <div>
+                  <p style="font-size: 1rem; font-weight: 600; color: var(--blanco-perla); margin-bottom: 0.25rem;">Brandon Sanderson</p>
+                  <p style="font-size: 0.9rem; color: var(--gris-plata); line-height: 1.5;">Por crear el universo de El Archivo de las Tormentas y la riqueza de su mundo, personajes y sistema de magia.</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <span style="font-size: 1.4rem; flex-shrink: 0;">📚</span>
+                <div>
+                  <p style="font-size: 1rem; font-weight: 600; color: var(--blanco-perla); margin-bottom: 0.25rem;">La Coppermind Wiki</p>
+                  <p style="font-size: 0.9rem; color: var(--gris-plata); line-height: 1.5;">Fuente de referencia canónica para todos los datos del proyecto. Un trabajo enciclopédico extraordinario mantenido por la comunidad.</p>
+                  <a href="https://coppermind.net" target="_blank" style="font-size: 0.85rem; color: var(--celeste-luz); text-decoration: none; opacity: 0.8;">coppermind.net →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
+            <h3 style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--dorado); margin-bottom: 1rem;">Licencia</h3>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <p style="font-size: 0.9rem; color: var(--gris-plata); line-height: 1.6;">
+                <strong style="color: var(--blanco-perla);">Datos (JSON)</strong> — 
+                <a href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank" style="color: var(--celeste-luz); text-decoration: none;">CC BY 4.0</a>. 
+                Libres para usar, compartir y adaptar citando la fuente.
+              </p>
+              <p style="font-size: 0.9rem; color: var(--gris-plata); line-height: 1.6;">
+                <strong style="color: var(--blanco-perla);">Código fuente</strong> — MIT. Libre para usar y modificar.
+              </p>
+            </div>
+          </div>
+
+          <div style="background: rgba(201,168,76,0.05); border: 1px solid rgba(201,168,76,0.15); border-radius: 8px; padding: 1.25rem; margin-bottom: 1.5rem;">
+            <p style="font-size: 0.82rem; color: var(--gris-plata); line-height: 1.6; text-align: center; font-style: italic;">
+              El universo, personajes y elementos narrativos de El Archivo de las Tormentas son propiedad intelectual de
+              <strong style="color: var(--blanco-perla);">Brandon Sanderson</strong> y Dragonsteel Entertainment.
+              Este es un proyecto fan sin ánimo de lucro, no afiliado ni respaldado oficialmente.
+            </p>
+          </div>
+
+          <div style="text-align: center; padding-top: 0.5rem;">
+            <a href="/api-docs" style="font-size: 0.8rem; color: var(--celeste-luz); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.7; margin-right: 1.5rem;">API Docs →</a>
+          </div>
+
+        </div>
+      `;
+      if (window.innerWidth <= 768) mostrarPanelDer();
+    }
+
     // ── Deshechos ──────────────────────────────────────────
 
     async function cargarDeshechos() {
@@ -2741,7 +2897,78 @@ router.get("/", (req, res) => {
 
     // Filtro tipo spren
     document.getElementById('filtro-tipo').addEventListener('change', () => renderListaSpren(todosSpren));
+
+    // ── Acerca de ─────────────────────────────────────────────
+    function abrirAcercaDe() {
+      document.getElementById('acerca-overlay').classList.add('visible');
+      document.body.style.overflow = 'hidden';
+    }
+    function cerrarAcercaDe() {
+      document.getElementById('acerca-overlay').classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') cerrarAcercaDe();
+    });
   </script>
+
+  <!-- Overlay Acerca de -->
+  <div class="acerca-overlay" id="acerca-overlay" onclick="if(event.target===this)cerrarAcercaDe()">
+    <div class="acerca-panel">
+      <button class="acerca-cerrar" onclick="cerrarAcercaDe()">✕</button>
+
+      <div style="text-align:center; margin-bottom:1.5rem;">
+        <h2 style="font-family:'Cinzel Decorative',serif; font-size:1.2rem; color:var(--dorado); letter-spacing:0.1em; margin-bottom:0.4rem;">La API de las Tormentas</h2>
+        <p style="color:var(--gris-plata); font-style:italic; font-size:0.9rem;">Un proyecto fan del Cosmere</p>
+      </div>
+
+      <div class="acerca-seccion">
+        <div class="acerca-seccion-titulo">¿Qué es esto?</div>
+        <p>Una API REST de acceso libre dedicada al universo de <strong>El Archivo de las Tormentas</strong> de Brandon Sanderson. Cubre personajes, spren, heraldos, Deshechos y Esquirlas con búsqueda avanzada, filtros y este explorador visual.</p>
+      </div>
+
+      <div class="acerca-seccion">
+        <div class="acerca-seccion-titulo">Autor</div>
+        <p>Proyecto creado y mantenido por <strong style="color:var(--celeste-luz);">Are112</strong>.</p>
+      </div>
+
+      <div class="acerca-seccion">
+        <div class="acerca-seccion-titulo">Agradecimientos</div>
+        <div style="display:flex; flex-direction:column; gap:0.75rem;">
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="font-size:1.2rem; flex-shrink:0;">📖</span>
+            <div>
+              <p style="font-weight:600; margin-bottom:0.2rem;">Brandon Sanderson</p>
+              <p style="font-size:0.88rem; opacity:0.7;">Por crear el universo de El Archivo de las Tormentas y la riqueza de su mundo, personajes y sistema de magia.</p>
+            </div>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="font-size:1.2rem; flex-shrink:0;">📚</span>
+            <div>
+              <p style="font-weight:600; margin-bottom:0.2rem;">La Coppermind Wiki</p>
+              <p style="font-size:0.88rem; opacity:0.7;">Fuente de referencia canónica para todos los datos. Un trabajo enciclopédico extraordinario mantenido por la comunidad.</p>
+              <a href="https://coppermind.net" target="_blank" style="font-size:0.82rem;">coppermind.net →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="acerca-seccion">
+        <div class="acerca-seccion-titulo">Licencia</div>
+        <p><strong>Datos (JSON)</strong> — <a href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">CC BY 4.0</a>. Libres para usar, compartir y adaptar citando la fuente.</p>
+        <p style="margin-top:0.5rem;"><strong>Código fuente</strong> — MIT. Libre para usar y modificar.</p>
+      </div>
+
+      <div class="acerca-aviso">
+        <p>El universo, personajes y elementos narrativos de El Archivo de las Tormentas son propiedad intelectual de <strong style="color:var(--blanco-perla);">Brandon Sanderson</strong> y Dragonsteel Entertainment. Este es un proyecto fan sin ánimo de lucro, no afiliado ni respaldado oficialmente.</p>
+      </div>
+
+      <div style="text-align:center; padding-top:0.5rem;">
+        <a href="/api-docs" style="font-size:0.8rem; color:var(--celeste-luz); text-decoration:none; letter-spacing:0.08em; text-transform:uppercase; opacity:0.7;">API Docs →</a>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>`;
 
