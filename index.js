@@ -13,6 +13,7 @@ import deshechoRoutes from "./routes/deshechos.js";
 import esquirlasRoutes from "./routes/esquirlas.js";
 
 const app = express();
+app.set('trust proxy', 1); // Confía en el proxy de Render/Fly.io para identificar IPs reales
 app.use(express.json());
 
 // ─── Seguridad: cabeceras HTTP ────────────────────────────
