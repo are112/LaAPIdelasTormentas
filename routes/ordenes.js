@@ -1,12 +1,16 @@
 import express from "express";
-import { listarOrdenes, detalleOrden } from "../controllers/ordenesController.js";
+import {
+  listarOrdenes,
+  detalleOrden,
+  ordenPersonajes,
+  ordenSpren,
+} from "../controllers/ordenesController.js";
 
 const router = express.Router();
 
-// GET /ordenes
 router.get("/", listarOrdenes);
-
-// GET /ordenes/:nombre
-router.get("/:nombre", detalleOrden);
+router.get("/:nombre/personajes", ordenPersonajes);
+router.get("/:nombre/spren",      ordenSpren);
+router.get("/:nombre",            detalleOrden);
 
 export default router;

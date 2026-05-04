@@ -1,14 +1,17 @@
 import { loadOrdenes } from "../utils/loadOrdenes.js";
 import { loadList } from "../utils/loadList.js";
 import { loadCharacter } from "../utils/loadCharacter.js";
+import { loadSprenList } from "../utils/loadSprenList.js";
+import { loadSpren } from "../utils/loadSpren.js";
 
-// IDs de orden que no son órdenes reales y deben ignorarse
 const ORDENES_EXCLUIDAS = ["ninguna", ""];
 
-/**
- * Construye el mapa de personajes agrupados por nombre de orden.
- * Se ejecuta una vez y se reutiliza en ambos handlers.
- */
+function normalizarOrden(nombre) {
+  const lower = nombre.toLowerCase();
+  if (lower.startsWith("corredor del viento")) return "Corredores del Viento";
+  return nombre;
+}
+
 function buildPersonajesPorOrden() {
   const lista = loadList();
   const map = {};
@@ -16,16 +19,11 @@ function buildPersonajesPorOrden() {
   for (const p of lista) {
     const detalle = loadCharacter(p.id);
     if (!detalle) continue;
-
     const orden = detalle.orden_radiantes?.orden?.trim();
     if (!orden || ORDENES_EXCLUIDAS.includes(orden.toLowerCase())) continue;
-
-    // Normalizar variantes (ej: "Corredor del Viento (caído...)" → "Corredores del Viento")
-    const ordenNormalizada = normalizarOrden(orden);
-
-    if (!map[ordenNormalizada]) map[ordenNormalizada] = [];
-
-    map[ordenNormalizada].push({
+    const ordenNorm = normalizarOrden(orden);
+    if (!map[ordenNorm]) map[ordenNorm] = [];
+    map[ordenNorm].push({
       id: detalle.id,
       nombre: detalle.nombre,
       nivel_ideal: detalle.orden_radiantes?.nivel_ideal ?? null,
@@ -39,20 +37,31 @@ function buildPersonajesPorOrden() {
   return map;
 }
 
-/**
- * Normaliza variantes de nombres de orden al nombre canónico.
- * Por ejemplo: "Corredor del Viento (caído / nunca completado el vínculo)"
- * se mapea a "Corredores del Viento".
- */
-function normalizarOrden(nombre) {
-  const lower = nombre.toLowerCase();
-  if (lower.startsWith("corredor del viento")) return "Corredores del Viento";
-  return nombre;
+function buildSprenPorOrden() {
+  const lista = loadSprenList();
+  const map = {};
+
+  for (const s of lista) {
+    const detalle = loadSpren(s.id);
+    if (!detalle) continue;
+    const orden = detalle.vinculo_nahel?.orden_radiante?.trim();
+    if (!orden) continue;
+    if (!map[orden]) map[orden] = [];
+    map[orden].push({
+      id: detalle.id,
+      nombre: detalle.nombre,
+      tipo_spren: detalle.tipo_spren ?? null,
+      radiante_actual: detalle.vinculo_nahel?.radiante_actual ?? null,
+      estado_vinculo: detalle.vinculo_nahel?.estado_vinculo ?? null,
+      estado_actual: detalle.estado_actual ?? null,
+    });
+  }
+
+  return map;
 }
 
 //
 // GET /ordenes
-// Lista todas las órdenes con sus datos estáticos y el número de personajes
 //
 export function listarOrdenes(req, res) {
   const ordenes = loadOrdenes();
@@ -69,25 +78,17 @@ export function listarOrdenes(req, res) {
     total_personajes: personajesPorOrden[orden.nombre]?.length ?? 0,
   }));
 
-  res.json({
-    total_ordenes: resultado.length,
-    ordenes: resultado,
-  });
+  res.json({ total_ordenes: resultado.length, ordenes: resultado });
 }
 
 //
 // GET /ordenes/:nombre
-// Detalle completo de una orden: datos estáticos + todos sus personajes
 //
 export function detalleOrden(req, res) {
   const nombreBuscado = decodeURIComponent(req.params.nombre).toLowerCase().trim();
   const ordenes = loadOrdenes();
-
-  // Buscar la orden por nombre o por id
   const ordenData = ordenes.find(
-    (o) =>
-      o.nombre.toLowerCase() === nombreBuscado ||
-      o.id.toLowerCase() === nombreBuscado
+    (o) => o.nombre.toLowerCase() === nombreBuscado || o.id.toLowerCase() === nombreBuscado
   );
 
   if (!ordenData) {
@@ -112,5 +113,62 @@ export function detalleOrden(req, res) {
     imagen: ordenData.imagen,
     total_personajes: miembros.length,
     personajes: miembros,
+  });
+}
+
+//
+// GET /ordenes/:nombre/personajes
+// Lista de personajes que pertenecen a esta orden
+//
+export function ordenPersonajes(req, res) {
+  const nombreBuscado = decodeURIComponent(req.params.nombre).toLowerCase().trim();
+  const ordenes = loadOrdenes();
+  const ordenData = ordenes.find(
+    (o) => o.nombre.toLowerCase() === nombreBuscado || o.id.toLowerCase() === nombreBuscado
+  );
+
+  if (!ordenData) {
+    return res.status(404).json({
+      error: `No se encontró la orden "${req.params.nombre}"`,
+      sugerencia: "Consulta GET /ordenes para ver las órdenes disponibles",
+    });
+  }
+
+  const personajesPorOrden = buildPersonajesPorOrden();
+  const miembros = personajesPorOrden[ordenData.nombre] ?? [];
+
+  res.json({
+    orden: ordenData.nombre,
+    total: miembros.length,
+    personajes: miembros,
+  });
+}
+
+//
+// GET /ordenes/:nombre/spren
+// Lista de spren vinculados a esta orden
+//
+export function ordenSpren(req, res) {
+  const nombreBuscado = decodeURIComponent(req.params.nombre).toLowerCase().trim();
+  const ordenes = loadOrdenes();
+  const ordenData = ordenes.find(
+    (o) => o.nombre.toLowerCase() === nombreBuscado || o.id.toLowerCase() === nombreBuscado
+  );
+
+  if (!ordenData) {
+    return res.status(404).json({
+      error: `No se encontró la orden "${req.params.nombre}"`,
+      sugerencia: "Consulta GET /ordenes para ver las órdenes disponibles",
+    });
+  }
+
+  const sprenPorOrden = buildSprenPorOrden();
+  const spren = sprenPorOrden[ordenData.nombre] ?? [];
+
+  res.json({
+    orden: ordenData.nombre,
+    spren_tipico: ordenData.spren_tipico ?? null,
+    total: spren.length,
+    spren,
   });
 }

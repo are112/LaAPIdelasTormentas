@@ -2,18 +2,17 @@ import express from "express";
 import {
   listarSpren,
   sprenDetalle,
+  sprenResumen,
+  sprenRelaciones,
   sprenSeccion,
 } from "../controllers/sprenController.js";
 
 const router = express.Router();
 
-// GET /spren
 router.get("/", listarSpren);
-
-// GET /spren/:id/:seccion
-router.get("/:id/:seccion", sprenSeccion);
-
-// GET /spren/:id
-router.get("/:id", sprenDetalle);
+router.get("/:id/resumen",    sprenResumen);
+router.get("/:id/relaciones", sprenRelaciones);
+router.get("/:id/:seccion",   sprenSeccion);
+router.get("/:id",            sprenDetalle);
 
 export default router;
