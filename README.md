@@ -1,4 +1,4 @@
-# ⚡ La API de las Tormentas
+# La API de las Tormentas
 
 API REST sobre el universo literario de **El Archivo de las Tormentas** de Brandon Sanderson. Cubre personajes, órdenes de Caballeros Radiantes, spren y heraldos con búsqueda avanzada, filtros, paginación y un explorador visual interactivo.
 

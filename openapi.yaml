@@ -9,7 +9,7 @@ info:
 
     ---
 
-    ## 🚀 Cómo empezar
+    ## Cómo empezar
 
     No necesitas registrarte ni obtener ninguna clave. La API es pública y gratuita.
 
@@ -51,7 +51,7 @@ info:
 
     ---
 
-    ## 🔍 Búsqueda y filtros
+    ## Búsqueda y filtros
 
     El endpoint `/buscar` es el más potente de la API. Puedes combinar filtros libremente:
 
@@ -63,7 +63,7 @@ info:
 
     ---
 
-    ## 📦 Formato de respuesta
+    ## Formato de respuesta
 
     Todas las respuestas son JSON con codificación UTF-8.
     Los errores siguen siempre la misma estructura:
@@ -74,14 +74,14 @@ info:
 
     ---
 
-    ## ⚡ Límites de uso
+    ## Límites de uso
 
     Para garantizar la disponibilidad para todos los usuarios, la API aplica un límite
     de **100 peticiones por IP cada 15 minutos**. Si lo superas recibirás un error `429`.
 
     ---
 
-    ## 🗺️ ¿Por dónde seguir?
+    ## ¿Por dónde seguir?
 
     - Explora todos los endpoints disponibles en esta misma documentación
     - Pruébalos directamente desde el botón **Try it out** de cada endpoint
@@ -130,7 +130,7 @@ paths:
                     example: true
                   msg:
                     type: string
-                    example: "API El Archivo de las Tormentas funcionando ⚡"
+                    example: "API El Archivo de las Tormentas funcionando "
 
   /personajes:
     get:

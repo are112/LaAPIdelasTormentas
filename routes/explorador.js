@@ -2858,14 +2858,12 @@ router.get("/", (req, res) => {
         <div class="acerca-seccion-titulo">Agradecimientos</div>
         <div style="display:flex; flex-direction:column; gap:0.75rem;">
           <div style="display:flex; gap:0.75rem; align-items:flex-start;">
-            <span style="font-size:1.2rem; flex-shrink:0;">📖</span>
             <div>
               <p style="font-weight:600; margin-bottom:0.2rem;">Brandon Sanderson</p>
               <p style="font-size:0.88rem; opacity:0.7;">Por crear el universo de El Archivo de las Tormentas y la riqueza de su mundo, personajes y sistema de magia.</p>
             </div>
           </div>
           <div style="display:flex; gap:0.75rem; align-items:flex-start;">
-            <span style="font-size:1.2rem; flex-shrink:0;">📚</span>
             <div>
               <p style="font-weight:600; margin-bottom:0.2rem;">La Coppermind Wiki</p>
               <p style="font-size:0.88rem; opacity:0.7;">Fuente de referencia canónica para todos los datos. Un trabajo enciclopédico extraordinario mantenido por la comunidad.</p>
