@@ -379,6 +379,32 @@ Las plantillas de personaje, spren y heraldo están disponibles en `data/persona
 
 ---
 
+## Autor
+
+Proyecto creado y mantenido por **Are112**.
+
+---
+
+## Agradecimientos
+
+Este proyecto no existiría sin:
+
+- **Brandon Sanderson** — por crear el universo de El Archivo de las Tormentas y la riqueza de su mundo, personajes y magia.
+- **La Coppermind Wiki** — fuente de referencia canónica para todos los datos del proyecto. Un trabajo enciclopédico extraordinario mantenido por la comunidad. → [coppermind.net](https://coppermind.net)
+
+---
+
 ## Licencia
 
-GPL-3.0 — ver [LICENSE](./LICENSE).
+Los **datos** de este proyecto (archivos JSON en `/data`) se distribuyen bajo licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+Eres libre de:
+- **Compartir** — copiar y redistribuir los datos en cualquier formato
+- **Adaptar** — transformarlos y construir sobre ellos para cualquier propósito, incluso comercial
+
+Siempre que:
+- **Atribuyas** la autoría a Are112 y menciones este proyecto como fuente
+
+El **código fuente** (Node.js / Express) se distribuye bajo licencia **MIT**.
+
+→ [Más información sobre CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
