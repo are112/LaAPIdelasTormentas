@@ -1,0 +1,125 @@
+{
+  "id": "roshone",
+  "nombre": "Roshone",
+  "nombre_completo": "Toralin Roshone",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Roshone",
+    "Principado de Sadeas (vasallo jurado)",
+    "Consistorio de Piedralar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política y conexiones en la corte de Kholinar (anteriormente)",
+      "Gestión de negocios de platería en Kholinar (anteriormente)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Consistor de Piedralar",
+      "Antiguo vasallo del alto príncipe Sadeas en Kholinar",
+      "Causante indirecto de la muerte de Tien y los abuelos de Moash"
+    ],
+    "descripcion": "Hombre de mediana edad con barba corta y canosa y expresión de enfado perpetuo. Ojos amarillo claro que parecen acusar a todos de su destierro. Lleva ropa pasada de moda y un pie de madera en la pierna derecha — perdió la parte inferior de la pierna en la cacería en que murió su hijo Rillir. Se viste bien en el exterior de su mansión pero ha hecho pocas modificaciones en el interior. Vengativo y mezquino según Dalinar Kholin.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro — asesinado por Moash en El Ritmo de la Guerra."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Rillir",
+        "relacion": "hijo; fallecido en una cacería de espinablanca"
+      },
+      {
+        "personaje": "Laral Roshone",
+        "relacion": "esposa; originalmente comprometida con Rillir"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "amaram",
+        "relacion": "primo lejano; cuando pasó por Piedralar reclutando, Roshone se valió de ello"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "lirin",
+        "relacion": "antagonismo desde su llegada — acusó a Lirin de robar las esferas de Wistiow y le hizo la vida imposible"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "incluyó a Tien en la lista de reclutas para vengarse de Lirin"
+      },
+      {
+        "personaje": "moash",
+        "relacion": "convenció a Elhokar de encarcelar a los abuelos de Moash — rivales comerciales — con cargos falsos; murieron en prisión; Moash lo mató en El Ritmo de la Guerra"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Resentido y vengativo — nunca aceptó su exilio a Piedralar. Trataba a los aldeanos con desdén. Con los años, y especialmente tras la muerte de Rillir y la pérdida de su pierna, se ablandó parcialmente — quizás por la culpa.",
+    "evolucion": "Pasó de ser el antagonista activo de la familia de Kaladin a un anciano más tranquilo bajo la influencia de Laral, quien asumió la gestión real de la ciudad.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Roshone era un ojos claros de Kholinar, vasallo jurado de Sadeas y hombre de negocios. Convenció al príncipe Elhokar de encarcelar a los abuelos de Moash — sus rivales comerciales en platería — con cargos falsos; murieron en prisión. Dalinar lo descubrió y, por presión política, lo exilió a Piedralar. Allí se obsesionó con Lirin, a quien culpaba de su desgracia. Reclutó a Tien vengándose indirectamente de Lirin. Murió a manos de Moash durante la ocupación de El Ritmo de la Guerra.",
+    "puntos_clave": [
+      "Vasallo jurado del alto príncipe Sadeas en Kholinar; poseía negocios de platería.",
+      "Convenció a Elhokar de encarcelar a los abuelos de Moash — rivales de platería — con cargos falsos. Murieron en prisión.",
+      "Dalinar lo descubrió; presiones políticas le impidieron despojarlo de rango y riqueza — lo exilió a Piedralar.",
+      "Llegó a Piedralar en 1166 resentido por el destierro.",
+      "Acusó a Lirin de haber robado las esferas del consistor Wistiow y le hizo la vida imposible.",
+      "Su hijo Rillir y él fueron heridos en una cacería de espinablanca — Lirin salvó a Roshone pero no pudo salvar a Rillir.",
+      "Perdió la parte inferior de la pierna derecha en la cacería.",
+      "Sin heredero, planeó casarse con Laral — originalmente comprometida con Rillir.",
+      "Cuando Amaram, su primo, pasó por Piedralar reclutando, Roshone incluyó a Tien en la lista para vengarse de Lirin.",
+      "Con los años se ablandó; Laral asumió la gestión real de la ciudad.",
+      "Kaladin volvió a Piedralar y le dio un puñetazo — luego lo perdonó parcialmente.",
+      "Durante la ocupación de Piedralar por los Fusionados en El Ritmo de la Guerra, Moash lo encontró y lo mató dentro de la mansión."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Antagonista indirecto de Kaladin y Moash; causa de la muerte de Tien",
+    "relacion_con_spren": "",
+    "otros_detalles": "Laral Roshone sobrevivió — fue evacuada a Urithiru por el Cuarto Puente tras la muerte de Roshone y el incendio de la mansión por Lezian."
+  },
+  "descripcion_breve": "Consistor de Piedralar y antiguo vasallo de Sadeas. Su venganza contra Lirin causó indirectamente la muerte de Tien. Sus maquinaciones en Kholinar causaron la muerte de los abuelos de Moash. Asesinado por Moash durante la ocupación.",
+  "notas": "Amaram era su primo. Roshone es el eslabón que conecta los traumas de Kaladin y Moash — causó la muerte de Tien y los abuelos de Moash respectivamente."
+}

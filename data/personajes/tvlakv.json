@@ -1,0 +1,97 @@
+{
+  "id": "tvlakv",
+  "nombre": "Tvlakv",
+  "nombre_completo": "Tvlakv",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comerciante de esclavos experimentado — múltiples caravanas a las Llanuras",
+      "Elocuente y carismático — los que desconfían de él igualmente toman nota de su carisma",
+      "Supervivencia en las Tierras Yermas y las Llanuras Quebradas",
+      "Gestión de chulls y caravanas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mercader de esclavos thaylen",
+      "El que vendió a Kaladin al ejército de Sadeas"
+    ],
+    "descripcion": "Mercader de esclavos thaylen relativamente elocuente y carismático pese a su oficio. Sin escrúpulos y propenso a mentir — si le pillan en una mentira simplemente le resta importancia. Comprueba la salud de sus esclavos pero solo para proteger su valor. No tiene problema en ejecutar a un esclavo si teme que pueda propagar una enfermedad. Su caravana consiste en tres carros arrastrados por chulls. Tiene una cabina resistente al agua bajo su carro donde se refugia durante las altas tormentas.",
+    "estado_en_viento_y_verdad": "Estado desconocido — desapareció del relato tras ser rechazado en Tanatak."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "lo vendió al ejército de Sadeas revelando a Hashal que era desertor — lo condenó a los puentes"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "la usó como rehén potencial; Shallan lo manipuló para que la llevara a las Llanuras"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático y sin escrúpulos. Sus mentiras son instrumentales — las usa para sobrevivir y hacer negocios. Se disculpó brevemente con Kaladin al venderlo sabiendo que lo condenaba a los puentes.",
+    "evolucion": "No muestra evolución moral significativa. Su relación con Shallan revela cierta astucia adaptativa.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Tvlakv era un mercader de esclavos thaylen que transportaba esclavos a las Llanuras Quebradas para venderlos a los ejércitos alezi. Entre sus esclavos transportó a Kaladin. Al venderlo en el campamento de Sadeas, reveló a Hashal que era desertor y había intentado liderar rebeliones — condenándolo a los puentes. Se disculpó brevemente. Meses después, Shallan Davar naufragó y encontró su campamento. La llevó a las Llanuras a cambio de promesas de pago. Fue rechazado en Tanatak y desapareció del relato.",
+    "puntos_clave": [
+      "Mercader de esclavos thaylen con varias caravanas a las Llanuras a sus espaldas.",
+      "Transportó a Kaladin y otros esclavos desde Alezkar a las Llanuras Quebradas.",
+      "Mandó ejecutar a un esclavo enfermo cuando Kaladin intentó salvarle — Bluth lo mató.",
+      "Al vender a Kaladin en el campamento de Sadeas, reveló a Hashal que era desertor que había intentado liderar rebeliones — condenándolo a los puentes en lugar de a un trabajo menos peligroso.",
+      "Se disculpó brevemente con Kaladin alegando que tenía que revelar lo que sabía o los alezi no se fiarían de él.",
+      "Unos meses después, Shallan Davar naufragó y encontró su campamento en las Tierras Yermas.",
+      "Shallan le exigió que la llevara a las Llanuras a cambio de promesas de pago.",
+      "Consideró usar a Shallan como rehén — Shallan se adelantó confrontándole.",
+      "Acompañó a Shallan por las Tierras Heladas enfrentándose a desertores y bandidos.",
+      "Fue rechazado en Tanatak al intentar nuevos negocios y desapareció del relato."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Mercader de esclavos",
+    "rol": "Eslabón que conecta a Kaladin con los ejércitos de Sadeas",
+    "relacion_con_spren": "",
+    "otros_detalles": "Sus mercenarios eran Bluth — fallecido en el encuentro con bandidos — y Tag. Tenía un chico llamado Taran cuidando a los chulls."
+  },
+  "descripcion_breve": "Mercader de esclavos thaylen elocuente pero sin escrúpulos. Transportó a Kaladin a las Llanuras y lo condenó a los puentes al revelar su marca de desertor. Llevó a Shallan a las Llanuras tras su naufragio.",
+  "notas": "Su disculpa a Kaladin al venderlo es uno de los momentos más cínicos de la saga — sabe perfectamente que lo condena y aun así lo hace por pragmatismo comercial."
+}
