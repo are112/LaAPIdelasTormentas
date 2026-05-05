@@ -1,0 +1,106 @@
+{
+  "id": "sah",
+  "nombre": "Sah",
+  "nombre_completo": "Sah",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "alezi (de origen — antiguo parshmeno del principado de Sadeas)",
+  "origen": "Principado de Sadeas, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate básico con lanza — aprendido de Moash antes del asedio",
+      "Capacidad de liderazgo informal dentro de su grupo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Cantor — antiguo parshmeno liberado por la tormenta eterna",
+      "Padre de Vai",
+      "Figura de empatía que ayudó a Kaladin a comprender la perspectiva cantor"
+    ],
+    "descripcion": "Cantor de piel jaspeada con acento alezi nativo de ojos oscuros — pasó toda su vida como parshmeno en Alezkar. Habla el idioma alezi como primera lengua. Posee un juego de cartas del juego roshariano aunque no sabía jugar bien en forma esclava — aprendió algunas reglas de Kaladin. Padre profundamente comprometido con su hija Vai, cuya madre fue vendida como criadora. Más reflexivo y menos impulsivo que Khen; la escucha aunque ella le estimule a actuar.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Vai",
+        "relacion": "hija de siete años; la madre fue vendida como criadora"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "khen",
+        "relacion": "amiga y compañera de grupo; más impulsiva que él; se escuchan mutuamente"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "construyeron una conexión genuina durante el viaje a Revolar; Sah le enseñó la perspectiva cantor"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Noro",
+        "relacion": "guardia de la Muralla de Kholinar que lo mató en el asedio"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profunda ira contenida ante la injusticia, pero canalizada de forma reflexiva. Su amor por Vai es su ancla emocional. Sentía la presión de actuar para proteger a su gente pero no sabía cómo.",
+    "evolucion": "Pasó de parshmeno sin identidad a cantor consciente que lucha por la libertad de su pueblo. Se sintió traicionado cuando Kaladin reveló su verdadera identidad.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Sah fue parshmeno esclavo en el principado de Sadeas. La tormenta eterna le devolvió la consciencia. Viajó con Khen y su grupo hacia Revolar. El grupo 'capturó' a Kaladin. Durante el camino Sah y Kaladin construyeron una conexión genuina — Sah le ayudó a entender la perspectiva cantor. Cuando Kaladin reveló ser un espía, el grupo fue castigado y enviado como carne de cañón al asedio de Kholinar. Su hija Vai fue separada de él. Aprendió a combatir de Moash. Murió en el asedio a manos de Noro tras matar a Beard.",
+    "puntos_clave": [
+      "Parshmeno esclavo en el principado de Sadeas — sirviente en una mansión de un brillante señor.",
+      "Su pareja fue vendida como criadora; cuidó solo de Vai.",
+      "La tormenta eterna le devolvió la consciencia y la identidad — eligió forma de trabajo.",
+      "Viajó con Khen y Vai guiados por el vacíospren Yixli hacia Revolar.",
+      "El grupo 'capturó' a Kaladin cuando se rindió voluntariamente.",
+      "Durante el viaje Sah y Kaladin jugaron a las cartas — Sah tenía las cartas pero no sabía jugar bien.",
+      "Sah ayudó a Kaladin a entender la perspectiva cantor — la ira, la impotencia, el miedo.",
+      "Quando Kaladin reveló ser un espía para evitar a un Fusionado, el grupo fue castigado.",
+      "Los Fusionados los usaron como pretexto para esclavizarlos y enviarlos al frente del asedio.",
+      "Vai fue separada de su padre durante el castigo.",
+      "Aprendió a combatir con lanza de Moash antes del asedio.",
+      "En el palacio de Kholinar, Sah y Kaladin se reconocieron — Kaladin se paralizó al ver a sus amigos matándose entre sí.",
+      "Sah mató a Beard, miembro de la Guardia de la Muralla, con una lanza.",
+      "Noro mató a Sah en el asedio.",
+      "Khen vengó la muerte de Sah matando a Noro."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Figura de empatía — puente entre Kaladin y la perspectiva cantor",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su nombre Sah es común entre los ojos oscuros alezi — refleja toda una vida como parshmeno en Alezkar. Vai sobrevivió; su destino tras el asedio es desconocido."
+  },
+  "descripcion_breve": "Cantor liberado por la tormenta eterna, padre de Vai y compañero de viaje de Khen. Construyó una conexión genuina con Kaladin que le ayudó a comprender la perspectiva cantor. Fallecido en el asedio a Kholinar.",
+  "notas": "Sah es uno de los personajes más importantes para el desarrollo empático de Kaladin. Su conversación sobre pasar la vida 'en la niebla, sabiendo que deberías hacer algo pero sin poder' es uno de los momentos más poderosos de Juramentada. El nombre Sah es común entre ojos oscuros alezi — toda su vida fue vivida en cultura alezi."
+}

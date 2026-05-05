@@ -273,6 +273,13 @@
     "estado_actual": "viva"
   },
   {
+    "id": "laral",
+    "nombre": "Laral",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
+  },
+  {
     "id": "leshwi",
     "nombre": "Leshwi",
     "orden": "Ninguna",
@@ -457,6 +464,13 @@
   {
     "id": "sadeas",
     "nombre": "Sadeas",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
+    "id": "sah",
+    "nombre": "Sah",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido"

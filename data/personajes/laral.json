@@ -1,0 +1,124 @@
+{
+  "id": "laral",
+  "nombre": "Laral",
+  "nombre_completo": "Laral Roshone",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Wistiow (origen)",
+    "Consistorio de Piedralar",
+    "Urithiru (evacuada)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Gestión política y administrativa de Piedralar",
+      "Liderazgo civil en situaciones de crisis",
+      "Operación de vinculacañas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Consistora de Piedralar — primera mujer en obtener el título gracias a las nuevas leyes de sucesión de Jasnah",
+      "Hija del antiguo consistor Wistiow",
+      "Viuda de Roshone"
+    ],
+    "descripcion": "Mujer alezi de ojos claros verde pálido. Pelo negro con mechas doradas — no es alezi de linaje puro; lo llevó teñido totalmente de negro durante un tiempo. Con los años su cara se vuelve firme y delgada. Pasa de ropa elegante a ropa más utilitaria a medida que asume la gestión real de Piedralar. Durante la ocupación de los Fusionados vestía un sencillo vestido de sirviente. Amiga de infancia de Kaladin — los padres de ambos esperaban que se casaran. Cuando creció se convirtió en su primer amor.",
+    "estado_en_viento_y_verdad": "Activa en Urithiru como consistora evacuada de Piedralar."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Wistiow",
+        "relacion": "padre; antiguo consistor de Piedralar; fallecido"
+      },
+      {
+        "personaje": "roshone",
+        "relacion": "esposo; fallecido a manos de Moash"
+      },
+      {
+        "personaje": "Gemelos Roshone",
+        "relacion": "hijos gemelos con Roshone; evacuados a Urithiru"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "amigo de infancia y primer amor; relación distante de adultos"
+      },
+      {
+        "personaje": "lirin",
+        "relacion": "conspiró con él para proteger al general El Visón"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmática y resuelta. Eligió su matrimonio con Roshone por voluntad propia — no para ser salvada. Actitud firme incluso en la adversidad.",
+    "evolucion": "Pasó de ser la hija confinada del consistor a gestora efectiva de Piedralar mientras Roshone se retiraba. Tras quedar viuda asumió el título de consistora.",
+    "situacion_en_viento_y_verdad": "Consistora de Piedralar en Urithiru."
+  },
+  "arco_narrativo": {
+    "resumen": "Laral creció con Kaladin en Piedralar — amigos desde pequeños y primer amor de Kaladin. Cuando su padre Wistiow murió, heredó su riqueza pero no la autoridad sobre la ciudad. Con la llegada de Roshone cortejó a su hijo Rillir. Tras la muerte de Rillir se comprometió con el propio Roshone. Asumió progresivamente la gestión real de Piedralar. Cuando Kaladin regresó lo reprendió por pensar que necesitaba ser salvada. Conspiró con Lirin para proteger al general El Visón. Lezian quemó la mansión durante la batalla y Moash mató a Roshone. Fue evacuada a Urithiru. Jasnah le otorgó el título de consistora.",
+    "puntos_clave": [
+      "Hija del consistor Wistiow; amiga de infancia de Kaladin y Tien.",
+      "Empujó a Kaladin hacia la pelea con otros niños — su carácter directo se manifestó desde pequeña.",
+      "Su padre Wistiow murió el mismo día atendido por Lirin; heredó su riqueza pero no la autoridad.",
+      "Recibió una dote de Sadeas — Roshone la vio como oportunidad política.",
+      "Cortejó a Rillir; cambió su forma de vestir para agradar al joven heredero.",
+      "Rillir murió en la cacería de espinablanca — el compromiso pasó al propio Roshone.",
+      "Se casó con Roshone entre 1168 y 1174 — por voluntad propia según ella misma.",
+      "Asumió progresivamente la gestión de Piedralar mientras Roshone envejecía.",
+      "Cuando Kaladin regresó en 1174, lo reprendió por dañar su suelo y por pensar que necesitaba ser salvada de su matrimonio.",
+      "Operó una vinculacañas para que Kaladin pudiera hablar con Dalinar.",
+      "Conspiró con Lirin para proteger al general herdaziano El Visón, disfrazado de refugiado.",
+      "Lezian quemó la mansión durante la batalla de Piedralar.",
+      "Moash mató a Roshone dentro de la mansión.",
+      "Fue evacuada a Urithiru por el Cuarto Puente junto a sus hijos gemelos.",
+      "Las nuevas leyes de sucesión de Jasnah le otorgaron el título de consistora de Piedralar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Consistora de Piedralar — actualmente en Urithiru",
+    "rol": "Primera consistora de Piedralar; evacuada con sus hijos",
+    "relacion_con_spren": "",
+    "otros_detalles": "Tiene gemelos con Roshone — evacuados a Urithiru. Es la primera mujer en obtener el título de consistora de Piedralar gracias a las nuevas leyes de sucesión de Jasnah Kholin."
+  },
+  "descripcion_breve": "Consistora de Piedralar y amiga de infancia de Kaladin. Eligió casarse con Roshone por voluntad propia. Asumió la gestión real de la ciudad mientras Roshone envejecía. Evacuada a Urithiru tras la batalla con Lezian.",
+  "notas": "Su pelo negro con mechas doradas indica que no es alezi de linaje puro. Su respuesta a Kaladin cuando volvió — reprenderle por pensar que necesitaba ser salvada — es uno de los momentos más reveladores de su personaje. Las leyes de sucesión de Jasnah le otorgaron el título que antes era imposible para una mujer."
+}
