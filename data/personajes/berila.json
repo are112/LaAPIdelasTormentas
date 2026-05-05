@@ -1,0 +1,97 @@
+{
+  "id": "berila",
+  "nombre": "Berila",
+  "nombre_completo": "Berila",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Corte Inadvertida"
+  ],
+  "orden_radiantes": {
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Ornamento (críptico)"
+    },
+    "estado_del_vinculo": "Activo. Desarrolló poderes de tejido de luz de forma independiente antes de ser reclutada."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Iluminación",
+        "Transformación"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Cambio de apariencia — su habilidad natural; puede alterar sus propios rasgos instintivamente",
+      "Moldeado de almas — talento rápido; desarrolló técnica propia con semillas como modelo",
+      "Registro de observaciones en Shadesmar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Tejedor de Luz de la Corte Inadvertida",
+      "Mujer que desarrolló poderes de tejido de luz de forma independiente haciendo ilusiones faciales por encargo"
+    ],
+    "descripcion": "Mujer alta alezi de ojos oscuros, piernas largas y dedos delicados y flexibles. Desarrolló poderes de tejido de luz de forma completamente independiente — hacía ilusiones faciales por encargo para clientes que querían parecer alguien diferente. Llegó a disfrutar del control que le daba esa actividad. Shallan la reclutó unos tres meses antes de la expedición a Integridad Duradera. Tiene limitaciones: solo puede tejer luz sobre su propia apariencia, no crear ilusiones de otros objetos o personas.",
+    "estado_en_viento_y_verdad": "Activa en la Corte Inadvertida."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "la reclutó; Shallan envidiaba su optimismo y confianza en sí misma"
+      },
+      {
+        "personaje": "vathah",
+        "relacion": "le enseñó su técnica de moldeado de almas con semillas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Optimista y segura de sí misma. Shallan la envidiaba por esas cualidades. Sospechada brevemente como espía de los Sangre Espectral — fue exonerada.",
+    "evolucion": "Pasó de trabajadora independiente usando poderes sin saber qué eran a Tejedor de Luz plena en la Corte Inadvertida.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Berila desarrolló poderes de tejido de luz de forma completamente independiente. Hacía ilusiones faciales por encargo — parecía convertirse en cualquier persona que el cliente deseara. Los rumores llegaron a Shallan, que la reclutó. Sustituyó a Sidéreo en la expedición a Integridad Duradera cuando la esposa de este enfermó. Fue sospechada brevemente de ser la espía de los Sangre Espectral cuando Mraize confirmó la información falsa que Shallan le había dado sobre glorispren corrompidos — se descubrió que la fuente era Patrón, no Berila.",
+    "puntos_clave": [
+      "Desarrolló poderes de tejido de luz de forma completamente independiente haciendo ilusiones faciales por encargo.",
+      "Llegó a disfrutar del control que le daba sobre sus clientes.",
+      "Pudo haber dejado el trabajo un mes antes de que Shallan la encontrara, pero siguió porque le gustaba.",
+      "Shallan la reclutó unos tres meses antes de la expedición a Integridad Duradera.",
+      "Solo puede tejer luz sobre su propia apariencia — no crea ilusiones de objetos u otras personas.",
+      "Tiene talento natural para el moldeado de almas — aprendió rápidamente.",
+      "Desarrolló técnica propia: usar semillas del material deseado facilita la transformación. Enseñó el truco a Vathah.",
+      "Sustituyó a Sidéreo en la expedición a Integridad Duradera.",
+      "Registró observaciones de Shadesmar durante el viaje.",
+      "Shallan le dio información falsa sobre glorispren corrompidos — cuando Mraize la confirmó, Berila fue sospechada.",
+      "Se descubrió que la fuente era Patrón, no Berila — exonerada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Agente Tejedor de Luz de la Corte Inadvertida",
+    "rol": "Miembro de la Corte Inadvertida; moldeadora de almas con técnica propia",
+    "relacion_con_spren": "Vínculo activo con Ornamento, su críptico.",
+    "otros_detalles": "Su técnica de moldeado de almas con semillas es desconocida por Jasnah y puede implicar diferencias en el arte entre Tejedores de Luz y Nominadores de Lo Otro."
+  },
+  "descripcion_breve": "Tejedor de Luz alezi que desarrolló sus poderes de forma independiente haciendo ilusiones faciales por encargo. Reclutada por Shallan. Talento especial para el moldeado de almas. Vinculada con Ornamento.",
+  "notas": "Su técnica de moldeado de almas usando semillas como modelo es desconocida por Jasnah — puede implicar diferencias entre las potencias de los Tejedores de Luz frente a las de los Nominadores de Lo Otro. Fue sospechada como espía de los Sangre Espectral pero exonerada — la fuente era Patrón."
+}

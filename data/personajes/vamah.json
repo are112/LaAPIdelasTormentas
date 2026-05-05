@@ -1,0 +1,102 @@
+{
+  "id": "vamah",
+  "nombre": "Vamah",
+  "nombre_completo": "Loradar Vamah",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto Principado de Vamah",
+    "Hijos de Honor (miembro)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política — construcción de un reino virtual en las Llanuras con Thanadal"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe de Alezkar",
+      "Miembro de los Hijos de Honor",
+      "Testigo del asesinato de Thanadal"
+    ],
+    "descripcion": "Alto príncipe alezi. Colores de la casa: marrón y gris. Se negó a trasladarse a Urithiru tras la Batalla de Narak junto a Thanadal — ambos construyeron un reino virtual en las Llanuras controlando el comercio de la zona. Miembro de los Hijos de Honor. Testigo del asesinato de Thanadal a manos de los Sangre Espectral — huyó inmediatamente pero también fue asesinado.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "thanadal",
+        "relacion": "aliado en las Llanuras; construyeron un reino virtual juntos; Vamah fue testigo de su asesinato"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "mraize",
+        "relacion": "la Sangre Espectral asesinó a Thanadal primero y luego a Vamah"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Oportunista. Aprovechó el vacío de poder para construir su propio reino.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Vamah se negó a trasladarse a Urithiru tras la Batalla de Narak. Junto a Thanadal construyó un reino virtual en las Llanuras controlando el comercio de la zona. Era miembro de los Hijos de Honor. Los Sangre Espectral asesinaron a Thanadal primero para debilitar a la organización — Vamah fue testigo y huyó, pero también fue asesinado.",
+    "puntos_clave": [
+      "Alto príncipe del principado Vamah. Colores: marrón y gris.",
+      "Se negó a trasladarse a Urithiru tras la Batalla de Narak.",
+      "Junto a Thanadal construyó un reino virtual en las Llanuras controlando el comercio.",
+      "Era miembro de los Hijos de Honor.",
+      "Fue testigo del asesinato de Thanadal por parte de los Sangre Espectral.",
+      "Huyó inmediatamente tras ver el asesinato.",
+      "Los Sangre Espectral lo asesinaron también poco después.",
+      "Su principado fue heredado por un vástago lejano."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Alto príncipe oportunista; miembro de los Hijos de Honor",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su principado fue heredado por un vástago lejano. Colores de la casa: marrón y gris."
+  },
+  "descripcion_breve": "Alto príncipe alezi que se negó a ir a Urithiru y construyó un reino virtual en las Llanuras con Thanadal. Miembro de los Hijos de Honor. Testigo del asesinato de Thanadal. Asesinado por los Sangre Espectral.",
+  "notas": "Colores de la casa: marrón y gris. Su nombre completo es Loradar Vamah. Los Sangre Espectral lo asesinaron inmediatamente después de Thanadal para desmantelar los Hijos de Honor."
+}

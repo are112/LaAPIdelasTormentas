@@ -1,0 +1,126 @@
+{
+  "id": "gaz",
+  "nombre": "Gaz",
+  "nombre_completo": "Gaz",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Sadeas (anteriormente — sargento de puentes)",
+    "Guardia de Shallan",
+    "Corte Inadvertida"
+  ],
+  "orden_radiantes": {
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (críptico)"
+    },
+    "estado_del_vinculo": "Activo. Al vincularse usó luz tormentosa para regenerar el ojo perdido."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Iluminación",
+        "Transformación"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Mando de cuadrillas de puentes — conocimiento profundo de la logística",
+      "Combate básico",
+      "Espionaje — entrenado por Ishnah"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Exsargento de puentes del campamento de Sadeas",
+      "Guardia de Shallan",
+      "Tejedor de Luz de la Corte Inadvertida"
+    ],
+    "descripcion": "Hombre muy bajo para ser alezi. Cara llena de cicatrices — la barba solo le crece a trozos. Perdió un ojo de forma desconocida; llevaba parche desde que se unió a los desertores. Al convertirse en Tejedor de Luz usó la luz tormentosa para regenerarlo. El ojo que le quedaba era marrón. Ojos oscuros de sexto nahn. Era sargento de puentes en el campamento de Sadeas: responsable de seleccionar reclutas para las cuadrillas y de chantajear a Lamaril con pagos regulares. Se odiaba a sí mismo por el daño que causaba pero se había acostumbrado a ello como necesidad de supervivencia.",
+    "estado_en_viento_y_verdad": "Activo en la Corte Inadvertida."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "le ofreció un futuro diferente; fue su guardia y luego agente de la Corte"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "relación de hostilidad en el Puente Cuatro; Gaz lo enviaba a los peores puestos"
+      },
+      {
+        "personaje": "rojo",
+        "relacion": "compañero en la Corte Inadvertida; Rojo lo llama corto y feo con cariño"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "lamaril",
+        "relacion": "ojos claros a quien Gaz hacía pagos regulares por chantaje"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profunda autoestima negativa. Se odió durante años por el papel que jugaba en las carreras de puentes. Su adicción al juego lo arruinó. La oportunidad que le dio Shallan fue su redención.",
+    "evolucion": "Pasó de sargento corrupto y autodestructivo a guardia leal y Tejedor de Luz. La cita de la Coppermind resume su arco: 'Me convertí en un hombre sin corazón que enviaba a chicos a morir cada día en aquellas carreras de puente'.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Gaz era el sargento de puentes del campamento de Sadeas responsable del sufrimiento de los hombres del Puente Cuatro, incluyendo Kaladin. Hacía pagos regulares a Lamaril por chantaje. Se arruinó por las deudas de juego y desertó. Shallan lo encontró con una banda de desertores y le ofreció empezar de nuevo. Se convirtió en su guardia, fue entrenado en espionaje por Ishnah y se vinculó con un críptico.",
+    "puntos_clave": [
+      "Sargento de puentes del campamento de Sadeas — responsable de asignar reclutas y equipamiento.",
+      "Hacía pagos regulares a Lamaril por chantaje — razón desconocida.",
+      "Enviaba a Kaladin a los peores puestos en las carreras de puentes.",
+      "Se odiaba a sí mismo por su papel pero lo veía como necesidad de supervivencia.",
+      "Cayó en profundas deudas de juego — desertó cuando los cobradores llegaron.",
+      "Shallan lo encontró con una banda de desertores en las Tierras Heladas.",
+      "Shallan le dibujó su retrato mostrando quien podría ser — cambió su percepción de sí mismo.",
+      "Se convirtió en guardia de Shallan; fue entrenado en espionaje por Ishnah.",
+      "Participó en la infiltración de la reunión de los Sangre Espectral en Narak disfrazado de rascador de crem.",
+      "Ejecutó una llave de estrangulamiento a un guardia de los Sangre Espectral para atraparlo.",
+      "Registró junto a Rojo los aposentos de Ialai tras su muerte.",
+      "Se vinculó con un críptico — usó luz tormentosa para regenerar el ojo perdido.",
+      "Tiene más o menos la misma edad que Jasnah Kholin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Agente Tejedor de Luz de la Corte Inadvertida",
+    "rol": "Guardia de Shallan; exsargento de puentes redimido",
+    "relacion_con_spren": "Vínculo activo con un críptico sin nombre confirmado. Al vincularse regeneró el ojo perdido.",
+    "otros_detalles": "Gaz fue creado por Sanderson para mostrar que la perspectiva desde la que se ve a alguien cambia mucho lo que esa persona realmente es. Sigue teniendo tendencia al juego — su cuadrilla lo controla."
+  },
+  "descripcion_breve": "Exsargento de puentes del campamento de Sadeas que enviaba hombres a morir por deudas de juego y chantaje. Redimido por Shallan. Tejedor de Luz de la Corte Inadvertida. Regeneró el ojo perdido al vincularse.",
+  "notas": "Gaz fue creado para mostrar que la perspectiva cambia lo que una persona realmente es. Su retrato dibujado por Shallan fue clave en su redención. 'Me convertí en un hombre sin corazón que enviaba a chicos a morir cada día en aquellas carreras de puente' — la cita que resume su arco."
+}

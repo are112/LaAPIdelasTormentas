@@ -42,6 +42,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "berila",
+    "nombre": "Berila",
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
+  },
+  {
     "id": "bethab",
     "nombre": "Bethab",
     "orden": "Ninguna",
@@ -178,6 +185,13 @@
     "id": "gavinor",
     "nombre": "Gavinor",
     "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
+    "id": "gaz",
+    "nombre": "Gaz",
+    "orden": "Tejedores de Luz",
     "nivel_ideal": null,
     "estado_actual": "vivo"
   },
@@ -427,6 +441,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "noromin",
+    "nombre": "Noromin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
     "id": "oroden",
     "nombre": "Oroden",
     "orden": "Ninguna",
@@ -616,6 +637,13 @@
     "estado_actual": "fallecida"
   },
   {
+    "id": "vamah",
+    "nombre": "Vamah",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
     "id": "vathah",
     "nombre": "Vathah",
     "orden": "Tejedores de Luz",
@@ -649,6 +677,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
+  },
+  {
+    "id": "yokska",
+    "nombre": "Yokska",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "zahel",

@@ -1,0 +1,99 @@
+{
+  "id": "noromin",
+  "nombre": "Noromin",
+  "nombre_completo": "Noromin",
+  "apodos": [
+    "Noro"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Muralla de Kholinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — teniente de la Guardia de la Muralla",
+      "Combate"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Teniente de la Guardia de la Muralla de Kholinar",
+      "El que mató a Sah durante el asedio al palacio"
+    ],
+    "descripcion": "Soldado alezi, teniente de la Guardia de la Muralla de Kholinar y segundo al mando de la Séptima Plana. Reclutó a Kaladin en la Guardia con argumentos honestos sobre la redención. Afable y directo. Conocía bien a Kholinar. Murió durante el asedio al palacio.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "lo reclutó en la Guardia; fue su superior directo"
+      },
+      {
+        "personaje": "celeste",
+        "relacion": "su comandante como Alta Mariscal"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Sah",
+        "relacion": "lo mató durante el asedio al palacio de Kholinar"
+      },
+      {
+        "personaje": "khen",
+        "relacion": "Khen lo mató en venganza por la muerte de Sah"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Soldado profesional leal a la Guardia.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Noromin era teniente de la Guardia de la Muralla de Kholinar y segundo al mando de la Séptima Plana. Reclutó a Kaladin presentándole la Guardia como un lugar de redención. Fue el primero en percibir que algo no cuadraba con las respuestas de Kaladin. Durante el asedio al palacio mató a Sah. Khen lo mató en venganza.",
+    "puntos_clave": [
+      "Teniente de la Guardia de la Muralla — segundo al mando de la Séptima Plana bajo el capitán Deedanor.",
+      "Reclutó a Kaladin con un discurso honesto sobre la redención: 'aquí tu pasado no importa'.",
+      "Fue el primero en percibir que algo no cuadraba con las respuestas evasivas de Kaladin.",
+      "Los hombres de su escuadrón eran todos décimo dahn — los de más bajo rango entre los ojos claros.",
+      "Murió durante el asedio al palacio de Kholinar — mató a Sah con una lanza.",
+      "Khen lo mató en venganza por la muerte de Sah."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Teniente de la Guardia de la Muralla; figura puente entre Kaladin y la Guardia",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su muerte y la de Sah son el reflejo de la tragedia de Kholinar — ambos bandos perdieron personas valiosas."
+  },
+  "descripcion_breve": "Teniente de la Guardia de la Muralla de Kholinar que reclutó a Kaladin. Afable y honesto. Mató a Sah durante el asedio al palacio. Khen lo mató en venganza.",
+  "notas": "Su muerte a manos de Khen y la muerte de Sah a sus manos son dos caras de la misma tragedia. Noromin es apodado Noro por sus hombres."
+}

@@ -1,0 +1,107 @@
+{
+  "id": "yokska",
+  "nombre": "Yokska",
+  "nombre_completo": "Yokska",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Kholinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Sastrería de alta gama — única sastra de Adolin en Kholinar",
+      "Escritura en escritura femenina",
+      "Conocimiento de la situación política de Kholinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Sastra thayleña de Kholinar",
+      "Confidente de Adolin en la ciudad"
+    ],
+    "descripcion": "Mujer thayleña bajita y rolliza, a la moda. Cejas largas y blancas thayleñas formando tirabuzones. Educada y respetuosa con la monarquía alezi. Seguidora de las Pasiones thayleñas. Solo atiende a hombres — Adolin confía plenamente en ella. Tras la ocupación, adelgazó y pasó a vestir ropas de obrera.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "marido de Yokska",
+        "relacion": "esposo; ambos alojaron al equipo de Dalinar durante el asedio"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "cliente de confianza; le confió a su equipo"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "le informó sobre la situación de Kholinar y la Alta Mariscal Celeste"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "Venli la llevó ante Leshwi como posible sastra — rechazada"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable pese a las circunstancias. Adaptable y discreta.",
+    "evolucion": "Pasó de sastra próspera a sobreviviente bajo la ocupación.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Yokska era la sastra de confianza de Adolin en Kholinar. Cuando el equipo de Dalinar llegó a la ciudad disfrazado, Adolin los alojó en su taller. Informó a Elhokar sobre la situación de la ciudad y sobre la Alta Mariscal Celeste. Venli la llevó ante Leshwi como posible sastra durante la ocupación — Leshwi rechazó trabajar con humanos y la obligó a enseñar a un cantor en forma artística.",
+    "puntos_clave": [
+      "Sastra thayleña de alta gama en Kholinar; solo atiende a hombres.",
+      "Adolin confía plenamente en ella — la conoce desde hace tiempo.",
+      "Alojó al equipo de Dalinar en su taller cuando llegaron disfrazados.",
+      "Informó a Elhokar sobre la situación de Kholinar: la ardente Pai fue ejecutada, la reina se retiró al palacio.",
+      "Informó sobre la Alta Mariscal Celeste y la Guardia de la Muralla.",
+      "Mencionó que algunos ojos claros y la Guardia habían resistido las órdenes de Aesudan.",
+      "Adolin le aconsejó prepararse para huir si perdían el asalto al palacio.",
+      "Bajo la ocupación cantor, adelgazó y vistió ropas de obrera — no pudo seguir trabajando como sastra.",
+      "Venli la llevó ante Leshwi como posible sastra — Leshwi rechazó trabajar con humanos.",
+      "Leshwi la obligó a enseñar a un cantor en forma artística para que hiciera el trabajo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Sastra en Kholinar (bajo la ocupación cantor)",
+    "rol": "Fuente de información sobre Kholinar; confidente de Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": "Sigue las Pasiones thayleñas y las invoca frecuentemente."
+  },
+  "descripcion_breve": "Sastra thayleña de Kholinar y confidente de Adolin. Alojó al equipo de Dalinar durante el asedio. Informó a Elhokar sobre la situación de la ciudad y la Alta Mariscal Celeste.",
+  "notas": "Solo atiende a hombres — costumbre que Kaladin observó con humor. Adolin la trata como si fuera un cirujano haciendo un diagnóstico cuando la somete a su escrutinio al vestirle."
+}
