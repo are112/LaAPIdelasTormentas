@@ -56,6 +56,13 @@
     "estado_actual": "viva"
   },
   {
+    "id": "celeste",
+    "nombre": "Celeste",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
+  },
+  {
     "id": "chiri_chiri",
     "nombre": "Chiri-Chiri",
     "orden": "Ninguna",

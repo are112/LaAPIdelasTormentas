@@ -1,0 +1,91 @@
+{
+  "id": "celeste",
+  "nombre": "Celeste",
+  "nombre_completo": "Celeste (alias; nombre real desconocido en Roshar)",
+  "apodos": ["Alta Mariscal Celeste"],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida en Roshar — extranjera de un mundo lejano",
+  "origen": "Llegó a Roshar a través de la Perpendicularidad de Cultivación en los Picos Comecuernos",
+  "planeta_natal": "Roshar (estancia temporal)",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      { "titulo": "Juramentada", "rol": "secundario importante", "pov": false }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Muralla de Kholinar (fundadora y Alta Mariscal)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": { "principal": "" },
+    "estado_del_vinculo": "No es Caballera Radiante ni Heraldo. Porta una hoja que sangra humo negro — copia imperfecta de Sangre Nocturna. No puede convocarla ni despedirla a voluntad."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": ["Despertar — capacidad de infundir objetos con vida mediante Aliento (investidura de fuera de Roshar)"],
+      "fuente_de_luz": "Aliento (investidura externa; no luz tormentosa)"
+    },
+    "no_magicas": [
+      "Combate excepcional con espada — la mejor espadachina entre los personajes de Kholinar",
+      "Liderazgo militar sobresaliente",
+      "Organización y logística bajo presión extrema",
+      "Adaptación rápida a culturas desconocidas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alta Mariscal de la Guardia de la Muralla de Kholinar",
+      "Extranjera de otro mundo que llegó a Roshar buscando a un criminal"
+    ],
+    "descripcion": "Mujer de estatura media para ser alezi — ligeramente por debajo. Pelo negro liso y corto que llega hasta las mejillas. Ojos de color naranja. Dos cicatrices le cruzan la cara. Viste capa de color azul celeste, cota de malla alrededor del cuello y casco que suele llevar en la mano. Porta su hoja como espada de costado — no como los alezi. Sus hombres fingen que es un hombre para respetar las sensibilidades vorin, aunque la encuentran extraordinaria. Llegó a Roshar hace aproximadamente un año antes del asedio de Kholinar buscando a un criminal y a la hoja que este portaba.",
+    "estado_en_viento_y_verdad": "Partió de Shadesmar en dirección desconocida al final de Juramentada."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      { "personaje": "kaladin", "relacion": "trabajaron juntos en Kholinar y Shadesmar; Kaladin la convenció de unirse al asalto al palacio" },
+      { "personaje": "adolin",  "relacion": "compañero en Shadesmar; Adolin la reprendió por abandonar su deber a su reino" },
+      { "personaje": "hoid",    "relacion": "Hoid le proporcionó las placas de aluminio para ocultar el uso de investidura" }
+    ],
+    "enemigos": [
+      { "personaje": "zahel",  "relacion": "lo busca en Roshar — es el criminal que perseguía al llegar al planeta" }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Determinada, pragmática y capaz de adaptarse a situaciones extremas. Carga con un propósito propio que no revela completamente. Humilde sobre sus habilidades — se describe como 'una mujer que ha estado constantemente fuera de su liga desde la adolescencia'.",
+    "evolucion": "En Roshar pasó de infiltrada buscando información a convertirse en el pilar que mantuvo Kholinar en pie durante el caos.",
+    "situacion_en_viento_y_verdad": "Partió de Shadesmar. Su destino es desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Celeste llegó a Roshar hace aproximadamente un año antes del asedio de Kholinar, usando la Perpendicularidad de Cultivación. Se unió a la Guardia de la Muralla de Kholinar buscando información sobre el hombre al que perseguía. Cuando la ciudad entró en caos tras el retiro de Aesudan al palacio, asumió el mando de la Guardia. Con la ayuda de placas de aluminio proporcionadas por Hoid, organizó el suministro de alimentos mediante un moldeador de almas oculto. Mantuvo Kholinar en pie. Participó en el asalto al palacio y luego en la huida por Shadesmar.",
+    "puntos_clave": [
+      "Llegó a Roshar a través de la Perpendicularidad de Cultivación en los Picos Comecuernos.",
+      "Se unió a la Guardia de la Muralla de Kholinar buscando a un criminal y a la hoja que portaba.",
+      "Cuando la estructura de mando de Kholinar colapsó, asumió el mando de la Guardia.",
+      "Sus hombres fingen que es un hombre para respetar las sensibilidades vorin.",
+      "Tomó el mando durante los disturbios — la Guardia sostuvo las puertas cuando el Culto de los Momentos intentó tomarlas.",
+      "Hoid le proporcionó placas de aluminio para ocultar el uso de investidura a los chilladores.",
+      "Instaló a dos moldeadoras de almas en una cámara subterránea con paredes de aluminio — el único suministro de alimentos de la ciudad.",
+      "Reclutó a cualquier luchador con ojos claros sin importar su pasado — lo presentaba como redención.",
+      "Kaladin se unió a la Guardia disfrazado; ella lo admitió.",
+      "Mostró a Kaladin la cámara de suministros cuando demostró ser de confianza.",
+      "Kaladin la convenció de unirse al asalto al palacio.",
+      "Tras caer Kholinar, lideró la retirada a la Puerta Jurada.",
+      "Quedó atrapada en Shadesmar junto a Kaladin, Adolin y Shallan.",
+      "En Shadesmar reveló que venía de un país lejano buscando a un criminal que portaba una hoja que sangra humo negro.",
+      "Reveló a Kaladin que si alguna vez volvía a ver al espadachín que le enseñó la kata matutina, le avisara de que la andaba buscando — refiriéndose a Zahel.",
+      "Partió de Shadesmar en dirección desconocida antes de que el grupo llegara a Honmara."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — partió de Shadesmar",
+    "rol": "Líder que mantuvo Kholinar en pie durante el caos",
+    "relacion_con_spren": "Porta una hoja que sangra humo negro — copia imperfecta de Sangre Nocturna. No puede convocarla ni despedirla a voluntad.",
+    "otros_detalles": "Busca a Zahel — el maestro de armas de Urithiru. La historia de Celeste fuera de Roshar se omite en esta ficha."
+  },
+  "descripcion_breve": "Alta Mariscal de la Guardia de la Muralla de Kholinar. Extranjera llegada a Roshar buscando a un criminal. Mantuvo Kholinar en pie durante el caos con un ejército de renegados y un moldeador de almas oculto. Porta una hoja que sangra humo negro.",
+  "notas": "Celeste es el alias que usa en Roshar. Su historia fuera del planeta se omite deliberadamente en esta ficha. Busca a Zahel — el maestro de armas de Urithiru. Se describió a sí misma como 'una mujer que ha estado constantemente fuera de su liga desde la adolescencia'. Sus ojos de color naranja son inusuales."
+}
