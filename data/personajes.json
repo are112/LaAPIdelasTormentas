@@ -4,692 +4,791 @@
     "nombre": "Adolin",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "adrotagia",
     "nombre": "Adrotagia",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "aesudan",
     "nombre": "Aesudan",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecida"
+    "estado_actual": "fallecida",
+    "especie": "humano"
   },
   {
     "id": "aladar",
     "nombre": "Aladar",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "amaram",
     "nombre": "Amaram",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "balat",
     "nombre": "Balat",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "berila",
     "nombre": "Berila",
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "bethab",
     "nombre": "Bethab",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "cancion_hermosa",
     "nombre": "Canción Hermosa",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "celeste",
     "nombre": "Celeste",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "chiri_chiri",
     "nombre": "Chiri-Chiri",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "larkin (especie creída extinta)"
   },
   {
     "id": "cikatriz",
     "nombre": "Cikatriz",
     "orden": "Corredores del Viento",
     "nivel_ideal": 2,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "cuerda",
     "nombre": "Cuerda",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "dalinar",
     "nombre": "Dalinar",
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 3,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "don",
     "nombre": "Don",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "drehy",
     "nombre": "Drehy",
     "orden": "Corredores del Viento",
     "nivel_ideal": 2,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "drlwan",
     "nombre": "Drlwan",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "el_fusionado",
     "nombre": "El",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "cantor"
   },
   {
     "id": "el_vison",
     "nombre": "El Visón",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "elhokar",
     "nombre": "Elhokar",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "eshonai",
     "nombre": "Eshonai",
     "orden": "Escultores de Voluntad",
     "nivel_ideal": null,
-    "estado_actual": "fallecida"
+    "estado_actual": "fallecida",
+    "especie": "cantor"
   },
   {
     "id": "estrella",
     "nombre": "Estrella",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "evi",
     "nombre": "Evi",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecida"
+    "estado_actual": "fallecida",
+    "especie": "humano"
   },
   {
     "id": "felt",
     "nombre": "Felt",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "fen_rnamdi",
     "nombre": "Fen Rnamdi",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "gavilar",
     "nombre": "Gavilar",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "gavinor",
     "nombre": "Gavinor",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "gaz",
     "nombre": "Gaz",
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "godeke",
     "nombre": "Godeke",
     "orden": "Danzantes del Filo",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "graves",
     "nombre": "Graves",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "hatham",
     "nombre": "Hatham",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "helaran",
     "nombre": "Helaran",
     "orden": "Rompedores del Cielo",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "hesina",
     "nombre": "Hesina",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "hoid",
     "nombre": "Hoid",
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "huio",
     "nombre": "Huio",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "ialai",
     "nombre": "Ialai",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecida"
+    "estado_actual": "fallecida",
+    "especie": "humano"
   },
   {
     "id": "ishnah",
     "nombre": "Ishnah",
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "iyatil",
     "nombre": "Iyatil",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecida"
+    "estado_actual": "fallecida",
+    "especie": "humano"
   },
   {
     "id": "jasnah",
     "nombre": "Jasnah",
     "orden": "Nominadores de Lo Otro",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "jin",
     "nombre": "Jin",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "jushu",
     "nombre": "Jushu",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "kabsal",
     "nombre": "Kabsal",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "kaladin",
     "nombre": "Kaladin",
     "orden": "Corredores del Viento",
     "nivel_ideal": 5,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "kdralk",
     "nombre": "Kdralk",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "khen",
     "nombre": "Khen",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "cantor"
   },
   {
     "id": "kmakl",
     "nombre": "Kmakl",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "kumatiki",
     "nombre": "Kuma'tiki",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "laral",
     "nombre": "Laral",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "leshwi",
     "nombre": "Leshwi",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "cantor"
   },
   {
     "id": "leyten",
     "nombre": "Leyten",
     "orden": "Corredores del Viento",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "lezian",
     "nombre": "Lezian",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "cantor"
   },
   {
     "id": "lift",
     "nombre": "Lift",
     "orden": "Danzantes del Filo",
     "nivel_ideal": 3,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "lin_davar",
     "nombre": "Lin Davar",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "lirin",
     "nombre": "Lirin",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "lopen",
     "nombre": "Lopen",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "luesh",
     "nombre": "Luesh",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "lunamor",
     "nombre": "Lunamor",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "lyn",
     "nombre": "Lyn",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "malise",
     "nombre": "Malise",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecida"
+    "estado_actual": "fallecida",
+    "especie": "humano"
   },
   {
     "id": "moash",
     "nombre": "Moash",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "mraize",
     "nombre": "Mraize",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "navani",
     "nombre": "Navani",
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 1,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "nikli",
     "nombre": "Nikli",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "Insomne (dysian aimiano)"
   },
   {
     "id": "noromin",
     "nombre": "Noromin",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "oroden",
     "nombre": "Oroden",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "palona",
     "nombre": "Palona",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "rabeniel",
     "nombre": "Rabeniel",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecida"
+    "estado_actual": "fallecida",
+    "especie": "cantor"
   },
   {
     "id": "renarin",
     "nombre": "Renarin",
     "orden": "Vigilantes de la Verdad",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "restares",
     "nombre": "Restares",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "ristina",
     "nombre": "Ristina",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "rlain",
     "nombre": "Rlain",
     "orden": "Vigilantes de la Verdad",
     "nivel_ideal": 2,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "cantor"
   },
   {
     "id": "roca_junior",
     "nombre": "Roca (junior)",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "roion",
     "nombre": "Roion",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "rojo",
     "nombre": "Rojo",
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "roshone",
     "nombre": "Roshone",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "rushu",
     "nombre": "Rushu",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "ruthar",
     "nombre": "Ruthar",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "rysn",
     "nombre": "Rysn",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "sadeas",
     "nombre": "Sadeas",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "sah",
     "nombre": "Sah",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "cantor"
   },
   {
     "id": "sebarial",
     "nombre": "Sebarial",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "shallan",
     "nombre": "Shallan",
     "orden": "Tejedores de Luz",
     "nivel_ideal": 4,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "sigzil",
     "nombre": "Sigzil",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "szeth",
     "nombre": "Szeth",
     "orden": "Rompedores del Cielo",
     "nivel_ideal": 4,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "taravangian",
     "nombre": "Taravangian",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "teft",
     "nombre": "Teft",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "thanadal",
     "nombre": "Thanadal",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "tien",
     "nombre": "Tien",
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "tuaka",
     "nombre": "Tuaka",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "tvlakv",
     "nombre": "Tvlakv",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "tyn",
     "nombre": "Tyn",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecida"
+    "estado_actual": "fallecida",
+    "especie": "humano"
   },
   {
     "id": "vamah",
     "nombre": "Vamah",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "vathah",
     "nombre": "Vathah",
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "venli",
     "nombre": "Venli",
     "orden": "Escultores de Voluntad",
     "nivel_ideal": 2,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "cantor"
   },
   {
     "id": "vstim",
     "nombre": "Vstim",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "wikim",
     "nombre": "Wikim",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "yalb",
     "nombre": "Yalb",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "yokska",
     "nombre": "Yokska",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "zahel",
     "nombre": "Zahel",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   }
 ]
