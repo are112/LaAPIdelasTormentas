@@ -1,0 +1,104 @@
+{
+  "id": "ishnah",
+  "nombre": "Ishnah",
+  "nombre_completo": "Ishnah",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa noble alezi (espía; anterior)",
+    "Corte Inadvertida de Shallan"
+  ],
+  "orden_radiantes": {
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Motivo (críptico)"
+    },
+    "estado_del_vinculo": "Activo. Motivo suele ponerse en el adorno del pasador que usa para sujetarse las trenzas."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Iluminación",
+        "Transformación"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Espionaje profesional — fue espía de una casa noble",
+      "Entrenamiento de agentes en observación encubierta",
+      "Planificación de operaciones de inteligencia",
+      "Calma bajo presión extrema"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Espía profesional",
+      "Mentora de Vathah y Rojo en el arte del espionaje",
+      "Tejedor de Luz de la Corte Inadvertida"
+    ],
+    "descripcion": "Mujer alezi algo mayor que Shallan. Baja estatura. Pelo negro liso de Alezkar, ojos marrón oscuro. Labios pintados de rojo intenso y cejas realzadas con maquillaje. Lleva una havah alezi con la mano enguantada en lugar de manga cerrada. Su críptico Motivo suele esconderse en el adorno de su pasador. Rezuma seguridad en sí misma. Pragmática y ambiciosa. Perseverante hasta conseguir ganarse el aprecio de Shallan.",
+    "estado_en_viento_y_verdad": "Activa en la Corte Inadvertida."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "líder de la Corte Inadvertida; Ishnah se ganó su respeto y confianza"
+      },
+      {
+        "personaje": "vathah",
+        "relacion": "la tomó bajo su protección — mentora de operaciones"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Segura de sí misma, pragmática y ambiciosa. Obsesionada con su trabajo. Sufre por pequeñas tonterías.",
+    "evolucion": "Pasó de espía de casa noble a agente de la Corte Inadvertida con plena confianza de Shallan.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Ishnah era espía de una casa noble alezi. Contactó repetidamente con Shallan hasta ganarse su confianza. Se convirtió en la instructora de espionaje del grupo de guardias de Shallan. Entrenó a Vathah, Rojo y Gaz. Participó en operaciones en las Llanuras, Kholinar y Shadesmar. Sobrevivió la caída de Kholinar y rescató a Gavinor con Vathah y el equipo de Kaladin.",
+    "puntos_clave": [
+      "Fue espía de una casa noble alezi antes de unirse a Shallan.",
+      "Contactó repetidamente con Shallan hasta ganarse su confianza — perseverante.",
+      "Se convirtió en instructora de espionaje de los guardias de Shallan.",
+      "Primera lección: llevó a Velo, Vathah, Gaz y Rojo a una taberna para aprender a observar sin ser visto.",
+      "En Kholinar operó como ayudante de Shallan en el robo a Nananav.",
+      "Salió disfrazada como Velo para distribuir alimentos y acrecentar la reputación de Shallan.",
+      "Sobrevivió la caída de Kholinar con admirable entereza — ayudó a rescatar a Gavinor con Vathah, Cikatriz y Drehy.",
+      "Participó en la misión a los campamentos de guerra para investigar a Ialai Sadeas.",
+      "Participó en la expedición a Integridad Duradera en Shadesmar.",
+      "Shallan la sometió a la prueba de información falsa sobre spren corrompidos — a Ishnah le dijo que había visto vientospren corrompidos."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Agente Tejedor de Luz de la Corte Inadvertida",
+    "rol": "Instructora de espionaje; mentora de Vathah",
+    "relacion_con_spren": "Vínculo activo con Motivo, su críptico.",
+    "otros_detalles": "Respeta la posición de Shallan entre los Sangre Espectral, aunque el alcance de su lealtad es desconocido."
+  },
+  "descripcion_breve": "Espía profesional alezi convertida en instructora de la Corte Inadvertida de Shallan. Pragmática, segura de sí misma y mentora de Vathah. Tejedor de Luz vinculada con Motivo.",
+  "notas": "Respeta la posición de Shallan entre los Sangre Espectral — el alcance de su lealtad es desconocido. Su críptico Motivo suele esconderse en el adorno de su pasador."
+}

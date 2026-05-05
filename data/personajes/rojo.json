@@ -1,0 +1,118 @@
+{
+  "id": "rojo",
+  "nombre": "Rojo",
+  "nombre_completo": "Rojo",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Desertor del ejército alezi (anterior)",
+    "Guardia de Shallan",
+    "Corte Inadvertida"
+  ],
+  "orden_radiantes": {
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Composición (críptico)"
+    },
+    "estado_del_vinculo": "Activo."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Iluminación",
+        "Transformación"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate básico con cuchillos — su preferencia en entrenamiento",
+      "Observación discreta — aprendido de Ishnah",
+      "Trato con personas — el más sociable del grupo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Exdesertor del grupo de Vathah",
+      "Guardia de Shallan",
+      "Tejedor de Luz de la Corte Inadvertida"
+    ],
+    "descripcion": "Hombre alezi ojos oscuros, exdesertor del grupo de Vathah. El más alegre y sociable del grupo de guardias de Shallan — le gusta hacer amigos, salir a beber y jugar. No parecía sentirse a la altura de ser la guardia personal de una Caballera Radiante. Elegido para ir a Kholinar en parte por su entrenamiento en espionaje y en parte por su relación con Kaladin a través de Gaz.",
+    "estado_en_viento_y_verdad": "Activo en la Corte Inadvertida."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "su señora; es el más afectuoso del grupo con ella"
+      },
+      {
+        "personaje": "vathah",
+        "relacion": "compañero desde los tiempos de desertor"
+      },
+      {
+        "personaje": "ishnah",
+        "relacion": "instructora de espionaje"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "lo recogió en los campamentos tras la Batalla de Thaylenah"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Alegre y despreocupado. No se considera a la altura de su rol pero lo acepta con buen humor.",
+    "evolucion": "Pasó de desertor a guardia leal y Tejedor de Luz sin perder su carácter afable.",
+    "situacion_en_viento_y_verdad": "Activo en la Corte Inadvertida."
+  },
+  "arco_narrativo": {
+    "resumen": "Rojo era uno de los desertores del grupo de Vathah. Fue elegido junto a Vathah e Ishnah para ir a Kholinar. Pasó gran parte del tiempo en Urithiru jugando y bebiendo. Fue entrenado en espionaje por Ishnah. Se quedó en Kholinar cuando Shallan escapó — fue recogido por Kaladin tras Thaylenah. Se vinculó con Composición. Se infiltró en los Hijos de Honor con una ilusión de obrero de ojos oscuros. Lideró la Corte Inadvertida durante la misión a Integridad Duradera.",
+    "puntos_clave": [
+      "Exdesertor del grupo de Vathah — participó en robos y peores cosas.",
+      "Elegido para ir a Kholinar por su entrenamiento en espionaje y su relación con Kaladin vía Gaz.",
+      "Entrenado por Ishnah — su interés principal era aprender a usar cuchillos.",
+      "En el ejercicio de observación de Ishnah en la taberna, describió a Gaz en lugar de a los desconocidos — por diversión.",
+      "Cuando Velo fue alcanzada por una ballesta en la cabeza, Rojo solo señaló que la sangre le manchaba el outfit — mecanismo de defensa.",
+      "Se quedó en Kholinar cuando Shallan escapó por la Puerta Jurada corrupta.",
+      "Contactó con un mercader con vinculacañas; fue recogido por Kaladin tras la Batalla de Thaylenah.",
+      "Se vinculó con Composición, su críptico.",
+      "Se infiltró en los Hijos de Honor con ilusión de obrero de ojos oscuros — no era suficientemente importante para ver a Ialai.",
+      "Navani lo llamó para identificar a Dabbid con una vinculacañas misteriosa.",
+      "Lideró la Corte Inadvertida mientras Shallan, Berila, Vathah e Ishnah fueron a Integridad Duradera."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Agente Tejedor de Luz de la Corte Inadvertida",
+    "rol": "Guardia de Shallan; el más sociable del grupo",
+    "relacion_con_spren": "Vínculo activo con Composición, su críptico.",
+    "otros_detalles": "No le gusta la lager Comecuernos, como la mayoría de alezi cuerdos."
+  },
+  "descripcion_breve": "Exdesertor y guardia de Shallan. El más alegre y sociable del grupo. Tejedor de Luz vinculado con Composición. Lideró la Corte Inadvertida durante la misión a Integridad Duradera.",
+  "notas": "El nombre Rojo es su apodo — nunca se menciona su nombre real. No le gusta la lager Comecuernos. Es el miembro más afectuoso del grupo con Shallan."
+}

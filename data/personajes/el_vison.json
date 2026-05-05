@@ -1,0 +1,108 @@
+{
+  "id": "el_vison",
+  "nombre": "El Visón",
+  "nombre_completo": "Dieno enne Calah",
+  "apodos": [
+    "El Visón"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "herdaziana",
+  "origen": "Herdaz",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Herdaz",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "General de campo excepcional — defendió Herdaz durante un año sin aliados ni recursos",
+      "Arte del escape — probó sus habilidades con las mejores esposas que sus oficiales podían encontrar",
+      "Evasión y supervivencia en condiciones extremas",
+      "Mando de campo — asumió casi por completo el rol de comandante de campo de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "General de Herdaz",
+      "El hombre que defendió Herdaz solo durante un año"
+    ],
+    "descripcion": "General herdaziano cuyo apodo El Visón proviene de los visones rosharianos — criaturas que hurgan y se esconden en las sombras, usadas coloquialmente como metáfora de gente furtiva. Su nombre real es Dieno enne Calah. Artista del escape que probaba sus habilidades contra las mejores esposas que sus oficiales podían encontrar. Defendió Herdaz durante un año de la invasión cantor sin aliados ni recursos antes de unirse a la coalición.",
+    "estado_en_viento_y_verdad": "Activo como comandante de campo de la coalición."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "asumió casi por completo su rol de comandante de campo tras unirse a la coalición"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin lo encontró escondido en Piedralar y facilitó su evacuación"
+      },
+      {
+        "personaje": "laral",
+        "relacion": "conspiró con Laral y Lirin para esconderse en Piedralar como refugiado"
+      },
+      {
+        "personaje": "lirin",
+        "relacion": "conspiró con Lirin para esconderse en Piedralar como refugiado"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático, resiliente y con sentido del humor sobre sus propias habilidades de escape.",
+    "evolucion": "Sin arco emocional desarrollado — su constante es la competencia y la resistencia.",
+    "situacion_en_viento_y_verdad": "Activo. Recuperó Emul con éxito."
+  },
+  "arco_narrativo": {
+    "resumen": "Dieno enne Calah, conocido como El Visón, defendió Herdaz durante un año de la invasión cantor sin aliados ni recursos. Evitó ser capturado por los Fusionados durante ese tiempo. Se disfrazó de refugiado en Piedralar donde Laral y Lirin lo protegieron. Kaladin lo encontró y facilitó su evacuación a Urithiru. Tras unirse a la coalición, asumió casi por completo el rol de comandante de campo de Dalinar y recuperó Emul con éxito.",
+    "puntos_clave": [
+      "Defendió Herdaz durante un año de la invasión cantor sin aliados ni recursos.",
+      "Evitó la detección de los Fusionados durante todo ese tiempo.",
+      "Se disfrazó de refugiado en Piedralar; Laral y Lirin conspiron para protegerlo.",
+      "Kaladin lo encontró entre los refugiados durante su regreso a Piedralar.",
+      "Fue evacuado a Urithiru por el Cuarto Puente.",
+      "Tras unirse a la coalición asumió casi por completo el rol de comandante de campo de Dalinar.",
+      "Propuso un asalto a Emul tras la recuperación de Piedralar — los cantores eran más débiles allí.",
+      "Recuperó Emul con éxito."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "General y comandante de campo de la coalición de monarcas",
+    "rol": "Principal estratega militar de la coalición junto a Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su apodo procede de los visones rosharianos — criaturas furtivas que se esconden en las sombras. Su habilidad de escape es legendaria entre sus propios hombres."
+  },
+  "descripcion_breve": "General herdaziano conocido como El Visón. Defendió Herdaz solo durante un año. Artista del escape. Tras unirse a la coalición asumió el rol de comandante de campo de Dalinar y recuperó Emul.",
+  "notas": "Su nombre real es Dieno enne Calah. Los visones rosharianos son criaturas que hurgan y se esconden — su apodo refleja su naturaleza furtiva y su capacidad de escape. En el juego de piezas, el jugador que toma el rol del visón controla información oculta."
+}

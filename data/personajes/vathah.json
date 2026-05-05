@@ -1,0 +1,115 @@
+{
+  "id": "vathah",
+  "nombre": "Vathah",
+  "nombre_completo": "Vathah",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Desertor del ejército alezi (anterior)",
+    "Guardia de Shallan",
+    "Corte Inadvertida"
+  ],
+  "orden_radiantes": {
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Mosaico (críptico)"
+    },
+    "estado_del_vinculo": "Activo. Se vinculó con Mosaico en el año siguiente a la Batalla de Thaylenah."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Iluminación",
+        "Transformación"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — líder de una banda de desertores",
+      "Planificación de operaciones — bajo tutela de Ishnah",
+      "Reconocimiento de venenos — identificó el ruinaoscura en el cuerpo de Ialai"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Exlíder de una banda de desertores",
+      "Guardia de Shallan y capitán de su guardia personal",
+      "Tejedor de Luz de la Corte Inadvertida"
+    ],
+    "descripcion": "Hombre alto y fornido, de aspecto intimidante incluso a plena luz. Brazos desproporcionadamente largos para su cuerpo. Ojos oscuros y barba. Directo hasta la rudeza — como mínimo siempre se sabe dónde se está con él. Fue perdonado por Elhokar y se convirtió en guardia de Shallan. Shallan lo describe como directo si brusco; Veil lo describe como un jabalí en ropa humana.",
+    "estado_en_viento_y_verdad": "Activo en la Corte Inadvertida."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "su señora y líder; fue su capitán de guardia y luego agente de la Corte"
+      },
+      {
+        "personaje": "ishnah",
+        "relacion": "mentora; lo tomó bajo su protección y lo entrenó en planificación de operaciones"
+      },
+      {
+        "personaje": "rojo",
+        "relacion": "compañero; llegaron juntos desde las Llanuras"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Hombre de pocas palabras pero acción firme. Cargaba con culpa por sus crímenes como desertor — la promesa de Shallan de un futuro diferente lo cambió.",
+    "evolucion": "Pasó de líder de desertores a guardia leal y agente de espionaje. La vinculación con Mosaico fue el paso final de su redención.",
+    "situacion_en_viento_y_verdad": "Activo en la Corte Inadvertida."
+  },
+  "arco_narrativo": {
+    "resumen": "Vathah lideraba una banda de desertores en las Tierras Yermas cuando Shallan los encontró tras naufragar. Shallan los convenció de escoltarla a las Llanuras prometiéndoles un futuro diferente. Fue perdonado por Elhokar. Se convirtió en guardia de Shallan y luego en agente de espionaje bajo tutela de Ishnah. Se vinculó con Mosaico y se convirtió en Tejedor de Luz.",
+    "puntos_clave": [
+      "Lideraba una banda de desertores en las Tierras Yermas — habían robado y matado.",
+      "Shallan les propuso un futuro diferente; Vathah dudó pero aceptó.",
+      "Ejecutó personalmente a los bandidos supervivientes tras la batalla.",
+      "Elhokar lo perdonó — se convirtió en guardia de Shallan.",
+      "Entrenado en espionaje por Ishnah — aprendió planificación de operaciones.",
+      "Participó en el robo a Nananav en Kholinar.",
+      "Salió disfrazado como Velo con Ishnah para distribuir alimentos en Kholinar.",
+      "Sobrevivió la caída de Kholinar — ayudó a rescatar a Gavinor con Ishnah, Cikatriz y Drehy.",
+      "Se vinculó con Mosaico en el año siguiente a la Batalla de Thaylenah.",
+      "Participó en la misión a los campamentos de guerra — reconoció el ruinaoscura en el cuerpo de Ialai.",
+      "Shallan lo sometió a la prueba de información falsa — a Vathah le dijo que había visto miedospren corrompidos.",
+      "Participó en la expedición a Integridad Duradera en Shadesmar con Shallan y Adolin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Agente Tejedor de Luz de la Corte Inadvertida",
+    "rol": "Capitán de guardia de Shallan; agente de campo",
+    "relacion_con_spren": "Vínculo activo con Mosaico, su críptico.",
+    "otros_detalles": "Se apoderó discretamente de algunas esferas de los cadáveres de atacantes durante la expedición a Shadesmar — hábito viejo."
+  },
+  "descripcion_breve": "Exlíder de desertores convertido en guardia de Shallan y Tejedor de Luz. Directo, leal y poco dado a las palabras. Su redención es uno de los arcos secundarios más sólidos del grupo de Shallan.",
+  "notas": "Vathah ejecutó personalmente a los bandidos supervivientes tras salvar a Shallan — fue la primera muestra de su carácter sin filtros. Shallan lo describe como directo si brusco; Veil como un jabalí en ropa humana."
+}
