@@ -21,6 +21,13 @@
     "estado_actual": "fallecida"
   },
   {
+    "id": "aladar",
+    "nombre": "Aladar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "amaram",
     "nombre": "Amaram",
     "orden": "Ninguna",
@@ -30,6 +37,13 @@
   {
     "id": "balat",
     "nombre": "Balat",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
+    "id": "bethab",
+    "nombre": "Bethab",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo"
@@ -166,6 +180,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido"
+  },
+  {
+    "id": "hatham",
+    "nombre": "Hatham",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "helaran",
@@ -441,6 +462,13 @@
     "estado_actual": "vivo"
   },
   {
+    "id": "roion",
+    "nombre": "Roion",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
+  },
+  {
     "id": "roshone",
     "nombre": "Roshone",
     "orden": "Ninguna",
@@ -453,6 +481,13 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva"
+  },
+  {
+    "id": "ruthar",
+    "nombre": "Ruthar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
   },
   {
     "id": "rysn",
@@ -515,6 +550,13 @@
     "nombre": "Teft",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
+    "estado_actual": "fallecido"
+  },
+  {
+    "id": "thanadal",
+    "nombre": "Thanadal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
     "estado_actual": "fallecido"
   },
   {

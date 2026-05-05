@@ -1,0 +1,94 @@
+{
+  "id": "thanadal",
+  "nombre": "Thanadal",
+  "nombre_completo": "Thanadal",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto Principado de Thanadal"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Gestión de recursos — aprovechó la ausencia de otros altos príncipes para acumular poder"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe del centro de Alezkar",
+      "El que se negó a ir a Urithiru y construyó su propio reino en las Llanuras"
+    ],
+    "descripcion": "Alto príncipe alezi del centro de Alezkar. Colores de la casa: rojo y marrón. Hostil a Dalinar — ni siquiera se reunió en persona para rechazar la propuesta de un asalto conjunto, enviando un mensajero. Tras la Batalla de Narak se negó a trasladarse a Urithiru aprovechando la ausencia de los demás para construir su propio reino virtual en la zona.",
+    "estado_en_viento_y_verdad": "Fallecido — asesinado por la Sangre Espectral."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "hostil; ni se dignó a reunirse en persona para rechazarlo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Oportunista y hostil a la coalición de Dalinar.",
+    "evolucion": "Sin evolución moral. Aprovechó el vacío de poder tras Narak.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Thanadal fue uno de los altos príncipes más hostiles a Dalinar. Rechazó cualquier colaboración durante la Guerra de la Venganza. Tras la Batalla de Narak se negó a trasladarse a Urithiru y aprovechó el vacío de poder para construir un reino virtual en las Llanuras. Fue asesinado por la Sangre Espectral — presuntamente culparon a los Kholin.",
+    "puntos_clave": [
+      "Alto príncipe del centro de Alezkar. Colores: rojo y marrón.",
+      "Se negó a discutir la propuesta de asalto conjunto de Dalinar — envió un mensajero en su lugar.",
+      "Adolin desafió en duelo a Resi, el portador de esquirladas de Thanadal, ganando su hoja.",
+      "Se negó a trasladarse a Urithiru tras la Batalla de Narak.",
+      "Aprovechó la ausencia de los demás altos príncipes para construir su propio reino virtual en las Llanuras.",
+      "Aladar expresó preocupación ante Dalinar por la debilidad que suponía no contar con sus fuerzas.",
+      "Fue asesinado por la Sangre Espectral — Vamah fue testigo y huyó."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Alto príncipe hostil a la coalición",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su muerte fue atribuida presuntamente a los Kholin aunque en realidad fue la Sangre Espectral. Su principado fue heredado por un vástago lejano."
+  },
+  "descripcion_breve": "Alto príncipe alezi del centro hostil a Dalinar. Se negó a ir a Urithiru y construyó su propio reino en las Llanuras. Asesinado por la Sangre Espectral.",
+  "notas": "Colores de la casa: rojo y marrón. Su ejército contaba con portadores de esquirlada pero el propio Thanadal no era portador. Fue asesinado por la Sangre Espectral — el testigo Vamah huyó inmediatamente."
+}

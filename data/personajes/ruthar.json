@@ -1,0 +1,124 @@
+{
+  "id": "ruthar",
+  "nombre": "Ruthar",
+  "nombre_completo": "Ruthar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto Principado de Ruthar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Portador de hoja esquirlada",
+      "Duelos — tuvo algo de talento en la juventud, nunca al nivel de Dalinar o Aladar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe alezi",
+      "Aliado de Sadeas contra Dalinar"
+    ],
+    "descripcion": "Alto príncipe alezi hostil a Dalinar y sólido aliado de Sadeas. Colores de la casa: rojo y azul. Su hijo Relis perdió todas sus esquirladas salvo la hoja de Ruthar en un duelo contra Adolin, Renarin y Kaladin. Fue despojado del título de alto príncipe tras perder un duelo contra la reina Jasnah Kholin — su hijo Relis lo sucedió.",
+    "estado_en_viento_y_verdad": "Despojado del título — sucedido por Relis Ruthar."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Relis Ruthar",
+        "relacion": "hijo; perdió las esquirladas ante Adolin; actualmente alto príncipe"
+      },
+      {
+        "personaje": "Jayla",
+        "relacion": "esposa"
+      },
+      {
+        "personaje": "Elit",
+        "relacion": "sobrino; perdió la armadura en duelo contra Adolin"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "sadeas",
+        "relacion": "sólido aliado contra Dalinar"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "hostil; bloque Sadeas-Ruthar-Aladar contra Dalinar y Elhokar"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "la insultó; perdió el duelo contra ella y fue despojado del título"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Agresivo, rencoroso y hostil. Aliado incondicional de Sadeas.",
+    "evolucion": "No muestra evolución. Su hostilidad a Dalinar es constante.",
+    "situacion_en_viento_y_verdad": "Despojado del título."
+  },
+  "arco_narrativo": {
+    "resumen": "Ruthar fue sólido aliado de Sadeas contra Dalinar. Su sobrino Elit perdió la armadura ante Adolin; su hijo Relis enfrentó a Adolin en duelo de desventaja y perdió casi todas las esquirladas. Se negó a unirse a Dalinar en Narak. En RdG insultó públicamente a Jasnah — ella lo desafió en duelo, lo mató y Renarin lo curó. Fue despojado del título.",
+    "puntos_clave": [
+      "Aliado sólido de Sadeas; bloque hostil a Dalinar.",
+      "Ganó su título como alto príncipe antes de la unificación de Gavilar; combatió en el bando de Gavilar contra Kalanor.",
+      "Su sobrino Elit perdió la armadura en duelo contra Adolin.",
+      "Su hijo Relis desafió a Adolin en duelo de desventaja; perdió casi todas las esquirladas; Ruthar lo envió de vuelta a Alezkar avergonzado.",
+      "Se negó a unirse a Dalinar en la expedición a Narak.",
+      "En RdG insultó públicamente a Jasnah Kholin durante una reunión estratégica.",
+      "Jasnah lo desafió en duelo — lo mató; Renarin lo curó inmediatamente.",
+      "Fue despojado de todos sus títulos y tierras por Jasnah.",
+      "Su hijo Relis Ruthar lo sucedió como alto príncipe."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Despojado del título de alto príncipe",
+    "rol": "Antagonista político menor",
+    "relacion_con_spren": "",
+    "otros_detalles": "Relis Ruthar es el actual alto príncipe. Ruthar conserva su hoja esquirlada."
+  },
+  "descripcion_breve": "Alto príncipe alezi hostil a Dalinar y aliado de Sadeas. Fue despojado del título tras insultara Jasnah y perder el duelo contra ella.",
+  "notas": "Colores de la casa: rojo y azul. Jasnah lo mató en el duelo y Renarin lo curó — acto que demostró los poderes de Renarin ante los altos príncipes. Fue despojado de título y tierras."
+}

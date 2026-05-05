@@ -1,0 +1,103 @@
+{
+  "id": "bethab",
+  "nombre": "Bethab",
+  "nombre_completo": "Bethab",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto Principado de Bethab"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política — con ayuda de su esposa Mishinah"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe del suroeste de Alezkar",
+      "Figura políticamente marginal — su esposa Mishinah hace el trabajo real"
+    ],
+    "descripcion": "Alto príncipe alezi de ojos claros. Colores de la casa desconocidos. Jasnah lo considera un zoquete. Su mayor acierto político fue casarse con Mishinah, cuya perspicacia política gestiona los asuntos del principado. Bethab y Mishinah tienen cierta vena astuta — han intentado en diversas ocasiones introducir en contratos con el rey términos favorables en sucesiones, aunque saben que no deben intentarlo cuando Navani está cerca.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Mishinah Bethab",
+        "relacion": "esposa; gestiona los asuntos políticos reales del principado"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado en Urithiru — Mishinah se reunió con Navani en su nombre"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Limitado políticamente — depende de Mishinah para la mayoría de las decisiones importantes.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Bethab es uno de los altos príncipes con menos peso narrativo propio. Su esposa Mishinah gestiona los asuntos políticos reales. Se unió a Dalinar en las carreras de meseta en al menos una ocasión. Participó en carreras conjuntas con Thanadal. Mishinah lo representó en la reunión con Navani cuando Dalinar se recluyó.",
+    "puntos_clave": [
+      "Alto príncipe del suroeste de Alezkar; principado incluye la importante ciudad de Karanak.",
+      "Jasnah lo considera un zoquete — su mayor acierto fue casarse con Mishinah.",
+      "Bethab y Mishinah han intentado introducir términos favorables en contratos con el rey.",
+      "Se unió a Dalinar en al menos una carrera de meseta.",
+      "Participó en una carrera conjunta con Thanadal.",
+      "Mishinah lo representó en la reunión con Navani cuando Dalinar se recluyó tras recuperar los recuerdos de la Grieta."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alto príncipe de Alezkar",
+    "rol": "Figura política marginal; su esposa Mishinah gestiona los asuntos reales",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su esposa Mishinah Bethab es la figura política real del principado."
+  },
+  "descripcion_breve": "Alto príncipe alezi del suroeste. Políticamente marginal — Jasnah lo considera un zoquete. Su esposa Mishinah gestiona los asuntos reales del principado.",
+  "notas": "Jasnah lo considera un zoquete. Su mayor acierto político fue casarse con Mishinah. Bethab y Mishinah tienen colores de casa desconocidos."
+}

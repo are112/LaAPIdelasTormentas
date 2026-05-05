@@ -1,0 +1,107 @@
+{
+  "id": "hatham",
+  "nombre": "Hatham",
+  "nombre_completo": "Hatham",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto Principado de Hatham",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política — mediador entre facciones",
+      "Gestión de infraestructuras como Alto Príncipe de Obras",
+      "Cultivo — intentó cultivar lavis en Urithiru"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto Príncipe de Obras de Alezkar",
+      "Mediador entre las facciones de altos príncipes"
+    ],
+    "descripcion": "Alto príncipe alezi que tendía a mediar entre las facciones. Colores de la casa: rojo y dorado. Su principado está en la frontera occidental de Alezkar. Fue nombrado Alto Príncipe de Obras — responsable de infraestructuras, alcantarillado, suministro de agua y distribución de mercancías en Urithiru.",
+    "estado_en_viento_y_verdad": "Activo como Alto Príncipe de Obras."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado — dio su lealtad a Dalinar en Urithiru"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "se reunió con ella para expresar preocupaciones cuando Dalinar se recluyó"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático y moderado. Tendía a mediar entre Dalinar y Sadeas.",
+    "evolucion": "Comenzó como mediador y acabó dando su lealtad a Dalinar.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Hatham actuó como mediador entre las facciones de los altos príncipes. Fue el único que comentó públicamente el nombramiento de Dalinar como Alto Príncipe de la Guerra, denunciándolo. Huyó a Urithiru tras la Batalla de Narak recargando esferas en la alta tormenta inesperada — lo que le dio una gran ventaja económica. Fue nombrado Alto Príncipe de Obras.",
+    "puntos_clave": [
+      "Principado en la frontera occidental de Alezkar. Colores: rojo y dorado.",
+      "Único alto príncipe que comentó públicamente el nombramiento de Dalinar como Alto Príncipe de la Guerra, denunciándolo.",
+      "Actuó como líder de la facción mediadora entre Sadeas y Dalinar.",
+      "Instó educadamente a Shallan a presentarse en la reunión de altos príncipes.",
+      "Huyó a Urithiru tras Narak — consiguió recargar sus esferas en la alta tormenta inesperada, dándole gran riqueza.",
+      "Fue nombrado Alto Príncipe de Obras — responsable de infraestructuras en Urithiru.",
+      "Intentó cultivar lavis en los campos de Urithiru — la elevación resultó ser un problema.",
+      "Se reunió con Navani junto a Sebarial, Aladar y Mishinah Bethab para expresar preocupaciones sobre Dalinar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alto Príncipe de Obras de Alezkar",
+    "rol": "Gestor de infraestructuras de Urithiru",
+    "relacion_con_spren": "",
+    "otros_detalles": "Colores de la casa: rojo y dorado. Navani considera que hace un trabajo excelente como Alto Príncipe de Obras."
+  },
+  "descripcion_breve": "Alto Príncipe de Obras alezi y mediador entre facciones. Fue el único que denunció públicamente el nombramiento de Dalinar. Gestiona las infraestructuras de Urithiru.",
+  "notas": "La recarga de esferas en la alta tormenta inesperada tras Narak le dio una gran ventaja económica frente al resto de altos príncipes en Urithiru."
+}

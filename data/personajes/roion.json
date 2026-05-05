@@ -1,0 +1,101 @@
+{
+  "id": "roion",
+  "nombre": "Roion",
+  "nombre_completo": "Roion",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto Principado de Roion"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando de los mejores arqueros de Alezkar",
+      "Análisis táctico perspicaz"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe del principado más pequeño de Alezkar",
+      "El primer alto príncipe que se unió a Dalinar en la expedición a Narak"
+    ],
+    "descripcion": "Hombre alto de piel clara y barba oscura bien recortada. Su principado es el más pequeño — noreste de Alezkar. Era conocido por ser tachado de cobarde, algo que detestaba profundamente y contra lo que se defendía reuniendo a los mejores arqueros de Alezkar. Colores de la casa: amarillo sobre verde.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Hijo de Roion",
+        "relacion": "hijo; le sucedió como alto príncipe"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado; fue el primer alto príncipe en unirse a su expedición"
+      },
+      {
+        "personaje": "aladar",
+        "relacion": "debatió estrategia con él durante la marcha hacia Narak"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Cauteloso pero valiente cuando se le inspiraba. Sensible a las acusaciones de cobardía.",
+    "evolucion": "Pasó del escepticismo ante Dalinar a ser el primer aliado en unirse a la expedición.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Roion fue uno de los altos príncipes más cautelosos en aliarse con Dalinar. Temía que Dalinar intentara apropiarse de sus tierras. Sin embargo, fue el primer alto príncipe en unirse a la expedición a Narak. Comandó una de las mesetas en la batalla. Su ejército fue derrotado. Szeth lo mató al defender a Dalinar.",
+    "puntos_clave": [
+      "Alto príncipe del principado más pequeño de Alezkar — noreste.",
+      "Sus arqueros eran los mejores de Alezkar — los usaba para rebatir acusaciones de cobardía.",
+      "Rechazó inicialmente la oferta de Dalinar de un asalto conjunto.",
+      "Fue el primer alto príncipe en unirse a la expedición a Narak.",
+      "Debatió estrategia con Aladar durante la marcha hacia Narak.",
+      "Comandó una meseta en la Batalla de Narak — su ejército fue finalmente derrotado.",
+      "Cuando Szeth atacó a Dalinar, Roion acudió con un grupo de soldados a ayudar.",
+      "Szeth lo mató durante el ataque a Dalinar.",
+      "Su hijo lo sucedió como alto príncipe Roion."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Primer aliado de Dalinar en la expedición a Narak",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su hijo lo sucedió como alto príncipe. Colores de la casa: amarillo sobre verde."
+  },
+  "descripcion_breve": "Alto príncipe cauteloso que fue el primero en unirse a Dalinar para la expedición a Narak. Comandaba los mejores arqueros de Alezkar. Fallecido a manos de Szeth durante la Batalla de Narak.",
+  "notas": "Su principado es el más pequeño de Alezkar. Detestaba ser llamado cobarde. Colores de la casa: amarillo sobre verde."
+}

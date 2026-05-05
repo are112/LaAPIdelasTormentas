@@ -1,0 +1,109 @@
+{
+  "id": "aladar",
+  "nombre": "Aladar",
+  "nombre_completo": "Aladar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto Principado de Aladar",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo militar — comandó su meseta en la Batalla de Narak",
+      "Política estratégica",
+      "Duelos esquirlados — tuvo talento en su juventud al nivel de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto Príncipe de Información de Alezkar",
+      "Aliado más sólido de Dalinar entre los altos príncipes"
+    ],
+    "descripcion": "Alto príncipe alezi inicialmente aliado de Sadeas que fue cambiando de posición hacia Dalinar a lo largo de la saga. Colores de la casa: negro con rayas color marrón rojizo. Su principado limita al oeste con el de Kholin y al este con el de Roion.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado; fue nombrando Alto Príncipe de Información por Dalinar"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "sadeas",
+        "relacion": "aliado de Sadeas contra Dalinar en los primeros libros; cambió de posición"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático. Comenzó alineado con Sadeas pero fue convenciéndose de la causa de Dalinar.",
+    "evolucion": "Pasó de ser sólido aliado de Sadeas a convertirse en el apoyo más fiable de Dalinar entre los altos príncipes.",
+    "situacion_en_viento_y_verdad": "Activo como Alto Príncipe de Información."
+  },
+  "arco_narrativo": {
+    "resumen": "Aladar comenzó en el bando de Sadeas pero fue ganado por Dalinar. Participó en la Batalla de Narak comandando una de las mesetas. En Juramentada fue nombrado Alto Príncipe de Información. Reunió a los altos príncipes cuando Dalinar se recluyó. Aconsejó a Dalinar sobre cómo usar el conocimiento de los Radiantes como herramienta diplomática.",
+    "puntos_clave": [
+      "Aliado de Sadeas y Ruthar en un principio — bloque hostil a Dalinar.",
+      "Fue gradualmente convencido por Dalinar.",
+      "Fue uno de los tres altos príncipes que se unieron a Dalinar en la expedición a Narak.",
+      "Comandó su meseta en la Batalla de Narak; se horrorizó al ver los ojos rojos de los parshendi en forma tormenta.",
+      "Dalinar le dijo 'sé un campeón' — tuvo el efecto deseado.",
+      "Dalinar lo nombró Alto Príncipe de Información tras la Batalla de Narak.",
+      "Reunió a los altos príncipes en nombre de Dalinar cuando éste se recluyó tras recuperar los recuerdos de la Grieta.",
+      "Aconsejó a Dalinar usar el conocimiento de los Radiantes como herramienta de negociación con la reina Fen.",
+      "Expresó preocupación ante Dalinar por la debilidad militar sin las fuerzas de Thanadal."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alto Príncipe de Información de Alezkar",
+    "rol": "Aliado principal de Dalinar entre los altos príncipes",
+    "relacion_con_spren": "",
+    "otros_detalles": "Colores de la casa: negro con rayas marrón rojizo."
+  },
+  "descripcion_breve": "Alto Príncipe de Información y aliado más sólido de Dalinar entre los altos príncipes. Comenzó aliado de Sadeas pero fue ganado por la causa de Dalinar.",
+  "notas": "Fue el primero de los tres altos príncipes que se unieron a Dalinar en la expedición que terminó en la Batalla de Narak."
+}
