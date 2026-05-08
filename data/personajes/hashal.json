@@ -1,0 +1,98 @@
+{
+  "id": "hashal",
+  "nombre": "Hashal",
+  "nombre_completo": "Hashal",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Sadeas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Administración y mando — comandaba las cuadrillas de puentes a través de su esposo",
+      "Manipulación política — sabía cómo obtener resultados de Sadeas usando a Matal",
+      "Intimidación"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Brillante señora que comandaba las cuadrillas de puentes de Sadeas a través de su esposo Matal",
+      "Antagonista principal del arco del Puente Cuatro tras la muerte de Lamaril"
+    ],
+    "descripcion": "Brillante señora alezi cuyo esposo Matal era nominalmente el capitán de las cuadrillas de puentes, pero era ella quien comandaba realmente. Fría, calculadora y con un único objetivo: eliminar al Puente Cuatro y a Kaladin. Viajó a las Llanuras con su esposo y su sobrina favorita Eliah Matal. Su antagonismo hacia Kaladin era tan evidente que los hombres del Puente Cuatro creían que Sadeas le había ordenado personalmente destruirlos.",
+    "estado_en_viento_y_verdad": "Destino desconocido tras la Batalla de la Torre."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Matal",
+        "relacion": "esposo; él era el capitán nominal — ella tomaba todas las decisiones reales"
+      },
+      {
+        "personaje": "Eliah Matal",
+        "relacion": "sobrina favorita; viajó con ellos a las Llanuras"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su único objetivo era eliminarlo; asignó al Puente Cuatro medidas punitivas progresivas"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Fría y calculadora. Su hostilidad hacia Kaladin era completamente deliberada y metódica.",
+    "evolucion": "Sin evolución — su objetivo era constante.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Hashal llegó a las Llanuras con su esposo Matal cuando este fue nombrado capitán de las cuadrillas de puentes tras la ejecución de Lamaril. En realidad era ella quien comandaba. Se centró en destruir al Puente Cuatro con medidas cada vez más punitivas: trabajo en los abismos permanente, sin nuevos miembros, scavenging los mismos días que las carreras. Kaladin la frustró repetidamente. Tomó el crédito por la armadura de caparazón. Al final fue Kaladin quien resultó ser el héroe de la Batalla de la Torre — su destino tras esto es desconocido.",
+    "puntos_clave": [
+      "Llegó a las Llanuras con su esposo Matal y su sobrina Eliah.",
+      "Aunque Matal era el capitán nominal, ella tomaba todas las decisiones sobre las cuadrillas.",
+      "Menospreciaba a Lamaril públicamente — ella sería más eficiente.",
+      "Compró a Kaladin y nueve esclavos de Tvlakv asignándolos a los puentes con orden de 'tratamiento especial'.",
+      "Asignó al Puente Cuatro permanentemente al trabajo en los abismos como castigo.",
+      "Dejó de asignarles nuevos miembros — solo les dio a Shen como 'experimento'.",
+      "Les obligó a hacer scavenging los mismos días que las carreras.",
+      "Tomó todo el crédito por la innovación de la armadura de caparazón parshendi.",
+      "La frustración de Kaladin con ella contribuyó a una de sus primeras experiencias absorbiendo luz tormentosa.",
+      "Su destino tras la Batalla de la Torre es desconocido — Kaladin supuso que Sadeas ejecutaría a Matal como hizo con Lamaril."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Antagonista principal del arco del Puente Cuatro en El Camino de los Reyes",
+    "relacion_con_spren": "",
+    "otros_detalles": "Destino desconocido tras la Batalla de la Torre."
+  },
+  "descripcion_breve": "Brillante señora que comandaba las cuadrillas de puentes de Sadeas a través de su esposo Matal. Antagonista del Puente Cuatro cuyo único objetivo era eliminar a Kaladin. Destino desconocido.",
+  "notas": "La frustración de Kaladin con Hashal contribuyó a una de sus primeras experiencias absorbiendo luz tormentosa. Kaladin supuso que Sadeas ejecutaría a Matal tras la Batalla de la Torre — el destino de ambos es desconocido."
+}

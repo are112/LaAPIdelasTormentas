@@ -1,0 +1,97 @@
+{
+  "id": "inadara",
+  "nombre": "Inadara",
+  "nombre_completo": "Inadara",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Dalinar Kholin",
+    "Eruditos de la coalición"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudita y exploradora — dirigió el equipo de exploración de las Llanuras",
+      "Comunicación mediante vinculacañas — retransmitió la negociación entre Adolin y Eshonai",
+      "Mando de equipos de exploradores y eruditas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita destacada al servicio de Dalinar",
+      "Directora del equipo de exploración en la Batalla de Narak"
+    ],
+    "descripcion": "Erudita alezi conocida y respetada antes de la Guerra de la Venganza. Estaba influida por la mitología vorin y tendía a ver los spren como criaturas peligrosas. Tomaba decisiones independientes en el campo — en la Batalla de Narak asumió el mando del equipo de exploración. Inicialmente desestimó la importancia de la Puerta Jurada cuando Shallan la encontró.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "le sirve como erudita de campo"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "trabajó con ella en la expedición a Narak buscando la Puerta Jurada"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "retransmitió mediante vinculacañas su negociación con Eshonai"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Segura de sí misma y con experiencia. Influida por la mitología vorin en su interpretación de los spren.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Inadara era una erudita de renombre al servicio de Dalinar. Retransmitió mediante vinculacañas la negociación de Adolin con Eshonai para que Dalinar y Navani pudieran aconsejarle en tiempo real. En la Batalla de Narak dirigió el equipo de eruditas y exploradoras, incluyendo a Lyn. Quiso estudiar a Patrón pero lo confundió con un Portador del Vacío — Patrón la insultó y ella se marchó ofendida. Desestimó la Puerta Jurada cuando Shallan la encontró. Fue una de las primeras en entrar en la cámara de control al descubrirse.",
+    "puntos_clave": [
+      "Erudita alezi conocida y respetada antes de la Guerra de la Venganza.",
+      "Retransmitió mediante vinculacañas la negociación de Adolin con Eshonai — Dalinar y Navani le susurraban consejos.",
+      "En la Batalla de Narak dirigió el equipo de exploradoras asignadas a encontrar la Puerta Jurada.",
+      "Quiso estudiar a Patrón creyendo que podía ser un Portador del Vacío.",
+      "Patrón la insultó en respuesta — ella se marchó ofendida a reunirse con otras eruditas.",
+      "Desestimó la Puerta Jurada cuando Shallan la encontró — asumió que algo estratégicamente importante no estaría tan a la vista.",
+      "Envió a todo su grupo a la gran meseta de Narak para proteger a niños y ancianos según órdenes de Dalinar.",
+      "Fue una de las primeras personas en entrar en la cámara de control de la Puerta Jurada al descubrirse.",
+      "Ella y su equipo de eruditas quedaron asombradas por el mural del suelo que representaba a Urithiru y los Caballeros Radiantes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Erudita al servicio de la coalición",
+    "rol": "Erudita de campo y exploradora",
+    "relacion_con_spren": "",
+    "otros_detalles": "Patrón la insultó cuando ella sugirió que podía ser un Portador del Vacío — nunca perdonó la afrenta."
+  },
+  "descripcion_breve": "Erudita alezi de renombre al servicio de Dalinar. Dirigió el equipo de exploración en la Batalla de Narak. Desestimó la Puerta Jurada cuando Shallan la encontró. Patrón la insultó y se marchó ofendida.",
+  "notas": "Inadara desestimó la Puerta Jurada cuando Shallan la encontró argumentando que algo estratégicamente importante no estaría tan a la vista — estuvo equivocada. Patrón la insultó en respuesta a sus comentarios sobre los Portadores del Vacío."
+}

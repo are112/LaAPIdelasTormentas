@@ -1,0 +1,102 @@
+{
+  "id": "kalami",
+  "nombre": "Kalami",
+  "nombre_completo": "Kalami",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Historiadora de renombre — especialista en teoría vorin e historia de las Desolaciones",
+      "Escriba principal de la Casa Kholin",
+      "Gestión de comunicaciones diplomáticas mediante vinculacañas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escriba principal de la Casa Kholin",
+      "Historiadora especialista en teoría vorin y Desolaciones",
+      "Esposa de Teleb"
+    ],
+    "descripcion": "Mujer alezi de pelo largo y oscuro que lleva con dos pequeñas trenzas laterales recogidas, el resto suelto cayendo por la espalda sobre un vestido violeta. Casada con Teleb, alto oficial del ejército Kholin. Ojos claros. Planeaba escribir una historia detallada de la Guerra de la Venganza — obtuvo permiso para registrar reuniones con ese fin. Especialista en teoría vorin — fue ella quien le explicó a Dalinar la naturaleza de las Desolaciones.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Teleb",
+        "relacion": "esposo; alto oficial del ejército Kholin"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "le sirve como escriba principal y asesora histórica"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "trabaja junto a ella en las comunicaciones diplomáticas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Inteligente, algo condescendiente con los que considera inferiores en conocimiento. Leal a la Casa Kholin.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Kalami era la escriba principal de la Casa Kholin y esposa de Teleb. Planeaba escribir una historia de la Guerra de la Venganza. Le explicó a Dalinar la naturaleza de las Desolaciones según la teoría vorin. Gestionó las comunicaciones con los otros monarcas cuando Dalinar intentó unirlos. Estuvo presente en la boda de Dalinar y Navani en Urithiru. Cuando se descubrió el cuerpo de Evi tras Rathalas, lideró la discusión especulando que Evi había sido una traidora — Dalinar la contradijo.",
+    "puntos_clave": [
+      "Escriba principal de la Casa Kholin; planeaba escribir una historia de la Guerra de la Venganza.",
+      "Esposa de Teleb, alto oficial del ejército Kholin.",
+      "Le explicó a Dalinar que las Desolaciones eran 'destrucción hecha carne' — cada una dejaba a la humanidad tan rota que tardaba generaciones en recuperarse.",
+      "Gestionó las comunicaciones con otros monarcas cuando Dalinar intentó forjar la coalición.",
+      "Estuvo presente en la boda de Dalinar y Navani en Urithiru — grupo pequeño de invitados.",
+      "Lideró la discusión entre las escribas sobre el cuerpo de Evi — especuló que era una traidora.",
+      "Dalinar la contradijo: Evi no traicionó a nadie. Le pidió mantener el hallazgo en secreto.",
+      "Le sonrió con una sonrisa condescendiente de 'lo sé todo' — y le dijo que descansara, que el dolor pasaría."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba principal de la Casa Kholin; historiadora",
+    "rol": "Asesora histórica y gestora de comunicaciones de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Está casada con Teleb. Planeaba escribir la historia definitiva de la Guerra de la Venganza."
+  },
+  "descripcion_breve": "Escriba principal de la Casa Kholin, historiadora experta en teoría vorin y esposa de Teleb. Le explicó a Dalinar la naturaleza de las Desolaciones. Presente en la boda de Dalinar y Navani.",
+  "notas": "Cuando se descubrió el cuerpo quemado de Evi en Rathalas, Kalami lideró las especulaciones de que era una traidora — Dalinar tuvo que desmentirlo y pedirle discreción. Su sonrisa condescendiente en ese momento es uno de sus rasgos más caracterísicos."
+}

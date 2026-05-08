@@ -1,0 +1,100 @@
+{
+  "id": "bisig",
+  "nombre": "Bisig",
+  "nombre_completo": "Bisig",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (honorspren)"
+    },
+    "estado_del_vinculo": "Activo. Escudero de Kaladin."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate básico con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Escudero Corredor del Viento"
+    ],
+    "descripcion": "Miembro del Puente Cuatro con una herida antigua en la mano de una hoja esquirlada. Como escudero pudo usar luz tormentosa para curar esa herida. Estaba comprometido próximamente a casarse — Sigzil usó eso como ejemplo con Kaladin para hablar de cómo el Puente Cuatro evolucionaría hacia vidas normales.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán; escudero bajo su mando"
+      },
+      {
+        "personaje": "sigzil",
+        "relacion": "Sigzil lo mencionó como ejemplo en su conversación con Kaladin sobre el futuro del Puente Cuatro"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Sin arco psicológico propio desarrollado.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Bisig fue miembro del Puente Cuatro que se convirtió en escudero de Kaladin. Usó la luz tormentosa para curar una herida antigua en la mano por una hoja esquirlada. Se estrelló contra el techo durante un entrenamiento intentando imitar a Lopen. Taravangian envió un asesino a recuperar el Honorblade de Jezrien — Bisig fue herido gravemente en el brazo por una hoja esquirlada durante ese ataque.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro con herida antigua en la mano por hoja esquirlada.",
+      "Estaba próximo a casarse — Sigzil lo mencionó como ejemplo del futuro normal que el Puente Cuatro podría tener.",
+      "Se convirtió en escudero de Kaladin — usó luz tormentosa para curar su herida en la mano.",
+      "Se estrelló contra el techo durante un entrenamiento intentando imitar a Lopen — Cikatriz lo observó con envidia por poder absorber luz tormentosa.",
+      "Taravangian envió un asesino a recuperar el Honorblade de Jezrien — Bisig fue herido gravemente en el brazo por una hoja esquirlada.",
+      "Roca también fue herido en ese mismo ataque."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escudero Corredor del Viento del Puente Cuatro",
+    "rol": "Miembro del Puente Cuatro",
+    "relacion_con_spren": "Honorspren sin nombre confirmado.",
+    "otros_detalles": "Estaba próximo a casarse durante los eventos de Palabras Radiantes."
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro y escudero Corredor del Viento. Curó con luz tormentosa una herida antigua en la mano. Gravemente herido en el ataque al Honorblade de Jezrien enviado por Taravangian.",
+  "notas": "Bisig y Roca fueron los heridos en el ataque del asesino de Taravangian al Honorblade. Cikatriz lo observó con envidia estrellarse contra el techo — en ese momento él aún no podía absorber luz tormentosa."
+}

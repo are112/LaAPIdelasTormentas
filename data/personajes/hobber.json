@@ -1,0 +1,111 @@
+{
+  "id": "hobber",
+  "nombre": "Hobber",
+  "nombre_completo": "Hobber",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (honorspren)"
+    },
+    "estado_del_vinculo": "Activo. Al menos el Segundo Ideal."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Asistente de cocina — ayudante de Roca",
+      "Combate básico con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "El primero del Puente Cuatro en curarse con luz tormentosa",
+      "Corredor del Viento"
+    ],
+    "descripcion": "Hombre desgarbado de cara redonda, dientes separados y pelo negro. Kaladin dice que tiene el mejor corazón entre ellos. Sincero y servicial. Fue asignado a los puentes tras una pelea de borrachos en la que murió un hombre — probablemente solo seguía al grupo. Llegó al Puente Cuatro con la pierna herida de flecha.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "le salvó la vida en su primera carrera y curó su pierna; Hobber tiene lealtad absoluta hacia él"
+      },
+      {
+        "personaje": "peet",
+        "relacion": "compañero; Peet y Drehy fueron los primeros en ayudarle a ponerse de pie cuando curó sus piernas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sincero y leal. Kaladin lo describe como el de mejor corazón del grupo.",
+    "evolucion": "Pasó de hombre herido dependiente a Corredor del Viento activo.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Hobber llegó al Puente Cuatro con una herida de flecha en el muslo de su primera carrera. Kaladin lo salvó, le cosió la herida y lo ató junto a Dabbid en lo alto del puente para transportarlo. Anduvo con cojera durante meses. Fue uno de los primeros escuderos de Kaladin. Fue el primero del Puente Cuatro en usar luz tormentosa para curar sus piernas — Peet y Drehy fueron los primeros en ayudarle a ponerse de pie. Szeth le cortó las piernas cuando escoltaba a Dalinar — las curó con luz tormentosa.",
+    "puntos_clave": [
+      "Asignado a los puentes tras una pelea de borrachos en la que murió un hombre.",
+      "Herido de flecha en el muslo en su primera carrera — Kaladin lo salvó, le cosió la herida.",
+      "Kaladin lo ató junto a Dabbid encima del puente para transportarlo a lugar seguro.",
+      "Anduvo con cojera durante meses.",
+      "Fue uno de los primeros escuderos de Kaladin.",
+      "Fue el primero del Puente Cuatro en usar luz tormentosa para curar sus piernas — Peet y Drehy fueron los primeros en ayudarle a ponerse de pie.",
+      "Szeth le cortó las piernas cuando escoltaba a Dalinar durante el atentado — las curó con luz tormentosa.",
+      "Trabajó como asistente de cocina de Roca en Urithiru.",
+      "Kaladin le entregó personalmente una gema y le pidió que intentara absorber luz tormentosa — explicando que ser Radiante no era sobre fuerza sino sobre corazón.",
+      "Se estrelló contra el techo durante un entrenamiento intentando imitar a Lopen."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Corredor del Viento; asistente de cocina de Roca",
+    "rol": "Miembro leal del Puente Cuatro",
+    "relacion_con_spren": "Honorspren sin nombre confirmado.",
+    "otros_detalles": "Kaladin dijo de él que tiene el mejor corazón entre todos los miembros del Puente Cuatro."
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro de cara redonda y dientes separados. El primero en curar sus piernas con luz tormentosa. Kaladin dice que tiene el mejor corazón del grupo. Corredor del Viento.",
+  "notas": "Kaladin dijo que el corazón de Hobber era el mejor entre todos los hombres del Puente Cuatro — esa fue la razón por la que le entregó la gema para que intentara absorber luz tormentosa."
+}
