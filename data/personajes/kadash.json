@@ -1,0 +1,105 @@
+{
+  "id": "kadash",
+  "nombre": "Kadash",
+  "nombre_completo": "Kadash",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fervorosos de Dalinar Kholin",
+    "Ardentía vorin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — fue capitán de las élites de Dalinar",
+      "Teología vorin — uno de los más destacados fervorosos de Dalinar",
+      "Gestión de moldeadores de almas — lideró la expansión del campamento de guerra"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervoroso principal de Dalinar Kholin",
+      "Exsoldado de élite de Dalinar que cambió su Llamada",
+      "Voz de la ortodoxia vorin dentro de la familia Kholin"
+    ],
+    "descripcion": "Hombre alto con cabeza afeitada y barba cuadrada. Scar retorcida alrededor de la cabeza por sus años como soldado. Ojos claros violeta. Lleva las grises túnicas de la ardentía. Aunque viste como fervoroso, Dalinar siempre ve al soldado en él — postura peligrosa, complexión delgada y nerviosa. Dos o tres años mayor que Dalinar. Técnicamente esclavo como todos los ardentes. Leal a Dalinar hasta el límite de sus principios religiosos.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "antiguo comandante y amigo — le sirve como fervoroso principal pero le desafía teológicamente"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "le aconsejó sobre las visiones de Dalinar; le preocupaba su progreso en la Llamada"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Hombre profundamente marcado por la masacre de Rathalas — presenció algo tan horrible que renunció a su Llamada como soldado. Leal a Dalinar pero no incondicionalmente — le desafía cuando sus acciones rozan la herejía.",
+    "evolucion": "Pasó de soldado de élite a fervoroso tras Rathalas. Su lealtad a Dalinar convive con su fidelidad a la ortodoxia vorin.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Kadash fue uno de los capitanes de las élites de Dalinar durante las guerras de unificación de Alezkar. Presenció la masacre de Rathalas — algo tan horrible que le hizo renunciar a la espada y unirse a la ardentía. Sirvió como fervoroso principal de Dalinar en las Llanuras. Desafió teológicamente a Dalinar sobre sus visiones. Se negó a casarles a Dalinar y Navani porque la consideraba su cuñada. Defendió a Dalinar ante la ardentía cuando otros lo criticaban.",
+    "puntos_clave": [
+      "Fue capitán de las élites de Dalinar — le sirvió durante más de veinte años como soldado.",
+      "Presenció la masacre de Rathalas — algo tan vile que incluso él se estremeció; Dalinar recuerda a Kadash arrodillado vomitando.",
+      "La experiencia de Rathalas lo llevó a renunciar a su Llamada como soldado y unirse a la ardentía.",
+      "Sirvió como fervoroso principal de Dalinar en las Llanuras Quebradas.",
+      "Adolin le consultó sobre las visiones de Dalinar — Kadash insinuó que eran fabricaciones inconscientes pero no afirmó que Dalinar estaba loco.",
+      "Le propuso a Dalinar moldear grandes bloques de piedra como rompevientos para expandir el campamento.",
+      "Se negó a casar a Dalinar y Navani — la consideraba cuñada según la tradición vorin.",
+      "Cuando Dalinar insistió en que el Padre Tormenta bendijera la unión, Kadash lo llamó blasfemia.",
+      "Defendió a Dalinar ante la ardentía — explicó que Dalinar miraba hacia cuando los Radiantes eran puros, no hacia su corrupción final.",
+      "Fue testigo de la apertura de Urithiru."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fervoroso principal de Dalinar Kholin",
+    "rol": "Voz de la ortodoxia vorin; consejero espiritual de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Cree firmemente que son los ojos claros quienes deben vigilar a los fervorosos para que no acumulen poder — lección de la Hierocracia."
+  },
+  "descripcion_breve": "Exsoldado de élite de Dalinar reconvertido en fervoroso tras presenciar la masacre de Rathalas. Leal pero capaz de desafiarle teológicamente. Se negó a casarles a Dalinar y Navani. Voz de la ortodoxia vorin dentro de la familia Kholin.",
+  "notas": "Presenció Rathalas — fue tan horrible que incluso él, un soldado endurecido, se arrodilló a vomitar. Dalinar siempre ve al soldado en él a pesar de las túnicas grises. Cree que los ojos claros deben vigilar a los ardentes para prevenir otra Hierocracia."
+}

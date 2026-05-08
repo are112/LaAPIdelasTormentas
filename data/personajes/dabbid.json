@@ -1,0 +1,123 @@
+{
+  "id": "dabbid",
+  "nombre": "Dabbid",
+  "nombre_completo": "Dabbid",
+  "apodos": [
+    "Muli (apodo de Lopen — significa 'mudo' en herdaziano)"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "No puede vincularse con un spren ni volar como escudero. Nunca volverá a portar una lanza. Pero siempre será miembro del Puente Cuatro."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comunicación con el Hermano — fue el primero en conectar con el spren de Urithiru",
+      "Navegación interna de Urithiru — conoce los corredores secretos",
+      "Resistencia emocional — su trastorno le permite actuar en situaciones de pánico donde otros se paralizarían"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro — el primero que Kaladin salvó",
+      "El primero en comunicarse con el Hermano",
+      "El que salvó a Kaladin, Teft y al Hermano durante la ocupación de Urithiru"
+    ],
+    "descripcion": "Hombre enjuto de aspecto juvenil y rasgos alezi, piel más pálida de lo habitual. Nació con el cordón umbilical enrollado alrededor del cuello, lo que resultó en un trastorno no especificado. No comenzó a hablar hasta los seis años. Fingía ser mudo para evitar que otros notaran su diferencia — seguía traumatizado por las carreras de puentes y no hablaba. Cuando era joven se puso una soga alrededor del cuello para entender cómo había nacido — no comprendió por qué la gente se preocupó. Lopen le llama 'Muli', que significa 'mudo' en herdaziano.",
+    "estado_en_viento_y_verdad": "Activo en el Puente Cuatro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "madre de Dabbid",
+        "relacion": "fallecida; su muerte empeoró su trastorno"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "el primero que lo salvó; Dabbid le devolvió el favor durante la ocupación"
+      },
+      {
+        "personaje": "lopen",
+        "relacion": "compañero; le llama 'Muli'; juntos cargaban los odres de agua en las carreras"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "le trajo una vinculacañas para comunicarse con el Hermano"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Trastorno no especificado desde el nacimiento — afectado cognitivamente. Traumatizado adicionalmente por las carreras de puentes. Fingía ser mudo. Su trastorno le permite actuar sin paralizarse en situaciones donde otros entrarían en pánico.",
+    "evolucion": "Pasó de ser el primer hombre salvado por Kaladin — incapaz de hablar o luchar — a ser quien salvó a Kaladin y al Hermano durante la ocupación de Urithiru. Su recuperación fue silenciosa pero profunda.",
+    "situacion_en_viento_y_verdad": "Recuperado. Habla con el Puente Cuatro."
+  },
+  "arco_narrativo": {
+    "resumen": "Dabbid fue el primer hombre del Puente Cuatro que Kaladin salvó — sufrió un shock de batalla tan profundo en su primera carrera que dejó de hablar. Fingía ser mudo para ocultar su trastorno. Durante la ocupación de Urithiru encontró a Kaladin inconsciente, lo mantuvo vivo con comida y agua, fue el primero en comunicarse con el Hermano y trajo una vinculacañas a Navani para que pudiera contactar con el spren. Su acción fue decisiva para salvar la torre.",
+    "puntos_clave": [
+      "Nació con el cordón umbilical enrollado en el cuello — trastorno no especificado desde el nacimiento.",
+      "No comenzó a hablar hasta los seis años.",
+      "Fingía ser mudo para que los demás no notaran su diferencia.",
+      "Primera carrera de puentes — sufrió shock de batalla y se paralizó en el campo; Kaladin y Roca lo arrastraron a un lugar seguro.",
+      "Fue el primer hombre del Puente Cuatro que Kaladin salvó.",
+      "Junto a Lopen llevaba odres de agua en todas las carreras.",
+      "Era la mascota no oficial del Puente Cuatro — los hombres le saludaban al pasar.",
+      "No puede portar una lanza ni volar como escudero. Dos semanas tras Narak seguía sin poder absorber luz tormentosa.",
+      "Durante la ocupación de Urithiru encontró a Kaladin inconsciente y le mantuvo vivo con comida y agua.",
+      "Fue el primero en comunicarse con el Hermano — el spren de Urithiru.",
+      "Trajo una vinculacañas a Navani para que pudiera contactar con el Hermano.",
+      "Su acción fue decisiva para que Navani pudiera desactivar los nodos y salvar la torre.",
+      "Navani lo llamó para que identificara a quién le había traído la vinculacañas — Rojo lo identificó."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Miembro del Puente Cuatro",
+    "rol": "El héroe silencioso de la ocupación de Urithiru",
+    "relacion_con_spren": "Fue el primero en comunicarse con el Hermano.",
+    "otros_detalles": "Nunca volverá a portar una lanza ni volar. Pero siempre será miembro del Puente Cuatro. Lopen le llama 'Muli'."
+  },
+  "descripcion_breve": "El primer hombre del Puente Cuatro que Kaladin salvó. Trastorno cognitivo desde el nacimiento, fingía ser mudo. Durante la ocupación de Urithiru encontró a Kaladin inconsciente, fue el primero en comunicarse con el Hermano y trajo una vinculacañas a Navani — acción decisiva para salvar la torre.",
+  "notas": "Dabbid es el ejemplo más poderoso del tema central del Puente Cuatro: nadie es prescindible, todos tienen valor. No puede volar ni luchar — pero salvó la torre de Urithiru. Lopen le llama 'Muli' que significa 'mudo' en herdaziano."
+}

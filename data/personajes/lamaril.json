@@ -1,0 +1,90 @@
+{
+  "id": "lamaril",
+  "nombre": "Lamaril",
+  "nombre_completo": "Lamaril",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Sadeas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — capitán de las cuadrillas de puentes de Sadeas",
+      "Chantaje — extorsionaba a Gaz con deudas regulares"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitán de las cuadrillas de puentes del ejército de Sadeas",
+      "Superior directo de Gaz"
+    ],
+    "descripcion": "Hombre alto y delgado de ojos claros, complexión angulosa que no implica debilidad. Barba cuadrada. Rencoroso y mezquino — Syl y Gaz lo describían como un hombre lleno de odio por su posición de bajo rango dentro de los ojos claros. Cerca del décimo dahn. Chantajeaba a Gaz extrayéndole pagos regulares. Ejecutado por Sadeas en la primera hora tras la batalla de la carga lateral.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos de la saga."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "lo consideraba un problema — intentó que muriera en la batalla en lugar de ejecutarlo"
+      },
+      {
+        "personaje": "gaz",
+        "relacion": "lo chantajeaba con deudas regulares; Gaz le pagaba para sobrevivir"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Rencoroso con su posición. Descargaba su frustración de ser ojos claros de bajo rango sobre quienes tenía bajo su mando.",
+    "evolucion": "Sin arco propio — muere ejecutado por Sadeas.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Lamaril era el capitán de las cuadrillas de puentes de Sadeas y superior directo de Gaz. Extorsionaba a Gaz con pagos regulares. Cuando el Puente Cuatro intentó la carga lateral y la batalla fracasó, Lamaril intentó culpar a Kaladin y Gaz. Sadeas no aceptó sus excusas y lo ejecutó personalmente en la primera hora tras regresar al campamento.",
+    "puntos_clave": [
+      "Capitán de las cuadrillas de puentes de Sadeas — superior directo de Gaz.",
+      "Chantajeaba a Gaz con pagos regulares de sus deudas de juego.",
+      "Cuando Kaladin comenzó a dar problemas, Gaz sugirió asesinarlo; Lamaril lo rechazó — Kaladin debía morir en batalla para no convertirlo en mártir.",
+      "Antes de la batalla de la Torre, habló con Gaz en el campo — dejó al Puente Cuatro con los mínimos hombres para cargar el puente.",
+      "Cuando el intento de carga lateral del Puente Cuatro causó el fracaso de la batalla, intentó culpar a Kaladin y Gaz.",
+      "Kaladin convenció a Lamaril de no ejecutarlo argumentando que si lo azotaban lo harían un mártir.",
+      "Sadeas no aceptó sus excusas por el fracaso de la batalla — lo ejecutó personalmente en la primera hora tras regresar al campamento.",
+      "Fue reemplazado por el brillante señor Matal, cuya esposa Hashal tomó el mando real."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Antagonista menor del arco del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": "Syl y Gaz lo describían como un hombre lleno de odio por su posición de bajo rango entre los ojos claros. Cerca del décimo dahn."
+  },
+  "descripcion_breve": "Capitán de las cuadrillas de puentes de Sadeas y superior de Gaz. Lo chantajeaba con deudas. Ejecutado por Sadeas tras el fracaso de la batalla de la carga lateral.",
+  "notas": "Syl describía a Lamaril como un hombre lleno de odio por su posición de bajo rango. Su ejecución fue inmediata — Sadeas no toleraba el fracaso."
+}

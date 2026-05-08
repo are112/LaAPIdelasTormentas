@@ -1,0 +1,109 @@
+{
+  "id": "peet",
+  "nombre": "Peet",
+  "nombre_completo": "Peet",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (honorspren)"
+    },
+    "estado_del_vinculo": "Activo hasta su muerte durante la ocupación de Urithiru."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate con lanza",
+      "Instrucción de escuderos — entrenó a los primeros diez escuderos del Puente Cuatro en Adhesión"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro veterano del Puente Cuatro",
+      "Corredor del Viento",
+      "Uno de los primeros escuderos de Kaladin"
+    ],
+    "descripcion": "Miembro del Puente Cuatro presente desde las primeras carreras. Uno de los primeros en convertirse en escudero de Kaladin. Entrenó a los diez primeros nuevos escuderos del Puente Cuatro. Murió durante la ocupación de Urithiru.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán; Peet fue uno de sus primeros escuderos"
+      },
+      {
+        "personaje": "hobber",
+        "relacion": "compañero; cuando Hobber usó luz tormentosa para curar sus piernas, Drehy y Peet fueron los primeros en ayudarle a ponerse de pie"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Soldado leal y comprometido.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Peet fue miembro del Puente Cuatro desde las primeras carreras. Sobrevivió herido a la carrera de la carga lateral. Fue uno de los primeros escuderos de Kaladin. Entrenó a los diez primeros nuevos escuderos del Puente Cuatro en Adhesión. Acompañó a Dalinar a Thaylenah. Murió durante la ocupación de Urithiru a manos de los cantores.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro desde las primeras carreras.",
+      "Sobrevivió herido a la carrera de la carga lateral junto a Hobber.",
+      "Señaló a Roca los detalles del regalo del grupo — navaja, espejo de acero pulido, jabón y correa.",
+      "Uno de los primeros miembros del Puente Cuatro en convertirse en escudero de Kaladin.",
+      "Entrenó a los diez primeros nuevos escuderos en Adhesión durante las sesiones de reclutamiento.",
+      "Drehy y Peet fueron los primeros en ayudar a Hobber a ponerse de pie cuando curó sus piernas con luz tormentosa.",
+      "Acompañó a Dalinar a Thaylenah para reunirse con la reina Fen.",
+      "Murió durante la ocupación de Urithiru a manos de los cantores."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Miembro veterano del Puente Cuatro; instructor de escuderos",
+    "relacion_con_spren": "Honorspren sin nombre confirmado.",
+    "otros_detalles": "Murió durante la ocupación de Urithiru."
+  },
+  "descripcion_breve": "Miembro veterano del Puente Cuatro y uno de los primeros escuderos de Kaladin. Entrenó a los primeros diez nuevos escuderos en Adhesión. Fallecido durante la ocupación de Urithiru.",
+  "notas": "Murió durante la ocupación de Urithiru — su muerte es uno de los golpes que el Puente Cuatro recibió en RdG junto a la de Teft."
+}
