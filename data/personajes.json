@@ -68,7 +68,8 @@
     "nombre": "Bisig",
     "orden": "Corredores del Viento",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "cancion_hermosa",
@@ -115,7 +116,8 @@
     "nombre": "Dabbid",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "dalinar",
@@ -190,6 +192,14 @@
     "especie": "humano"
   },
   {
+    "id": "eth",
+    "nombre": "Eth",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "evi",
     "nombre": "Evi",
     "orden": "Ninguna",
@@ -258,7 +268,8 @@
     "nombre": "Hashal",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "desconocido"
+    "estado_actual": "desconocido",
+    "especie": "humano"
   },
   {
     "id": "hatham",
@@ -289,7 +300,8 @@
     "nombre": "Hobber",
     "orden": "Corredores del Viento",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "hoid",
@@ -316,11 +328,20 @@
     "especie": "humano"
   },
   {
+    "id": "ilamar",
+    "nombre": "Ilamar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "inadara",
     "nombre": "Inadara",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "ishnah",
@@ -375,7 +396,8 @@
     "nombre": "Kadash",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo"
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "kaladin",
@@ -390,7 +412,8 @@
     "nombre": "Kalami",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "viva"
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "kdralk",
@@ -429,7 +452,8 @@
     "nombre": "Lamaril",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "laral",
@@ -528,6 +552,14 @@
     "especie": "humano"
   },
   {
+    "id": "matal",
+    "nombre": "Matal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "moash",
     "nombre": "Moash",
     "orden": "Ninguna",
@@ -588,7 +620,8 @@
     "nombre": "Peet",
     "orden": "Corredores del Viento",
     "nivel_ideal": null,
-    "estado_actual": "fallecido"
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "rabeniel",
@@ -751,6 +784,22 @@
     "especie": "humano"
   },
   {
+    "id": "teleb",
+    "nombre": "Teleb",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "teshav",
+    "nombre": "Teshav",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "thanadal",
     "nombre": "Thanadal",
     "orden": "Ninguna",
@@ -764,6 +813,14 @@
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "toh",
+    "nombre": "Toh",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
@@ -826,6 +883,14 @@
     "id": "wikim",
     "nombre": "Wikim",
     "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "yake",
+    "nombre": "Yake",
+    "orden": "Corredores del Viento",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
