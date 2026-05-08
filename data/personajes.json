@@ -104,6 +104,13 @@
     "especie": "humano"
   },
   {
+    "id": "dabbid",
+    "nombre": "Dabbid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "dalinar",
     "nombre": "Dalinar",
     "orden": "Forjadores de Vínculos",
@@ -336,6 +343,13 @@
     "especie": "humano"
   },
   {
+    "id": "kadash",
+    "nombre": "Kadash",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "kaladin",
     "nombre": "Kaladin",
     "orden": "Corredores del Viento",
@@ -374,6 +388,13 @@
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "humano"
+  },
+  {
+    "id": "lamaril",
+    "nombre": "Lamaril",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
   },
   {
     "id": "laral",
@@ -526,6 +547,13 @@
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "humano"
+  },
+  {
+    "id": "peet",
+    "nombre": "Peet",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido"
   },
   {
     "id": "rabeniel",
