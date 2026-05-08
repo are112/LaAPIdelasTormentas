@@ -1,0 +1,91 @@
+{
+  "id": "ilamar",
+  "nombre": "Ilamar",
+  "nombre_completo": "Ilamar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Dalinar Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — oficial de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Oficial de Dalinar Kholin",
+      "Fallecido en la Batalla de la Torre"
+    ],
+    "descripcion": "Oficial alezi del ejército de Dalinar. Conferenció con Dalinar y Teleb sobre la Batalla de la Torre. Murió en esa batalla junto a Havar, Perethom y seis mil soldados más del ejército Kholin cuando Sadeas los traicionó y se retiró.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su comandante; conferenció con él antes de la batalla"
+      },
+      {
+        "personaje": "teleb",
+        "relacion": "compañero oficial; conferenció junto a él con Dalinar"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Ilamar era oficial del ejército de Dalinar. Conferenció con Dalinar y Teleb en el campo de batalla antes del asalto a la Torre. Murió en la Batalla de la Torre junto a Havar, Perethom y seis mil soldados más cuando Sadeas traicionó a Dalinar y se retiró.",
+    "puntos_clave": [
+      "Oficial del ejército de Dalinar Kholin.",
+      "Conferenció con Dalinar y Teleb en el campo de batalla antes del asalto a la Torre.",
+      "Murió en la Batalla de la Torre junto a Havar, Perethom y seis mil soldados más.",
+      "Su muerte fue consecuencia directa de la traición de Sadeas.",
+      "Mencionado en Palabras Radiantes como uno de los caídos de Dalinar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Oficial de Dalinar; caído en la Batalla de la Torre",
+    "relacion_con_spren": "",
+    "otros_detalles": "Murió junto a Havar, Perethom y seis mil soldados más cuando Sadeas traicionó a Dalinar."
+  },
+  "descripcion_breve": "Oficial del ejército de Dalinar. Conferenció con él y Teleb antes de la Batalla de la Torre. Fallecido en esa batalla por la traición de Sadeas.",
+  "notas": "Murió junto a Havar, Perethom y seis mil soldados más en la Batalla de la Torre. Su muerte es parte de las consecuencias de la traición de Sadeas."
+}

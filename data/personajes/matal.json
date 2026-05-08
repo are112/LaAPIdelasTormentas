@@ -1,0 +1,93 @@
+{
+  "id": "matal",
+  "nombre": "Matal",
+  "nombre_completo": "Avarak Matal",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Sadeas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando nominal de las cuadrillas de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitán nominal de las cuadrillas de puentes tras Lamaril",
+      "Esposo de Hashal — quien comandaba realmente"
+    ],
+    "descripcion": "Brillante señor alezi que fue nombrado capitán de las cuadrillas de puentes tras la ejecución de Lamaril. En la práctica era su esposa Hashal quien tomaba todas las decisiones. Rara vez hablaba cuando Hashal estaba presente. Solo tomaba mando directo en el campo de batalla donde las mujeres no podían estar. Hashal afirmó que él había pedido el puesto para mejorar la eficiencia — Kaladin asumió que era mentira, ya que el puesto no era prestigioso.",
+    "estado_en_viento_y_verdad": "Destino desconocido tras la Batalla de la Torre."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "hashal",
+        "relacion": "esposa; la que realmente mandaba"
+      },
+      {
+        "personaje": "Eliah Matal",
+        "relacion": "sobrina favorita; viajó con ellos a las Llanuras"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "intentó eliminarlo al igual que Hashal"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Figura nominal sin autoridad real. Completamente subordinado a Hashal.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Matal fue nombrado capitán de las cuadrillas de puentes tras la ejecución de Lamaril. Era su esposa Hashal quien comandaba realmente. Cuando la estrategia de carga lateral del Puente Cuatro resultó ser un éxito inesperado, Sadeas asumió que Matal lo había aprobado y lo promovió. Kaladin supuso que sería ejecutado como Lamaril tras la Batalla de la Torre — su destino es desconocido.",
+    "puntos_clave": [
+      "Nombrado capitán de las cuadrillas de puentes tras la ejecución de Lamaril.",
+      "Hashal afirmó que pidió el puesto para mejorar la eficiencia — Kaladin asumió que era fabricación.",
+      "Rara vez hablaba cuando Hashal estaba presente.",
+      "Solo tomaba mando directo en el campo de batalla.",
+      "Cuando la carga lateral salió bien, Sadeas asumió que Matal lo había aprobado y lo promovió.",
+      "Kaladin supuso que sería ejecutado como Lamaril tras la Batalla de la Torre.",
+      "Su destino tras la batalla es desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Capitán nominal de las cuadrillas de puentes de Sadeas",
+    "relacion_con_spren": "",
+    "otros_detalles": "Era Hashal quien mandaba realmente. Su destino tras la Batalla de la Torre es desconocido."
+  },
+  "descripcion_breve": "Capitán nominal de las cuadrillas de puentes de Sadeas tras Lamaril. Era su esposa Hashal quien comandaba realmente. Destino desconocido tras la Batalla de la Torre.",
+  "notas": "Kalami tenía una opinión muy baja de Lamaril y Matal — los consideraba incompetentes. Hashal despreciaba a Lamaril y creía que Matal haría mejor trabajo."
+}

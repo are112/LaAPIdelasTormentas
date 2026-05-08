@@ -1,0 +1,99 @@
+{
+  "id": "toh",
+  "nombre": "Toh",
+  "nombre_completo": "Toh",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "rirano",
+  "origen": "Rira",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin (afiliación política)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Negociación y diplomacia",
+      "Conocimiento de estrategia militar rirena y occidental",
+      "Alargamiento de esponsales mediante costumbres culturales"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hermano de Evi",
+      "El que negoció el matrimonio de su hermana con Dalinar"
+    ],
+    "descripcion": "Brillante señor occidental de Rira, hermano de Evi. Huyó de Rira con su hermana cuando eran adolescentes llevándose la armadura esquirlada. Muestra curiosidad por la guerra alezi — admira especialmente los logros del Hacedor de Soles. No muestra la misma aversión a la guerra que Evi. Dalinar desconfía de si su comportamiento amable es auténtico o calculado para ganarse la simpatía de Gavilar.",
+    "estado_en_viento_y_verdad": "Activo — vivió en Kholinar durante algún tiempo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "evi",
+        "relacion": "hermana; huyeron juntos de Rira; ella se casó con Dalinar"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "cuñado; Toh negoció el matrimonio extrayendo concesiones progresivas"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Calculador bajo la apariencia de cordialidad. Sus motivaciones son proteger a su gente y mejorar su posición.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Toh huyó de Rira con su hermana Evi llevándose la armadura esquirlada de Evi. Buscó alianza con los alezi para proteger a su pueblo. Sadeas sugirió que Dalinar se casara con Evi. Toh usó las costumbres rirenas de esponsales prolongados para añadir cláusulas favorables al contrato matrimonial. Quería formar parte de la línea real Kholin y protección frente a represalias de Rira. Tras el matrimonio, Toh vivió en Kholinar. La armadura de Evi pasó a Adolin al cumplir dieciséis años.",
+    "puntos_clave": [
+      "Hermano de Evi — crecieron juntos en Rira.",
+      "Huyeron de Rira siendo adolescentes llevándose la armadura esquirlada de Evi — sus familiares estaban furiosos.",
+      "Buscaron alianza con los alezi para proteger a su pueblo en Rira.",
+      "Sadeas sugirió que Dalinar se casara con Evi — Dalinar aceptó sabiendo que Navani estaba fuera de su alcance.",
+      "Toh usó las costumbres rirenas de esponsales prolongados para negociar cláusulas favorables.",
+      "Quería que la casa Kholin lo reconociera como parte de la línea real y protección frente a Rira.",
+      "Cuando Dalinar ganó las esquirladas de Kalanor, Gavilar consideró que la posición Kholin ya era suficientemente fuerte para no dejar que Toh alargara más el esponsales.",
+      "Dalinar se casó con Evi a cambio de la armadura.",
+      "La armadura de Evi se entregó a Adolin cuando cumplió dieciséis años.",
+      "Vivió en Kholinar durante algún tiempo junto a Evi.",
+      "La línea real de Iri reclamó posteriormente la armadura alegando parentesco con Toh y Evi — sin éxito."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Brillante señor rirano en Alezkar",
+    "rol": "Hermano de Evi; el que aportó las esquirladas de Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": "La línea real de Iri reclamó la armadura de Evi alegando parentesco — sin éxito. Toh y Evi no tenían parentesco de sangre con esa línea real."
+  },
+  "descripcion_breve": "Hermano de Evi que huyó de Rira con ella llevándose la armadura esquirlada. Negoció el matrimonio de su hermana con Dalinar extrayendo concesiones progresivas. La armadura que aportó se convirtió en la de Adolin.",
+  "notas": "Toh y Evi no tenían parentesco de sangre con la línea real de Iri — esto debilitaba la reclamación posterior de la armadura. Sus motivaciones al buscar a los alezi eran proteger a su pueblo y mejorar su posición política."
+}

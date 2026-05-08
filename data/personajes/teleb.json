@@ -1,0 +1,100 @@
+{
+  "id": "teleb",
+  "nombre": "Teleb",
+  "nombre_completo": "Teleb",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Arquero excepcional — capaz de alcanzar objetivos a 360 metros",
+      "Portador de hoja y armadura esquirlada",
+      "Mando militar — highlord y oficial de confianza de Dalinar",
+      "Dirección de ejércitos en ausencia de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Highlord y oficial principal de Dalinar Kholin",
+      "Esposo de Kalami"
+    ],
+    "descripcion": "Hombre alto y de espalda recta con ojos verde claro. Musculoso en brazos y hombros. Pelo largo en trenza y tatuaje azul en la mejilla que le identifica como Sangre Antigua (Oldblood). Casado con Kalami. Tan literal como las rocas — tiende a guardarse sus opiniones. Dalinar lo considera un gran oficial: obedece órdenes con las que no está de acuerdo y aporta sugerencias innovadoras.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro — murió en la Batalla de Narak."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "kalami",
+        "relacion": "esposa; tras su muerte se volcó en su trabajo como historiadora"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su comandante y amigo de larga data; Dalinar le tenía gran confianza"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable, profesional y reservado. Leal en extremo.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Teleb fue uno de los oficiales más fiables de Dalinar durante las guerras de unificación y la Guerra de la Venganza. En el primer asalto a Rathalas demostró su valía como arquero salvando a Dalinar. Dalinar le prestó la armadura esquirlada de Adolin hasta que este fuera suficientemente mayor. Dirigió el ejército en ausencia de Dalinar durante el segundo asalto. Murió en la Batalla de Narak.",
+    "puntos_clave": [
+      "Highlord y oficial de máxima confianza de Dalinar.",
+      "Tatuaje azul en la mejilla — marca de Sangre Antigua (Oldblood).",
+      "Esposo de Kalami, la historiadora y escriba de la Casa Kholin.",
+      "En el primer asalto a Rathalas salvó a Dalinar disparando a los soldados que intentaban hacerle caer cortando el puente bajo sus pies.",
+      "Dalinar le prestó la armadura esquirlada de Adolin hasta que este fuera mayor — señal de la confianza que depositaba en él.",
+      "En el segundo asalto a Rathalas dirigió el ejército en ausencia de Dalinar.",
+      "Propuso usar puentes más ligeros para cruzar los abismos — Dalinar los rechazó para el asalto directo pero los aceptó para llegar más rápido.",
+      "Hablaba sobre operaciones de combate con Dalinar — Kalami tenía permiso para registrar esas reuniones.",
+      "Murió en la Batalla de Narak."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Oficial de máxima confianza de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su esposa Kalami, tras su muerte, se volcó en su trabajo como historiadora y escriba."
+  },
+  "descripcion_breve": "Highlord y oficial principal de Dalinar Kholin. Arquero excepcional. Esposo de Kalami. Sangre Antigua. Murió en la Batalla de Narak.",
+  "notas": "Tatuaje azul en la mejilla — marca de Sangre Antigua (Oldblood). Tan literal como las rocas. Su muerte en Narak dejó a Kalami viuda — ella se volcó en su trabajo."
+}

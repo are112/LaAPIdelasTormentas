@@ -1,0 +1,122 @@
+{
+  "id": "teshav",
+  "nombre": "Teshav",
+  "nombre_completo": "Teshav Khal",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escriba y asesora política excepcional — Dalinar la considera una de las mejores mentes políticas de Alezkar",
+      "Gestión del archivo de la coalición",
+      "Gestión de informes militares y diplomáticos",
+      "Preparación de tés para mantenerse alerta"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escriba principal y asesora política de Dalinar Kholin",
+      "Esposa del General Khal",
+      "Supervisora del archivo de la coalición"
+    ],
+    "descripcion": "Mujer alezi de cara afilada, ojos violeta y pelo negro alezi con una mechón rubio que indica alguna sangre extranjera en su familia. Suele llevar el pelo recogido en un patrón complejo. Expresión de preocupación casi perpetua. Desaprueba las muestras públicas de afecto. Completamente profesional en todo momento. Dalinar confía plenamente en ella — es una de las personas de cuya lealtad está completamente seguro.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "General Khal",
+        "relacion": "esposo; oficial de Dalinar"
+      },
+      {
+        "personaje": "Halam, Aratin y Meleran",
+        "relacion": "hijos"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "le sirve como escriba principal y asesora — él la considera una de las mejores mentes políticas de Alezkar"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "trabajan juntas en la gestión de la coalición"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Seria, profesional y siempre preocupada por algún problema. Completamente leal a Dalinar.",
+    "evolucion": "Constante a lo largo de la saga.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Teshav acompañó a su esposo a los campamentos de guerra cuando comenzó la Guerra de la Venganza. Dalinar la utilizó como escriba y asesora desde el principio. Retransmitió informes de Adolin sobre la correa de montura de Elhokar. Investigó actividades de otros altos príncipes y estadísticas de bandidismo. Estuvo presente en la boda de Dalinar y Navani. Supervisó informes de batalla de la coalición. Proporcionó información al Visón tras su llegada a Urithiru.",
+    "puntos_clave": [
+      "Esposa del General Khal; acompañó a su esposo a las Llanuras.",
+      "Dalinar la utilizó como escriba y asesora desde el inicio de la Guerra de la Venganza.",
+      "Retransmitió informes de Adolin sobre la investigación de la correa de montura de Elhokar.",
+      "Investigó actividades de otros altos príncipes y estadísticas de bandidismo por orden de Dalinar.",
+      "Desarrolló patrones de patrulla eficientes para los soldados de Dalinar.",
+      "Estuvo presente en la boda de Dalinar y Navani en Urithiru.",
+      "Gestionó comunicaciones con los otros monarcas junto a Kalami y Dalinar.",
+      "Su puesto de scribes en Thaylenah se convirtió en el puesto de mando de la ciudad durante la batalla.",
+      "Le preparó té a Shallan tras la Batalla de Thaylenah.",
+      "Supervisó informes de batalla de la coalición.",
+      "Proporcionó información al Visón tras su llegada a Urithiru.",
+      "Acompañó a Jasnah, Dalinar y la coalición al frente en Emul."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba principal y asesora de Dalinar; supervisora del archivo de la coalición",
+    "rol": "Asesora política de máxima confianza de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Tiene familia en Ciudad Thaylen aunque es alezi. Le desagradan las muestras públicas de afecto."
+  },
+  "descripcion_breve": "Escriba principal y asesora política de Dalinar Kholin. Esposa del General Khal. Dalinar la considera una de las mejores mentes políticas de Alezkar. Completamente leal y profesional.",
+  "notas": "El mechón rubio en su pelo negro alezi indica alguna sangre extranjera en su familia. Tiene familia en Ciudad Thaylen aunque ella es alezi. Dalinar confía plenamente en su lealtad."
+}

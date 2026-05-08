@@ -1,0 +1,113 @@
+{
+  "id": "yake",
+  "nombre": "Yake",
+  "nombre_completo": "Yake",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (honorspren)"
+    },
+    "estado_del_vinculo": "Activo. Al menos el Segundo Ideal."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate con lanza",
+      "Entrenamiento con hojas esquirladas — recibió formación especial de Zahel"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro desde las primeras carreras",
+      "Corredor del Viento escudero de Kaladin"
+    ],
+    "descripcion": "Miembro del Puente Cuatro presente desde antes de la llegada de Kaladin. Al principio introvertido — con el tiempo se fue abriendo y tomaba el pelo a sus compañeros. Fiable y eficaz siguiendo órdenes. No supersticioso. Encontró a Ivis atractiva aunque fuera ojos claros — a diferencia de Kaladin. Es un cameo de un amigo o familiar de Brandon Sanderson.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán; escudero bajo su mando"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "entrenaron juntos con Zahel"
+      },
+      {
+        "personaje": "eth",
+        "relacion": "compañero; preguntaron juntos a Rlain sobre los Fusionados"
+      },
+      {
+        "personaje": "rlain",
+        "relacion": "le sugirió que enseñara a los nuevos reclutas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable, fiable y reservado al principio. Con el tiempo más abierto.",
+    "evolucion": "Pasó de introvertido a compañero que toma el pelo a sus amigos.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Yake era miembro del Puente Cuatro antes de la llegada de Kaladin. Tuvo problemas con las arremetidas de lanza — Kaladin pidió a Moash que le ayudara. Fue seleccionado por Kaladin junto a Teft y Moash para entrenarse con Zahel. Se quedó fascinado la primera vez que blandió una hoja esquirlada. Se convirtió en escudero de Kaladin.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro antes de la llegada de Kaladin.",
+      "Tuvo problemas con las arremetidas de lanza — Moash le ayudó.",
+      "Seleccionado por Kaladin junto a Teft y Moash para entrenarse con Zahel en hojas esquirladas.",
+      "Zahel le riñó por coger una de sus piedras coloreadas.",
+      "Se quedó fascinado la primera vez que blandió una hoja esquirlada.",
+      "Practicó esquivar golpes de hoja con Zahel.",
+      "Se convirtió en escudero de Kaladin.",
+      "Le sugirió a Rlain que enseñara a los nuevos reclutas a sujetar una lanza.",
+      "Junto a Eth preguntó a Rlain sobre los Fusionados — cometió el error de asumir que todos los cantores son iguales.",
+      "En 1175 había alcanzado al menos el Segundo Ideal junto al resto de miembros originales del Puente Cuatro."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Corredor del Viento escudero del Puente Cuatro",
+    "rol": "Miembro fiable del Puente Cuatro",
+    "relacion_con_spren": "Honorspren sin nombre confirmado.",
+    "otros_detalles": "Es un cameo de un amigo o familiar de Brandon Sanderson. Encontró atractiva a Ivis aunque fuera ojos claros."
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro desde antes de la llegada de Kaladin. Fiable e introvertido al principio. Entrenó con Zahel. Corredor del Viento escudero de Kaladin.",
+  "notas": "Es un cameo de un amigo o familiar de Brandon Sanderson. No supersticioso — descartó el Susurro de Muerte de Maps como delirios de un moribundo."
+}

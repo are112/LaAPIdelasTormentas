@@ -1,0 +1,111 @@
+{
+  "id": "eth",
+  "nombre": "Eth",
+  "nombre_completo": "Eth",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (honorspren)"
+    },
+    "estado_del_vinculo": "Activo hasta su muerte. Escudero de Kaladin."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — guardia personal de los Kholin",
+      "Uso de lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Hermano de Mart",
+      "El portador del Honorblade cuando fue asesinado"
+    ],
+    "descripcion": "Miembro del Puente Cuatro hermano de Mart. Los dos servían juntos como guardias personales de los Kholin. Eth sobrevivió al ataque de Szeth a Dalinar durante la Batalla de Narak, pero su hermano Mart no lo hizo — Eth lloró sobre el cuerpo de Mart. Fue asesinado por agentes del Diagrama enviados por Taravangian para robar el Honorblade de Jezrien.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Mart",
+        "relacion": "hermano; murió en la Batalla de Narak; Eth lloró sobre su cuerpo"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán; escudero bajo su mando"
+      },
+      {
+        "personaje": "rlain",
+        "relacion": "le preguntó sobre los Fusionados — cometió el error de asumir que todos los cantores son iguales"
+      },
+      {
+        "personaje": "yake",
+        "relacion": "compañero; preguntaron juntos a Rlain sobre los Fusionados"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Leal. Sin arco psicológico propio.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Eth era miembro del Puente Cuatro y escudero de Kaladin. Sirvió como guardia personal de los Kholin junto a su hermano Mart. Sobrevivió al ataque de Szeth pero no pudo salvar a Mart. Pegó una piedra a su mano con Adhesión durante un entrenamiento divirtiendo a todos. Fue asesinado por agentes del Diagrama de Taravangian que robaron el Honorblade de Jezrien. Teft se sintió responsable de su muerte.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro hermano de Mart — ambos servían como guardias de los Kholin.",
+      "Guardó la puerta de una reunión en el Pináculo impidiendo la entrada sin permiso.",
+      "En el ataque de Szeth a Dalinar fue asignado para proteger al rey Elhokar.",
+      "Sobrevivió a la Batalla de Narak pero su hermano Mart no lo hizo — Eth lloró sobre su cuerpo.",
+      "Pegó una piedra a su mano con Adhesión durante un entrenamiento — divirtió a sus compañeros.",
+      "Le preguntó a Rlain sobre los Fusionados asumiendo erróneamente que todos los cantores son iguales.",
+      "Los miembros del Puente Cuatro rotaban el Honorblade de Jezrien para evitar ser predecibles.",
+      "Agentes del Diagrama de Taravangian averiguaron cuándo Eth tenía el Honorblade.",
+      "Lo asesinaron con una hoja esquirlada usando la chaqueta de Teft como disfraz para acceder a los barracones.",
+      "Roca y Bisig fueron gravemente heridos en el mismo ataque.",
+      "Teft se sintió responsable de su muerte."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Guardia del Puente Cuatro; portador del Honorblade cuando fue asesinado",
+    "relacion_con_spren": "Honorspren sin nombre confirmado.",
+    "otros_detalles": "Teft vendió su chaqueta de uniforme — los asesinos la usaron como disfraz para entrar en los barracones."
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro y hermano de Mart. Escudero de Kaladin. Asesinado por agentes del Diagrama de Taravangian cuando portaba el Honorblade de Jezrien. Teft se sintió responsable de su muerte.",
+  "notas": "Los asesinos usaron la chaqueta de Teft como disfraz para entrar en los barracones — Teft la había vendido, lo que contribuyó a su sentimiento de culpa. Eth y Mart servían juntos — Eth sobrevivió a Narak pero Mart no."
+}
