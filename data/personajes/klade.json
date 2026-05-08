@@ -1,0 +1,104 @@
+{
+  "id": "klade",
+  "nombre": "Klade",
+  "nombre_completo": "Klade",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Consejo de los Cinco de los oyentes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo político — miembro del Consejo de los Cinco",
+      "Adquisición de recursos — compró a Szeth en los mercados de esclavos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Consejo de los Cinco de los oyentes",
+      "El que compró a Szeth para asesinar a Gavilar"
+    ],
+    "descripcion": "Oyente miembro del Consejo de los Cinco. Compró a Szeth en los mercados de esclavos de Kholinar siguiendo las indicaciones de Nale transmitidas a través de Venli. Fue uno de los tres miembros del Consejo que se quedaron en Kholinar tras el asesinato de Gavilar para atribuirse el crimen. Los alezi los ejecutaron a los tres.",
+    "estado_en_viento_y_verdad": "Fallecido — ejecutado por los alezi."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "venli",
+        "relacion": "Venli le comunicó las instrucciones de Nale sobre dónde encontrar a Szeth"
+      },
+      {
+        "personaje": "Gangnah",
+        "relacion": "compañero del Consejo de los Cinco; ejecutado junto a Klade"
+      },
+      {
+        "personaje": "Varnali",
+        "relacion": "compañero del Consejo de los Cinco; ejecutado junto a Klade"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "gavilar",
+        "relacion": "el rey que los oyentes decidieron asesinar — Klade compró al asesino"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Tomó una decisión política extrema con plena consciencia de las consecuencias.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Klade era miembro del Consejo de los Cinco de los oyentes. Siguiendo las instrucciones de Nale transmitidas por Venli, compró a Szeth en los mercados de esclavos de Kholinar. El Consejo le ordenó asesinar a Gavilar. Tras el asesinato exitoso, Klade fue uno de los tres miembros que se quedaron para atribuirse el crimen ante los alezi. Fue ejecutado junto a Gangnah y Varnali.",
+    "puntos_clave": [
+      "Miembro del Consejo de los Cinco de los oyentes.",
+      "Nale informó a Venli del plan de traición de Gavilar y le indicó dónde encontrar un asesino.",
+      "Venli transmitió las instrucciones a Klade — este compró a Szeth en los mercados de esclavos de Kholinar.",
+      "Cuando Klade presionó a Szeth, este le habló de su hoja esquirlada y sus habilidades.",
+      "El Consejo de los Cinco ordenó a Szeth asesinar a Gavilar en la noche del festín.",
+      "Tras el asesinato, Klade, Gangnah y Varnali se quedaron en Kholinar mientras el resto de oyentes huía.",
+      "Se atribuyeron el asesinato ante los alezi.",
+      "Los alezi los ejecutaron a los tres colgándolos."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — ejecutado por los alezi",
+    "rol": "El oyente que compró a Szeth para asesinar a Gavilar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Ejecutado junto a Gangnah y Varnali tras atribuirse el asesinato de Gavilar."
+  },
+  "descripcion_breve": "Miembro del Consejo de los Cinco de los oyentes que compró a Szeth para asesinar a Gavilar. Ejecutado por los alezi tras atribuirse el crimen.",
+  "notas": "Nale fue quien indicó a Venli dónde encontrar al asesino — Klade fue quien ejecutó la compra. Los tres oyentes que se quedaron (Klade, Gangnah, Varnali) sabían que los ejecutarían — fue un acto deliberado."
+}

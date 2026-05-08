@@ -1,0 +1,96 @@
+{
+  "id": "ivis",
+  "nombre": "Ivis",
+  "nombre_completo": "Ivis",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ardentía vorin",
+    "Campos de entrenamiento de Dalinar Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Espadachina excepcional — una de las fervorosas más hábiles con la espada en Alezkar",
+      "Dominio de las diez posturas con hoja esquirlada — inusual para una mujer alezi",
+      "Instrucción de combate con hoja esquirlada"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervorosa instructora de hojas esquirladas",
+      "Colaboradora de Zahel en los campos de entrenamiento de Dalinar"
+    ],
+    "descripcion": "Fervorosa alezi de ojos claros. Una de las fervorosas más hábiles con la espada de Alezkar. Domina las diez posturas con hoja esquirlada — inusual para una mujer en la cultura vorin. Zahel y el espadachín Kelerand confían plenamente en ella para realizar entrenamientos sin supervisión directa. Dalinar la conoce por nombre y le confía tareas importantes. Yake la encontró atractiva aunque era ojos claros — a diferencia de Kaladin.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "zahel",
+        "relacion": "superior y colega; confía plenamente en ella para entrenar sin supervisión"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "lo entrenó junto al Puente Cuatro en el uso de hojas esquirladas"
+      },
+      {
+        "personaje": "yake",
+        "relacion": "él la encontró atractiva durante el entrenamiento"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional y competente. Sin arco psicológico propio desarrollado.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Ivis era una de las fervorosas que se presentaron ante Zahel en los campos de entrenamiento de ojos claros del campamento de Dalinar. Zahel la asignó a entrenar con el Puente Cuatro usando una de las hojas esquirladas del rey Elhokar para familiarizarlos con las posturas. Zahel y Kelerand confían en ella para entrenar sin supervisión directa.",
+    "puntos_clave": [
+      "Una de las fervorosas más hábiles con la espada de Alezkar.",
+      "Domina las diez posturas con hoja esquirlada — inusual para una mujer en Alezkar.",
+      "Zahel y Kelerand confían en ella para entrenar sin supervisión directa.",
+      "Zahel la asignó a entrenar con el Puente Cuatro usando el Honorblade de Elhokar.",
+      "Enseñó a Teft, Moash y Yake las posturas básicas contra portadores de esquirlada.",
+      "La mayor parte del entrenamiento de Kaladin y el Puente Cuatro con hojas fue impartido por ella.",
+      "Yake la encontró atractiva aunque era ojos claros.",
+      "Dalinar la conoce por nombre y le confía tareas importantes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fervorosa instructora de hojas esquirladas en los campos de Dalinar",
+    "rol": "Instructora de combate con hoja esquirlada",
+    "relacion_con_spren": "",
+    "otros_detalles": "Colabora con Zahel y Kelerand en los campos de entrenamiento."
+  },
+  "descripcion_breve": "Fervorosa alezi y una de las espadachinas más hábiles de Alezkar. Instructora de hojas esquirladas bajo la supervisión de Zahel. Entrenó al Puente Cuatro en las posturas básicas.",
+  "notas": "Domina las diez posturas con hoja esquirlada — inusual para una mujer en la cultura vorin alezi. Zahel y Kelerand confían en ella para entrenar sin supervisión directa."
+}

@@ -1,0 +1,118 @@
+{
+  "id": "thude",
+  "nombre": "Thude",
+  "nombre_completo": "Thude",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — Consejo de los Cinco (tras Narak)",
+    "Nación oyente independiente (fundador)"
+  ],
+  "orden_radiantes": {
+    "orden": "Escultores de Voluntad",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (willshaper spren)"
+    },
+    "estado_del_vinculo": "Activo. Recibió su spren poco después de la ocupación de Urithiru, cuando Venli trajo spren Radiantes a los oyentes."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Cohesión",
+        "Tensión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — uno de los mejores guerreros oyentes; Eshonai lo consideraba el mejor candidato para sus esquirladas",
+      "Liderazgo — miembro del Consejo de los Cinco tras Narak",
+      "Estrategia de supervivencia en los abismos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guerrero oyente — uno de los primeros en adoptar forma de guerra",
+      "Miembro del Consejo de los Cinco de los oyentes tras Narak",
+      "Escultor de Voluntad — Caballero Radiante"
+    ],
+    "descripcion": "Oyente alto y de extremidades gruesas en forma de guerra. La forma de guerra es su favorita por su fuerza y resistencia. Compañero de escuadrón de Eshonai — parte de su warpair con Bila. Jovial y amante de la comida — usaba comer como excusa para terminar discusiones. La guerra le hizo más solemne y serio. Rechaza a Odium completamente y odia lo que los dioses oyentes han hecho a su pueblo.",
+    "estado_en_viento_y_verdad": "Activo como líder de la nación oyente independiente."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "eshonai",
+        "relacion": "compañero de warpair; ella lo consideraba el mejor candidato para sus esquirladas si moría"
+      },
+      {
+        "personaje": "rlain",
+        "relacion": "amigos; Thude sobrevivió a Narak con otros oyentes"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "le enseñó la Canción de los Abismoides; los oyentes trataron a Venli con desconfianza al principio"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Solemne y serio tras la guerra — muy diferente al jovial de antes. Liderazgo natural. Odio profundo a Odium por lo que hizo a los oyentes.",
+    "evolucion": "Pasó de jovial guerrero a líder solemne del pueblo oyente superviviente.",
+    "situacion_en_viento_y_verdad": "Activo como líder."
+  },
+  "arco_narrativo": {
+    "resumen": "Thude fue uno de los primeros oyentes en adoptar forma de guerra. Estuvo presente en la visita a Kholinar para la firma del tratado. Tras la Batalla de Narak, huyó con 1700 oyentes supervivientes a los abismos. Se unió al Consejo de los Cinco. Sobrevivió los años de guerra con el grupo independiente. Venli los encontró y se integró con ellos. Le enseñó la Canción de los Abismoides. Se vinculó como Escultor de Voluntad.",
+    "puntos_clave": [
+      "Compañero de warpair de Eshonai — en su división personal bajo Bila.",
+      "Fue uno de los doce oyentes que adoptaron forma de guerra cuando Venli la descubrió.",
+      "Estuvo presente en la visita a Kholinar para la firma del tratado — portaba forma de trabajo.",
+      "Eshonai negoció una tregua con Adolin con su ayuda.",
+      "Tras la Primera Batalla de Narak, huyó a los abismos con 1700 oyentes supervivientes.",
+      "Se unió al Consejo de los Cinco como líder del grupo superviviente.",
+      "Participó en la Segunda Batalla de Narak y fue parcialmente responsable de la fundación de la nación oyente.",
+      "Venli los encontró — el grupo la trató con desconfianza pero la dejaron pasar a ver a Jaxlim.",
+      "Le enseñó a Venli la Canción de los Abismoides.",
+      "Se vinculó como Escultor de Voluntad — spren recibido cuando Venli trajo spren Radiantes a los oyentes.",
+      "En VyV lidera la nación oyente independiente."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Líder del grupo oyente superviviente; Escultor de Voluntad",
+    "rol": "Líder de la nación oyente independiente",
+    "relacion_con_spren": "Willshaper spren — sin nombre confirmado.",
+    "otros_detalles": "Amaba la comida y la usaba como excusa para terminar discusiones. Su jovialidad original desapareció con la guerra."
+  },
+  "descripcion_breve": "Guerrero oyente y uno de los primeros en adoptar forma de guerra. Lideró a los oyentes supervivientes tras Narak. Escultor de Voluntad. En VyV lidera la nación oyente independiente.",
+  "notas": "Eshonai lo consideraba el mejor candidato para sus esquirladas si ella moría. La guerra lo transformó de hombre jovial en líder solemne. Su rechazo a Odium es total."
+}

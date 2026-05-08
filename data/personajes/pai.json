@@ -1,0 +1,83 @@
+{
+  "id": "pai",
+  "nombre": "Pai",
+  "nombre_completo": "Pai",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fervorosos de Kholinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Valentía moral — denunció públicamente a la reina pese al peligro"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervorosa de Kholinar",
+      "La ardente que denunció a Aesudan y fue ejecutada"
+    ],
+    "descripcion": "Fervorosa de Kholinar que denunció públicamente a la reina Aesudan por su decadencia y mal gobierno. Su ejecución desencadenó los disturbios masivos en Kholinar. Yokska recordaba sus palabras: 'Somos aduladores. Los ardentes de la reina solo le dicen lo que quiere oír.'",
+    "estado_en_viento_y_verdad": "Fallecida antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "aesudan",
+        "relacion": "la ejecutó tras su denuncia pública"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Valiente y moralmente íntegra. Denunció la corrupción de la reina sabiendo el riesgo.",
+    "evolucion": "Sin arco propio — muere antes del inicio de la narración.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Pai fue una fervorosa de Kholinar que denunció públicamente a la reina Aesudan por su decadencia — la acusó de rodearse de aduladores y de gobernar sin escuchar la verdad. Aesudan la ejecutó. Su muerte desencadenó disturbios masivos en Kholinar. Yokska le contó su historia a Elhokar, quien quedó visiblemente afectado.",
+    "puntos_clave": [
+      "Fervorosa de Kholinar que denunció públicamente a la reina Aesudan.",
+      "Sus palabras: 'Somos aduladores. Los ardentes de la reina solo le dicen lo que quiere oír.'",
+      "Aesudan la ejecutó por sus críticas.",
+      "Su ejecución desencadenó los disturbios masivos en Kholinar.",
+      "Yokska le relató la historia a Elhokar — el rey quedó visiblemente afectado.",
+      "Una proclama de Aesudan en medio de los disturbios ordenó ejecutar a los parshmenios como Portadores del Vacío."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Chispa que encendió los disturbios de Kholinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su ejecución es el punto de inflexión del deterioro de Kholinar bajo el reinado de Aesudan."
+  },
+  "descripcion_breve": "Fervorosa de Kholinar ejecutada por la reina Aesudan tras denunciarla públicamente. Su muerte desencadenó los disturbios masivos en la ciudad.",
+  "notas": "'Somos aduladores. Los ardentes de la reina solo le dicen lo que quiere oír.' — palabras de Pai que le costaron la vida."
+}

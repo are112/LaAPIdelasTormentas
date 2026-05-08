@@ -1,0 +1,128 @@
+{
+  "id": "general_khal",
+  "nombre": "General Khal",
+  "nombre_completo": "General Khal",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Ejército de Dalinar",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Portador completo de esquirlada — hoja y armadura",
+      "Estrategia militar de alto nivel — el general más fiable de Dalinar",
+      "Mando de ejércitos en ausencia de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "General de más alto rango del ejército Kholin",
+      "Esposo de Teshav",
+      "Portador completo de esquirlada"
+    ],
+    "descripcion": "Hombre mayor, calvo y de espalda recta. Ojos amarillo pálido. Porte ágil pese a la edad. Tercera dahn — el rango más alto que puede alcanzar un hombre sin ser de la realeza o relacionado con un alto príncipe. Portador completo de esquirlada — a menudo deja la armadura a su hijo Halam. Cauteloso — desconfía de la solidez del trono alezi. Dalinar confía en él como en ningún otro general.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "teshav",
+        "relacion": "esposa; escriba y asesora de Dalinar"
+      },
+      {
+        "personaje": "Halam Khal",
+        "relacion": "hijo mayor; capitán; a menudo lleva la armadura esquirlada de su padre"
+      },
+      {
+        "personaje": "Aratin Khal",
+        "relacion": "segundo hijo"
+      },
+      {
+        "personaje": "Meleran Khal",
+        "relacion": "hijo menor; Elhokar usó su apariencia como disfraz en Kholinar"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "comandante supremo; Dalinar confía en él como en ningún otro general"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "lo asistió al mando de las fuerzas cuando Dalinar delegó"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Cauteloso y prudente. Veterano que conoce el coste real de la guerra. Leal a Dalinar pero con criterio propio.",
+    "evolucion": "Constante a lo largo de la saga.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "General Khal es el oficial de mayor rango del ejército Kholin. Aconsejó contra enfrentarse directamente a los otros altos príncipes. Asistió a Adolin en el mando de las fuerzas. Acompañó a Dalinar a Thaylenah y negoció el posible matrimonio de Halam con la princesa de Yezier. Regresó a Urithiru a buscar refuerzos — un ataque los retrasó. Volvió con el Puente Cuatro y dos mil soldados.",
+    "puntos_clave": [
+      "General de más alto rango del ejército Kholin — tercera dahn, el máximo sin sangre real.",
+      "Portador completo de esquirlada; a menudo deja la armadura a Halam.",
+      "Aconsejó a Dalinar contra enfrentarse directamente a los altos príncipes hostiles.",
+      "Preocupado por que los altos príncipes rechazaran los desafíos de duelo y por que Adolin perdiera.",
+      "Asistió a Adolin en el mando de las fuerzas cuando Dalinar delegó.",
+      "Guarded la sala donde los altos príncipes se reunieron tras el atentado de Szeth.",
+      "Acompañó al grupo a Thaylenah para reunirse con la reina Fen.",
+      "Negoció un posible matrimonio de su hijo Halam con la princesa de Yezier.",
+      "Regresó a Urithiru a buscar refuerzos para la Batalla de Thaylenah — un ataque lo retrasó.",
+      "Regresó finalmente con el Puente Cuatro y dos mil soldados."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "General de más alto rango del ejército Kholin",
+    "rol": "Comandante militar principal de la coalición tras Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su hijo Halam porta con frecuencia su armadura esquirlada. Dalinar lo considera el más fiable de sus generales."
+  },
+  "descripcion_breve": "General de más alto rango del ejército Kholin y esposo de Teshav. Calvo, ojos amarillo pálido. Portador completo de esquirlada. Cauteloso y prudente. El general en quien Dalinar más confía.",
+  "notas": "Tercera dahn — el máximo rango alcanzable sin ser de sangre real o relacionado con un alto príncipe. Elhokar usó la apariencia de su hijo menor Meleran como disfraz en Kholinar."
+}

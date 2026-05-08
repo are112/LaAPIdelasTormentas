@@ -1,0 +1,93 @@
+{
+  "id": "narm",
+  "nombre": "Narm",
+  "nombre_completo": "Narm",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (honorspren)"
+    },
+    "estado_del_vinculo": "Activo. Al menos el Segundo Ideal."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación",
+        "Adhesión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Corredor del Viento escudero de Kaladin"
+    ],
+    "descripcion": "Miembro del Puente Cuatro de presencia menor en la saga. Se convirtió en escudero de Kaladin. En 1175 había alcanzado al menos el Segundo Ideal junto al resto de miembros originales del Puente Cuatro.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán; escudero bajo su mando"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Narm es un miembro del Puente Cuatro de presencia menor en la saga. Se convirtió en escudero de Kaladin y luego en Corredor del Viento. En 1175 había alcanzado al menos el Segundo Ideal.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Se convirtió en escudero de Kaladin.",
+      "En 1175 había alcanzado al menos el Segundo Ideal junto al resto de miembros originales del Puente Cuatro, excepto Rlain y Dabbid."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Corredor del Viento del Puente Cuatro",
+    "rol": "Miembro del Puente Cuatro",
+    "relacion_con_spren": "Honorspren sin nombre confirmado.",
+    "otros_detalles": "Presencia muy menor en la saga — poca información disponible."
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro y Corredor del Viento escudero de Kaladin. Presencia menor en la saga.",
+  "notas": "La información disponible sobre Narm es muy limitada."
+}

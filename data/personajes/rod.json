@@ -1,0 +1,84 @@
+{
+  "id": "rod",
+  "nombre": "Rod",
+  "nombre_completo": "Rod",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate básico con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Fallecido en la Batalla de Narak"
+    ],
+    "descripcion": "Miembro del Puente Cuatro que murió en la Batalla de Narak. Teft informó a Kaladin de su muerte cuando este regresó tras derrotar a Szeth.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán; Teft informó a Kaladin de su muerte"
+      },
+      {
+        "personaje": "teft",
+        "relacion": "Teft fue quien comunicó su muerte a Kaladin"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Miembro del Puente Cuatro que murió durante la Batalla de Narak. Teft informó a Kaladin de su muerte cuando este regresó al grupo tras derrotar a Szeth.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Murió durante la Batalla de Narak.",
+      "Teft comunicó su muerte a Kaladin cuando este regresó tras derrotar al Asesino de Blanco."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Miembro del Puente Cuatro caído en Narak",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su muerte en Narak fue la primera baja del Puente Cuatro tras su transformación en escuderos."
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro fallecido durante la Batalla de Narak. Teft informó a Kaladin de su muerte al regresar.",
+  "notas": "Información muy limitada — su nombre y muerte son casi todo lo que se sabe de él."
+}

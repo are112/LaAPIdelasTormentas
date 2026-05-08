@@ -1,0 +1,103 @@
+{
+  "id": "tanalan",
+  "nombre": "Tanalan",
+  "nombre_completo": "Tanalan",
+  "apodos": [
+    "El Señor de la Grieta"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Rathalas (La Grieta), Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Rathalas (La Grieta)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar",
+      "Política y negociación — traicionó a Dalinar con astucia"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Señor de Rathalas (La Grieta)",
+      "El que traicionó a Dalinar y pagó con su vida",
+      "Hijo del señor de Rathalas que murió a manos de Dalinar"
+    ],
+    "descripcion": "Hombre de ojos violeta y acento nasal típico de la región. Odio profundo hacia Dalinar por la muerte de su padre — lo presenció con siete años. Actuó con aparente disposición a colaborar antes de revelar la traición. Su muerte provocó indirectamente la masacre de Rathalas: Dalinar ordenó quemar la ciudad al descubrir que Evi había muerto allí.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Tanalan padre",
+        "relacion": "padre; murió a manos de Dalinar cuando Tanalan tenía siete años"
+      },
+      {
+        "personaje": "Tanalan madre",
+        "relacion": "madre; sostenía la hoja esquirlada del padre cuando Dalinar los encontró; Dalinar no las mató"
+      },
+      {
+        "personaje": "evi",
+        "relacion": "su prisionera; murió en el incendio de Rathalas"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "odio profundo por la muerte de su padre; traicionó a Dalinar para vengarse; murió por asfixia en el incendio"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Consumido por el deseo de venganza desde que tenía siete años. Su odio a Dalinar era el eje de su vida.",
+    "evolucion": "Sin evolución — su objetivo era siempre matar a Dalinar.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Tanalan presenció la muerte de su padre a manos de Dalinar cuando tenía siete años. Vivió para vengarse. Cuando el ejército de Dalinar llegó de nuevo a Rathalas, fingió colaborar — nombró a Sadeas como el verdadero traidor. Luego lo traicionó, atrayéndolo a una emboscada. Evi Kholin entró en la ciudad para suplicarle que se rindiera — Tanalan la tomó prisionera. Evi murió en el incendio que Dalinar ordenó. Tanalan murió asfixiado y reveló a Dalinar con su último aliento que Evi estaba en la sala oculta — Dalinar se dio cuenta de que la había matado él mismo.",
+    "puntos_clave": [
+      "Presenció la muerte de su padre a manos de Dalinar cuando tenía siete años.",
+      "Su madre sostenía la hoja esquirlada del padre cuando Dalinar los encontró — Dalinar no las mató.",
+      "Vivió para vengarse de Dalinar.",
+      "Fingió colaborar nombrando a Sadeas como el traidor para atraer a Dalinar a una emboscada.",
+      "Evi Kholin entró en la ciudad para suplicarle que se rindiera — Tanalan la tomó prisionera.",
+      "Cuando Dalinar ofreció a Evi como testigo de que él tenía la ciudad rodeada, Tanalan ya la tenía presa.",
+      "Dalinar ordenó quemar Rathalas.",
+      "Tanalan murió asfixiado — con su último aliento reveló que Evi estaba en la sala oculta.",
+      "Dalinar se dio cuenta de que había matado a Evi con su propia orden de quemar la ciudad."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Antagonista de las memorias de Dalinar; causa indirecta de la muerte de Evi",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su padre fue el primer señor de Rathalas que Dalinar mató — Tanalan fue el segundo. Kadash presenció la masacre y la encontró tan horrible que renunció a la espada."
+  },
+  "descripcion_breve": "Señor de Rathalas que presenció la muerte de su padre a manos de Dalinar a los siete años. Vivió para vengarse. Traicionó a Dalinar, tomó a Evi como prisionera y murió en el incendio. Su último aliento reveló a Dalinar que había matado a su propia esposa.",
+  "notas": "Kadash presenció la masacre de Rathalas — fue tan horrible que renunció a la espada y se unió a la ardentía. La muerte de Evi en Rathalas fue el trauma que la Vigilante Nocturna borró de la memoria de Dalinar."
+}

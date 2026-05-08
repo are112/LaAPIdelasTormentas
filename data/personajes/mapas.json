@@ -1,0 +1,88 @@
+{
+  "id": "mapas",
+  "nombre": "Mapas",
+  "nombre_completo": "Mapas",
+  "apodos": [
+    "Maps (inglés)"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate básico con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "El que tuvo el Susurro de Muerte"
+    ],
+    "descripcion": "Miembro del Puente Cuatro que tuvo el Susurro de Muerte — una visión de la muerte inminente. Sus compañeros lo tomaron en serio pero Yake lo descartó como 'delirios de un moribundo'. Mapas murió poco después. Su muerte confirmó que el Susurro de Muerte era real.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos de Palabras Radiantes."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "capitán del Puente Cuatro"
+      },
+      {
+        "personaje": "yake",
+        "relacion": "Yake descartó su Susurro de Muerte como delirios"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Aterrorizado por el Susurro de Muerte que tuvo. Sus compañeros lo observaron con preocupación.",
+    "evolucion": "Sin arco propio — muere poco después de tener el Susurro.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Mapas era miembro del Puente Cuatro. Tuvo el Susurro de Muerte — una visión precognitiva de su propia muerte inminente. Sus compañeros debatieron si tomarlo en serio. Yake lo descartó como delirios de un moribundo. Mapas murió poco después, confirmando que el Susurro de Muerte era real.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Tuvo el Susurro de Muerte — visión de su muerte inminente.",
+      "Sus compañeros debatieron si el Susurro era real.",
+      "Yake lo descartó como 'delirios de un moribundo' — no era supersticioso.",
+      "Mapas murió poco después, confirmando la realidad del Susurro de Muerte."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "El que confirmó la realidad del Susurro de Muerte en el Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su caso estableció el Susurro de Muerte como fenómeno real en la narrativa — Kaladin tendría experiencias similares después."
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro que tuvo el Susurro de Muerte — visión de su propia muerte inminente. Murió poco después, confirmando el fenómeno. Yake lo había descartado como delirios.",
+  "notas": "Su caso es importante porque establece la realidad del Susurro de Muerte en la saga. Yake lo descartó — Kaladin tendría experiencias similares más adelante."
+}
