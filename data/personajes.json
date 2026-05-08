@@ -64,6 +64,13 @@
     "especie": "humano"
   },
   {
+    "id": "bisig",
+    "nombre": "Bisig",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "cancion_hermosa",
     "nombre": "Canción Hermosa",
     "orden": "Ninguna",
@@ -247,6 +254,13 @@
     "especie": "humano"
   },
   {
+    "id": "hashal",
+    "nombre": "Hashal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido"
+  },
+  {
     "id": "hatham",
     "nombre": "Hatham",
     "orden": "Ninguna",
@@ -271,6 +285,13 @@
     "especie": "humano"
   },
   {
+    "id": "hobber",
+    "nombre": "Hobber",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "vivo"
+  },
+  {
     "id": "hoid",
     "nombre": "Hoid",
     "orden": "Tejedores de Luz",
@@ -293,6 +314,13 @@
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "humano"
+  },
+  {
+    "id": "inadara",
+    "nombre": "Inadara",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "ishnah",
@@ -356,6 +384,13 @@
     "nivel_ideal": 5,
     "estado_actual": "vivo",
     "especie": "humano"
+  },
+  {
+    "id": "kalami",
+    "nombre": "Kalami",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva"
   },
   {
     "id": "kdralk",
