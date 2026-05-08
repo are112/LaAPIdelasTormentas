@@ -248,6 +248,14 @@
     "especie": "humano"
   },
   {
+    "id": "general_khal",
+    "nombre": "General Khal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "godeke",
     "nombre": "Godeke",
     "orden": "Danzantes del Filo",
@@ -352,6 +360,14 @@
     "especie": "humano"
   },
   {
+    "id": "ivis",
+    "nombre": "Ivis",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "iyatil",
     "nombre": "Iyatil",
     "orden": "Ninguna",
@@ -429,6 +445,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
+    "especie": "cantor"
+  },
+  {
+    "id": "klade",
+    "nombre": "Klade",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
     "especie": "cantor"
   },
   {
@@ -552,6 +576,14 @@
     "especie": "humano"
   },
   {
+    "id": "mapas",
+    "nombre": "Mapas",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "matal",
     "nombre": "Matal",
     "orden": "Ninguna",
@@ -573,6 +605,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "narm",
+    "nombre": "Narm",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
@@ -605,6 +645,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "pai",
+    "nombre": "Pai",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
@@ -669,6 +717,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "rod",
+    "nombre": "Rod",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
     "especie": "humano"
   },
   {
@@ -768,6 +824,14 @@
     "especie": "humano"
   },
   {
+    "id": "tanalan",
+    "nombre": "Tanalan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "taravangian",
     "nombre": "Taravangian",
     "orden": "Ninguna",
@@ -806,6 +870,14 @@
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
+  },
+  {
+    "id": "thude",
+    "nombre": "Thude",
+    "orden": "Escultores de Voluntad",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "cantor"
   },
   {
     "id": "tien",
