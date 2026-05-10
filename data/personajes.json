@@ -40,6 +40,14 @@
     "especie": "humano"
   },
   {
+    "id": "axindweth",
+    "nombre": "Axindweth",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "balat",
     "nombre": "Balat",
     "orden": "Ninguna",
@@ -67,6 +75,14 @@
     "id": "bisig",
     "nombre": "Bisig",
     "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "bordin",
+    "nombre": "Bordin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
@@ -126,6 +142,14 @@
     "nivel_ideal": 3,
     "estado_actual": "fallecido",
     "especie": "humano"
+  },
+  {
+    "id": "demid",
+    "nombre": "Demid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "cantor"
   },
   {
     "id": "don",
@@ -384,6 +408,14 @@
     "especie": "humano"
   },
   {
+    "id": "jaxlim",
+    "nombre": "Jaxlim",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "cantor"
+  },
+  {
     "id": "jin",
     "nombre": "Jin",
     "orden": "Ninguna",
@@ -533,6 +565,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "liss",
+    "nombre": "Liss",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
@@ -840,6 +880,14 @@
     "especie": "humano"
   },
   {
+    "id": "tearim",
+    "nombre": "Tearim",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "teft",
     "nombre": "Teft",
     "orden": "Corredores del Viento",
@@ -893,6 +941,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "tozbek",
+    "nombre": "Tozbek",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
     "especie": "humano"
   },
   {
@@ -973,6 +1029,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "ym",
+    "nombre": "Ym",
+    "orden": "Nominadores de Lo Otro",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
     "especie": "humano"
   },
   {
