@@ -1,0 +1,96 @@
+{
+  "id": "liss",
+  "nombre": "Liss",
+  "nombre_completo": "Liss",
+  "apodos": [
+    "La Llorona (the Weeper)"
+  ],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida (posiblemente alezi, veden o bavlander)",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Asesina de élite — portadora de hoja esquirlada oculta",
+      "Dominio de disfraces e imitación de acentos — alezi, veden y bavlander",
+      "Falsificación de documentos y credenciales",
+      "Vigilancia prolongada sin revelar su posición",
+      "Mantiene oculto su género en el entorno vorin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "La Llorona — una de las asesinas más hábiles de Roshar",
+      "Portadora de hoja esquirlada cuya identidad de género mantiene en secreto"
+    ],
+    "descripcion": "Mujer de pelo largo oscuro y figura atractiva y rolliza. Su género es un secreto bien guardado — en el entorno vorin las mujeres no usan hojas esquirladas, lo que le permite acercarse a objetivos sin levantar sospechas. Saca los ojos de sus víctimas para ocultar que las mató con una hoja esquirlada. Por eso la llaman La Llorona. Habla con Jasnah con informalidad — aprecia ser tratada con respeto. Tuvo a Szeth como sirviente — era el mejor que había tenido. Lo vendió a los esclavistas de Kholinar al encontrarlo demasiado bueno.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "jasnah",
+        "relacion": "cliente que la trató con respeto — Liss la aprecia por eso"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Fría y profesional. Práctica — vio el beneficio de revelar a Jasnah el contrato sobre la familia real para ganarse una cliente recurrente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Liss era conocida como La Llorona — asesina de élite que sacaba los ojos a sus víctimas para ocultar el uso de la hoja esquirlada. Jasnah la contrató para espiar a Aesudan la noche del asesinato de Gavilar. En algún momento tuvo a Szeth como sirviente y lo vendió a los esclavistas de Kholinar. Klade lo compró y lo usó para matar a Gavilar. Más tarde fue contratada por Jasnah para seguir espiando a Aesudan.",
+    "puntos_clave": [
+      "Asesina conocida como La Llorona — saca los ojos a sus víctimas para ocultar el uso de la hoja.",
+      "Portadora de hoja esquirlada que mantiene su género en secreto en el entorno vorin.",
+      "Puede imitar acentos alezi, veden y bavlander — hace imposible identificar su origen.",
+      "Falsifica documentos para acceder a lugares restringidos.",
+      "Jasnah la contrató la noche del festín de Gavilar para espiar a Aesudan.",
+      "Le reveló a Jasnah que había un contrato sobre la familia real — vio el beneficio comercial de hacerlo.",
+      "En algún momento tuvo a Szeth como sirviente — el mejor que había tenido.",
+      "Lo encontró demasiado bueno como sirviente y lo vendió a los esclavistas de Kholinar.",
+      "Klade compró a Szeth semanas después y lo usó para matar a Gavilar.",
+      "Fue contratada por Jasnah para seguir espiando a Aesudan durante la Guerra de la Venganza."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Asesina independiente",
+    "rol": "Asesina de élite contratada por Jasnah",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su apodo La Llorona viene de sacar los ojos de sus víctimas — las lágrimas de los ojos ausentes. El tipo y origen de su hoja esquirlada son desconocidos."
+  },
+  "descripcion_breve": "Asesina de élite conocida como La Llorona. Portadora de hoja esquirlada cuyo género mantiene en secreto en el entorno vorin. Tuvo a Szeth como sirviente y lo vendió. Contratada por Jasnah para espiar a Aesudan.",
+  "notas": "La Llorona saca los ojos de sus víctimas para ocultar que las mató con hoja esquirlada — los ojos quemados revelan la causa de muerte. Tuvo a Szeth y lo vendió por ser demasiado bueno como sirviente — cadena que llevó a Gavilar."
+}

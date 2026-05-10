@@ -1,0 +1,92 @@
+{
+  "id": "ym",
+  "nombre": "Ym",
+  "nombre_completo": "Ym",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Kharbranth",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "interludio",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Nominadores de Lo Otro",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado (inkspren)"
+    },
+    "estado_del_vinculo": "Iniciado — un inkspren lo visitaba cada vez con más frecuencia. El vínculo no llegó a completarse antes de su muerte."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Transformación",
+        "Cohesión — usó luz tormentosa para curar la herida infectada de un niño"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Zapatería artesanal — fabricaba zapatos a la manera antigua",
+      "Medicina básica — curó una herida infectada con antiséptico y luz tormentosa",
+      "Filosofía — profundas reflexiones sobre el Uno y la conexión entre todas las vidas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Zapatero de Kharbranth",
+      "Potencial Nominador de Lo Otro",
+      "Protagonista de un interludio memorable en Palabras Radiantes"
+    ],
+    "descripcion": "Hombre mayor de Kharbranth, zapatero de oficio. Fabricaba zapatos a la manera antigua. Cometió un asesinato en su juventud — accidental según él. Un inkspren lo visitaba cada vez con más frecuencia, señal de una vinculación incipiente. Sus reflexiones filosóficas sobre el Uno — la idea de que todas las vidas son una sola — son el eje de su carácter. Fue asesinado por Nale antes de poder completar el vínculo.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "nale",
+        "relacion": "lo asesinó con una hoja esquirlada — Nale lo acusó de un asesinato de juventud y lo ejecutó para evitar que se convirtiera en Radiante"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Tranquilo, filosófico y generoso. Su creencia en el Uno le daba una perspectiva de profunda conexión con todos los seres vivos.",
+    "evolucion": "Sin arco propio desarrollado — muere en su único interludio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Ym era un zapatero mayor de Kharbranth. Un inkspren lo visitaba cada vez con más frecuencia. Un día atendió a un niño iriali con una herida infectada en el pie — le dio un par de zapatos a cambio de su historia y curó la herida con antiséptico y luz tormentosa. Tras irse el niño, Nale salió de las sombras de la tienda. Lo acusó de un asesinato de juventud. Ym admitió que fue accidental. Nale dijo que era culpable de todos modos — invocó una hoja esquirlada y lo mató.",
+    "puntos_clave": [
+      "Zapatero mayor de Kharbranth — fabricaba zapatos a la manera antigua.",
+      "Un inkspren lo visitaba cada vez con más frecuencia — señal de vinculación incipiente.",
+      "El spren le susurraba 'Él viene' antes de que Nale apareciera.",
+      "Atendió a un niño iriali con herida infectada — le dio zapatos a cambio de su historia.",
+      "Curó la herida del niño con antiséptico y luz tormentosa.",
+      "Sus creencias filosóficas: el Uno — todas las vidas son una sola vida.",
+      "Nale salió de las sombras y lo acusó de un asesinato cometido en su juventud.",
+      "Ym admitió el asesinato pero dijo que fue accidental.",
+      "Nale dijo que era culpable de todos modos — invocó hoja esquirlada.",
+      "Ym huyó pero era viejo y se cansó rápido — Nale lo acorraló y lo mató.",
+      "Nale lo asesinó para evitar que se convirtiera en Caballero Radiante — su patrón sistemático."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Protagonista de uno de los interludios más emotivos de la saga",
+    "relacion_con_spren": "Inkspren que lo visitaba cada vez más frecuentemente — vínculo sin completar.",
+    "otros_detalles": "Ym representa la filosofía del Uno — la conexión entre todas las vidas. Fue asesinado por Nale como parte de su patrón de eliminar potenciales Radiantes."
+  },
+  "descripcion_breve": "Zapatero mayor de Kharbranth y potencial Nominador de Lo Otro. Filosófico y generoso. Asesinado por Nale antes de poder completar su vínculo con el inkspren.",
+  "notas": "Ym es uno de los personajes más queridos por los fans a pesar de aparecer en un solo interludio. Sus reflexiones sobre el Uno — que todas las vidas son una sola — resuenan con los temas centrales de la saga. Nale lo asesinó como parte de su patrón sistemático de eliminar potenciales Radiantes."
+}

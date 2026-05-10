@@ -1,0 +1,97 @@
+{
+  "id": "tozbek",
+  "nombre": "Tozbek",
+  "nombre_completo": "Tozbek",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Capitán de barco excepcional — marinero experimentado y prudente",
+      "Gestión de rutas comerciales"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitán del Placer del Viento",
+      "El que llevó a Shallan y Jasnah de Jah Keved a Kharbranth y luego a las Llanuras"
+    ],
+    "descripcion": "Hombre thayleño bajo y corpulento con cabeza calva y largas cejas blancas thayleñas que se curvan hacia arriba formando un abanico rígido sobre sus ojos. Cicatriz en la mandíbula de una cuerda suelta durante mal tiempo. Cauteloso, tranquilo y excelente marinero. Casado con Ashlv, quien navega con él. Consideró a la Casa Davar 'sus hombres' por las inversiones de la familia en su negocio — transportó a Shallan a precio reducido.",
+    "estado_en_viento_y_verdad": "Destino desconocido tras el hundimiento del Placer del Viento."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Ashlv",
+        "relacion": "esposa; navega con él en el Placer del Viento"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "la transportó de Jah Keved a Kharbranth a precio reducido por la relación comercial con la Casa Davar"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "seleccionó el Placer del Viento para el viaje de Kharbranth a las Llanuras"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Cauteloso y prudente. Leal a quienes considera sus clientes.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Tozbek transportó a Shallan de Jah Keved a Kharbranth a precio reducido por la relación comercial con la Casa Davar. Jasnah seleccionó el Placer del Viento para el viaje de Kharbranth a las Llanuras. El barco fue hundido al principio de Palabras Radiantes por agentes que intentaban matar a Jasnah. El destino de Tozbek tras el hundimiento es desconocido.",
+    "puntos_clave": [
+      "Capitán del Placer del Viento — barco comercial thaylen.",
+      "Casado con Ashlv quien navega con él.",
+      "Transportó a Shallan de Jah Keved a Kharbranth a precio reducido — inversiones de la Casa Davar.",
+      "Jasnah seleccionó el Placer del Viento para el viaje de Kharbranth a las Llanuras.",
+      "El barco fue hundido al principio de Palabras Radiantes.",
+      "Su destino tras el hundimiento es desconocido.",
+      "Yalb, marinero que sobrevivió al hundimiento, apareció más tarde en Esquirla del Amanecer."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — el Placer del Viento fue hundido",
+    "rol": "Capitán del barco de Jasnah y Shallan",
+    "relacion_con_spren": "",
+    "otros_detalles": "Cicatriz en la mandíbula de una cuerda suelta. Su destino tras el hundimiento del Placer del Viento es desconocido."
+  },
+  "descripcion_breve": "Capitán thaylen del Placer del Viento. Transportó a Shallan y a Jasnah. Su barco fue hundido por agentes que intentaban matar a Jasnah. Destino desconocido.",
+  "notas": "Consideraba a la Casa Davar 'sus hombres' por sus inversiones en su negocio. Yalb, uno de sus marineros, sobrevivió al hundimiento y reapareció en Esquirla del Amanecer."
+}

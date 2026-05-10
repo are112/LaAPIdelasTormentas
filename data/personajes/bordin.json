@@ -1,0 +1,94 @@
+{
+  "id": "bordin",
+  "nombre": "Bordin",
+  "nombre_completo": "Bordin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Discreción y misdirección — Dalinar le asigna tareas que requieren alto nivel de discreción",
+      "Inteligencia y espionaje",
+      "Manejo de rumores e información"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Sirviente de confianza de Dalinar Kholin",
+      "El que escoltó a Taln desde Kholinar a las Llanuras"
+    ],
+    "descripcion": "Joven alezi de ojos oscuros, pelo corto oscuro y cejas prominentes. Generalmente viste los colores de la Casa Kholin. Uno de los sirvientes más fiables de Dalinar — le asigna tareas que requieren alto nivel de discreción. Hábil en misdirección para mantener los planes en marcha. Poca tolerancia para el comportamiento inactivo. Respeta las personalidades firmes y con principios. No aprecia a Ellar.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "señor; uno de sus sirvientes de mayor confianza"
+      },
+      {
+        "personaje": "hoid",
+        "relacion": "Hoid lo acompañó los primeros días del viaje — luego lo insultó y se marchó; Bordin dijo que el loco era mejor compañero que Sagaz"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Discreto, fiable y práctico. Poca tolerancia para el comportamiento inactivo.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Dalinar mantuvo a Bordin estacionado en Kholinar durante la Guerra de la Venganza. Los Sangre Espectral creían que espiaba a Aesudan. Cuando Taln apareció en Kholinar, Bordin lo escoltó secretamente a las Llanuras. En el camino, los ojos de las almas de piedra intercambiaron el Honorblade de Taln por una hoja normal. Llegado a las Llanuras, informó a Elhokar y Dalinar. Fue usado por Dalinar para tender una trampa a Amaram — sembró rumores entre sus guardias y escondió el Honorblade de Taln.",
+    "puntos_clave": [
+      "Estacionado en Kholinar por Dalinar durante la Guerra de la Venganza.",
+      "Los Sangre Espectral creían que espiaba a Aesudan.",
+      "Cuando Taln apareció en Kholinar, lo escoltó secretamente a las Llanuras haciéndose pasar por guardia regular.",
+      "Hoid lo acompañó los primeros días del viaje — luego lo insultó y desapareció en las colinas.",
+      "Durante el viaje, los ojos de las almas de piedra intercambiaron el Honorblade de Taln por una hoja normal — Bordin lo descartó creyendo que nadie robaría una hoja para reemplazarla con otra.",
+      "Informó a Elhokar y Dalinar de la llegada de Taln y del comportamiento de Sagaz.",
+      "Ayudó a nuevos compañeros de viaje a instalarse en los campamentos.",
+      "Dalinar lo usó para tender una trampa a Amaram — sembró rumores entre sus guardias sobre un tesoro escondido.",
+      "Escondió el Honorblade de Taln en una cueva y monitoreó las acciones de Amaram.",
+      "Acompañó a Amaram a la celda de Taln — Shallan estaba presente como Mraize le había ordenado.",
+      "Cuando Amaram mintió a Dalinar sobre el Honorblade, Bordin reveló que todo había sido una trampa."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Sirviente de confianza de Dalinar Kholin",
+    "rol": "Agente discreto de Dalinar para misiones sensibles",
+    "relacion_con_spren": "",
+    "otros_detalles": "Los Sangre Espectral sabían de él y creían que espiaba a Aesudan. Hoid lo insultó durante el viaje y se marchó — Bordin dijo que el loco era mejor compañero que Sagaz."
+  },
+  "descripcion_breve": "Sirviente de confianza de Dalinar que escoltó a Taln desde Kholinar a las Llanuras. Hábil en discreción y misdirección. Fue usado por Dalinar para tender una trampa a Amaram.",
+  "notas": "Los ojos de las almas de piedra intercambiaron el Honorblade de Taln durante el viaje — Bordin lo descartó lógicamente. Los Sangre Espectral lo tenían identificado como posible espía de Aesudan."
+}

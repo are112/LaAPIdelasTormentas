@@ -1,0 +1,97 @@
+{
+  "id": "tearim",
+  "nombre": "Tearim",
+  "nombre_completo": "Tearim",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia Real de Gavilar Kholin",
+    "Casa Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelista de élite — uno de los mejores del mundo",
+      "Portador de hoja y armadura esquirlada — le son prestadas con frecuencia",
+      "Guardia personal del rey"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitán de la Guardia Real de Gavilar",
+      "Uno de los mejores duelistas del mundo"
+    ],
+    "descripcion": "Ojos claros. Capitán de la Guardia del Rey de Gavilar Kholin. Conocido como uno de los mejores duelistas del mundo. Le son prestadas hoja y armadura esquirlada con frecuencia — ha entrenado extensamente con ambas. En la noche del asesinato de Gavilar portaba la armadura esquirlada del rey durante el festín, ya que Gavilar prefería vestir con ropas tradicionales.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "gavilar",
+        "relacion": "su rey; guardia personal durante años"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "portó la armadura esquirlada de Adolin durante la batalla de Kalanor"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional, leal y discreto.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Tearim fue capitán de la Guardia Real de Gavilar desde al menos 1145. Portó la armadura esquirlada de Evi durante la batalla contra Kalanor — la misma que Adolin heredaría después. En la noche del asesinato de Gavilar portaba la armadura del rey durante el festín. Estuvo presente cuando Gavilar habló con Amaram. Es probable que fuera parte del grupo señuelo destinado a distraer a Szeth.",
+    "puntos_clave": [
+      "Capitán de la Guardia Real de Gavilar — en el puesto al menos desde 1145.",
+      "Conocido como uno de los mejores duelistas del mundo.",
+      "Portó la armadura esquirlada de Evi — la que Adolin heredaría — durante la batalla de Kalanor.",
+      "En la noche del asesinato de Gavilar portaba la armadura del rey durante el festín.",
+      "Gavilar había dejado de usar la armadura en favor de ropas tradicionales — Tearim la llevaba en su lugar.",
+      "Se mantuvo cerca de Gavilar; Jasnah lo describió como su guardaespaldas.",
+      "Estuvo presente cuando Gavilar habló privadamente con Amaram.",
+      "Es probable que formara parte del grupo señuelo para distraer a Szeth."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Capitán de la Guardia Real de Gavilar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Uno de los mejores duelistas del mundo según la Coppermind."
+  },
+  "descripcion_breve": "Capitán de la Guardia Real de Gavilar y uno de los mejores duelistas del mundo. Portó la armadura esquirlada de Gavilar la noche del asesinato. Destino desconocido.",
+  "notas": "La armadura que portó durante la batalla de Kalanor era la de Evi — la que más tarde Adolin heredaría."
+}

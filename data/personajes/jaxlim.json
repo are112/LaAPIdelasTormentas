@@ -1,0 +1,107 @@
+{
+  "id": "jaxlim",
+  "nombre": "Jaxlim",
+  "nombre_completo": "Jaxlim",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — familia del Primer Ritmo"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Guardiana de las Canciones — sabía todas las canciones de los oyentes de memoria",
+      "Enseñanza de las canciones y la historia oral oyente",
+      "Fabricación de papel — enseñó la técnica a Eshonai"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guardiana de las Canciones de los oyentes",
+      "Madre de Eshonai y Venli",
+      "La última guardiana de todas las canciones completas"
+    ],
+    "descripcion": "Oyente mayor de la familia del Primer Ritmo — linaje noble. Guardiana de las Canciones, posiblemente el trabajo más importante de la familia. Siempre prefirió la forma de trabajo — incluso tras el descubrimiento de nimbleform la mantuvo, para no fomentar que se vieran unas formas como superiores a otras. Vivía en una cabaña en el borde de Narak, casi expuesta a las tormentas. Trabajar con las manos mantenía su cuerpo fuerte; repasar las canciones mantenía su mente activa. Sufrió demencia progresiva — la primera Guardiana de las Canciones que la sufría.",
+    "estado_en_viento_y_verdad": "Activa en el asentamiento oyente independiente. Recuperada parcialmente tras vincularse con un alcanzador."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "eshonai",
+        "relacion": "hija mayor; Jaxlim encontraba que era poco fiable y no terminaba sus tareas"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "hija menor; la que aprendió todas las canciones; Jaxlim siente responsabilidad parcial por la caída de su pueblo"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "thude",
+        "relacion": "sobrevivió junto a su grupo en el asentamiento independiente"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Demencia progresiva — la primera Guardiana en sufrirla. En sus peores momentos cree que Eshonai y Venli son niñas pequeñas. Con el alcanzador que Venli le trajo comenzó a recuperarse.",
+    "evolucion": "Pasó de mente lúcida a demencia avanzada durante la guerra. Parcialmente recuperada en RdG.",
+    "situacion_en_viento_y_verdad": "Parcialmente recuperada; vive en el asentamiento oyente."
+  },
+  "arco_narrativo": {
+    "resumen": "Jaxlim era la Guardiana de las Canciones de los oyentes — sabía todas sus canciones de memoria y las enseñaba. Enseñó a Venli y a Eshonai, aunque Eshonai abandonó. Cuando los oyentes conocieron a los humanos, su memoria comenzó a fallar — primera señal de demencia. Venli buscó formas de poder en parte para curarla. Incapaz de adoptar forma de guerra. Su demencia progresó. Sobrevivió en el asentamiento independiente. Venli le trajo un alcanzador para curarla.",
+    "puntos_clave": [
+      "Guardiana de las Canciones — sabía todas las canciones oyentes de memoria.",
+      "Familia del Primer Ritmo — linaje noble.",
+      "Siempre prefirió la forma de trabajo; la mantuvo incluso tras el descubrimiento de nimbleform.",
+      "Enseñó la fabricación de papel a Eshonai — la hizo la primera exploradora en hacer mapas.",
+      "Enseñó las canciones a Venli y Eshonai — Eshonai las abandonó, Venli las aprendió todas.",
+      "Fue ante el Consejo de los Cinco para apoyar la investigación de Venli sobre nuevas formas.",
+      "Cuando los oyentes conocieron a los humanos, su memoria comenzó a fallar — primera Guardiana con demencia.",
+      "Venli buscó formas de poder en parte para curar la mente de su madre.",
+      "Intentó adoptar forma de guerra en la tormenta con Eshonai — incapaz de sintonizar los ritmos necesarios.",
+      "Su demencia progresó hasta creer a veces que Eshonai y Venli eran niñas pequeñas.",
+      "Sobrevivió en el asentamiento independiente — Thude cantó la Canción de los Abismoides a Venli.",
+      "Venli trajo un alcanzador con la esperanza de curarla — empezó a recuperarse.",
+      "Admitió sentirse parcialmente responsable de lo que le ocurrió a Venli — ella le enseñó sobre las formas de poder."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardiana de las Canciones — parcialmente recuperada en el asentamiento oyente",
+    "rol": "Última guardiana de las canciones completas de los oyentes",
+    "relacion_con_spren": "Vinculada con un alcanzador — contribuyó a su recuperación.",
+    "otros_detalles": "La Canción de las mañanas era su favorita entre las canciones antiguas."
+  },
+  "descripcion_breve": "Guardiana de las Canciones de los oyentes y madre de Eshonai y Venli. La última que conocía todas las canciones completas. Sufrió demencia progresiva. Parcialmente recuperada tras vincularse con un alcanzador.",
+  "notas": "La Canción de las mañanas era su favorita. Su demencia fue en parte el motor que impulsó a Venli a buscar nuevas formas. Siempre prefirió la forma de trabajo — filosofía de que ninguna forma es superior a otra."
+}

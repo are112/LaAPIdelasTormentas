@@ -1,0 +1,100 @@
+{
+  "id": "demid",
+  "nombre": "Demid",
+  "nombre_completo": "Demid",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Investigación académica — pareja de investigación de Venli durante tres años en nimbleform",
+      "Persuasión — convenció a Eshonai de probar la forma tormenta"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Pareja y compañero de investigación de Venli",
+      "Miembro del círculo íntimo de Venli",
+      "Uno de los primeros nueve oyentes poseídos por los Fusionados en la tormenta eterna"
+    ],
+    "descripcion": "Oyente erudito en nimbleform — aspecto desgarbado. Compañero de investigación de Venli durante más de tres años. Eran pareja — no tuvieron hijos. Venli suprimir sentimientos románticos residuales pero mantiene un vínculo profundo con él. Siempre tenía un cumplido a mano. Hacía que Venli se sintiera segura. Era uno de los pocos que sabía del papel clave de Venli en restaurar las formas antiguas. Estaba cansado de la guerra y quería libertad para los oyentes.",
+    "estado_en_viento_y_verdad": "Fallecido — su cuerpo fue poseído por el Fusionado Hariel."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "venli",
+        "relacion": "expareja y compañera de investigación; su muerte es uno de los mayores arrepentimientos de Venli"
+      },
+      {
+        "personaje": "eshonai",
+        "relacion": "ayudó a persuadirla de que probara la forma tormenta"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Cansado de la guerra. Creyó en la causa de Venli y la apoyó incondicionalmente. No comprendió las consecuencias de la tormenta eterna.",
+    "evolucion": "Murió sin comprender que su cuerpo sería poseído.",
+    "situacion_en_viento_y_verdad": "Fallecido — su cuerpo es Hariel."
+  },
+  "arco_narrativo": {
+    "resumen": "Demid era el compañero de investigación y expareja de Venli. Parte de su círculo íntimo que sabía de la investigación con Ulim. Llevaban en nimbleform más de tres años. Ayudó a persuadir a Eshonai de que probara la forma tormenta. Fue uno de los nueve elegidos por Ulim para adoptar la tormenta eterna — él y Venli no comprendían las consecuencias. En la tormenta, un Fusionado llamado Hariel tomó su cuerpo. Venli se quedó paralizada al verle cambiar.",
+    "puntos_clave": [
+      "Compañero de investigación de Venli durante más de tres años en nimbleform.",
+      "Expareja de Venli — sin hijos; mantuvieron un vínculo profundo tras separarse.",
+      "Parte del círculo íntimo de Venli — uno de los pocos que sabía de su papel en restaurar las formas.",
+      "Defensor incondicional de las ideas de Venli — cansado de la guerra, quería libertad.",
+      "Ayudó a persuadir a Eshonai de que la forma tormenta era necesaria.",
+      "Fue uno de los nueve oyentes elegidos por Ulim para adoptar la tormenta eterna.",
+      "Ninguno de los dos comprendió que darían sus cuerpos a los Fusionados.",
+      "En la tormenta eterna, el Fusionado Hariel tomó su cuerpo — Demid murió.",
+      "Venli encontró el cuerpo de Eshonai en los abismos junto a Demid — este fue el primero en ver el cuerpo.",
+      "Hariel resemblaba a Demid pero con apariencia, voz y postura diferentes.",
+      "Venli, al ver que Demid había desaparecido, intentó racionalizar la decisión.",
+      "Más tarde, al liberarse de la influencia de Odium, Venli se dio cuenta de que amaba a Demid y se culpó de su muerte."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — su cuerpo es el del Fusionado Hariel",
+    "rol": "Compañero de Venli; su muerte es su mayor arrepentimiento",
+    "relacion_con_spren": "",
+    "otros_detalles": "Venli recuerda a Demid como el erudito desgarbado que era antes de la transformación. Se culpa de su muerte."
+  },
+  "descripcion_breve": "Compañero de investigación y expareja de Venli. Erudito oyente en nimbleform. Persuadió a Eshonai de probar la forma tormenta. Murió cuando el Fusionado Hariel tomó su cuerpo en la tormenta eterna.",
+  "notas": "Venli se dio cuenta de que lo amaba solo después de liberarse de la influencia de Odium. Se culpa por haberlo llevado a la tormenta eterna sin comprender las consecuencias."
+}

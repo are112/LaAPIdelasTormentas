@@ -1,0 +1,100 @@
+{
+  "id": "axindweth",
+  "nombre": "Axindweth",
+  "nombre_completo": "Axindweth",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "terrisa (de otro mundo — historia fuera de Roshar omitida)",
+  "origen": "Llegó a Roshar — su origen fuera del planeta se omite en esta ficha",
+  "planeta_natal": "Roshar (estancia temporal)",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Grupo de Gavilar Kholin (infiltrada como cirujana)",
+    "Agente de intereses desconocidos en Roshar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Feruquimia — investidura de fuera de Roshar (historia fuera de Roshar omitida)",
+      "Habla el idioma de los cantores — sorprendió a Venli al hablar su lengua",
+      "Infiltración — se hizo pasar por cirujana en el grupo de Gavilar",
+      "Tortura — usó un dolorial contra Zahel en RdG"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Agente infiltrada en el grupo de Gavilar como cirujana",
+      "La que entregó a Venli la gema con Ulim"
+    ],
+    "descripcion": "Mujer que se infiltró en el grupo de Gavilar como cirujana. Habla el idioma de los cantores — sorprendió a Venli al usar su lengua. Entregó a Venli una gema que contenía al vacíospren Ulim. Desafió a Venli a restaurar la gloria de su pueblo. Su historia fuera de Roshar se omite en esta ficha.",
+    "estado_en_viento_y_verdad": "Destino desconocido — abandonó Roshar antes de la Verdadera Desolación."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "zahel",
+        "relacion": "lo torturó en RdG con un dolorial en una habitación forrada de aluminio para tomar su aliento"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "le entregó la gema con Ulim — catalizador de la caída de los oyentes"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Fría, calculadora y con un propósito propio. Sus motivaciones en Roshar no están completamente claras.",
+    "evolucion": "Sin arco propio en Roshar.",
+    "situacion_en_viento_y_verdad": "Desconocido — abandonó Roshar."
+  },
+  "arco_narrativo": {
+    "resumen": "Axindweth se infiltró en el grupo de Gavilar como cirujana. Al conocer a los oyentes, sorprendió a Venli hablando su lengua. Le entregó una gema que contenía al vacíospren Ulim y la desafió a restaurar la gloria de su pueblo. Esto inició la cadena de eventos que llevó a la Verdadera Desolación. En RdG, torturó a Zahel en una habitación forrada de aluminio para obtener su aliento. Lift la descubrió y lo liberó. Axindweth abandonó Roshar antes de la Verdadera Desolación — dejó una nota diciendo que se había ido.",
+    "puntos_clave": [
+      "Se infiltró en el grupo de Gavilar como cirujana.",
+      "Habla el idioma de los cantores — Venli quedó asombrada.",
+      "Entregó a Venli una gema que contenía al vacíospren Ulim.",
+      "Desafió a Venli a restaurar la gloria de su pueblo.",
+      "Esta entrega inició la cadena que llevó a la Verdadera Desolación.",
+      "En RdG torturó a Zahel en una habitación forrada de aluminio — quería tomar su aliento.",
+      "Lo desnudó para evitar que usara Mandatos con su ropa.",
+      "Lift escuchó al aviar dentro de la habitación, descubrió a Axindweth y liberó a Zahel.",
+      "Axindweth abandonó Roshar antes de la Verdadera Desolación — dejó solo una nota diciendo que se había ido.",
+      "Venli fue a buscar su entrega y solo encontró la nota."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — abandonó Roshar",
+    "rol": "Catalizadora de la cadena que llevó a la Verdadera Desolación al entregar Ulim a Venli",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su historia fuera de Roshar se omite deliberadamente en esta ficha. Habla el idioma de los cantores."
+  },
+  "descripcion_breve": "Agente infiltrada en el grupo de Gavilar que entregó la gema con Ulim a Venli — catalizando la Verdadera Desolación. Habla el idioma de los cantores. Torturó a Zahel en RdG. Abandonó Roshar antes de la Desolación.",
+  "notas": "Ficha limitada a su estancia en Roshar. Su origen fuera del planeta y sus motivaciones completas se omiten deliberadamente."
+}
