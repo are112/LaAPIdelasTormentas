@@ -56,6 +56,14 @@
     "especie": "humano"
   },
   {
+    "id": "arclo",
+    "nombre": "Arclo",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "Insomne (dysian aimiano)"
+  },
+  {
     "id": "arshqqam",
     "nombre": "Arshqqam",
     "orden": "Vigilantes de la Verdad",
@@ -288,6 +296,14 @@
     "especie": "humano"
   },
   {
+    "id": "erraniv",
+    "nombre": "Erraniv",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "eshonai",
     "nombre": "Eshonai",
     "orden": "Escultores de Voluntad",
@@ -437,6 +453,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "hauka",
+    "nombre": "Hauka",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
@@ -1040,6 +1064,14 @@
     "especie": "cantor"
   },
   {
+    "id": "salinor",
+    "nombre": "Salinor",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "sebarial",
     "nombre": "Sebarial",
     "orden": "Ninguna",
@@ -1165,6 +1197,22 @@
     "orden": "Tejedores de Luz",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "tigzikk",
+    "nombre": "Tigzikk",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "tinalar",
+    "nombre": "Tinalar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
