@@ -40,6 +40,22 @@
     "especie": "humano"
   },
   {
+    "id": "ashir",
+    "nombre": "Ashir",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "axies",
+    "nombre": "Axies",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "siah aimiano"
+  },
+  {
     "id": "axindweth",
     "nombre": "Axindweth",
     "orden": "Ninguna",
@@ -200,6 +216,14 @@
     "especie": "humano"
   },
   {
+    "id": "ellista",
+    "nombre": "Ellista",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "eshonai",
     "nombre": "Eshonai",
     "orden": "Escultores de Voluntad",
@@ -285,6 +309,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "geranid",
+    "nombre": "Geranid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
@@ -685,6 +717,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "noura",
+    "nombre": "Noura",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
