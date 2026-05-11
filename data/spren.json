@@ -342,5 +342,21 @@
     "tipo_spren": "cultivacispren (anteriormente ojomuerto)",
     "radiante_vinculado": "yanagawn",
     "estado_actual": "activo"
+  },
+  {
+    "id": "yixli",
+    "nombre": "Yixli",
+    "apodo": null,
+    "tipo_spren": "vacíospren (guiaspren)",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "cusicesh",
+    "nombre": "Cusicesh",
+    "apodo": "Cusicesh el Protector",
+    "tipo_spren": "spren único",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
   }
 ]
