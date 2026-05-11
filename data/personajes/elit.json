@@ -1,0 +1,104 @@
+{
+  "id": "elit",
+  "nombre": "Elit",
+  "nombre_completo": "Elit Ruthar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Ruthar",
+    "Principado de Ruthar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelos esquirlados — portador de armadura pero no de hoja propia",
+      "Postura del Humo — su postura en el duelo",
+      "Uso de martillo esquirlado en lugar de hoja"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Primo de Relis Ruthar",
+      "El que aceptó el duelo que Relis rechazó"
+    ],
+    "descripcion": "Brillante señor alezi, primo de Relis Ruthar. Problemas de calvicie. Más bajo que la mayoría de hombres alezi. Labios delgados que se vuelven blancos cuando sonríe. Ambicioso — ansiaba obtener una hoja esquirlada. Solo portaba armadura propia — la hoja era prestada. Aceptó el duelo que Relis rechazó por ambición propia: si ganaba sería rico y Relis quedaría olvidado. Le avisó a Adolin que Relis planeaba matarlo.",
+    "estado_en_viento_y_verdad": "Activo — perdió la armadura en el duelo pero sobrevivió."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "ruthar",
+        "relacion": "tío paterno; alto príncipe alezi al que servía"
+      },
+      {
+        "personaje": "Relis Ruthar",
+        "relacion": "primo; se enfadó cuando Elit aceptó el duelo que él había rechazado"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "perdió el duelo contra él y Kaladin — rindió y cedió su armadura"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin lo golpeó en el pecho con la lanza rota obligándole a rendirse; tomó su yelmo como escudo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ambicioso hasta la imprudencia. Aceptó un duelo peligroso por codicia sabiendo que podía costarle la vida.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Elit aceptó el duelo que su primo Relis había rechazado motivado por la ambición — quería la hoja esquirlada. Le avisó a Adolin que Relis planeaba matarlo. En el duelo usó martillo esquirlado y postura del Humo. Adolin usó la postura del Viento para drenar su armadura de luz tormentosa. Kaladin, que se unió al combate, le golpeó en el pecho con su lanza rota obligándole a rendirse. Elit cedió la armadura y el yelmo y salió cojeando de la arena.",
+    "puntos_clave": [
+      "Primo de Relis Ruthar — portaba solo armadura esquirlada, no hoja propia.",
+      "Ambicioso — ansiaba conseguir una hoja esquirlada.",
+      "Adolin desafió primero a Relis — Relis rechazó incluso con cinco esquirladas en juego.",
+      "Adolin le ofreció el mismo trato a Elit — aceptó con armadura propia contra cinco esquirladas Kholin.",
+      "Le avisó a Adolin que Relis planeaba matarlo después de matarle a él — pero que cuando ganara las esquirladas, Relis quedaría olvidado.",
+      "En el duelo usó martillo esquirlado y postura del Humo.",
+      "Adolin usó la postura del Viento para golpearlo en múltiples secciones y drenar su armadura.",
+      "La armadura se bloqueó — Adolin le metió la hoja en la coraza.",
+      "Kaladin le golpeó en el pecho con su lanza rota — Elit se dobló y se rindió.",
+      "Cedió su armadura y su yelmo — Kaladin usó el yelmo como escudo.",
+      "Salió cojeando de la arena. La pérdida trajo vergüenza a la casa Ruthar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Brillante señor alezi — sin armadura esquirlada propia",
+    "rol": "Primo de Relis Ruthar; participante en el duelo de Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": "Perdió su armadura esquirlada en el duelo. La pérdida junto a la de Relis trajo vergüenza a la casa Ruthar."
+  },
+  "descripcion_breve": "Primo de Relis Ruthar. Aceptó el duelo que Relis rechazó por ambición. Perdió la armadura ante Adolin y Kaladin — Kaladin lo dobló con la lanza rota y tomó su yelmo como escudo.",
+  "notas": "Le avisó a Adolin que Relis planeaba matarlo — un gesto que mezcla advertencia y fanfarronería. Kaladin usó su yelmo como escudo contra las hojas esquirladas en el combate posterior."
+}

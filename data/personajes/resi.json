@@ -1,0 +1,90 @@
+{
+  "id": "resi",
+  "nombre": "Resi",
+  "nombre_completo": "Resi",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Principado de Thanadal"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelos esquirlados — portador completo de esquirlada y duelista competente",
+      "Postura de la Piedra — su postura habitual en los duelos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Defensor Real del alto príncipe Thanadal",
+      "El único portador de esquirlada completo en el campamento de Thanadal"
+    ],
+    "descripcion": "Brillante señor alezi portador completo de las esquirladas de Thanadal con el título de Defensor Real. Es el único portador de esquirlada de pleno derecho en el campamento de guerra de Thanadal. Duelista competente pero cuya postura de la Piedra resultó demasiado lenta ante la postura del Viento de Adolin.",
+    "estado_en_viento_y_verdad": "Activo — conservó la hoja esquirlada."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "thanadal",
+        "relacion": "su alto príncipe; portaba sus esquirladas como Defensor Real"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "perdió el duelo contra él — Adolin le rompió la pieza del muslo izquierdo de la armadura"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estable. Duelista profesional. Sin información adicional sobre su carácter.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Resi era el Defensor Real de Thanadal y el único portador de esquirlada completo de su campamento. Adolin lo desafió a duelo tras las provocaciones de Thanadal. Ambos combatieron como portadores completos — Resi en armadura amarilla, Adolin en azul oscuro. Resi usó la postura de la Piedra; Adolin la del Viento. Los movimientos más lentos de Resi lo dejaron expuesto — Adolin le rompió la pieza del muslo izquierdo, ganando el duelo. No se apostaron esquirladas.",
+    "puntos_clave": [
+      "Defensor Real de Thanadal — el único portador de esquirlada completo de su campamento.",
+      "Adolin lo desafió a duelo tras las provocaciones de Thanadal.",
+      "No se apostaron esquirladas — duelo 'amistoso' con implicaciones políticas.",
+      "Combatió en armadura amarilla; Adolin en azul oscuro.",
+      "Usó la postura de la Piedra — sus movimientos más lentos lo dejaron expuesto.",
+      "Adolin captó un golpe por encima de la cabeza con un brazo y le rompió la pieza del muslo izquierdo.",
+      "Conservó su hoja esquirlada — no se apostó en el duelo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Defensor Real de Thanadal (hasta la muerte de este)",
+    "rol": "Portador de esquirlada del principado de Thanadal",
+    "relacion_con_spren": "",
+    "otros_detalles": "Tras la muerte de Thanadal a manos de los Sangre Espectral, su situación como Defensor Real es incierta."
+  },
+  "descripcion_breve": "Defensor Real del alto príncipe Thanadal y único portador de esquirlada completo de su campamento. Perdió el duelo contra Adolin cuando su postura de la Piedra resultó demasiado lenta ante la postura del Viento.",
+  "notas": "No se apostaron esquirladas en el duelo — fue 'amistoso' pero con fuertes implicaciones políticas. La arena estaba llena de espectadores por esas implicaciones."
+}

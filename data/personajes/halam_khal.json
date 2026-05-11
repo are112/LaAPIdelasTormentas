@@ -1,0 +1,111 @@
+{
+  "id": "halam_khal",
+  "nombre": "Halam Khal",
+  "nombre_completo": "Halam Khal",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Portador de esquirlada — usa las esquirladas de su padre con frecuencia",
+      "Mando militar — capitán del ejército Kholin",
+      "Combate en campo abierto"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitán del ejército Kholin",
+      "Hijo mayor del General Khal y Teshav",
+      "Portador habitual de las esquirladas de su padre"
+    ],
+    "descripcion": "Hombre alto incluso para los alezi — sus propios compañeros lo consideran alto. Ojos claros, amarillos o violeta según de qué progenitor herede. Como todos los alezi, piel bronceada. Su padre confía plenamente en él y lo deja actuar por su cuenta. Ha sido entrenado para asumir cualquier desafío aunque el oponente sea su superior. Dependable y eficaz.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "general_khal",
+        "relacion": "padre; a menudo le presta sus esquirladas"
+      },
+      {
+        "personaje": "teshav",
+        "relacion": "madre; escriba principal de Dalinar"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "comandante supremo; el general Khal lo envió a Urithiru con él a buscar refuerzos"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Dependable, valiente y entrenado para actuar con autonomía. Su padre confía en él incondicionalmente.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Halam Khal sirvió como capitán en el ejército Kholin durante la Guerra de la Venganza y la Verdadera Desolación. Portaba frecuentemente las esquirladas de su padre. En Narak portó la hoja de Teleb tras la caída de este. En la Batalla de Thaylenah, las tropas de Roion bajo su mando fueron derrotadas por los cantores — los fabriciales de Navani les dieron cobertura para retirarse. Acompañó a su padre a Urithiru a buscar refuerzos — un ataque los retrasó. Regresaron con el Puente Cuatro y dos mil soldados.",
+    "puntos_clave": [
+      "Hijo mayor del General Khal y Teshav.",
+      "Capitán del ejército Kholin — considerado alto incluso entre los alezi.",
+      "Porta frecuentemente las esquirladas de su padre.",
+      "En la Batalla de Narak portó la hoja de Teleb tras la caída de este.",
+      "En la Batalla de Thaylenah, las tropas de Roion bajo su mando fueron derrotadas por los cantores.",
+      "Los fabriciales de Navani — atrayentes de humedad — permitieron a los arqueros dar cobertura a su retirada.",
+      "Posible matrimonio con la princesa de Yezier — su padre lo discutió con los representantes yezieri.",
+      "Acompañó a su padre a Urithiru a buscar refuerzos para Thaylenah.",
+      "Un ataque en Urithiru retrasó su regreso.",
+      "Regresaron con el Puente Cuatro y dos mil soldados — Renarin intentó ponerlos al día.",
+      "Es probable que el General Khal le haya cedido su armadura esquirlada — tras Narak se le menciona más como portador de esquirlada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Capitán del ejército Kholin",
+    "rol": "Oficial de confianza del General Khal; portador habitual de sus esquirladas",
+    "relacion_con_spren": "",
+    "otros_detalles": "Heredero de las tierras Khal. Sus ojos pueden ser amarillos (de su padre) o violeta (de su madre Teshav)."
+  },
+  "descripcion_breve": "Capitán alezi y hijo mayor del General Khal y Teshav. Alto incluso para ser alezi. Porta frecuentemente las esquirladas de su padre. Participó en las principales batallas de la Verdadera Desolación.",
+  "notas": "Sus ojos pueden ser amarillos o violeta según de qué progenitor herede — no se especifica en el texto. Es el heredero de las tierras Khal aunque probablemente estén ocupadas por los cantores."
+}

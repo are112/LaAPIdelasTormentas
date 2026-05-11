@@ -1,0 +1,104 @@
+{
+  "id": "tag",
+  "nombre": "Tag",
+  "nombre_completo": "Tag",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caravana de Tvlakv (mercenario)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza — mercenario experimentado",
+      "Evaluación rápida de personas — sabe a primera vista quién va a dar problemas",
+      "Mando de parshmenios",
+      "Conducción de carros de chulls"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mercenario de la caravana de esclavos de Tvlakv",
+      "El superviviente — Bluth murió, Tag no"
+    ],
+    "descripcion": "Mercenario de temperamento frío y calculador — más cauto y desconfiado que Bluth. Dedos gruesos. Probablemente ojos oscuros. Experto en evaluar personas: sabe a primera vista quién va a dar problemas. Cauteloso — prefiere evitar el conflicto innecesario pero no duda en actuar si es necesario. Tvlakv valora su opinión. No le gustó Shallan y aconsejó a Tvlakv deshacerse de ella cuanto antes.",
+    "estado_en_viento_y_verdad": "Probablemente activo — sobrevivió al ataque de bandidos."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "tvlakv",
+        "relacion": "su empleador; Tvlakv valora su opinión aunque no siempre la sigue"
+      },
+      {
+        "personaje": "bluth",
+        "relacion": "compañero mercenario; Bluth murió en el ataque de bandidos, Tag sobrevivió"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "lo evaluó como peligroso desde el primer día — mantuvo distancia tras el incidente del mapa"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Frío, cauteloso y pragmático. Valora la seguridad sobre el beneficio a corto plazo.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Probablemente activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Tag era mercenario de Tvlakv. Evaluó a Kaladin como peligroso desde el primer día y mantuvo distancia tras el incidente del mapa. Cuando Shallan se unió a la caravana, aconsejó a Tvlakv deshacerse de ella cuanto antes — Tvlakv no lo escuchó. Cuando los bandidos atacaron, Tag y Tvlakv fueron a proteger la otra caravana. Sobrevivió al ataque — Bluth no lo hizo. Presumiblemente continuó con Tvlakv.",
+    "puntos_clave": [
+      "Mercenario de Tvlakv junto a Bluth.",
+      "Evaluó a Kaladin como peligroso desde el primer día — mantuvo distancia tras el incidente del mapa.",
+      "A veces abusaba de los esclavos para afirmar su autoridad — pero era cauteloso con Kaladin.",
+      "Conducía uno de los carros de esclavos o el de los parshmenios.",
+      "Cuando Shallan se unió a la caravana, le dijo a Tvlakv que se deshiciera de ella cuanto antes — desconfiaba de ella.",
+      "Tvlakv no siguió su consejo.",
+      "Cuando los bandidos atacaron otra caravana, Tag aconsejó apartarse — Shallan rechazó el plan.",
+      "Cuando los bandidos atacaron, Tag y Tvlakv fueron a defender la otra caravana.",
+      "Sobrevivió al ataque — Bluth murió.",
+      "Presumiblemente continuó con Tvlakv cuando se separaron de Shallan."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Mercenario — probablemente con Tvlakv",
+    "rol": "Mercenario superviviente de la caravana de Tvlakv",
+    "relacion_con_spren": "",
+    "otros_detalles": "A diferencia de Bluth, Tag sobrevivió al ataque de bandidos. Su destino exacto tras separarse de Shallan es desconocido."
+  },
+  "descripcion_breve": "Mercenario frío y calculador de la caravana de Tvlakv. Evaluó a Kaladin como peligroso desde el principio. Desconfió de Shallan y aconsejó a Tvlakv deshacerse de ella. Sobrevivió al ataque de bandidos — Bluth no lo hizo.",
+  "notas": "A diferencia de Bluth, que era más bruto e impulsivo, Tag era cauteloso y frío. Tvlakv valoraba genuinamente su opinión aunque no siempre la seguía."
+}

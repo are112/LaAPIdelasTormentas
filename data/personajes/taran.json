@@ -1,0 +1,82 @@
+{
+  "id": "taran",
+  "nombre": "Taran",
+  "nombre_completo": "Taran",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caravana de Tvlakv"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Cuidado de chulls — su única tarea conocida en la caravana"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Chico de los recados de Tvlakv",
+      "El que cuidaba los chulls de la caravana"
+    ],
+    "descripcion": "Chico desgarbado al servicio de Tvlakv. No estaba enjaulado como los esclavos — era empleado de Tvlakv. Cuidaba los chulls que tiraban de los carros de la caravana. Desapareció entre el arco de Kaladin y el de Shallan — cuando Shallan viajó con Tvlakv, Bluth se encargaba de los chulls y Taran no fue mencionado.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "tvlakv",
+        "relacion": "su empleador"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Taran era el chico de los recados de Tvlakv, encargado de cuidar los chulls de la caravana. Estuvo presente cuando Tvlakv transportó a Kaladin y otros esclavos a las Llanuras Quebradas. Desapareció entre ese arco y el de Shallan — cuando Shallan viajó con Tvlakv, Bluth se encargaba de los chulls.",
+    "puntos_clave": [
+      "Chico desgarbado al servicio de Tvlakv — no estaba enjaulado como los esclavos.",
+      "Cuidaba los chulls que tiraban de los carros de la caravana.",
+      "Estuvo presente cuando Tvlakv transportó a Kaladin a las Llanuras.",
+      "Desapareció entre el arco de Kaladin y el de Shallan — Bluth asumió el cuidado de los chulls.",
+      "Su destino es desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Chico de los recados de Tvlakv",
+    "relacion_con_spren": "",
+    "otros_detalles": "La información disponible sobre Taran es muy limitada. Desapareció sin explicación entre los dos arcos narrativos de Tvlakv."
+  },
+  "descripcion_breve": "Chico desgarbado al servicio de Tvlakv, encargado de cuidar los chulls. Estuvo con la caravana durante el transporte de Kaladin. Desapareció entre los dos arcos narrativos.",
+  "notas": "La información disponible sobre Taran es muy limitada. Su desaparición entre los dos arcos de Tvlakv no se explica en el texto."
+}

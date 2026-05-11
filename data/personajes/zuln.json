@@ -1,0 +1,93 @@
+{
+  "id": "zuln",
+  "nombre": "Zuln",
+  "nombre_completo": "Zuln",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Consejo de los Cinco de los oyentes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo político — miembro del Consejo de los Cinco"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Consejo de los Cinco de los oyentes en forma gris",
+      "La que se opuso a la adopción masiva de la forma tormenta"
+    ],
+    "descripcion": "Oyente en forma gris — la forma que suprime emociones y hace a los oyentes callados y tranquilos. Eligió la forma gris deliberadamente por deber: se considera representante no solo de los que están en forma gris, sino también de los parshmenios sin canciones de toda Roshar. Lleva la bata de los parshmenios como recordatorio de los orígenes de su pueblo. Su sacrificio al adoptar la forma gris es tan noble como el de Abronai al mantener la forma carnal.",
+    "estado_en_viento_y_verdad": "Probablemente activa — escapó a los abismos con Thude."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "eshonai",
+        "relacion": "discrepó con ella sobre la adopción masiva de la forma tormenta"
+      },
+      {
+        "personaje": "abronai",
+        "relacion": "la convenció de oponerse también; sus sacrificios son comparables"
+      },
+      {
+        "personaje": "thude",
+        "relacion": "escapó con él a los abismos tras el golpe de Eshonai"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Callada y tranquila por la forma gris, pero con convicciones profundas. Su oposición a Eshonai no fue impulsiva sino reflexiva.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Probablemente activa en el asentamiento oyente."
+  },
+  "arco_narrativo": {
+    "resumen": "Zuln fue miembro del Consejo de los Cinco en forma gris. Acordó que Eshonai pudiera probar la forma tormenta y reportar al Consejo. Al ver los resultados, se opuso a la adopción masiva. Convenció a Abronai. Cuando Eshonai declaró que el Consejo no podía prohibir que nadie eligiera una forma, Zuln aceptó adoptar la forma tormenta — pero Eshonai no confiaba en ella y la colocó entre los disidentes. Escapó con Thude a los abismos.",
+    "puntos_clave": [
+      "Miembro del Consejo de los Cinco en forma gris.",
+      "Eligió la forma gris por deber — para representar a los parshmenios sin canciones de Roshar.",
+      "Lleva la bata de los parshmenios como recordatorio de los orígenes del pueblo oyente.",
+      "Acordó que Eshonai probara la forma tormenta y reportara al Consejo.",
+      "Al ver los resultados se opuso a la adopción masiva — convenció a Abronai.",
+      "Cuando Eshonai declaró que el Consejo no podía prohibir ninguna forma, Zuln aceptó adoptar la forma tormenta.",
+      "Eshonai no confiaba en ella — la colocó entre los que rechazaban transformarse.",
+      "Escapó con Thude y los disidentes a los abismos de las Llanuras Quebradas."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Miembro del Consejo de los Cinco — probablemente con los disidentes en los abismos",
+    "rol": "Voz de los parshmenios sin canciones dentro del Consejo",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su sacrificio al adoptar la forma gris es considerado tan noble como el de Abronai al mantener la forma carnal."
+  },
+  "descripcion_breve": "Miembro del Consejo de los Cinco en forma gris. Eligió esa forma por deber para representar a los parshmenios sin canciones. Se opuso a la adopción masiva de la forma tormenta y escapó con Thude a los abismos.",
+  "notas": "Su sacrificio al adoptar la forma gris — que suprime emociones — es considerado tan noble como el de Abronai al mantener la forma carnal."
+}

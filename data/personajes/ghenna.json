@@ -1,0 +1,91 @@
+{
+  "id": "ghenna",
+  "nombre": "Ghenna",
+  "nombre_completo": "Ghenna",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "tashikki",
+  "origen": "Yeddaw, Tashikk",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Gran Indicium de Yeddaw"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escriba de alto rango en el Gran Indicium",
+      "Gestión de vinculacañas y comunicaciones",
+      "Investigación de archivos e historiales"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escriba de alto rango en el Gran Indicium de Yeddaw",
+      "Contacto de Lift en Yeddaw durante la novela corta Danzante del Filo"
+    ],
+    "descripcion": "Mujer tashikki considerablemente corpulenta. Lleva shiqua que cubre todo el cuerpo incluida la cara. Gafas. Más joven de lo que Lift asumió inicialmente. Bastante seria y profesional — solo tolera las actitudes irrespetuosas de Lift por órdenes del Supremo Aqasix. Lift le coge cariño y le da un abrazo largo en un momento dado.",
+    "estado_en_viento_y_verdad": "Activa en el Gran Indicium."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "yanagawn",
+        "relacion": "el Supremo Aqasix le ordenó colaborar con Lift"
+      },
+      {
+        "personaje": "lift",
+        "relacion": "Lift le coge cariño a pesar de su actitud irrespetuosa; le dio un abrazo largo"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Seria y profesional. Tolera a Lift por obligación pero acaba desarrollando cierto afecto hacia ella.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Ghenna interceptó a Lift cuando intentaba entrar en el Gran Indicium. Bajo órdenes del Supremo Aqasix, ayudó a Lift en su investigación de las actividades de Nale en Yeddaw. Gestionó comunicaciones mediante vinculacañas entre Lift y el Supremo. La ayudó a investigar el Orfanato de la Luz de Tashi tras que Lift descubriera que la Tocona era una potenciadora.",
+    "puntos_clave": [
+      "Escriba de alto rango en el Gran Indicium de Yeddaw, Tashikk.",
+      "Interceptó a Lift cuando intentaba entrar sin permiso en el Gran Indicium.",
+      "Bajo órdenes del Supremo Aqasix, colaboró con Lift en su investigación.",
+      "Gestionó comunicaciones mediante vinculacañas entre Lift y el Supremo.",
+      "Ayudó a Lift a investigar las actividades de Nale en Yeddaw.",
+      "Visitó el Orfanato de la Luz de Tashi tras que Lift descubriera que la Tocona era una potenciadora.",
+      "Lift la insulta habitualmente — Ghenna lo tolera por órdenes del Supremo.",
+      "Lift le da un abrazo largo — señal de afecto genuino de la niña."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba de alto rango en el Gran Indicium de Yeddaw",
+    "rol": "Contacto institucional de Lift en Yeddaw",
+    "relacion_con_spren": "",
+    "otros_detalles": "Lleva shiqua completa incluida la cara — costumbre tashikki. Solo tolera a Lift por órdenes del Supremo."
+  },
+  "descripcion_breve": "Escriba tashikki de alto rango en el Gran Indicium de Yeddaw. Seria y profesional. Colaboró con Lift en la investigación de Nale por órdenes del Supremo Aqasix. Lift le coge cariño y le da un abrazo inesperado.",
+  "notas": "Lleva shiqua que cubre todo el cuerpo incluida la cara — Lift la insultaba habitualmente. La actitud de Lift con ella es una mezcla de irritación y afecto genuino."
+}
