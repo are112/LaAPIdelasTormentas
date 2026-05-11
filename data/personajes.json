@@ -1,5 +1,13 @@
 [
   {
+    "id": "abrobadar",
+    "nombre": "Abrobadar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "abronai",
     "nombre": "Abronai",
     "orden": "Ninguna",
@@ -45,6 +53,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "arshqqam",
+    "nombre": "Arshqqam",
+    "orden": "Vigilantes de la Verdad",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
@@ -392,6 +408,14 @@
     "especie": "humano"
   },
   {
+    "id": "grund",
+    "nombre": "Grund",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "halam_khal",
     "nombre": "Halam Khal",
     "orden": "Ninguna",
@@ -517,6 +541,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
+    "id": "jakamav",
+    "nombre": "Jakamav",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
@@ -870,6 +902,14 @@
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "cantor"
+  },
+  {
+    "id": "relis_ruthar",
+    "nombre": "Relis Ruthar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "renarin",
