@@ -1,0 +1,93 @@
+{
+  "id": "composicion",
+  "nombre": "Composición",
+  "apodos": [],
+  "tipo_spren": "críptico",
+  "es_splinter_de": "Honor y Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Críptico vinculado a Rojo, miembro de la Corte Inadvertida de Shallan."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "patrón geométrico complejo en movimiento constante, como los demás crípticos",
+      "formas_alternativas": [],
+      "color": "desconocido",
+      "visibilidad": "visible en el Reino Físico",
+      "notas_emocionales": "el patrón se acelera con la confusión y se ralentiza con la vergüenza, como todos los crípticos"
+    },
+    "reino_cognitivo": {
+      "forma": "figura alta con túnica rígida como cristal y símbolo geométrico flotante en lugar de cabeza",
+      "limitaciones": "ninguna conocida"
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "desconocida — vínculo reciente",
+      "otras_formas": [],
+      "material": "desconocido"
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "sin información suficiente — vínculo reciente y presencia menor en la saga"
+    ],
+    "valores": [],
+    "notas": "Composición es el críptico de Rojo. Muy poca información disponible sobre su personalidad específica."
+  },
+  "habilidades": {
+    "generales": [
+      "vínculo Nahel con Rojo"
+    ],
+    "magicas": [
+      "otorga Iluminación y Transformación a Rojo"
+    ]
+  },
+  "vinculo_nahel": {
+    "radiante_actual": "rojo",
+    "orden_radiante": "Tejedores de Luz",
+    "potencias_otorgadas": [
+      "Iluminación",
+      "Transformación"
+    ],
+    "forma_shardblade": "desconocida",
+    "estado_vinculo": "activo",
+    "radiante_anterior": null,
+    "notas": "Composición es el nombre que Rojo da a su críptico. Parte de la Corte Inadvertida de Shallan."
+  },
+  "historia": {
+    "resumen": "Críptico que se vinculó con Rojo, miembro de la Corte Inadvertida de Shallan Davar. La información disponible sobre Composición es muy limitada — su papel en la saga es secundario.",
+    "puntos_clave": [
+      "críptico vinculado a Rojo, exdesertor y miembro de la Corte Inadvertida",
+      "Rojo se convirtió en Tejedor de Luz gracias a este vínculo",
+      "Shallan lo sometió a la prueba de información falsa — a Rojo le dijo que había visto vientospren corrompidos",
+      "Rojo identificó a Dabbid con una vinculacañas misteriosa — Navani lo llamó para ello"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": {
+      "personaje": "rojo",
+      "relacion": "vínculo Nahel activo"
+    },
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "shallan",
+        "relacion": "la líder de la Corte Inadvertida a la que pertenece Rojo"
+      }
+    ]
+  },
+  "descripcion_breve": "Críptico vinculado a Rojo, miembro de la Corte Inadvertida de Shallan. Le otorga las potencias de Iluminación y Transformación. Muy poca información disponible sobre su personalidad.",
+  "notas": "Composición es el nombre que le da Rojo. Como todos los crípticos, representa las leyes matemáticas fundamentales de la naturaleza. La información disponible en la Coppermind es muy limitada."
+}

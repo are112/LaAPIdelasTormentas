@@ -1,0 +1,92 @@
+{
+  "id": "xorm",
+  "nombre": "Xorm",
+  "apodos": [],
+  "tipo_spren": "cultivacispren (anteriormente ojomuerto)",
+  "es_splinter_de": "Cultivación",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Roshar",
+    "generacion": "desconocida",
+    "notas": "Cultivacispren que se convirtió en ojomuerto cuando su radiante original abandonó sus juramentos durante la Traición. Comenzó a sanar tras la liberación de Ba-Ado-Mishram. Viajó a Azimir con Maya poco antes de la Noche de las Penas."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "hoja esquirlada — forma exacta desconocida",
+      "formas_alternativas": [],
+      "color": "desconocido",
+      "visibilidad": "solo como hoja esquirlada en el Reino Físico mientras era ojomuerto",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": {
+      "forma": "forma de ojomuerto hasta su recuperación — apariencia exacta desconocida",
+      "limitaciones": "apariencia de ojomuerto hasta la liberación de Ba-Ado-Mishram"
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "desconocida",
+      "otras_formas": [],
+      "material": "desconocido"
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "sin información — vínculo muy reciente; apenas aparece en la saga"
+    ],
+    "valores": [],
+    "notas": "Xorm apareció por primera vez en Viento y Verdad. Su personalidad no ha sido desarrollada en la saga."
+  },
+  "habilidades": {
+    "generales": [
+      "vínculo Nahel con Yanagawn"
+    ],
+    "magicas": [
+      "otorga las potencias de la Orden de los Injuramentados a Yanagawn"
+    ]
+  },
+  "vinculo_nahel": {
+    "radiante_actual": "yanagawn",
+    "orden_radiante": "Injuramentados",
+    "potencias_otorgadas": [],
+    "forma_shardblade": "desconocida",
+    "estado_vinculo": "activo — vínculo reciente formado en Azimir durante la Noche de las Penas",
+    "radiante_anterior": "desconocido (pre-Traición)",
+    "notas": "Yanagawn tomó la hoja de Xorm para defender Azimir, convirtiéndose en Injuramentado. Xorm comenzó a sanar como todos los ojomuertos tras la liberación de Ba-Ado-Mishram. Viajó a Azimir con Maya poco antes de la Noche de las Penas."
+  },
+  "historia": {
+    "resumen": "Cultivacispren vinculado a un radiante desconocido antes de la Traición. Se convirtió en ojomuerto cuando su radiante abandonó sus juramentos. Pasó milenios en ese estado. Viajó a Azimir con Maya poco antes de la Noche de las Penas. Yanagawn tomó su hoja para defender la ciudad, convirtiéndose en Injuramentado. Comenzó a sanar tras la liberación de Ba-Ado-Mishram.",
+    "puntos_clave": [
+      "cultivacispren vinculado a un radiante desconocido antes de la Traición",
+      "se convirtió en ojomuerto cuando su radiante abandonó sus juramentos",
+      "viajó a Azimir con Maya poco antes de la Noche de las Penas",
+      "Yanagawn tomó su hoja esquirlada para defender Azimir durante la Noche de las Penas",
+      "Yanagawn se convirtió en Injuramentado gracias a este vínculo",
+      "comenzó a sanar tras la liberación de Ba-Ado-Mishram"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": {
+      "personaje": "yanagawn",
+      "relacion": "vínculo Nahel activo — Injuramentado"
+    },
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "mayalaran",
+        "relacion": "viajaron juntos a Azimir desde Shadesmar antes de la Noche de las Penas"
+      }
+    ]
+  },
+  "descripcion_breve": "Cultivacispren anteriormente ojomuerto vinculado a Yanagawn. Viajó a Azimir con Maya. Yanagawn tomó su hoja para defender la ciudad durante la Noche de las Penas, convirtiéndose en Injuramentado. Comenzó a sanar tras la liberación de Ba-Ado-Mishram.",
+  "notas": "Xorm es uno de los pocos ojomuertos que sanó antes de que la saga terminara. Su tipo exacto de spren no está completamente confirmado — se indica como cultivacispren por analogía con Maya, aunque podría ser otro tipo."
+}
