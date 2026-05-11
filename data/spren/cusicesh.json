@@ -1,0 +1,105 @@
+{
+  "id": "cusicesh",
+  "nombre": "Cusicesh",
+  "apodos": [
+    "Cusicesh el Protector"
+  ],
+  "tipo_spren": "spren único de gran tamaño",
+  "es_splinter_de": "desconocido — más Investidura que un spren típico pero menos que el Padre Tormenta o la Vigilante Nocturna",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "bahía de Kasitor, Iri, Roshar",
+    "generacion": "desconocida — presente desde hace mucho tiempo",
+    "notas": "Uno de los pocos spren únicos de Roshar. Ha estado presente en la bahía de Kasitor desde tiempos inmemoriales. Está arraigado en la sociedad de Kasitor hasta el punto de dictar su sistema local de medición del tiempo."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "chorro de agua en forma de columna de 30 metros de altura, con cuatro largos brazos que se extienden hacia abajo desde la columna formando dedos y pulgares. Siempre en los mismos lugares — los habitantes han colocado grandes pedestales dorados donde se posan las manos.",
+      "formas_alternativas": [],
+      "color": "azul marino translúcido — del azul profundo en el centro al azul más claro en la superficie",
+      "visibilidad": "visible para todos — surge de las aguas de la bahía exactamente a las 7:46 de la mañana cada día",
+      "notas_emocionales": "forma un rostro sobre un cuello en forma de tronco que siempre mira hacia el este, hacia el Origen; el rostro cambia rápidamente a diferentes caras humanas, tanto masculinas como femeninas. Deja a los observadores con una sensación de agotamiento."
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": "desconocidas"
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "no aplica — no puede vincularse con Radiantes",
+      "otras_formas": [],
+      "material": "no aplica"
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "sin personalidad conocida — no interactúa de forma cognitiva con los observadores"
+    ],
+    "valores": [],
+    "notas": "No está claro si Cusicesh tiene consciencia en el sentido en que la tienen otros spren sapientes. No interactúa con los observadores. Su aparición diaria a las 7:46 exactas es perfectamente predecible."
+  },
+  "habilidades": {
+    "generales": [
+      "aparición diaria exacta a las 7:46 de la mañana — tan precisa que los lugareños ajustan sus relojes por ella",
+      "envía una estela ilusoria al emerger",
+      "rostro que cambia rápidamente entre cientos de caras humanas diferentes",
+      "deja a los observadores con una sensación de agotamiento"
+    ],
+    "magicas": [
+      "no puede formar vínculos Nahel — razones no relacionadas con su nivel de Investidura"
+    ]
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": null,
+    "potencias_otorgadas": [],
+    "forma_shardblade": "no aplica",
+    "estado_vinculo": "no puede formar vínculos Nahel",
+    "radiante_anterior": null,
+    "notas": "No puede vincularse con Radiantes por razones no relacionadas con su nivel de Investidura. Está compuesto por más Investidura que un spren típico pero no al mismo nivel que el Padre Tormenta o la Vigilante Nocturna."
+  },
+  "historia": {
+    "resumen": "Cusicesh el Protector es un spren enorme que surge de las aguas de la bahía de Kasitor en Iri exactamente a las 7:46 de la mañana cada día. Su aparición es tan predecible que los lugareños ajustan sus relojes por ella. Siempre mira hacia el este, hacia el Origen. Las caras que muestra cambian rápidamente entre cientos de rostros humanos. Axies el Coleccionista viajó especialmente a Kasitor para observarlo. Shallan, al descubrir el nombre de Odium, se preguntó si sería un spren único como Cusicesh.",
+    "puntos_clave": [
+      "surge de la bahía de Kasitor exactamente a las 7:46 de la mañana cada día sin excepción",
+      "los lugareños ajustan sus relojes por su aparición — dicta el sistema local de medición del tiempo",
+      "columna de agua de 30 metros con cuatro brazos — los habitantes han colocado pedestales dorados donde se posan sus manos",
+      "siempre mira hacia el este, hacia el Origen",
+      "rostro que cambia rápidamente entre cientos de caras humanas diferentes",
+      "deja a los observadores con una sensación de agotamiento",
+      "está compuesto por más Investidura que un spren típico pero menos que el Padre Tormenta o la Vigilante Nocturna",
+      "no puede formar vínculos Nahel — razones desconocidas no relacionadas con su Investidura",
+      "los habitantes han construido una plataforma de observación en la bahía — suele llenarse de gente",
+      "algunos iriali lo adoran como a un dios; otros lo ven simplemente como parte de la ciudad",
+      "Axies el Coleccionista viajó a Kasitor para observarlo",
+      "Shallan lo mencionó como ejemplo de spren único al descubrir el nombre de Odium"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "interludio — protagonista indirecto",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "axies",
+        "relacion": "Axies viajó especialmente a Kasitor para observarlo"
+      }
+    ]
+  },
+  "descripcion_breve": "Spren único enorme que surge de la bahía de Kasitor en Iri exactamente a las 7:46 de la mañana cada día. Columna de agua de 30 metros que siempre mira hacia el Origen. Su rostro cambia entre cientos de caras humanas. Los lugareños ajustan sus relojes por su aparición.",
+  "notas": "Cusicesh es uno de los pocos spren únicos de Roshar junto a la Vigilante Nocturna y el Padre Tormenta. Está compuesto por más Investidura que un spren típico pero no puede formar vínculos Nahel. Algunos iriali lo adoran como dios. Su aparición diaria a las 7:46 exactas es perfectamente predecible."
+}

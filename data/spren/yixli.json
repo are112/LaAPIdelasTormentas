@@ -1,0 +1,107 @@
+{
+  "id": "yixli",
+  "nombre": "Yixli",
+  "apodos": [],
+  "tipo_spren": "vacíospren (guiaspren)",
+  "es_splinter_de": "Odium",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo",
+  "origen": {
+    "creador": "Odium",
+    "lugar_creacion": "Roshar / Braize",
+    "generacion": "desconocida",
+    "notas": "Vacíospren que sirve a Odium como guía y mensajero. Fue uno de los numerosos guiaspren que llevaron a los cantores recién despertados hacia Kholinar tras la tormenta eterna."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "mujer diminuta irradiando un brillo amarillo-blanquecino similar al centro de una llama, con vestido fluido que cubre sus piernas por completo",
+      "formas_alternativas": [
+        "también puede adoptar la forma de un vientospren de color amarillo brillante con ojos similares a los de un shin"
+      ],
+      "color": "amarillo-blanquecino",
+      "visibilidad": "puede controlar quién la ve, con un nivel similar al de un honorspren",
+      "notas_emocionales": "se materializa sobre un pilar translúcido de piedra dorada para ponerse a la altura visual de humanos y cantores"
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": "no necesita un vínculo Nahel para mantener su mente en el Reino Físico"
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "no aplica — no forma vínculos Nahel",
+      "otras_formas": [],
+      "material": "no aplica"
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "directa y práctica",
+      "sirve a Odium como guía y mensajera",
+      "capaz de mostrar cierta empatía — prometió hablar por Kaladin aunque reconoció que no le correspondía"
+    ],
+    "valores": [
+      "obediencia a Odium",
+      "guiar a los cantores hacia su destino"
+    ],
+    "notas": "A pesar de ser un vacíospren al servicio de Odium, Yixli mostró cierta consideración hacia Kaladin durante su viaje con los cantores — prometió hablar por él, aunque reconoció que esa decisión no le correspondía a ella."
+  },
+  "habilidades": {
+    "generales": [
+      "guiar a grupos de cantores y humanos a través de Roshar",
+      "control sobre su visibilidad — puede elegir quién la ve",
+      "no necesita vínculo Nahel para mantener su mente en el Reino Físico"
+    ],
+    "magicas": [
+      "no forma vínculos Nahel"
+    ]
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": null,
+    "potencias_otorgadas": [],
+    "forma_shardblade": "no aplica",
+    "estado_vinculo": "no forma vínculos Nahel",
+    "radiante_anterior": null,
+    "notas": "Los guiaspren vacíospren como Yixli no han demostrado capacidad de vinculación. Sirven a Odium como guías y mensajeros."
+  },
+  "historia": {
+    "resumen": "Yixli fue uno de los numerosos guiaspren vacíospren que guiaron a los cantores recién despertados tras la tormenta eterna hacia Kholinar. Específicamente guió al grupo de Khen, Sah y Kaladin hacia Revolar. Durante el viaje observó a Kaladin con sospecha pero también mostró cierta consideración hacia él.",
+    "puntos_clave": [
+      "vacíospren al servicio de Odium — categoría de guiaspren",
+      "uno de los numerosos guiaspren que llevaron a los cantores recién despertados hacia Kholinar",
+      "guió específicamente al grupo de Khen, Sah y Kaladin hacia Revolar",
+      "observó a Kaladin con sospecha durante el viaje",
+      "se materializó ante Kaladin preguntándole si lucharía por los cantores",
+      "prometió hablar por Kaladin ante los Fusionados aunque reconoció que esa decisión no le correspondía",
+      "preguntó a Kaladin cómo sabía que se avecinaba una tormenta — él fingió que podía sentirla"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "khen",
+        "relacion": "guió a su grupo de cantores hacia Revolar"
+      },
+      {
+        "personaje": "sah",
+        "relacion": "uno de los cantores de su grupo guiado"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "lo observó con sospecha; le prometió hablar por él ante los Fusionados"
+      }
+    ]
+  },
+  "descripcion_breve": "Vacíospren guiaspren al servicio de Odium. Mujer diminuta de brillo amarillo-blanquecino. Guió al grupo de Khen, Sah y Kaladin hacia Revolar. Mostró cierta consideración hacia Kaladin pese a ser un vacíospren.",
+  "notas": "Los guiaspren como Yixli se materializan sobre pilares de luz dorada para ponerse a la altura visual de humanos y cantores. No forman vínculos Nahel — sirven como guías y mensajeros de Odium."
+}
