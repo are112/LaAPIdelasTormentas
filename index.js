@@ -6,7 +6,6 @@ import buscarRoutes from "./routes/buscar.js";
 import docsRoutes from "./routes/docs.js";
 import statsRoutes from "./routes/stats.js";
 import ordenesRoutes from "./routes/ordenes.js";
-import exploradorRoutes from "./routes/explorador.js";
 import sprenRoutes from "./routes/spren.js";
 import heraldosRoutes from "./routes/heraldos.js";
 import deshechoRoutes from "./routes/deshechos.js";
@@ -20,7 +19,7 @@ app.use(express.json());
 // Helmet añade cabeceras de seguridad a todas las respuestas
 // protegiéndolas frente a ataques como XSS o clickjacking.
 app.use(helmet({
-  contentSecurityPolicy: false, // desactivado para no romper Swagger UI
+  contentSecurityPolicy: false, // desactivado para no romper Swagger UI ni Babel del explorador
 }));
 
 // ─── Seguridad: límite de peticiones por IP ───────────────
@@ -44,16 +43,20 @@ const explorerLimiter = rateLimit({
   legacyHeaders: false,
 });
 
+// ─── Rate limit del explorador (incluye sus assets estáticos) ──
+app.use("/explorador", explorerLimiter);
+
 // ─── Assets estáticos con caché de 1 día ─────────────────
-// Las imágenes y SVGs no cambian en cada deploy, el navegador
-// las cachea durante 24h evitando peticiones innecesarias.
+// Sirve toda la carpeta public/ (incluye public/explorador/* con
+// el nuevo explorador visual: index.html, app.jsx, etc.).
+// El navegador cachea los assets durante 24h.
 app.use(express.static("public", {
   maxAge: "1d",
   etag: true,
   lastModified: true,
 }));
 
-// ─── Rutas ───────────────────────────────────────────────
+// ─── Rutas API ───────────────────────────────────────────
 app.use("/personajes", apiLimiter, personajesRoutes);
 app.use("/buscar", apiLimiter, buscarRoutes);
 app.use("/ordenes", apiLimiter, ordenesRoutes);
@@ -62,10 +65,9 @@ app.use("/heraldos", apiLimiter, heraldosRoutes);
 app.use("/deshechos", apiLimiter, deshechoRoutes);
 app.use("/esquirlas", apiLimiter, esquirlasRoutes);
 app.use("/stats", apiLimiter, statsRoutes);
-app.use("/explorador", explorerLimiter, exploradorRoutes);
 app.use("/api-docs", explorerLimiter, docsRoutes);
 
-// Raíz
+// Raíz: redirige al explorador
 app.get("/", (req, res) => {
   res.redirect("/explorador");
 });
@@ -93,4 +95,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`⚡ Servidor activo en puerto ${PORT}`);
   console.log(`📖 Documentación disponible en http://localhost:${PORT}/api-docs`);
+  console.log(`🌩  Explorador en http://localhost:${PORT}/explorador`);
 });
