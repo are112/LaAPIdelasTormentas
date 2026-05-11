@@ -1,5 +1,13 @@
 [
   {
+    "id": "abronai",
+    "nombre": "Abronai",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
     "id": "adolin",
     "nombre": "Adolin",
     "orden": "Ninguna",
@@ -48,6 +56,14 @@
     "especie": "humano"
   },
   {
+    "id": "av",
+    "nombre": "Av",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "axies",
     "nombre": "Axies",
     "orden": "Ninguna",
@@ -72,6 +88,14 @@
     "especie": "humano"
   },
   {
+    "id": "baxil",
+    "nombre": "Baxil",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "berila",
     "nombre": "Berila",
     "orden": "Tejedores de Luz",
@@ -88,11 +112,27 @@
     "especie": "humano"
   },
   {
+    "id": "bila",
+    "nombre": "Bila",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "cantor"
+  },
+  {
     "id": "bisig",
     "nombre": "Bisig",
     "orden": "Corredores del Viento",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "bluth",
+    "nombre": "Bluth",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
     "especie": "humano"
   },
   {
@@ -392,12 +432,28 @@
     "especie": "humano"
   },
   {
+    "id": "huqin",
+    "nombre": "Huqin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "ialai",
     "nombre": "Ialai",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "humano"
+  },
+  {
+    "id": "ico",
+    "nombre": "Ico",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "alcanzador"
   },
   {
     "id": "ilamar",
@@ -584,6 +640,14 @@
     "especie": "cantor"
   },
   {
+    "id": "lhan",
+    "nombre": "Lhan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "lift",
     "nombre": "Lift",
     "orden": "Danzantes del Filo",
@@ -720,6 +784,14 @@
     "especie": "humano"
   },
   {
+    "id": "notum",
+    "nombre": "Notum",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "honorspren"
+  },
+  {
     "id": "noura",
     "nombre": "Noura",
     "orden": "Ninguna",
@@ -786,6 +858,14 @@
   {
     "id": "restares",
     "nombre": "Restares",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "riino",
+    "nombre": "Riino",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
