@@ -856,14 +856,6 @@
     "especie": "humano"
   },
   {
-    "id": "notum",
-    "nombre": "Notum",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "honorspren"
-  },
-  {
     "id": "noura",
     "nombre": "Noura",
     "orden": "Ninguna",
