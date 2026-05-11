@@ -1,0 +1,100 @@
+{
+  "id": "tarah",
+  "nombre": "Tarah",
+  "nombre_completo": "Tarah",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram (anteriormente)",
+    "Bóveda del Duelo (escriba)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Intendencia militar — ayudaba a su padre asistente de intendente en el ejército de Amaram",
+      "Escriba — obtuvo un puesto de escriba en Bóveda del Duelo",
+      "Perspicacia emocional — ayudó a Kaladin a salir de su depresión tras la muerte de Tien"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Primera romance real de Kaladin",
+      "Expareja de Kaladin en el ejército de Amaram"
+    ],
+    "descripcion": "Mujer alezi de ojos oscuros, ligeramente rolliza, cara redonda y manos suaves. Belleza sutil que Kaladin describe como una gema sin cortar — cuanto más la conoces, más la aprecias. Prefería vestidos de estilo thayleño antiguo y camisas de colores vivos. Olía a uniformes almidonados, cuero nuevo y cosas limpias. Práctica y austera — desconfiaba de lo que no había aprovisionado ella misma y sabía sacar partido máximo de sus esferas. Cómoda entre los avances de soldados jóvenes por su profesión.",
+    "estado_en_viento_y_verdad": "Activa — confirmado por Brandon Sanderson."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "padre de Tarah",
+        "relacion": "padre; asistente de intendente en el ejército de Amaram"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "expareja; su primera romance real; Kaladin lamenta el fracaso de su relación"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Práctica, directa y emocionalmente perspicaz. Veía el potencial en Kaladin pero también su peligro — que se quemaría si seguía como iba.",
+    "evolucion": "Sin arco propio — actúa sobre Kaladin desde fuera.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Tarah era hija del asistente de intendente en el ejército de Amaram y ayudaba a su padre. Conoció a Kaladin cuando este empezaba a hacerse un nombre como líder de escuadrón. Una de sus tareas era equipar a los nuevos reclutas — lo que le permitía informar a Kaladin de jóvenes chicos entre los novatos que necesitaban su protección. Se hicieron pareja. Le preocupaba que Kaladin se quemara por su obsesión con el entrenamiento tras la muerte de Tien — lo sacó de esa espiral. Fue trasladada a Bóveda del Duelo con un puesto de escriba. Le escribió dos cartas a Kaladin — él nunca contestó. Kaladin lamenta ese fracaso.",
+    "puntos_clave": [
+      "Hija del asistente de intendente de Amaram — ella misma ayudaba con el trabajo.",
+      "Conoció a Kaladin cuando empezaba a hacerse un nombre como líder de escuadrón.",
+      "Le informaba de jóvenes chicos entre los novatos que podían necesitar la protección de Kaladin.",
+      "Se hicieron pareja — fue la primera romance real de Kaladin.",
+      "Le preocupaba que Kaladin se quemara por su obsesión con el entrenamiento tras la muerte de Tien.",
+      "Le dijo que aprendiera 'a estar presente para los vivos, no solo para los muertos'.",
+      "Fue trasladada a Bóveda del Duelo con un puesto de escriba — también para que su padre pudiera acompañarla en lugar de ser enviado a las Llanuras.",
+      "Le escribió dos cartas a Kaladin — él nunca contestó.",
+      "Kaladin considera el fracaso de su relación un fallo propio — lo recuerda con arrepentimiento.",
+      "Brandon Sanderson confirmó que está viva."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba en Bóveda del Duelo",
+    "rol": "Expareja de Kaladin — figura de su pasado emocional",
+    "relacion_con_spren": "",
+    "otros_detalles": "Kaladin lamenta no haber contestado sus cartas. Brandon Sanderson confirmó que sigue viva tras el final de Juramentada."
+  },
+  "descripcion_breve": "Primera romance real de Kaladin, expareja durante su tiempo en el ejército de Amaram. Le ayudó a salir de la espiral de depresión tras la muerte de Tien. Kaladin nunca contestó sus cartas y lamenta ese fracaso.",
+  "notas": "Su belleza era 'sutil como una gema sin cortar — cuanto más la conoces, más la aprecias'. Le dijo a Kaladin que aprendiera a estar presente para los vivos, no solo para los muertos. Brandon Sanderson confirmó que está viva."
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ulim",
+  "nombre": "Ulim",
+  "nombre_completo": "Ulim",
+  "apodos": [
+    "El Enviado (entre los Fusionados)"
+  ],
+  "sexo": "desconocido",
+  "especie": "vacíospren",
+  "nacionalidad": "",
+  "origen": "Braize (escapó a Roshar)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Odium",
+    "Fusionados"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Puede residir en la gema corazón de un cantor sin desplazar al spren que ya había"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Manipulación — guió a Venli paso a paso hacia la creación de la tormenta eterna",
+      "Conocimiento de formas cantoras y vacíospren",
+      "Puede aparecer como relámpago sobre superficies o adoptar forma humanoide roja"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Vacíospren conocido como el Enviado entre los Fusionados",
+      "El que manipuló a Venli para desencadenar la Verdadera Desolación"
+    ],
+    "descripcion": "Aparece en forma humanoide de color rojo, pequeña — cabe en la palma de la mano. Ojos extraños que sugieren etnia shin o posiblemente no rosharian. Pelo largo que ondea como si lo agitara el viento. Cuando está apasionado, su forma parece electrizarse. Al moverse sobre superficies aparece como relámpago rodante. Habla con tono arrogante y malicioso con modismos humanos. Trata a los oyentes como niños y se burla de su guerra. Habla con deferencia ante los Fusionados, de quienes tiene miedo.",
+    "estado_en_viento_y_verdad": "Activo — localización desconocida."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "venli",
+        "relacion": "la manipuló durante años; ella lo detestaba pero lo necesitaba"
+      },
+      {
+        "personaje": "nale",
+        "relacion": "historia previa; Ulim le teme lo suficiente para callarse cuando Nale lo ordena"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Arrogante, malicioso y despreciativo con los oyentes. Deferente y aterrorizado ante los Fusionados. Su único objetivo era facilitar el regreso de los Fusionados.",
+    "evolucion": "Constante — no muestra evolución moral.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Ulim escapó de Braize a Roshar — el único vacíospren en hacerlo. Fue entregado a Venli dentro de una gema por Axindweth. Durante más de ocho años la guió en la investigación de nuevas formas mientras hacía el trabajo real en secreto. La manipuló para que descubriera la forma tormenta. Tras la Batalla de Narak guió a los oyentes supervivientes e instruyó a nueve de ellos — incluyendo a Venli y Demid — sobre cómo abrirse a los Fusionados. En RdG residía en la gema corazón de Venli junto a Timbre — esta lo tenía atrapado.",
+    "puntos_clave": [
+      "Escapó de Braize a Roshar — el único vacíospren en conseguirlo.",
+      "Conocido entre los Fusionados como el Enviado por su papel en su regreso.",
+      "Fue entregado a Venli dentro de una gema por Axindweth.",
+      "Durante más de ocho años la guió en la investigación de nuevas formas — hacía el trabajo real en secreto.",
+      "Aunque Venli se llevaba el crédito, Ulim era el responsable de la mayor parte del trabajo.",
+      "La manipuló para que descubriera y creyera en la forma tormenta.",
+      "Tiene historia previa con Nale — le teme lo suficiente para callarse cuando Nale lo ordena.",
+      "Tras la Batalla de Narak guió a los oyentes supervivientes a reunirse con los Fusionados.",
+      "Instruyó a nueve oyentes — incluyendo a Venli y Demid — sobre cómo abrirse a los Fusionados.",
+      "No tenía compasión por los oyentes — los trataba como peones.",
+      "En RdG residía en la gema corazón de Venli junto a Timbre — Timbre lo tenía atrapado dentro."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Vacíospren activo — atrapado en la gema corazón de Venli por Timbre en RdG",
+    "rol": "Catalizador de la Verdadera Desolación",
+    "relacion_con_spren": "",
+    "otros_detalles": "Puede residir en la gema corazón de un cantor coexistiendo con otro spren — capacidad única entre los vacíospren."
+  },
+  "descripcion_breve": "Vacíospren conocido como el Enviado entre los Fusionados. Manipuló a Venli durante años para desencadenar la Verdadera Desolación. El único vacíospren que escapó de Braize. Atrapado en la gema corazón de Venli por Timbre en RdG.",
+  "notas": "Ulim es el único vacíospren que escapó de Braize a Roshar antes de la tormenta eterna. Su arrogancia con los oyentes contrasta con su deferencia aterrorizada ante los Fusionados."
+}

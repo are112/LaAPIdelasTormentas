@@ -1,0 +1,90 @@
+{
+  "id": "puuli",
+  "nombre": "Puuli",
+  "nombre_completo": "Puuli",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "natanesa",
+  "origen": "Nueva Natanatan, costa oriental de Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "interludio — protagonista",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mantenimiento de faros",
+      "Resistencia — su familia lleva al menos tres generaciones manteniendo el faro Desafío"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guardián del faro Desafío en la costa oriental de Roshar",
+      "El que espera a los marineros perdidos que llegarán desde el Origen"
+    ],
+    "descripcion": "Hombre natano bajo y encorvado, de piel azul y pelo blanco. Robusto y resistente — su familia es como el faro: baja, corta pero poderosa y duradera. Amigo de casi todos en la ciudad aunque a veces oculta sus verdaderos sentimientos. Adora principalmente a Kelek y le deja ofrendas de fruta. Usa el nombre de Kelek indistintamente con el del Padre Tormenta — cree que Kelek vive en la alta tormenta. Escéptico ante la forma en que los ricos gastan su dinero. Partidario del trabajo duro y las tradiciones.",
+    "estado_en_viento_y_verdad": "Activo en su faro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "abuelo de Puuli",
+        "relacion": "le contó las leyendas sobre los marineros perdidos que vendrán desde el Origen"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "Sakin",
+        "relacion": "habitante de la ciudad con quien habla sobre la tormenta eterna"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Tranquilo, filosófico y esperanzador. La llegada de la tormenta eterna lo entristeció en parte pero también lo llenó de esperanza secreta — creía que era la señal que su abuelo le había descrito.",
+    "evolucion": "Sin arco propio — su interludio es un momento único de perspectiva periférica.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Puuli es el guardián del faro Desafío en la costa oriental de Roshar, al borde del Océano de los Orígenes. Su abuelo le contó leyendas de marineros perdidos que vivían en una isla oculta cerca del Origen — se predijo que regresarían cuando la noche fuera más oscura con luz en los bolsillos. La tormenta eterna destruyó barcos y casas — Puuli recogió la madera como siempre. En secreto se alegró de la tormenta. Mantiene el faro encendido esperando a los que vendrán desde el Origen.",
+    "puntos_clave": [
+      "Guardián del faro Desafío en la costa oriental de Roshar, frente al Océano de los Orígenes.",
+      "El faro lleva al menos tres generaciones en su familia.",
+      "Le llama Desafío al faro.",
+      "Su abuelo le contó leyendas de marineros perdidos en una isla oculta cerca del Origen.",
+      "La profecía: regresarán cuando la noche sea más oscura, con luz en los bolsillos, desde el Origen.",
+      "La tormenta eterna destruyó barcos y casas — Puuli recogió la madera como siempre.",
+      "En secreto se alegró de la tormenta — creía que era la señal que su abuelo describió.",
+      "Cuando habló con Sakin sobre la tragedia, fingió tristeza mientras en su interior sentía esperanza.",
+      "Mantiene el faro encendido esperando a los que vendrán."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardián del faro Desafío",
+    "rol": "Figura periférica que apunta hacia misterios mayores de la saga",
+    "relacion_con_spren": "",
+    "otros_detalles": "La profecía de su abuelo — 'Vendrán con luz en los bolsillos' — puede referirse a Caballeros Radiantes con luz tormentosa. Su interludio apunta hacia eventos del arco posterior de la saga."
+  },
+  "descripcion_breve": "Guardián del faro Desafío en la costa oriental de Roshar. Natano bajo y encorvado de piel azul. Espera a los marineros perdidos que vendrán desde el Origen con luz en los bolsillos, según la profecía de su abuelo.",
+  "notas": "La profecía de su abuelo — 'Vendrán con luz en los bolsillos desde el Origen' — es uno de los misterios menores de la saga. Puede referirse a los Caballeros Radiantes o a algo más relacionado con los libros posteriores. Adora a Kelek, a quien confunde con el Padre Tormenta."
+}

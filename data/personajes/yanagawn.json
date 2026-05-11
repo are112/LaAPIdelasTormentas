@@ -1,0 +1,130 @@
+{
+  "id": "yanagawn",
+  "nombre": "Yanagawn",
+  "nombre_completo": "Yanagawn el Primero",
+  "apodos": [
+    "Gawx (nombre original; usado por Lift)",
+    "Supremo Aqasix"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azimir, Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "interludio — protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Imperio Azishiano",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Injuramentados",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Xorm (anteriormente ojumuerto)"
+    },
+    "estado_del_vinculo": "Activo. Yanagawn se convirtió en Injuramentado vinculándose con Xorm, un spren anteriormente ojumuerto. Tiene hoja y armadura esquirladas vinculadas que pueden volver a crecer."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política azishiana — aprendida desde cero tras convertirse en Supremo",
+      "Habla alezi — no con total fluidez; prepara sus discursos",
+      "Habla thayleño",
+      "Estrategia — aprendida jugando a torres con Adolin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Supremo Aqasix Yanagawn el Primero, Emperador de Makabak",
+      "Antiguo ladrón callejero conocido como Gawx",
+      "Injuramentado — vinculado con Xorm"
+    ],
+    "descripcion": "Joven azishiano elegido como Supremo de forma inesperada mientras intentaba robar el Palacio Real. Lift lo salvó de la muerte y los visires lo proclamaron Supremo por considerarlo un milagro. Porta traje de gala con elaborados ropajes y tocado imperial. Lleva un trono muy adornado con patrones azishianos a las reuniones. Con el tiempo ha dejado de sobresaltarse cuando alguien le llama 'Su Majestad'. Lift le llama Gawx — él lo tolera.",
+    "estado_en_viento_y_verdad": "Activo. Participa en los eventos del duelo de campeones."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Huqin",
+        "relacion": "tío; le llevó al palacio a robar la noche que se convirtió en Supremo"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "lift",
+        "relacion": "la que lo salvó; le llama Gawx; él tolera el apodo"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "aliado en Azimir durante las batallas; juegan a torres juntos"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "aliado de la coalición; Yanagawn desconfiaba de él por ser alezi"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "su ensayo fue el que más convenció a Yanagawn y sus visires"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Joven que creció muy rápido. Ha dejado atrás al ladrón asustado — pero no ha olvidado sus orígenes. Perspicaz y más sabio de lo que aparenta.",
+    "evolucion": "Pasó de ladrón callejero aterrorizado a Supremo competente y aliado de la coalición. Con el tiempo se convirtió en Injuramentado.",
+    "situacion_en_viento_y_verdad": "Activo. Participa en el duelo de campeones."
+  },
+  "arco_narrativo": {
+    "resumen": "Gawx era un ladrón callejero que fue al Palacio Real con su tío Huqin a robar durante la crisis de sucesión. Fue herido de gravedad por un agente de Nale. Lift lo salvó con Abrasión y curación. Los visires lo proclamaron Supremo al considerarlo un milagro divino. Renombrado como Yanagawn el Primero. Dalinar lo contactó para la coalición. Inicialmente reticente — veía a los alezi como imperialistas. Las visiones del Padre Tormenta y la presencia de Lift le convencieron. Se convirtió en Injuramentado vinculándose con Xorm.",
+    "puntos_clave": [
+      "Era un ladrón callejero conocido como Gawx.",
+      "Fue al Palacio Real con su tío Huqin a robar durante la crisis de sucesión.",
+      "Herido de gravedad por un agente de Nale.",
+      "Lift lo salvó con sus poderes de Abrasión y curación — los visires lo vieron como un milagro.",
+      "Los visires y esciones lo proclamaron Supremo Aqasix Yanagawn el Primero.",
+      "Renombrado — Lift considera que Gawx era un nombre tonto para un emperador.",
+      "Dalinar lo contactó para la coalición — Yanagawn lo rechazó inicialmente.",
+      "Desconfiaba de Dalinar por ser alezi y por la historia imperialista del Hacedor de Soles.",
+      "Las visiones del Padre Tormenta y la presencia de Lift le convencieron.",
+      "Fue el primero en llegar a Urithiru con su trono adornado y representantes de reinos sometidos.",
+      "Se convirtió en Injuramentado vinculándose con Xorm, un spren anteriormente ojumuerto.",
+      "Combatió en Azimir junto a Adolin durante los eventos de VyV.",
+      "Participó en los eventos del duelo de campeones."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Supremo Aqasix Yanagawn el Primero, Emperador de Makabak",
+    "rol": "Líder del Imperio Azishiano; aliado de la coalición; Injuramentado",
+    "relacion_con_spren": "Vinculado con Xorm, anteriormente ojumuerto.",
+    "otros_detalles": "Lift lo sigue llamando Gawx — él lo tolera. Habla alezi y thayleño. Prepara sus discursos antes de las reuniones de la coalición."
+  },
+  "descripcion_breve": "Supremo Aqasix Yanagawn el Primero, antiguo ladrón callejero que fue proclamado Supremo tras ser salvado por Lift. Aliado de la coalición. Injuramentado vinculado con Xorm. Lift le llama Gawx.",
+  "notas": "Su nombre completo oficial: 'Su Majestad Imperial Ch.V.D. Yanagawn el Primero, Emperador de Makabak, Rey de Azir, Señor del Palacio de Bronce, Supremo Aqasix, Gran Ministro y Emisario de Yaezir'. El proceso de elección azishiano consiste en ensayos — pero Yanagawn fue elegido por 'milagro divino'."
+}

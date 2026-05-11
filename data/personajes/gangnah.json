@@ -1,0 +1,97 @@
+{
+  "id": "gangnah",
+  "nombre": "Gangnah",
+  "nombre_completo": "Gangnah",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Consejo de los Cinco de los oyentes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo político — miembro del Consejo de los Cinco"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Consejo de los Cinco de los oyentes",
+      "Una de los tres que se quedaron para atribuirse el asesinato de Gavilar"
+    ],
+    "descripcion": "Oyente miembro del Consejo de los Cinco. Una de las tres que se quedaron en Kholinar tras el asesinato de Gavilar para atribuirse el crimen ante los alezi mientras el resto de su pueblo huía. Habló con Jasnah tras el asesinato — reconoció que habría guerra y no intentó evitarla. Fue ejecutada colgada junto a Klade y Varnali.",
+    "estado_en_viento_y_verdad": "Fallecida — ejecutada por los alezi."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "klade",
+        "relacion": "compañero del Consejo de los Cinco; ejecutado junto a ella"
+      },
+      {
+        "personaje": "varnali",
+        "relacion": "compañera del Consejo de los Cinco; ejecutada junto a ella"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "jasnah",
+        "relacion": "Jasnah habló con ella tras el asesinato; Gangnah reconoció que habría guerra sin protestar"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Tomó una decisión política extrema con plena consciencia de las consecuencias. Aceptó su destino sin protestar.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Gangnah era miembro del Consejo de los Cinco de los oyentes. Tras el asesinato de Gavilar, se quedó en Kholinar con Klade y Varnali para atribuirse el crimen mientras el resto huía. Habló con Jasnah — reconoció que habría guerra. Fue ejecutada colgada junto a Klade y Varnali.",
+    "puntos_clave": [
+      "Miembro del Consejo de los Cinco de los oyentes.",
+      "Tras el asesinato de Gavilar, se quedó con Klade y Varnali para atribuirse el crimen.",
+      "Habló con Jasnah — reconoció que habría guerra sin intentar evitarla.",
+      "Permaneció en silencio incluso cuando los alezi las tomaron en custodia.",
+      "Fue ejecutada colgada junto a Klade y Varnali.",
+      "Su sacrificio dio tiempo a los demás oyentes de escapar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — ejecutada por los alezi",
+    "rol": "Miembro del Consejo de los Cinco; su sacrificio cubrió la huida de los demás oyentes",
+    "relacion_con_spren": "",
+    "otros_detalles": "Ejecutada junto a Klade y Varnali tras atribuirse el asesinato de Gavilar."
+  },
+  "descripcion_breve": "Miembro del Consejo de los Cinco de los oyentes. Junto a Klade y Varnali se quedó en Kholinar para atribuirse el asesinato de Gavilar, cubriendo la huida de su pueblo. Ejecutada colgada por los alezi.",
+  "notas": "Su sacrificio — junto al de Klade y Varnali — fue deliberado. Sabían que serían ejecutadas. Su conversación con Jasnah tras el asesinato es uno de los momentos más tensos del prólogo de Palabras Radiantes."
+}
