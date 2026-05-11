@@ -248,6 +248,14 @@
     "especie": "humano"
   },
   {
+    "id": "gangnah",
+    "nombre": "Gangnah",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "cantor"
+  },
+  {
     "id": "gavilar",
     "nombre": "Gavilar",
     "orden": "Ninguna",
@@ -712,6 +720,14 @@
     "especie": "humano"
   },
   {
+    "id": "puuli",
+    "nombre": "Puuli",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "rabeniel",
     "nombre": "Rabeniel",
     "orden": "Ninguna",
@@ -872,6 +888,14 @@
     "especie": "humano"
   },
   {
+    "id": "tarah",
+    "nombre": "Tarah",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "taravangian",
     "nombre": "Taravangian",
     "orden": "Ninguna",
@@ -976,12 +1000,28 @@
     "especie": "humano"
   },
   {
+    "id": "ulim",
+    "nombre": "Ulim",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "activo",
+    "especie": "vacíospren"
+  },
+  {
     "id": "vamah",
     "nombre": "Vamah",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
+  },
+  {
+    "id": "varnali",
+    "nombre": "Varnali",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "cantor"
   },
   {
     "id": "vathah",
@@ -1027,6 +1067,14 @@
     "id": "yalb",
     "nombre": "Yalb",
     "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "yanagawn",
+    "nombre": "Yanagawn",
+    "orden": "Injuramentados",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
