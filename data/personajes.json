@@ -256,6 +256,14 @@
     "especie": "humano"
   },
   {
+    "id": "elit",
+    "nombre": "Elit",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "ellista",
     "nombre": "Ellista",
     "orden": "Ninguna",
@@ -360,6 +368,14 @@
     "especie": "humano"
   },
   {
+    "id": "ghenna",
+    "nombre": "Ghenna",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "godeke",
     "nombre": "Godeke",
     "orden": "Danzantes del Filo",
@@ -373,6 +389,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "halam_khal",
+    "nombre": "Halam Khal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
@@ -446,6 +470,14 @@
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "humano"
+  },
+  {
+    "id": "ico",
+    "nombre": "Ico",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "alcanzador"
   },
   {
     "id": "ilamar",
@@ -776,6 +808,14 @@
     "especie": "humano"
   },
   {
+    "id": "notum",
+    "nombre": "Notum",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "honorspren"
+  },
+  {
     "id": "noura",
     "nombre": "Noura",
     "orden": "Ninguna",
@@ -835,6 +875,14 @@
     "id": "renarin",
     "nombre": "Renarin",
     "orden": "Vigilantes de la Verdad",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "resi",
+    "nombre": "Resi",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
@@ -984,6 +1032,14 @@
     "especie": "humano"
   },
   {
+    "id": "tag",
+    "nombre": "Tag",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "tanalan",
     "nombre": "Tanalan",
     "orden": "Ninguna",
@@ -997,6 +1053,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "taran",
+    "nombre": "Taran",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
     "especie": "humano"
   },
   {
@@ -1206,5 +1270,13 @@
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
+  },
+  {
+    "id": "zuln",
+    "nombre": "Zuln",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "cantor"
   }
 ]
