@@ -326,5 +326,21 @@
     "tipo_spren": "honorspren",
     "radiante_vinculado": "leyten",
     "estado_actual": "activa"
+  },
+  {
+    "id": "composicion",
+    "nombre": "Composición",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "rojo",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "xorm",
+    "nombre": "Xorm",
+    "apodo": null,
+    "tipo_spren": "cultivacispren (anteriormente ojomuerto)",
+    "radiante_vinculado": "yanagawn",
+    "estado_actual": "activo"
   }
 ]
