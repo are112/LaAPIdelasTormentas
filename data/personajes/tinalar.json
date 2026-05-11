@@ -1,0 +1,84 @@
+{
+  "id": "tinalar",
+  "nombre": "Tinalar",
+  "nombre_completo": "Tinalar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelos esquirlados — portador de hoja (sin armadura)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "El primer rival de duelo de Adolin",
+      "El que le dio a Adolin su primera hoja esquirlada — Mayalaran"
+    ],
+    "descripcion": "Brillante señor alezi que desafió a Adolin cuando este era joven, esperando humillar a Dalinar y ganar una hoja. Tinalar no tenía armadura y Adolin no tenía hoja — un duelo inusual. Adolin ganó, obteniendo la hoja de Tinalar — que más tarde se identificaría como Mayalaran.",
+    "estado_en_viento_y_verdad": "Activo — sin hoja esquirlada."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "perdió ante él siendo Adolin joven; le dio su primera hoja"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "quería humillarlo desafiando a su hijo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Arrogante — creyó que podría humillar a Dalinar a través de su hijo joven.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Tinalar desafió a Adolin cuando este era joven con la esperanza de humillar a Dalinar y ganar una hoja. Ninguno tenía armadura — Tinalar portaba hoja y Adolin no tenía ninguna. Adolin ganó el duelo y obtuvo la hoja de Tinalar — que más tarde se identificaría como Mayalaran, el nombre que Adolin le puso.",
+    "puntos_clave": [
+      "Desafió a Adolin cuando era joven esperando humillar a Dalinar.",
+      "El duelo fue inusual — Tinalar tenía hoja pero no armadura; Adolin no tenía hoja.",
+      "Adolin ganó el duelo.",
+      "Tinalar perdió su hoja ante Adolin — identificada más tarde como Mayalaran.",
+      "Esta fue la primera hoja esquirlada de Adolin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Brillante señor alezi — sin hoja esquirlada",
+    "rol": "Primer rival de duelo de Adolin; el que le dio su primera hoja",
+    "relacion_con_spren": "",
+    "otros_detalles": "La hoja que perdió ante Adolin era Mayalaran — el nombre lo puso Adolin más tarde."
+  },
+  "descripcion_breve": "El primer rival de duelo de Adolin. Desafió al joven Adolin esperando humillar a Dalinar. Perdió su hoja — que Adolin llamaría Mayalaran. Esta fue la primera hoja esquirlada de Adolin.",
+  "notas": "La hoja que Tinalar perdió ante Adolin es Mayalaran — el ojomuerto cuya historia se desarrolla en el arco de Adolin en Juramentada y El Ritmo de la Guerra."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "tigzikk",
+  "nombre": "Tigzikk",
+  "nombre_completo": "Tigzikk",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azimir, Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Banda de ladrones de Huqin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Reclutamiento — fue quien reclutó a Lift para el robo del palacio"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro de la banda de ladrones de Huqin",
+      "El que reclutó a Lift para el robo del Palacio de Bronce"
+    ],
+    "descripcion": "Miembro de la banda de ladrones de Huqin en Azimir. Fue el responsable de reclutar a Lift para el trabajo en el Palacio de Bronce — Huqin fue escéptico pero la aceptó. Poco más se sabe de Tigzikk.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "huqin",
+        "relacion": "líder de la banda; Huqin fue escéptico cuando Tigzikk reclutó a Lift"
+      },
+      {
+        "personaje": "lift",
+        "relacion": "la reclutó para el robo del palacio"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Tigzikk era miembro de la banda de Huqin. Reclutó a Lift para el robo del Palacio de Bronce durante la crisis de sucesión del Supremo. Huqin fue escéptico. La participación de Lift resultó en el caos y la proclamación de Gawx como Supremo. Destino de Tigzikk desconocido.",
+    "puntos_clave": [
+      "Miembro de la banda de ladrones de Huqin en Azimir.",
+      "Reclutó a Lift para el robo del Palacio de Bronce.",
+      "Huqin fue escéptico pero aceptó a Lift cuando Tigzikk la presentó.",
+      "Destino desconocido tras el caos del robo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ladrón — destino desconocido",
+    "rol": "El que reclutó a Lift para el robo que convirtió a Gawx en Supremo",
+    "relacion_con_spren": "",
+    "otros_detalles": "La información disponible sobre Tigzikk es muy limitada."
+  },
+  "descripcion_breve": "Miembro de la banda de Huqin que reclutó a Lift para el robo del Palacio de Bronce. Su participación indirecta convirtió a Gawx en Supremo.",
+  "notas": "La información disponible sobre Tigzikk es muy limitada. Fue el punto de contacto entre Huqin y Lift."
+}

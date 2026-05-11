@@ -1,0 +1,84 @@
+{
+  "id": "erraniv",
+  "nombre": "Erraniv",
+  "nombre_completo": "Erraniv",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelos esquirlados — portador de armadura esquirlada; blandió la hoja antigua de Gavilar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portador de armadura esquirlada en las Llanuras",
+      "El duelista que Sadeas no consiguió sobornar"
+    ],
+    "descripcion": "Brillante señor alezi portador de armadura esquirlada. Armadura de color natural con coraza pintada de negro intenso. Consideraba que su rango era demasiado bajo para que Sadeas se molestara en sobornarlo — por eso aceptó el duelo con Adolin. Blandió Tormenta de Fuego, la antigua hoja de Gavilar. Cuando perdió, salió furioso del campo gritando sobre la suerte de Adolin.",
+    "estado_en_viento_y_verdad": "Activo — sin armadura esquirlada."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "perdió su armadura ante él; salió furioso acusando a Adolin de tener suerte"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Orgulloso. No aceptó bien la derrota — la atribuyó a la suerte de Adolin.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Sadeas sobornaba a los portadores de esquirlada para que no duelearan con Adolin. Erraniv creía que su rango era demasiado bajo para que Sadeas se molestara — aceptó el desafío de Adolin sugerido por Jakamav. En el duelo blandió Tormenta de Fuego — la antigua hoja de Gavilar. Adolin fingió luchar muy por debajo de sus capacidades para parecer vulnerable. Le derrotó con un golpe de apariencia afortunada. Erraniv salió furioso del campo gritando sobre la suerte de Adolin. Perdió su armadura esquirlada.",
+    "puntos_clave": [
+      "Portador de armadura esquirlada en las Llanuras — armadura natural con coraza negra intensa.",
+      "Sadeas sobornaba a portadores para que no duelearan con Adolin — Erraniv creyó que su rango era demasiado bajo para ser sobornado.",
+      "Jakamav le sugirió a Adolin que desafiara a Erraniv.",
+      "Blandió Tormenta de Fuego — la antigua hoja de Gavilar.",
+      "Adolin luchó muy por debajo de sus capacidades para parecer vulnerable.",
+      "Sadeas observó que Adolin se contenía deliberadamente.",
+      "Adolin lo derrotó con un golpe de apariencia afortunada.",
+      "Erraniv salió furioso gritando sobre la suerte de Adolin.",
+      "Perdió su armadura esquirlada ante Adolin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Brillante señor alezi — sin armadura esquirlada",
+    "rol": "Rival de duelo de Adolin; el que Sadeas no consiguió sobornar",
+    "relacion_con_spren": "",
+    "otros_detalles": "La armadura de Erraniv fue incluida en las cinco esquirladas que Adolin ofreció a Relis — y luego a Elit."
+  },
+  "descripcion_breve": "Portador de armadura esquirlada que aceptó duelo con Adolin porque creyó que su rango era demasiado bajo para que Sadeas lo sobornara. Perdió su armadura. Salió furioso gritando sobre la suerte de Adolin.",
+  "notas": "Blandió Tormenta de Fuego — la antigua hoja de Gavilar. Adolin fingió deliberadamente luchar por debajo de sus capacidades para parecer vulnerable. La armadura de Erraniv fue parte de las cinco esquirladas ofrecidas a Relis."
+}

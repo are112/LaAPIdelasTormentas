@@ -1,0 +1,93 @@
+{
+  "id": "hauka",
+  "nombre": "Hauka",
+  "nombre_completo": "Hauka",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Yeddaw, Tashikk",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario — interludio",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de Yeddaw"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Inspección de aduanas e inmigración — capitana de la guardia de entrada",
+      "Burocracia azishiana — aprecia los formularios y los procedimientos",
+      "Persecución — casi capturó a Lift varias veces"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitana de la guardia de Yeddaw",
+      "La única capítulo con PDV propio en Danzante del Filo que no es Lift"
+    ],
+    "descripcion": "Mujer azishiana que viste uniforme de guardia completo — botas, pantalones, gorra y coraza. Capa con los patrones de su familia y estudios. Dedicada y pragmática. Aprecia la burocracia azishiana. Se sentía perdida antes de hablar con Arclo — le preguntó cómo decidir qué hacer cuando el mundo se vuelve extraño. Es el único personaje con PDV propio en Danzante del Filo además de Lift.",
+    "estado_en_viento_y_verdad": "Activa en Yeddaw."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "lift",
+        "relacion": "intentó capturarla varias veces sin éxito; terminó respetándola"
+      },
+      {
+        "personaje": "nale",
+        "relacion": "Nale la interrogó en su apartamento sobre el encuentro con Lift"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Dedicada y pragmática. La llegada de la tormenta eterna la hizo cuestionar su propósito. Su conversación con Arclo fue reveladora.",
+    "evolucion": "Pasó de intentar capturar a Lift a terminar respetándola.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Hauka fue la capitana de guardia que encontró a Lift al entrar a Yeddaw. Lift usó deliberadamente sus poderes ante Hauka para que escribiera un informe — así Nale la encontraría y Lift podría observarlo. Hauka escribió el informe; Nale la interrogó en su apartamento. Hauka emitió una orden de búsqueda. Cuando Lift llegó al Gran Indicium, Hauka la tenía acorralada — pero una vinculacañas de Azimir confirmó que Lift operaba bajo autoridad del Supremo. Hauka informó de la estafa de esferas de la Tocona. Al salir Lift de la ciudad, le lanzó un panqueque aplastado como pago de su deuda.",
+    "puntos_clave": [
+      "Capitana de guardia de Yeddaw — inspecciona inmigración y contrabando.",
+      "Lift usó sus poderes deliberadamente ante ella para que escribiera un informe y Nale la encontrara.",
+      "Hauka escribió el informe y Nale la interrogó en su apartamento — Lift los escuchó desde el tejado.",
+      "Nale le ordenó vigilar a Lift y reportar si la veía de nuevo.",
+      "Hauka emitió una orden de búsqueda en toda la ciudad.",
+      "Cuando Lift intentó entrar al Gran Indicium, Hauka la acorralaba cuando llegó confirmación del Supremo Aqasix.",
+      "Informó a los escribas que la Tocona llevaba a cabo una estafa de esferas.",
+      "Preguntó a Arclo cómo decidir qué hacer cuando el mundo se vuelve extraño — se sentía perdida.",
+      "Lift le lanzó un panqueque aplastado al salir de la ciudad — pago de su deuda.",
+      "Tiene un capítulo con PDV propio en Danzante del Filo — única junto a Lift."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Capitana de la guardia de Yeddaw",
+    "rol": "Guardiana que Lift usó como herramienta para encontrar a Nale",
+    "relacion_con_spren": "",
+    "otros_detalles": "Es el único personaje con PDV propio en Danzante del Filo además de Lift. Su conversación con Arclo fue una de las más filosóficas de la novela."
+  },
+  "descripcion_breve": "Capitana de la guardia de Yeddaw. Lift la usó deliberadamente para atraer a Nale. Aprecia la burocracia azishiana. Preguntó a Arclo cómo encontrar su propósito. Único PDV no-Lift en Danzante del Filo.",
+  "notas": "Lift le lanzó un panqueque aplastado al salir de la ciudad — la única forma que tenía de pagar su deuda con ella."
+}

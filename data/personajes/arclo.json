@@ -1,0 +1,103 @@
+{
+  "id": "arclo",
+  "nombre": "Arclo",
+  "nombre_completo": "Arclomedarian",
+  "apodos": [
+    "Arclo"
+  ],
+  "sexo": "desconocido",
+  "especie": "Insomne (dysian aimiano)",
+  "nacionalidad": "",
+  "origen": "Aimia (miles de años de antigüedad)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Transformación corporal — puede adoptar forma humana convincente mediante hordelinas especializadas"
+      ],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Cría de hordelinas especializadas — lleva miles de años perfeccionando su cuerpo",
+      "Filosofía — conversador profundo e insistente",
+      "Memoria ilimitada — puede criar hordelinas nuevas con memoria extra cuando su mente se llena",
+      "Mató a dos aprendices de Rompedores del Cielo por medios desconocidos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Insomne dysian aimiano de miles de años de antigüedad",
+      "El viejo filósofo del orfanato de Yeddaw",
+      "Uno de los cuatro Insomnes que no obedecen al primer enjambre de Roshar"
+    ],
+    "descripcion": "Aparece como un anciano con shiqua negro y bigote gris. En realidad es un enjambre de hordelinas — criaturas similares a crémlings — que forman su cuerpo. Puede pasar por humano casi tan bien como un siah aimiano pero algo siempre delata su naturaleza al observarlo de cerca. Lleva miles de años criando hordelinas especializadas pero todavía no consigue que encajen del todo. Sus ojos extra le permiten ver desde múltiples puntos. Sus antenas le permiten oír y saborear. Es filósofo insistente — preguntó a Lift qué parte del cuerpo sería si la ciudad fuera una criatura.",
+    "estado_en_viento_y_verdad": "Activo en Tashikk."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "lift",
+        "relacion": "le preguntó qué parte sería de una ciudad-criatura; la guió hacia La Tocona; la encuentra fascinante"
+      },
+      {
+        "personaje": "arshqqam",
+        "relacion": "le asesoró no juzgarla demasiado; dijo que es difícil ser quien maneja los problemas de todos"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Filósofo profundo con miles de años de perspectiva. Cree que los humanos en una ciudad son cada uno parte de un organismo mayor que no pueden ver — como las hordelinas que lo componen.",
+    "evolucion": "Sin arco propio — su constante es la filosofía y la observación.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Arclo se sentaba en los bancos fuera del orfanato de Yeddaw haciéndose pasar por un viejo filósofo. Habló varias veces con Lift. Cuando los aprendices de Nale fueron a buscar al otro Radiante creyendo que era Arclo, este los mató por medios desconocidos. Reveló su verdadera forma a Lift en el callejón. La guió para que concluyera que La Tocona era la verdadera potenciadora. Los otros Insomnes lo han excluido de sus comunicaciones por mezclarse con los nuevos Radiantes.",
+    "puntos_clave": [
+      "Insomne de miles de años — estuvo vivo antes de la Última Desolación.",
+      "Se presenta como anciano filósofo en los bancos del orfanato de Yeddaw.",
+      "Preguntó a Lift qué parte del cuerpo sería si la ciudad fuera una criatura.",
+      "Le aconsejó no juzgar a La Tocona con demasiada dureza.",
+      "Los aprendices de Nale lo tomaron por el Radiante que buscaban — Arclo los mató por medios desconocidos.",
+      "Reveló su verdadera forma — enjambre de hordelinas — a Lift en el callejón.",
+      "La guió para que concluyera que La Tocona era la verdadera potenciadora.",
+      "Afirmó que los Radiantes antiguos lo nombraron amigo y aliado antes de que todo saliera mal.",
+      "Los otros Insomnes lo han excluido de sus comunicaciones por sus 'intromisiones'.",
+      "No es considerado un traidor — simplemente un disidente.",
+      "Puede criar hordelinas nuevas con memoria extra cuando su mente se llena."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Insomne residente en Tashikk — filósofo y observador",
+    "rol": "Figura filosófica que guió a Lift hacia La Tocona",
+    "relacion_con_spren": "",
+    "otros_detalles": "Excluido de las comunicaciones de los otros Insomnes por mezclarse con los nuevos Radiantes. No obedece a Yelamaiszin el Primero, líder de la mayoría de los Insomnes en Roshar."
+  },
+  "descripcion_breve": "Insomne dysian aimiano de miles de años que se presentaba como viejo filósofo en Yeddaw. Guió a Lift hacia La Tocona. Los Radiantes antiguos lo nombraron amigo. Excluido de los otros Insomnes por mezclarse con los nuevos Radiantes.",
+  "notas": "Su nombre completo es Arclomedarian. Los otros Insomnes lo han excluido de sus comunicaciones por sus intromisiones con los nuevos Radiantes. No es considerado traidor — simplemente un disidente. Puede criar hordelinas especializadas en memoria cuando la suya se llena."
+}

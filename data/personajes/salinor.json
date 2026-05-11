@@ -1,0 +1,88 @@
+{
+  "id": "salinor",
+  "nombre": "Salinor",
+  "nombre_completo": "Salinor Eved",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Principado de Thanadal"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelos esquirlados — portador de hoja del principado de Thanadal",
+      "Postura del Fuego — su postura en el duelo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portador de hoja esquirlada del principado de Thanadal",
+      "El que perdió su hoja ante Adolin en un duelo brutalmente unilateral"
+    ],
+    "descripcion": "Brillante señor alezi del principado de Thanadal. Solo portaba hoja esquirlada — para el duelo tomó prestada la armadura gris pizarra del rey sin ornamentos. Se jactaba de su habilidad en los duelos. Jakamav lo sugirió como objetivo precisamente por esa jactancia. Inicialmente se negó a entregar su hoja tras perder — Adolin tuvo que amenazarlo.",
+    "estado_en_viento_y_verdad": "Activo — sin hoja esquirlada."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "lo derrotó en menos de un minuto en un duelo brutalmente unilateral"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Arrogante por sus supuestas habilidades. La derrota lo dejó humillado.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Salinor era conocido por jactarse de sus habilidades en los duelos. Jakamav lo sugirió como objetivo a Adolin. Para conseguir que aceptara, Adolin tuvo que apostar su armadura y hoja contra solo la hoja de Salinor. En el duelo Salinor usó la postura del Fuego; Adolin cambió a la postura del Hierro. En menos de un minuto, Adolin lo aplastó físicamente — pisoteó su yelmo y coraza. Salinor se negó a entregar la hoja; Adolin lo amenazó. Adolin cedió la hoja a Renarin. Salinor acusó a Adolin de hacer trampa pero la alta jueza Istow le dio la victoria.",
+    "puntos_clave": [
+      "Portador de hoja del principado de Thanadal — se jactaba de sus habilidades.",
+      "Jakamav lo sugirió a Adolin como objetivo precisamente por esa jactancia.",
+      "Para conseguir que aceptara el duelo, Adolin tuvo que apostar armadura y hoja contra solo su hoja.",
+      "Tomó prestada la armadura gris pizarra del rey sin ornamentos.",
+      "Usó la postura del Fuego; Adolin cambió a la postura del Hierro.",
+      "Adolin sintió la Emoción durante el duelo — la primera vez.",
+      "Adolin lo aplastó en menos de un minuto — pisoteó su yelmo y coraza.",
+      "Salinor inicialmente se negó a entregar la hoja — Adolin lo amenazó.",
+      "La alta jueza Istow dio la victoria a Adolin aunque Salinor lo acusó de hacer trampa.",
+      "Adolin cedió la hoja a Renarin — le hizo un portador de esquirlada completo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Brillante señor del principado de Thanadal — sin hoja esquirlada",
+    "rol": "Rival de duelo de Adolin que perdió su hoja",
+    "relacion_con_spren": "",
+    "otros_detalles": "Adolin pensó que vencer a Salinor animaría a otros portadores a duelo — resultó no ser el caso."
+  },
+  "descripcion_breve": "Portador de hoja del principado de Thanadal conocido por su jactancia. Derrotado por Adolin en menos de un minuto en un duelo físicamente brutal. La hoja ganada pasó a Renarin.",
+  "notas": "Adolin sintió la Emoción por primera vez durante este duelo. La alta jueza Istow interrumpió la pelea por el estilo no tradicional de Adolin — pero le dio la victoria."
+}
