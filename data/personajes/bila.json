@@ -1,0 +1,104 @@
+{
+  "id": "bila",
+  "nombre": "Bila",
+  "nombre_completo": "Bila",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "División personal de Eshonai",
+    "Consejo de los Cinco de los oyentes (tras Narak)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate en forma de guerra — guerrera de la división personal de Eshonai",
+      "Liderazgo — miembro del Consejo de los Cinco tras Narak"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guerrera de la división personal de Eshonai",
+      "Pareja de guerra de Thude",
+      "Miembro del Consejo de los Cinco tras Narak"
+    ],
+    "descripcion": "Oyente guerrera en forma de guerra, pareja de guerra de Thude en la división personal de Eshonai. Pragmática y centrada en el combate — no le importan los orígenes oyentes ni la historia; su única preocupación es si la forma tormenta les permitirá matar más humanos. Directa hasta la insubordinación. Pasó dos semanas en forma carnal con Thude. Lideró la huida a los abismos junto a Thude. Fue uno de los Cinco nuevos tras Narak.",
+    "estado_en_viento_y_verdad": "Activa en el asentamiento oyente independiente."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "thude",
+        "relacion": "pareja de guerra; también pareja carnal durante dos semanas; Thude planea emparejarse con ella"
+      },
+      {
+        "personaje": "eshonai",
+        "relacion": "su comandante; parte de su división personal; Bila a veces llegó al punto de la insubordinación con ella"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "la trató con desconfianza cuando llegó al asentamiento; le impidió a Thude tocar el líquido peligroso"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Completamente pragmática respecto a la guerra. No le importan los orígenes oyentes ni la historia — solo el resultado en el campo de batalla. Directa y sin filtros.",
+    "evolucion": "Pasó de guerrera centrada en el combate a miembro del Consejo de los Cinco y líder del pueblo oyente superviviente.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Bila era guerrera de la división personal de Eshonai y pareja de guerra de Thude. Cuando Eshonai les mostró la gema con la forma tormenta, Bila fue escéptica pero dispuesta si les ayudaba a matar humanos. Casi llegó a la insubordinación hasta que Thude intervino con comida. Pasó dos semanas en forma carnal con Thude. Se negó a adoptar la forma tormenta y huyó a los abismos con Thude. Fue designada al Consejo de los Cinco. Participó en la reunión con Venli cuando llegó al asentamiento.",
+    "puntos_clave": [
+      "Guerrera de la división personal de Eshonai — pareja de guerra de Thude.",
+      "Pragmática — no le importan los orígenes oyentes ni su historia.",
+      "Cuando Eshonai presentó la forma tormenta, Bila fue escéptica pero dijo que no tenía reparos en tomar formas de poder si le ayudaban a matar humanos.",
+      "Casi llegó al punto de la insubordinación discutiendo con Eshonai — Thude intervino ofreciendo comida.",
+      "Pasó dos semanas en forma carnal con Thude — Thude planeaba emparejarse con ella.",
+      "Se negó a adoptar la forma tormenta — huyó a los abismos con Thude y el resto de la división.",
+      "Sobrevivió en los abismos con los otros disidentes.",
+      "Fue designada al Consejo de los Cinco tras Narak.",
+      "Trató a Venli con desconfianza cuando llegó al asentamiento.",
+      "Impidió que Thude tocara el líquido peligroso en las mesetas centrales.",
+      "Designó a alguien como sustituto antes de ir a las mesetas centrales por si no regresaba."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Miembro del Consejo de los Cinco de los oyentes; guerrera",
+    "rol": "Figura de liderazgo en el asentamiento oyente independiente",
+    "relacion_con_spren": "",
+    "otros_detalles": "Thude planea emparejarse con ella. Están vinculados como pareja de guerra."
+  },
+  "descripcion_breve": "Guerrera oyente de la división personal de Eshonai y pareja de guerra de Thude. Pragmática y directa — le importa solo si las formas sirven para matar más humanos. Se negó a adoptar la forma tormenta y lideró la huida a los abismos. Miembro del Consejo de los Cinco.",
+  "notas": "Thude planea emparejarse con ella — sugiere que nacieron en la misma familia. Pasaron dos semanas en forma carnal. Es la pareja de guerra de Thude en la división personal de Eshonai."
+}

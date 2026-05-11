@@ -1,0 +1,93 @@
+{
+  "id": "riino",
+  "nombre": "Riino",
+  "nombre_completo": "Riino",
+  "apodos": [
+    "El Oráculo de Riin"
+  ],
+  "sexo": "masculino",
+  "especie": "humano (elantrino de Sel — historia fuera de Roshar omitida)",
+  "nacionalidad": "de otro mundo — elantrino de Sel",
+  "origen": "Llegó al Shadesmar de Roshar — su historia fuera del planeta se omite",
+  "planeta_natal": "Roshar (estancia actual)",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Los Ire (miembro — aunque su presencia en Roshar no está relacionada con los objetivos generales de los Ire)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Lecturas del futuro mediante un globo cristalino — requiere alta Investidura; solo funciona durante una alta tormenta"
+      ],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comercio — vende suministros a viajeros de Shadesmar",
+      "Predicción de alta tormentas — lleva un dispositivo de bolsillo para anticiparlas",
+      "Discurso de vendedor — domina el arte de atraer clientes con promesas dramáticas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guardián del faro en el Mar de las Luces Perdidas en Shadesmar",
+      "Oráculo — realiza lecturas del futuro para viajeros"
+    ],
+    "descripcion": "Hombre pequeño y extremadamente arrugado — Kaladin creyó que era shin por carecer del pliegue epicántico roshariano. Completamente calvo. Cuando se levanta resulta ser bastante bajo. Viste ropas peculiares que se inflan en los brazos con pantalones muy ajustados. Su nombre deriva del aon Rii, que significa lujo y opulencia. Pronuncia un discurso dramático para atraer clientes y confiesa que disfruta haciéndolo — aunque cuando se da cuenta de que Kaladin no viene por el futuro, se vuelve amable y servicial. Celeste lo considera un charlatán que usa sustancias eufóricas y manipulación psicológica — aunque la visión de Kaladin sugiere que no lo es.",
+    "estado_en_viento_y_verdad": "Activo en su faro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "le vendió suministros; le dio acceso accidental a una visión a través del globo"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Amable y servicial una vez que deja el papel de oráculo. Disfruta del teatro de sus lecturas. Su historia personal es larga y compleja — viene de otro mundo.",
+    "evolucion": "Sin arco propio en Roshar.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Riino regenta un faro en el Mar de las Luces Perdidas en Shadesmar, donde vende suministros y ofrece lecturas del futuro. Cuando Kaladin y el grupo llegaron varados, Riino les vendió provisiones y les predijo cuándo llegaría el siguiente barco. Kaladin tocó accidentalmente el globo cristalino durante una alta tormenta y recibió una visión. Riino se dio cuenta de que Kaladin era un potenciador — 'Ha comenzado de nuevo.'",
+    "puntos_clave": [
+      "Regenta el faro del Mar de las Luces Perdidas en Shadesmar — punto de reabastecimiento.",
+      "Realiza lecturas del futuro mediante un globo cristalino que requiere alta Investidura.",
+      "Solo usa el globo durante las altas tormentas — necesita el entorno muy Investido.",
+      "Lleva un dispositivo de bolsillo para predecir cuándo llegará la siguiente alta tormenta.",
+      "Pronuncia un discurso dramático de vendedor — pero se vuelve amable cuando Kaladin no viene por el futuro.",
+      "Kaladin tocó accidentalmente el globo durante la alta tormenta y recibió una visión.",
+      "Riino se dio cuenta de que Kaladin era un potenciador — preguntó a qué Elevación pertenecía.",
+      "Al comprender que Kaladin era un Potenciador Radiante dijo: 'Ha comenzado de nuevo.'",
+      "Les predijo la llegada del barco de Ico — que llegaría a cualquier momento.",
+      "Su presencia en Roshar tiene un propósito específico pero no relacionado con los objetivos generales de los Ire."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardián del faro y oráculo en el Mar de las Luces Perdidas, Shadesmar",
+    "rol": "Punto de reabastecimiento para viajeros en Shadesmar; oráculo",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su historia fuera de Roshar se omite en esta ficha. Su presencia en Roshar tiene un propósito específico propio. Celeste lo consideraba un charlatán — probablemente estaba equivocada."
+  },
+  "descripcion_breve": "Guardián del faro y oráculo en el Mar de las Luces Perdidas de Shadesmar. Saltamundos de otro mundo cuya historia fuera de Roshar se omite. Usa un globo cristalino para leer el futuro durante las altas tormentas. Kaladin tocó el globo y recibió una visión.",
+  "notas": "Ficha limitada a su estancia en Roshar. Su historia fuera del planeta se omite deliberadamente. Su presencia en el faro tiene un propósito específico que no está relacionado con los objetivos generales de los Ire. Se exclamó '¡Domi misericordioso!' — que delata sus orígenes fuera de Roshar."
+}

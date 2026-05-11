@@ -1,0 +1,92 @@
+{
+  "id": "huqin",
+  "nombre": "Huqin",
+  "nombre_completo": "Huqin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azimir, Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo de banda — organiza y planifica los robos",
+      "Infiltración — accede a edificios muy vigilados"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Líder de una banda de ladrones azishianos",
+      "Tío de Yanagawn (antes conocido como Gawx)"
+    ],
+    "descripcion": "Líder azishiano de una banda de ladrones que incluía a su sobrino Gawx, Maxin, Tigzikk y dos hermanos. Escéptico pero pragmático — dejó que Lift se uniera al trabajo cuando Tigzikk la presentó. No confiaba en Gawx y este lo sabía. Organizó el robo del Palacio de Bronce durante la crisis de sucesión del Supremo. Cuando Gawx y Lift fueron capturados, Huqin huyó con el resto de la banda.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "yanagawn",
+        "relacion": "sobrino; Gawx fue al palacio con él a robar y terminó siendo proclamado Supremo"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "Tigzikk",
+        "relacion": "miembro de la banda; fue quien reclutó a Lift"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático y cauteloso. Su escepticismo hacia Gawx y Lift resultó justificado — el plan salió mal.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Huqin lideraba una banda de ladrones en Azimir. Aprovechó la crisis de sucesión del Supremo para robar el Palacio de Bronce. Tigzikk reclutó a Lift para el trabajo; Huqin fue escéptico pero la aceptó. Durante el robo, Gawx y Lift desobedecieron órdenes y fueron capturados por los agentes de Nale. Gawx fue herido de muerte — Lift lo curó — y los visires lo proclamaron nuevo Supremo. Huqin huyó con el resto de la banda.",
+    "puntos_clave": [
+      "Lideraba una banda de ladrones en Azimir — sobrino Gawx, Maxin, Tigzikk y dos hermanos.",
+      "Aprovechó la crisis de sucesión del Supremo para planear el robo del Palacio de Bronce.",
+      "Señaló que el botín permitiría a la banda vivir lujosamente durante uno o dos años.",
+      "Tigzikk reclutó a Lift; Huqin fue escéptico pero la aceptó.",
+      "Decidió infiltrarse en el momento más oscuro de la noche.",
+      "Empezó robando ropa y accesorios — más fáciles de vender que arte o joyas.",
+      "Gawx y Lift desobedecieron y fueron a las habitaciones del Supremo.",
+      "Gawx fue herido de muerte por un agente de Nale.",
+      "Lift curó a Gawx — los visires lo proclamaron Supremo.",
+      "Huqin huyó con el resto de la banda cuando todo se complicó.",
+      "Su destino tras la huida es desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ladrón — destino desconocido",
+    "rol": "Líder de la banda que llevó a Yanagawn al palacio la noche en que se convirtió en Supremo",
+    "relacion_con_spren": "",
+    "otros_detalles": "No confiaba en Gawx — irónicamente su sobrino acabó siendo el Supremo de Azir."
+  },
+  "descripcion_breve": "Líder azishiano de una banda de ladrones y tío de Yanagawn. Organizó el robo del Palacio de Bronce durante la crisis de sucesión. Huyó cuando Gawx fue proclamado Supremo. Destino desconocido.",
+  "notas": "Su sobrino Gawx pasó de ser el miembro de la banda en quien menos confiaba a convertirse en el Supremo Aqasix Yanagawn el Primero."
+}

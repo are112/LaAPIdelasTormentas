@@ -1,0 +1,87 @@
+{
+  "id": "abronai",
+  "nombre": "Abronai",
+  "nombre_completo": "Abronai",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Consejo de los Cinco de los oyentes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo político — miembro del Consejo de los Cinco"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Consejo de los Cinco de los oyentes",
+      "Una de las dos que rechazaron la forma tormenta"
+    ],
+    "descripcion": "Miembro del Consejo de los Cinco de los oyentes. Junto a Zuln fue convencida de rechazar la adopción masiva de la forma tormenta. Zuln no estuvo de acuerdo con la propuesta de Eshonai y convenció a Abronai para que tampoco lo estuviera.",
+    "estado_en_viento_y_verdad": "Destino desconocido — no está confirmado si sobrevivió o adoptó la forma tormenta."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Zuln",
+        "relacion": "compañera del Consejo de los Cinco; Zuln la convenció de rechazar la forma tormenta"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "eshonai",
+        "relacion": "discrepó con su propuesta de adopción masiva de la forma tormenta"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Cauta. Siguió el criterio de Zuln ante una decisión difícil.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Abronai era miembro del Consejo de los Cinco. Cuando Eshonai propuso transformar a todos los oyentes a la forma tormenta, Zuln se opuso y convenció a Abronai para que también lo hiciera. Eshonai procedió de todos modos, declarando que el Consejo no podía prohibir a nadie tomar una forma si lo deseaba. Su destino tras este punto es desconocido.",
+    "puntos_clave": [
+      "Miembro del Consejo de los Cinco de los oyentes.",
+      "Cuando Eshonai propuso la adopción masiva de la forma tormenta, Zuln se opuso.",
+      "Zuln convenció a Abronai para que tampoco estuviera de acuerdo.",
+      "Eshonai procedió de todos modos — declaró que el Consejo no podía prohibir a nadie tomar una forma.",
+      "Su destino tras este punto es desconocido — no se confirma si adoptó la forma tormenta o escapó."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Miembro del Consejo de los Cinco que rechazó la forma tormenta",
+    "relacion_con_spren": "",
+    "otros_detalles": "Junto a Zuln fue uno de los dos votos que se opusieron a la adopción masiva de la forma tormenta."
+  },
+  "descripcion_breve": "Miembro del Consejo de los Cinco de los oyentes. Fue convencida por Zuln de oponerse a la adopción masiva de la forma tormenta propuesta por Eshonai. Destino desconocido.",
+  "notas": "La información disponible sobre Abronai es muy limitada. Su destino tras la decisión de Eshonai de proceder con la transformación es desconocido."
+}

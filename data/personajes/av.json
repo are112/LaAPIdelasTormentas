@@ -1,0 +1,90 @@
+{
+  "id": "av",
+  "nombre": "Av",
+  "nombre_completo": "Av",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "emuli",
+  "origen": "Emul",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Vigilancia y guardia — vigía durante los trabajos con Shalash",
+      "Espada — lleva una espada grande en una vaina cruzada sobre la espalda",
+      "Conocimiento de la Antigua Magia — su familia ha visitado el Valle"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Primo de Baxil",
+      "Vigía y guardia durante los trabajos de vandalismo de Shalash"
+    ],
+    "descripcion": "Hombre emuli de piel oscura y pelo oscuro típicos de los makabaki, más alto que su primo Baxil. Lleva una espada grande en una vaina cruzada sobre la espalda. Seguro de sí mismo y algo hosco. Se irrita levemente con los sobresaltos nerviosos de Baxil. Actitud tranquila en situaciones estresantes. Ve a su señora simplemente como una empleadora bien remunerada y peligrosa — sin el embeleso que siente Baxil. Conoce bien la Antigua Magia — sus padres y varios hermanos han visitado el Valle.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "baxil",
+        "relacion": "primo; trabajan juntos; Av se irrita con su nerviosismo"
+      },
+      {
+        "personaje": "padre de Av",
+        "relacion": "visitó el Valle — vivió el resto de su vida viendo el mundo boca abajo"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático y tranquilo. Profesional — no se deja llevar por el embeleso de Baxil hacia su señora.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Av y su primo Baxil trabajaban para Shalash como vigías y guardias durante sus actos de vandalismo — destrucción de arte que la representaba. Av advertía a Baxil sobre los peligros de la Antigua Magia — su padre había pedido una bendición y vivió el resto de su vida viendo el mundo boca abajo. Ayudaron a Shalash a infiltrarse en el palacio de Ashno de los Sabios. Posiblemente estuvieron presentes en otros robos.",
+    "puntos_clave": [
+      "Primo de Baxil — trabajaban juntos.",
+      "Contratado por Shalash para actuar como vigía y guardia durante sus actos de vandalismo.",
+      "Shalash les prohibía robar nada durante las infiltraciones.",
+      "Veía a su señora como una empleadora peligrosa y bien pagada — sin el embeleso de Baxil.",
+      "Conoce bien la Antigua Magia — sus padres y hermanos han visitado el Valle.",
+      "Le advirtió a Baxil sobre los peligros: su padre pidió una bendición y vivió viendo el mundo boca abajo.",
+      "Le explicó a Baxil que la Vigilante Nocturna no intenta engañarte — simplemente da la bendición que considera apropiada, con una maldición impredecible.",
+      "Ayudaron a Shalash a infiltrarse en el palacio de Ashno de los Sabios en Emul.",
+      "Posiblemente también estuvieron presentes en el Palacio de Bronce de Azimir y el palacio de Gavilar en Kholinar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ladrón y vigía — destino desconocido",
+    "rol": "Acompañante de Baxil en los trabajos de Shalash",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su padre visitó la Vigilante Nocturna y vivió el resto de su vida viendo el mundo boca abajo. Av usó esto para advertir a Baxil."
+  },
+  "descripcion_breve": "Primo de Baxil y vigía durante los trabajos de vandalismo de Shalash. Tranquilo y hosco, contrasta con el nervioso Baxil. Conoce la Antigua Magia — su padre visitó el Valle con malos resultados. Destino desconocido.",
+  "notas": "El padre de Av visitó la Vigilante Nocturna y vivió el resto de su vida viendo el mundo boca abajo. Esta historia fue la advertencia de Av a Baxil — quien finalmente la ignoró con consecuencias radicales."
+}
