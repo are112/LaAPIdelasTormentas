@@ -1,0 +1,117 @@
+{
+  "id": "noura",
+  "nombre": "Noura",
+  "nombre_completo": "Noura",
+  "apodos": [
+    "Labios Gordos (apodo de Lift — incorrecto, no tiene los labios gordos)"
+  ],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Palacio de Bronce de Azir",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política azishiana de alto nivel — visir mayor del Palacio de Bronce",
+      "Diplomacia — maneja las relaciones exteriores de Azir con los aliados de la coalición",
+      "Escritura — escribió un poema a la reina Fen agradeciéndole la hospitalidad"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Visir mayor de la corte de Yanagawn",
+      "Asesora principal del Supremo Aqasix"
+    ],
+    "descripcion": "Cara redonda, ojos oscuros y pelo canoso recogido en una trenza lateral tensa. Viste sombrero y largas capas azishianas con patrones brillantes que indican rango. A veces añade un abrigo de mangas exageradamente grandes. Lift la llama 'Labios Gordos' — no tiene los labios gordos. Desconfía profundamente de los alezi y de los Radiantes. Fue ella quien lideró el voto para proclamar a Yanagawn Supremo. Ha desarrollado afecto maternal hacia él, en parte por sentir responsabilidad — lo eligieron para que el Asesino de Blanco lo matara.",
+    "estado_en_viento_y_verdad": "Activa en Azir."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "yanagawn",
+        "relacion": "el Supremo a quien asesora; le ha tomado afecto maternal"
+      },
+      {
+        "personaje": "lift",
+        "relacion": "la llama 'Labios Gordos'; la echa de menos cuando está en Yeddaw"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "desconfianza abierta; admite que Yanagawn fue convencido aunque ella no lo fue"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmática, protectora y escéptica. Su afecto por Yanagawn viene en parte de la culpa — lo eligieron como sacrificio para el Asesino de Blanco.",
+    "evolucion": "Pasó de ser el obstáculo burocrático de Yanagawn a ser su protectora más firme.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Noura fue la visir mayor del Palacio de Bronce cuando Yanagawn fue proclamado Supremo. Lideró el voto para confirmarlo, creyendo que su curación milagrosa lo haría capaz de sobrevivir al Asesino de Blanco. Gestionó el primer contacto de Azir con la coalición de Dalinar. Desconfía de los alezi y los Radiantes, pero acepta la alianza por necesidad. Viajó con Yanagawn a Thaylenah y escribió un poema a Fen agradeciéndole la hospitalidad.",
+    "puntos_clave": [
+      "Visir mayor del Palacio de Bronce — la de mayor rango en la corte de Yanagawn.",
+      "Lideró el voto para proclamar a Yanagawn Supremo al ver su curación milagrosa.",
+      "Creyó que Yanagawn sería el Supremo perfecto para tiempos difíciles — podría sobrevivir al Asesino de Blanco.",
+      "Ha desarrollado afecto maternal hacia Yanagawn — en parte por sentir responsabilidad de haberlo elegido como potencial sacrificio.",
+      "Desconfía abiertamente de Dalinar y los alezi — los considera peligrosos.",
+      "Desaprueba que Yanagawn se relaje ante Dalinar (p.ej. quitarse el tocado).",
+      "Acepta la alianza con la coalición a pesar de sus objeciones personales.",
+      "Los parshmenios de Azir no se prepararon para la guerra como los de Alezkar — exigieron reparaciones formales.",
+      "Viajó con Yanagawn a Ciudad Thaylen; escribió un poema a Fen agradeciéndole la hospitalidad.",
+      "Sugirió a Dalinar enviar Radiantes a buscar a Ishar en lugar de ir él mismo.",
+      "Discrepó con Jasnah sobre la ocupación de Urithiru pero votó a favor de recuperarla."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Visir mayor de la corte de Yanagawn",
+    "rol": "Asesora principal del Supremo; voz de la burocracia azishiana en la coalición",
+    "relacion_con_spren": "",
+    "otros_detalles": "Lift la llama 'Labios Gordos' — Yanagawn le dice a Lift que la visir la echa de menos. Noura desaprueba que Yanagawn se quite el tocado ante los aliados."
+  },
+  "descripcion_breve": "Visir mayor de la corte del Supremo Yanagawn. Escéptica y protectora. Lideró el voto para proclamar a Yanagawn Supremo. Desconfía de los alezi y Radiantes pero acepta la alianza por necesidad.",
+  "notas": "Lift la llama 'Labios Gordos' — no tiene los labios gordos. Ha desarrollado afecto maternal por Yanagawn en parte por haber sido quien lo eligió como potencial víctima del Asesino de Blanco."
+}

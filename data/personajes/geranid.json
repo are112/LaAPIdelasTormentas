@@ -1,0 +1,97 @@
+{
+  "id": "geranid",
+  "nombre": "Geranid",
+  "nombre_completo": "Geranid",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "interludio — protagonista",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fervorosos — Devotario desconocido"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Investigación científica de spren — descubridora del efecto de colapso por medición",
+      "Filosofía natural — sus hallazgos tienen implicaciones cosmológicas profundas",
+      "Estudio químico a través de la cocina — área de estudio compartida con Ashir"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervorosa científica y filósofa",
+      "Descubridora de que medir un spren fija su forma",
+      "Esposa de Ashir"
+    ],
+    "descripcion": "Fervorosa que vive con su marido Ashir en una pequeña isla del Mar Reshi. Están técnicamente destinados allí para atender las necesidades religiosas de los visitantes vorin — en realidad eligieron la isla para tener paz y reclusión para sus estudios. Su Llamada es la ciencia, específicamente el estudio de los spren. Escéptica con los intentos de Ashir de complacerla con comida, aunque los tolera.",
+    "estado_en_viento_y_verdad": "Activa en la isla reshi."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "ashir",
+        "relacion": "esposo y compañero de investigación; se enamoraron durante sus muchos años en la isla"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "navani",
+        "relacion": "Rushu leyó sus descubrimientos y los sugirió a Navani"
+      },
+      {
+        "personaje": "rushu",
+        "relacion": "Rushu revisó sus hallazgos y los consideró importantes — se los recomendó a Navani"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Científica metódica y filosófica. Sus descubrimientos la llenan de asombro y preguntas más profundas.",
+    "evolucion": "Sin arco emocional propio — su interludio es un momento de descubrimiento científico.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Geranid y Ashir viven en una isla del Mar Reshi estudiando spren. Geranid descubrió que cuando mide un llamaspren, este queda fijo en sus dimensiones actuales — deja de variar. Ashir la ayudó a comprender las implicaciones: la medición debe ser verdadera, registrada formalmente. El hallazgo tiene implicaciones profundas para el estudio de los fabriales y los spren — sugiere que la observación y el registro afectan la realidad. Rushu revisó sus hallazgos y los consideró tan importantes que los sugirió a Navani.",
+    "puntos_clave": [
+      "Vive con Ashir en una isla pequeña del Mar Reshi — técnicamente para atender visitantes vorin.",
+      "Su Llamada es la ciencia, específicamente el estudio de los spren.",
+      "Estudia llamaspren que se sienten atraídos por la piedrabase rubí.",
+      "Descubrió que cuando mide formalmente las dimensiones de un llamaspren, este queda fijo y deja de variar.",
+      "Ashir la ayudó a comprender que la medición debe ser verdadera — no estimada ni arbitraria — y registrada.",
+      "El hallazgo sugiere que la observación y el registro afectan a los spren — implicaciones profundas para los fabriales.",
+      "Rushu revisó sus hallazgos y los consideró tan importantes que los sugirió a Navani Kholin.",
+      "Usa la palabra 'Starlight' — expresión poco común que solo se le ha visto usar a ella."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fervorosa científica en una isla del Mar Reshi",
+    "rol": "Investigadora de spren; su descubrimiento es fundamental para la comprensión de los fabriales",
+    "relacion_con_spren": "Los estudia — su descubrimiento más importante es que medirlos fija su forma.",
+    "otros_detalles": "Sus hallazgos fueron revisados por Rushu y sugeridos a Navani — tienen implicaciones prácticas para los fabriales."
+  },
+  "descripcion_breve": "Fervorosa científica que vive con su esposo Ashir en una isla del Mar Reshi. Descubrió que medir formalmente un spren fija su forma. Sus hallazgos son fundamentales para la comprensión de los fabriales.",
+  "notas": "Su descubrimiento — que la medición formal fija la forma de un spren — está inspirado en el colapso de la función de onda de la mecánica cuántica. Rushu lo revisó y lo consideró tan importante que se lo sugirió directamente a Navani."
+}

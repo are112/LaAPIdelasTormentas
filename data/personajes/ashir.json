@@ -1,0 +1,87 @@
+{
+  "id": "ashir",
+  "nombre": "Ashir",
+  "nombre_completo": "Ashir",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Desconocido",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fervorosos — Devotario desconocido"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Investigación química a través de la cocina",
+      "Apoyo intelectual a la investigación de Geranid",
+      "Cocina — intenta complacer a Geranid con platos que ella valora poco"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervoroso científico",
+      "Esposo de Geranid",
+      "El que ayudó a Geranid a comprender las implicaciones de su descubrimiento"
+    ],
+    "descripcion": "Fervoroso que vive con Geranid en una isla del Mar Reshi. Estudia química a través de la cocina. Se enamoraron durante sus muchos años en la isla. Intenta complacer a Geranid con comida — ella es escéptica pero lo tolera. Fue él quien ayudó a Geranid a comprender que la medición debe ser verdadera y registrada para fijar la forma del spren.",
+    "estado_en_viento_y_verdad": "Activo en la isla reshi."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "geranid",
+        "relacion": "esposa y compañera científica; se enamoraron durante sus años en la isla"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Entusiasta y colaborador. Su punto fuerte es reconocer la importancia de los descubrimientos de los demás.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Ashir vive con Geranid en una isla del Mar Reshi estudiando química a través de la cocina. Cuando Geranid descubrió que medir un llamaspren fija su forma, fue Ashir quien la ayudó a comprender las implicaciones completas del hallazgo — que la medición debe ser verdadera, no estimada, y debe ser registrada formalmente. Reconoció que el descubrimiento de Geranid podría revolucionar la comprensión de los fabriales.",
+    "puntos_clave": [
+      "Fervoroso que vive con Geranid en una pequeña isla del Mar Reshi.",
+      "Su área de estudio es la química a través de la cocina.",
+      "Se enamoraron durante sus muchos años juntos en la isla.",
+      "Cuando Geranid hizo su descubrimiento sobre los llamaspren, fue Ashir quien la ayudó a entender las implicaciones.",
+      "Le hizo ver que la medición debe ser verdadera — no estimada ni arbitraria — y registrada formalmente.",
+      "Reconoció que el hallazgo podría revolucionar la comprensión de los fabriales.",
+      "Intenta complacer a Geranid con comida — ella es escéptica pero lo tolera."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fervoroso científico en una isla del Mar Reshi",
+    "rol": "Esposo y colaborador científico de Geranid",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su área de investigación es la química a través de la cocina — diferente a la de Geranid pero complementaria."
+  },
+  "descripcion_breve": "Fervoroso científico que vive con su esposa Geranid en una isla del Mar Reshi. Estudia química a través de la cocina. Fue él quien ayudó a Geranid a comprender las implicaciones completas de su descubrimiento sobre los spren.",
+  "notas": "Su contribución al descubrimiento de Geranid fue reconocer que la medición debe ser verdadera y registrada — no estimada. A pesar de ser menos brillante que Geranid, su perspectiva fue clave para el hallazgo."
+}

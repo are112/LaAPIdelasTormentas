@@ -1,0 +1,89 @@
+{
+  "id": "ellista",
+  "nombre": "Ellista",
+  "nombre_completo": "Ellista",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "interludio — protagonista",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Monasterio de Jokasha",
+    "Devotario de la Mente"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Lingüista diacrónica excepcional — la mejor traductora del Canto del Alba en el Monasterio de Jokasha",
+      "Análisis histórico del Canto del Alba",
+      "Investigación en escrituras antiguas — determinó que el Canto del Alba fue lenguaje escrito unificado en Roshar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervorosa del Devotario de la Mente en el Monasterio de Jokasha",
+      "Lingüista diacrónica y traductora del Canto del Alba"
+    ],
+    "descripcion": "Cabeza rapada como todos los fervorosos — nunca le gustó ocuparse de su pelo, lo que llevó a sus padres a bromear diciendo que se convirtió en fervorosa solo para poder afeitárselo. Práctica y escéptica. No le gusta la interrupción ni la distracción. Cuando escucha a otros fervorosos hablar de política o la tormenta eterna, no muestra interés. Le gusta leer epopeya romántica pero lo oculta a sus compañeros fervorosos.",
+    "estado_en_viento_y_verdad": "Activa en el Monasterio de Jokasha."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Urv",
+        "relacion": "compañero fervoroso del monasterio; ella acepta su ayuda con el Canto del Alba a cambio de prestarle la continuación de Una virtuosa rendición de cuentas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Práctica y escéptica. Prefiere los hechos a las especulaciones. No se deja arrastrar por el alarmismo general sobre la tormenta eterna.",
+    "evolucion": "Sin arco propio — su interludio es un momento de descubrimiento lingüístico.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Ellista es la traductora más avanzada del Canto del Alba en el Monasterio de Jokasha. Usa la clave proporcionada por Navani para descifrar textos antiguos. Durante la llegada de la tormenta eterna, mientras todos los demás fervorosos discuten sobre el nuevo fenómeno, ella busca paz y tranquilidad para leer Una virtuosa rendición de cuentas — una epopeya romántica que oculta a sus compañeros. Urv la encuentra en el bosque y negocian: ella le ayuda con el Canto del Alba; él le presta la continuación.",
+    "puntos_clave": [
+      "Fervorosa del Devotario de la Mente en el Monasterio de Jokasha, Jah Keved.",
+      "Lingüista diacrónica — la mejor traductora del Canto del Alba en el monasterio.",
+      "Usa la clave de Navani para descifrar los textos del Canto del Alba — aunque se niega a creer que las visiones de Dalinar sean reales.",
+      "Ha determinado que el Canto del Alba fue un lenguaje escrito unificado en toda la antigua Roshar — apoyando la teoría de Jasnah en Reliquia y Monumento.",
+      "Ha determinado que las Desolaciones causaron el abandono del Canto del Alba — las naciones desarrollaron sus propios glifos.",
+      "Fue la última en revisar las transcripciones de Bendthel.",
+      "Durante la tormenta eterna, busca paz para leer epopeya romántica que oculta a sus compañeros.",
+      "Urv la encuentra en el bosque — acuerdan intercambio: ella traduce una sección del Canto del Alba para un patrón exigente; él le presta la continuación del libro.",
+      "La sección que Urv necesita traducir probablemente es la Estela de Eila — para Taravangian."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fervorosa traductora del Canto del Alba en el Monasterio de Jokasha",
+    "rol": "Lingüista diacrónica; investigadora del Canto del Alba",
+    "relacion_con_spren": "",
+    "otros_detalles": "Lee epopeya romántica en secreto. La sección que Urv le pide traducir probablemente fue encargada por Taravangian — la Estela de Eila, clave para su plan."
+  },
+  "descripcion_breve": "Fervorosa lingüista diacrónica del Monasterio de Jokasha. La mejor traductora del Canto del Alba. Descubrió que fue un lenguaje escrito unificado en Roshar. Lee epopeya romántica en secreto.",
+  "notas": "Sus hallazgos sobre el Canto del Alba apoyan la teoría de Jasnah en Reliquia y Monumento. La sección que Urv le pide traducir probablemente fue encargada por Taravangian — la Estela de Eila, clave para sus planes futuros."
+}

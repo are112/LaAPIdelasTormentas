@@ -1,0 +1,110 @@
+{
+  "id": "axies",
+  "nombre": "Axies",
+  "nombre_completo": "Axies el Coleccionista",
+  "apodos": [
+    "Axies el Coleccionista"
+  ],
+  "sexo": "masculino",
+  "especie": "siah aimiano",
+  "nacionalidad": "aimiana",
+  "origen": "Aimia (destruida hace miles de años)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "interludio — protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "interludio — protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Puede esculpir su cuerpo a voluntad — modificar rasgos físicos",
+        "Puede cambiar el color y marcas de su piel",
+        "Puede curarse de resacas y hematomas"
+      ],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Catalogación exhaustiva de spren — lleva miles de años documentando",
+      "Escribe sus notas directamente en su piel con tatuajes — le roban todo lo demás",
+      "Habla varios idiomas de Roshar",
+      "Su sombra se proyecta hacia la luz en lugar de alejarse de ella"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Siah aimiano — funcionalmente inmortal",
+      "El único siah aimiano conocido actualmente en Roshar",
+      "Catalogador de todas las variedades de spren de Roshar"
+    ],
+    "descripcion": "Hombre larguirucho de piel pálida casi azul. Ojos azul oscuro y uñas azules. Cuerpo cubierto de tatuajes desde pequeños e intrincados hasta notas extensas sobre spren. Su sombra se proyecta hacia la luz — rasgo inusual que delata su naturaleza aimiana. Sociable, indolente y obstinado. Amigable y relajado al extremo — excepto cuando se obsesiona con encontrar spren raros. Afectado por la Maldición de la Especie — la mala suerte lo persigue constantemente. Ha vivido lo suficiente para ver la destrucción de Aimia.",
+    "estado_en_viento_y_verdad": "Activo — observando spren en distintos lugares de Roshar."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "la encontró colgado boca abajo en las Islas Reshi; le advirtió de no preguntar sobre el alma del Tai-na"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "se comunicó con ella mediante vinculacañas tras el redescubrimiento de Urithiru"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Obsesionado con catalogar spren — es su forma de dar propósito a su inmortalidad. No malicioso pero no siempre considera el peligro para sus compañeros mortales.",
+    "evolucion": "Sin arco emocional propio — su constante es la obsesión por los spren.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Axies el Coleccionista es un siah aimiano que ha dedicado su inmortalidad a catalogar todas las variedades de spren de Roshar. Es afectado constantemente por la Maldición de la Especie — mala suerte perpetua. En Kasitor fue arrestado tras embriagarse buscando ebriospren. En las Islas Reshi fue colgado boca abajo por ofender a los reshi preguntando sobre el spren del Tai-na. Rysn lo encontró en esa posición. Se comunicó con Jasnah mediante vinculacañas. Siete días antes del duelo de campeones se reunió con Baxil en Azimir.",
+    "puntos_clave": [
+      "Siah aimiano funcionalmente inmortal — ha vivido miles de años.",
+      "El único siah aimiano conocido actualmente en Roshar.",
+      "Escribe sus notas de spren directamente en su piel — le roban todo lo demás.",
+      "Afectado por la Maldición de la Especie — mala suerte constante.",
+      "Su sombra se proyecta hacia la luz en lugar de alejarse — delata su naturaleza.",
+      "En Kasitor se embriagó buscando ebriospren — fue arrestado; esperaba ver cautivospren en la celda; no los vio.",
+      "En las Islas Reshi fue colgado boca abajo por preguntar sobre el spren del Tai-na.",
+      "Rysn lo encontró colgado en esa posición; le advirtió de no preguntar sobre el alma del dios reshi.",
+      "Fue a las Islas Reshi porque especulaba que los spren del Tai-na serían más 'espectaculares' que los de los grancaparazones normales.",
+      "Se comunicó con Jasnah mediante vinculacañas tras el redescubrimiento de Urithiru.",
+      "Siete días antes del duelo de campeones se reunió con Baxil en una tetería de Azimir."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Catalogador de spren",
+    "rol": "Observador eterno de Roshar — figura periférica con información única",
+    "relacion_con_spren": "Su relación con los spren es de observador y catalogador — no tiene vínculo Nahel.",
+    "otros_detalles": "Ha vivido lo suficiente para recordar la destrucción de Aimia. Los siah y dysian aimianos no están emparentados. Los cruzados con humanos pueden tener sombras inusuales — posiblemente la piel azul de los natanos."
+  },
+  "descripcion_breve": "Siah aimiano inmortal dedicado a catalogar todas las variedades de spren de Roshar. Afectado por la Maldición de la Especie — mala suerte constante. Su sombra se proyecta hacia la luz. Escribe sus notas en su propia piel.",
+  "notas": "Los siah aimianos y los humanos pueden tener descendencia híbrida — posiblemente la piel azul de los natanos. Su sombra se proyecta hacia la luz en lugar de alejarse — rasgo inusual. La Maldición de la Especie le trae desgracias constantes."
+}
