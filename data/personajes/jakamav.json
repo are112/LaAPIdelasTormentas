@@ -1,0 +1,99 @@
+{
+  "id": "jakamav",
+  "nombre": "Jakamav",
+  "nombre_completo": "Jakamav",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Roion",
+    "Principado de Roion"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelos esquirlados — portador completo de esquirlada, armadura verde",
+      "Blandió Soleada — la hoja del rey prestada",
+      "Amistad con Adolin — le sugería rivales de duelo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Amigo de Adolin",
+      "El que traicionó a Adolin uniéndose al duelo cuádruple de Relis"
+    ],
+    "descripcion": "Brillante señor alezi de tercera dahn, ojos verde pálido. Robusto. De la casa Roion. Amigo de Adolin — salían juntos a tiendas de vino y le sugería rivales. Fue él quien sugirió a Adolin desafiar a Erraniv. Su traición al unirse al duelo cuádruple de Relis fue uno de los momentos más amargos para Adolin — un amigo volviéndose contra él.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "amigo cercano que traicionó al unirse al duelo cuádruple de Relis"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "lo traicionó al unirse al bando de Relis en el duelo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Oportunista. Eligió el bando que consideró ganador cuando llegó el momento.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Jakamav era amigo cercano de Adolin. Le sugirió desafiar a Erraniv — el duelo que lo colocó en el mapa como duelista serio. Pero cuando Relis organizó el duelo cuádruple, Jakamav se unió a su bando. Luchó con armadura verde y la hoja prestada del rey Soleada. Adolin saltó sobre su espalda y ambos quedaron incapacitados cuando la armadura de Adolin se bloqueó. Relis corrió hacia Renarin al ver a Jakamav inmovilizado.",
+    "puntos_clave": [
+      "Amigo cercano de Adolin — salían juntos a tiendas de vino.",
+      "Le sugirió a Adolin desafiar a Erraniv — duelo clave en su ascenso como duelista.",
+      "Participó en el duelo contra Adolin de El Camino de los Reyes junto a los ojos claros rivales.",
+      "Se unió al bando de Relis en el duelo cuádruple — traición a su amistad con Adolin.",
+      "Luchó con armadura verde y Soleada — la hoja del rey prestada.",
+      "Relis lo envió a mantener ocupado a Renarin.",
+      "Adolin saltó sobre su espalda usando el último de su luz tormentosa.",
+      "Ambos quedaron incapacitados cuando la armadura de Adolin se bloqueó.",
+      "Relis corrió hacia Renarin al ver a Jakamav inmovilizado — Kaladin lo interceptó."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Brillante señor alezi de la casa Roion",
+    "rol": "Examigo de Adolin que lo traicionó en el duelo cuádruple",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su traición fue uno de los momentos más amargos del arco de Adolin — un amigo que creía de confianza."
+  },
+  "descripcion_breve": "Amigo cercano de Adolin que lo traicionó al unirse al bando de Relis en el duelo cuádruple. Portador completo de esquirlada de la casa Roion. Adolin saltó sobre su espalda inmovilizándolos a ambos.",
+  "notas": "Fue él quien sugirió a Adolin desafiar a Erraniv — irónicamente fue este consejo de amigo lo que preparó a Adolin para el duelo que luego Jakamav traicionó."
+}

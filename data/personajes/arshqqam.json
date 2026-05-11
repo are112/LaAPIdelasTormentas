@@ -1,0 +1,104 @@
+{
+  "id": "arshqqam",
+  "nombre": "Arshqqam",
+  "nombre_completo": "Arshqqam",
+  "apodos": [
+    "La Tocona"
+  ],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "tashikki",
+  "origen": "Yeddaw, Tashikk",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Orfanato Luz de Tashi",
+    "Caballeros Radiantes — Vigilantes de la Verdad"
+  ],
+  "orden_radiantes": {
+    "orden": "Vigilantes de la Verdad",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin nombre confirmado"
+    },
+    "estado_del_vinculo": "Activo — usó la Progresión inconscientemente para curar a los huérfanos. Lift la perdonó ante el Supremo tras descubrir su naturaleza."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Progresión — curación",
+        "Iluminación"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Gestión del orfanato — fundó y dirige el Orfanato Luz de Tashi",
+      "Resistencia física — golpeó a Nale con un madero"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Directora del Orfanato Luz de Tashi en Yeddaw",
+      "Vigilante de la Verdad — potenciadora que usaba sus poderes sin saberlo"
+    ],
+    "descripcion": "Mujer mayor y delgada — Lift la describe como una mala hierba marchita, como el hijo de una escoba y un trozo de musgo especialmente determinado. Piel que cuelga de los huesos. Dedos delgados como ramitas. Muy anciana y algo parecida a un cangrejo sin cáscara. Hosca y cínica — los niños del exterior dicen que es mala. Sin embargo, usaba inconscientemente la luz tormentosa de sus esferas para curar a los huérfanos enfermos y luego los acusaba de haber fingido. Las esferas siempre se le apagaban — sospechada de blanqueo de dinero por intercambiarlas.",
+    "estado_en_viento_y_verdad": "Activa — convencida de ir a Azimir."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "lift",
+        "relacion": "la descubrió como potenciadora y la perdonó ante el Supremo; Lift la curó tras ser apuñalada"
+      },
+      {
+        "personaje": "yanagawn",
+        "relacion": "el Supremo retiró los cargos de blanqueo a petición de Lift"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "nale",
+        "relacion": "Nale fue a por ella para eliminarla — la apuñaló. Lift convenció a Nale de que desistiera."
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Hosca y cínica. No sabía que era potenciadora — creía que los niños fingían enfermedades. Cuando lo descubrió, reaccionó con estoicismo.",
+    "evolucion": "Pasó de gestora cínica y sospechosa a ser reconocida como Vigilante de la Verdad.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Arshqqam fundó y dirige el Orfanato Luz de Tashi en Yeddaw. Sin saberlo, usaba la luz tormentosa de sus esferas para curar a los huérfanos enfermos — luego los acusaba de haber fingido. Las esferas siempre se le apagaban, lo que la hizo sospechosa de blanqueo. Nale fue a eliminarla. Lift la descubrió como potenciadora y corrió a ayudarla. La Tocona golpeó a Nale con un madero. Nale la apuñaló. Lift subió al tejado y mostró a Nale la tormenta eterna — este desistió. Lift volvió y curó a la Tocona. Los cargos fueron retirados por el Supremo.",
+    "puntos_clave": [
+      "Fundó y dirige el Orfanato Luz de Tashi en Yeddaw.",
+      "Usaba inconscientemente luz tormentosa para curar a los huérfanos enfermos — luego los acusaba de fingir.",
+      "Las esferas se le apagaban constantemente — sospechada de blanqueo de dinero por intercambiarlas.",
+      "Lift fue al orfanato a comer — observó la curación misteriosa de Mik.",
+      "Nale fue a Yeddaw para eliminar a la otra potenciadora — era ella, no Arclo.",
+      "La Tocona golpeó a Nale con un madero cuando este tenía acorralada a Lift.",
+      "Nale la apuñaló con un cuchillo convencional y la abandonó para perseguir a Lift.",
+      "Lift subió al tejado y mostró a Nale la tormenta eterna — convenció al Heraldo de que la Desolación había llegado.",
+      "Lift regresó y curó a la Tocona con sus poderes de Progresión.",
+      "El Supremo Aqasix retiró los cargos de blanqueo a petición de Lift.",
+      "Fue convencida para ir a Azimir — una escriba le escribió a Jasnah confirmándolo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Directora del Orfanato Luz de Tashi; Vigilante de la Verdad",
+    "rol": "Potenciadora descubierta por Lift en Yeddaw",
+    "relacion_con_spren": "Spren sin nombre confirmado — Vigilante de la Verdad.",
+    "otros_detalles": "Fue convencida para ir a Azimir tras los eventos de Danzante del Filo. Los cargos de blanqueo fueron retirados por el Supremo."
+  },
+  "descripcion_breve": "Directora hosca del Orfanato Luz de Tashi en Yeddaw y Vigilante de la Verdad. Usaba inconscientemente luz tormentosa para curar huérfanos — luego los acusaba de fingir. Apuñalada por Nale. Curada por Lift.",
+  "notas": "Su nombre real es Arshqqam — La Tocona es el apodo que Lift le da. Lift la describe como 'el hijo de una escoba y un trozo de musgo especialmente determinado'."
+}

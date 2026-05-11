@@ -1,0 +1,92 @@
+{
+  "id": "abrobadar",
+  "nombre": "Abrobadar",
+  "nombre_completo": "Abrobadar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Principado de Aladar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelos esquirlados — portador completo de esquirlada, armadura naranja y hoja propia"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portador de esquirlada del principado de Aladar",
+      "El cuarto duelista en el duelo cuádruple de Relis contra Adolin"
+    ],
+    "descripcion": "Brillante señor alezi portador completo de esquirlada del campamento de Aladar. Armadura esquirlada naranja y hoja propia. Fue enviado a mantener ocupado a Renarin mientras Relis, Elit y Jakamav lidiaban con Adolin.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "relis_ruthar",
+        "relacion": "aliado en el duelo cuádruple"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "Adolin lo derrotó en el duelo cuádruple"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "Relis lo envió a mantenerlo ocupado"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Abrobadar fue el cuarto duelista que Relis llevó al duelo contra Adolin. Relis lo envió a mantener ocupado a Renarin. Adolin lo enfrentó a golpes repetidos con la hoja hasta escuchar sus maldiciones. Adolin terminó derrotándolo — ninguno de los dos contendientes más fuertes pudieron detener a Adolin.",
+    "puntos_clave": [
+      "Portador completo de esquirlada del campamento de Aladar — armadura naranja.",
+      "Relis lo llevó como el cuarto duelista en el duelo cuádruple.",
+      "Relis lo envió a mantener ocupado a Renarin.",
+      "Adolin lo enfrentó directamente — golpeó su hoja repetidamente hasta escuchar sus maldiciones.",
+      "Adolin volvió a él pero esta vez Abrobadar aguantó el asalto.",
+      "Finalmente Adolin lo derrotó — ganó el duelo cuádruple con ayuda de Kaladin y Renarin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Portador de esquirlada del principado de Aladar",
+    "rol": "Participante en el duelo cuádruple contra Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": "La información disponible sobre Abrobadar es muy limitada."
+  },
+  "descripcion_breve": "Portador completo de esquirlada del campamento de Aladar. El cuarto duelista en el duelo cuádruple de Relis. Derrotado por Adolin en ese combate.",
+  "notas": "Abrobadar fue enviado a mantener ocupado a Renarin mientras los demás se concentraban en Adolin. La información sobre él en la Coppermind es escasa."
+}

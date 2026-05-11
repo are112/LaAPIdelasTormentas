@@ -1,0 +1,107 @@
+{
+  "id": "relis_ruthar",
+  "nombre": "Relis Ruthar",
+  "nombre_completo": "Relis Ruthar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Ruthar",
+    "Principado de Ruthar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelos esquirlados — campeón de los campamentos de guerra",
+      "Postura de la Enredadera — pausada y firme con arremetidas rápidas",
+      "Portador completo de esquirlada — armadura negro intenso y hoja"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Campeón de duelos de los campamentos de guerra",
+      "Hijo mayor de Ruthar — actual alto príncipe de Ruthar",
+      "El que llevó tres duelistas más al duelo contra Adolin"
+    ],
+    "descripcion": "Cara ancha, nariz notablemente chata y aplastada. Viste ropa extravagante. Armadura esquirlada de color negro intenso. Campeón de duelos — venció a Epinar para conseguir el título. Evitó duelos importantes durante medio año tras conseguirlo. Se sentía responsable de su primo Elit. Vio el duelo como una forma de castigar a Adolin — no como una cuestión de honor.",
+    "estado_en_viento_y_verdad": "Activo como alto príncipe de Ruthar — despojó a su padre del título."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "ruthar",
+        "relacion": "padre — fue despojado del título; Relis lo sucedió como alto príncipe"
+      },
+      {
+        "personaje": "elit",
+        "relacion": "primo — se sentía responsable por él; lo acompañó al duelo"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "rechazó su desafío; luego llevó tres duelistas al combate contra él — perdió"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "lo subestimó por ir desarmado; Kaladin le cogió la hoja entre las manos desnudas — se retiró del duelo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Arrogante y calculador. El duelo era para él una forma de venganza, no de honor. Subestimó fatalmente a Kaladin.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activo como alto príncipe."
+  },
+  "arco_narrativo": {
+    "resumen": "Relis era el campeón de duelos de los campamentos. Rechazó el desafío de Adolin incluso con cinco esquirladas en juego. Convenció a Elit de aceptar en su lugar. Dos días después apareció en la arena con Elit, Jakamav y Abrobadar — cuatro contra lo que Adolin esperaba que fueran dos. Prohibió la rendición de Adolin. Cuando Renarin se unió, fue a por él. Kaladin cogió su hoja entre las manos desnudas y los gritos de la espada lo hicieron retirarse del duelo. Perdió todas sus esquirladas. Fue despojado del título por Jasnah. Sucedió a su padre como alto príncipe.",
+    "puntos_clave": [
+      "Campeón de duelos de los campamentos — venció a Epinar para el título.",
+      "Evitó duelos importantes durante medio año tras conseguirlo.",
+      "Se sentía responsable de su primo Elit.",
+      "Rechazó el desafío de Adolin incluso con cinco esquirladas Kholin en juego.",
+      "Convenció a Elit de aceptar el duelo en su lugar.",
+      "Dos días después apareció con Elit, Jakamav y Abrobadar — cuatro duelistas en lugar de los dos que Adolin esperaba.",
+      "Impidió activamente que Adolin se rindiera — el duelo era para castigarle, no por honor.",
+      "Cuando Renarin se unió, corrió hacia él en lugar de seguir con Adolin.",
+      "Kaladin lo interceptó — cogió su hoja entre las manos desnudas; los gritos de la espada lo hicieron retirarse.",
+      "Cedió todas sus esquirladas. 'Mi orgullo. Sin contest, Adolin.'",
+      "La pérdida de él y Elit trajo vergüenza a la casa Ruthar.",
+      "Jasnah lo despojó del título junto a su padre.",
+      "Sucedió a su padre como alto príncipe Ruthar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alto príncipe de Ruthar — sucesor de su padre",
+    "rol": "Antagonista de Adolin en el arco de los duelos; actual alto príncipe",
+    "relacion_con_spren": "",
+    "otros_detalles": "Perdió todas sus esquirladas en el duelo. 'Mi orgullo. Sin contest, Adolin.' — sus palabras al rendirse."
+  },
+  "descripcion_breve": "Campeón de duelos de los campamentos e hijo mayor del antiguo alto príncipe Ruthar. Llevó cuatro duelistas contra Adolin. Kaladin le cogió la hoja entre las manos desnudas y se retiró. Perdió todas sus esquirladas. Actual alto príncipe de Ruthar.",
+  "notas": "Subestimó fatalmente a Kaladin por ir desarmado. Kaladin cogió su hoja esquirlada entre las manos desnudas — los gritos de la espada lo aterrorizaron y se retiró. Sus palabras al rendirse: 'Mi orgullo. Sin contest, Adolin.'"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "grund",
+  "nombre": "Grund",
+  "nombre_completo": "Grund",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "tashikki",
+  "origen": "Yeddaw, Tashikk",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Supervivencia en la calle — niño de la calle en Yeddaw"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Niño de la calle en Yeddaw",
+      "El que recibió comida de Lift — y murió"
+    ],
+    "descripcion": "Niño de la calle en Yeddaw, gordo a pesar de vivir en la calle. Lift lo conoció cuando buscaba a los pillastres de la ciudad para obtener información. Le dio de comer. Murió — Nale lo ejecutó porque robó una cesta de fruta. Su muerte devastó a Lift — fue una sombra de sus buenas intenciones convertidas en arrogancia.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "lift",
+        "relacion": "le dio de comer; su muerte devastó a Lift"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "nale",
+        "relacion": "Nale lo ejecutó con su hoja esquirlada tras robar una cesta de fruta"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente — niño de la calle.",
+    "evolucion": "Sin arco propio — muere en su primera aparición significativa.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Grund era un niño gordo de la calle en Yeddaw. Lift lo conoció al buscar información de los pillastres. Le dio de comer. Poco después, Grund robó una cesta de fruta de un mercado — Nale lo capturó y cuando él sacó un cuchillo, Nale lo mató con su hoja esquirlada. Lift intentó salvarlo pero Wyndle le explicó que una hoja esquirlada mata más rápido de lo que sus poderes pueden revertir. Su muerte fue una sombra de las buenas intenciones de Lift convertidas en arrogancia.",
+    "puntos_clave": [
+      "Niño de la calle en Yeddaw — gordo a pesar de sus circunstancias.",
+      "Lift lo conoció al buscar información de los pillastres de la ciudad.",
+      "Lift le dio de comer.",
+      "Robó una cesta de fruta de un mercado.",
+      "Nale lo capturó — cuando Grund sacó un cuchillo, Nale lo mató con su hoja esquirlada.",
+      "Lift intentó salvarlo pero Wyndle le explicó que era imposible — una hoja esquirlada mata demasiado rápido.",
+      "Su muerte devastó a Lift — fue una sombra de sus buenas intenciones convertidas en arrogancia.",
+      "Shallan, cuando se deprimió por su papel en la muerte de Grund, pensó que Yalb también estaba muerto."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Su muerte enseñó a Lift los límites de sus poderes y las consecuencias de la arrogancia",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su muerte es el momento más oscuro de Danzante del Filo — muestra que Lift no puede salvar a todos."
+  },
+  "descripcion_breve": "Niño de la calle en Yeddaw al que Lift dio de comer. Asesinado por Nale con una hoja esquirlada tras robar fruta. Lift no pudo salvarlo. Su muerte fue una sombra de sus buenas intenciones convertidas en arrogancia.",
+  "notas": "La muerte de Grund es el momento más oscuro de Danzante del Filo. Wyndle le explicó a Lift que una hoja esquirlada mata más rápido de lo que sus poderes pueden revertir — lección brutal sobre los límites de su poder."
+}
