@@ -1,0 +1,91 @@
+{
+  "id": "bluth",
+  "nombre": "Bluth",
+  "nombre_completo": "Bluth",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caravana de Tvlakv (mercenario)"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — mercenario al servicio de Tvlakv"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mercenario de la caravana de esclavos de Tvlakv",
+      "El que mató al esclavo enfermo por orden de Tvlakv"
+    ],
+    "descripcion": "Mercenario alezi al servicio de Tvlakv. Grande y musculoso. Bruto pero con un código propio — le incomodó matar al esclavo enfermo pero obedeció. Cuando Shallan viajó con Tvlakv, fue asignado a cuidar a los chulls en lugar de Taran. Falleció durante un ataque de bandidos cuando acompañaba a Shallan.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "tvlakv",
+        "relacion": "su empleador; obedecía sus órdenes aunque no le agradaban"
+      },
+      {
+        "personaje": "Tag",
+        "relacion": "compañero mercenario en la caravana"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Bruto pero con cierto código moral. Le incomodó matar al esclavo pero lo hizo.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Bluth era mercenario de Tvlakv. Por orden de Tvlakv mató al esclavo enfermo cuando Kaladin intentó salvarlo — Tvlakv temía que la enfermedad se extendiera. Cuando Shallan encontró la caravana de Tvlakv tras naufragar, Bluth cuidaba los chulls. Falleció durante un ataque de bandidos mientras acompañaba a Shallan.",
+    "puntos_clave": [
+      "Mercenario de la caravana de esclavos de Tvlakv.",
+      "Por orden de Tvlakv mató al esclavo enfermo — Tvlakv temía que la enfermedad se extendiera.",
+      "Le incomodó hacerlo pero obedeció.",
+      "Cuando Shallan encontró la caravana, Bluth cuidaba los chulls — Taran ya no estaba.",
+      "Falleció durante un ataque de bandidos mientras acompañaba a Shallan en las Tierras Heladas."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Mercenario de Tvlakv; figura del arco de Kaladin como esclavo",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su compañero Tag sobrevivió. Taran, el chico que cuidaba los chulls antes, desapareció entre los dos arcos narrativos."
+  },
+  "descripcion_breve": "Mercenario alezi de la caravana de Tvlakv. Mató al esclavo enfermo por orden de Tvlakv cuando Kaladin intentó salvarlo. Falleció en un ataque de bandidos acompañando a Shallan.",
+  "notas": "La muerte del esclavo enfermo es uno de los primeros momentos que muestra el sistema moral de Kaladin — intentar salvar a alguien a quien nadie más valora."
+}

@@ -448,14 +448,6 @@
     "especie": "humano"
   },
   {
-    "id": "ico",
-    "nombre": "Ico",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "alcanzador"
-  },
-  {
     "id": "ilamar",
     "nombre": "Ilamar",
     "orden": "Ninguna",
@@ -782,14 +774,6 @@
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
-  },
-  {
-    "id": "notum",
-    "nombre": "Notum",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "honorspren"
   },
   {
     "id": "noura",

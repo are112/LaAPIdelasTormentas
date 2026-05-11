@@ -1,0 +1,105 @@
+{
+  "id": "baxil",
+  "nombre": "Baxil",
+  "nombre_completo": "Baxil",
+  "apodos": [
+    "El Recuerdo Carmesí (tras visitar a la Vigilante Nocturna)"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "emuli",
+  "origen": "Emul",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "interludio — protagonista",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Efectos desconocidos de la Antigua Magia — transformación en el Recuerdo Carmesí"
+      ],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Infiltración y apertura de cerraduras — ladrón profesional",
+      "Colaboración con su primo Av como vigía y guardia"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Ladrón emuli",
+      "El Recuerdo Carmesí — transformado por la Antigua Magia de la Vigilante Nocturna",
+      "Exayudante de Shalash en sus actos de vandalismo"
+    ],
+    "descripcion": "Hombre emuli de pelo y piel oscuros típicos de los makabaki, más bajo que su primo Av. Tímido y nervioso — se sobresalta con facilidad. Tras su transformación, viste completamente envuelto en telas carmesí excepto los ojos. Su transformación limitó su forma física y eliminó algunos sentidos — la gente solo puede verlo y tocarlo en circunstancias específicas. Ya no puede consumir alimentos aunque puede saborearlos hasta cierto punto. Siente que su cuerpo está a punto de disiparse como humo. Necesita vendas rojas especialmente preparadas para sobrevivir. Se ha vuelto fascinante para los spren. Tiene cierta sensibilidad hacia la Corriente.",
+    "estado_en_viento_y_verdad": "Activo — continúa una búsqueda no especificada."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Av",
+        "relacion": "primo; vigía y guardia durante los trabajos con Shalash"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "axies",
+        "relacion": "se reunió con él en una tetería de Azimir en VyV; le entregó una gema con un spren desconocido"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Tímido y nervioso. Se consideraba desafortunado. Quería visitar a la Vigilante Nocturna para pedir coraje — lo hizo y su vida cambió radicalmente.",
+    "evolucion": "Pasó de ladrón nervioso a ser El Recuerdo Carmesí — una existencia radicalmente diferente.",
+    "situacion_en_viento_y_verdad": "Activo en una búsqueda no especificada."
+  },
+  "arco_narrativo": {
+    "resumen": "Baxil y su primo Av trabajaban para una misteriosa señora — Shalash — infiltrándose en casas y palacios para destruir arte que la representaba. Baxil quería visitar a la Vigilante Nocturna para pedir coraje. Más tarde la visitó — su bendición y maldición desconocidas lo transformaron en el Recuerdo Carmesí. En VyV se reunió con Axies en Azimir, intercambiando una gema con spren por vendas rojas especiales. Consideró visitar a su antigua jefa pero decidió no hacerlo en su estado actual.",
+    "puntos_clave": [
+      "Ladrón emuli, primo de Av.",
+      "Trabajó para una misteriosa señora que resultó ser Shalash — infiltrándose en casas para destruir arte.",
+      "No sabía la identidad real de su señora — la describía como increíblemente hermosa y fuera de cualquier etnia roshariana.",
+      "Shalash les prohibía robar nada durante las infiltraciones.",
+      "Estaba embriagado por ella — lamentaba que la falta de confianza le impedía acercarse románticamente.",
+      "Consideró visitar a la Vigilante Nocturna para pedir el don del coraje.",
+      "Visitó a la Vigilante Nocturna — su bendición y maldición desconocidas lo transformaron en el Recuerdo Carmesí.",
+      "Tras la transformación, la gente solo puede verlo y tocarlo en circunstancias específicas.",
+      "No puede consumir alimentos — siente que su cuerpo está a punto de disiparse.",
+      "Necesita vendas rojas especialmente preparadas para sobrevivir.",
+      "En VyV se reunió con Axies en una tetería de Azimir — le entregó una gema con un spren a cambio de las vendas.",
+      "Axies le mencionó que Shalash y Taln estaban en la ciudad.",
+      "Consideró visitar a su antigua jefa pero pensó que no debía en su estado actual.",
+      "Abandonó Azimir para continuar una búsqueda no especificada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "El Recuerdo Carmesí — existencia radicalmente diferente tras la Antigua Magia",
+    "rol": "Figura periférica del Cosmere en Roshar",
+    "relacion_con_spren": "Se ha vuelto fascinante para los spren. Tiene cierta sensibilidad hacia la Corriente.",
+    "otros_detalles": "Las vendas rojas son necesarias para que su cuerpo no se disipe. Su bendición y maldición exactas son desconocidas."
+  },
+  "descripcion_breve": "Ladrón emuli que trabajó para Shalash destruyendo arte. Visitó a la Vigilante Nocturna y fue transformado en el Recuerdo Carmesí. Su cuerpo se disipa sin vendas rojas. Solo puede ser visto y tocado en circunstancias específicas.",
+  "notas": "Su señora era Shalash — él nunca supo su identidad. La naturaleza exacta de su bendición y maldición es uno de los misterios de la saga. Tiene sensibilidad hacia la Corriente — posiblemente relacionado con eventos futuros."
+}

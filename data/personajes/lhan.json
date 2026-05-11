@@ -1,0 +1,90 @@
+{
+  "id": "lhan",
+  "nombre": "Lhan",
+  "nombre_completo": "Lhan",
+  "apodos": [
+    "Kharat (nombre que adoptó bajo la influencia de Ashertmarn)"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fervorosos de la reina Aesudan"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Conocimiento del protocolo de palacio"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervoroso del séquito de la reina Aesudan",
+      "Sumido en los festejos de Ashertmarn bajo el nombre Kharat"
+    ],
+    "descripcion": "Fervoroso del séquito de la reina Aesudan. Fue asignado para mostrar el palacio a Pai — intentó mostrarle los lujos pero no consiguió hacerla feliz con ninguno. Se horrorizó cuando vio el grafiti de Pai describiendo a la reina como los diez locos. Sucumbió a la influencia de Ashertmarn durante el asedio y adoptó el nombre Kharat. En ese estado introdujo a Shallan en la procesión del festejo, la llamó Kishi y la mantuvo en el anillo exterior.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "la vigiló bajo la influencia de Ashertmarn — Patrón lo distrajo para que Shallan pudiera escapar"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Completamente sometido por Ashertmarn — adoptó la identidad Kharat y se dedicó a los festejos.",
+    "evolucion": "Pasó de fervoroso conservador que se horrorizó ante Pai a sumido en el festejo de Ashertmarn.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Lhan fue fervoroso de la reina Aesudan. Mostró el palacio a Pai — no consiguió hacerla feliz con ningún lujo. Se horrorizó al ver su grafiti. Durante el asedio de Kholinar sucumbió a Ashertmarn y adoptó el nombre Kharat. Introdujo a Shallan en el festejo llamándola Kishi. La vigiló en el anillo exterior. Patrón lo distrajo repitiéndole susurros de Ashertmarn para que saliera en busca de bebida, permitiendo que Shallan escap.",
+    "puntos_clave": [
+      "Fervoroso del séquito de la reina Aesudan en Kholinar.",
+      "Fue asignado para mostrar el palacio a Pai — intentó mostrarle los lujos sin éxito.",
+      "Se horrorizó al ver el grafiti de Pai comparando a la reina con los diez locos.",
+      "Le dijo a Pai: 'No provoques una tormenta, chica. Eso no interesa a nadie.'",
+      "Durante el asedio de Kholinar sucumbió a Ashertmarn — adoptó el nombre Kharat.",
+      "Bajo la influencia de Ashertmarn introdujo a Shallan en la procesión llamándola Kishi.",
+      "La mantuvo en el anillo exterior del festejo diciéndole que no podía entrar.",
+      "Le sirvió dulces y vino.",
+      "Insistió en vigilarla — se instaló en el pasillo frente a la habitación donde Shallan se refugió.",
+      "Patrón repitió los susurros de Ashertmarn en el pasillo — Lhan/Kharat salió en busca de bebida.",
+      "Cuando volvió, custodiaba una ilusión de Velo — Shallan había escapado con otro rostro."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Fervoroso sometido por Ashertmarn durante el asedio de Kholinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Según Peter Ahlstrom, probablemente no está relacionado con Barlesha Lhan. Es un personaje de El Camino de los Reyes Prime cuya historia se entrelazó con la de Taln."
+  },
+  "descripcion_breve": "Fervoroso del séquito de Aesudan que fue asignado a mostrarle el palacio a Pai. Se horrorizó ante el grafiti de Pai. Sucumbió a Ashertmarn durante el asedio y vigiló a Shallan bajo el nombre Kharat.",
+  "notas": "Probablemente no relacionado con Barlesha Lhan. Es un personaje de El Camino de los Reyes Prime."
+}
