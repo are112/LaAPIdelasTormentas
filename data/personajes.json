@@ -168,6 +168,46 @@
     "especie": "humano"
   },
   {
+    "id": "alalhawithador",
+    "nombre": "Alalhawithador",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "activo",
+    "especie": "Insomne (dysian aimiano)"
+  },
+  {
+    "id": "alaward",
+    "nombre": "Alaward",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "alaxia",
+    "nombre": "Alaxia",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "alazansi",
+    "nombre": "Alazansi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "alds",
+    "nombre": "Alds",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "amaram",
     "nombre": "Amaram",
     "orden": "Ninguna",
