@@ -1,0 +1,95 @@
+{
+  "id": "alili",
+  "nombre": "Alili",
+  "nombre_completo": "Alili",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Urithiru — personal de servicio",
+    "Coalición de Monarcas — mensajera"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Gestión del personal de servicio",
+      "Mensajería — transmitió el mensaje de rendición de Navani por toda la sexta planta"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Maestra de sirvientes en Urithiru",
+      "Mensajera de la coalición durante la ocupación cantor"
+    ],
+    "descripcion": "Maestra de sirvientes alezi, probablemente ojos oscuros. Pelo blanco y gris prematuro para su edad. Viste el típico uniforme blanco y negro de maestra de sirvientes — durante la ocupación llevaba un uniforme desaliñado pero siempre con los guantes blancos metidos en el cinturón. Directa y con opiniones firmes sobre la situación política.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "navani",
+        "relacion": "transmitió su mensaje de rendición a toda la sexta planta"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "le preguntó si podía ayudar a los demás Radiantes"
+      },
+      {
+        "personaje": "Hesina",
+        "relacion": "estaba sentada con ella tomando té cuando llegó agotada"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Directa y con opiniones firmes. Protestó tanto contra las ideas de Lirin como contra las de Kaladin durante la ocupación.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Alili era maestra de sirvientes en Urithiru. Cuando las fuerzas de Odium ocuparon la torre, Navani le confirmó la rendición y le ordenó transmitirlo. Pasó un día agotador llevando el mensaje por todos los barrios de la sexta planta. Llegó finalmente a la clínica de Lirin y Kaladin. Discutió con ambos sobre la situación política.",
+    "puntos_clave": [
+      "Maestra de sirvientes en Urithiru — probablemente ojos oscuros.",
+      "El día que Rabeniel ocupó Urithiru, vio personalmente a Navani y Rabeniel juntos.",
+      "Navani le confirmó la rendición y le ordenó transmitirlo.",
+      "Pasó un día agotador transmitiendo el mensaje por todos los barrios de la sexta planta.",
+      "Llegó a la clínica de Lirin y Kaladin agotada — se sentó con Hesina a tomar té frío.",
+      "Protestó a Lirin que era erróneo contemplar usar los fabriales de la torre con luz del vacío.",
+      "Protestó a Kaladin que la guerra no podía terminar con los ejércitos de la coalición desplegados.",
+      "Le preguntó a Kaladin si podía ayudar a los demás Radiantes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Maestra de sirvientes en Urithiru; mensajera de la coalición",
+    "rol": "Figura de autoridad doméstica en Urithiru",
+    "relacion_con_spren": "",
+    "otros_detalles": "Pelo blanco y gris prematuro."
+  },
+  "descripcion_breve": "Maestra de sirvientes alezi en Urithiru. Transmitió el mensaje de rendición de Navani por toda la sexta planta. Directa y con opiniones firmes — discutió con Lirin y Kaladin sobre la situación.",
+  "notas": "Su pelo blanco y gris es prematuro para su edad — detalle que la hace recognocible. Es la imagen de la autoridad doméstica funcional durante la ocupación."
+}

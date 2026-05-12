@@ -1,0 +1,76 @@
+{
+  "id": "alezarv",
+  "nombre": "Alezarv",
+  "nombre_completo": "Alezarv",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida (pre-Traición)",
+  "origen": "Roshar (antigua)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención (epígrafe)",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Posiblemente Caballeros Radiantes (pre-Traición)"
+  ],
+  "orden_radiantes": {
+    "orden": "desconocida — posiblemente Caballero Radiante",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Uso de Puertas Juradas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Figura histórica pre-Traición",
+      "Posible Caballero Radiante"
+    ],
+    "descripcion": "Personaje que vivió antes de la Traición. Posiblemente fue ojos oscuros — registrado en el texto Entre los Ojos Oscuros por Calinam. Usó una Puerta Jurada en algún momento. Jasnah Kholin incluyó este registro en su cuaderno de investigación.",
+    "estado_en_viento_y_verdad": "Fallecido — vivió miles de años antes."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Personaje histórico pre-Traición que usó una Puerta Jurada. Su historia fue registrada en el texto Entre los Ojos Oscuros por Calinam. Jasnah lo incluyó en su cuaderno.",
+    "puntos_clave": [
+      "Vivió antes de la Traición.",
+      "Posiblemente fue ojos oscuros — registrado en Entre los Ojos Oscuros.",
+      "Usó una Puerta Jurada en algún momento.",
+      "Calinam registró su historia — Jasnah la incluyó en su cuaderno."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Figura histórica pre-Traición",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Figura histórica pre-Traición, posiblemente Caballero Radiante ojos oscuros. Usó una Puerta Jurada. Su historia fue registrada en el texto Entre los Ojos Oscuros.",
+  "notas": "Solo mencionado en un epígrafe de El Camino de los Reyes. Puede haber sido ojos oscuros — inusual para un Caballero Radiante en la cultura vorin posterior."
+}

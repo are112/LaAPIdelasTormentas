@@ -1,0 +1,71 @@
+{
+  "id": "alstben",
+  "nombre": "Alstben",
+  "nombre_completo": "Alstben",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Soldado del ejército de Amaram"
+    ],
+    "descripcion": "Soldado del ejército de Amaram. Murió en alguna acción durante la Guerra de la Venganza.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado del ejército de Amaram. Murió en la Guerra de la Venganza.",
+    "puntos_clave": [
+      "Soldado de Amaram mencionado brevemente.",
+      "Murió durante la Guerra de la Venganza."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Personaje menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado del ejército de Amaram fallecido durante la Guerra de la Venganza.",
+  "notas": "Información muy limitada."
+}
