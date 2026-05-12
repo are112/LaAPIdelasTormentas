@@ -1,0 +1,68 @@
+{
+  "id": "agil",
+  "nombre": "Agil",
+  "nombre_completo": "Agil",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "tashikki",
+  "origen": "Tashikk",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Personaje tashikki menor"
+    ],
+    "descripcion": "Personaje de Tashikk. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Personaje tashikki de presencia muy menor.",
+    "puntos_clave": [
+      "Personaje tashikki mencionado brevemente."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Personaje menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Personaje tashikki de presencia muy menor en la saga.",
+  "notas": "Información muy limitada."
+}

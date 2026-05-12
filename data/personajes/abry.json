@@ -1,0 +1,70 @@
+{
+  "id": "abry",
+  "nombre": "Abry",
+  "nombre_completo": "Abry",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército alezi"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Soldado alezi"
+    ],
+    "descripcion": "Soldado alezi. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado alezi de presencia menor. Información muy limitada.",
+    "puntos_clave": [
+      "Soldado alezi mencionado brevemente."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Personaje menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado alezi. Presencia muy menor en la saga.",
+  "notas": "Información muy limitada."
+}

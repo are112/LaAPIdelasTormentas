@@ -1,0 +1,95 @@
+{
+  "id": "adin",
+  "nombre": "Adin",
+  "nombre_completo": "Adin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Urithiru",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Residentes de Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Sueña con vincularse a un honorspren y unirse a los Corredores del Viento."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Alfarería básica — aprende de su padre Alalan",
+      "Valentía — se arriesgó durante la ocupación cantor"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hijo del alfarero Alalan en Urithiru",
+      "Chico valiente que sueña con ser Corredor del Viento"
+    ],
+    "descripcion": "Chico alezi de trece años, ojos oscuros. Trabaja para su padre Alalan en la alfarería del maestro Liganor en Urithiru. Los cuencos que hace suelen salir torcidos. Muy valiente — se arriesgó durante la ocupación cantor. Cree que la valentía atraerá un honorspren. Evitaba mostrar debilidad por temor a ahuyentar un posible vínculo. Se alivió cuando su tobillo curado no dejó cojera.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "alalan",
+        "relacion": "padre; le enseña alfarería y conoce su sueño de ser Corredor del Viento"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "Alalan lo llevó a Kaladin cuando se lastimó el tobillo"
+      },
+      {
+        "personaje": "Shar",
+        "relacion": "niña de Urithiru que Adin considera mandona; hija de una costurera"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Valiente, determinado y con un sueño claro. A veces imprudente en su deseo de demostrar valentía.",
+    "evolucion": "Pasó de chico asustado a participante activo en la resistencia durante la ocupación.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Adin vive en Urithiru con su padre Alalan durante la ocupación cantor de Raboniel. Trabaja en la alfarería de Liganor. Se lastimó el tobillo y su padre lo llevó a Kaladin. Sueña con atraer un honorspren siendo valiente. Miraba con descaro a los cantores cuando no le veían. Acompañó a su padre a comprobar la situación en la enfermería de los Radiantes durante el clímax de la batalla.",
+    "puntos_clave": [
+      "Chico de trece años hijo del alfarero Alalan en Urithiru.",
+      "Los cuencos que hace suelen salir torcidos.",
+      "Se lastimó el tobillo — su padre lo llevó a Kaladin.",
+      "Sueña con atraer un honorspren siendo valiente y unirse a los Corredores del Viento.",
+      "Evitaba mostrar debilidad para no ahuyentar un posible vínculo.",
+      "Miraba con descaro a los cantores cuando no le veían durante la ocupación.",
+      "Acompañó a su padre a comprobar la enfermería de los Radiantes.",
+      "Shar es la hija de una costurera — Adin la considera mandona pero nota que también mira mal a los cantores."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Aprendiz de alfarero en Urithiru",
+    "rol": "Personaje secundario que da perspectiva civil de la ocupación de Urithiru",
+    "relacion_con_spren": "Sueña con vincularse a un honorspren.",
+    "otros_detalles": "Su padre Alalan es un rebelde silencioso que cuida a los Radiantes caídos en secreto."
+  },
+  "descripcion_breve": "Chico alezi de trece años en Urithiru, hijo del alfarero Alalan. Sueña con atraer un honorspren y unirse a los Corredores del Viento. Valiente durante la ocupación cantor.",
+  "notas": "Adin tiene un interludio propio en RdG. Su valentía durante la ocupación le acerca a su sueño de ser Corredor del Viento."
+}
