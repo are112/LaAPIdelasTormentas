@@ -56,6 +56,38 @@
     "especie": "cantor"
   },
   {
+    "id": "abry",
+    "nombre": "Abry",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "acis",
+    "nombre": "Acis",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "adin",
+    "nombre": "Adin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "adis",
+    "nombre": "Adis",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "adolin",
     "nombre": "Adolin",
     "orden": "Ninguna",
@@ -77,6 +109,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
+    "id": "agil",
+    "nombre": "Agil",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
