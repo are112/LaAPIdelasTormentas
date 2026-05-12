@@ -1,0 +1,105 @@
+{
+  "id": "ki",
+  "nombre": "Ki",
+  "nombre_completo": "Ki",
+  "apodos": [
+    "Maestra Ki"
+  ],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "marabezi",
+  "origen": "Rall Elorim, Marabezia",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Rompedores del Cielo",
+    "Coalición de Monarcas"
+  ],
+  "orden_radiantes": {
+    "orden": "Rompedores del Cielo",
+    "nivel_ideal": 4,
+    "spren_asociado": {
+      "principal": "Mayal (altospren)"
+    },
+    "estado_del_vinculo": "Activo. Ha jurado cuatro Ideales y alcanzado el rango de maestra. Solo Nale y Szeth han alcanzado el Quinto Ideal en siglos."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación",
+        "División"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Entrenamiento de nuevos Radiantes — su función principal en la fortaleza",
+      "Absolución de infracciones pasadas — puede absolver a los aspirantes de fechorías cometidas antes de unirse"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Maestra Rompedora del Cielo",
+      "Entrenadora de nuevos Radiantes en la fortaleza cerca de Lagopuro"
+    ],
+    "descripcion": "Mujer alta e imponente con pelo dorado. Como todos los Rompedores del Cielo, viste las ropas de las fuerzas de la ley locales — en Marabezia opta por una falda colorida con tela envuelta alrededor del pecho. Directa y firme. Explica las reglas con claridad. Capaz de lanzar físicamente a Szeth al aire sin esfuerzo aparente.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "tomó a Szeth como escudero durante su entrenamiento con los Rompedores del Cielo"
+      },
+      {
+        "personaje": "nale",
+        "relacion": "superior — Nale creía que Szeth podría alcanzar el Tercer Ideal inmediatamente; Ki tuvo que empezar desde el principio en su ausencia"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional, directa y comprometida con la ley y la justicia. Fiel a los principios de los Rompedores del Cielo.",
+    "evolucion": "Sin arco propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Ki es una maestra Rompedora del Cielo que opera desde la fortaleza cerca de Lagopuro. Creció en Rall Elorim. En algún momento vinculó al altospren Mayal y tras una búsqueda personal juró cuatro Ideales, alcanzando el rango de maestra. Cuando Szeth llegó a la fortaleza, Mayal informó a Ki que los altospren ya lo observaban. Al día siguiente Ki proporcionó a Szeth y otros aspirantes el Primer Ideal, les explicó los cinco Ideales de los Rompedores del Cielo y tomó a Szeth como escudero.",
+    "puntos_clave": [
+      "Creció en Rall Elorim, Marabezia.",
+      "Vinculó al altospren Mayal — momento exacto desconocido.",
+      "Tras una búsqueda personal juró cuatro Ideales, alcanzando el rango de maestra.",
+      "Opera desde la fortaleza de los Rompedores del Cielo cerca de Lagopuro.",
+      "Su función principal es entrenar a nuevos Radiantes.",
+      "La noche que Szeth llegó, Mayal informó a Ki que los altospren ya lo observaban.",
+      "Al día siguiente proporcionó a Szeth y otros aspirantes el Primer Ideal.",
+      "Absolvió a los aspirantes de infracciones pasadas.",
+      "Explicó que el Quinto Ideal no se había alcanzado en siglos — solo el Tercero es necesario para ser Rompedor del Cielo completo.",
+      "Nale creía que Szeth podría alcanzar el Tercer Ideal inmediatamente; Ki tuvo que empezar desde cero en su ausencia.",
+      "Lanzó físicamente a Szeth al aire mientras los Rompedores del Cielo trasladaban aspirantes al lugar de su prueba.",
+      "Explicó a Szeth los detalles de su misión en Marabezia — capturar y ejecutar a fugitivos criminales."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Maestra Rompedora del Cielo — entrenadora en la fortaleza cerca de Lagopuro",
+    "rol": "Entrenadora de nuevos Radiantes; superior de Szeth durante su formación",
+    "relacion_con_spren": "Vínculo activo con Mayal, altospren.",
+    "otros_detalles": "Ha jurado cuatro de los cinco Ideales de los Rompedores del Cielo. Solo Nale y Szeth han pronunciado el Quinto Ideal en siglos."
+  },
+  "descripcion_breve": "Maestra Rompedora del Cielo marabezi vinculada al altospren Mayal. Entrenadora de nuevos Radiantes en la fortaleza cerca de Lagopuro. Tomó a Szeth como escudero. Ha jurado cuatro Ideales.",
+  "notas": "El Cuarto Ideal de los Rompedores del Cielo requiere completar una búsqueda personal — Ki la completó y obtuvo el rango de maestra, lo que le permite aceptar escuderos. Los altospren no se convierten en ojomuertos si su Radiante rompe los juramentos, a diferencia de otros spren."
+}

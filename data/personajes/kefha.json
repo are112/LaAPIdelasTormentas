@@ -1,0 +1,93 @@
+{
+  "id": "kefha",
+  "nombre": "Kef'ha",
+  "nombre_completo": "Kef'ha",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "unkalaki",
+  "origen": "Picos Comecuernos",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Clan unkalaki de los Picos Comecuernos"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo de clan — nuatoma de su clan unkalaki",
+      "Combate — desafió a un portador de armadura esquirlada"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Nuatoma del clan unkalaki de Lunamor",
+      "El que desafió a Sadeas y murió — causando la esclavitud de Lunamor"
+    ],
+    "descripcion": "Nuatoma unkalaki — equivalente a un brillante señor alezi. Líder del clan del que Lunamor formaba parte. Creyó que sería más fácil ganar contra un portador de armadura esquirlada sin hoja que contra uno completo — un cálculo erróneo. Lunamor afirma que el duelo no se realizó apropiadamente. No está claro si era el hermano de Lunamor o solo su nuatoma.",
+    "estado_en_viento_y_verdad": "Fallecido mucho antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "lunamor",
+        "relacion": "miembro de su clan — Lunamor lo siguió a las Llanuras; no está claro si era su hermano o solo su nuatoma"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "sadeas",
+        "relacion": "Sadeas lo mató en el duelo — Lunamor afirma que no fue un duelo apropiado"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Determinado y dispuesto a asumir el riesgo — sabía que su familia podría convertirse en siervos de Sadeas si moría, pero creyó que el coste merecía la pena.",
+    "evolucion": "Sin arco propio — fallece antes del inicio de la narración.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Kef'ha era el nuatoma del clan unkalaki de Lunamor. Decidió bajar de los Picos Comecuernos para ganar esquirladas en duelo — todos los nuatoma que lo habían intentado antes habían muerto. Creyó que sería más fácil ganar primero la armadura de Sadeas y luego desafiar a otro por una hoja. Sadeas lo mató. Lunamor afirma que el duelo no se realizó apropiadamente. Tras su muerte, Lunamor y el resto del clan se convirtieron en siervos de Sadeas.",
+    "puntos_clave": [
+      "Nuatoma del clan unkalaki al que pertenecía Lunamor.",
+      "Ningún nuatoma de los Picos Comecuernos había ganado nunca una hoja o armadura esquirlada.",
+      "Decidió bajar de los Picos para intentar ganar esquirladas en duelo.",
+      "Creyó que sería más fácil ganar contra Sadeas — que solo tenía armadura, no hoja — y luego desafiar a alguien por la hoja.",
+      "Sabía que su familia podría convertirse en siervos de Sadeas si moría — creyó que el riesgo merecía la pena.",
+      "Sadeas lo mató en el duelo.",
+      "Lunamor afirma que el duelo no se realizó 'apropiadamente'.",
+      "Tras su muerte Lunamor y el clan se convirtieron en siervos de Sadeas.",
+      "Sadeas usó a Lunamor inicialmente como cocinero — lo mandó a los puentes tras poner excremento de chull en la comida.",
+      "No está claro si Kef'ha era el hermano de Lunamor o solo su nuatoma."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Su muerte fue la causa directa de que Lunamor terminara en los puentes de Sadeas",
+    "relacion_con_spren": "",
+    "otros_detalles": "No está claro si era el hermano de Lunamor o solo su nuatoma. Lunamor no quiere hablar de él — dice que es una historia triste no apta para contarla en ese momento."
+  },
+  "descripcion_breve": "Nuatoma del clan unkalaki de Lunamor. Desafió a Sadeas en duelo para ganar su armadura esquirlada. Murió — Lunamor dice que el duelo no fue apropiado. Su muerte convirtió al clan en siervos de Sadeas.",
+  "notas": "Lunamor no quiere hablar de él — dice que es una historia triste. No está claro si era su hermano o su nuatoma. Los unkalaki de los Picos se avergüenzan de no tener esquirladas — ganar una convertiría al nuatoma ganador en el primer tana'kai (rey) unkalaki en mucho tiempo."
+}
