@@ -1,5 +1,45 @@
 [
   {
+    "id": "abaray",
+    "nombre": "Abaray",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "activo",
+    "especie": "cantor"
+  },
+  {
+    "id": "abena",
+    "nombre": "Abena",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "abiajan",
+    "nombre": "Abiajan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "cantor"
+  },
+  {
+    "id": "abidi",
+    "nombre": "Abidi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "activo",
+    "especie": "cantor"
+  },
+  {
+    "id": "abrial",
+    "nombre": "Abrial",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "abrobadar",
     "nombre": "Abrobadar",
     "orden": "Ninguna",
@@ -277,14 +317,6 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "elid",
-    "nombre": "Elid",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
@@ -648,28 +680,12 @@
     "especie": "humano"
   },
   {
-    "id": "kefha",
-    "nombre": "Kef'ha",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
     "id": "khen",
     "nombre": "Khen",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "cantor"
-  },
-  {
-    "id": "ki",
-    "nombre": "Ki",
-    "orden": "Rompedores del Cielo",
-    "nivel_ideal": 4,
-    "estado_actual": "viva",
-    "especie": "humano"
   },
   {
     "id": "klade",
@@ -808,14 +824,6 @@
     "especie": "humano"
   },
   {
-    "id": "malata",
-    "nombre": "Malata",
-    "orden": "Portadores del Polvo",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
     "id": "malise",
     "nombre": "Malise",
     "orden": "Ninguna",
@@ -872,14 +880,6 @@
     "especie": "humano"
   },
   {
-    "id": "neturo",
-    "nombre": "Neturo",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
     "id": "nikli",
     "nombre": "Nikli",
     "orden": "Ninguna",
@@ -931,14 +931,6 @@
     "id": "peet",
     "nombre": "Peet",
     "orden": "Corredores del Viento",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "pozen",
-    "nombre": "Pozen",
-    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
@@ -1005,14 +997,6 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
-    "id": "rit",
-    "nombre": "Rit",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
@@ -1133,14 +1117,6 @@
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
     "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "sivi",
-    "nombre": "Sivi",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
@@ -1405,14 +1381,6 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "zu",
-    "nombre": "Zu",
-    "orden": "Escultores de Voluntad",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
     "especie": "humano"
   },
   {
