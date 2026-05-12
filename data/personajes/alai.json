@@ -1,0 +1,70 @@
+{
+  "id": "alai",
+  "nombre": "Alai",
+  "nombre_completo": "Alai",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — estudió los spren durante la Era de Soledad"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito que estudió los spren durante la Era de Soledad"
+    ],
+    "descripcion": "Erudito roshario que vivió durante la Era de Soledad y estudió los spren.",
+    "estado_en_viento_y_verdad": "Fallecido — vivió en la Era de Soledad."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito que estudió los spren durante la Era de Soledad. Sus escritos fueron citados o referenciados en la saga.",
+    "puntos_clave": [
+      "Erudito que estudió los spren durante la Era de Soledad."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Erudito histórico",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito roshario que estudió los spren durante la Era de Soledad.",
+  "notas": "Información muy limitada."
+}

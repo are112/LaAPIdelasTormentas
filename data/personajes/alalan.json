@@ -1,0 +1,97 @@
+{
+  "id": "alalan",
+  "nombre": "Alalan",
+  "nombre_completo": "Alalan",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Urithiru",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Residentes de Urithiru",
+    "Resistencia en Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Alfarería — oficial en la tienda del maestro Liganor",
+      "Resistencia silenciosa — cuidó a los Radiantes caídos en secreto"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alfarero en Urithiru",
+      "Padre de Adin",
+      "Rebelde silencioso durante la ocupación cantor"
+    ],
+    "descripcion": "Hombre alezi bajo y de pelo rizado. Tranquilo pero con una imperceptible autoridad. Trabajaba como oficial en la alfarería del maestro Liganor en el mercado de Urithiru junto a Gub. Protector de su hijo Adin. Durante la ocupación cantor actuó con normalidad de cara a los cantores pero en secreto cuidaba a los Radiantes caídos y salía de noche por razones desconocidas.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "adin",
+        "relacion": "hijo; le enseña alfarería y conoce su sueño de ser Corredor del Viento"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "llevó a Adin a Kaladin cuando se lastimó el tobillo"
+      },
+      {
+        "personaje": "Liganor",
+        "relacion": "su jefe — Liganor buscaba su aprobación antes de cerrar la tienda"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Tranquilo, determinado y valiente. Escondía sus verdaderas intenciones detrás de una apariencia de sumisión.",
+    "evolucion": "Pasó de alfarero tranquilo a rebelde activo durante el clímax de la ocupación.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Alalan vivió en Urithiru con su esposa e hijo Adin. Trabajaba en la alfarería de Liganor. Durante la ocupación cantor de Raboniel actuó con normalidad pero en secreto cuidaba a los Radiantes caídos y llevaba el glifo shash en la frente en apoyo a los Radiantes. Al final tomó las armas para proteger a los rebeldes heridos en el atrio.",
+    "puntos_clave": [
+      "Alfarero oficial en la tienda del maestro Liganor en Urithiru.",
+      "Trabajaba junto a Gub, el otro oficial.",
+      "Llevó a Adin a Kaladin cuando se lastimó el tobillo.",
+      "Durante la ocupación detuvo actuar como si nada fuera anormal.",
+      "Llevaba el glifo shash en la frente en secreto en apoyo a los Radiantes.",
+      "Salía de noche por razones desconocidas — relacionado con cuidar a los Radiantes caídos.",
+      "Cuando Liganor cerró la tienda, abandonó su tarro a medio terminar inmediatamente.",
+      "Tomó las armas para proteger a los rebeldes heridos en el atrio durante el clímax."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alfarero en Urithiru",
+    "rol": "Padre de Adin; rebelde silencioso durante la ocupación",
+    "relacion_con_spren": "",
+    "otros_detalles": "Liganor le buscaba para su aprobación antes de tomar decisiones."
+  },
+  "descripcion_breve": "Alfarero alezi bajo y de pelo rizado en Urithiru. Padre de Adin. Rebelde silencioso durante la ocupación cantor — cuidaba a los Radiantes caídos en secreto y tomó las armas al final.",
+  "notas": "Adin describe a su padre como un héroe. Liganor le buscaba aprobación antes de cerrar la tienda — señal de su autoridad moral entre los residentes de Urithiru."
+}

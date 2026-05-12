@@ -1,0 +1,90 @@
+{
+  "id": "alabet",
+  "nombre": "Alabet",
+  "nombre_completo": "Alabet",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado ojos oscuros del ejército de Amaram",
+      "Uno de los cuatro supervivientes del escuadrón de Kaladin tras el ataque de Helaran"
+    ],
+    "descripcion": "Soldado ojos oscuros del ejército de Amaram. Uno de los cuatro supervivientes del escuadrón de Kaladin tras el ataque de Helaran Davar junto a Hab, Reesh y Coreb. Cuando Amaram traicionó a Kaladin, sacó su cuchillo para defenderlo junto a Hab. Fue abatido por los guardias de Amaram.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "intentó defenderle cuando Amaram lo traicionó"
+      },
+      {
+        "personaje": "Hab",
+        "relacion": "compañero que también sacó su cuchillo — fue asesinado primero"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "amaram",
+        "relacion": "Amaram ordenó a sus guardias abatirlo cuando Alabet intentó defender a Kaladin"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal a Kaladin — lo intentó defender a pesar del peligro.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Alabet sobrevivió al ataque de Helaran Davar al escuadrón de Kaladin. Cuando Amaram traicionó a Kaladin, sacó su cuchillo junto a Hab para defenderle. Los guardias de Amaram mataron a Hab primero y luego abatieron a Alabet.",
+    "puntos_clave": [
+      "Soldado del ejército de Amaram.",
+      "Uno de los cuatro supervivientes del escuadrón de Kaladin tras el ataque de Helaran.",
+      "Sacó su cuchillo para defender a Kaladin cuando Amaram lo traicionó.",
+      "Abatido por los guardias de Amaram."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Soldado leal a Kaladin en el ejército de Amaram",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado del ejército de Amaram. Sobrevivió al ataque de Helaran. Intentó defender a Kaladin cuando Amaram lo traicionó — fue abatido por los guardias de Amaram.",
+  "notas": "Junto a Hab fue uno de los pocos soldados que intentaron defender a Kaladin cuando Amaram lo traicionó."
+}

@@ -1,0 +1,79 @@
+{
+  "id": "aharat",
+  "nombre": "Aharat",
+  "nombre_completo": "Aharat",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados",
+    "Odium"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "acceso a Potencias mediante luz del vacío"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Fusionado cantor"
+    ],
+    "descripcion": "Fusionado que en la Verdadera Desolación se reencarnó en el cuerpo de Melu, uno de los oyentes disidentes.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Melu",
+        "relacion": "tomó su cuerpo al reencarnarse durante la tormenta eterna"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Fusionado que en la Verdadera Desolación se reencarnó en el cuerpo del oyente Melu durante una tormenta eterna.",
+    "puntos_clave": [
+      "Fusionado activo desde las Desolaciones.",
+      "Se reencarnó en el cuerpo de Melu durante la tormenta eterna."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionado activo",
+    "rol": "Fusionado menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Fusionado cantor que se reencarnó en el cuerpo del oyente Melu durante la tormenta eterna.",
+  "notas": "Información muy limitada — mención única en Juramentada."
+}
