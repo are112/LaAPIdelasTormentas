@@ -1,0 +1,81 @@
+{
+  "id": "anesa",
+  "nombre": "Anesa",
+  "nombre_completo": "Anesa",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin — servidora de Navani"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Gestión administrativa — ayudante de Navani",
+      "Elaboración de informes sobre el estado de Urithiru"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Ayudante ojos claros de Navani Kholin en Urithiru"
+    ],
+    "descripcion": "Ayudante ojos claros de Navani Kholin en Urithiru. Repasaba informes sobre el estado de la ciudad con Navani y la acompañaba en sus inspecciones.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "navani",
+        "relacion": "su señora; le presentaba informes y la acompañaba en inspecciones"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional y dedicada.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "El día que el ejército de la coalición partía hacia Azir, Anesa repasó varios informes sobre el estado de Urithiru con Navani camino al atrio. Acompañó a Navani cuando inspeccionó una habitación oculta que una de sus eruditas había descubierto.",
+    "puntos_clave": [
+      "Ayudante ojos claros de Navani en Urithiru.",
+      "Repasó informes sobre el estado de la ciudad con Navani el día que el ejército partió hacia Azir.",
+      "Acompañó a Navani al inspeccionar una habitación oculta descubierta por una de sus eruditas.",
+      "Falilar prometió investigar la gema incrustada en la puerta de la habitación."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ayudante de Navani Kholin en Urithiru",
+    "rol": "Asistente administrativa de Navani",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Ayudante ojos claros de Navani Kholin en Urithiru. Le presentaba informes y la acompañaba en inspecciones de la torre.",
+  "notas": "Información limitada — presencia menor en RdG."
+}

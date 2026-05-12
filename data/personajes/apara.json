@@ -1,0 +1,75 @@
+{
+  "id": "apara",
+  "nombre": "Apara",
+  "nombre_completo": "Apara",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Esposa de Cael — jefe del mando de campo durante la Batalla de Narak"
+    ],
+    "descripcion": "Mujer ojos claros en las Llanuras Quebradas. Acompañó a su esposo Cael durante la Batalla de Narak, donde él era jefe del mando de campo.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Cael",
+        "relacion": "esposo; jefe del mando de campo en la Batalla de Narak"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Apara acompañó a su esposo Cael durante la Batalla de Narak, donde él era el jefe del mando de campo.",
+    "puntos_clave": [
+      "Mujer ojos claros en las Llanuras.",
+      "Esposa de Cael — jefe del mando de campo en la Batalla de Narak.",
+      "Acompañó a su esposo durante la batalla."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Personaje menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mujer ojos claros que acompañó a su esposo Cael durante la Batalla de Narak. Él era el jefe del mando de campo.",
+  "notas": "Información muy limitada."
+}

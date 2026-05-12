@@ -1,0 +1,81 @@
+{
+  "id": "ana",
+  "nombre": "Ana",
+  "nombre_completo": "Ana",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Abuela de Moash",
+      "La que crió a Moash tras la muerte de sus padres"
+    ],
+    "descripcion": "Abuela materna de Moash. Crió a Moash y a su hermano Da junto a su marido tras morir sus padres cuando Moash era niño. Fue asesinada por el rey Elhokar junto a su marido cuando estos buscaron justicia.",
+    "estado_en_viento_y_verdad": "Fallecida antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "moash",
+        "relacion": "nieto; la crió junto a su marido tras la muerte de los padres de Moash"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "Elhokar la mató junto a su marido cuando buscaron justicia"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Ana y su marido criaron a Moash y a su hermano Da tras morir sus padres cuando eran niños. Cuando buscaron justicia ante el rey, Elhokar los mandó matar. Su muerte fue el origen del odio de Moash hacia la familia real Kholin.",
+    "puntos_clave": [
+      "Abuela de Moash — lo crió junto a su marido tras la muerte de sus padres.",
+      "Buscó justicia ante el rey por algún agravio.",
+      "Elhokar la mató junto a su marido.",
+      "Su muerte es el origen del odio de Moash hacia los Kholin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Figura del pasado de Moash; origen de su odio a los Kholin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Abuela de Moash que lo crió junto a su marido tras morir sus padres. Fue asesinada por el rey Elhokar cuando buscó justicia. Su muerte es el origen del odio de Moash hacia los Kholin.",
+  "notas": "Moash: 'Deberías saber... por qué soy como soy. Mis abuelos fueron la única familia que conocí. Mis padres murieron cuando era niño. Ana y Da me criaron. El rey... los mató.'"
+}
