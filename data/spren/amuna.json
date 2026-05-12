@@ -1,0 +1,99 @@
+{
+  "id": "amuna",
+  "nombre": "Amuna",
+  "apodos": [],
+  "tipo_spren": "honorspren",
+  "es_splinter_de": "Honor",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activa",
+  "origen": {
+    "creador": "desconocido",
+    "lugar_creacion": "Shadesmar",
+    "generacion": "desconocida",
+    "notas": "Honorspren residente en Integridad Duradera. Encargada del cuidado de los ojomuertos."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "figura femenina humanoide translúcida de luz azul",
+      "formas_alternativas": [],
+      "color": "azul plateado",
+      "visibilidad": "visible en Shadesmar",
+      "notas_emocionales": null
+    },
+    "reino_cognitivo": {
+      "forma": "figura femenina humanoide de luz azul",
+      "limitaciones": ""
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "no aplica",
+      "otras_formas": [],
+      "material": "no aplica"
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "compasiva con los ojomuertos",
+      "firme en sus convicciones",
+      "emotiva al hablar de la Traición"
+    ],
+    "valores": [
+      "protección de los ojomuertos",
+      "justicia por la Traición"
+    ],
+    "notas": "Amuna cuida de los ojomuertos con devoción. Su testimonio en el juicio de Adolin fue uno de los más emotivos — hizo una súplica apasionada para que no se enviaran más spren a sufrir ese destino."
+  },
+  "habilidades": {
+    "generales": [
+      "Cuidado de ojomuertos — les administra luz tormentosa y otros cuidados",
+      "Testimonio en juicios honorspren"
+    ],
+    "magicas": []
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": null,
+    "potencias_otorgadas": [],
+    "forma_shardblade": "no aplica",
+    "estado_vinculo": "no vinculada",
+    "radiante_anterior": null,
+    "notas": "No está vinculada a ningún Radiante. Reside en Integridad Duradera como cuidadora de ojomuertos."
+  },
+  "historia": {
+    "resumen": "Amuna reside en Integridad Duradera y es la encargada del cuidado de los ojomuertos que viven allí. En 1175 tomó a Maya de Adolin cuando entraron en la fortaleza. Estuvo presente durante algunas de sus visitas diarias. Testificó contra Adolin en el primer día de su juicio, describiendo el desastre que la Traición supuso para los honorspren y suplicando emotivamente que no se enviaran más spren a sufrir ese destino.",
+    "puntos_clave": [
+      "Honorspren residente en Integridad Duradera — encargada del cuidado de los ojomuertos.",
+      "En 1175 tomó a Maya de Adolin cuando entraron en la fortaleza.",
+      "Estuvo presente durante algunas de las visitas diarias de Adolin a Maya.",
+      "Testificó contra Adolin en el primer día de su juicio.",
+      "Describió el desastre de la Traición para los honorspren.",
+      "Hizo una súplica emotiva para que no se enviaran más spren a sufrir el destino de los ojomuertos.",
+      "Su punto fue reforzado por la presencia de dos ojomuertos sentados en silencio junto a ella durante el testimonio.",
+      "Sus palabras: 'Esto es prueba de vuestras mentiras.'"
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": null,
+    "otros": [
+      {
+        "personaje": "adolin",
+        "relacion": "testificó contra él; tomó a Maya cuando entraron en Integridad Duradera"
+      },
+      {
+        "personaje": "mayalaran",
+        "relacion": "Maya fue entregada a su cuidado al llegar a Integridad Duradera"
+      }
+    ]
+  },
+  "descripcion_breve": "Honorspren de Integridad Duradera encargada del cuidado de los ojomuertos. Testificó contra Adolin en su juicio con una emotiva súplica sobre los daños de la Traición.",
+  "notas": "Sus palabras en el juicio: 'Esto es prueba de vuestras mentiras.' Reforzó su testimonio sentando a dos ojomuertos en silencio junto a ella."
+}
