@@ -1,0 +1,103 @@
+{
+  "id": "alalhawithador",
+  "nombre": "Alalhawithador",
+  "nombre_completo": "Alalhawithador",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "Insomne (dysian aimiano)",
+  "nacionalidad": "",
+  "origen": "Aimia",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Danzante del Filo",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Insomnes — seguidores de Yelamaiszin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "transformación corporal — forma de Insomne dysian"
+      ],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Conocimiento extenso — los Insomnes ancianos acumulan memorias difíciles",
+      "Comunicación con otros Insomnes mediante zumbido bajo y airado"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Tercer Insomne más antiguo de Roshar",
+      "Uno de los 20 Insomnes que siguen a Yelamaiszin",
+      "El más volátil de todos los enjambres rosharianos"
+    ],
+    "descripcion": "Insomne dysian aimiano — el tercero más antiguo de Roshar. Uno de los 20 que siguen al primero, Yelamaiszin. Es el más volátil de todos los enjambres: empujó constantemente por la solución más violenta cuando el Wandersail se acercó a Akinah. Comunica en un zumbido bajo y airado. Acumulador de muchas memorias difíciles por su gran antigüedad. Con el tiempo llegó a respetar a Rysn.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "axies",
+        "relacion": "Arclomedarian probablemente colocó el barco Sueños Primeros para que alguien lo encontrara — lo señaló durante la reunión de Insomnes"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "quería matarla cuando llegó a Akinah; con el tiempo llegó a respetarla"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Agresivo e impaciente. El más volátil de los Insomnes. Prefiere la solución violenta. Acusador cuando algo falla.",
+    "evolucion": "Con el tiempo llegó a respetar a Rysn.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Alalhawithador participó en las deliberaciones de los Insomnes cuando el Wandersail se acercó a Akinah. Apoyó inicialmente el plan de Nikli de asustar a los humanos con presagios. Cuando fallaron, empujó por matar a toda la tripulación. Señaló que el barco Sueños Primeros probablemente fue colocado deliberadamente. Tras el tratado con Rysn y Cord, lo respetó por lealtad a Yelamaiszin.",
+    "puntos_clave": [
+      "Tercer Insomne más antiguo de Roshar.",
+      "Uno de los 20 que siguen a Yelamaiszin el Primero.",
+      "El más volátil de todos los enjambres rosharianos.",
+      "Cuando Nikli falló dos veces en asustar al Wandersail, empujó por matar a la tripulación.",
+      "Señaló que el barco Sueños Primeros fue probablemente colocado deliberadamente.",
+      "Por lealtad a Yelamaiszin respetó el tratado alcanzado con Rysn y Cord.",
+      "Con el tiempo llegó a respetar a Rysn."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Insomne activo en Roshar",
+    "rol": "Uno de los Insomnes más ancianos y el más volátil",
+    "relacion_con_spren": "",
+    "otros_detalles": "Sigue a Yelamaiszin — a diferencia de Arclo, que es un disidente."
+  },
+  "descripcion_breve": "Tercer Insomne más antiguo de Roshar. El más volátil de los enjambres. Empujó por matar a la tripulación del Wandersail. Respeta el tratado con Rysn por lealtad a Yelamaiszin.",
+  "notas": "A diferencia de Arclo, que es un disidente, Alalhawithador sigue lealmente a Yelamaiszin. Su antigüedad le da conocimiento extenso pero también le carga con memorias difíciles."
+}

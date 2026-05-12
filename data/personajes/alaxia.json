@@ -1,0 +1,79 @@
+{
+  "id": "alaxia",
+  "nombre": "Alaxia",
+  "nombre_completo": "Alaxia",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Dalilak, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Roshone — servidora"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Lectura de proclamas — leyó los nombres del reclutamiento de Roshone"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Esposa del mayordomo Natir de Roshone en Piedralar"
+    ],
+    "descripcion": "Mujer de aspecto recio, esposa de Natir, el mayordomo del consistor Roshone en Piedralar. Es de Dalilak, la ciudad natal de Roshone. Leyó los nombres de la lista de Roshone de las personas que serían reclutadas en el ejército de Amaram, incluyendo el nombre de Tien.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Natir",
+        "relacion": "esposo; mayordomo de Roshone en Piedralar"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Alaxia leyó los nombres de la lista de reclutamiento de Roshone en Piedralar, incluyendo el nombre de Tien — lo que desencadenó la decisión de Kaladin de alistarse para proteger a su hermano.",
+    "puntos_clave": [
+      "Esposa del mayordomo Natir de Roshone en Piedralar.",
+      "Leyó los nombres de la lista de reclutamiento de Roshone.",
+      "Incluyó el nombre de Tien en la lista — desencadenó el alistamiento de Kaladin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Personaje menor cuya acción tuvo consecuencias enormes",
+    "relacion_con_spren": "",
+    "otros_detalles": "Probablemente de Dalilak como Roshone."
+  },
+  "descripcion_breve": "Esposa del mayordomo Natir de Roshone en Piedralar. Leyó los nombres del reclutamiento de Roshone incluyendo el de Tien — lo que llevó a Kaladin a alistarse.",
+  "notas": "Su lectura de la lista de reclutamiento, incluyendo el nombre de Tien, es el catalizador del alistamiento de Kaladin en el ejército de Amaram."
+}

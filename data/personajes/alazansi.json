@@ -1,0 +1,72 @@
+{
+  "id": "alazansi",
+  "nombre": "Alazansi",
+  "nombre_completo": "Alazansi",
+  "apodos": [
+    "Rey Brillante Alazansi"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida (figura mitológica rosharia)",
+  "origen": "Roshar (mitología)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Rey mitológico de Roshar"
+    ],
+    "descripcion": "Rey Brillante Alazansi — figura mitológica de Roshar protagonista de una historia que involucraba una flota de cien barcos. Leyten pidió a Sigzil que contara su historia mientras el Puente Cuatro hacía guardia en los abismos.",
+    "estado_en_viento_y_verdad": "Fallecido — figura mitológica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Figura mitológica — sin información psicológica.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Rey mitológico roshario protagonista de una historia que involucraba una flota de cien barcos. Leyten pidió a Sigzil que contara su historia durante la guardia del Puente Cuatro en los abismos.",
+    "puntos_clave": [
+      "Rey mitológico de Roshar.",
+      "Protagonizó una historia con una flota de cien barcos.",
+      "Leyten pidió a Sigzil que contara su historia durante la guardia en los abismos."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Figura mitológica",
+    "rol": "Rey mitológico mencionado en la saga",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Rey Brillante Alazansi — figura mitológica de Roshar protagonista de una historia con una flota de cien barcos. Leyten pidió a Sigzil que la contara.",
+  "notas": "No es un personaje histórico real de la saga — es una figura mitológica mencionada por Leyten."
+}

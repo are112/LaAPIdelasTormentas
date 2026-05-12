@@ -1,0 +1,87 @@
+{
+  "id": "alaward",
+  "nombre": "Alaward",
+  "nombre_completo": "Alaward",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Muralla de Kholinar — Séptima Plana, Escuadrón Dos"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado de la Guardia de la Muralla"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro de la Guardia de la Muralla de Kholinar",
+      "El que insultó a Adolin disfrazado de middler"
+    ],
+    "descripcion": "Hombre corpulento de ojos claros décima dahn — el rango más bajo de los ojos claros. Desprecia a los middlers — ojos claros de entre el octavo y décimo dahn que considera inútiles. Insultó a Adolin disfrazado diciendo que los middlers son 'inútiles para todo excepto dar malas órdenes y comer el doble que un hombre honrado'. Junto a Vaceslv intentó varias veces que Kaladin jugara a las cartas con ellos. Probablemente murió en la Batalla del Palacio de Kholinar.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "compañero de escuadrón; intentó varias veces que jugara a las cartas"
+      },
+      {
+        "personaje": "Vaceslv",
+        "relacion": "compañero que también intentaba convencer a Kaladin de jugar a las cartas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Resentido con los middlers. Su clase social baja entre los ojos claros lo hacía despreciar a los que estaban por encima de él sin serlo del todo.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Alaward era miembro del escuadrón de Noro en la Guardia de la Muralla de Kholinar. Insultó a Adolin disfrazado de middler. Intentó varias veces convencer a Kaladin de jugar a las cartas. La mayoría de su escuadrón, incluyendo a Noro, murió en la batalla del palacio.",
+    "puntos_clave": [
+      "Miembro de la Séptima Plana, Escuadrón Dos de la Guardia de la Muralla.",
+      "Ojos claros décima dahn — el rango más bajo.",
+      "Despreciaba a los middlers — ojos claros que no eran highlords.",
+      "Insultó a Adolin disfrazado: 'inútiles para todo excepto dar malas órdenes'.",
+      "Junto a Vaceslv intentó varias veces que Kaladin jugara a las cartas.",
+      "La mayoría de su escuadrón murió en la batalla del palacio — su destino no está confirmado."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Soldado de la Guardia de la Muralla",
+    "relacion_con_spren": "",
+    "otros_detalles": "Probablemente murió en la batalla del palacio de Kholinar."
+  },
+  "descripcion_breve": "Soldado corpulento décima dahn de la Guardia de la Muralla de Kholinar. Despreciaba a los middlers. Insultó a Adolin disfrazado. Intentó convencer a Kaladin de jugar a las cartas.",
+  "notas": "Su insulto a Adolin disfrazado como middler es uno de los momentos de humor de Juramentada."
+}
