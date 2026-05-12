@@ -1,0 +1,83 @@
+{
+  "id": "arafik",
+  "nombre": "Arafik",
+  "nombre_completo": "Arafik",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Piedralar — habitante"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Habitante de Piedralar",
+      "Padre de Habrin — reclutado por Roshone para el ejército de Amaram"
+    ],
+    "descripcion": "Habitante de Piedralar. Su hijo Habrin fue reclutado por el consistor Roshone para el ejército de Amaram en 1168, en la misma leva que Tien, Agil, Caull y Jorna.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Habrin",
+        "relacion": "hijo; reclutado por Roshone para el ejército de Amaram en 1168"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "roshone",
+        "relacion": "reclutó a su hijo Habrin para el ejército de Amaram"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Habitante de Piedralar cuyo hijo Habrin fue reclutado en la misma leva que Tien — la que desencadenó el alistamiento de Kaladin.",
+    "puntos_clave": [
+      "Habitante de Piedralar.",
+      "Su hijo Habrin fue reclutado por Roshone en 1168.",
+      "La misma leva incluyó a Tien — desencadenando el alistamiento de Kaladin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Padre de uno de los reclutas de la leva de Roshone",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Habitante de Piedralar. Su hijo Habrin fue reclutado por Roshone en la misma leva que Tien, lo que llevó a Kaladin a alistarse.",
+  "notas": "Solo mencionado de pasada en El Camino de los Reyes."
+}

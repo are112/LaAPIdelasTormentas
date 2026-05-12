@@ -1,0 +1,106 @@
+{
+  "id": "aric",
+  "nombre": "Aric",
+  "nombre_completo": "Aric",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de Roshone en Piedralar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Guardia de manor — guardia de Roshone en Piedralar",
+      "Resistencia silenciosa — colaboró con Lirin durante la ocupación cantor"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guardia de Roshone en Piedralar",
+      "Aliado silencioso de Lirin durante la ocupación cantor"
+    ],
+    "descripcion": "Guardia alezi de Roshone en Piedralar. Fue el primero en encontrar a Kaladin cuando regresó a Piedralar tras la tormenta eterna. Lo forzó a entrar en el manor y lo llevó ante Roshone. Presenció cómo Kaladin golpeó a Roshone y reveló su hoja esquirlada. Durante la ocupación cantor del área, él y los otros guardas de Roshone fueron prohibidos de portar armas — pero colaboraron con Lirin manteniendo los refugiados en fila y vigilando quién llegaba. Participó en el engaño de Lirin al Fusionado Dieno.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "lirin",
+        "relacion": "colaboró con él durante la ocupación cantor"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "lo encontró al regresar a Piedralar; presenció su confrontación con Roshone"
+      },
+      {
+        "personaje": "roshone",
+        "relacion": "su empleador; lo llevó ante Kaladin cuando lo reconoció"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático. Preocupado por el bienestar de la comunidad. Colaboró con Lirin pese a las restricciones de los cantores.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Aric fue el primer habitante de Piedralar en encontrar a Kaladin cuando regresó tras la tormenta eterna. Lo forzó a entrar en el manor y lo llevó ante Roshone. Presenció cómo Kaladin golpeó a Roshone y reveló su hoja. Le contó a Kaladin que los parshmenios no atacaron a nadie. Le preguntó si alertaría a Elhokar del daño causado por la tormenta. Durante la ocupación cantor, los guardas de Roshone fueron prohibidos de portar armas pero colaboraron con Lirin. Participó en el engaño al Fusionado Dieno.",
+    "puntos_clave": [
+      "Guardia de Roshone en Piedralar.",
+      "Fue el primero en encontrar a Kaladin al investigar los barracones de los parshmenios.",
+      "Lo forzó a entrar en el manor — Kaladin escapó fácilmente de su agarre.",
+      "Roshone lo reconoció y lo identificó.",
+      "Presenció cómo Kaladin golpeó a Roshone y reveló su hoja esquirlada.",
+      "Le informó de que los parshmenios escaparon sin atacar a nadie.",
+      "Le pidió que alertara a Elhokar del daño: silos de grano destruidos y casas dañadas.",
+      "Durante la ocupación cantor fue prohibido de portar armas.",
+      "Colaboró con Lirin manteniendo refugiados en fila y vigilando quién llegaba.",
+      "Participó en el engaño de Lirin al Fusionado Dieno enne Calah."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardia de Roshone en Piedralar",
+    "rol": "Aliado silencioso de Lirin durante la ocupación cantor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Guardia de Roshone en Piedralar. Encontró a Kaladin al regresar tras la tormenta eterna. Durante la ocupación cantor colaboró con Lirin en la asistencia a refugiados y el engaño al Fusionado Dieno.",
+  "notas": "Aric y los otros guardas de Roshone son un ejemplo de resistencia silenciosa durante la ocupación — prohibidos de portar armas pero colaborando activamente con Lirin."
+}

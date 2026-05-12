@@ -1,0 +1,86 @@
+{
+  "id": "arik",
+  "nombre": "Arik",
+  "nombre_completo": "Arik",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate básico con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Murió en la misma carrera que Mapas"
+    ],
+    "descripcion": "Miembro del Puente Cuatro. Sobrevivió a las carreras de puentes hasta después de que Kaladin decidiera salvar a los hombres. Murió en la misma carrera que Mapas — Kaladin no pudo salvar a ninguno de los dos.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su capitán — no pudo salvarlo"
+      },
+      {
+        "personaje": "mapas",
+        "relacion": "murió en la misma carrera"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Arik fue miembro del Puente Cuatro que sobrevivió a las carreras hasta después de que Kaladin decidiera intentar salvar a los hombres. Murió en la misma carrera que Mapas. Su muerte, junto a la de Mapas, dejó el Puente Cuatro con solo 26 miembros y afectó profundamente a Kaladin.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Sobrevivió hasta después de que Kaladin decidiera salvar a los hombres.",
+      "Murió en la misma carrera de puentes que Mapas.",
+      "Kaladin no pudo salvar a ninguno de los dos.",
+      "Su muerte dejó el Puente Cuatro con solo 26 miembros."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Miembro del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro que murió en la misma carrera que Mapas. Kaladin no pudo salvar a ninguno de los dos.",
+  "notas": "Su muerte junto a la de Mapas dejó el Puente Cuatro con solo 26 miembros — un golpe duro para Kaladin que temía quedarse solo."
+}

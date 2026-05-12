@@ -1,0 +1,106 @@
+{
+  "id": "aratin_khal",
+  "nombre": "Aratin Khal",
+  "nombre_completo": "Aratin Khal",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin",
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Lucha vehah — luchador consumado que llevaba meses sin perder un combate",
+      "Combate militar — soldado del ejército Kholin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Segundo hijo del General Khal y Teshav",
+      "Luchador de vehah consumado"
+    ],
+    "descripcion": "Ojos claros alezi de al menos treinta y tantos años. Complexión muy musculosa con cabeza que parece demasiado pequeña para su cuerpo. Hueco notable entre los dientes visible cuando sonríe. Durante los combates de vehah va sin camisa con leggings tradicionales. Su padre le enseñó a respetar pero no temer a sus superiores — está dispuesto a luchar con Dalinar Kholin sin preocuparse por hacerle daño. Habla formalmente con los ojos claros de alto rango pero se relaja cuando se lo permiten.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "general_khal",
+        "relacion": "padre; le enseñó a respetar pero no temer a sus superiores"
+      },
+      {
+        "personaje": "teshav",
+        "relacion": "madre; escriba y política prominent"
+      },
+      {
+        "personaje": "halam_khal",
+        "relacion": "hermano mayor"
+      },
+      {
+        "personaje": "Meleran Khal",
+        "relacion": "hermano menor"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "luchó con él en vehah — Dalinar lo desafió cuando estaba inquieto"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Confiado en sus habilidades. Educado y respetuoso con los superiores sin ser servil.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Aratin Khal era conocido como luchador de vehah consumado que llevaba meses sin perder un combate. A principios de 1174, Dalinar lo desafió a un combate de lucha en la sala de entrenamiento. Aratin advirtió a Dalinar que no había perdido en meses pero aceptó encantado. Logró derribar a Dalinar por la cadera e intentó asfixiarle. Dalinar consiguió soltarse pero Aratin le agarró por los brazos y presionó su cara contra la colchoneta. El combate fue interrumpido por Navani. Dalinar levantó el puño y le felicitó por su victoria. Cuando un amigo le dio una palmada en la espalda, Aratin se encogió — Dalinar se dio cuenta de que llevaba el hombro dañado todo el rato.",
+    "puntos_clave": [
+      "Segundo hijo del General Khal y Teshav, después de Halam y antes de Meleran.",
+      "Luchador de vehah consumado — meses sin perder un combate en 1174.",
+      "Dalinar lo desafió en la sala de entrenamiento.",
+      "Le advirtió a Dalinar que no había perdido pero aceptó encantado el desafío.",
+      "Derribó a Dalinar por la cadera e intentó asfixiarle.",
+      "Dalinar se soltó pero Aratin lo sujetó y presionó su cara contra la colchoneta.",
+      "El combate fue interrumpido por Navani.",
+      "Dalinar le felicitó por su victoria — fue un honor para Aratin.",
+      "Un amigo le dio una palmada que reveló que llevaba el hombro dañado todo el rato.",
+      "Dalinar se dio cuenta de que debió haberse rendido antes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado del ejército Kholin; luchador de vehah",
+    "rol": "Segundo hijo del General Khal; figura menor del arco de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Llevaba el hombro dañado durante el combate con Dalinar pero no lo mencionó."
+  },
+  "descripcion_breve": "Segundo hijo del General Khal y Teshav. Luchador de vehah consumado que llevaba meses sin perder. Luchó con Dalinar en Juramentada — le venció, aunque llevaba el hombro dañado.",
+  "notas": "Dalinar se dio cuenta de que debió haberse rendido antes para evitar que Aratin empeorara el hombro. La familia Khal es un pilar del ejército Kholin: padre general, madre política, y tres hijos soldados."
+}
