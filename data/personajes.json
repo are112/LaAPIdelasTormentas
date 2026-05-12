@@ -208,6 +208,46 @@
     "especie": "humano"
   },
   {
+    "id": "alezarv",
+    "nombre": "Alezarv",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "alili",
+    "nombre": "Alili",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "alim",
+    "nombre": "Alim",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "allahn",
+    "nombre": "Allahn",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "alstben",
+    "nombre": "Alstben",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "amaram",
     "nombre": "Amaram",
     "orden": "Ninguna",
