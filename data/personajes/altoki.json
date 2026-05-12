@@ -1,0 +1,78 @@
+{
+  "id": "altoki",
+  "nombre": "Altoki",
+  "nombre_completo": "Altoki",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — disidentes de Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Oyente poseído por un Fusionado durante la tormenta eterna"
+    ],
+    "descripcion": "Oyente seleccionado por Ulim junto a Venli, Demid, Melu, Mrun y otros cinco para abrirse a un 'nuevo poder' durante la tormenta eterna. El grupo no sabía que estaban ofreciendo sus cuerpos como vasijas para los Fusionados. Altoki fue poseído por un Fusionado sin nombre que parecía depredador y demente.",
+    "estado_en_viento_y_verdad": "Destino desconocido — el Fusionado que lo poseyó puede seguir activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "venli",
+        "relacion": "fue seleccionado por Ulim junto a ella para el ritual de la tormenta eterna"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información — fue poseído.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Altoki fue uno de los nueve oyentes seleccionados por Ulim para abrirse a los Fusionados durante la tormenta eterna. No sabía que estaba entregando su cuerpo. Fue poseído por un Fusionado que parecía depredador y demente.",
+    "puntos_clave": [
+      "Oyente seleccionado por Ulim junto a Venli, Demid, Melu, Mrun y otros.",
+      "No sabía que entregaba su cuerpo como vasija a un Fusionado.",
+      "Fue poseído por un Fusionado sin nombre que parecía depredador y demente.",
+      "Odium impidió que Venli fuera poseída — todos los demás fueron poseídos o murieron."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — poseído por un Fusionado",
+    "rol": "Oyente menor; una de las víctimas del ritual de la tormenta eterna",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Oyente poseído por un Fusionado depredador durante la tormenta eterna. Seleccionado por Ulim sin saber que entregaba su cuerpo.",
+  "notas": "El Fusionado que tomó su cuerpo parecía 'depredador y demente' — uno de los más perturbadores de los que poseyeron a los oyentes disidentes."
+}

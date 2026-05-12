@@ -1,0 +1,77 @@
+{
+  "id": "alvettaren",
+  "nombre": "Alvettaren",
+  "nombre_completo": "Alvettaren",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Forjadores de Vínculos",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Pre-Traición — ojomuerto."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Conexión",
+        "Adhesión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Teoría del vínculo — autor del texto Sobre los Vínculos y el Segundo Ideal"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Forjador de Vínculos pre-Traición",
+      "Autor del texto Sobre los Vínculos y el Segundo Ideal"
+    ],
+    "descripcion": "Caballero Radiante Forjador de Vínculos que vivió antes de la Traición. Escribió el texto Sobre los Vínculos y el Segundo Ideal, citado como epígrafe en El Camino de los Reyes. Sus escritos fueron estudiados por Jasnah Kholin.",
+    "estado_en_viento_y_verdad": "Fallecido — vivió miles de años antes."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Caballero Radiante Forjador de Vínculos pre-Traición. Escribió Sobre los Vínculos y el Segundo Ideal, citado como epígrafe.",
+    "puntos_clave": [
+      "Forjador de Vínculos pre-Traición.",
+      "Escribió el texto Sobre los Vínculos y el Segundo Ideal.",
+      "Sus escritos fueron citados como epígrafe en El Camino de los Reyes.",
+      "Sus obras fueron estudiadas por Jasnah Kholin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Autor histórico pre-Traición",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Forjador de Vínculos pre-Traición. Autor de Sobre los Vínculos y el Segundo Ideal, citado como epígrafe en El Camino de los Reyes.",
+  "notas": "Solo conocido por sus escritos, citados en epígrafes. Sus obras fueron estudiadas por Jasnah."
+}

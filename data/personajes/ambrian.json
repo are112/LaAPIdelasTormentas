@@ -1,0 +1,72 @@
+{
+  "id": "ambrian",
+  "nombre": "Ambrian",
+  "nombre_completo": "Ambrian",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (antigua)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura religiosa — autor de La última desolación"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Autor del texto religioso La última desolación"
+    ],
+    "descripcion": "Autor del texto La última desolación, citado en epígrafes de El Camino de los Reyes. Jasnah Kholin citó el versículo 335 de esta obra en su cuaderno. La obra hace referencia a los Portadores del Vacío. Se desconoce cuándo vivió ni su nacionalidad.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Autor histórico del texto La última desolación. Su versículo 335 fue citado por Jasnah Kholin en su cuaderno de investigación sobre los Portadores del Vacío.",
+    "puntos_clave": [
+      "Autor de La última desolación.",
+      "Versículo 335 citado por Jasnah en su cuaderno.",
+      "La obra hace referencia a los Portadores del Vacío."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Autor histórico roshario",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Autor del texto histórico La última desolación. Su obra fue citada por Jasnah Kholin en su cuaderno de investigación.",
+  "notas": "Solo conocido por sus escritos, citados en epígrafes. Su época y nacionalidad son desconocidas."
+}

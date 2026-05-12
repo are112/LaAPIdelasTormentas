@@ -1,0 +1,90 @@
+{
+  "id": "amark",
+  "nombre": "Amark",
+  "nombre_completo": "Amark",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "bavlander",
+  "origen": "Ironsway, Bavlandia",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro (brevemente)",
+    "Bavlandia"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Minería — trabajaba en Ironsway"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Minero bavlander del Puente Cuatro",
+      "El que protestó cuando Took ordenó a Szeth hacerse daño"
+    ],
+    "descripcion": "Hombre bavlander de voz nasal y acento bav marcado. Tenía mocos constantemente. Trabajaba como minero en Ironsway, Bavlandia, con Ton. Se emborrachaban juntos en una taberna destartalada escuchando las historias exageradas de Took. Mostró empatía cuando Took usó a Szeth para entretenerse — protestó cuando le ordenó cortarse y se indignó más cuando le dijo que se cortara la garganta. Acabó como hombre de los puentes de Sadeas — murió en una carrera de puentes antes de que Kaladin pudiera salvarle.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Ton",
+        "relacion": "amigo y compañero minero en Ironsway — bebían juntos en la taberna de Took"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Took",
+        "relacion": "protestó cuando Took ordenó a Szeth hacerse daño"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Empático — le perturbó ver a Szeth usado como entretenimiento.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Amark vivía en Ironsway, Bavlandia, y trabajaba como minero junto a Ton. Bebían en una taberna destartalada escuchando las historias de Took. Cuando Took usó a Szeth para entretenerse, Amark protestó — primero cuando le ordenó cortarse el brazo, y más cuando le ordenó cortarse la garganta. Bajo circunstancias desconocidas acabó como hombre de los puentes de Sadeas. Murió en una carrera antes de que Kaladin redujera las bajas del Puente Cuatro. Kaladin pensó en él cuando murió Mapas.",
+    "puntos_clave": [
+      "Minero bavlander de Ironsway con acento nasal.",
+      "Bebía con Ton en la taberna de Took escuchando sus historias.",
+      "Protestó cuando Took ordenó a Szeth cortarse el brazo.",
+      "Se indignó más cuando Took le dijo que se cortara la garganta.",
+      "Acabó como hombre de los puentes de Sadeas bajo circunstancias desconocidas.",
+      "Murió en una carrera de puentes antes de que Kaladin redujera las bajas.",
+      "Kaladin pensó en él junto a otros que no pudo salvar cuando murió Mapas."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Hombre de los puentes del Puente Cuatro; figura del pasado de Szeth como Sinverdad",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Minero bavlander del Puente Cuatro. Protestó cuando Took ordenó a Szeth hacerse daño. Murió en una carrera de puentes antes de que Kaladin pudiera salvarle.",
+  "notas": "Su aparición en el interludio de Szeth muestra el pasado del Asesino de Blanco como esclavo. Su empatía contrasta con la frialdad de Took."
+}
