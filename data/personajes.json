@@ -120,8 +120,48 @@
     "especie": "humano"
   },
   {
+    "id": "aharat",
+    "nombre": "Aharat",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "activo",
+    "especie": "cantor"
+  },
+  {
+    "id": "aika",
+    "nombre": "Aika",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "alabet",
+    "nombre": "Alabet",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "aladar",
     "nombre": "Aladar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "alai",
+    "nombre": "Alai",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "alalan",
+    "nombre": "Alalan",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
