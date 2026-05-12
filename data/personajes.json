@@ -640,12 +640,28 @@
     "especie": "humano"
   },
   {
+    "id": "kefha",
+    "nombre": "Kef'ha",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "khen",
     "nombre": "Khen",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "cantor"
+  },
+  {
+    "id": "ki",
+    "nombre": "Ki",
+    "orden": "Rompedores del Cielo",
+    "nivel_ideal": 4,
+    "estado_actual": "viva",
+    "especie": "humano"
   },
   {
     "id": "klade",
