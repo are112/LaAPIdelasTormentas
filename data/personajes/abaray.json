@@ -1,0 +1,79 @@
+{
+  "id": "abaray",
+  "nombre": "Abaray",
+  "nombre_completo": "Abaray",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados",
+    "Odium"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "acceso a Potencias mediante luz del vacío"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Fusionado cantor"
+    ],
+    "descripcion": "Fusionado que participó en la Batalla de Thaylen. Entregó a Amaram una pequeña amatista sin cortar para albergar al Deshecho Yelig-nar.",
+    "estado_en_viento_y_verdad": "Activo — como todos los Fusionados puede renacer."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "amaram",
+        "relacion": "le entregó la gema para albergar a Yelig-nar"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Fusionado que en la Batalla de Thaylen entregó a Amaram una pequeña amatista sin cortar para albergar al Deshecho Yelig-nar.",
+    "puntos_clave": [
+      "Fusionado activo durante la Verdadera Desolación.",
+      "En la Batalla de Thaylen entregó a Amaram una amatista sin cortar para albergar a Yelig-nar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionado activo",
+    "rol": "Fusionado menor en la Batalla de Thaylen",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Fusionado cantor que en la Batalla de Thaylen entregó a Amaram la gema para albergar al Deshecho Yelig-nar.",
+  "notas": "Información muy limitada — una sola aparición en Juramentada."
+}

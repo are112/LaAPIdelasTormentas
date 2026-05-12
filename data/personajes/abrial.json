@@ -1,0 +1,78 @@
+{
+  "id": "abrial",
+  "nombre": "Abrial",
+  "nombre_completo": "Abrial",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto principado veden"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe veden"
+    ],
+    "descripcion": "Alto príncipe veden que asistió al festín del rey Hanavanar en Vedenar en 1173. Probablemente murió en el ataque de Szeth.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "probablemente murió en su ataque al festín de Hanavanar"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Alto príncipe veden que asistió al festín del rey Hanavanar en Vedenar en 1173. Durante la fiesta Szeth intentó asesinar al rey por orden de Taravangian. Abrial probablemente murió junto a otros altos príncipes vedens aunque los informes iniciales no lo confirmaron.",
+    "puntos_clave": [
+      "Alto príncipe veden.",
+      "Asistió al festín de Hanavanar en Vedenar en 1173.",
+      "Szeth atacó el festín por orden de Taravangian.",
+      "Probablemente murió en el ataque — informes inicialmente no confirmados."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Alto príncipe veden menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Alto príncipe veden que asistió al festín de Hanavanar en 1173. Probablemente murió en el ataque de Szeth.",
+  "notas": "Información muy limitada — mención única en Palabras Radiantes."
+}

@@ -1,0 +1,75 @@
+{
+  "id": "abidi",
+  "nombre": "Abidi",
+  "nombre_completo": "Abidi el Monarca",
+  "apodos": [
+    "el Monarca"
+  ],
+  "sexo": "desconocido",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados — shanay-im",
+    "Odium"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación — vuelo"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Fusionado shanay-im"
+    ],
+    "descripcion": "Fusionado de la categoría shanay-im — los que usan Gravitación para volar. Apodado 'el Monarca'.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Fusionado shanay-im con el apodo 'el Monarca'. Información muy limitada.",
+    "puntos_clave": [
+      "Fusionado shanay-im activo durante la Verdadera Desolación."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionado shanay-im",
+    "rol": "Fusionado menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Fusionado shanay-im apodado 'el Monarca'. Información muy limitada.",
+  "notas": "Información muy limitada — mención única."
+}

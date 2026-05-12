@@ -1,0 +1,76 @@
+{
+  "id": "abena",
+  "nombre": "Abena",
+  "nombre_completo": "Abena",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Puente Nueve (cómic)",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejércitos alezi — exploradora"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Exploración — trabaja como exploradora para los ejércitos alezi",
+      "Alguacil — profesión anterior"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Exploradora alezi",
+      "Exalguacil que buscó una nueva vida en las Llanuras"
+    ],
+    "descripcion": "Mujer de ojos oscuros. Compasiva, perceptiva e independiente. Fue alguacil pero decidió viajar a las Llanuras Quebradas para buscar una nueva vida. Su objetivo es convertirse en alguien muy respetada como exploradora.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Independiente y con ambición de ser respetada en su trabajo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Exalguacil que viajó a las Llanuras Quebradas para empezar de nuevo como exploradora de los ejércitos alezi.",
+    "puntos_clave": [
+      "Fue alguacil antes de ir a las Llanuras.",
+      "Trabaja como exploradora para los ejércitos alezi.",
+      "Su objetivo es ser muy respetada en su labor."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Exploradora de los ejércitos alezi",
+    "rol": "Exploradora",
+    "relacion_con_spren": "",
+    "otros_detalles": "Aparece en el cómic Puente Nueve."
+  },
+  "descripcion_breve": "Exploradora alezi de ojos oscuros. Exalguacil que buscó una nueva vida en las Llanuras Quebradas. Compasiva y perceptiva.",
+  "notas": "Aparece en el cómic Puente Nueve. Información limitada."
+}

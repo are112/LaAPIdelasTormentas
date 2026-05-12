@@ -1,0 +1,85 @@
+{
+  "id": "abiajan",
+  "nombre": "Abiajan",
+  "nombre_completo": "Abiajan",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "alezi (criada en Piedralar)",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados (servidora)",
+    "Piedralar — ciudadana"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Administración — nombrada ciudadana de Piedralar por los Fusionados",
+      "Habla y actúa con modales alezi"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Ciudadana de Piedralar nombrada por los Fusionados",
+      "Exparshmenio esclavo de Wistiow"
+    ],
+    "descripcion": "Cantora con piel blanca con vetas rojas en las mejillas. Lleva havah al estilo alezi con manga cubriendo la mano de seguridad. Ropa de colores apagados para resaltar sus patrones de piel. Resiente a los humanos por haber esclavizado a su pueblo. Habla y actúa con modales alezi. Fue curada por Lirin de niña cuando era esclava de Wistiow.",
+    "estado_en_viento_y_verdad": "Activa en Piedralar."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "lirin",
+        "relacion": "la curó de niña siendo esclava — ella recuerda ese momento con resentimiento"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Resentida con los humanos por la esclavitud de su pueblo. Intenta imitar la cultura cantor antigua.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Parshmenio esclava de Wistiow en Piedralar. Lirin la curó de niña. Cuando llegó la tormenta eterna, huyó. Meses después regresó nombrada ciudadana por los Fusionados. Permitió a Lirin inspeccionar refugiados herdazianos.",
+    "puntos_clave": [
+      "Era parshmenio esclava de Wistiow en Piedralar desde niña.",
+      "Lirin la curó de un brazo lesionado cuando era niña.",
+      "Huyó cuando llegó la tormenta eterna.",
+      "Fue nombrada ciudadana de Piedralar por los Fusionados.",
+      "Regresó con otros cantores del área.",
+      "Permitió a Lirin inspeccionar refugiados herdazianos por enfermedades."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ciudadana de Piedralar",
+    "rol": "Figura de autoridad cantor en Piedralar bajo la ocupación",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Cantora exesclava de Wistiow en Piedralar. Curada por Lirin de niña. Nombrada ciudadana por los Fusionados tras la tormenta eterna.",
+  "notas": "Recuerda que Lirin la curó: 'Tal curiosa memoria. Esa vida parece un sueño ahora.' Lleva havah al estilo alezi — intenta imitar la cultura alezi mientras también recupera la cultura cantor antigua."
+}
