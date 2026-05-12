@@ -784,6 +784,14 @@
     "especie": "humano"
   },
   {
+    "id": "malata",
+    "nombre": "Malata",
+    "orden": "Portadores del Polvo",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "malise",
     "nombre": "Malise",
     "orden": "Ninguna",
@@ -1341,6 +1349,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "zu",
+    "nombre": "Zu",
+    "orden": "Escultores de Voluntad",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
