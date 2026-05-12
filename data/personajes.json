@@ -328,12 +328,52 @@
     "especie": "humano"
   },
   {
+    "id": "arafik",
+    "nombre": "Arafik",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "aran",
+    "nombre": "Aran",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "aratin_khal",
+    "nombre": "Aratin Khal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "arclo",
     "nombre": "Arclo",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "Insomne (dysian aimiano)"
+  },
+  {
+    "id": "aric",
+    "nombre": "Aric",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "arik",
+    "nombre": "Arik",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "arshqqam",
