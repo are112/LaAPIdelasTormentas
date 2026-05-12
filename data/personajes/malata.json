@@ -1,0 +1,106 @@
+{
+  "id": "malata",
+  "nombre": "Malata",
+  "nombre_completo": "Malata",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama",
+    "Caballeros Radiantes — Portadores del Polvo"
+  ],
+  "orden_radiantes": {
+    "orden": "Portadores del Polvo",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Chispa (cenizaspren)"
+    },
+    "estado_del_vinculo": "Activo. Ha progresado lo suficiente para convertir a Chispa en hoja esquirlada — la usa principalmente para controlar Puertas Juradas."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "División",
+        "Abrasión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Control de Puertas Juradas — encargada de abrirlas para la coalición",
+      "Espionaje — usó a Chispa para espiar a Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portadora del Polvo — Caballera Radiante al servicio del Diagrama",
+      "Agente de Taravangian en la coalición de Dalinar"
+    ],
+    "descripcion": "Mujer veden ojos claros de mediana edad con pelo corto, negro y juvenil. Guardaespaldas de Taravangian y Portadora del Polvo. Fue presentada por Taravangian ante Dalinar como la más nueva de los Caballeros Radiantes. Afirmó no ser propiedad de Taravangian — ella y Chispa estaban con él por conveniencia, ya que Chispa quería ver Urithiru. Es escéptica sobre los Radiantes y sobre Honor. Estuvo notablemente ausente durante la Batalla de Thaylenah — su ausencia fue la razón por la que las fuerzas alezi adicionales no pudieron llegar.",
+    "estado_en_viento_y_verdad": "Activa — destino desconocido tras el colapso del Diagrama."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "taravangian",
+        "relacion": "su empleador en el Diagrama — aunque ella niega ser suya"
+      },
+      {
+        "personaje": "adrotagia",
+        "relacion": "colega del Diagrama"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "usó a Chispa para espiarle y obtener información sobre sus visiones para el Diagrama"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Escéptica sobre los Radiantes y Honor. Actúa por conveniencia e interés propio — no por lealtad ciega a Taravangian.",
+    "evolucion": "Sin arco emocional desarrollado — su función en la saga es ser la espía del Diagrama dentro de la coalición.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Malata fue vinculada a Chispa — un cenizaspren que culpa a los Caballeros Radiantes y a su devoción por Honor de la muerte de cientos de cenizaspren. Llegó a Taravangian como agente del Diagrama con acceso privilegiado a Urithiru. Fue encargada del control de Puertas Juradas para la coalición. Usó a Chispa para espiar a Dalinar, obteniendo información sobre sus visiones con Odium. Estuvo ausente durante la Batalla de Thaylenah — su ausencia impidió que las fuerzas alezi reforzaran Ciudad Thaylen.",
+    "puntos_clave": [
+      "Portadora del Polvo veden vinculada a Chispa, un cenizaspren que busca venganza contra Honor.",
+      "Taravangian creó un proyecto para que miembros del Diagrama intentaran vincularse con spren — Malata afirma que fue Chispa quien la llevó a Taravangian, no al revés.",
+      "Fue presentada por Taravangian ante Dalinar como la más nueva de los Caballeros Radiantes.",
+      "Encargada del control de Puertas Juradas para la coalición — posición de poder estratégico.",
+      "El Diagrama decidió que Taravangian debía reemplazar a Dalinar como líder de la coalición.",
+      "Usó a Chispa para espiar a Dalinar — obtuvieron información sobre sus visiones con Odium.",
+      "Estuvo notablemente ausente durante la Batalla de Thaylenah.",
+      "Su ausencia fue la razón por la que las fuerzas alezi no pudieron reforzar Ciudad Thaylen a tiempo.",
+      "Teshav mencionó su ausencia como la causa del retraso.",
+      "No está confirmado si ella y Chispa permitieron el acceso a Urithiru a la fuerza de ataque cantor del Diagrama."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Portadora del Polvo — destino desconocido tras el colapso del Diagrama",
+    "rol": "Espía del Diagrama dentro de la coalición de Dalinar",
+    "relacion_con_spren": "Vínculo activo con Chispa, cenizaspren que busca venganza por la muerte de cientos de cenizaspren durante la Traición.",
+    "otros_detalles": "Chispa culpa a los Caballeros Radiantes y a su devoción por Honor de esas muertes. Malata comparte ese escepticismo."
+  },
+  "descripcion_breve": "Portadora del Polvo veden y agente del Diagrama de Taravangian. Vinculada a Chispa, cenizaspren que busca venganza contra Honor. Encargada del control de Puertas Juradas. Espió a Dalinar para el Diagrama. Ausente en la Batalla de Thaylenah.",
+  "notas": "Malata y Chispa son únicas entre los Radiantes actuales por su activa hostilidad hacia Honor y los valores tradicionales de los Caballeros Radiantes. Chispa culpa a esos valores de la muerte de cientos de cenizaspren durante la Traición."
+}

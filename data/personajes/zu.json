@@ -1,0 +1,106 @@
+{
+  "id": "zu",
+  "nombre": "Zu",
+  "nombre_completo": "Zu",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "iriali",
+  "origen": "Iri",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Coalición de Monarcas",
+    "Caballeros Radiantes — Escultores de Voluntad"
+  ],
+  "orden_radiantes": {
+    "orden": "Escultores de Voluntad",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "Ua'pam (cumbrespren)"
+    },
+    "estado_del_vinculo": "Activo. Vinculada con Ua'pam hacia el año 1173. Exiliada de Iri por sus nuevos poderes."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Transportación",
+        "Cohesión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Exploración y reconocimiento — frecuentemente va por delante del grupo",
+      "Combate — propone situaciones de combate innecesariamente arriesgadas con entusiasmo",
+      "Habla alezi con fluidez"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escultora de Voluntad iriali",
+      "Exiliada de Iri por sus poderes de potenciadora"
+    ],
+    "descripcion": "Mujer iriali entusiasta y excitable. Directa y sin pelos en la lengua, pero juguetona. Tiene una relación sólida con Ua'pam — lo abraza nada más entrar en Shadesmar. Ua'pam predica la precaución; ella lo ignora alegremente. Habla alezi con fluidez. Sus poderes la llevaron al exilio de Iri — en aquel tiempo no era ampliamente conocido que la potenciación había regresado. Pasó varios años en las Islas Reshi antes de unirse a la coalición.",
+    "estado_en_viento_y_verdad": "Activa en la coalición."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "compañera en la expedición a Integridad Duradera; le propuso enfrentarse juntos a la caravana tukari"
+      },
+      {
+        "personaje": "godeke",
+        "relacion": "compañero Radiante en la expedición"
+      },
+      {
+        "personaje": "ua-pam",
+        "relacion": "su cumbrespren vinculado; relación cercana y afectuosa"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Entusiasta y audaz hasta el punto de proponer situaciones innecesariamente arriesgadas. Sin miedo. Juguetona con Ua'pam.",
+    "evolucion": "Sin arco emocional propio desarrollado.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Zu se vinculó con el cumbrespren Ua'pam hacia el año 1173. Sus nuevos poderes la llevaron al exilio de Iri — en aquel tiempo no era ampliamente conocido que la potenciación había regresado. Pasó varios años en las Islas Reshi. Fue seleccionada por la coalición para la misión diplomática a Integridad Duradera en Shadesmar. Durante el viaje frecuentemente exploraba por delante del grupo. Señaló a Adolin que la caravana tukari seguía su ritmo y sugirió enfrentárseles usando toda su luz tormentosa restante — Ua'pam aconsejó a Adolin no alentarla.",
+    "puntos_clave": [
+      "Iriali exiliada de Iri tras vincularse con Ua'pam hacia el año 1173.",
+      "Sus poderes no eran ampliamente conocidos en Iri — la potenciación aún no se sabía que había regresado.",
+      "Pasó varios años en las Islas Reshi antes de unirse a la coalición.",
+      "Seleccionada por la coalición para la misión diplomática a Integridad Duradera.",
+      "Al entrar en Shadesmar, saltó a abrazar a Ua'pam inmediatamente.",
+      "Frecuentemente exploraba por delante del grupo durante el viaje.",
+      "Señaló a Adolin que la caravana tukari seguía su ritmo tras cruzar el cruce de caminos.",
+      "Propuso alegremente que ella y Adolin fueran a enfrentarse a la caravana usando toda su luz tormentosa restante.",
+      "Ua'pam aconsejó a Adolin no alentarla — ella volvió alegremente al campamento.",
+      "Los peakspren de la barca de Unativi disfrutaban visitando con ella."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escultora de Voluntad de la coalición",
+    "rol": "Exploradora y Caballera Radiante de la coalición",
+    "relacion_con_spren": "Vínculo activo con Ua'pam, cumbrespren.",
+    "otros_detalles": "Habla alezi con fluidez. Ua'pam predica la precaución; ella lo ignora alegremente y a veces lo hace para desquiciarle de forma juguetona."
+  },
+  "descripcion_breve": "Escultora de Voluntad iriali exiliada de su tierra por sus poderes. Entusiasta y audaz hasta la temeridad. Vinculada con el cumbrespren Ua'pam, con quien tiene una relación muy afectuosa. Exploró por delante del grupo en la misión a Integridad Duradera.",
+  "notas": "Ua'pam predica la precaución constantemente — Zu lo ignora de forma juguetona. La relación entre ambos es uno de los vínculos Radiante-spren más afectuosos y bien avenidos de la saga actual."
+}

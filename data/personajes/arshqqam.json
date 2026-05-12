@@ -28,14 +28,14 @@
     "orden": "Vigilantes de la Verdad",
     "nivel_ideal": null,
     "spren_asociado": {
-      "principal": "sin nombre confirmado"
+      "principal": "Soñando-aunque-Despierta (brumaspren)"
     },
     "estado_del_vinculo": "Activo — usó la Progresión inconscientemente para curar a los huérfanos. Lift la perdonó ante el Supremo tras descubrir su naturaleza."
   },
   "habilidades": {
     "magia": {
       "potencias": [
-        "Progresión — curación",
+        "Progresión",
         "Iluminación"
       ],
       "fuente_de_luz": "luz tormentosa"
@@ -96,9 +96,9 @@
   "situacion_actual": {
     "ocupacion": "Directora del Orfanato Luz de Tashi; Vigilante de la Verdad",
     "rol": "Potenciadora descubierta por Lift en Yeddaw",
-    "relacion_con_spren": "Spren sin nombre confirmado — Vigilante de la Verdad.",
+    "relacion_con_spren": "Vinculada con Soñando-aunque-Despierta, brumaspren.",
     "otros_detalles": "Fue convencida para ir a Azimir tras los eventos de Danzante del Filo. Los cargos de blanqueo fueron retirados por el Supremo."
   },
-  "descripcion_breve": "Directora hosca del Orfanato Luz de Tashi en Yeddaw y Vigilante de la Verdad. Usaba inconscientemente luz tormentosa para curar huérfanos — luego los acusaba de fingir. Apuñalada por Nale. Curada por Lift.",
-  "notas": "Su nombre real es Arshqqam — La Tocona es el apodo que Lift le da. Lift la describe como 'el hijo de una escoba y un trozo de musgo especialmente determinado'."
+  "descripcion_breve": "Directora hosca del Orfanato Luz de Tashi en Yeddaw y Vigilante de la Verdad. Usaba inconscientemente luz tormentosa para curar huérfanos — luego los acusaba de fingir. Apuñalada por Nale. Curada por Lift. Vinculada con Soñando-aunque-Despierta.",
+  "notas": "Su nombre real es Arshqqam — La Tocona es el apodo que Lift le da. Lift la describe como 'el hijo de una escoba y un trozo de musgo especialmente determinado'. Corrección respecto a ficha anterior: su spren es Soñando-aunque-Despierta (brumaspren), no un spren sin nombre."
 }
