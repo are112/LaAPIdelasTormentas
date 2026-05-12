@@ -248,8 +248,40 @@
     "especie": "humano"
   },
   {
+    "id": "altoki",
+    "nombre": "Altoki",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "alvettaren",
+    "nombre": "Alvettaren",
+    "orden": "Forjadores de Vínculos",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "amaram",
     "nombre": "Amaram",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "amark",
+    "nombre": "Amark",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "ambrian",
+    "nombre": "Ambrian",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",

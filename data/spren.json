@@ -328,35 +328,11 @@
     "estado_actual": "activa"
   },
   {
-    "id": "composicion",
-    "nombre": "Composición",
+    "id": "amuna",
+    "nombre": "Amuna",
     "apodo": null,
-    "tipo_spren": "críptico",
-    "radiante_vinculado": "rojo",
-    "estado_actual": "activo"
-  },
-  {
-    "id": "xorm",
-    "nombre": "Xorm",
-    "apodo": null,
-    "tipo_spren": "cultivacispren (anteriormente ojomuerto)",
-    "radiante_vinculado": "yanagawn",
-    "estado_actual": "activo"
-  },
-  {
-    "id": "yixli",
-    "nombre": "Yixli",
-    "apodo": null,
-    "tipo_spren": "vacíospren (guiaspren)",
+    "tipo_spren": "honorspren",
     "radiante_vinculado": null,
-    "estado_actual": "activo"
-  },
-  {
-    "id": "cusicesh",
-    "nombre": "Cusicesh",
-    "apodo": "Cusicesh el Protector",
-    "tipo_spren": "spren único",
-    "radiante_vinculado": null,
-    "estado_actual": "activo"
+    "estado_actual": "activa"
   }
 ]
