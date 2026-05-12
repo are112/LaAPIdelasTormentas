@@ -288,6 +288,46 @@
     "especie": "humano"
   },
   {
+    "id": "ana",
+    "nombre": "Ana",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
+    "id": "anesa",
+    "nombre": "Anesa",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "apara",
+    "nombre": "Apara",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "aqqil",
+    "nombre": "Aqqil",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "aqqu",
+    "nombre": "Aqqu",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "arclo",
     "nombre": "Arclo",
     "orden": "Ninguna",
