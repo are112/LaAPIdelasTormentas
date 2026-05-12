@@ -1,0 +1,93 @@
+{
+  "id": "rit",
+  "nombre": "Rit",
+  "nombre_completo": "Rit-hija-Clutio",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores de Honor — Custodios de la Piedra",
+    "Monasterio del Custodio de la Piedra"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna — Portadora de Honor shin",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Portadora de la Hoja de Honor de Taln. Fue convertida en Fusionada por Ishar."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Cohesión — usó para derretir el suelo y usarlo como arma",
+        "Tensión — acceso mediante la Hoja de Honor de Taln"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate con Hoja de Honor — entrenada en la combinación única de potencias de Taln",
+      "Paciencia — esperó meses a que llegara Szeth"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Chamana jefa del Monasterio del Custodio de la Piedra",
+      "Portadora de la Hoja de Honor de Taln",
+      "La primera en ser derrotada por Szeth en su peregrinaje"
+    ],
+    "descripcion": "Chamana shin que se convirtió en Fusionada de Ishar — la primera que Szeth enfrentó en su peregrinaje. Fue portadora de la Hoja de Honor de Taln. Se entrenó en la combinación única de potencias de Taln: Cohesión y Tensión. Esperó meses a que llegara Szeth al monasterio después de que este declarara su intención de purgar Shinovar.",
+    "estado_en_viento_y_verdad": "Fallecida — muerta por Szeth en el primer monasterio."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "Szeth la mató en el primer monasterio de su peregrinaje"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Soldado disciplinada. Fue corrompida por Ishar y convertida en Fusionada.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Rit fue la chamana jefa del Monasterio del Custodio de la Piedra — un monasterio sin Portador de Honor propio, considerado relativamente atrasado. Fue convertida en Fusionada de Ishar. Se entrenó con la Hoja de Honor de Taln y su combinación única de potencias. Cuando Szeth declaró su intención de purgar Shinovar, fue enviada a esperarlo al monasterio. Esperó meses. Usó Cohesión para derretir el suelo del mural de Taln y usarlo como arma. Szeth al principio se contuvo de usar División por orden de su spren; finalmente obtuvo permiso, se liberó y la mató. Su muerte liberó a la gente del campo de cualquier dolencia que tuviesen.",
+    "puntos_clave": [
+      "Chamana jefa del Monasterio del Custodio de la Piedra.",
+      "El monasterio no tenía Portador de Honor propio — considerado atrasado.",
+      "Fue convertida en Fusionada de Ishar.",
+      "Se entrenó con la Hoja de Honor de Taln — combinación única de Cohesión y Tensión.",
+      "Esperó meses a que llegara Szeth al monasterio.",
+      "Usó Cohesión para derretir el suelo con el mural de Taln y usarlo como arma.",
+      "Szeth se contuvo de usar División por orden de su spren durante el combate.",
+      "Finalmente su spren le dio permiso — se liberó y mató a Rit.",
+      "Su muerte liberó a la gente del campo de cualquier dolencia que tenían.",
+      "Szeth tomó la Hoja de Honor de Taln de su cadáver."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Primera Portadora de Honor derrotada por Szeth en su peregrinaje",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su muerte liberó a los habitantes del área de alguna dolencia misteriosa — señal de la corrupción de Ishar."
+  },
+  "descripcion_breve": "Chamana jefa del Monasterio del Custodio de la Piedra y Portadora de la Hoja de Taln. Convertida en Fusionada por Ishar. Esperó meses a Szeth. Usó Cohesión para atacarlo. Primera Portadora de Honor derrotada en el peregrinaje.",
+  "notas": "El monasterio del Custodio de la Piedra no tenía Portador de Honor propio — Rit era solo chamana jefa. Su muerte liberó a los habitantes de alguna dolencia misteriosa causada por la corrupción de Ishar."
+}

@@ -1,0 +1,105 @@
+{
+  "id": "pozen",
+  "nombre": "Pozen",
+  "nombre_completo": "Pozen-hijo-Nash",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Bajomok, Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores de Honor — Nominadores de lo Otro",
+    "Monasterio del Nominador de lo Otro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna — Portador de Honor shin",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Portador de la Hoja de Honor de Battar. Se suicidó con su propia Hoja durante la Purga de Shinovar."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Transformación",
+        "Transportación — acceso mediante la Hoja de Honor de Battar"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Política shin — el Portador de Honor más poderoso de su época",
+      "Selección de futuros Portadores de Honor",
+      "Entrenamiento de Szeth durante su formación como acólito"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "El Portador de Honor más poderoso en la época de Szeth",
+      "El que eligió a Szeth como Portador y luego lo declaró Sinverdad",
+      "Seguidor obediente de La Voz (Ishar)"
+    ],
+    "descripcion": "Hombre shin que viste en ocasiones túnicas de color azul claro. El Portador de Honor más poderoso en la época de Szeth — responsable principal de elegir a los futuros Portadores de Honor. Seguía las órdenes de La Voz sin cuestionarlas. Le interesaba genuinamente el entrenamiento de Szeth pero también lo utilizaba como herramienta. Vio a Tuko como un problema. No toleraba la resistencia — quien se le oponía solía ser asesinado.",
+    "estado_en_viento_y_verdad": "Fallecido — se suicidó con su propia Hoja durante la Purga."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "lo eligió como Portador, lo entrenó, lo declaró Sinverdad y finalmente se suicidó antes de que Szeth pudiera derrotarlo"
+      },
+      {
+        "personaje": "sivi",
+        "relacion": "colega que cuestionó sus órdenes; la criticó por dudar de La Voz"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Completamente sometido a La Voz de Ishar. Pragmático y despiadado con quienes se oponían a él. Genuinamente convencido de que seguía la voluntad divina.",
+    "evolucion": "Sin evolución moral — siguió a Ishar hasta el final y prefirió suicidarse antes que rendirse.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Pozen fue el Portador de Honor más poderoso de su época. Eligió a Szeth como futuro Portador tras evaluarlo. Lo entrenó como acólito. Cuando Szeth oyó La Voz creyendo que era un Deshecho, Pozen lo declaró Sinverdad pero le permitió conservar su Hoja siguiendo las instrucciones de La Voz. Cuando Szeth comenzó la Purga, Pozen tendió una emboscada en Shadesmar con una Portadora del Polvo sin identificar. Szeth mató a la Portadora del Polvo con Sangre Nocturna. Pozen se suicidó con su propia Hoja antes de ser derrotado.",
+    "puntos_clave": [
+      "Portador de Honor de los Nominadores de lo Otro — el más poderoso de su época.",
+      "En 1152 visitó el Monasterio del Custodio de la Piedra y elogió a Neturo.",
+      "Destinó a Szeth a los mataderos junto con Sivi para que se acostumbrara a la muerte.",
+      "En 1157 intervino para recompensar a Szeth por quemar los barcos saqueadores.",
+      "Dos años después envió a Szeth a cazar por los alrededores de Bajomok.",
+      "En 1159 habló a Szeth sobre la potencia de su debilidad en la Nominación de lo Otro.",
+      "En 1165 presenció cuando Szeth mató a Tuko y se convirtió en Portador de Honor.",
+      "Cuando Szeth creyó que La Voz era un Deshecho, Pozen lo declaró Sinverdad.",
+      "Siguiendo instrucciones de La Voz, permitió que Szeth conservara su Hoja — inusual para un Sinverdad.",
+      "Cuando Szeth comenzó la Purga, Pozen tendió una emboscada en Shadesmar con una Portadora del Polvo.",
+      "Szeth mató a la Portadora del Polvo con Sangre Nocturna.",
+      "Pozen se suicidó con su propia Hoja de Honor antes de ser derrotado por Szeth."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — suicidio con su propia Hoja de Honor",
+    "rol": "El Portador de Honor más poderoso; antagonista del arco de Szeth en Shinovar",
+    "relacion_con_spren": "",
+    "otros_detalles": "La Voz a la que obedecía era Ishar — corrompido y manipulador. Pozen lo seguía sin cuestionar."
+  },
+  "descripcion_breve": "El Portador de Honor más poderoso en la época de Szeth. Eligió a Szeth, lo entrenó y luego lo declaró Sinverdad. Seguidor obediente de La Voz (Ishar). Se suicidó con su propia Hoja durante la Purga.",
+  "notas": "Pozen se suicidó con su propia Hoja en lugar de rendirse — acto que encaja con su carácter de hombre que nunca cede. La Voz a la que obedecía era Ishar, corrompido por el poder de Odium."
+}

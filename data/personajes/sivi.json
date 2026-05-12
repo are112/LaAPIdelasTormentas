@@ -1,0 +1,110 @@
+{
+  "id": "sivi",
+  "nombre": "Sivi",
+  "nombre_completo": "Sivi-hija-Sivi",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores de Honor — Escultores de Voluntad",
+    "Monasterio del Escultor de Voluntad"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna — Portadora de Honor shin",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Portadora de la Hoja de Honor de Kalak. No es una Caballera Radiante."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Cohesión",
+        "Transportación — acceso mediante la Hoja de Honor de Kalak"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Perspicacia política — alertó a Szeth sobre las intenciones de Pozen",
+      "Resistencia moral — rechazó convertirse en Fusionada a pesar de la presión de Ishar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portadora de Honor de los Escultores de Voluntad",
+      "La que resistió a Ishar y murió con honor",
+      "La amante de Neturo"
+    ],
+    "descripcion": "Mujer shin alta que viste las coloridas túnicas de una chamana de piedra. Cabello corto y oscuro en un estilo erizado que Szeth describe como flagrante. Ojos de color violeta intenso. Sabia y perspicaz pero también sonriente y risueña. No se toma a sí misma demasiado en serio ni considera que su posición merezca reverencia. Advirtió a Szeth sobre las intenciones de Pozen. Mantuvo una relación romántica con Neturo.",
+    "estado_en_viento_y_verdad": "Fallecida antes de los eventos del libro — murió negándose a obedecer a Ishar."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "le orientó durante su formación; le advirtió sobre Pozen; fue al monasterio de ella a practicar potencias"
+      },
+      {
+        "personaje": "neturo",
+        "relacion": "relación romántica — se desarrolló mientras visitaba el Monasterio del Custodio de la Piedra; Elid sabía de ella"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "paradójicamente, Szeth tomó su Hoja de su cadáver — no hubo combate"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sabia, perspicaz y moralmente íntegra. Su rechazo a Ishar fue un acto de plena consciencia — sabía las consecuencias.",
+    "evolucion": "Sin arco emocional propio — su función narrativa es ser la figura de resistencia moral frente a Ishar.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Sivi se convirtió en Portadora de Honor de los Escultores de Voluntad antes de 1152 tras completar su peregrinaje. Desarrolló una relación romántica con Neturo, padre de Szeth. Orientó a Szeth durante su formación y le advirtió sobre las intenciones de Pozen. Cuando Ishar ordenó a los Portadores de Honor convertirse en Fusionados, Sivi rechazó el paso, protegiéndose y protegiendo a quienes vivían cerca de su monasterio. Murió sola en el monasterio antes de que Szeth llegara. Sus últimas palabras grabadas en la piedra: 'No me inclinaré ante él.'",
+    "puntos_clave": [
+      "Portadora de Honor de los Escultores de Voluntad — asentada en el Monasterio del Escultor de Voluntad.",
+      "En 1152 visitó el Monasterio del Custodio de la Piedra con Pozen para evaluar el liderazgo de Neturo.",
+      "Szeth le preguntó sobre la moralidad de hacer daño — Pozen y Sivi concluyeron que debía acostumbrarse a la muerte; lo destinaron a los mataderos.",
+      "Desarrolló una relación romántica con Neturo entre 1152 y 1159.",
+      "En 1157 contó a Neturo cosas sobre los Portadores de Honor incluyendo la naturaleza de la Voz.",
+      "En 1159 viajó a Bajomok y entregó a Szeth las soluciones a los acertijos de Pozen.",
+      "Le advirtió a Szeth que Pozen lo estaba utilizando.",
+      "Aprobó el deseo de Szeth de buscar respuestas sobre la Voz.",
+      "Cuando Ishar ordenó convertirse en Fusionados, Sivi rechazó el paso.",
+      "Su rechazo protegió a las personas del área cercana a su monasterio.",
+      "Murió sola en el monasterio — causas desconocidas.",
+      "Grabó en la piedra: 'No me inclinaré ante él.'",
+      "Szeth y Kaladin encontraron su cadáver y tomaron la Hoja de Honor de Kalak."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Figura de resistencia moral frente a Ishar en el arco de Szeth",
+    "relacion_con_spren": "",
+    "otros_detalles": "Sus últimas palabras — 'No me inclinaré ante él' — son uno de los momentos más poderosos del arco de Szeth en VyV."
+  },
+  "descripcion_breve": "Portadora de Honor de los Escultores de Voluntad en Shinovar. Orientó a Szeth durante su formación. Amante de Neturo. Rechazó convertirse en Fusionada por Ishar y murió sola en su monasterio. Sus últimas palabras: 'No me inclinaré ante él.'",
+  "notas": "Sivi es una de las figuras más moralmente admirables del arco de Shinovar. Rechazó a Ishar sabiendo las consecuencias. Su relación romántica con Neturo es un detalle que Szeth descubrió con sorpresa."
+}

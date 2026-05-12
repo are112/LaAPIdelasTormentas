@@ -1,0 +1,120 @@
+{
+  "id": "neturo",
+  "nombre": "Neturo",
+  "nombre_completo": "Neturo-hijo-Vallano",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Monteclaro, Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "interludio",
+        "pov": true
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores de Honor — Forjadores de Vínculos (al final)",
+    "Monasterio del Custodio de la Piedra"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna — Portador de Honor shin",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Portador de la Hoja de Honor de Ishar. Convertido en sombra cognitiva por Ishar, que reclamó su Hoja."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Conexión",
+        "Adhesión — acceso mediante la Hoja de Honor de Ishar"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Administración — administrador excepcional del campamento de soldados y de Bajomok",
+      "Pastoreo — su profesión original",
+      "Enseñanza de pastoreo para mejorar la eficiencia del campamento"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Padre de Szeth y Elid",
+      "Portador de Honor de los Forjadores de Vínculos",
+      "El que siguió a Szeth en cada paso de su formación"
+    ],
+    "descripcion": "Hombre shin pastor de origen. Convenció a su esposa Zeenid de cuestionar la ortodoxia del chamanismo de piedra. Siguió a Szeth en cada etapa de su formación — tres veces. Ascendió como administrador excepcional en cada lugar donde vivió. Tuvo una relación romántica con Sivi. Pasaba muchas noches llorando cuando Zeenid lo dejó. Ishar lo mató para reclamar su Hoja de Honor.",
+    "estado_en_viento_y_verdad": "Fallecido — convertido en sombra cognitiva por Ishar."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "szeth",
+        "relacion": "hijo; lo siguió en cada paso de su formación — Szeth le pidió que se detuviera; Neturo lo hizo igual"
+      },
+      {
+        "personaje": "elid",
+        "relacion": "hija; la amaba profundamente; ella le guardaba cierto resentimiento por priorizar a Szeth"
+      },
+      {
+        "personaje": "Zeenid",
+        "relacion": "esposa; se distanció de él en el campamento de soldados; lo dejó cuando siguió a Szeth por segunda vez"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "sivi",
+        "relacion": "relación romántica desarrollada en Bajomok mientras Sivi visitaba el monasterio"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "ishar",
+        "relacion": "Ishar lo mató para reclamar su Hoja de Honor y lo convirtió en sombra cognitiva"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Amor profundo e incondicional hacia su hijo que le hizo sacrificar su matrimonio y su vida. Nunca se rindió.",
+    "evolucion": "Pasó de pastor a administrador excepcional a Portador de Honor. Cada paso fue motivado por su deseo de proteger a Szeth.",
+    "situacion_en_viento_y_verdad": "Fallecido como sombra cognitiva."
+  },
+  "arco_narrativo": {
+    "resumen": "Neturo era pastor en Monteclaro cuando Szeth ingresó en el monasterio. Decidió acompañarlo renunciando a su vida pastoral. Siguió a Szeth tres veces — cada vez sacrificando más. Ascendió como administrador excepcional en el campamento de soldados y en Bajomok. Desarrolló una relación con Sivi. Fue entrenado secretamente por Sivi para ser Portador de Honor. Szeth le ofreció la Hoja de Honor de Ishar para detener su rebelión. Cuando Ishar reveló su verdadera identidad, reclamó la Hoja de Neturo y lo mató, convirtiéndolo en sombra cognitiva. En VyV apareció entre las fuerzas de Ishar como Fusionado humano.",
+    "puntos_clave": [
+      "Pastor en Monteclaro — padre de Szeth y Elid.",
+      "Convenció a Zeenid de cuestionar la ortodoxia del chamanismo de piedra.",
+      "Cuando Szeth ingresó en el monasterio, Neturo decidió acompañarlo sacrificando su vida pastoral.",
+      "Siguió a Szeth una segunda vez renunciando a su puesto — Zeenid lo dejó y volvió con sus hermanas.",
+      "Ascendió como administrador en el campamento de soldados — mejoró notablemente la moral.",
+      "Pozen lo elogió por su administración.",
+      "Desarrolló una relación romántica con Sivi mientras vivía en Bajomok.",
+      "Sivi lo entrenó secretamente para ser Portador de Honor en 1157.",
+      "Siguió a Szeth una tercera vez en su peregrinaje.",
+      "Pozen le ofreció la Hoja de Honor de Ishar para que usara para detener la rebelión de Szeth — lo logró.",
+      "Cuando Ishar reveló su verdadera identidad, reclamó la Hoja de Neturo y lo mató.",
+      "Neturo fue convertido en sombra cognitiva.",
+      "En VyV apareció entre las fuerzas de Ishar como Fusionado humano atacando a Szeth."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — sombra cognitiva creada por Ishar",
+    "rol": "Padre de Szeth; figura que motivó las decisiones más importantes de la vida de Szeth",
+    "relacion_con_spren": "",
+    "otros_detalles": "Apareció como Fusionado humano entre las fuerzas de Ishar en VyV."
+  },
+  "descripcion_breve": "Padre de Szeth. Pastor shin que siguió a su hijo en cada etapa de su formación sacrificando su matrimonio y su vida. Portador de Honor de los Forjadores de Vínculos. Asesinado por Ishar para reclamar su Hoja. Convirtió en sombra cognitiva.",
+  "notas": "Neturo es la figura paterna más sacrificada de la saga. Siguió a Szeth tres veces — cada vez perdiendo más. Su relación con Sivi es uno de los detalles más íntimos del flashback de Szeth."
+}

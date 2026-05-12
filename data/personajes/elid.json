@@ -1,0 +1,103 @@
+{
+  "id": "elid",
+  "nombre": "Elid",
+  "nombre_completo": "Elid-hija-Zeenid",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Monteclaro, Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores de Honor — Portadores del Polvo",
+    "Monasterio de la Portadora del Polvo"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna — Portadora de Honor shin",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": "Portadora de la Hoja de Honor de Chanarach. Fue convertida en Fusionada por Ishar. Ishar la invocó y disolvió su cuerpo antes de que Szeth pudiera comunicarse con ella."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "División",
+        "Abrasión — acceso mediante la Hoja de Honor de Chanarach"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Espada — se entrenó con los chamanes del Monasterio de la Nominadora de lo Otro",
+      "Profunda empatía familiar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hermana mayor de Szeth",
+      "Portadora de Honor de los Portadores del Polvo",
+      "La que reveló a Szeth el verdadero propósito de la peregrinación"
+    ],
+    "descripcion": "Mujer shin. Tres años mayor que Szeth. Porta un collar de piedra pulida. Lleva una espada al lateral como símbolo de su posición. Como Portadora de Honor, viste túnicas grises. El día que combate se ha cortado el pelo corto y tiene cicatrices en el rostro. Relajada y directa, contrasta con la estricta disciplina de Szeth. Suelta palabrotas con naturalidad. Muy unida a su familia. Guardaba rencor a Neturo y Szeth por priorizar el bienestar de Szeth sobre el resto de la familia.",
+    "estado_en_viento_y_verdad": "Fallecida — Ishar la invocó y disolvió su cuerpo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "szeth",
+        "relacion": "hermano menor — tres años más joven; lo amaba pero le guardaba rencor por la atención que recibía de Neturo"
+      },
+      {
+        "personaje": "neturo",
+        "relacion": "padre; lo amaba profundamente pero le guardaba resentimiento por priorizar a Szeth"
+      },
+      {
+        "personaje": "Zeenid",
+        "relacion": "madre; la cuidó hasta su muerte y sostuvo su mano cuando falleció"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profundo amor familiar con resentimiento larvado. Valiente — asumió el papel de Portadora de Honor para demostrar que no era débil.",
+    "evolucion": "Pasó de niña pastora a Portadora de Honor. Su resentimiento hacia Szeth y Neturo convivía con su amor por ellos.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Elid creció con Szeth en Monteclaro, siendo tres años mayor que él. Cuando Szeth ingresó en el monasterio y Neturo lo siguió, Elid eligió ir con ellos aunque detestó tener que separar a su familia. Se entrenó con la espada en el Monasterio de la Nominadora de lo Otro. Más tarde se convirtió en Portadora de Honor de los Portadores del Polvo — sustituyendo a Gearil-hija-Gearil — para demostrar que no era débil. Sostuvo la mano de su madre Zeenid cuando murió. Fue convertida en Fusionada por Ishar. Cuando Szeth llegó al Monasterio de la Portadora del Polvo, decidió no luchar. Le reveló que el verdadero propósito de la peregrinación era que Szeth se convirtiera en Heraldo. Ishar la invocó y disolvió su cuerpo.",
+    "puntos_clave": [
+      "Hermana mayor de Szeth — tres años mayor; crecieron juntos en Monteclaro.",
+      "Cuando Szeth ingresó en el monasterio, Elid eligió ir con él y Neturo aunque detestó separar a la familia.",
+      "Se entrenó con la espada con los chamanes del Monasterio de la Nominadora de lo Otro.",
+      "Se enteró de que Szeth partiría en peregrinaje e informó a los chamanes — quería acceder al jardín de rocas donde Szeth meditaba.",
+      "Habló con Szeth para disuadirlo de que Neturo siguiera acompañándolo — temía que rompiera con Sivi.",
+      "Le dijo a Szeth que lo odiaba por la posición en que lo ponía.",
+      "Sostuvo la mano de su madre Zeenid cuando murió.",
+      "Se convirtió en Portadora de Honor de los Portadores del Polvo reemplazando a Gearil — quería demostrar que no era débil.",
+      "Fue convertida en Fusionada por Ishar.",
+      "Cuando Szeth llegó al Monasterio de la Portadora del Polvo, decidió no luchar.",
+      "Le reveló que el verdadero propósito de la peregrinación era que Szeth se convirtiera en Heraldo.",
+      "Se disolvió en humo negro cuando Ishar la invocó antes de que Szeth pudiera comunicarse con ella."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — disuelto su cuerpo por Ishar",
+    "rol": "Hermana de Szeth; reveladora del verdadero propósito de la peregrinación",
+    "relacion_con_spren": "",
+    "otros_detalles": "No está claro qué le ocurrió a su alma tras ser disuelto su cuerpo — si se convirtió en sombra cognitiva o desapareció."
+  },
+  "descripcion_breve": "Hermana mayor de Szeth y Portadora de Honor de los Portadores del Polvo. Amaba a su familia pero guardaba resentimiento por la atención que Neturo dedicaba a Szeth. Le reveló que la peregrinación tenía como fin convertir a Szeth en Heraldo. Ishar disolvió su cuerpo.",
+  "notas": "Le dijo a Szeth que lo odiaba — pero la relación era de amor-resentimiento. Sostuvo la mano de su madre moribunda. Se convirtió en Portadora de Honor para demostrar que no era débil, no por convicción."
+}
