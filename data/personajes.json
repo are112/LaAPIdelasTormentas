@@ -280,6 +280,14 @@
     "especie": "humano"
   },
   {
+    "id": "elid",
+    "nombre": "Elid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
     "id": "elit",
     "nombre": "Elit",
     "orden": "Ninguna",
@@ -864,6 +872,14 @@
     "especie": "humano"
   },
   {
+    "id": "neturo",
+    "nombre": "Neturo",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "nikli",
     "nombre": "Nikli",
     "orden": "Ninguna",
@@ -915,6 +931,14 @@
     "id": "peet",
     "nombre": "Peet",
     "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "pozen",
+    "nombre": "Pozen",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
@@ -981,6 +1005,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "rit",
+    "nombre": "Rit",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
@@ -1101,6 +1133,14 @@
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "sivi",
+    "nombre": "Sivi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
