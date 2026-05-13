@@ -2,6 +2,7 @@ import express from "express";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 import compression from "compression";
+import { personajes, heraldos, spren, deshechos, esquirlas } from "./utils/loaders.js";
 import personajesRoutes from "./routes/personajes.js";
 import buscarRoutes from "./routes/buscar.js";
 import docsRoutes from "./routes/docs.js";
@@ -14,10 +15,12 @@ import deshechoRoutes from "./routes/deshechos.js";
 import esquirlasRoutes from "./routes/esquirlas.js";
 
 const app = express();
-app.set('trust proxy', 1);
+const START_TIME = Date.now();
+
+app.set("trust proxy", 1);
 app.use(express.json());
 
-// ─── Compresión gzip / brotli ─────────────────────────────
+// ─── Compresión gzip ──────────────────────────────────────
 // Comprime todas las respuestas JSON y HTML automáticamente.
 // Umbral: solo comprime respuestas > 1 KB (las pequeñas no merece la pena).
 app.use(compression({ threshold: 1024 }));
@@ -59,24 +62,47 @@ app.use(express.static("public", {
   lastModified: true,
 }));
 
-// ─── Rutas ───────────────────────────────────────────────
+// ─── Healthcheck ──────────────────────────────────────────
+// GET /health — usado por Render, Fly.io, Cloudflare y monitores externos.
+// Devuelve 200 si todo está en orden, 503 si alguna entidad no cargó.
+// No pasa por rate limiter para que los monitores nunca queden bloqueados.
+app.get("/health", (req, res) => {
+  const cache = {
+    personajes: personajes.loadList().length,
+    heraldos:   heraldos.loadList().length,
+    spren:      spren.loadList().length,
+    deshechos:  deshechos.loadList().length,
+    esquirlas:  esquirlas.loadList().length,
+  };
+
+  const healthy = Object.values(cache).every((n) => n > 0);
+
+  res.status(healthy ? 200 : 503).json({
+    status:          healthy ? "ok" : "degraded",
+    uptime_s:        Math.floor((Date.now() - START_TIME) / 1000),
+    entidades:       cache,
+    total_entidades: Object.values(cache).reduce((a, b) => a + b, 0),
+  });
+});
+
+// ─── Rutas ────────────────────────────────────────────────
 app.use("/personajes", apiLimiter, personajesRoutes);
-app.use("/buscar", apiLimiter, buscarRoutes);
-app.use("/ordenes", apiLimiter, ordenesRoutes);
-app.use("/spren", apiLimiter, sprenRoutes);
-app.use("/heraldos", apiLimiter, heraldosRoutes);
-app.use("/deshechos", apiLimiter, deshechoRoutes);
-app.use("/esquirlas", apiLimiter, esquirlasRoutes);
-app.use("/stats", apiLimiter, statsRoutes);
+app.use("/buscar",     apiLimiter, buscarRoutes);
+app.use("/ordenes",    apiLimiter, ordenesRoutes);
+app.use("/spren",      apiLimiter, sprenRoutes);
+app.use("/heraldos",   apiLimiter, heraldosRoutes);
+app.use("/deshechos",  apiLimiter, deshechoRoutes);
+app.use("/esquirlas",  apiLimiter, esquirlasRoutes);
+app.use("/stats",      apiLimiter, statsRoutes);
 app.use("/explorador", explorerLimiter, exploradorRoutes);
-app.use("/api-docs", explorerLimiter, docsRoutes);
+app.use("/api-docs",   explorerLimiter, docsRoutes);
 
 // Raíz
 app.get("/", (req, res) => {
   res.redirect("/explorador");
 });
 
-// ─── Ruta no encontrada (404) ────────────────────────────
+// ─── Ruta no encontrada (404) ─────────────────────────────
 app.use((req, res) => {
   res.status(404).json({
     error: "Ruta no encontrada",
@@ -86,7 +112,7 @@ app.use((req, res) => {
   });
 });
 
-// ─── Error global (500) ──────────────────────────────────
+// ─── Error global (500) ───────────────────────────────────
 app.use((err, req, res, next) => {
   console.error("Error no controlado:", err.message);
   res.status(500).json({
