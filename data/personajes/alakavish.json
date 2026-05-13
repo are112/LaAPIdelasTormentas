@@ -1,0 +1,83 @@
+{
+  "id": "alakavish",
+  "nombre": "Alakavish",
+  "nombre_completo": "Alakavish",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida (época de Nohadon)",
+  "origen": "Roshar (antigua)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "desconocida — potenciador sin honorspren",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "desconocido — no era honorspren"
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Potenciación — vínculo Nahel sin honorspren"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Liderazgo militar — condujo al mundo a la guerra"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Potenciador de la época de Nohadon",
+      "El que llevó al mundo a la guerra antes de una Desolación"
+    ],
+    "descripcion": "Potenciador que vivió en la época de Nohadon. Tenía un vínculo Nahel pero no con un honorspren. Sus poderes ejercían una gran atracción sobre el pueblo. Llevó al mundo a la guerra. Once años después del inicio de una Desolación, algunos lo culpaban por los daños — creyendo que si no hubiera causado la guerra, la Desolación habría causado menos daño.",
+    "estado_en_viento_y_verdad": "Fallecido — vivió miles de años antes."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Nohadon",
+        "relacion": "Nohadon reflexionó sobre él — creía que era un síntoma de un problema mayor, no su causa"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — solo conocido por las reflexiones de Nohadon.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Alakavish era un potenciador de la época de Nohadon. Sus poderes atraían a las masas. Causó una guerra antes de una Desolación. Once años después, muchos lo culpaban de que los daños fueran mayores. Nohadon creía que Alakavish era un síntoma — que la humanidad se desgarraría con guerra y disputas independientemente, y que quizás merecía perder ante los Portadores del Vacío.",
+    "puntos_clave": [
+      "Potenciador de la época de Nohadon — sin honorspren.",
+      "Sus poderes tenían gran atracción sobre el pueblo.",
+      "Llevó al mundo a la guerra antes de una Desolación.",
+      "Once años después muchos lo culpaban por los daños de la Desolación.",
+      "Nohadon lo veía como síntoma de un problema mayor — no su causa.",
+      "Nohadon reflexionó: quizás la humanidad merecía perder ante los Portadores del Vacío."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Figura histórica que ilustra el peligro de los potenciadores sin guía moral",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Potenciador de la época de Nohadon que llevó al mundo a la guerra antes de una Desolación. Sus poderes atraían a las masas. Nohadon lo veía como síntoma de la naturaleza humana, no como causa.",
+  "notas": "Sus acciones llevaron a Nohadon a escribir El Camino de los Reyes — el libro que Dalinar estudiaba. La reflexión de Nohadon sobre él es el corazón de la filosofía del libro."
+}

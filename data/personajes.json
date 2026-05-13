@@ -104,6 +104,14 @@
     "especie": "humano"
   },
   {
+    "id": "aeliran",
+    "nombre": "Aeliran",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "aesudan",
     "nombre": "Aesudan",
     "orden": "Ninguna",
@@ -157,6 +165,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "alakavish",
+    "nombre": "Alakavish",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
     "especie": "humano"
   },
   {
@@ -384,8 +400,64 @@
     "especie": "humano"
   },
   {
+    "id": "artmyrn",
+    "nombre": "Artmyrn",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "ashir",
     "nombre": "Ashir",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "ashlv",
+    "nombre": "Ashlv",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "ashno",
+    "nombre": "Ashno",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "atakin",
+    "nombre": "Atakin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "athszen",
+    "nombre": "Athszen",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "au_lam",
+    "nombre": "Au-lam",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "au_nak",
+    "nombre": "Au-nak",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
@@ -406,6 +478,14 @@
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "siah aimiano"
+  },
+  {
+    "id": "axikk",
+    "nombre": "Axikk",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "axindweth",

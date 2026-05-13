@@ -1,0 +1,82 @@
+{
+  "id": "au_nak",
+  "nombre": "Au-nak",
+  "nombre_completo": "Au-nak",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "natanesa",
+  "origen": "Nueva Natanatan",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Nueva Natanatan — embajada"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Diplomacia — embajador de Natanatan",
+      "Comercio — realizaba negocios con altos príncipes alezi"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Embajador de Natanatan en las Llanuras Quebradas",
+      "Dignatario visitante que hacía negocios con el alto príncipe Hatham"
+    ],
+    "descripcion": "Dignatario natanés de piel azulada típica de su pueblo. Representaba a Natanatan — un reino reducido a una sola ciudad-estado en la costa oriental de Roshar con algunos protectorados. Hacía negocios con el alto príncipe Hatham. Político filosófico — reflexionaba sobre el dinero como motor de la guerra.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Hatham",
+        "relacion": "alto príncipe alezi con quien hacía negocios"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Filósofo pragmático. 'El dinero está detrás de toda guerra. La religión es solo una excusa. O quizás una justificación.'",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Au-nak era el embajador natanés que hacía negocios con el alto príncipe Hatham en las Llanuras Quebradas. Representaba a Natanatan, un reino reducido a una ciudad-estado. Observó a Kaladin en una reunión y reflexionó filosóficamente sobre la guerra y el dinero.",
+    "puntos_clave": [
+      "Dignatario natanés que hacía negocios con el alto príncipe Hatham.",
+      "Representaba a Natanatan — reducida a una ciudad-estado en la costa oriental.",
+      "Observó a Kaladin en una reunión social.",
+      "Reflexionó filosóficamente: 'El dinero está detrás de toda guerra.'"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Embajador de Natanatan",
+    "rol": "Dignatario menor en las Llanuras",
+    "relacion_con_spren": "",
+    "otros_detalles": "Piel azulada típica de los nataneses."
+  },
+  "descripcion_breve": "Embajador natanés en las Llanuras Quebradas. Hacía negocios con el alto príncipe Hatham. Representaba a Natanatan, reducida a una ciudad-estado. Reflexionaba filosóficamente sobre el dinero y la guerra.",
+  "notas": "'El dinero está detrás de toda guerra. La religión es solo una excusa. O quizás una justificación.' — su única cita conocida."
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ashno",
+  "nombre": "Ashno",
+  "nombre_completo": "Ashno de los Sabios",
+  "apodos": [
+    "Ashno de los Sabios"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "emuli",
+  "origen": "Emul",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor — interludio de Baxil",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor — interludio de Baxil",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Emul — exPrimo"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo político — exPrimo de Emul, considerado uno de los mejores de la historia",
+      "Negociación diplomática"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "ExPrimo de Emul",
+      "Hombre santo conocido como Ashno de los Sabios",
+      "Dueño del Pasillo Sagrado donde Shalash destruyó arte"
+    ],
+    "descripcion": "Hombre emuli frágil en su vejez con mala espalda. ExPrimo de Emul cuyo reinado fue considerado uno de los mejores de la historia. Después de dejar el trono se convirtió en figura religiosa conocida como Ashno de los Sabios. En 1173 Shalash irrumpió en su palacio para destruir arte que la representaba — incluyendo una imagen de Epan, Dama de los Sueños — en su Pasillo Sagrado.",
+    "estado_en_viento_y_verdad": "Activo — viajó a Urithiru con Vexil."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Vexil",
+        "relacion": "lo acompañó a Azimir para ir a Urithiru cuando los cantores invadieron Emul"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Shalash",
+        "relacion": "Shalash irrumpió en su palacio y destruyó arte en el Pasillo Sagrado"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sabio y experimentado. Su continuación en la política tras dejar el trono muestra compromiso con Emul.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Ashno gobernó Emul como Primo y fue considerado uno de los mejores de la historia. Al dejar el trono se convirtió en figura religiosa. En 1173, Shalash irrumpió en su palacio para destruir arte que la representaba en el Pasillo Sagrado. En 1174, cuando los cantores invadieron Emul, acompañó a Vexil a Azimir para llegar a Urithiru y encontrarse con la coalición. Asistió a reuniones donde se decidió que Aladar ayudaría a defender Emul.",
+    "puntos_clave": [
+      "ExPrimo de Emul — considerado uno de los mejores de la historia.",
+      "Tras dejar el trono se convirtió en figura religiosa — Ashno de los Sabios.",
+      "En 1173, Shalash irrumpió en su palacio para destruir arte, incluyendo una imagen de Epan, Dama de los Sueños.",
+      "El Pasillo Sagrado de su palacio fue el objetivo del vandalismo de Shalash.",
+      "En 1174, cuando los cantores invadieron Emul, acompañó a Vexil a Azimir.",
+      "Viajaron por la Puerta Jurada a Urithiru.",
+      "Asistió a reuniones de la coalición donde se decidió que Aladar defendería Emul."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Hombre santo; asesor político en Emul",
+    "rol": "Figura religiosa y política emuli; viajó a Urithiru con la coalición",
+    "relacion_con_spren": "",
+    "otros_detalles": "Mala espalda en su vejez."
+  },
+  "descripcion_breve": "ExPrimo emuli considerado uno de los mejores de la historia. Convertido en figura religiosa — Ashno de los Sabios. Shalash irrumpió en su palacio para destruir arte. Viajó con Vexil a Urithiru durante la invasión cantor.",
+  "notas": "Su palacio aparece en el interludio de Baxil en El Camino de los Reyes — Shalash destruyó arte que la representaba allí."
+}

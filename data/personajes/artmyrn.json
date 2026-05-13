@@ -1,0 +1,89 @@
+{
+  "id": "artmyrn",
+  "nombre": "Artmyrn",
+  "nombre_completo": "Artmyrn",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Kharbranth",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comercio de libros — conocimiento profundo de textos históricos y filosóficos",
+      "Posiblemente alfabetizado — Shallan sospechó que sabía leer pero lo ocultaba"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mercader de libros thayleño en Kharbranth",
+      "El que Yalb estafó con el ardid de Barmest"
+    ],
+    "descripcion": "Hombre thayleño gordito de pelo entrecano. Peina sus largas cejas thayleñas sobre las orejas. Viste ropa elegante aunque el chaleco apenas contiene su barriga. Amable con los clientes como táctica de ventas. Habló a Shallan en veden reconociéndola como vedenesa. Condescendiente pero conocedor de sus libros. Shallan sospechó que era alfabetizado pero lo ocultaba ante los clientes — inusual para un hombre en la cultura vorin.",
+    "estado_en_viento_y_verdad": "Activo en Kharbranth."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "esposa de Artmyrn",
+        "relacion": "esposa; trabajaba con él en la librería"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Barmest",
+        "relacion": "rival mercader — Yalb usó su nombre para bajar los precios de Artmyrn"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Vendedor astuto con genuino conocimiento de sus productos.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Shallan visitó la elegante librería de Artmyrn en Kharbranth. Artmyrn la recibió con tono condescendiente pero Shallan respondió con firmeza, lo que cambió su actitud. Le ofreció libros históricos y filosóficos como Eternatis y obras de Placini y Shauka-hija-Hasweth. Le citó un precio sorprendentemente alto. Yalb irrumpió fingiendo trabajar para Barmest y ofreció descuentos similares en su tienda. Artmyrn maldijo a Barmest y vendió los libros a Shallan a precio reducido.",
+    "puntos_clave": [
+      "Mercader de libros thayleño en Kharbranth — tienda elegante.",
+      "Recibió a Shallan con tono condescendiente — reconoció que era vedenesa y le habló en su lengua.",
+      "Shallan le respondió con firmeza — su actitud se volvió más franca.",
+      "Le ofreció libros históricos y filosóficos: Eternatis, obras de Placini y Shauka-hija-Hasweth.",
+      "Le citó un precio sorprendentemente alto.",
+      "Yalb irrumpió fingiendo ser de Barmest — rival mercader.",
+      "Artmyrn maldijo a Barmest y vendió los libros a precio reducido.",
+      "Shallan sospechó que era alfabetizado pero lo ocultaba ante los clientes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Mercader de libros en Kharbranth",
+    "rol": "Vendedor menor en el arco de Shallan",
+    "relacion_con_spren": "",
+    "otros_detalles": "Posiblemente alfabetizado — inusual para un hombre en la cultura vorin."
+  },
+  "descripcion_breve": "Mercader de libros thayleño gordito en Kharbranth. Yalb usó el ardid de Barmest para que Shallan consiguiera los libros más baratos. Posiblemente alfabetizado.",
+  "notas": "Shallan sospechó que era alfabetizado pero lo ocultaba — un detalle que indica mayor complejidad de lo que aparenta."
+}

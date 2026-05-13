@@ -1,0 +1,94 @@
+{
+  "id": "ashlv",
+  "nombre": "Ashlv",
+  "nombre_completo": "Ashlv",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Administración marítima — registraba el barco en los puertos",
+      "Gestión de tripulación",
+      "Reclutamiento de escribas — contrató a Shallan para poner los libros de cuentas en orden"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Esposa de Tozbek",
+      "Tripulante y administradora del Placer del Viento"
+    ],
+    "descripcion": "Mujer thayleña pequeña con largas cejas blancas rizadas hasta las mejillas. Presencia tranquila y discreta — Shallan apenas la notó al principio. Compartía la cabina más grande del barco con Tozbek. Realizaba tareas administrativas como registrar el barco en los puertos. Reclutó astutamente a Shallan para trabajos de escriba a cambio de pasaje seguro desde Kharbranth.",
+    "estado_en_viento_y_verdad": "Destino desconocido — el Placer del Viento fue hundido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "tozbek",
+        "relacion": "esposo; capitán del Placer del Viento; él pidió a los atacantes que la perdonaran"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "la reclutó para trabajos de escriba a cambio de pasaje"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Discreta y práctica. Presencia tranquila en el barco.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Ashlv trabajaba en el Placer del Viento como administradora y esposa de Tozbek. Al ver que los libros de cuentas estaban en mal estado, reclutó astutamente a Shallan para trabajos de escriba a cambio de pasaje. Cuando los Sangre Espectral atacaron el barco, Tozbek pidió a los atacantes que perdonaran su vida. Su destino tras el hundimiento es desconocido.",
+    "puntos_clave": [
+      "Tripulante y administradora del Placer del Viento.",
+      "Esposa de Tozbek — compartían la cabina más grande.",
+      "Registraba el barco en los puertos.",
+      "Observó que los libros de cuentas estaban en mal estado.",
+      "Reclutó a Shallan para trabajos de escriba a cambio de pasaje seguro.",
+      "Cuando los Sangre Espectral atacaron, Tozbek pidió que la perdonaran.",
+      "Su destino tras el hundimiento del barco es desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — el Placer del Viento fue hundido",
+    "rol": "Administradora del Placer del Viento; esposa de Tozbek",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Esposa de Tozbek y administradora del Placer del Viento. Reclutó a Shallan para trabajos de escriba a cambio de pasaje. Destino desconocido tras el hundimiento del barco.",
+  "notas": "Su astucia al reclutar a Shallan muestra que era más observadora y práctica de lo que su discreta presencia sugería."
+}

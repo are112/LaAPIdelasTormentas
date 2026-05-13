@@ -1,0 +1,88 @@
+{
+  "id": "axikk",
+  "nombre": "Axikk",
+  "nombre_completo": "Axikk",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azimir, Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Palacio de Bronce de Azir — visir"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política azishiana — visir de alto rango",
+      "Escritura — redactó deliberadamente un mal ensayo para no ser elegido Supremo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Visir azishiano de alto rango",
+      "Candidato al trono de Supremo que intentó activamente no ser elegido"
+    ],
+    "descripcion": "Visir azishiano de alto rango en el Palacio de Bronce. Su presencia junto a Dalksi y Noura en los aposentos del Supremo indica su rango elevado. Durante la crisis de sucesión — tras el asesinato de dos Primos en una semana por Szeth — fue uno de los candidatos al trono de Supremo. Siguió la costumbre azishiana de escribir un mal ensayo para evitar ser elegido. También alegó estar descalificado por mala espalda.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "noura",
+        "relacion": "colega visir de alto rango"
+      },
+      {
+        "personaje": "yanagawn",
+        "relacion": "su Supremo elegido"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático. Usó todos los recursos disponibles para evitar ser elegido — incluyendo escribir mal deliberadamente y alegar incapacidad física.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Durante la crisis de sucesión azishiana tras el asesinato de dos Primos en una semana, Axikk fue uno de los candidatos al trono de Supremo. Lift lo escuchó en el Palacio de Bronce hablando con otros visires. Siguiendo la costumbre azishiana, escribió deliberadamente un mal ensayo para evitar ser elegido. También alegó estar descalificado por mala espalda. Finalmente Yanagawn fue proclamado Supremo.",
+    "puntos_clave": [
+      "Visir azishiano de alto rango en el Palacio de Bronce.",
+      "Candidato al trono de Supremo durante la crisis de sucesión.",
+      "Lift lo escuchó en el Palacio de Bronce hablando con visires incluyendo Dalksi y Noura.",
+      "Escribió deliberadamente un mal ensayo para no ser elegido Supremo.",
+      "Alegó estar descalificado por mala espalda.",
+      "Yanagawn fue elegido finalmente — Axikk se libró del cargo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Visir del Palacio de Bronce de Azir",
+    "rol": "Visir de alto rango bajo el Supremo Yanagawn",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Visir azishiano de alto rango. Durante la crisis de sucesión fue candidato al Supremo — escribió deliberadamente un mal ensayo para no ser elegido y alegó mala espalda. Finalmente Yanagawn fue elegido.",
+  "notas": "El sistema azishiano de selección por ensayo lleva a una situación paradójica: los candidatos capaces escriben mal deliberadamente para evitar el cargo. Axikk llevó esto al extremo alegando también incapacidad física."
+}
