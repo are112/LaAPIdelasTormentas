@@ -1,6 +1,7 @@
 import express from "express";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
+import compression from "compression";
 import personajesRoutes from "./routes/personajes.js";
 import buscarRoutes from "./routes/buscar.js";
 import docsRoutes from "./routes/docs.js";
@@ -13,8 +14,13 @@ import deshechoRoutes from "./routes/deshechos.js";
 import esquirlasRoutes from "./routes/esquirlas.js";
 
 const app = express();
-app.set('trust proxy', 1); // Confía en el proxy de Render/Fly.io para identificar IPs reales
+app.set('trust proxy', 1);
 app.use(express.json());
+
+// ─── Compresión gzip / brotli ─────────────────────────────
+// Comprime todas las respuestas JSON y HTML automáticamente.
+// Umbral: solo comprime respuestas > 1 KB (las pequeñas no merece la pena).
+app.use(compression({ threshold: 1024 }));
 
 // ─── Seguridad: cabeceras HTTP ────────────────────────────
 // Helmet añade cabeceras de seguridad a todas las respuestas
