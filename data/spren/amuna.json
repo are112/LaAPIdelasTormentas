@@ -51,12 +51,12 @@
   },
   "vinculo_nahel": {
     "radiante_actual": null,
-    "orden_radiante": null,
+    "orden_radiante": "Corredores del Viento",
     "potencias_otorgadas": [],
-    "forma_shardblade": "no aplica",
-    "estado_vinculo": "no vinculada",
+    "forma_shardblade": null,
+    "estado_vinculo": "sin vínculo conocido",
     "radiante_anterior": null,
-    "notas": "No está vinculada a ningún Radiante. Reside en Integridad Duradera como cuidadora de ojomuertos."
+    "notas": "No está vinculada a ningún Radiante conocido. Reside en Integridad Duradera como cuidadora de ojomuertos."
   },
   "historia": {
     "resumen": "Amuna reside en Integridad Duradera y es la encargada del cuidado de los ojomuertos que viven allí. En 1175 tomó a Maya de Adolin cuando entraron en la fortaleza. Estuvo presente durante algunas de sus visitas diarias. Testificó contra Adolin en el primer día de su juicio, describiendo el desastre que la Traición supuso para los honorspren y suplicando emotivamente que no se enviaran más spren a sufrir ese destino.",
