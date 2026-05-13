@@ -1,0 +1,75 @@
+{
+  "id": "avena",
+  "nombre": "Avena",
+  "nombre_completo": "Avena",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (Época Heráldica)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición histórica — escribió sobre los eventos previos a la Traición"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita histórica de la Época Heráldica",
+      "Testigo o cronista de eventos previos a la Traición"
+    ],
+    "descripcion": "Erudita histórica que vivió durante la Época Heráldica, presumiblemente. Escribió sobre eventos previos a la Traición de los Caballeros Radiantes. Fue consultada — o registró — descubrimientos extraños que estaban ocurriendo antes de la Traición. Sus escritos son citados como epígrafe en Palabras Radiantes.",
+    "estado_en_viento_y_verdad": "Fallecida — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Avena fue una erudita histórica que escribió sobre eventos previos a la Traición de los Caballeros Radiantes. Sus escritos son citados en epígrafes de Palabras Radiantes. 'En tanto que los Corredores del Viento estaban así ocupados, surgió el evento que en adelante se ha referenciado: concretamente, el descubrimiento de alguna cosa inicua de importancia, aunque si se trataba de alguna fechoría entre los seguidores de los Radiantes o de algún origen externo, Avena no quiso sugerirlo.'",
+    "puntos_clave": [
+      "Erudita histórica de la Época Heráldica.",
+      "Escribió sobre los eventos previos a la Traición.",
+      "Fue consultada o registró descubrimientos extraños que ocurrían ante la Traición.",
+      "Sus escritos no revelan si el evento fue interno o externo.",
+      "Citada en epígrafe de Palabras Radiantes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Erudita histórica citada en epígrafes",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudita histórica de la Época Heráldica que escribió sobre los eventos previos a la Traición. Sus escritos son citados en epígrafes de Palabras Radiantes pero evita revelar si el evento fue interno o externo.",
+  "notas": "Su cita es uno de los misterios de la saga — no especifica si el 'evento inicuo' que precedió a la Traición fue interno a los Radiantes o externo. Esta ambigüedad es deliberada."
+}

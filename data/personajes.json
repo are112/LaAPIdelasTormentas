@@ -176,6 +176,14 @@
     "especie": "Insomne (dysian aimiano)"
   },
   {
+    "id": "alavah",
+    "nombre": "Alavah",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
     "id": "alaward",
     "nombre": "Alaward",
     "orden": "Ninguna",
@@ -213,6 +221,14 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "ali_hija_hasweth",
+    "nombre": "Ali-hija-Hasweth",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
@@ -304,14 +320,6 @@
     "especie": "humano"
   },
   {
-    "id": "anunciadora_de_arroyos",
-    "nombre": "Anunciadora de Arroyos",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "activa",
-    "especie": "cantor"
-  },
-  {
     "id": "apara",
     "nombre": "Apara",
     "orden": "Ninguna",
@@ -334,14 +342,6 @@
     "nivel_ideal": null,
     "estado_actual": "desconocido",
     "especie": "humano"
-  },
-  {
-    "id": "aquella_que_suena",
-    "nombre": "Aquella Que Sueña",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "activa",
-    "especie": "cantor"
   },
   {
     "id": "arafik",
@@ -400,6 +400,14 @@
     "especie": "humano"
   },
   {
+    "id": "ashelem",
+    "nombre": "Ashelem",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "ashir",
     "nombre": "Ashir",
     "orden": "Ninguna",
@@ -408,12 +416,12 @@
     "especie": "humano"
   },
   {
-    "id": "aullido",
-    "nombre": "Aullido",
+    "id": "asthta_hija_methista",
+    "nombre": "Asthta-hija-Methista",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "anguila aérea"
+    "estado_actual": "fallecida",
+    "especie": "humano"
   },
   {
     "id": "av",
@@ -421,6 +429,30 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "avado",
+    "nombre": "Avado",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "avaran",
+    "nombre": "Avaran",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "avena",
+    "nombre": "Avena",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
@@ -438,14 +470,6 @@
     "nivel_ideal": null,
     "estado_actual": "desconocido",
     "especie": "humano"
-  },
-  {
-    "id": "azulcielo",
-    "nombre": "Azulcielo",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "abismoide"
   },
   {
     "id": "balat",

@@ -1,0 +1,81 @@
+{
+  "id": "ali_hija_hasweth",
+  "nombre": "Ali-hija-Hasweth",
+  "nombre_completo": "Ali-hija-Hasweth",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — autora de escritos sobre Urithiru",
+      "Perspectiva shin — sus escritos sobre el resto de Roshar son francos y diferentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita shin",
+      "Posible hermana de Shauka-hija-Hasweth",
+      "Autora de textos sobre Urithiru citados en epígrafes"
+    ],
+    "descripcion": "Erudita shin autora de escritos sobre Urithiru. Posible hermana de Shauka-hija-Hasweth, otra erudita shin. Shallan encontraba que los eruditos shin eran de los más interesantes — sus perspectivas sobre el resto de Roshar eran francas y diferentes. Su obra es citada como epígrafe: 'Urithiru era la conexión con todas las naciones y, a veces, nuestro único camino al mundo exterior, con sus piedras sin consagrar.'",
+    "estado_en_viento_y_verdad": "Fallecida — figura histórica."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Shauka-hija-Hasweth",
+        "relacion": "posible hermana — otra erudita shin"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudita shin autora de textos sobre Urithiru. Su obra fue citada por Shallan en sus investigaciones. 'Urithiru era la conexión con todas las naciones, y a veces nuestro único camino al mundo exterior, con sus piedras sin consagrar.'",
+    "puntos_clave": [
+      "Erudita shin autora de textos sobre Urithiru.",
+      "Posible hermana de Shauka-hija-Hasweth.",
+      "Shallan la leía — encontraba a los eruditos shin los más interesantes por sus perspectivas francas.",
+      "Su texto fue el título provisional de Juramentada — 'Stones Unhallowed' / 'Piedras sin consagrar'."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — figura histórica",
+    "rol": "Erudita shin citada en epígrafes",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudita shin autora de escritos sobre Urithiru. Posible hermana de Shauka-hija-Hasweth. Su texto 'Piedras sin consagrar' fue el título provisional de Juramentada.",
+  "notas": "Su cita sobre Urithiru — 'con sus piedras sin consagrar' — fue el título provisional de Juramentada ('Stones Unhallowed') antes de que Brandon Sanderson decidiera llamarla Oathbringer."
+}

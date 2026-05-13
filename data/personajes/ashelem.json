@@ -1,0 +1,78 @@
+{
+  "id": "ashelem",
+  "nombre": "Ashelem",
+  "nombre_completo": "Ashelem",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado del ejército de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado del ejército de Dalinar en las Llanuras Quebradas"
+    ],
+    "descripcion": "Soldado del ejército de Dalinar en las Llanuras Quebradas. Informó a Havarah — el jefe de puentes de Dalinar — de que la compañía de arqueros estaba lista para la batalla.",
+    "estado_en_viento_y_verdad": "Desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Havarah",
+        "relacion": "le informó de que la compañía de arqueros estaba lista"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado de Dalinar que informó al jefe de puentes Havarah de que la compañía de arqueros estaba lista para la batalla.",
+    "puntos_clave": [
+      "Soldado del ejército de Dalinar en las Llanuras.",
+      "Informó a Havarah de que la compañía de arqueros estaba lista."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado — destino desconocido",
+    "rol": "Personaje menor del ejército de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado del ejército de Dalinar. Informó al jefe de puentes Havarah de que la compañía de arqueros estaba lista para la batalla.",
+  "notas": "Información muy limitada — mención única."
+}

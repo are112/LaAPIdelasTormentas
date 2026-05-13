@@ -1,0 +1,82 @@
+{
+  "id": "avado",
+  "nombre": "Avado",
+  "nombre_completo": "Avado",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida (no alezi)",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comercio — mercader perspicaz capaz de anticipar cambios en los mercados",
+      "Perspicacia política — previó que los alezi maltratarían a los extranjeros tras el asesinato de Gavilar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mercader no alezi",
+      "El que recogió a Szeth tras el asesinato de Gavilar y le dio el oathmono"
+    ],
+    "descripcion": "Mercader no alezi de Roshar. Hombre inteligente y amable — lo suficientemente curioso como para preguntar por un extraño en el camino. Astuto comerciante capaz de anticipar cambios en los mercados de comercio. Tras el asesinato de Gavilar comprendió que los alezi maltratarían a los extranjeros y decidió marcharse a Jah Keved para un entorno comercial más amistoso.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "encontró a Szeth al borde del camino; Szeth tuvo que explicarle su naturaleza de Sinverdad y darle el oathmono. Viajaron juntos a Jah Keved."
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Inteligente y bondadoso. Su bondad tuvo consecuencias al acabar con el oathmono de Szeth — el asesino del rey.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Poco después del asesinato del rey Gavilar por Szeth, Avado encontró al Sinverdad al borde del camino — Szeth había recuperado su oathmono donde los Parshendi lo habían tirado. Avado le preguntó quién era. Szeth tuvo que explicar su naturaleza de Sinverdad y entregarle el oathmono. Los dos viajaron juntos a Jah Keved, Avado sin saber que estaba acompañando al asesino del rey.",
+    "puntos_clave": [
+      "Mercader no alezi que viajaba por Alezkar la noche del asesinato de Gavilar.",
+      "Encontró a Szeth al borde del camino — Szeth había recuperado su oathmono.",
+      "Avado, amable y curioso, le preguntó quién era.",
+      "Szeth tuvo que explicar su naturaleza de Sinverdad y entregarle el oathmono.",
+      "Previó que los alezi maltratarían a los extranjeros — decidió marcharse a Jah Keved.",
+      "Los dos viajaron juntos a Jah Keved, Avado sin saber que acompañaba al asesino del rey."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Mercader — destino desconocido",
+    "rol": "El primer propietario del oathmono de Szeth tras el asesinato de Gavilar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mercader no alezi que encontró a Szeth tras el asesinato de Gavilar. Le entregó su oathmono sin saber que era el asesino del rey. Viajaron juntos a Jah Keved.",
+  "notas": "Avado es el primer propietario del oathmono de Szeth tras el prólogo de El Camino de los Reyes. Su bondad al preguntar por un extraño le convirtió involuntariamente en el amo de un asesino."
+}
