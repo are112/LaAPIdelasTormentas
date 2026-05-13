@@ -2,6 +2,7 @@ import express from "express";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 import compression from "compression";
+import morgan from "morgan";
 import { personajes, heraldos, spren, deshechos, esquirlas } from "./utils/loaders.js";
 import personajesRoutes from "./routes/personajes.js";
 import buscarRoutes from "./routes/buscar.js";
@@ -24,6 +25,15 @@ app.use(express.json());
 // Comprime todas las respuestas JSON y HTML automáticamente.
 // Umbral: solo comprime respuestas > 1 KB (las pequeñas no merece la pena).
 app.use(compression({ threshold: 1024 }));
+
+// ─── Logging de peticiones ────────────────────────────────
+// En producción: formato "combined" (IP, método, ruta, status, tiempo).
+// En desarrollo: formato "dev" (coloreado y compacto).
+// El healthcheck se excluye para no contaminar los logs con ruido.
+app.use((req, res, next) => {
+  if (req.path === "/health") return next();
+  morgan(process.env.NODE_ENV === "production" ? "combined" : "dev")(req, res, next);
+});
 
 // ─── Seguridad: cabeceras HTTP ────────────────────────────
 // Helmet añade cabeceras de seguridad a todas las respuestas
