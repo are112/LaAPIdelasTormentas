@@ -4,8 +4,8 @@ info:
   description: |
     API REST sobre el universo literario **El Archivo de las Tormentas** de Brandon Sanderson.
 
-    Permite consultar perfiles completos de personajes, heraldos y spren, filtrar por múltiples
-    criterios, ordenar, paginar y seleccionar campos concretos con soporte para rutas profundas.
+    Cubre personajes, heraldos, spren, Deshechos y Esquirlas con búsqueda avanzada,
+    filtros combinables, paginación, selección de campos y explorador visual interactivo.
 
     ---
 
@@ -15,14 +15,6 @@ info:
 
     ### Tu primera llamada
 
-    Abre el navegador y accede a esta URL para ver todos los personajes disponibles:
-
-    ```
-    GET /personajes
-    ```
-
-    O si prefieres empezar por un personaje concreto:
-
     ```
     GET /personajes/kaladin
     ```
@@ -31,7 +23,7 @@ info:
 
     **JavaScript / fetch**
     ```javascript
-    const res = await fetch("https://tudominio.es/personajes/kaladin");
+    const res = await fetch("https://laapidelastormentas.onrender.com/personajes/kaladin");
     const kaladin = await res.json();
     console.log(kaladin.nombre); // "Kaladin"
     ```
@@ -39,26 +31,26 @@ info:
     **Python**
     ```python
     import requests
-    r = requests.get("https://tudominio.es/personajes/kaladin")
-    kaladin = r.json()
-    print(kaladin["nombre"])  # "Kaladin"
+    r = requests.get("https://laapidelastormentas.onrender.com/personajes/kaladin")
+    print(r.json()["nombre"])  # "Kaladin"
     ```
 
     **curl**
     ```bash
-    curl https://tudominio.es/personajes/kaladin
+    curl https://laapidelastormentas.onrender.com/personajes/kaladin
     ```
 
     ---
 
     ## Búsqueda y filtros
 
-    El endpoint `/buscar` es el más potente de la API. Puedes combinar filtros libremente:
+    El endpoint `/buscar` permite combinar filtros libremente sobre todas las entidades:
 
     ```
     GET /buscar?orden=Corredores del Viento&nivel_ideal=>=3
-    GET /buscar?nacionalidad=alezi&estado_actual=vivo
-    GET /buscar?texto=depresión&sort=-nivel_ideal
+    GET /buscar?tipo=deshecho&estado_actual=aprisionado
+    GET /buscar?texto=Shadesmar&sort=-nivel_ideal&limit=5
+    GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
     ```
 
     ---
@@ -76,61 +68,76 @@ info:
 
     ## Límites de uso
 
-    Para garantizar la disponibilidad para todos los usuarios, la API aplica un límite
-    de **100 peticiones por IP cada 15 minutos**. Si lo superas recibirás un error `429`.
+    La API aplica un límite de **100 peticiones por IP cada 15 minutos**.
+    Si lo superas recibirás un error `429`.
 
-    ---
-
-    ## ¿Por dónde seguir?
-
-    - Explora todos los endpoints disponibles en esta misma documentación
-    - Pruébalos directamente desde el botón **Try it out** de cada endpoint
-    - Visita el explorador interactivo en `/explorador` para una experiencia más visual
-  version: 1.0.0
+  version: "2.0.0"
   contact:
     name: La API de las Tormentas
+    url: https://laapidelastormentas.onrender.com
 
 servers:
   - url: https://laapidelastormentas.onrender.com
-    description: API de las Tormentas
+    description: Producción (Render)
 
 tags:
-  - name: Estado
-    description: Comprobación del estado de la API
+  - name: Sistema
+    description: Estado y monitorización del servidor
   - name: Personajes
-    description: Consulta de personajes individuales y listados
+    description: Perfiles de personajes de Roshar
+  - name: Heraldos
+    description: Los Diez Heraldos de la Todopoderosa
+  - name: Spren
+    description: Spren de Roshar
+  - name: Deshechos
+    description: Los nueve Deshechos de Odium
+  - name: Esquirlas
+    description: Esquirlas de Adonalsium
+  - name: Órdenes
+    description: Las diez Órdenes de Caballeros Radiantes
   - name: Búsqueda
     description: Búsqueda avanzada con filtros, ordenación y paginación
-  - name: Heraldos
-    description: Consulta de los Diez Heraldos de la Todopoderosa
-  - name: Spren
-    description: Consulta de spren de Roshar
-  - name: Órdenes
-    description: Consulta de las Órdenes de Caballeros Radiantes
   - name: Estadísticas
-    description: Estadísticas generales de la API
+    description: Estadísticas agregadas de todas las entidades
 
 paths:
 
-  /:
+  # ── Sistema ──────────────────────────────────────────────
+
+  /health:
     get:
-      tags: [Estado]
-      summary: Estado de la API
-      description: Comprueba que el servidor está en marcha.
+      tags: [Sistema]
+      summary: Estado del servidor
+      description: |
+        Devuelve el estado de salud del servidor y el número de entidades cargadas en caché.
+        Útil para monitores externos (Render, Fly.io, UptimeRobot).
+        - `200 ok` — todo correcto
+        - `503 degraded` — alguna entidad no se cargó al arrancar
       responses:
         "200":
-          description: API funcionando correctamente
+          description: Servidor funcionando correctamente
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  ok:
-                    type: boolean
-                    example: true
-                  msg:
-                    type: string
-                    example: "API El Archivo de las Tormentas funcionando "
+                $ref: "#/components/schemas/Health"
+              example:
+                status: ok
+                uptime_s: 3600
+                entidades:
+                  personajes: 244
+                  heraldos: 10
+                  spren: 42
+                  deshechos: 9
+                  esquirlas: 4
+                total_entidades: 309
+        "503":
+          description: Servidor degradado — alguna entidad no se cargó
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Health"
+
+  # ── Personajes ────────────────────────────────────────────
 
   /personajes:
     get:
@@ -151,12 +158,11 @@ paths:
     get:
       tags: [Personajes]
       summary: Perfil completo de un personaje
-      description: Devuelve todos los datos del personaje indicado.
       parameters:
         - $ref: "#/components/parameters/PersonajeId"
       responses:
         "200":
-          description: Perfil completo del personaje
+          description: Perfil completo
           content:
             application/json:
               schema:
@@ -168,7 +174,7 @@ paths:
     get:
       tags: [Personajes]
       summary: Resumen de un personaje
-      description: Devuelve solo los datos del índice para el personaje indicado.
+      description: Devuelve solo los campos del índice (id, nombre, orden, nivel_ideal, estado_actual, especie).
       parameters:
         - $ref: "#/components/parameters/PersonajeId"
       responses:
@@ -184,13 +190,13 @@ paths:
   /personajes/{id}/completo:
     get:
       tags: [Personajes]
-      summary: Resumen + perfil completo fusionados
-      description: Devuelve la combinación del resumen del índice y el perfil completo.
+      summary: Resumen + perfil fusionados
+      description: Combina los campos del índice con el perfil completo en un solo objeto.
       parameters:
         - $ref: "#/components/parameters/PersonajeId"
       responses:
         "200":
-          description: Datos completos del personaje
+          description: Datos completos fusionados
           content:
             application/json:
               schema:
@@ -198,21 +204,52 @@ paths:
         "404":
           $ref: "#/components/responses/NotFound"
 
+  /personajes/{id}/relaciones:
+    get:
+      tags: [Personajes]
+      summary: Todas las relaciones de un personaje
+      parameters:
+        - $ref: "#/components/parameters/PersonajeId"
+      responses:
+        "200":
+          description: Relaciones del personaje
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RelacionesRespuesta"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /personajes/{id}/relaciones/{tipo}:
+    get:
+      tags: [Personajes]
+      summary: Un tipo de relación de un personaje
+      parameters:
+        - $ref: "#/components/parameters/PersonajeId"
+        - name: tipo
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [familia, amigos, enemigos]
+          example: amigos
+      responses:
+        "200":
+          description: Relaciones del tipo indicado
+        "400":
+          description: Tipo de relación no válido
+        "404":
+          $ref: "#/components/responses/NotFound"
+
   /personajes/{id}/{seccion}:
     get:
       tags: [Personajes]
       summary: Sección concreta de un personaje
-      description: |
-        Devuelve una sección específica del perfil del personaje.
-        
-        **Secciones disponibles:** `orden_radiantes`, `habilidades`, `relaciones`,
-        `estado_mental`, `arco_narrativo`, `situacion_actual`, `apariciones`, `afiliaciones`
       parameters:
         - $ref: "#/components/parameters/PersonajeId"
         - name: seccion
           in: path
           required: true
-          description: Nombre de la sección a consultar
           schema:
             type: string
             enum:
@@ -224,10 +261,11 @@ paths:
               - situacion_actual
               - apariciones
               - afiliaciones
+              - identidades
           example: habilidades
       responses:
         "200":
-          description: Sección del personaje
+          description: Sección solicitada
           content:
             application/json:
               schema:
@@ -235,17 +273,352 @@ paths:
         "404":
           $ref: "#/components/responses/NotFound"
 
+  # ── Heraldos ─────────────────────────────────────────────
+
+  /heraldos:
+    get:
+      tags: [Heraldos]
+      summary: Listar los Diez Heraldos
+      responses:
+        "200":
+          description: Lista de heraldos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/HeraldoResumen"
+
+  /heraldos/{id}:
+    get:
+      tags: [Heraldos]
+      summary: Perfil completo de un heraldo
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+      responses:
+        "200":
+          description: Perfil completo del heraldo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HeraldoCompleto"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /heraldos/{id}/resumen:
+    get:
+      tags: [Heraldos]
+      summary: Resumen de un heraldo
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+      responses:
+        "200":
+          description: Campos resumidos del heraldo
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /heraldos/{id}/relaciones:
+    get:
+      tags: [Heraldos]
+      summary: Relaciones de un heraldo
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+      responses:
+        "200":
+          description: Relaciones del heraldo
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /heraldos/{id}/{seccion}:
+    get:
+      tags: [Heraldos]
+      summary: Sección concreta de un heraldo
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+        - name: seccion
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [herald, apariencia, personalidad, habilidades, historia, apariciones, relaciones]
+          example: habilidades
+      responses:
+        "200":
+          description: Sección solicitada
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  # ── Spren ─────────────────────────────────────────────────
+
+  /spren:
+    get:
+      tags: [Spren]
+      summary: Listar todos los spren
+      responses:
+        "200":
+          description: Lista de spren
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SprenResumen"
+
+  /spren/{id}:
+    get:
+      tags: [Spren]
+      summary: Perfil completo de un spren
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+      responses:
+        "200":
+          description: Perfil completo del spren
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SprenCompleto"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /spren/{id}/resumen:
+    get:
+      tags: [Spren]
+      summary: Resumen de un spren
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+      responses:
+        "200":
+          description: Campos resumidos del spren
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /spren/{id}/relaciones:
+    get:
+      tags: [Spren]
+      summary: Relaciones de un spren
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+      responses:
+        "200":
+          description: Relaciones del spren
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /spren/{id}/{seccion}:
+    get:
+      tags: [Spren]
+      summary: Sección concreta de un spren
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+        - name: seccion
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [origen, apariencia, personalidad, habilidades, vinculo_nahel, historia, apariciones, relaciones]
+          example: vinculo_nahel
+      responses:
+        "200":
+          description: Sección solicitada
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  # ── Deshechos ─────────────────────────────────────────────
+
+  /deshechos:
+    get:
+      tags: [Deshechos]
+      summary: Listar los nueve Deshechos
+      description: Devuelve el índice de los Deshechos de Odium.
+      responses:
+        "200":
+          description: Lista de Deshechos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/DeshechoResumen"
+
+  /deshechos/{id}:
+    get:
+      tags: [Deshechos]
+      summary: Perfil completo de un Deshecho
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+      responses:
+        "200":
+          description: Perfil completo del Deshecho
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /deshechos/{id}/{seccion}:
+    get:
+      tags: [Deshechos]
+      summary: Sección concreta de un Deshecho
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+        - name: seccion
+          in: path
+          required: true
+          schema:
+            type: string
+          example: historia
+      responses:
+        "200":
+          description: Sección solicitada
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  # ── Esquirlas ─────────────────────────────────────────────
+
+  /esquirlas:
+    get:
+      tags: [Esquirlas]
+      summary: Listar las Esquirlas
+      description: Devuelve las Esquirlas presentes en el universo del Archivo de las Tormentas.
+      responses:
+        "200":
+          description: Lista de Esquirlas
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/EsquirlaResumen"
+
+  /esquirlas/{id}:
+    get:
+      tags: [Esquirlas]
+      summary: Perfil completo de una Esquirla
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+      responses:
+        "200":
+          description: Perfil completo de la Esquirla
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /esquirlas/{id}/{seccion}:
+    get:
+      tags: [Esquirlas]
+      summary: Sección concreta de una Esquirla
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+        - name: seccion
+          in: path
+          required: true
+          schema:
+            type: string
+          example: historia
+      responses:
+        "200":
+          description: Sección solicitada
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  # ── Órdenes ───────────────────────────────────────────────
+
+  /ordenes:
+    get:
+      tags: [Órdenes]
+      summary: Listar las diez Órdenes de Caballeros Radiantes
+      responses:
+        "200":
+          description: Lista de órdenes con número de personajes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total_ordenes:
+                    type: integer
+                    example: 10
+                  ordenes:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/OrdenResumen"
+
+  /ordenes/{nombre}:
+    get:
+      tags: [Órdenes]
+      summary: Detalle de una Orden
+      description: Acepta nombre completo o slug (`corredores-del-viento`, `Corredores del Viento`).
+      parameters:
+        - $ref: "#/components/parameters/OrdenNombre"
+      responses:
+        "200":
+          description: Detalle de la orden con lista de miembros
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /ordenes/{nombre}/personajes:
+    get:
+      tags: [Órdenes]
+      summary: Personajes de una Orden
+      description: Lista de todos los personajes pertenecientes a la orden indicada.
+      parameters:
+        - $ref: "#/components/parameters/OrdenNombre"
+      responses:
+        "200":
+          description: Personajes de la orden
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  orden:
+                    type: string
+                  total:
+                    type: integer
+                  personajes:
+                    type: array
+                    items:
+                      type: object
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /ordenes/{nombre}/spren:
+    get:
+      tags: [Órdenes]
+      summary: Spren asociados a una Orden
+      description: Lista de los spren vinculados a la orden indicada.
+      parameters:
+        - $ref: "#/components/parameters/OrdenNombre"
+      responses:
+        "200":
+          description: Spren de la orden
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  orden:
+                    type: string
+                  spren_tipico:
+                    type: string
+                    nullable: true
+                  total:
+                    type: integer
+                  spren:
+                    type: array
+                    items:
+                      type: object
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  # ── Búsqueda ──────────────────────────────────────────────
+
   /buscar:
     get:
       tags: [Búsqueda]
-      summary: Búsqueda avanzada de personajes
+      summary: Búsqueda avanzada sobre todas las entidades
       description: |
-        Permite buscar personajes con múltiples filtros combinables, ordenación y paginación.
+        Permite buscar sobre personajes, heraldos, spren, Deshechos y Esquirlas
+        con múltiples filtros combinables, ordenación y paginación.
 
         ### Filtros dinámicos (rutas profundas)
-        Además de los parámetros listados, puedes filtrar por cualquier campo anidado
-        usando notación de punto como nombre del parámetro:
-        
+        Cualquier campo anidado es filtrable con notación de punto:
         ```
         GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
         GET /buscar?habilidades.magia.potencias=Gravitación
@@ -262,124 +635,112 @@ paths:
         | Menor que | `?nivel_ideal=<4` |
 
       parameters:
+        - name: tipo
+          in: query
+          description: Tipo de entidad a buscar
+          schema:
+            type: string
+            enum: [personaje, heraldo, spren, deshecho, esquirla]
+          example: personaje
+
         - name: id
           in: query
-          description: Filtra por ID exacto del personaje
+          description: ID exacto de la entidad
           schema:
             type: string
           example: kaladin
 
         - name: especie
           in: query
-          description: Filtra por especie (humano, cantor...)
+          description: Especie del personaje
           schema:
             type: string
           example: humano
 
         - name: sexo
           in: query
-          description: Filtra por sexo
           schema:
             type: string
             enum: [masculino, femenino]
-          example: femenino
 
         - name: nacionalidad
           in: query
-          description: Filtra por nacionalidad
           schema:
             type: string
           example: alezi
 
         - name: origen
           in: query
-          description: Filtra por lugar de origen
           schema:
             type: string
           example: Piedralar
 
         - name: estado_actual
           in: query
-          description: Estado vital del personaje
           schema:
             type: string
-            enum: [vivo, viva, fallecido, fallecida]
+            enum: [vivo, viva, fallecido, fallecida, activo, activa, aprisionado]
           example: vivo
 
         - name: afiliacion
           in: query
-          description: Filtra por afiliación exacta
+          description: Afiliación exacta
           schema:
             type: string
           example: Puente Cuatro
 
         - name: orden
           in: query
-          description: Filtra por orden radiante exacta
+          description: Orden de Caballeros Radiantes exacta
           schema:
             type: string
           example: Corredores del Viento
 
         - name: nivel_ideal
           in: query
-          description: "Filtra por nivel del Ideal. Soporta operadores: >=, <=, >, <"
+          description: "Nivel del Ideal. Soporta operadores: >=, <=, >, <"
           schema:
             type: string
           example: ">=3"
 
         - name: libro
           in: query
-          description: Filtra por título de libro en que aparece el personaje
+          description: Título del libro en que aparece la entidad
           schema:
             type: string
           example: Juramentada
 
         - name: texto
           in: query
-          description: Búsqueda de texto libre en todo el perfil del personaje
+          description: Búsqueda libre en todo el contenido del perfil
           schema:
             type: string
-          example: depresión
+          example: Shadesmar
 
         - name: sort
           in: query
-          description: |
-            Campo por el que ordenar los resultados. Prefija con `-` para orden descendente.
-            Soporta rutas profundas con notación de punto.
+          description: Campo de ordenación. Prefija con `-` para descendente. Admite notación de punto.
           schema:
             type: string
           example: "-nivel_ideal"
 
         - name: page
           in: query
-          description: Número de página (empieza en 1)
           schema:
             type: integer
             minimum: 1
             default: 1
-          example: 1
 
         - name: limit
           in: query
-          description: Número de resultados por página
           schema:
             type: integer
             minimum: 1
-          example: 5
-
-        - name: tipo
-          in: query
-          description: Filtra por tipo de entidad a buscar
-          schema:
-            type: string
-            enum: [personaje, heraldo, spren]
-          example: personaje
+          example: 10
 
         - name: fields
           in: query
-          description: |
-            Campos a incluir en la respuesta, separados por coma.
-            Soporta rutas profundas con notación de punto.
+          description: Campos a devolver, separados por coma. Admite notación de punto.
           schema:
             type: string
           example: "nombre,orden_radiantes.orden,nivel_ideal"
@@ -393,327 +754,58 @@ paths:
                 oneOf:
                   - $ref: "#/components/schemas/BuscarResultados"
                   - $ref: "#/components/schemas/BuscarVacio"
-              examples:
-                con_resultados:
-                  summary: Con resultados
-                  value:
-                    total: 10
-                    pagina: 1
-                    limite: 10
-                    resultados:
-                      - id: kaladin
-                        nombre: Kaladin
-                        orden_radiantes:
-                          orden: Corredores del Viento
-                          nivel_ideal: 4
-                sin_resultados:
-                  summary: Sin resultados
-                  value:
-                    mensaje: "No se ha encontrado ningún personaje que cumpla los parámetros de búsqueda."
-                    resultados: []
 
-
-  /heraldos:
-    get:
-      tags: [Heraldos]
-      summary: Listar todos los heraldos
-      description: Devuelve el índice de los Diez Heraldos de la Todopoderosa.
-      responses:
-        "200":
-          description: Lista de heraldos
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/HeraldoResumen"
-              example:
-                - id: jezrien
-                  nombre: Jezrien
-                  herald:
-                    titulo: Heraldo de los Reyes
-                    orden_patron: Corredores del Viento
-                    numero_herald: 1
-                  estado_actual: muerto
-                  descripcion_breve: "Heraldo de los Reyes y patrón de los Corredores del Viento."
-
-  /heraldos/{id}:
-    get:
-      tags: [Heraldos]
-      summary: Detalle de un heraldo
-      parameters:
-        - name: id
-          in: path
-          required: true
-          schema:
-            type: string
-          example: jezrien
-      responses:
-        "200":
-          description: Perfil completo del heraldo
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/HeraldoCompleto"
-              example:
-                id: jezrien
-                nombre: Jezrien
-                nombre_completo: "Jezerezeh'Elin"
-                apodos: ["Jezerezeh", "Yaezir", "Ahu"]
-                mundo_natal: Ashyn
-                estado_actual: muerto
-                fecha_muerte: "Nanabah 1174"
-                herald:
-                  titulo: Heraldo de los Reyes
-                  otros_titulos: ["Padre de las Tormentas", "Kadasix de los Reyes"]
-                  orden_patron: Corredores del Viento
-                  numero_herald: 1
-                  abandono_juramento: true
-                  condenacion: Braize
-                habilidades:
-                  como_herald: ["inmortalidad como sombra cognitiva", "reflejos y fuerza sobrehumanos"]
-                  potenciacion_honor:
-                    potencias: ["Adhesión", "Gravitación"]
-                    fuente: "Honor directamente, sin necesidad de luz tormentosa"
-                    hoja_de_honor: true
-                descripcion_breve: "Heraldo de los Reyes y patrón de los Corredores del Viento. Considerado uno de los mejores líderes que han existido."
-        "404":
-          $ref: "#/components/responses/NotFound"
-
-  /heraldos/{id}/{seccion}:
-    get:
-      tags: [Heraldos]
-      summary: Sección concreta de un heraldo
-      parameters:
-        - name: id
-          in: path
-          required: true
-          schema:
-            type: string
-          example: jezrien
-        - name: seccion
-          in: path
-          required: true
-          schema:
-            type: string
-            enum:
-              - herald
-              - apariencia
-              - personalidad
-              - habilidades
-              - historia
-              - apariciones
-              - relaciones
-          example: habilidades
-      responses:
-        "200":
-          description: Sección del heraldo
-          content:
-            application/json:
-              schema:
-                type: object
-              example:
-                como_herald: ["inmortalidad como sombra cognitiva", "reflejos y fuerza sobrehumanos"]
-                potenciacion_honor:
-                  potencias: ["Adhesión", "Gravitación"]
-                  fuente: "Honor directamente, sin necesidad de luz tormentosa"
-                  hoja_de_honor: true
-        "404":
-          $ref: "#/components/responses/NotFound"
-
-  /spren:
-    get:
-      tags: [Spren]
-      summary: Listar todos los spren
-      description: Devuelve el índice de spren disponibles.
-      responses:
-        "200":
-          description: Lista de spren
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: "#/components/schemas/SprenResumen"
-              example:
-                - id: sylphrena
-                  nombre: Sylphrena
-                  tipo_spren: honorspren
-                  es_splinter_de: Honor
-                  estado_actual: activa
-                  descripcion_breve: "Honorspren vinculada a Kaladin, conocida entre los suyos como la Hija Antigua."
-
-  /spren/{id}:
-    get:
-      tags: [Spren]
-      summary: Detalle de un spren
-      parameters:
-        - name: id
-          in: path
-          required: true
-          schema:
-            type: string
-          example: sylphrena
-      responses:
-        "200":
-          description: Perfil completo del spren
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/SprenCompleto"
-              example:
-                id: sylphrena
-                nombre: Sylphrena
-                apodos: ["Syl", "Hija Antigua"]
-                tipo_spren: honorspren
-                es_splinter_de: Honor
-                mundo_natal: Roshar
-                estado_actual: activa
-                origen:
-                  creador: Padre Tormenta
-                  lugar_creacion: Forja de Dios
-                  generacion: primera
-                apariencia:
-                  reino_fisico:
-                    forma_preferida: "mujer joven de un palmo de altura con cara angular y pelo fluido que se desvanece en bruma"
-                    color: blanco azulado uniforme con tenue luz azul
-                  como_hoja_esquirlada:
-                    forma_habitual: lanza
-                    material: metal plateado y brillante con glifos grabados
-                vinculo_nahel:
-                  radiante_actual: kaladin
-                  orden_radiante: Corredores del Viento
-                  potencias_otorgadas: ["Gravitación", "Adhesión"]
-                  estado_vinculo: estable
-                descripcion_breve: "Honorspren vinculada a Kaladin, conocida entre los suyos como la Hija Antigua."
-        "404":
-          $ref: "#/components/responses/NotFound"
-
-  /spren/{id}/{seccion}:
-    get:
-      tags: [Spren]
-      summary: Sección concreta de un spren
-      parameters:
-        - name: id
-          in: path
-          required: true
-          schema:
-            type: string
-          example: sylphrena
-        - name: seccion
-          in: path
-          required: true
-          schema:
-            type: string
-            enum:
-              - origen
-              - apariencia
-              - personalidad
-              - habilidades
-              - vinculo_nahel
-              - historia
-              - apariciones
-              - relaciones
-          example: vinculo_nahel
-      responses:
-        "200":
-          description: Sección del spren
-          content:
-            application/json:
-              schema:
-                type: object
-              example:
-                radiante_actual: kaladin
-                orden_radiante: Corredores del Viento
-                potencias_otorgadas: ["Gravitación", "Adhesión"]
-                forma_shardblade: lanza
-                estado_vinculo: estable
-        "404":
-          $ref: "#/components/responses/NotFound"
-
-  /ordenes:
-    get:
-      tags: [Órdenes]
-      summary: Listar todas las Órdenes de Caballeros Radiantes
-      description: Devuelve las diez órdenes con sus datos y número de personajes.
-      responses:
-        "200":
-          description: Lista de órdenes
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  total_ordenes:
-                    type: integer
-                  ordenes:
-                    type: array
-                    items:
-                      type: object
-
-  /ordenes/{nombre}:
-    get:
-      tags: [Órdenes]
-      summary: Detalle de una Orden
-      description: Devuelve los datos de la orden y todos sus miembros.
-      parameters:
-        - name: nombre
-          in: path
-          required: true
-          description: Nombre o ID de la orden
-          schema:
-            type: string
-          example: corredores-del-viento
-      responses:
-        "200":
-          description: Detalle completo de la orden
-        "404":
-          $ref: "#/components/responses/NotFound"
+  # ── Estadísticas ──────────────────────────────────────────
 
   /stats:
     get:
       tags: [Estadísticas]
       summary: Estadísticas generales de la API
       description: |
-        Devuelve estadísticas agregadas sobre todos los personajes:
-        totales por estado vital, orden radiante, especie, sexo, nacionalidad y libro.
+        Devuelve estadísticas agregadas sobre todas las entidades:
+        totales por tipo, estado vital, orden radiante, especie, sexo, nacionalidad y libro.
       responses:
         "200":
           description: Estadísticas generales
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  personajes:
-                    type: integer
-                  heraldos:
-                    type: integer
-                  spren:
-                    type: integer
-                  vivos:
-                    type: integer
-                  fallecidos:
-                    type: integer
-                  sin_estado:
-                    type: integer
-                  caballeros_radiantes:
-                    type: integer
-                  no_radiantes:
-                    type: integer
+                $ref: "#/components/schemas/Stats"
+              example:
+                resumen:
+                  personajes: 244
+                  heraldos: 10
+                  spren: 42
+                  deshechos: 9
+                  esquirlas: 4
+                  total: 309
+                personajes:
+                  total: 244
+                  vivos: 132
+                  fallecidos: 89
+                  sin_estado: 23
+                  caballeros_radiantes: 28
+                  no_radiantes: 216
+                  nivel_ideal_promedio: 2.7
                   por_orden:
-                    type: object
+                    Corredores del Viento: 12
+                    Tejedores de Luz: 8
                   por_especie:
-                    type: object
+                    humano: 210
+                    cantor: 28
                   por_sexo:
-                    type: object
-                  por_nacionalidad:
-                    type: object
-                  nivel_ideal_promedio:
-                    type: number
-                    nullable: true
-                  libros:
-                    type: object
+                    masculino: 140
+                    femenino: 98
+                deshechos:
+                  total: 9
+                  aprisionados: 6
+                  activos: 3
+                  sin_estado: 0
+                esquirlas:
+                  total: 4
+                  activas: 2
+                  fragmentadas: 1
+                  absorbidas: 1
 
 components:
 
@@ -727,9 +819,27 @@ components:
         type: string
       example: kaladin
 
+    EntidadId:
+      name: id
+      in: path
+      required: true
+      description: Identificador de la entidad (en minúsculas)
+      schema:
+        type: string
+      example: sylphrena
+
+    OrdenNombre:
+      name: nombre
+      in: path
+      required: true
+      description: Nombre completo o slug de la orden
+      schema:
+        type: string
+      example: corredores-del-viento
+
   responses:
     NotFound:
-      description: Personaje o sección no encontrada
+      description: Entidad o sección no encontrada
       content:
         application/json:
           schema:
@@ -744,62 +854,53 @@ components:
       properties:
         error:
           type: string
-          example: "Personaje no encontrado"
+          example: "Entidad no encontrada"
+
+    Health:
+      type: object
+      properties:
+        status:
+          type: string
+          enum: [ok, degraded]
+          example: ok
+        uptime_s:
+          type: integer
+          example: 3600
+        entidades:
+          type: object
+          properties:
+            personajes: { type: integer }
+            heraldos:   { type: integer }
+            spren:      { type: integer }
+            deshechos:  { type: integer }
+            esquirlas:  { type: integer }
+        total_entidades:
+          type: integer
+          example: 309
 
     PersonajeResumen:
       type: object
       properties:
-        id:
-          type: string
-          example: kaladin
-        nombre:
-          type: string
-          example: Kaladin
-        orden:
-          type: string
-          nullable: true
-          example: Corredores del Viento
-        nivel_ideal:
-          type: integer
-          nullable: true
-          example: 4
+        id:           { type: string, example: kaladin }
+        nombre:       { type: string, example: Kaladin }
+        orden:        { type: string, nullable: true, example: Corredores del Viento }
+        nivel_ideal:  { type: integer, nullable: true, example: 5 }
+        estado_actual: { type: string, example: vivo }
+        especie:      { type: string, example: humano }
 
     PersonajeCompleto:
       type: object
       properties:
-        id:
-          type: string
-          example: kaladin
-        nombre:
-          type: string
-          example: Kaladin
-        nombre_completo:
-          type: string
-          example: Kaladin hijo de Lirin
-        apodos:
-          type: array
-          items:
-            type: string
-          example: ["Kal", "Kaladin Bendito por la Tormenta"]
-        sexo:
-          type: string
-          example: masculino
-        especie:
-          type: string
-          example: humano
-        nacionalidad:
-          type: string
-          example: Alezi
-        origen:
-          type: string
-          example: Piedralar
-        planeta_natal:
-          type: string
-          example: Roshar
-        estado_actual:
-          type: string
-          enum: [vivo, viva, fallecido, fallecida]
-          example: vivo
+        id:             { type: string, example: kaladin }
+        nombre:         { type: string, example: Kaladin }
+        nombre_completo: { type: string, example: "Kaladin hijo de Lirin" }
+        apodos:         { type: array, items: { type: string } }
+        sexo:           { type: string, example: masculino }
+        especie:        { type: string, example: humano }
+        nacionalidad:   { type: string, example: alezi }
+        origen:         { type: string, example: Piedralar }
+        planeta_natal:  { type: string, example: Roshar }
+        estado_actual:  { type: string, example: vivo }
         apariciones:
           type: object
           properties:
@@ -808,476 +909,247 @@ components:
               items:
                 type: object
                 properties:
-                  titulo:
-                    type: string
-                  rol:
-                    type: string
-                  pov:
-                    type: boolean
-        afiliaciones:
-          type: array
-          items:
-            type: string
+                  titulo: { type: string }
+                  rol:    { type: string }
+                  pov:    { type: boolean }
+        afiliaciones: { type: array, items: { type: string } }
         orden_radiantes:
           type: object
           properties:
-            orden:
-              type: string
-              example: Corredores del Viento
-            nivel_ideal:
-              type: integer
-              nullable: true
-              example: 4
+            orden:        { type: string }
+            nivel_ideal:  { type: integer, nullable: true }
             spren_asociado:
               type: object
               properties:
-                principal:
-                  type: string
-                  example: Sylphrena
-            estado_del_vinculo:
-              type: string
-              example: estable
+                principal: { type: string }
+            estado_del_vinculo: { type: string }
         habilidades:
           type: object
           properties:
             magia:
               type: object
               properties:
-                potencias:
-                  type: array
-                  items:
-                    type: string
-                fuente_de_luz:
-                  type: string
-            no_magicas:
-              type: array
-              items:
-                type: string
+                potencias:      { type: array, items: { type: string } }
+                fuente_de_luz:  { type: string }
+            no_magicas: { type: array, items: { type: string } }
         relaciones:
           type: object
           properties:
-            familia:
-              type: array
-              items:
-                $ref: "#/components/schemas/Relacion"
-            amigos:
-              type: array
-              items:
-                $ref: "#/components/schemas/Relacion"
-            enemigos:
-              type: array
-              items:
-                $ref: "#/components/schemas/Relacion"
+            familia:  { type: array, items: { $ref: "#/components/schemas/Relacion" } }
+            amigos:   { type: array, items: { $ref: "#/components/schemas/Relacion" } }
+            enemigos: { type: array, items: { $ref: "#/components/schemas/Relacion" } }
         estado_mental:
           type: object
           properties:
-            diagnostico_general:
-              type: string
-            evolucion:
-              type: string
-            situacion_en_viento_y_verdad:
-              type: string
+            diagnostico_general: { type: string }
+            evolucion:           { type: string }
+            situacion_en_viento_y_verdad: { type: string }
         arco_narrativo:
           type: object
           properties:
-            resumen:
-              type: string
-            puntos_clave:
-              type: array
-              items:
-                type: string
+            resumen:      { type: string }
+            puntos_clave: { type: array, items: { type: string } }
         situacion_actual:
           type: object
           properties:
-            ocupacion:
-              type: string
-            rol:
-              type: string
-            relacion_con_spren:
-              type: string
-            otros_detalles:
-              type: string
-        descripcion_breve:
-          type: string
-        notas:
-          type: string
+            ocupacion:        { type: string }
+            rol:              { type: string }
+            relacion_con_spren: { type: string }
+            otros_detalles:   { type: string }
+        descripcion_breve: { type: string }
+        notas:             { type: string }
 
     Relacion:
       type: object
       properties:
-        personaje:
-          type: string
-          example: Teft
-        relacion:
-          type: string
-          example: amigo
+        personaje: { type: string, example: Teft }
+        relacion:  { type: string, example: amigo y compañero de Puente Cuatro }
 
-    BuscarResultados:
+    RelacionesRespuesta:
       type: object
       properties:
-        total:
-          type: integer
-          example: 10
-        pagina:
-          type: integer
-          example: 1
-        limite:
-          type: integer
-          example: 10
-        resultados:
-          type: array
-          items:
-            $ref: "#/components/schemas/PersonajeCompleto"
+        personaje: { type: string }
+        relaciones:
+          type: object
+          properties:
+            familia:  { type: array, items: { $ref: "#/components/schemas/Relacion" } }
+            amigos:   { type: array, items: { $ref: "#/components/schemas/Relacion" } }
+            enemigos: { type: array, items: { $ref: "#/components/schemas/Relacion" } }
 
     HeraldoResumen:
       type: object
       properties:
-        id:
-          type: string
-          example: jezrien
-        nombre:
-          type: string
-          example: Jezrien
+        id:     { type: string, example: jezrien }
+        nombre: { type: string, example: Jezrien }
         herald:
           type: object
           properties:
-            titulo:
-              type: string
-              example: Heraldo de los Reyes
-            orden_patron:
-              type: string
-              example: Corredores del Viento
-            numero_herald:
-              type: integer
-              example: 1
-        estado_actual:
-          type: string
-          example: muerto
-        descripcion_breve:
-          type: string
+            titulo:       { type: string, example: Heraldo de los Reyes }
+            orden_patron: { type: string, example: Corredores del Viento }
+            numero_herald: { type: integer, example: 1 }
+        estado_actual:    { type: string, example: muerto }
+        descripcion_breve: { type: string }
 
     HeraldoCompleto:
       type: object
       properties:
-        id:
-          type: string
-          example: jezrien
-        nombre:
-          type: string
-          example: Jezrien
-        nombre_completo:
-          type: string
-          example: "Jezerezeh'Elin"
-        apodos:
-          type: array
-          items:
-            type: string
-          example: ["Jezerezeh", "Yaezir", "Ahu"]
-        mundo_natal:
-          type: string
-          example: Ashyn
-        estado_actual:
-          type: string
-          example: muerto
-        fecha_muerte:
-          type: string
-          nullable: true
-          example: "Nanabah 1174"
+        id:             { type: string }
+        nombre:         { type: string }
+        nombre_completo: { type: string }
+        apodos:         { type: array, items: { type: string } }
+        mundo_natal:    { type: string, example: Ashyn }
+        estado_actual:  { type: string }
+        fecha_muerte:   { type: string, nullable: true }
         herald:
           type: object
           properties:
-            titulo:
-              type: string
-            otros_titulos:
-              type: array
-              items:
-                type: string
-            orden_patron:
-              type: string
-            numero_herald:
-              type: integer
-            abandono_juramento:
-              type: boolean
-            condenacion:
-              type: string
-        apariencia:
-          type: object
-          properties:
-            fisica:
-              type: string
-            vestimenta_habitual:
-              type: string
-            apariencia_como_mendigo:
-              type: string
-            voz:
-              type: string
-        personalidad:
-          type: object
-          properties:
-            rasgos:
-              type: array
-              items:
-                type: string
-            evolucion:
-              type: string
-            notas:
-              type: string
-        habilidades:
-          type: object
-          properties:
-            como_herald:
-              type: array
-              items:
-                type: string
-            potenciacion_honor:
-              type: object
-              properties:
-                potencias:
-                  type: array
-                  items:
-                    type: string
-                fuente:
-                  type: string
-                hoja_de_honor:
-                  type: boolean
-                notas:
-                  type: string
-            potenciacion_odium:
-              type: object
-              properties:
-                concedida_en:
-                  type: string
-                efecto:
-                  type: string
-                estado:
-                  type: string
-            liderazgo:
-              type: string
-        historia:
-          type: object
-          properties:
-            resumen:
-              type: string
-            puntos_clave:
-              type: array
-              items:
-                type: string
-        apariciones:
-          type: object
-          properties:
-            libros:
-              type: array
-              items:
-                type: object
-                properties:
-                  titulo:
-                    type: string
-                  rol:
-                    type: string
-                  pov:
-                    type: boolean
-        relaciones:
-          type: object
-          properties:
-            familia:
-              type: array
-              items:
-                type: object
-            heraldos:
-              type: array
-              items:
-                type: object
-            otros:
-              type: array
-              items:
-                type: object
-        descripcion_breve:
-          type: string
-        notas:
-          type: string
+            titulo:            { type: string }
+            otros_titulos:     { type: array, items: { type: string } }
+            orden_patron:      { type: string }
+            numero_herald:     { type: integer }
+            abandono_juramento: { type: boolean }
+            condenacion:       { type: string }
+        apariencia:    { type: object }
+        personalidad:  { type: object }
+        habilidades:   { type: object }
+        historia:      { type: object }
+        apariciones:   { type: object }
+        relaciones:    { type: object }
+        descripcion_breve: { type: string }
+        notas:         { type: string }
 
     SprenResumen:
       type: object
       properties:
-        id:
-          type: string
-          example: sylphrena
-        nombre:
-          type: string
-          example: Sylphrena
-        tipo_spren:
-          type: string
-          example: honorspren
-        es_splinter_de:
-          type: string
-          example: Honor
-        estado_actual:
-          type: string
-          example: activa
-        descripcion_breve:
-          type: string
+        id:            { type: string, example: sylphrena }
+        nombre:        { type: string, example: Sylphrena }
+        tipo_spren:    { type: string, example: honorspren }
+        es_splinter_de: { type: string, example: Honor }
+        estado_actual: { type: string, example: activa }
+        descripcion_breve: { type: string }
 
     SprenCompleto:
       type: object
       properties:
-        id:
-          type: string
-          example: sylphrena
-        nombre:
-          type: string
-          example: Sylphrena
-        apodos:
-          type: array
-          items:
-            type: string
-          example: ["Syl", "Hija Antigua"]
-        tipo_spren:
-          type: string
-          example: honorspren
-        es_splinter_de:
-          type: string
-          example: Honor
-        mundo_natal:
-          type: string
-          example: Roshar
-        estado_actual:
-          type: string
-          example: activa
-        origen:
-          type: object
-          properties:
-            creador:
-              type: string
-            lugar_creacion:
-              type: string
-            generacion:
-              type: string
-            notas:
-              type: string
-        apariencia:
-          type: object
-          properties:
-            reino_fisico:
-              type: object
-              properties:
-                forma_preferida:
-                  type: string
-                vestimenta:
-                  type: string
-                color:
-                  type: string
-                formas_alternativas:
-                  type: array
-                  items:
-                    type: string
-                visibilidad:
-                  type: string
-            reino_cognitivo:
-              type: object
-              properties:
-                forma:
-                  type: string
-                limitaciones:
-                  type: string
-            como_hoja_esquirlada:
-              type: object
-              properties:
-                forma_habitual:
-                  type: string
-                otras_formas:
-                  type: array
-                  items:
-                    type: string
-                material:
-                  type: string
-                detalle:
-                  type: string
-        personalidad:
-          type: object
-          properties:
-            rasgos:
-              type: array
-              items:
-                type: string
-            valores:
-              type: array
-              items:
-                type: string
-            notas:
-              type: string
-        habilidades:
-          type: object
-          properties:
-            generales:
-              type: array
-              items:
-                type: string
-            magicas:
-              type: array
-              items:
-                type: string
+        id:            { type: string }
+        nombre:        { type: string }
+        apodos:        { type: array, items: { type: string } }
+        tipo_spren:    { type: string }
+        es_splinter_de: { type: string }
+        mundo_natal:   { type: string }
+        estado_actual: { type: string }
+        origen:        { type: object }
+        apariencia:    { type: object }
+        personalidad:  { type: object }
+        habilidades:   { type: object }
         vinculo_nahel:
           type: object
           properties:
-            radiante_actual:
-              type: string
-              example: kaladin
-            orden_radiante:
-              type: string
-              example: Corredores del Viento
-            potencias_otorgadas:
-              type: array
-              items:
-                type: string
-              example: ["Gravitación", "Adhesión"]
-            forma_shardblade:
-              type: string
-              example: lanza
-            estado_vinculo:
-              type: string
-              example: estable
-            radiante_anterior:
-              type: string
-              nullable: true
-            notas:
-              type: string
-        historia:
-          type: object
-          properties:
-            resumen:
-              type: string
-            puntos_clave:
-              type: array
-              items:
-                type: string
-        apariciones:
-          type: object
-          properties:
-            libros:
-              type: array
-              items:
-                type: object
-                properties:
-                  titulo:
-                    type: string
-                  rol:
-                    type: string
-                  pov:
-                    type: boolean
-        relaciones:
-          type: object
-        descripcion_breve:
-          type: string
-        notas:
-          type: string
+            radiante_actual:   { type: string }
+            orden_radiante:    { type: string }
+            potencias_otorgadas: { type: array, items: { type: string } }
+            forma_shardblade:  { type: string }
+            estado_vinculo:    { type: string }
+        historia:      { type: object }
+        apariciones:   { type: object }
+        relaciones:    { type: object }
+        descripcion_breve: { type: string }
+        notas:         { type: string }
+
+    DeshechoResumen:
+      type: object
+      properties:
+        id:            { type: string, example: ashertmarn }
+        nombre:        { type: string, example: Ashertmarn }
+        tipo:          { type: string, example: Deshecho }
+        estado_actual: { type: string, example: aprisionado }
+        descripcion_breve: { type: string }
+
+    EsquirlaResumen:
+      type: object
+      properties:
+        id:            { type: string, example: honor }
+        nombre:        { type: string, example: Honor }
+        intencion:     { type: string, example: Honor y lealtad }
+        portador:      { type: string, example: Tanavast }
+        estado_actual: { type: string }
+        descripcion_breve: { type: string }
+
+    OrdenResumen:
+      type: object
+      properties:
+        id:               { type: string, example: corredores-del-viento }
+        nombre:           { type: string, example: Corredores del Viento }
+        herald:           { type: string, example: Jezrien }
+        virtud:           { type: string, example: Protección/Liderazgo }
+        potencias:        { type: array, items: { type: string } }
+        spren_tipico:     { type: string, example: honorspren }
+        total_personajes: { type: integer, example: 12 }
+
+    BuscarResultados:
+      type: object
+      properties:
+        total:    { type: integer, example: 10 }
+        pagina:   { type: integer, example: 1 }
+        limite:   { type: integer, example: 10 }
+        resultados:
+          type: array
+          items:
+            type: object
+            properties:
+              _tipo: { type: string, enum: [personaje, heraldo, spren, deshecho, esquirla] }
 
     BuscarVacio:
       type: object
       properties:
-        mensaje:
-          type: string
-          example: "No se ha encontrado ningún personaje que cumpla los parámetros de búsqueda."
-        resultados:
-          type: array
-          items: {}
-          example: []
+        mensaje:    { type: string, example: "No se ha encontrado ningún resultado que cumpla los parámetros de búsqueda." }
+        resultados: { type: array, items: {}, example: [] }
+
+    Stats:
+      type: object
+      properties:
+        resumen:
+          type: object
+          properties:
+            personajes: { type: integer }
+            heraldos:   { type: integer }
+            spren:      { type: integer }
+            deshechos:  { type: integer }
+            esquirlas:  { type: integer }
+            total:      { type: integer }
+        personajes:
+          type: object
+          properties:
+            total:                { type: integer }
+            vivos:                { type: integer }
+            fallecidos:           { type: integer }
+            sin_estado:           { type: integer }
+            caballeros_radiantes: { type: integer }
+            no_radiantes:         { type: integer }
+            nivel_ideal_promedio: { type: number, nullable: true }
+            por_orden:            { type: object }
+            por_especie:          { type: object }
+            por_sexo:             { type: object }
+            por_nacionalidad:     { type: object }
+            por_libro:            { type: object }
+        spren:
+          type: object
+          properties:
+            total:    { type: integer }
+            por_tipo: { type: object }
+        deshechos:
+          type: object
+          properties:
+            total:        { type: integer }
+            aprisionados: { type: integer }
+            activos:      { type: integer }
+            sin_estado:   { type: integer }
+            por_libro:    { type: object }
+        esquirlas:
+          type: object
+          properties:
+            total:        { type: integer }
+            activas:      { type: integer }
+            fragmentadas: { type: integer }
+            absorbidas:   { type: integer }
+            sin_estado:   { type: integer }

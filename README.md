@@ -5,7 +5,7 @@
 [![Licencia datos](https://img.shields.io/badge/datos-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/deed.es)
 [![Licencia código](https://img.shields.io/badge/código-MIT-lightgrey)](./LICENSE)
 
-API REST de acceso libre sobre el universo de **El Archivo de las Tormentas** de Brandon Sanderson. Cubre personajes, spren, heraldos, Deshechos y Esquirlas con búsqueda avanzada, filtros, paginación y explorador visual interactivo.
+API REST de acceso libre sobre el universo de **El Archivo de las Tormentas** de Brandon Sanderson. Cubre personajes, heraldos, spren, Deshechos y Esquirlas con búsqueda avanzada, filtros, paginación y explorador visual interactivo.
 
 ---
 
@@ -15,6 +15,7 @@ API REST de acceso libre sobre el universo de **El Archivo de las Tormentas** de
 |---|---|
 | Explorador visual | https://laapidelastormentas.onrender.com/explorador |
 | Documentación | https://laapidelastormentas.onrender.com/api-docs |
+| Healthcheck | https://laapidelastormentas.onrender.com/health |
 | Base URL | https://laapidelastormentas.onrender.com |
 
 No requiere autenticación ni registro.
@@ -26,13 +27,13 @@ No requiere autenticación ni registro.
 ### `/personajes`
 
 ```
-GET /personajes                        Lista resumida de todos los personajes
-GET /personajes/:id                    Perfil completo
-GET /personajes/:id/resumen            Solo campos del índice
-GET /personajes/:id/completo           Resumen + perfil fusionados
-GET /personajes/:id/:seccion           Sección concreta del perfil
-GET /personajes/:id/relaciones         Todas las relaciones
-GET /personajes/:id/relaciones/:tipo   Un tipo de relación (familia · amigos · enemigos)
+GET /personajes                              Lista resumida de todos los personajes
+GET /personajes/:id                          Perfil completo
+GET /personajes/:id/resumen                  Solo campos del índice
+GET /personajes/:id/completo                 Resumen + perfil fusionados
+GET /personajes/:id/:seccion                 Sección concreta del perfil
+GET /personajes/:id/relaciones               Todas las relaciones
+GET /personajes/:id/relaciones/:tipo         Un tipo: familia · amigos · enemigos
 ```
 
 Secciones disponibles: `orden_radiantes` · `habilidades` · `relaciones` · `estado_mental` · `arco_narrativo` · `situacion_actual` · `apariciones` · `afiliaciones` · `identidades`
@@ -40,35 +41,58 @@ Secciones disponibles: `orden_radiantes` · `habilidades` · `relaciones` · `es
 ### `/heraldos`
 
 ```
-GET /heraldos              Lista de los Diez Heraldos
-GET /heraldos/:id          Perfil completo
-GET /heraldos/:id/:seccion Sección concreta
+GET /heraldos                    Lista de los Diez Heraldos
+GET /heraldos/:id                Perfil completo
+GET /heraldos/:id/resumen        Campos resumidos
+GET /heraldos/:id/relaciones     Relaciones del heraldo
+GET /heraldos/:id/:seccion       Sección concreta
 ```
 
 ### `/spren`
 
 ```
-GET /spren              Lista de spren
-GET /spren/:id          Perfil completo
-GET /spren/:id/:seccion Sección concreta
+GET /spren                    Lista de spren
+GET /spren/:id                Perfil completo
+GET /spren/:id/resumen        Campos resumidos
+GET /spren/:id/relaciones     Relaciones del spren
+GET /spren/:id/:seccion       Sección concreta
+```
+
+### `/deshechos`
+
+```
+GET /deshechos              Lista de los nueve Deshechos
+GET /deshechos/:id          Perfil completo
+GET /deshechos/:id/:seccion Sección concreta
+```
+
+### `/esquirlas`
+
+```
+GET /esquirlas              Lista de Esquirlas
+GET /esquirlas/:id          Perfil completo
+GET /esquirlas/:id/:seccion Sección concreta
 ```
 
 ### `/ordenes`
 
 ```
-GET /ordenes          Las 10 órdenes de Caballeros Radiantes con número de miembros
-GET /ordenes/:nombre  Detalle de una orden y lista de sus miembros
+GET /ordenes                    Las 10 órdenes de Caballeros Radiantes con número de miembros
+GET /ordenes/:nombre            Detalle de una orden con lista de miembros
+GET /ordenes/:nombre/personajes Personajes pertenecientes a la orden
+GET /ordenes/:nombre/spren      Spren vinculados a la orden
 ```
 
 Acepta nombre completo o slug: `Corredores+del+Viento` · `corredores-del-viento`
 
 ### `/buscar`
 
-Búsqueda avanzada sobre personajes, heraldos y spren con filtros combinables.
+Búsqueda avanzada sobre personajes, heraldos, spren, Deshechos y Esquirlas con filtros combinables.
 
 ```bash
 GET /buscar?orden=Corredores+del+Viento&nivel_ideal=>=3&sort=-nivel_ideal
-GET /buscar?tipo=heraldo
+GET /buscar?tipo=deshecho
+GET /buscar?tipo=esquirla
 GET /buscar?estado_actual=fallecido&fields=nombre,estado_actual
 GET /buscar?texto=Shadesmar&tipo=personaje
 GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
@@ -78,13 +102,13 @@ GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
 
 | Parámetro | Descripción |
 |---|---|
-| `tipo` | `personaje` · `heraldo` · `spren` |
+| `tipo` | `personaje` · `heraldo` · `spren` · `deshecho` · `esquirla` |
 | `id` | ID exacto |
 | `especie` | Especie del personaje |
 | `sexo` | `masculino` · `femenino` |
 | `nacionalidad` | Nacionalidad |
 | `origen` | Lugar de origen |
-| `estado_actual` | `vivo` · `viva` · `fallecido` · `fallecida` |
+| `estado_actual` | `vivo` · `viva` · `fallecido` · `fallecida` · `activo` · `activa` |
 | `afiliacion` | Afiliación exacta |
 | `orden` | Orden de Caballeros Radiantes |
 | `nivel_ideal` | Soporta operadores: `>=3` · `<=2` · `>1` · `<4` |
@@ -105,7 +129,7 @@ Cualquier campo anidado es filtrable con notación de punto: `?habilidades.magia
   "pagina": 1,
   "limite": 10,
   "resultados": [
-    { "_tipo": "personaje", "id": "kaladin" }
+    { "_tipo": "personaje", "id": "kaladin", "nombre": "Kaladin" }
   ]
 }
 ```
@@ -113,8 +137,27 @@ Cualquier campo anidado es filtrable con notación de punto: `?habilidades.magia
 ### `/stats`
 
 ```
-GET /stats    Estadísticas agregadas: totales, distribución por orden, especie, sexo y libro
+GET /stats    Estadísticas agregadas de todas las entidades
 ```
+
+Incluye totales por tipo, estado vital, orden radiante, especie, sexo, nacionalidad y libro.
+
+### `/health`
+
+```
+GET /health   Estado del servidor y entidades cargadas en caché
+```
+
+```json
+{
+  "status": "ok",
+  "uptime_s": 3600,
+  "entidades": { "personajes": 244, "heraldos": 10, "spren": 42, "deshechos": 9, "esquirlas": 4 },
+  "total_entidades": 309
+}
+```
+
+Devuelve `200` si todo está en orden o `503` si alguna entidad no se cargó al arrancar.
 
 ### `/explorador`
 
@@ -134,29 +177,44 @@ LaAPIdelasTormentas/
 ├── routes/
 │   ├── explorador.js
 │   ├── personajes.js
+│   ├── relaciones.js
 │   ├── ordenes.js
 │   ├── spren.js
 │   ├── heraldos.js
+│   ├── deshechos.js
+│   ├── esquirlas.js
 │   ├── buscar.js
 │   ├── stats.js
 │   └── docs.js
 ├── controllers/
-├── utils/                  # Carga y caché de datos en memoria
+│   ├── entityController.js       # Factoría genérica: listar/detalle/sección
+│   ├── personajesController.js
+│   ├── relacionesController.js
+│   ├── ordenesController.js
+│   ├── statsController.js
+│   └── buscarController.js
+├── utils/
+│   ├── dataLoader.js             # Loader genérico con carga paralela e índice de texto
+│   └── loaders.js                # Singleton de loaders por entidad
 ├── data/
-│   ├── personajes.json     # Índice resumido
-│   ├── ordenes.json
-│   ├── spren.json
+│   ├── personajes.json           # Índice resumido
 │   ├── heraldos.json
-│   ├── personajes/         # Perfiles completos por personaje
+│   ├── spren.json
+│   ├── deshechos.json
+│   ├── esquirlas.json
+│   ├── ordenes.json
+│   ├── personajes/               # Perfiles completos por personaje
+│   ├── heraldos/
 │   ├── spren/
-│   └── heraldos/
+│   ├── deshechos/
+│   └── esquirlas/
 └── public/
     └── images/
-        ├── ordenes/        # SVGs de los glifos
+        ├── ordenes/              # SVGs de los glifos
         └── heraldos/
 ```
 
-Todos los datos se cargan en memoria al arrancar. Las peticiones no tocan disco.
+Todos los datos se cargan en paralelo al arrancar. Las peticiones no tocan disco.
 
 ---
 
@@ -170,7 +228,8 @@ Todos los datos se cargan en memoria al arrancar. Las peticiones no tocan disco.
   "nombre": "Kaladin",
   "orden": "Corredores del Viento",
   "nivel_ideal": 5,
-  "estado_actual": "vivo"
+  "estado_actual": "vivo",
+  "especie": "humano"
 }
 ```
 
@@ -209,12 +268,13 @@ Todos los datos se cargan en memoria al arrancar. Las peticiones no tocan disco.
   },
   "relaciones": {
     "familia":  [{ "personaje": "lirin",  "relacion": "padre" }],
-    "amigos":   [{ "personaje": "teft",   "relacion": "amigo" }],
-    "enemigos": [{ "personaje": "moash",  "relacion": "enemigo" }]
+    "amigos":   [{ "personaje": "teft",   "relacion": "amigo y compañero de Puente Cuatro" }],
+    "enemigos": [{ "personaje": "moash",  "relacion": "traidor y enemigo" }]
   },
   "estado_mental": {
     "diagnostico_general": "trastorno depresivo mayor recurrente",
-    "evolucion": "mejora progresiva con recaídas"
+    "evolucion": "mejora progresiva con recaídas",
+    "situacion_en_viento_y_verdad": "..."
   },
   "arco_narrativo": {
     "resumen": "...",
@@ -222,14 +282,16 @@ Todos los datos se cargan en memoria al arrancar. Las peticiones no tocan disco.
   },
   "situacion_actual": {
     "ocupacion": "Corredor del Viento del Quinto Ideal",
-    "rol": "..."
+    "rol": "...",
+    "relacion_con_spren": "...",
+    "otros_detalles": "..."
   },
   "descripcion_breve": "...",
   "notas": "..."
 }
 ```
 
-Las plantillas están en `data/personajes/00Plantilla.json`, `data/spren/00Plantilla.json` y `data/heraldos/00Plantilla.json`.
+Las plantillas están en `data/personajes/00Plantilla.json`, `data/spren/00Plantilla.json`, `data/heraldos/00Plantilla.json` y `data/deshechos/00Plantilla.json`.
 
 ---
 
@@ -237,18 +299,20 @@ Las plantillas están en `data/personajes/00Plantilla.json`, `data/spren/00Plant
 
 | Campo | Valores |
 |---|---|
-| `estado_actual` | `vivo` · `viva` · `fallecido` · `fallecida` |
+| `estado_actual` | `vivo` · `viva` · `fallecido` · `fallecida` · `activo` · `activa` · `aprisionado` |
 | `rol` en apariciones | `protagonista` · `principal` · `secundario importante` · `secundario` · `menor` |
-| `especie` | `humano` · `cantor` · `retornado` |
+| `especie` | `humano` · `cantor` · `retornado` · `siah aimiano` · `dysian aimiano` |
 
 ---
 
 ## Tecnologías
 
-- [Node.js](https://nodejs.org/) — ESModules
+- [Node.js](https://nodejs.org/) — ESModules, carga paralela con `Promise.all`
 - [Express 5](https://expressjs.com/)
 - [helmet](https://helmetjs.github.io/) — cabeceras de seguridad HTTP
 - [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit) — límite de peticiones por IP
+- [compression](https://github.com/expressjs/compression) — compresión gzip automática
+- [morgan](https://github.com/expressjs/morgan) — logging de peticiones HTTP
 
 ---
 
