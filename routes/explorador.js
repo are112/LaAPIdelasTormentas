@@ -1393,6 +1393,25 @@ router.get("/", (req, res) => {
 
     function logoSpren(tipo, size) {
       const s = size || 28;
+      // Mapeo tipo de spren → orden radiante
+      const tipoOrden = {
+        'honorspren':     'Corredores del Viento',
+        'críptico':       'Tejedores de Luz',
+        'cultivacispren': 'Danzantes del Filo',
+        'brumaspren':     'Vigilantes de la Verdad',
+        'tintaspren':     'Nominadores de Lo Otro',
+        'altospren':      'Rompedores del Cielo',
+        'cenizaspren':    'Portadores del Polvo',
+        'alcanzador':     'Escultores de Voluntad',
+        'cumbrespren':    'Custodios de la Piedra',
+        'lumispren':      'Forjadores de Vínculos',
+      };
+      const orden = tipoOrden[tipo];
+      if (orden && ORDEN_SLUG[orden]) {
+        const inner = Math.round(s * 0.92);
+        return \`<img src="/images/ordenes/\${ORDEN_SLUG[orden]}.svg" width="\${inner}" height="\${inner}" style="filter:brightness(2.5) saturate(1.2);object-fit:contain;display:block" alt="\${orden}" />\`;
+      }
+      // Spren primigenios y sin orden conocida — emoji como fallback
       return \`<span style="font-size:\${s * 0.8}px;line-height:1;filter:brightness(1.5)">\${emojiSpren(tipo)}</span>\`;
     }
 
@@ -2026,8 +2045,7 @@ router.get("/", (req, res) => {
       try {
         const res = await fetch(\`\${API}/deshechos\`);
         todosDeshechos = await res.json();
-        if (tabActual === 'deshechos') renderListaDeshechos(todosDeshechos);
-        else document.getElementById('lista-deshechos').innerHTML = '';
+        renderListaDeshechos(todosDeshechos);
       } catch (e) {
         document.getElementById('lista-deshechos').innerHTML =
           '<p class="sin-datos">Error cargando deshechos</p>';
@@ -2182,8 +2200,7 @@ router.get("/", (req, res) => {
       try {
         const res = await fetch(\`\${API}/esquirlas\`);
         todosEsquirlas = await res.json();
-        if (tabActual === 'esquirlas') renderListaEsquirlas(todosEsquirlas);
-        else document.getElementById('lista-esquirlas').innerHTML = '';
+        renderListaEsquirlas(todosEsquirlas);
       } catch(e) {
         document.getElementById('lista-esquirlas').innerHTML =
           '<p class=\"sin-datos\">Error cargando esquirlas</p>';
@@ -2341,8 +2358,7 @@ router.get("/", (req, res) => {
       try {
         const res = await fetch(\`\${API}/heraldos\`);
         todosHeraldos = await res.json();
-        if (tabActual === 'heraldos') renderListaHeraldos(todosHeraldos);
-        else document.getElementById('lista-heraldos').innerHTML = '';
+        renderListaHeraldos(todosHeraldos);
       } catch (e) {
         document.getElementById('lista-heraldos').innerHTML =
           '<p class="sin-datos">Error cargando heraldos</p>';
@@ -2563,8 +2579,7 @@ router.get("/", (req, res) => {
           } catch(e) { /* ignorar spren sin detalle */ }
         }));
         poblarFiltroTipo();
-        if (tabActual === 'spren') renderListaSpren(todosSpren);
-        else document.getElementById('lista-spren').innerHTML = '';
+        renderListaSpren(todosSpren);
       } catch (e) {
         document.getElementById('lista-spren').innerHTML =
           '<p class="sin-datos">Error cargando spren</p>';
