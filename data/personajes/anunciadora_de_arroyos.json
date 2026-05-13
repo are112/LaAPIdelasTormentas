@@ -1,0 +1,71 @@
+{
+  "id": "anunciadora_de_arroyos",
+  "nombre": "Anunciadora de Arroyos",
+  "nombre_completo": "Anunciadora de Arroyos",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activa",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados",
+    "Odium"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Fusionada"
+    ],
+    "descripcion": "Fusionada con presencia muy menor en la saga. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Fusionada de presencia muy menor. Información muy limitada.",
+    "puntos_clave": [
+      "Fusionada activa durante la Verdadera Desolación."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionada activa",
+    "rol": "Fusionada menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Fusionada de presencia muy menor en la saga.",
+  "notas": "Información muy limitada."
+}

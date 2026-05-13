@@ -1,0 +1,76 @@
+{
+  "id": "aquella_que_suena",
+  "nombre": "Aquella Que Sueña",
+  "nombre_completo": "Aquella Que Sueña",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activa",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor — mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados",
+    "Odium"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Teorización estratégica — concibió la idea de encarcelar almas de Heraldos en gemas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fusionada que concibió el plan de encarcelar almas de Heraldos en gemas"
+    ],
+    "descripcion": "Fusionada de inteligencia estratégica notable. Poco después de la Falsa Desolación y el encarcelamiento de Ba-Ado-Mishram, se dio cuenta de que si un spren tan poderoso como Ba-Ado-Mishram podía ser encarcelado en una gema, las almas de los Heraldos también podrían serlo. Esta idea llevó a la creación de los cuchillos de raysio y eventualmente a la muerte de Jezrien.",
+    "estado_en_viento_y_verdad": "Activa — puede renacer como todos los Fusionados."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estratega con visión a largo plazo. Su idea fue una de las más significativas de la historia de los Fusionados.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Poco después del encarcelamiento de Ba-Ado-Mishram durante la Falsa Desolación, Aquella Que Sueña fue la primera en teorizar que si un spren podía ser atrapado en una gema, las almas de los Heraldos también podrían serlo. Esta idea llevó a la creación de los cuchillos de raysio — uno de los cuales fue usado para matar permanentemente a Jezrien.",
+    "puntos_clave": [
+      "Fusionada activa durante la Verdadera Desolación.",
+      "Tras el encarcelamiento de Ba-Ado-Mishram, teorizó que las almas de los Heraldos también podían ser atrapadas en gemas.",
+      "Su idea llevó directamente a la creación de los cuchillos de raysio.",
+      "Un cuchillo de raysio fue usado para matar permanentemente a Jezrien."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionada activa",
+    "rol": "La que concibió el plan de matar permanentemente a los Heraldos",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Fusionada que tras el encarcelamiento de Ba-Ado-Mishram teorizó que las almas de los Heraldos también podían ser atrapadas en gemas. Su idea llevó a la creación de los cuchillos de raysio.",
+  "notas": "Su teoría fue una de las más importantes de la historia de los Fusionados — permitió la muerte permanente de los Heraldos."
+}

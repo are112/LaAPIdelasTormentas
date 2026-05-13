@@ -1,0 +1,72 @@
+{
+  "id": "azulcielo",
+  "nombre": "Azulcielo",
+  "nombre_completo": "Azulcielo",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "abismoide",
+  "nacionalidad": "",
+  "origen": "Llanuras al sureste de las Llanuras Quebradas, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Inteligencia — los abismoides son los animales más inteligentes conocidos en Roshar",
+      "Comunicación mediante proyección de imágenes e impresiones mentales"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Abismoide individual mencionado en la saga"
+    ],
+    "descripcion": "Abismoide — el mayor animal terrestre conocido en Roshar, con más de 20 metros de longitud. Los abismoides son nativos de las llanuras al sureste de las Llanuras Quebradas. Azulcielo es un abismoide individual mencionado brevemente en la saga.",
+    "estado_en_viento_y_verdad": "Desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Los abismoides son los animales más inteligentes de Roshar — se comunican mediante proyección de imágenes mentales.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Abismoide individual mencionado brevemente en la saga. Información muy limitada.",
+    "puntos_clave": [
+      "Abismoide individual mencionado en El Camino de los Reyes.",
+      "Los abismoides son los animales terrestres más grandes de Roshar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Abismoide libre",
+    "rol": "Animal individual menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Abismoide individual mencionado brevemente en la saga. Los abismoides son los animales terrestres más grandes de Roshar, con más de 20 metros de longitud e inteligencia notable.",
+  "notas": "Los abismoides se comunican mediante proyección de imágenes e impresiones mentales y son capaces de compartirlas con cantores."
+}
