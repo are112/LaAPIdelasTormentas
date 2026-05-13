@@ -1,18 +1,20 @@
 import express from "express";
-import {
-  listarSpren,
-  sprenDetalle,
-  sprenResumen,
-  sprenRelaciones,
-  sprenSeccion,
-} from "../controllers/sprenController.js";
+import { spren } from "../utils/loaders.js";
+import { createEntityController } from "../controllers/entityController.js";
+
+const { listar, detalle, resumen, relaciones, seccion } = createEntityController({
+  ...spren,
+  singular:       "spren",
+  notFound:       { sugerencia: "Consulta GET /spren para ver los spren disponibles" },
+  withResumen:    true,
+  withRelaciones: true,
+});
 
 const router = express.Router();
-
-router.get("/", listarSpren);
-router.get("/:id/resumen",    sprenResumen);
-router.get("/:id/relaciones", sprenRelaciones);
-router.get("/:id/:seccion",   sprenSeccion);
-router.get("/:id",            sprenDetalle);
+router.get("/",               listar);
+router.get("/:id/resumen",    resumen);
+router.get("/:id/relaciones", relaciones);
+router.get("/:id/:seccion",   seccion);
+router.get("/:id",            detalle);
 
 export default router;

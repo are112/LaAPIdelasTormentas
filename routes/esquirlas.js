@@ -1,9 +1,15 @@
 import express from "express";
-import { listarEsquirlas, esquirlaDetalle, esquirlaSeccion } from "../controllers/esquirlasController.js";
+import { esquirlas } from "../utils/loaders.js";
+import { createEntityController } from "../controllers/entityController.js";
+
+const { listar, detalle, seccion } = createEntityController({
+  ...esquirlas,
+  singular: "esquirla",
+});
 
 const router = express.Router();
-router.get("/", listarEsquirlas);
-router.get("/:id/:seccion", esquirlaSeccion);
-router.get("/:id", esquirlaDetalle);
+router.get("/",             listar);
+router.get("/:id/:seccion", seccion);
+router.get("/:id",          detalle);
 
 export default router;
