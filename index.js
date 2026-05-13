@@ -3,7 +3,7 @@ import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 import compression from "compression";
 import morgan from "morgan";
-import { personajes, heraldos, spren, deshechos, esquirlas } from "./utils/loaders.js";
+import { personajes, heraldos, spren, deshechos, esquirlas, waitForLoaders } from "./utils/loaders.js";
 import personajesRoutes from "./routes/personajes.js";
 import buscarRoutes from "./routes/buscar.js";
 import docsRoutes from "./routes/docs.js";
@@ -22,13 +22,9 @@ app.set("trust proxy", 1);
 app.use(express.json());
 
 // ─── Compresión gzip ──────────────────────────────────────
-// Comprime todas las respuestas JSON y HTML automáticamente.
-// Umbral: solo comprime respuestas > 1 KB (las pequeñas no merece la pena).
 app.use(compression({ threshold: 1024 }));
 
 // ─── Logging de peticiones ────────────────────────────────
-// En producción: formato "combined" (IP, método, ruta, status, tiempo).
-// En desarrollo: formato "dev" (coloreado y compacto).
 // El healthcheck se excluye para no contaminar los logs con ruido.
 app.use((req, res, next) => {
   if (req.path === "/health") return next();
@@ -36,24 +32,15 @@ app.use((req, res, next) => {
 });
 
 // ─── Seguridad: cabeceras HTTP ────────────────────────────
-// Helmet añade cabeceras de seguridad a todas las respuestas
-// protegiéndolas frente a ataques como XSS o clickjacking.
-app.use(helmet({
-  contentSecurityPolicy: false, // desactivado para no romper Swagger UI
-}));
+app.use(helmet({ contentSecurityPolicy: false }));
 
 // ─── Seguridad: límite de peticiones por IP ───────────────
-// Máximo 100 peticiones por IP cada 15 minutos.
-// Las rutas del explorador y la documentación tienen un límite
-// más generoso al ser navegación normal de usuario.
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 100,
   standardHeaders: true,
   legacyHeaders: false,
-  message: {
-    error: "Demasiadas peticiones desde esta IP, espera unos minutos ⚡",
-  },
+  message: { error: "Demasiadas peticiones desde esta IP, espera unos minutos ⚡" },
 });
 
 const explorerLimiter = rateLimit({
@@ -64,18 +51,10 @@ const explorerLimiter = rateLimit({
 });
 
 // ─── Assets estáticos con caché de 1 día ─────────────────
-// Las imágenes y SVGs no cambian en cada deploy, el navegador
-// las cachea durante 24h evitando peticiones innecesarias.
-app.use(express.static("public", {
-  maxAge: "1d",
-  etag: true,
-  lastModified: true,
-}));
+app.use(express.static("public", { maxAge: "1d", etag: true, lastModified: true }));
 
 // ─── Healthcheck ──────────────────────────────────────────
-// GET /health — usado por Render, Fly.io, Cloudflare y monitores externos.
-// Devuelve 200 si todo está en orden, 503 si alguna entidad no cargó.
-// No pasa por rate limiter para que los monitores nunca queden bloqueados.
+// Fuera del rate limiter para que los monitores nunca queden bloqueados.
 app.get("/health", (req, res) => {
   const cache = {
     personajes: personajes.loadList().length,
@@ -84,9 +63,7 @@ app.get("/health", (req, res) => {
     deshechos:  deshechos.loadList().length,
     esquirlas:  esquirlas.loadList().length,
   };
-
   const healthy = Object.values(cache).every((n) => n > 0);
-
   res.status(healthy ? 200 : 503).json({
     status:          healthy ? "ok" : "degraded",
     uptime_s:        Math.floor((Date.now() - START_TIME) / 1000),
@@ -107,10 +84,7 @@ app.use("/stats",      apiLimiter, statsRoutes);
 app.use("/explorador", explorerLimiter, exploradorRoutes);
 app.use("/api-docs",   explorerLimiter, docsRoutes);
 
-// Raíz
-app.get("/", (req, res) => {
-  res.redirect("/explorador");
-});
+app.get("/", (req, res) => res.redirect("/explorador"));
 
 // ─── Ruta no encontrada (404) ─────────────────────────────
 app.use((req, res) => {
@@ -131,8 +105,18 @@ app.use((err, req, res, next) => {
   });
 });
 
+// ─── Arranque ─────────────────────────────────────────────
+// Espera a que todos los loaders terminen su carga en paralelo
+// antes de abrir el puerto. Así el servidor nunca responde con
+// datos vacíos durante los primeros milisegundos.
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, "0.0.0.0", () => {
-  console.log(`⚡ Servidor activo en puerto ${PORT}`);
-  console.log(`📖 Documentación disponible en http://localhost:${PORT}/api-docs`);
+
+waitForLoaders().then(() => {
+  app.listen(PORT, "0.0.0.0", () => {
+    console.log(`⚡ Servidor activo en puerto ${PORT} (arranque: ${Date.now() - START_TIME}ms)`);
+    console.log(`📖 Documentación disponible en http://localhost:${PORT}/api-docs`);
+  });
+}).catch((err) => {
+  console.error("Error fatal al cargar los datos:", err.message);
+  process.exit(1);
 });
