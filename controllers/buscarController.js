@@ -1,6 +1,6 @@
 import { personajes, heraldos, spren, deshechos, esquirlas } from "../utils/loaders.js";
 
-// ─── Helpers ────────────────────────────────────────────
+// ─── Helpers ─────────────────────────────────────────────
 
 function deepGet(obj, path) {
   if (!path || typeof path !== "string") return undefined;
@@ -28,9 +28,11 @@ function getSortValue(obj, pathOrKey) {
   return JSON.stringify(raw ?? "").toLowerCase();
 }
 
-// ─── Filtro genérico ─────────────────────────────────────
+// ─── Filtro genérico ──────────────────────────────────────
+// El filtro de texto ya NO usa JSON.stringify en caliente:
+// usa el índice pre-calculado al arranque via searchText().
 
-function aplicarFiltros(detalle, filtros) {
+function aplicarFiltros(detalle, filtros, tipoEntidad, loadersMap) {
   const { orden, nivel_ideal, especie, sexo, nacionalidad, origen, estado_actual,
           afiliacion, libro, texto, ...otrosFiltros } = filtros;
 
@@ -51,14 +53,14 @@ function aplicarFiltros(detalle, filtros) {
   if (estado_actual && String(detalle.estado_actual ?? "").toLowerCase() !== estado_actual.toLowerCase()) return false;
   if (afiliacion && !(detalle.afiliaciones ?? []).some((a) => String(a).toLowerCase() === afiliacion.toLowerCase())) return false;
   if (libro && !(detalle.apariciones?.libros ?? []).some((l) => String(l.titulo ?? "").toLowerCase() === libro.toLowerCase())) return false;
-  if (texto && !JSON.stringify(detalle).toLowerCase().includes(texto.toLowerCase())) return false;
+  // texto: ya filtrado antes de llamar a aplicarFiltros — no se evalúa aquí
   for (const clave of Object.keys(otrosFiltros)) {
     if (!JSON.stringify(deepGet(detalle, clave) ?? "").toLowerCase().includes(String(otrosFiltros[clave]).toLowerCase())) return false;
   }
   return true;
 }
 
-// ─── Controlador principal ───────────────────────────────
+// ─── Controlador principal ────────────────────────────────
 
 export function buscar(req, res) {
   const { id, tipo, orden, nivel_ideal, especie, sexo, nacionalidad, origen, estado_actual,
@@ -66,7 +68,6 @@ export function buscar(req, res) {
 
   const filtros = { orden, nivel_ideal, especie, sexo, nacionalidad, origen, estado_actual, afiliacion, libro, texto, ...otrosFiltros };
 
-  // Añadir aquí nuevas entidades cuando se incorporen al proyecto
   const entidades = [
     { tipo: "personaje", ...personajes },
     { tipo: "heraldo",   ...heraldos },
@@ -77,10 +78,22 @@ export function buscar(req, res) {
 
   let resultados = [];
 
-  for (const { tipo: tipoEntidad, loadOne, loadList } of entidades) {
+  for (const { tipo: tipoEntidad, loadOne, loadList, searchText } of entidades) {
     if (tipo && tipo !== tipoEntidad) continue;
-    const lista = id ? loadList().filter((x) => String(x.id).toLowerCase() === String(id).toLowerCase()) : loadList();
-    for (const item of lista) {
+
+    // Si hay filtro de texto, usar el índice pre-calculado para reducir
+    // el conjunto de candidatos antes de aplicar el resto de filtros.
+    let candidatos;
+    if (texto) {
+      const idsConTexto = new Set(searchText(texto));
+      candidatos = loadList().filter((x) => idsConTexto.has(String(x.id).toLowerCase()));
+    } else {
+      candidatos = id
+        ? loadList().filter((x) => String(x.id).toLowerCase() === String(id).toLowerCase())
+        : loadList();
+    }
+
+    for (const item of candidatos) {
       const detalle = loadOne(item.id);
       if (!detalle) continue;
       if (aplicarFiltros(detalle, filtros)) resultados.push({ ...detalle, _tipo: tipoEntidad });
