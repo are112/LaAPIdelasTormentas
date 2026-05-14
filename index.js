@@ -14,6 +14,7 @@ import sprenRoutes from "./routes/spren.js";
 import heraldosRoutes from "./routes/heraldos.js";
 import deshechoRoutes from "./routes/deshechos.js";
 import esquirlasRoutes from "./routes/esquirlas.js";
+import grafoRoutes from "./routes/grafo.js";
 
 const app = express();
 const START_TIME = Date.now();
@@ -80,6 +81,7 @@ app.use("/spren",      apiLimiter, sprenRoutes);
 app.use("/heraldos",   apiLimiter, heraldosRoutes);
 app.use("/deshechos",  apiLimiter, deshechoRoutes);
 app.use("/esquirlas",  apiLimiter, esquirlasRoutes);
+app.use("/grafo",      apiLimiter, grafoRoutes);
 app.use("/stats",      apiLimiter, statsRoutes);
 app.use("/explorador", explorerLimiter, exploradorRoutes);
 app.use("/api-docs",   explorerLimiter, docsRoutes);
