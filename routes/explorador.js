@@ -525,6 +525,17 @@ router.get("/", (req, res) => {
       height: 100%;
       position: relative;
     }
+    /* Cuando el grafo está activo: sin padding ni scroll para maximizar espacio */
+    .panel-der.grafo-activo {
+      padding: 0;
+      overflow: hidden;
+    }
+    .panel-der.grafo-activo .grafo-panel {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 1.25rem 1.5rem 1rem;
+    }
 
     /* Estado vacío */
     .estado-vacio {
@@ -1164,7 +1175,9 @@ router.get("/", (req, res) => {
     .grafo-filtro-btn.activo.amigos   { border-color: #4a9eca; color: #4a9eca; background: rgba(74,158,202,.08); }
     .grafo-filtro-btn.activo.enemigos { border-color: #e05c5c; color: #e05c5c; background: rgba(224,92,92,.08); }
     .grafo-canvas {
-      width: 100%; height: 380px;
+      width: 100%;
+      flex: 1;
+      min-height: 280px;
       background: radial-gradient(ellipse at center, rgba(201,168,76,.03) 0%, transparent 70%), #050810;
       border: 1px solid rgba(255,255,255,.07); border-radius: 10px;
       overflow: hidden; position: relative;
@@ -2880,6 +2893,7 @@ router.get("/", (req, res) => {
 
       ficha.style.display = 'none';
       grafoPanel.classList.add('visible');
+      document.getElementById('panel-detalle').classList.add('grafo-activo');
 
       // Limpiar SVG anterior
       const svgEl = document.getElementById('grafo-svg-inner');
@@ -2888,7 +2902,10 @@ router.get("/", (req, res) => {
 
       fetch(API + '/grafo/' + id)
         .then(r => r.json())
-        .then(data => buildGrafoD3(data, id))
+        .then(data => {
+          // Esperar a que el navegador calcule el layout flex antes de leer dimensiones
+          requestAnimationFrame(() => buildGrafoD3(data, id));
+        })
         .catch(() => {
           grafoPanel.querySelector('.grafo-canvas').innerHTML =
             '<p style="color:var(--gris-plata);padding:2rem;text-align:center">Error al cargar el grafo</p>';
@@ -2899,6 +2916,7 @@ router.get("/", (req, res) => {
       if (!grafoState.fichaEl || !grafoState.panelEl) return;
       grafoState.panelEl.classList.remove('visible');
       grafoState.fichaEl.style.display = '';
+      document.getElementById('panel-detalle').classList.remove('grafo-activo');
       if (grafoState.sim) { grafoState.sim.stop(); grafoState.sim = null; }
     }
 
