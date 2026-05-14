@@ -757,56 +757,7 @@ router.get("/", (req, res) => {
       opacity: 1;
     }
 
-    /* Relaciones — sección ancho completo con columnas internas */
-    .seccion-relaciones {
-      background: rgba(255,255,255,0.025);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: 7px;
-      padding: 1.25rem;
-      margin-bottom: 1.25rem;
-      transition: border-color 0.2s;
-    }
-    .seccion-relaciones:hover { border-color: rgba(255,255,255,0.13); }
-    .relaciones-columnas {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1.25rem;
-      align-items: start;
-    }
-    .relacion-grupo { margin-bottom: 0; }
-    .relacion-grupo-titulo {
-      font-size: 0.65rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: var(--gris-plata);
-      opacity: 0.6;
-      margin-bottom: 0.4rem;
-      padding-bottom: 0.3rem;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
-    }
-    .relacion-item {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 0.4rem 0.75rem;
-      align-items: baseline;
-      padding: 0.45rem 0;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      font-size: 0.93rem;
-    }
-    .relacion-item:last-child { border-bottom: none; }
-    .relacion-nombre { color: var(--blanco-perla); }
-    .relacion-nombre.clickable {
-      color: var(--blanco-perla);
-      cursor: pointer;
-      text-decoration: underline;
-      text-decoration-color: rgba(255,255,255,0.2);
-      text-underline-offset: 3px;
-      transition: text-decoration-color 0.15s;
-    }
-    .relacion-nombre.clickable:hover {
-      text-decoration-color: rgba(255,255,255,0.6);
-    }
-    .relacion-tipo { font-size: 0.75rem; color: var(--gris-plata); font-style: italic; opacity: 0.7; }
+
 
     /* Libros */
     .libro-item {
@@ -1173,7 +1124,7 @@ router.get("/", (req, res) => {
       .ficha-titulo h2 { font-size: 1.3rem; }
       .grid-secciones { columns: 1; }
       .historial-barra { display: none; }
-      .relaciones-columnas { grid-template-columns: 1fr; }
+
 
       /* Estado vacío centrado */
       .estado-vacio { display: none; }
@@ -1565,36 +1516,7 @@ router.get("/", (req, res) => {
         .replace(/\b\w/g, c => c.toUpperCase());
     }
 
-    // ── Helper compartido: sección de relaciones estandarizada ──────────────
-    function renderSeccionRelaciones(grupos) {
-      const conDatos = grupos.filter(g => g.items?.length);
-      if (!conDatos.length) return '';
-      const columnas = conDatos.map(g => \`
-        <div class="relacion-grupo">
-          <div class="relacion-grupo-titulo">\${g.icono} \${g.titulo}</div>
-          \${g.items.map(r => {
-            const ref        = todos.find(px => px.id === r.id) || todos.find(px => px.nombre?.toLowerCase() === r.nombre?.toLowerCase());
-            const sprenRef   = todosSpren.find(s => s.id === r.id || s.nombre?.toLowerCase() === r.nombre?.toLowerCase());
-            const heraldoRef = todosHeraldos.find(h => h.id === r.id || h.nombre?.toLowerCase() === r.nombre?.toLowerCase());
-            let attr = 'class="relacion-nombre"';
-            if (ref)             attr = \`class="relacion-nombre clickable" onclick="verPersonaje('\${ref.id}')"\`;
-            else if (sprenRef)   attr = \`class="relacion-nombre clickable" onclick="verSpren('\${sprenRef.id}')"\`;
-            else if (heraldoRef) attr = \`class="relacion-nombre clickable" onclick="verHeraldo('\${heraldoRef.id}')"\`;
-            return \`
-            <div class="relacion-item">
-              <span \${attr}>\${r.nombre}</span>
-              <span class="relacion-tipo">\${r.relacion}</span>
-            </div>\`;
-          }).join('')}
-        </div>
-      \`).join('');
-      return \`
-        <div class="seccion-relaciones">
-          <div class="seccion-titulo">Relaciones</div>
-          <div class="relaciones-columnas">\${columnas}</div>
-        </div>
-      \`;
-    }
+
 
     // ── Render ficha personaje ─────────────────────────────
     function enlazarEntidad(nombre) {
@@ -1648,20 +1570,6 @@ router.get("/", (req, res) => {
           : '',
       ].filter(Boolean).join('');
 
-      // Relaciones
-      // Relaciones — normalizar al formato del helper
-      const iconos = { familia: '👪', amigos: '🤝', enemigos: '⚔' };
-      const gruposRel = rel?.relaciones
-        ? Object.entries(rel.relaciones).map(([tipo, items]) => ({
-            titulo: tipo,
-            icono: iconos[tipo] || '•',
-            items: (items || []).map(r => {
-              const ref = todos.find(px => px.id === r.personaje);
-              return { id: r.personaje, nombre: ref ? ref.nombre : r.personaje, relacion: r.relacion };
-            })
-          }))
-        : [];
-      const relacionesPersonajeHtml = renderSeccionRelaciones(gruposRel);
 
       // Libros
       const librosHtml = libros.length
@@ -1825,8 +1733,6 @@ router.get("/", (req, res) => {
             </div>
 
           </div>
-
-          \${relacionesPersonajeHtml}
 
           <div class="seccion seccion-fullwidth">
             <div class="seccion-titulo">Arco narrativo</div>
@@ -2459,13 +2365,7 @@ router.get("/", (req, res) => {
         ? \`<div class="tags">\${h.habilidades.como_herald.map(hab => \`<span class="tag">✦ \${hab}</span>\`).join('')}</div>\`
         : '<p class="sin-datos">Sin habilidades registradas</p>';
 
-      // Relaciones heraldo — normalizar al helper
-      const gruposHeraldo = [
-        { titulo: 'familia',  icono: '👪', items: (h.relaciones?.familia  ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
-        { titulo: 'heraldos', icono: '🛡', items: (h.relaciones?.heraldos ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
-        { titulo: 'otros',    icono: '•',  items: (h.relaciones?.otros    ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
-      ];
-      const relacionesHeraldoHtml = renderSeccionRelaciones(gruposHeraldo);
+
 
       return \`
         <div class="ficha">
@@ -2550,8 +2450,6 @@ router.get("/", (req, res) => {
             </div>
 
           </div>
-
-          \${relacionesHeraldoHtml}
 
           <div class="seccion" class="seccion-fullwidth">
             <div class="seccion-titulo">Historia</div>
@@ -2817,11 +2715,6 @@ router.get("/", (req, res) => {
             </div>
 
           </div>
-
-          \${renderSeccionRelaciones([
-            { titulo: 'radiante vinculado', icono: '✦', items: s.relaciones?.radiante_vinculado ? [{ id: s.relaciones.radiante_vinculado.personaje, nombre: s.relaciones.radiante_vinculado.personaje, relacion: s.relaciones.radiante_vinculado.relacion }] : [] },
-            { titulo: 'otros', icono: '•', items: (s.relaciones?.otros ?? []).map(r => ({ id: r.personaje, nombre: r.personaje, relacion: r.relacion })) },
-          ])}
 
           <div class="seccion" class="seccion-fullwidth">
             <div class="seccion-titulo">Historia</div>
