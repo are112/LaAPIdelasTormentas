@@ -1133,7 +1133,83 @@ router.get("/", (req, res) => {
       .tabs { gap: 0.25rem; margin-bottom: 1rem; }
       .tab { font-size: 0.75rem; padding: 0.4rem 0.2rem; }
     }
+
+    /* Panel grafo inline */
+    .grafo-panel { display: none; animation: aparecer .3s ease; }
+    .grafo-panel.visible { display: block; }
+    .grafo-header { display: flex; align-items: center; gap: 12px; margin-bottom: 1.25rem; flex-wrap: wrap; }
+    .btn-volver {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: transparent; border: 1px solid rgba(255,255,255,.1);
+      color: var(--gris-plata); font-family: 'Crimson Pro', serif;
+      font-size: .78rem; letter-spacing: .08em; text-transform: uppercase;
+      padding: .35rem .8rem; border-radius: 5px; cursor: pointer;
+      transition: border-color .2s, color .2s;
+    }
+    .btn-volver:hover { border-color: rgba(255,255,255,.25); color: var(--blanco-perla); }
+    .grafo-titulo-wrap { flex: 1; }
+    .grafo-titulo { font-family: 'Cinzel Decorative', serif; font-size: .95rem; color: var(--blanco-perla); }
+    .grafo-titulo span { color: var(--dorado); }
+    .grafo-subtitle { font-size: .75rem; color: var(--gris-plata); opacity: .65; margin-top: 2px; }
+    .grafo-filtros { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 1rem; }
+    .grafo-filtro-btn {
+      font-size: .7rem; padding: .3rem .75rem; border-radius: 20px;
+      border: 1px solid rgba(255,255,255,.1); background: transparent;
+      color: var(--gris-plata); cursor: pointer; transition: .15s;
+      font-family: 'Crimson Pro', serif; letter-spacing: .06em; text-transform: uppercase;
+    }
+    .grafo-filtro-btn:hover { border-color: rgba(255,255,255,.25); color: var(--blanco-perla); }
+    .grafo-filtro-btn.activo.todos    { border-color: rgba(255,255,255,.35); color: var(--blanco-perla); background: rgba(255,255,255,.06); }
+    .grafo-filtro-btn.activo.familia  { border-color: #c9a84c; color: #c9a84c; background: rgba(201,168,76,.08); }
+    .grafo-filtro-btn.activo.amigos   { border-color: #4a9eca; color: #4a9eca; background: rgba(74,158,202,.08); }
+    .grafo-filtro-btn.activo.enemigos { border-color: #e05c5c; color: #e05c5c; background: rgba(224,92,92,.08); }
+    .grafo-canvas {
+      width: 100%; height: 380px;
+      background: radial-gradient(ellipse at center, rgba(201,168,76,.03) 0%, transparent 70%), #050810;
+      border: 1px solid rgba(255,255,255,.07); border-radius: 10px;
+      overflow: hidden; position: relative;
+    }
+    .grafo-canvas svg { width: 100%; height: 100%; }
+    .grafo-stats {
+      display: flex; gap: 1.5rem; margin-top: .9rem;
+      padding: .75rem 1rem; background: rgba(255,255,255,.02);
+      border: 1px solid rgba(255,255,255,.05); border-radius: 6px;
+      flex-wrap: wrap; align-items: center;
+    }
+    .grafo-stat-item { display: flex; flex-direction: column; gap: 2px; }
+    .grafo-stat-num   { font-size: 1.3rem; color: var(--blanco-perla); font-weight: 600; line-height: 1; }
+    .grafo-stat-label { font-size: .65rem; color: var(--gris-plata); text-transform: uppercase; letter-spacing: .1em; opacity: .6; }
+    .grafo-leyenda { display: flex; gap: 14px; margin-left: auto; flex-wrap: wrap; }
+    .grafo-leg { display: flex; align-items: center; gap: 5px; font-size: .72rem; color: var(--gris-plata); }
+    .grafo-leg-line { width: 18px; height: 2px; border-radius: 1px; }
+    .grafo-leg-dot  { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; border: 2px solid rgba(255,255,255,.6); }
+
+    /* Boton Ver relaciones */
+    .btn-relaciones {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(201,168,76,.08); border: 1px solid rgba(201,168,76,.25);
+      color: var(--dorado); font-family: 'Crimson Pro', serif;
+      font-size: .8rem; letter-spacing: .1em; text-transform: uppercase;
+      padding: .45rem 1rem; border-radius: 5px; cursor: pointer;
+      transition: background .2s, border-color .2s; margin-bottom: 1.75rem;
+    }
+    .btn-relaciones:hover { background: rgba(201,168,76,.15); border-color: rgba(201,168,76,.5); }
+    .btn-relaciones svg { width: 14px; height: 14px; opacity: .8; }
+    .grafo-tooltip {
+      position: absolute; background: rgba(10,16,28,.96);
+      border: 1px solid rgba(201,168,76,.2); border-radius: 8px;
+      padding: 12px 16px; font-size: 12px; pointer-events: none; opacity: 0;
+      transition: opacity .12s; max-width: 210px; z-index: 10;
+    }
+    .grafo-tooltip h4 { color: var(--dorado); font-size: 13px; margin-bottom: 4px; font-family: 'Cinzel Decorative', serif; font-weight: normal; }
+    .grafo-tooltip .gt-orden { font-size: 10px; color: var(--gris-plata); margin-bottom: 6px; opacity: .7; }
+    .grafo-tooltip .gt-desc  { font-size: 11px; color: #c9a84c; opacity: .8; margin-bottom: 6px; font-style: italic; }
+    .grafo-tooltip .gt-conn  { display: flex; flex-direction: column; gap: 3px; }
+    .grafo-tooltip .gt-row   { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+    .grafo-tooltip .gt-dot   { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .grafo-tooltip .gt-val   { color: var(--blanco-perla); }
   </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
 <body>
 
@@ -1666,6 +1742,8 @@ router.get("/", (req, res) => {
           </div>
 
           \${p.descripcion_breve ? \`<div class="descripcion">\${p.descripcion_breve}</div>\` : ''}
+
+          <button class="btn-relaciones" onclick="verRelaciones('${p.id}','personaje')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="7" y1="8" x2="11" y2="16"/><line x1="17" y1="8" x2="13" y2="16"/></svg>Ver relaciones</button>
 
           <div class="grid-secciones">
 
@@ -2386,6 +2464,8 @@ router.get("/", (req, res) => {
 
           \${h.descripcion_breve ? \`<div class="descripcion">\${h.descripcion_breve}</div>\` : ''}
 
+          <button class="btn-relaciones" onclick="verRelaciones('${h.id}','heraldo')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="7" y1="8" x2="11" y2="16"/><line x1="17" y1="8" x2="13" y2="16"/></svg>Ver relaciones</button>
+
           <div class="grid-secciones">
 
             <div class="seccion">
@@ -2622,6 +2702,8 @@ router.get("/", (req, res) => {
 
           \${s.descripcion_breve ? \`<div class="descripcion">\${s.descripcion_breve}</div>\` : ''}
 
+          <button class="btn-relaciones" onclick="verRelaciones('${s.id}','spren')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="7" y1="8" x2="11" y2="16"/><line x1="17" y1="8" x2="13" y2="16"/></svg>Ver relaciones</button>
+
           <div class="grid-secciones">
 
             <div class="seccion">
@@ -2737,6 +2819,278 @@ router.get("/", (req, res) => {
       document.getElementById('acerca-overlay').classList.remove('visible');
       document.body.style.overflow = '';
     }
+
+    // ── Ver relaciones (grafo) ─────────────────────────────
+    // Estado del grafo activo
+    const grafoState = {
+      id: null, tipo: null, sim: null,
+      linkSel: null, nodeSel: null, filtro: 'todos',
+      fichaEl: null, panelEl: null,
+    };
+
+    function verRelaciones(id, tipo) {
+      const panel = document.getElementById('panel-detalle');
+      const ficha = panel.querySelector('.ficha');
+      if (!ficha) return;
+
+      // Crear panel grafo si no existe ya
+      let grafoPanel = panel.querySelector('.grafo-panel');
+      if (!grafoPanel) {
+        grafoPanel = document.createElement('div');
+        grafoPanel.className = 'grafo-panel';
+        grafoPanel.innerHTML =
+          '<div class="grafo-header">' +
+            '<button class="btn-volver" onclick="cerrarGrafo()">← Ficha</button>' +
+            '<div class="grafo-titulo-wrap">' +
+              '<div class="grafo-titulo">Red de <span id="grafo-nombre"></span></div>' +
+              '<div class="grafo-subtitle">Conexiones directas · 1 salto</div>' +
+            '</div>' +
+          '</div>' +
+          '<div class="grafo-filtros">' +
+            '<button class="grafo-filtro-btn todos activo" onclick="grafoFiltrar('todos',this)">Todos</button>' +
+            '<button class="grafo-filtro-btn familia"  onclick="grafoFiltrar('familia',this)">Familia</button>' +
+            '<button class="grafo-filtro-btn amigos"   onclick="grafoFiltrar('amigos',this)">Amigos</button>' +
+            '<button class="grafo-filtro-btn enemigos" onclick="grafoFiltrar('enemigos',this)">Enemigos</button>' +
+          '</div>' +
+          '<div class="grafo-canvas" id="grafo-canvas-inner"><svg id="grafo-svg-inner"></svg><div class="grafo-tooltip" id="grafo-tooltip"></div></div>' +
+          '<div class="grafo-stats">' +
+            '<div class="grafo-stat-item"><span class="grafo-stat-num" id="gstat-nodos">-</span><span class="grafo-stat-label">Personajes</span></div>' +
+            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#c9a84c" id="gstat-familia">-</span><span class="grafo-stat-label">Familia</span></div>' +
+            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#4a9eca" id="gstat-amigos">-</span><span class="grafo-stat-label">Amigos</span></div>' +
+            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#e05c5c" id="gstat-enemigos">-</span><span class="grafo-stat-label">Enemigos</span></div>' +
+            '<div class="grafo-leyenda">' +
+              '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#c9a84c"></div>Familia</div>' +
+              '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#4a9eca"></div>Amigos</div>' +
+              '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#e05c5c;height:2px;border-top:2px dashed #e05c5c;background:none"></div>Enemigos</div>' +
+              '<div class="grafo-leg"><div class="grafo-leg-dot" style="background:#c9a84c"></div>Origen</div>' +
+            '</div>' +
+          '</div>';
+        panel.appendChild(grafoPanel);
+      }
+
+      grafoState.id      = id;
+      grafoState.tipo    = tipo;
+      grafoState.fichaEl = ficha;
+      grafoState.panelEl = grafoPanel;
+      grafoState.filtro  = 'todos';
+
+      // Resetear filtros UI
+      grafoPanel.querySelectorAll('.grafo-filtro-btn').forEach(b => b.classList.remove('activo'));
+      grafoPanel.querySelector('.grafo-filtro-btn.todos').classList.add('activo');
+
+      ficha.style.display = 'none';
+      grafoPanel.classList.add('visible');
+
+      // Limpiar SVG anterior
+      const svgEl = document.getElementById('grafo-svg-inner');
+      while (svgEl.firstChild) svgEl.removeChild(svgEl.firstChild);
+      if (grafoState.sim) { grafoState.sim.stop(); grafoState.sim = null; }
+
+      fetch(API + '/grafo/' + id)
+        .then(r => r.json())
+        .then(data => buildGrafoD3(data, id))
+        .catch(() => {
+          grafoPanel.querySelector('.grafo-canvas').innerHTML =
+            '<p style="color:var(--gris-plata);padding:2rem;text-align:center">Error al cargar el grafo</p>';
+        });
+    }
+
+    function cerrarGrafo() {
+      if (!grafoState.fichaEl || !grafoState.panelEl) return;
+      grafoState.panelEl.classList.remove('visible');
+      grafoState.fichaEl.style.display = '';
+      if (grafoState.sim) { grafoState.sim.stop(); grafoState.sim = null; }
+    }
+
+    function buildGrafoD3(data, raizId) {
+      const nodos   = data.nodos;
+      const aristas = data.aristas;
+
+      const nombre = nodos.find(n => n.id === raizId)?.nombre || raizId;
+      document.getElementById('grafo-nombre').textContent = nombre;
+
+      const cFam = aristas.filter(a => a.tipo === 'familia').length;
+      const cAmi = aristas.filter(a => a.tipo === 'amigos').length;
+      const cEne = aristas.filter(a => a.tipo === 'enemigos').length;
+      document.getElementById('gstat-nodos').textContent   = nodos.length;
+      document.getElementById('gstat-familia').textContent  = cFam;
+      document.getElementById('gstat-amigos').textContent   = cAmi;
+      document.getElementById('gstat-enemigos').textContent = cEne;
+
+      const COLOR_ORDEN = {
+        'Corredores del Viento':   '#4a9eca',
+        'Tejedores de Luz':        '#b07cd4',
+        'Forjadores de Vinculos':  '#e8a44a',
+        'Forjadores de Vínculos': '#e8a44a',
+        'Rompedores del Cielo':    '#ea6060',
+        'Vigilantes de la Verdad': '#a0c44a',
+        'Escultores de Voluntad':  '#e86e30',
+        'Nominadores de Lo Otro':  '#4acea0',
+        'Danzantes del Filo':      '#e0b44a',
+        'Ninguna':                 '#566478',
+        'honorspren':              '#4a9eca',
+        'cryptico':                '#b07cd4',
+        'cultivacispren':          '#4acea0',
+        'alcanzador':              '#e8a44a',
+        'spren primigenio':        '#c9a84c',
+      };
+
+      const canvas  = document.getElementById('grafo-canvas-inner');
+      const W = canvas.offsetWidth;
+      const H = canvas.offsetHeight;
+
+      const svgSel = d3.select('#grafo-svg-inner');
+      const defs   = svgSel.append('defs');
+
+      // Filtro glow
+      const fGlow = defs.append('filter').attr('id','g-glow').attr('x','-80%').attr('y','-80%').attr('width','260%').attr('height','260%');
+      fGlow.append('feGaussianBlur').attr('in','SourceGraphic').attr('stdDeviation','3').attr('result','blur');
+      const fM = fGlow.append('feMerge');
+      fM.append('feMergeNode').attr('in','blur');
+      fM.append('feMergeNode').attr('in','SourceGraphic');
+
+      // Fondo radial
+      const rg = defs.append('radialGradient').attr('id','g-bg').attr('cx','50%').attr('cy','50%').attr('r','50%');
+      rg.append('stop').attr('offset','0%').attr('stop-color','#c9a84c').attr('stop-opacity','0.04');
+      rg.append('stop').attr('offset','100%').attr('stop-color','#080c14').attr('stop-opacity','0');
+      svgSel.append('rect').attr('width','100%').attr('height','100%').attr('fill','url(#g-bg)');
+
+      const g    = svgSel.append('g');
+      const zoom = d3.zoom().scaleExtent([0.2, 4]).on('zoom', e => g.attr('transform', e.transform));
+      svgSel.call(zoom);
+
+      const links = aristas.map(a => ({...a, source: a.origen, target: a.destino}));
+
+      const sim = d3.forceSimulation(nodos)
+        .force('link', d3.forceLink(links).id(d => d.id).distance(d => d.tipo === 'familia' ? 85 : 115).strength(0.7))
+        .force('charge', d3.forceManyBody().strength(-300))
+        .force('center', d3.forceCenter(W/2, H/2))
+        .force('collision', d3.forceCollide().radius(d => (d.id === raizId ? 22 : 12) + 8));
+
+      grafoState.sim = sim;
+
+      const colorArista = { familia: '#c9a84c', amigos: '#4a9eca', enemigos: '#e05c5c' };
+
+      const linkSel = g.append('g').selectAll('line')
+        .data(links).enter().append('line')
+        .attr('stroke', d => colorArista[d.tipo] || '#4a5568')
+        .attr('stroke-opacity', 0.4)
+        .attr('stroke-width', d => d.origen === raizId || d.destino === raizId ? 2 : 1.2)
+        .attr('stroke-dasharray', d => d.tipo === 'enemigos' ? '4,3' : null);
+
+      grafoState.linkSel = linkSel;
+
+      const nodeSel = g.append('g').selectAll('.gn')
+        .data(nodos).enter().append('g').attr('class','gn')
+        .call(d3.drag()
+          .on('start', (e,d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx=e.x; d.fy=e.y; })
+          .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
+          .on('end',   (e,d) => { if (!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; })
+        );
+
+      grafoState.nodeSel = nodeSel;
+
+      // Halo nodo raíz
+      nodeSel.filter(d => d.id === raizId).append('circle')
+        .attr('r', 28).attr('fill','none')
+        .attr('stroke','#c9a84c').attr('stroke-width',1).attr('stroke-opacity',0.2)
+        .attr('filter','url(#g-glow)');
+
+      const r = d => d.id === raizId ? 18 : Math.min(6 + (d.grado || 0) * 0.8, 13);
+
+      nodeSel.append('circle')
+        .attr('r', r)
+        .attr('fill', d => COLOR_ORDEN[d.orden] || '#566478')
+        .attr('fill-opacity', d => d.id === raizId ? 1 : 0.8)
+        .attr('stroke', d => d.id === raizId ? '#c9a84c' : (COLOR_ORDEN[d.orden] || '#566478'))
+        .attr('stroke-width', d => d.id === raizId ? 2.5 : 1.5)
+        .attr('stroke-opacity', d => d.id === raizId ? 1 : 0.4)
+        .attr('filter', d => d.id === raizId ? 'url(#g-glow)' : null)
+        .style('cursor','pointer');
+
+      nodeSel.append('text')
+        .text(d => d.nombre)
+        .attr('dy', d => r(d) + 12)
+        .attr('text-anchor','middle')
+        .attr('font-size', d => d.id === raizId ? '12px' : '10px')
+        .attr('font-weight', d => d.id === raizId ? '600' : 'normal')
+        .attr('fill', d => d.id === raizId ? '#c9a84c' : '#f0ece8')
+        .attr('opacity', d => d.id === raizId ? 1 : 0.75)
+        .style('pointer-events','none')
+        .style('text-shadow','0 1px 4px #080c14');
+
+      const tooltip = document.getElementById('grafo-tooltip');
+
+      nodeSel.on('mouseover', (event, d) => {
+        const conn    = aristas.filter(a => a.origen === d.id || a.destino === d.id);
+        const fam     = conn.filter(a => a.tipo === 'familia').length;
+        const ami     = conn.filter(a => a.tipo === 'amigos').length;
+        const ene     = conn.filter(a => a.tipo === 'enemigos').length;
+        const desc    = conn.find(a => a.origen === raizId || a.destino === raizId)?.descripcion || '';
+
+        tooltip.innerHTML =
+          '<h4>' + d.nombre + '</h4>' +
+          '<div class="gt-orden">' + (d.orden || d.tipo || '') + '</div>' +
+          (desc ? '<div class="gt-desc">' + desc + '</div>' : '') +
+          '<div class="gt-conn">' +
+          (fam ? '<div class="gt-row"><div class="gt-dot" style="background:#c9a84c"></div><span class="gt-val">' + fam + ' familia</span></div>' : '') +
+          (ami ? '<div class="gt-row"><div class="gt-dot" style="background:#4a9eca"></div><span class="gt-val">' + ami + ' amigos</span></div>' : '') +
+          (ene ? '<div class="gt-row"><div class="gt-dot" style="background:#e05c5c"></div><span class="gt-val">' + ene + ' enemigos</span></div>' : '') +
+          '</div>';
+
+        tooltip.style.opacity = '1';
+        tooltip.style.left    = (event.offsetX + 16) + 'px';
+        tooltip.style.top     = (event.offsetY - 10) + 'px';
+
+        linkSel.attr('stroke-opacity', a => (a.origen === d.id || a.destino === d.id) ? 1 : 0.04)
+               .attr('stroke-width',   a => (a.origen === d.id || a.destino === d.id) ? 2.5 : 0.8);
+        nodeSel.select('circle').attr('fill-opacity', n => {
+          const c = aristas.some(a => (a.origen === d.id && a.destino === n.id) || (a.destino === d.id && a.origen === n.id));
+          return n.id === d.id || c ? 1 : 0.1;
+        }).attr('stroke-opacity', n => {
+          const c = aristas.some(a => (a.origen === d.id && a.destino === n.id) || (a.destino === d.id && a.origen === n.id));
+          return n.id === d.id || c ? 1 : 0.1;
+        });
+        nodeSel.select('text').attr('opacity', n => {
+          const c = aristas.some(a => (a.origen === d.id && a.destino === n.id) || (a.destino === d.id && a.origen === n.id));
+          return n.id === d.id || c ? 1 : 0.15;
+        });
+      }).on('mousemove', event => {
+        tooltip.style.left = (event.offsetX + 16) + 'px';
+        tooltip.style.top  = (event.offsetY - 10) + 'px';
+      }).on('mouseout', () => {
+        tooltip.style.opacity = '0';
+        grafoAplicarFiltro();
+      });
+
+      sim.on('tick', () => {
+        linkSel.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+               .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+        nodeSel.attr('transform', d => 'translate(' + d.x + ',' + d.y + ')');
+      });
+    }
+
+    function grafoAplicarFiltro() {
+      const f = grafoState.filtro;
+      if (!grafoState.linkSel) return;
+      grafoState.linkSel
+        .style('display', d => f === 'todos' || d.tipo === f ? null : 'none')
+        .attr('stroke-opacity', 0.4)
+        .attr('stroke-width', d => (d.origen === grafoState.id || d.destino === grafoState.id) ? 2 : 1.2);
+      grafoState.nodeSel && grafoState.nodeSel.select('circle')
+        .attr('fill-opacity', d => d.id === grafoState.id ? 1 : 0.8)
+        .attr('stroke-opacity', d => d.id === grafoState.id ? 1 : 0.4);
+      grafoState.nodeSel && grafoState.nodeSel.select('text')
+        .attr('opacity', d => d.id === grafoState.id ? 1 : 0.75);
+    }
+
+    function grafoFiltrar(tipo, btn) {
+      grafoState.filtro = tipo;
+      document.querySelectorAll('.grafo-filtro-btn').forEach(b => b.classList.remove('activo'));
+      btn.classList.add('activo');
+      grafoAplicarFiltro();
+    }
+
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') cerrarAcercaDe();
     });
