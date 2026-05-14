@@ -1209,17 +1209,18 @@ router.get("/", (req, res) => {
     .btn-relaciones:hover { background: rgba(201,168,76,.15); border-color: rgba(201,168,76,.5); }
     .btn-relaciones svg { width: 14px; height: 14px; opacity: .8; }
     .grafo-tooltip {
-      position: absolute; background: rgba(10,16,28,.96);
-      border: 1px solid rgba(201,168,76,.2); border-radius: 8px;
-      padding: 12px 16px; font-size: 12px; pointer-events: none; opacity: 0;
-      transition: opacity .12s; max-width: 210px; z-index: 10;
+      position: absolute; background: rgba(10,16,28,.97);
+      border: 1px solid rgba(201,168,76,.25); border-radius: 10px;
+      padding: 16px 20px; font-size: 14px; pointer-events: none; opacity: 0;
+      transition: opacity .12s; max-width: 280px; z-index: 10;
+      box-shadow: 0 8px 32px rgba(0,0,0,.5);
     }
-    .grafo-tooltip h4 { color: var(--dorado); font-size: 13px; margin-bottom: 4px; font-family: 'Cinzel Decorative', serif; font-weight: normal; }
-    .grafo-tooltip .gt-orden { font-size: 10px; color: var(--gris-plata); margin-bottom: 6px; opacity: .7; }
-    .grafo-tooltip .gt-desc  { font-size: 11px; color: #c9a84c; opacity: .8; margin-bottom: 6px; font-style: italic; }
-    .grafo-tooltip .gt-conn  { display: flex; flex-direction: column; gap: 3px; }
-    .grafo-tooltip .gt-row   { display: flex; align-items: center; gap: 6px; font-size: 11px; }
-    .grafo-tooltip .gt-dot   { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .grafo-tooltip h4 { color: var(--dorado); font-size: 16px; margin-bottom: 5px; font-family: 'Cinzel Decorative', serif; font-weight: normal; line-height: 1.2; }
+    .grafo-tooltip .gt-orden { font-size: 12px; color: var(--gris-plata); margin-bottom: 8px; opacity: .8; }
+    .grafo-tooltip .gt-desc  { font-size: 13px; color: #c9a84c; opacity: .9; margin-bottom: 10px; font-style: italic; line-height: 1.5; }
+    .grafo-tooltip .gt-conn  { display: flex; flex-direction: column; gap: 6px; }
+    .grafo-tooltip .gt-row   { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+    .grafo-tooltip .gt-dot   { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
     .grafo-tooltip .gt-val   { color: var(--blanco-perla); }
   </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
