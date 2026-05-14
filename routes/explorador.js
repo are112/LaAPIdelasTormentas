@@ -2868,7 +2868,7 @@ router.get("/", (req, res) => {
           '</div>' +
           '<div class="grafo-canvas" id="grafo-canvas-inner"><svg id="grafo-svg-inner"></svg><div class="grafo-tooltip" id="grafo-tooltip"></div></div>' +
           '<div class="grafo-stats">' +
-            '<div class="grafo-stat-item"><span class="grafo-stat-num" id="gstat-nodos">-</span><span class="grafo-stat-label">Personajes</span></div>' +
+            '<div class="grafo-stat-item"><span class="grafo-stat-num" id="gstat-nodos">-</span><span class="grafo-stat-label">Total</span></div>' +
             '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#c9a84c" id="gstat-familia">-</span><span class="grafo-stat-label">Familia</span></div>' +
             '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#4a9eca" id="gstat-amigos">-</span><span class="grafo-stat-label">Amigos</span></div>' +
             '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#e05c5c" id="gstat-enemigos">-</span><span class="grafo-stat-label">Enemigos</span></div>' +
@@ -2928,10 +2928,12 @@ router.get("/", (req, res) => {
       const nombre = nodos.find(n => n.id === raizId)?.nombre || raizId;
       document.getElementById('grafo-nombre').textContent = nombre;
 
-      const cFam = aristas.filter(a => a.tipo === 'familia').length;
-      const cAmi = aristas.filter(a => a.tipo === 'amigos').length;
-      const cEne = aristas.filter(a => a.tipo === 'enemigos').length;
-      document.getElementById('gstat-nodos').textContent   = nodos.length;
+      // Solo aristas directas del nodo raíz (lo que corresponde a la ficha)
+      const directas = aristas.filter(a => a.origen === raizId || a.destino === raizId);
+      const cFam = directas.filter(a => a.tipo === 'familia').length;
+      const cAmi = directas.filter(a => a.tipo === 'amigos').length;
+      const cEne = directas.filter(a => a.tipo === 'enemigos').length;
+      document.getElementById('gstat-nodos').textContent   = directas.length;
       document.getElementById('gstat-familia').textContent  = cFam;
       document.getElementById('gstat-amigos').textContent   = cAmi;
       document.getElementById('gstat-enemigos').textContent = cEne;
