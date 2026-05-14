@@ -1743,7 +1743,7 @@ router.get("/", (req, res) => {
 
           \${p.descripcion_breve ? \`<div class="descripcion">\${p.descripcion_breve}</div>\` : ''}
 
-          <button class="btn-relaciones" onclick="verRelaciones('${p.id}','personaje')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="7" y1="8" x2="11" y2="16"/><line x1="17" y1="8" x2="13" y2="16"/></svg>Ver relaciones</button>
+          <button class="btn-relaciones" onclick="verRelaciones('\${p.id}','personaje')"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='6' cy='6' r='2'/><circle cx='18' cy='18' r='2'/><circle cx='12' cy='18' r='2'/><line x1='8' y1='6' x2='16' y2='6'/><line x1='7' y1='8' x2='11' y2='16'/><line x1='17' y1='8' x2='13' y2='16'/></svg>Ver relaciones</button>
 
           <div class="grid-secciones">
 
@@ -2464,7 +2464,7 @@ router.get("/", (req, res) => {
 
           \${h.descripcion_breve ? \`<div class="descripcion">\${h.descripcion_breve}</div>\` : ''}
 
-          <button class="btn-relaciones" onclick="verRelaciones('${h.id}','heraldo')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="7" y1="8" x2="11" y2="16"/><line x1="17" y1="8" x2="13" y2="16"/></svg>Ver relaciones</button>
+          <button class="btn-relaciones" onclick="verRelaciones('\${h.id}','heraldo')"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='6' cy='6' r='2'/><circle cx='18' cy='18' r='2'/><circle cx='12' cy='18' r='2'/><line x1='8' y1='6' x2='16' y2='6'/><line x1='7' y1='8' x2='11' y2='16'/><line x1='17' y1='8' x2='13' y2='16'/></svg>Ver relaciones</button>
 
           <div class="grid-secciones">
 
@@ -2702,7 +2702,7 @@ router.get("/", (req, res) => {
 
           \${s.descripcion_breve ? \`<div class="descripcion">\${s.descripcion_breve}</div>\` : ''}
 
-          <button class="btn-relaciones" onclick="verRelaciones('${s.id}','spren')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="7" y1="8" x2="11" y2="16"/><line x1="17" y1="8" x2="13" y2="16"/></svg>Ver relaciones</button>
+          <button class="btn-relaciones" onclick="verRelaciones('\${s.id}','spren')"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='6' cy='6' r='2'/><circle cx='18' cy='18' r='2'/><circle cx='12' cy='18' r='2'/><line x1='8' y1='6' x2='16' y2='6'/><line x1='7' y1='8' x2='11' y2='16'/><line x1='17' y1='8' x2='13' y2='16'/></svg>Ver relaciones</button>
 
           <div class="grid-secciones">
 
