@@ -2847,10 +2847,10 @@ router.get("/", (req, res) => {
             '</div>' +
           '</div>' +
           '<div class="grafo-filtros">' +
-            '<button class="grafo-filtro-btn todos activo" onclick="grafoFiltrar('todos',this)">Todos</button>' +
-            '<button class="grafo-filtro-btn familia"  onclick="grafoFiltrar('familia',this)">Familia</button>' +
-            '<button class="grafo-filtro-btn amigos"   onclick="grafoFiltrar('amigos',this)">Amigos</button>' +
-            '<button class="grafo-filtro-btn enemigos" onclick="grafoFiltrar('enemigos',this)">Enemigos</button>' +
+            '<button class="grafo-filtro-btn todos activo" onclick="grafoFiltrar(&apos;todos&apos;,this)">Todos</button>' +
+            '<button class="grafo-filtro-btn familia"  onclick="grafoFiltrar(&apos;familia&apos;,this)">Familia</button>' +
+            '<button class="grafo-filtro-btn amigos"   onclick="grafoFiltrar(&apos;amigos&apos;,this)">Amigos</button>' +
+            '<button class="grafo-filtro-btn enemigos" onclick="grafoFiltrar(&apos;enemigos&apos;,this)">Enemigos</button>' +
           '</div>' +
           '<div class="grafo-canvas" id="grafo-canvas-inner"><svg id="grafo-svg-inner"></svg><div class="grafo-tooltip" id="grafo-tooltip"></div></div>' +
           '<div class="grafo-stats">' +
