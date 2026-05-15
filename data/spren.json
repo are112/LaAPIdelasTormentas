@@ -334,5 +334,37 @@
     "tipo_spren": "honorspren",
     "radiante_vinculado": null,
     "estado_actual": "activa"
+  },
+  {
+    "id": "composicion",
+    "nombre": "Composición",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "rojo",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "cusicesh",
+    "nombre": "Cusicesh",
+    "apodo": "Cusicesh el Protector",
+    "tipo_spren": "spren único de gran tamaño",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "xorm",
+    "nombre": "Xorm",
+    "apodo": null,
+    "tipo_spren": "cultivacispren",
+    "radiante_vinculado": "yanagawn",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "yixli",
+    "nombre": "Yixli",
+    "apodo": null,
+    "tipo_spren": "vacíospren",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
   }
 ]
