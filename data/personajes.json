@@ -584,11 +584,91 @@
     "especie": "abismoide"
   },
   {
+    "id": "badali",
+    "nombre": "Badali",
+    "orden": "Pilares de la Tierra",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "balat",
     "nombre": "Balat",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "balivar",
+    "nombre": "Balivar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "balsas",
+    "nombre": "Balsas",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "baramaz",
+    "nombre": "Baramaz",
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "barba",
+    "nombre": "Barba",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "barlesha_lhan",
+    "nombre": "Barlesha Lhan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "barm",
+    "nombre": "Barm",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "barmest",
+    "nombre": "Barmest",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "bashin",
+    "nombre": "Bashin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "bavamar",
+    "nombre": "Bavamar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
     "especie": "humano"
   },
   {
@@ -600,9 +680,57 @@
     "especie": "humano"
   },
   {
+    "id": "beal",
+    "nombre": "Beal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "beamlin_dorset",
+    "nombre": "Beamlin Dorset",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "beld",
+    "nombre": "Beld",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "bendthel",
+    "nombre": "Bendthel",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "benneh",
+    "nombre": "Benneh",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "berila",
     "nombre": "Berila",
     "orden": "Tejedores de Luz",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "betha",
+    "nombre": "Betha",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "humano"
