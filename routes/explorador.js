@@ -3120,9 +3120,10 @@ router.get("/", (req, res) => {
           .forEach(a => { nodosVisibles.add(a.origen); nodosVisibles.add(a.destino); });
       }
 
-      // Aristas visibles
+      // Aristas visibles: solo si ambos extremos están en nodosVisibles Y son del tipo filtrado
       grafoState.linkSel
         .style('display', d => {
+          if (!nodosVisibles.has(d.origen) || !nodosVisibles.has(d.destino)) return 'none';
           if (f !== 'todos' && d.tipo !== f) return 'none';
           return null;
         })
