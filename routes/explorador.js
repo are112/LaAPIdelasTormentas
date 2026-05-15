@@ -547,6 +547,13 @@ router.get("/", (req, res) => {
     .panel-der.grafo-activo .grafo-stats {
       flex-shrink: 0;
     }
+    /* Cuando el grafo NO está activo, el panel-der recupera scroll normal */
+    .panel-der:not(.grafo-activo) {
+      overflow-y: auto;
+    }
+    .panel-der:not(.grafo-activo) .grafo-panel {
+      display: none !important;
+    }
 
     /* Estado vacío */
     .estado-vacio {
@@ -1209,6 +1216,19 @@ router.get("/", (req, res) => {
     .grafo-leg-dot  { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; border: 2px solid rgba(255,255,255,.6); }
 
     /* Boton Ver relaciones */
+    /* Elementos clicables en fichas — subrayado dorado al hover */
+    .clickable {
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-color: rgba(201,168,76,.4);
+      text-underline-offset: 3px;
+      transition: color .15s, text-decoration-color .15s;
+    }
+    .clickable:hover {
+      color: var(--dorado);
+      text-decoration-color: var(--dorado);
+    }
+
     .btn-relaciones {
       display: inline-flex; align-items: center; gap: 8px;
       background: rgba(201,168,76,.08); border: 1px solid rgba(201,168,76,.25);
