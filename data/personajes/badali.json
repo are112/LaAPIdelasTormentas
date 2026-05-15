@@ -1,0 +1,79 @@
+{
+  "id": "badali",
+  "nombre": "Badali",
+  "nombre_completo": "Badali",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Pilares de la Tierra"
+  ],
+  "orden_radiantes": {
+    "orden": "Pilares de la Tierra",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "desconocido"
+    },
+    "estado_del_vinculo": "Activo. Abrió una habitación secreta en Urithiru usando un modelo de la torre."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Cohesión",
+        "Tensión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Afabilidad — personalidad amigable que transmite confianza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Pilar de la Tierra — Caballero Radiante",
+      "El que abrió la habitación secreta de Urithiru con el modelo de la torre"
+    ],
+    "descripcion": "Hombre mayor afable con barba polvorienta y expresión alegre. Su apariencia transmite inmediatamente confianza y bondad. Pilar de la Tierra — una de las órdenes de Caballeros Radiantes refundadas durante la Verdadera Desolación.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Afable y amigable. Sin información psicológica adicional.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Pilar de la Tierra que abrió una habitación secreta en Urithiru usando un modelo en miniatura de la torre. La habitación fue descubierta por una de las eruditas de Navani.",
+    "puntos_clave": [
+      "Pilar de la Tierra — Caballero Radiante de la orden refundada.",
+      "Hombre mayor afable con barba polvorienta y expresión alegre.",
+      "Abrió una habitación secreta en Urithiru usando un modelo en miniatura de la torre.",
+      "La habitación fue descubierta por una de las eruditas de Navani — Anesa la acompañó."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Pilar de la Tierra — Caballero Radiante",
+    "rol": "Radiante menor de VyV",
+    "relacion_con_spren": "Spren desconocido.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Pilar de la Tierra afable con barba polvorienta y expresión alegre. Abrió una habitación secreta en Urithiru usando un modelo de la torre.",
+  "notas": "Los Pilares de la Tierra usan Cohesión y Tensión — mismas potencias que los Custodios de la Piedra."
+}

@@ -1,0 +1,81 @@
+{
+  "id": "barlesha_lhan",
+  "nombre": "Barlesha Lhan",
+  "nombre_completo": "Barlesha Lhan",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Historia — historiador roshario",
+      "Escritura divulgativa — obras de divulgación histórica popular"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Historiador roshario",
+      "Autor de obras de divulgación histórica que Jasnah considera superficiales"
+    ],
+    "descripcion": "Historiador roshario cuyas obras Shallan había leído pero Jasnah desestimaba. Jasnah describió sus obras como 'apenas dignas del tiempo empleado en transcribirlas. Una encuesta popular de eventos históricos en el mejor de los casos.' Sus obras son accesibles pero carecen del rigor académico que Jasnah exige.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "jasnah",
+        "relacion": "Jasnah desestimaba sus obras como superficiales y de divulgación popular"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Barlesha Lhan fue un historiador roshario cuyas obras eran conocidas en círculos académicos vorin. Shallan las había leído, pero cuando las mencionó ante Jasnah, esta las desestimó: 'Apenas dignas del tiempo empleado en transcribirlas. Una encuesta popular de eventos históricos en el mejor de los casos.' Sus obras eran accesibles pero poco rigurosas para los estándares de Jasnah.",
+    "puntos_clave": [
+      "Historiador roshario de cierta notoriedad.",
+      "Sus obras eran conocidas — Shallan las había leído.",
+      "Jasnah las desestimó como 'apenas dignas del tiempo empleado en transcribirlas'.",
+      "Jasnah las catalogó como 'encuesta popular de eventos históricos en el mejor de los casos'.",
+      "Sus obras eran de divulgación — accesibles pero sin rigor académico según Jasnah."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Historiador cuyas obras sirven como contraste con el rigor de Jasnah",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Historiador roshario cuyas obras Shallan había leído pero Jasnah desestimaba como superficiales. 'Apenas dignas del tiempo empleado en transcribirlas.'",
+  "notas": "Su mención en el epígrafe es el juicio de Jasnah sobre sus obras — uno de los primeros atisbos del rigor intelectual de Jasnah Kholin."
+}

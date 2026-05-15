@@ -1,0 +1,105 @@
+{
+  "id": "beld",
+  "nombre": "Beld",
+  "nombre_completo": "Beld",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Guardia Real de Elhokar",
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza",
+      "Funciones de guardia real — protegió al rey Elhokar",
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Miembro de la Guardia Real del rey Elhokar",
+      "El que acompañó a Hobber de avanzadilla cuando Szeth atacó a Dalinar en el Pináculo"
+    ],
+    "descripcion": "Alezi ojos oscuros, miembro del Puente Cuatro. A diferencia de la mayoría, nunca fue esclavo — su presencia en las cuadrillas de puentes probablemente se deba a insubordinación. Sin embargo, eligió llevar el tatuaje del Puente Cuatro en la frente como acto de hermandad — el glifo de libertad con la fecha de liberación del grupo y las palabras 'Puente Cuatro'. Sirvió como guardia real protegiendo a Elhokar. Kaladin lo envió de avanzadilla junto a Hobber cuando Szeth atacó a Dalinar en el Pináculo.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su capitán — lo envió de avanzadilla con Hobber durante el ataque de Szeth"
+      },
+      {
+        "personaje": "hobber",
+        "relacion": "compañero de avanzadilla durante el ataque de Szeth al Pináculo"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "lo protegía como miembro de la Guardia Real"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal y valiente. Eligió el tatuaje del Puente Cuatro por hermandad aunque nunca fue esclavo.",
+    "evolucion": "Pasó de hombre de los puentes a guardia real.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Beld sirvió en el Puente Cuatro bajo las órdenes de Sadeas aunque probablemente nunca fue esclavo — su presencia se debería a insubordinación. Cuando Kaladin transformó al grupo, Beld se convirtió en uno de los soldados más confiables. Se hizo el tatuaje del Puente Cuatro por hermandad. Sirvió como miembro de la Guardia Real. Cuando Szeth atacó a Dalinar en el Pináculo, Kaladin lo envió de avanzadilla junto a Hobber.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro — probablemente por insubordinación, no por esclavitud.",
+      "Eligió llevar el tatuaje del Puente Cuatro por hermandad aunque nunca fue esclavo.",
+      "Se convirtió en miembro de la Guardia Real protegiendo al rey Elhokar.",
+      "Durante el ataque de Szeth a Dalinar en el Pináculo, Kaladin lo envió de avanzadilla con Hobber.",
+      "Participó en las ceremonias del grupo — estuvo presente en la boda de Dalinar y Navani como guardia."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado del ejército Kholin — miembro del Puente Cuatro",
+    "rol": "Guardia confiable del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": "Lleva el tatuaje del Puente Cuatro en la frente por hermandad aunque nunca fue esclavo."
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro que nunca fue esclavo pero eligió llevar el tatuaje por hermandad. Sirvió en la Guardia Real de Elhokar. Kaladin lo envió de avanzadilla con Hobber durante el ataque de Szeth al Pináculo.",
+  "notas": "Su gesto de hacerse el tatuaje del Puente Cuatro sin ser esclavo es uno de los momentos de hermandad más significativos del grupo."
+}

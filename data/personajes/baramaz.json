@@ -1,0 +1,76 @@
+{
+  "id": "baramaz",
+  "nombre": "Baramaz",
+  "nombre_completo": "Baramaz",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Danzantes del Filo"
+  ],
+  "orden_radiantes": {
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "desconocido"
+    },
+    "estado_del_vinculo": "Activo — líder de la Orden de los Danzantes del Filo durante la Verdadera Desolación."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Abrasión",
+        "Progresión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Liderazgo — dirige la Orden de los Danzantes del Filo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Líder de la Orden de los Danzantes del Filo durante la Verdadera Desolación"
+    ],
+    "descripcion": "Danzante del Filo que lidera la orden durante los eventos previos a la Verdadera Desolación. Información muy limitada sobre su apariencia y carácter.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Baramaz es el líder de la Orden de los Danzantes del Filo durante los eventos previos a la Verdadera Desolación. Solo mencionado brevemente en VyV.",
+    "puntos_clave": [
+      "Líder de la Orden de los Danzantes del Filo durante la Verdadera Desolación.",
+      "Mencionado en VyV capítulo 29."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Líder de los Danzantes del Filo",
+    "rol": "Cabeza de la Orden de los Danzantes del Filo",
+    "relacion_con_spren": "Spren desconocido.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Líder de la Orden de los Danzantes del Filo durante la Verdadera Desolación. Información muy limitada.",
+  "notas": "Solo mencionado en VyV capítulo 29. Su presencia como líder sugiere que los Danzantes del Filo tienen una estructura de mando propia."
+}

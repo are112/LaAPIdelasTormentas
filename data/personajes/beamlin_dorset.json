@@ -1,0 +1,82 @@
+{
+  "id": "beamlin_dorset",
+  "nombre": "Beamlin Dorset",
+  "nombre_completo": "Beamlin Dorset",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia personal de Jasnah Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Guardia personal — protección de ojos claros de alto rango",
+      "Combate"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guardia de Jasnah Kholin",
+      "Exguardia que fue despedido y luego recontratado"
+    ],
+    "descripcion": "Soldado alezi que servía como guardia personal de Jasnah Kholin. Fue despedido por Jasnah en algún momento pero luego recontratado. Cuando el barco de Jasnah fue atacado y ella fue 'asesinada', Beamlin sobrevivió y continuó buscando a su señora.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "jasnah",
+        "relacion": "su señora — la protegió; fue despedido y recontratado; sobrevivió al ataque al barco"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal a Jasnah. Su recontratación tras el despido muestra que Jasnah lo consideraba capaz.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Beamlin Dorset servía como guardia de Jasnah Kholin. Fue despedido en algún momento pero luego recontratado — señal de que Jasnah lo consideraba competente a pesar de la ruptura. Sobrevivió al ataque al barco de Jasnah en el que ella fue aparentemente asesinada.",
+    "puntos_clave": [
+      "Guardia personal de Jasnah Kholin.",
+      "Fue despedido por Jasnah en algún momento.",
+      "Recontratado posteriormente — Jasnah lo consideraba capaz.",
+      "Sobrevivió al ataque al barco en el que Jasnah fue aparentemente asesinada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardia de Jasnah Kholin",
+    "rol": "Protector personal de Jasnah",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Guardia personal de Jasnah Kholin. Fue despedido y recontratado. Sobrevivió al ataque al barco en el que Jasnah fue aparentemente asesinada.",
+  "notas": "Su despido y posterior recontratación por Jasnah sugiere una relación compleja — posiblemente fue despedido por un error pero demostró su valía."
+}

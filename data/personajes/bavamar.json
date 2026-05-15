@@ -1,0 +1,74 @@
+{
+  "id": "bavamar",
+  "nombre": "Bavamar",
+  "nombre_completo": "Bavamar",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Matemáticas y física — demostró matemáticamente que los abismoides reshi desafían las leyes de la física"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Académico roshario",
+      "El que demostró matemáticamente que los grancaparazones reshi desafían las leyes de la física"
+    ],
+    "descripcion": "Académico roshario que demostró matemáticamente que la existencia de los grancaparazones reshi desafía las leyes de la física. Su trabajo implica que los grancaparazones reshi solo pueden existir por algún tipo de Investidura o fenómeno no natural. Axies el Coleccionista posiblemente fue a las Islas Reshi en parte por este misterio.",
+    "estado_en_viento_y_verdad": "Fallecido — figura académica histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Bavamar fue un académico roshario que demostró matemáticamente que la existencia de los grancaparazones reshi (los Tai-na) desafía las leyes de la física. Su trabajo fue citado por Axies el Coleccionista, quien viajó a las Islas Reshi motivado en parte por este misterio.",
+    "puntos_clave": [
+      "Académico roshario que estudió los grancaparazones reshi.",
+      "Demostró matemáticamente que su existencia desafía las leyes de la física.",
+      "Su trabajo implica que los Tai-na solo pueden existir por algún tipo de Investidura.",
+      "Axies el Coleccionista conocía su trabajo — fue uno de los motivos de su viaje a las Islas Reshi."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura académica",
+    "rol": "Matemático cuyo trabajo ilumina el misterio de los Tai-na",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Académico roshario que demostró matemáticamente que los grancaparazones reshi desafían las leyes de la física. Su trabajo implica que los Tai-na solo pueden existir por Investidura.",
+  "notas": "El misterio que señaló Bavamar está relacionado con la naturaleza Investida de los Tai-na, que son en realidad dioses vivientes para los iriali reshi."
+}

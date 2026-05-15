@@ -1,0 +1,72 @@
+{
+  "id": "betha",
+  "nombre": "Betha",
+  "nombre_completo": "Betha",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Campamento de Dalinar — personal de servicio"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Servicio doméstico — criada o cocinera en el campamento de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Criada o trabajadora del campamento de Dalinar"
+    ],
+    "descripcion": "Mujer alezi que trabajaba en el campamento de Dalinar. Información muy limitada sobre su papel específico.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Mujer alezi que trabajaba en el campamento de Dalinar. Presencia muy menor.",
+    "puntos_clave": [
+      "Trabajadora del campamento de Dalinar mencionada brevemente."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Personal de servicio en el campamento de Dalinar",
+    "rol": "Personaje menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mujer alezi que trabajaba en el campamento de Dalinar. Presencia muy menor en la saga.",
+  "notas": "Información muy limitada."
+}

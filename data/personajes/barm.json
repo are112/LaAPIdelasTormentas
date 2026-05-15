@@ -1,0 +1,82 @@
+{
+  "id": "barm",
+  "nombre": "Barm",
+  "nombre_completo": "Barm",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Muralla de Kholinar — escuadrón de Noro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — guardia de la Muralla de Kholinar",
+      "Interrogatorio — realizó preguntas de rutina a Kaladin en la guardia"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guardia de la Muralla de Kholinar",
+      "Miembro del escuadrón de Noro"
+    ],
+    "descripcion": "Guardia alezi de la Muralla de Kholinar, miembro del escuadrón de Noro. Realizó las preguntas de rutina a Kaladin cuando este se presentó para unirse a la guardia. Tenía una historia interesante — fue guardia de un brillante señor llamado Brightlord Resi antes de unirse a la Guardia de la Muralla.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente murió en la Batalla del Palacio de Kholinar."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "compañero de guardia; lo interrogó en su llegada"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional. Realizaba su trabajo de forma metódica.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Barm era guardia de la Muralla de Kholinar en el escuadrón de Noro. Realizó las preguntas de rutina de incorporación a Kaladin cuando este se presentó para unirse. Anteriormente había sido guardia de un brillante señor. La mayoría del escuadrón murió en la Batalla del Palacio.",
+    "puntos_clave": [
+      "Guardia de la Muralla de Kholinar — escuadrón de Noro.",
+      "Realizó las preguntas de incorporación a Kaladin.",
+      "Anteriormente fue guardia de un brillante señor.",
+      "La mayoría de su escuadrón murió en la Batalla del Palacio de Kholinar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Guardia menor de Kholinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Guardia de la Muralla de Kholinar del escuadrón de Noro. Realizó las preguntas de incorporación a Kaladin. Destino desconocido tras la Batalla del Palacio.",
+  "notas": "Anteriormente fue guardia de un brillante señor antes de unirse a la Guardia de la Muralla."
+}

@@ -1,10 +1,8 @@
 {
   "id": "balat",
   "nombre": "Balat",
-  "nombre_completo": "Nan Balat Davar",
-  "apodos": [
-    "Tet Balat (antes de la desheredación de Helaran)"
-  ],
+  "nombre_completo": "Balat Davar",
+  "apodos": [],
   "sexo": "masculino",
   "especie": "humano",
   "nacionalidad": "veden",
@@ -15,24 +13,23 @@
     "libros": [
       {
         "titulo": "El Camino de los Reyes",
-        "rol": "menor",
+        "rol": "mención",
         "pov": false
       },
       {
         "titulo": "Palabras Radiantes",
-        "rol": "secundario",
+        "rol": "secundario importante",
         "pov": false
       },
       {
         "titulo": "Juramentada",
-        "rol": "menor",
+        "rol": "secundario",
         "pov": false
       }
     ]
   },
   "afiliaciones": [
-    "Casa Davar",
-    "Urithiru (guardia)"
+    "Casa Davar"
   ],
   "orden_radiantes": {
     "orden": "Ninguna",
@@ -48,72 +45,78 @@
       "fuente_de_luz": ""
     },
     "no_magicas": [
-      "Gestión de los asuntos de la casa Davar tras la muerte de Lin"
+      "Crueldad con animales — tendencia perturbadora que el propio Balat intentaba controlar",
+      "Gestión de las deudas familiares — aprendió bajo la presión de Lin Davar",
+      "Liderazgo eventual de la familia Davar"
     ]
   },
   "identidades": {
     "principales": [
-      "Segundo hijo y heredero de la casa Davar",
-      "Guardia en Urithiru",
+      "Hermano mayor de Shallan Davar",
+      "Segundo hijo de Lin Davar",
       "Esposo de Eylita Tavinar"
     ],
-    "descripcion": "Hombre veden de cara redonda, pelo oscuro y mirada atormentada. Camina con bastón por culpa de una herida que le causó su padre al golpearle la pierna con un atizador. Arrastra secuelas psicológicas del abuso paterno — de niño tendía a provocar incendios y maltratar animales. Encontró estabilidad junto a Eylita.",
-    "estado_en_viento_y_verdad": "Activo en Urithiru como guardia."
+    "descripcion": "Segundo hijo de Lin Davar, hermano mayor de Shallan. Hombre veden de complexión robusta. Tiene una tendencia perturbadora hacia la crueldad con los animales — algo que él mismo reconocía como un problema y que intentaba controlar con esfuerzo variable. Esta tendencia le causó conflictos internos y con su familia. Fue el que más sufrió directamente la presión de Lin Davar para gestionar las deudas de la familia. Al final se casó con Eylita Tavinar. Cuando la familia escapó del control de la Sangre Espectral, Balat asumió cierto liderazgo.",
+    "estado_en_viento_y_verdad": "Activo."
   },
   "relaciones": {
     "familia": [
       {
         "personaje": "shallan",
-        "relacion": "hermana menor; la persona que más lo apoyó"
+        "relacion": "hermana menor — la quería aunque la relación familiar estuvo marcada por el caos de Lin Davar"
       },
       {
         "personaje": "lin_davar",
-        "relacion": "padre; le rompió la pierna con un atizador; fallecido"
-      },
-      {
-        "personaje": "helaran",
-        "relacion": "hermano mayor; le pedía que cuidara de la familia; fallecido"
-      },
-      {
-        "personaje": "wikim",
-        "relacion": "hermano"
+        "relacion": "padre fallecido — lo presionó para gestionar las deudas de la familia"
       },
       {
         "personaje": "jushu",
-        "relacion": "hermano"
+        "relacion": "hermano menor"
+      },
+      {
+        "personaje": "wikim",
+        "relacion": "hermano menor"
+      },
+      {
+        "personaje": "helaran",
+        "relacion": "hermano mayor fallecido — era el favorito de la familia"
       },
       {
         "personaje": "Eylita Tavinar",
-        "relacion": "esposa"
+        "relacion": "esposa — se casaron tras los eventos de Palabras Radiantes"
       }
     ],
     "amigos": [],
-    "enemigos": []
+    "enemigos": [
+      {
+        "personaje": "mraize",
+        "relacion": "la Sangre Espectral tenía a la familia Davar bajo amenaza"
+      }
+    ]
   },
   "estado_mental": {
-    "diagnostico_general": "Secuelas del abuso paterno. Tendencias piromaníacas y crueldad hacia animales en su infancia — mecanismos de descarga ante la impotencia. Encontró estabilidad con Eylita.",
-    "evolucion": "Pasa de joven aterrorizado e incapaz de enfrentarse a su padre a hombre que asume la responsabilidad de la familia tras la muerte de Lin.",
-    "situacion_en_viento_y_verdad": "Estable en Urithiru junto a Eylita. Es amigo de Mraize sin saber su verdadera identidad."
+    "diagnostico_general": "Turbulento. La tendencia a la crueldad con animales lo perturbaba — la reconocía como un problema e intentaba controlarla. Creció bajo la presión severa de Lin Davar y en un hogar lleno de violencia y secretos.",
+    "evolucion": "Pasó de hijo presionado a liderar lo que quedaba de la familia Davar tras la muerte de Lin.",
+    "situacion_en_viento_y_verdad": "Activo — casado con Eylita."
   },
   "arco_narrativo": {
-    "resumen": "Balat creció bajo el abuso de Lin, desarrollando tendencias piromaníacas como mecanismo de descarga. Su relación con Eylita Tavinar fue su primer ancla emocional. Intentó huir con ella, lo que desencadenó la noche del asesinato de Malise y la muerte de Lin. Tras la muerte de su padre asumió la gestión de la casa. Llegó a Urithiru con el resto de la familia gracias a Mraize.",
+    "resumen": "Balat es el segundo hijo de Lin Davar, hermano mayor de Shallan. Creció en un hogar marcado por la violencia de su padre y los secretos familiares. Tiene una tendencia perturbadora a la crueldad con animales — él mismo la reconocía como algo preocupante. Cuando la familia Davar quedó bajo la influencia de la Sangre Espectral, Balat y sus hermanos vivieron bajo amenaza constante. Tras la muerte de Lin, Shallan asumió el liderazgo inmediato mientras Balat trataba de estabilizar la situación. Finalmente se casó con Eylita Tavinar.",
     "puntos_clave": [
-      "Arrastra secuelas del abuso de Lin — piromanía y maltrato de animales en su infancia.",
-      "Lin le golpea la pierna con un atizador, dejándole una cojera permanente.",
-      "Conoce a Eylita Tavinar en una fiesta; con ayuda de Shallan inician una relación.",
-      "Lin deshereda a Helaran; Balat pasa a llamarse Nan Balat como nuevo heredero.",
-      "Planea huir con Eylita; Malise revela el plan a Lin desencadenando la noche fatal.",
-      "Tras la muerte de Lin asume la gestión de la casa Davar.",
-      "Llega a Urithiru con su familia gracias a Mraize.",
-      "Trabaja como guardia en Urithiru; es amigo de Mraize sin saber su identidad real."
+      "Segundo hijo de Lin Davar — hermano mayor de Shallan.",
+      "Tendencia perturbadora a la crueldad con animales — la reconocía como un problema e intentaba controlarla.",
+      "Presionado severamente por Lin Davar para gestionar las deudas de la familia.",
+      "La familia vivió bajo la amenaza de la Sangre Espectral.",
+      "Tras la muerte de Lin, asumió cierto liderazgo familiar junto a Shallan.",
+      "Se casó con Eylita Tavinar.",
+      "Cuando Shallan escapó con Adolin, Balat y sus hermanos quedaron en manos de la Sangre Espectral hasta que Shallan negoció su liberación."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Guardia en Urithiru",
-    "rol": "Heredero de la casa Davar; esposo de Eylita",
+    "ocupacion": "Líder de la Casa Davar; casado con Eylita Tavinar",
+    "rol": "Hermano mayor de Shallan; cabeza eventual de la familia Davar",
     "relacion_con_spren": "",
-    "otros_detalles": "Es amigo de Mraize — quien se hace llamar Gobby — sin conocer su verdadera identidad ni su afiliación a la Sangre Espectral."
+    "otros_detalles": "Su tendencia a la crueldad con animales es un detalle psicológico importante que Brandon Sanderson ha confirmado tiene implicaciones futuras."
   },
-  "descripcion_breve": "Segundo hijo de Lin Davar y heredero de la casa. Arrastra secuelas del abuso paterno. Encontró estabilidad con Eylita Tavinar. Vive en Urithiru como guardia, donde mantiene amistad con Mraize sin saber quién es realmente.",
-  "notas": "Mraize se hizo pasar por un guardia llamado Gobby para infiltrarse en su círculo. Balat desconoce su verdadera identidad y afiliación."
+  "descripcion_breve": "Segundo hijo de Lin Davar y hermano mayor de Shallan. Tiene una tendencia perturbadora a la crueldad con animales que él mismo reconoce como problemática. Creció bajo la presión severa de Lin. Casado con Eylita Tavinar.",
+  "notas": "Brandon Sanderson ha confirmado que la tendencia de Balat a la crueldad con animales tiene implicaciones futuras en la saga. Es uno de los detalles psicológicos más inquietantes de los personajes secundarios de la Casa Davar."
 }

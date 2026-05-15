@@ -1,0 +1,80 @@
+{
+  "id": "bendthel",
+  "nombre": "Bendthel",
+  "nombre_completo": "Bendthel",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fervorosos"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Lingüística — transcribió colecciones del Canto del Alba",
+      "Investigación académica del Canto del Alba"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervoroso transcriptor del Canto del Alba",
+      "Autor de la Colección de Bendthel — tres códices del Canto del Alba"
+    ],
+    "descripcion": "Fervoroso que recopiló y transcribió una colección de textos del Canto del Alba conocida como la Colección de Bendthel. La colección incluye tres códices que Ellista y Urv trabajaron traduciendo en el Monasterio de Jokasha. La Colección fue el último texto que revisó Ellista antes de los eventos de Juramentada.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica académica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — figura académica histórica.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Bendthel fue un fervoroso que recopiló y transcribió una colección de textos del Canto del Alba. La Colección de Bendthel contiene tres códices que Ellista y Urv trabajaron traduciendo en el Monasterio de Jokasha. El análisis de la colección llevó a Ellista a deducir que la misma versión escrita del Canto del Alba era usada en toda Roshar — con referencias a Makabakam, Sela Tales y Alezela. También aportó pruebas de que la escritura original evolucionó en múltiples lenguajes cuando distintas sociedades empezaron a usarlo fonéticamente.",
+    "puntos_clave": [
+      "Fervoroso que recopiló y transcribió una colección del Canto del Alba.",
+      "La Colección de Bendthel contiene tres códices.",
+      "Ellista y Urv trabajaban traduciéndola en el Monasterio de Jokasha.",
+      "La colección fue el último texto que revisó Ellista antes de los eventos de Juramentada.",
+      "El análisis de la colección llevó a Ellista a deducir que el Canto del Alba era un lenguaje escrito unificado en toda Roshar.",
+      "La colección incluye referencias a Makabakam, Sela Tales y Alezela.",
+      "Aportó pruebas de que el Canto del Alba evolucionó en múltiples lenguajes derivados."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura académica histórica",
+    "rol": "Transcriptor del Canto del Alba; su colección fue crucial para su traducción",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Fervoroso transcriptor del Canto del Alba. Su Colección de Bendthel — tres códices — fue crucial para el trabajo de Ellista y Urv en el Monasterio de Jokasha.",
+  "notas": "La Colección de Bendthel fue clave para que Ellista dedujera que el Canto del Alba fue un lenguaje escrito unificado en toda Roshar."
+}

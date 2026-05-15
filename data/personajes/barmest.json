@@ -1,0 +1,80 @@
+{
+  "id": "barmest",
+  "nombre": "Barmest",
+  "nombre_completo": "Barmest",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Kharbranth",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor — mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comercio de libros — rival de Artmyrn en Kharbranth"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mercader de libros thayleño en Kharbranth",
+      "Rival comercial de Artmyrn"
+    ],
+    "descripcion": "Mercader de libros thayleño en Kharbranth y rival directo de Artmyrn. Nunca aparece en persona — su nombre es usado por Yalb como herramienta de negociación. Yalb irrumpió en la tienda de Artmyrn fingiendo trabajar para Barmest y ofreciendo precios más bajos en su tienda, logrando que Artmyrn bajara el precio de los libros de Shallan.",
+    "estado_en_viento_y_verdad": "Activo en Kharbranth."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "artmyrn",
+        "relacion": "rival comercial — Artmyrn lo maldijo cuando Yalb mencionó su nombre"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — nunca aparece en persona.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Barmest es el mercader de libros rival de Artmyrn en Kharbranth. Nunca aparece en la saga en persona. Su nombre fue usado por Yalb como táctica de negociación — fingió trabajar para Barmest y ofrecer precios más bajos, logrando que Artmyrn bajara sus precios para no perder la venta con Shallan.",
+    "puntos_clave": [
+      "Mercader de libros thayleño en Kharbranth.",
+      "Rival directo de Artmyrn — Artmyrn lo maldijo al oír su nombre.",
+      "Nunca aparece en persona — solo mencionado como herramienta de negociación.",
+      "Yalb fingió trabajar para él para bajar el precio de los libros de Artmyrn.",
+      "Su mera mención fue suficiente para que Artmyrn bajara sus precios."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Mercader de libros en Kharbranth",
+    "rol": "Rival de Artmyrn — herramienta de negociación de Yalb",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mercader de libros thayleño en Kharbranth y rival de Artmyrn. Nunca aparece en persona — Yalb usó su nombre para negociar precios más bajos con Artmyrn.",
+  "notas": "La mera mención de su nombre hizo que Artmyrn bajara sus precios — indica una competencia real entre los dos mercaderes."
+}

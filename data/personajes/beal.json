@@ -1,0 +1,86 @@
+{
+  "id": "beal",
+  "nombre": "Beal",
+  "nombre_completo": "Beal",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado del ejército de Amaram",
+      "Uno de los cuatro supervivientes del ataque de Helaran al escuadrón de Kaladin"
+    ],
+    "descripcion": "Soldado alezi del ejército de Amaram. Junto a Alabet, Reesh, Coreb y Kaladin fue uno de los supervivientes del ataque de Helaran Davar al escuadrón. Cuando Amaram traicionó a Kaladin, los guardias de Amaram lo mataron.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su líder de escuadrón — Kaladin no pudo protegerlo cuando Amaram lo traicionó"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "amaram",
+        "relacion": "Amaram ordenó a sus guardias matarlo tras la traición"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Beal sobrevivió al ataque de Helaran Davar al escuadrón de Kaladin. Cuando Amaram traicionó a Kaladin, los guardias de Amaram lo mataron junto a los otros supervivientes. Kaladin no pudo hacer nada para protegerlos.",
+    "puntos_clave": [
+      "Soldado del ejército de Amaram.",
+      "Sobrevivió al ataque de Helaran al escuadrón de Kaladin.",
+      "Cuando Amaram traicionó a Kaladin, los guardias de Amaram lo mataron.",
+      "Su muerte es parte del trauma que llevó a Kaladin a la esclavitud."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Superviviente del ataque de Helaran; víctima de la traición de Amaram",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado del ejército de Amaram. Sobrevivió al ataque de Helaran al escuadrón de Kaladin. Murió cuando Amaram traicionó a Kaladin.",
+  "notas": "Junto a Alabet, Reesh y Coreb fue uno de los supervivientes del ataque que luego murieron por la traición de Amaram."
+}

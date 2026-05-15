@@ -1,0 +1,73 @@
+{
+  "id": "balivar",
+  "nombre": "Balivar",
+  "nombre_completo": "Balivar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado del ejército de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado del ejército de Dalinar"
+    ],
+    "descripcion": "Soldado alezi del ejército de Dalinar. Murió durante la Batalla de Kholinar.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado alezi que murió durante la Batalla de Kholinar.",
+    "puntos_clave": [
+      "Soldado del ejército de Dalinar.",
+      "Murió durante la Batalla de Kholinar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Soldado menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado alezi del ejército de Dalinar. Murió durante la Batalla de Kholinar.",
+  "notas": "Información muy limitada."
+}

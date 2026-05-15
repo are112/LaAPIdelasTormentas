@@ -1,0 +1,83 @@
+{
+  "id": "barba",
+  "nombre": "Barba",
+  "nombre_completo": "Barba",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza",
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro — apodado por su barba característica"
+    ],
+    "descripcion": "Miembro del Puente Cuatro conocido por su barba — de ahí el apodo. Hombre de los puentes bajo el mando de Sadeas que formó parte del grupo que Kaladin transformó. Como todos los del Puente Cuatro, lleva el tatuaje del glifo de libertad en la frente.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su capitán — Kaladin transformó al Puente Cuatro de carne de cañón en soldados"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente — miembro menor del Puente Cuatro.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Barba era miembro del Puente Cuatro bajo el mando de Sadeas. Cuando Kaladin asumió el liderazgo del grupo, Barba fue uno de los hombres que transformó — de víctimas resignadas a soldados capaces. Sobrevivió a las carreras de puentes y continuó con el grupo bajo las órdenes de Dalinar.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro de Sadeas.",
+      "Apodado Barba por su barba característica.",
+      "Sobrevivió a las carreras de puentes gracias al liderazgo de Kaladin.",
+      "Continuó en el Puente Cuatro bajo las órdenes de Dalinar.",
+      "Lleva el tatuaje del glifo de libertad en la frente como todos los del Puente Cuatro."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado del ejército Kholin — miembro del Puente Cuatro",
+    "rol": "Miembro menor del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro apodado por su barba característica. Sobrevivió a las carreras de puentes bajo el liderazgo de Kaladin.",
+  "notas": "Como todos los del Puente Cuatro que no eran esclavos, eligió llevar el tatuaje del glifo de libertad en la frente como acto de hermandad."
+}

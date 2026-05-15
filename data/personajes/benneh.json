@@ -1,0 +1,80 @@
+{
+  "id": "benneh",
+  "nombre": "Benneh",
+  "nombre_completo": "Benneh",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Murió en las carreras antes de que Kaladin pudiera salvarle"
+    ],
+    "descripcion": "Miembro del Puente Cuatro que murió en una carrera de puentes. Kaladin pensó en él — junto a otros que no pudo salvar — cuando murió Mapas, recordando a todos los que había perdido.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin no pudo salvarlo — lo recordó junto a otros fallecidos cuando murió Mapas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Benneh fue miembro del Puente Cuatro que murió en una carrera de puentes antes de que Kaladin pudiera salvarle. Kaladin lo recordó junto a Amark, Arik, Mapas y otros cuando murió Mapas — una lista mental de los que había fallado en proteger.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Murió en una carrera de puentes antes de que Kaladin pudiera salvarle.",
+      "Kaladin lo recordó junto a otros fallecidos cuando murió Mapas."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Miembro del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro que murió en las carreras antes de que Kaladin pudiera salvarle. Kaladin lo recordó al morir Mapas.",
+  "notas": "Su nombre aparece en la lista mental de muertos que Kaladin evoca cuando fracasa en proteger a alguien."
+}
