@@ -3039,7 +3039,7 @@ router.get("/", (req, res) => {
         .attr('stroke-width', d => d.id === raizId ? 2.5 : 1.5)
         .attr('stroke-opacity', d => d.id === raizId ? 1 : 0.4)
         .attr('filter', d => d.id === raizId ? 'url(#g-glow)' : null)
-        .style('cursor','pointer');
+        .style('cursor', d => d.id === raizId ? 'default' : 'pointer');
 
       nodeSel.append('text')
         .text(d => d.nombre)
@@ -3094,6 +3094,14 @@ router.get("/", (req, res) => {
       }).on('mouseout', () => {
         tooltip.style.opacity = '0';
         grafoAplicarFiltro();
+      }).on('click', (event, d) => {
+        // No navegar al hacer click en el nodo raíz
+        if (d.id === raizId) return;
+        // Cerrar el grafo y abrir la ficha correspondiente según el tipo de entidad
+        cerrarGrafo();
+        if (d.tipo === 'heraldo')   { cambiarTab('heraldos');   verHeraldo(d.id); }
+        else if (d.tipo === 'spren'){ cambiarTab('spren');       verSpren(d.id); }
+        else                        { cambiarTab('personajes');  verPersonaje(d.id); }
       });
 
       sim.on('tick', () => {
