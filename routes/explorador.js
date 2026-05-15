@@ -525,31 +525,30 @@ router.get("/", (req, res) => {
       height: 100%;
       position: relative;
     }
-    /* Cuando el grafo está activo: sin padding ni scroll para maximizar espacio */
-    .panel-der.grafo-activo {
-      padding: 0;
-      overflow: hidden;
+    /* El grafo-panel flota sobre el panel-der como overlay absoluto.
+       La ficha nunca se oculta → el scroll nunca se rompe. */
+    .panel-der {
+      position: relative;
     }
-    .panel-der.grafo-activo .grafo-panel {
-      height: 100%;
-      display: flex;
+    .grafo-panel.visible {
+      position: absolute;
+      inset: 0;
+      z-index: 10;
+      background: var(--azul-tormenta);
+      display: flex !important;
       flex-direction: column;
       padding: 1.25rem 1.5rem 1rem;
       overflow-y: auto;
     }
-    /* El canvas no debe crecer más allá de lo que deja espacio para los stats */
-    .panel-der.grafo-activo .grafo-canvas {
+    /* El canvas crece para ocupar el espacio disponible */
+    .grafo-panel.visible .grafo-canvas {
       flex: 1;
       min-height: 0;
       max-height: calc(100% - 180px);
     }
-    /* Stats y leyenda siempre visibles, sin flex-shrink */
-    .panel-der.grafo-activo .grafo-stats {
+    /* Stats siempre visibles */
+    .grafo-panel.visible .grafo-stats {
       flex-shrink: 0;
-    }
-    /* El panel-der siempre tiene scroll cuando no está el grafo */
-    .panel-der:not(.grafo-activo) {
-      overflow-y: auto;
     }
 
     /* Estado vacío */
@@ -1161,7 +1160,7 @@ router.get("/", (req, res) => {
     }
 
     /* Panel grafo inline */
-    .grafo-panel { display: none; animation: aparecer .3s ease; }
+    .grafo-panel { display: none; }
     .grafo-panel.visible { display: block; }
     .grafo-header { display: flex; align-items: center; gap: 12px; margin-bottom: 1.25rem; flex-wrap: wrap; }
     .btn-volver {
@@ -2919,9 +2918,8 @@ router.get("/", (req, res) => {
       grafoPanel.querySelectorAll('.grafo-filtro-btn').forEach(b => b.classList.remove('activo'));
       grafoPanel.querySelector('.grafo-filtro-btn.todos').classList.add('activo');
 
-      ficha.style.display = 'none';
+      // La ficha NO se oculta — el grafo flota encima como overlay
       grafoPanel.classList.add('visible');
-      document.getElementById('panel-detalle').classList.add('grafo-activo');
 
       // Limpiar SVG anterior
       const svgEl = document.getElementById('grafo-svg-inner');
@@ -2941,12 +2939,10 @@ router.get("/", (req, res) => {
     }
 
     function cerrarGrafo() {
-      if (!grafoState.fichaEl || !grafoState.panelEl) return;
-      // Eliminar del DOM para no interferir con el scroll de la ficha
+      if (!grafoState.panelEl) return;
+      // Eliminar el overlay — la ficha ya es visible debajo
       grafoState.panelEl.remove();
       grafoState.panelEl = null;
-      grafoState.fichaEl.style.display = '';
-      document.getElementById('panel-detalle').classList.remove('grafo-activo');
       if (grafoState.sim) { grafoState.sim.stop(); grafoState.sim = null; }
     }
 
