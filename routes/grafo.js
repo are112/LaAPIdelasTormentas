@@ -1,10 +1,19 @@
 import express from "express";
-import { grafoCompleto, grafoEntidad, grafoStats } from "../controllers/grafoController.js";
+import {
+  grafoCompleto,
+  grafoStats,
+  grafoCamino,
+  grafoComunidades,
+  grafoEntidad,
+} from "../controllers/grafoController.js";
 
 const router = express.Router();
 
-router.get("/stats", grafoStats);
-router.get("/:id",   grafoEntidad);
-router.get("/",      grafoCompleto);
+// Rutas estáticas primero para evitar conflictos con /:id
+router.get("/stats",       grafoStats);
+router.get("/camino",      grafoCamino);
+router.get("/comunidades", grafoComunidades);
+router.get("/:id",         grafoEntidad);
+router.get("/",            grafoCompleto);
 
 export default router;
