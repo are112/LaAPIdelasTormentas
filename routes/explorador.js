@@ -2999,7 +2999,8 @@ router.get("/", (req, res) => {
         .force('center', d3.forceCenter(W/2, H/2))
         .force('collision', d3.forceCollide().radius(d => (d.id === raizId ? 22 : 12) + 8));
 
-      grafoState.sim = sim;
+      grafoState.sim    = sim;
+      grafoState.aristas = aristas;
 
       const colorArista = { familia: '#c9a84c', amigos: '#4a9eca', enemigos: '#e05c5c' };
 
@@ -3104,16 +3105,40 @@ router.get("/", (req, res) => {
 
     function grafoAplicarFiltro() {
       const f = grafoState.filtro;
-      if (!grafoState.linkSel) return;
+      if (!grafoState.linkSel || !grafoState.nodeSel) return;
+
+      const raizId  = grafoState.id;
+      const aristas = grafoState.aristas || [];
+
+      // IDs de nodos que tienen al menos una arista del tipo filtrado con el raíz
+      const nodosVisibles = new Set([raizId]);
+      if (f === 'todos') {
+        aristas.forEach(a => { nodosVisibles.add(a.origen); nodosVisibles.add(a.destino); });
+      } else {
+        aristas
+          .filter(a => a.tipo === f && (a.origen === raizId || a.destino === raizId))
+          .forEach(a => { nodosVisibles.add(a.origen); nodosVisibles.add(a.destino); });
+      }
+
+      // Aristas visibles
       grafoState.linkSel
-        .style('display', d => f === 'todos' || d.tipo === f ? null : 'none')
+        .style('display', d => {
+          if (f !== 'todos' && d.tipo !== f) return 'none';
+          return null;
+        })
         .attr('stroke-opacity', 0.4)
-        .attr('stroke-width', d => (d.origen === grafoState.id || d.destino === grafoState.id) ? 2 : 1.2);
-      grafoState.nodeSel && grafoState.nodeSel.select('circle')
-        .attr('fill-opacity', d => d.id === grafoState.id ? 1 : 0.8)
-        .attr('stroke-opacity', d => d.id === grafoState.id ? 1 : 0.4);
-      grafoState.nodeSel && grafoState.nodeSel.select('text')
-        .attr('opacity', d => d.id === grafoState.id ? 1 : 0.75);
+        .attr('stroke-width', d => (d.origen === raizId || d.destino === raizId) ? 2 : 1.2);
+
+      // Nodos: visibles u ocultos según si tienen conexión del tipo filtrado
+      grafoState.nodeSel
+        .style('display', d => nodosVisibles.has(d.id) ? null : 'none');
+
+      grafoState.nodeSel.select('circle')
+        .attr('fill-opacity', d => d.id === raizId ? 1 : 0.8)
+        .attr('stroke-opacity', d => d.id === raizId ? 1 : 0.4);
+
+      grafoState.nodeSel.select('text')
+        .attr('opacity', d => d.id === raizId ? 1 : 0.75);
     }
 
     function grafoFiltrar(tipo, btn) {
