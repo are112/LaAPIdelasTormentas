@@ -535,7 +535,7 @@ router.get("/", (req, res) => {
       display: flex;
       flex-direction: column;
       padding: 1.25rem 1.5rem 1rem;
-      overflow: hidden;
+      overflow-y: auto;
     }
     /* El canvas no debe crecer más allá de lo que deja espacio para los stats */
     .panel-der.grafo-activo .grafo-canvas {
@@ -547,12 +547,9 @@ router.get("/", (req, res) => {
     .panel-der.grafo-activo .grafo-stats {
       flex-shrink: 0;
     }
-    /* Cuando el grafo NO está activo, el panel-der recupera scroll normal */
+    /* El panel-der siempre tiene scroll cuando no está el grafo */
     .panel-der:not(.grafo-activo) {
       overflow-y: auto;
-    }
-    .panel-der:not(.grafo-activo) .grafo-panel {
-      display: none !important;
     }
 
     /* Estado vacío */
@@ -2878,11 +2875,10 @@ router.get("/", (req, res) => {
       const ficha = panel.querySelector('.ficha');
       if (!ficha) return;
 
-      // Crear panel grafo si no existe ya
-      let grafoPanel = panel.querySelector('.grafo-panel');
-      if (!grafoPanel) {
-        grafoPanel = document.createElement('div');
-        grafoPanel.className = 'grafo-panel';
+      // Siempre crear panel nuevo (el anterior se eliminó al cerrar)
+      const grafoPanel = document.createElement('div');
+      grafoPanel.className = 'grafo-panel';
+      if (true) {
         grafoPanel.innerHTML =
           '<div class="grafo-header">' +
             '<button class="btn-volver" onclick="cerrarGrafo()">← Ficha</button>' +
@@ -2911,7 +2907,7 @@ router.get("/", (req, res) => {
             '</div>' +
           '</div>';
         panel.appendChild(grafoPanel);
-      }
+      }  // end if(true)
 
       grafoState.id      = id;
       grafoState.tipo    = tipo;
@@ -2946,7 +2942,9 @@ router.get("/", (req, res) => {
 
     function cerrarGrafo() {
       if (!grafoState.fichaEl || !grafoState.panelEl) return;
-      grafoState.panelEl.classList.remove('visible');
+      // Eliminar del DOM para no interferir con el scroll de la ficha
+      grafoState.panelEl.remove();
+      grafoState.panelEl = null;
       grafoState.fichaEl.style.display = '';
       document.getElementById('panel-detalle').classList.remove('grafo-activo');
       if (grafoState.sim) { grafoState.sim.stop(); grafoState.sim = null; }
