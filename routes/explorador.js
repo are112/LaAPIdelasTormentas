@@ -535,6 +535,17 @@ router.get("/", (req, res) => {
       display: flex;
       flex-direction: column;
       padding: 1.25rem 1.5rem 1rem;
+      overflow: hidden;
+    }
+    /* El canvas no debe crecer más allá de lo que deja espacio para los stats */
+    .panel-der.grafo-activo .grafo-canvas {
+      flex: 1;
+      min-height: 0;
+      max-height: calc(100% - 180px);
+    }
+    /* Stats y leyenda siempre visibles, sin flex-shrink */
+    .panel-der.grafo-activo .grafo-stats {
+      flex-shrink: 0;
     }
 
     /* Estado vacío */
