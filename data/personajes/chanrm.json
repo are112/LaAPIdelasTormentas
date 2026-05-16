@@ -1,0 +1,85 @@
+{
+  "id": "chanrm",
+  "nombre": "Chanrm",
+  "nombre_completo": "Chanrm",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa de Vstim — comerciantes thayleños"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura — hace de escriba para su tío Vstim con suficiente frecuencia como para que Rysn reconozca su letra"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Sobrina de Vstim",
+      "Escriba habitual de Vstim"
+    ],
+    "descripcion": "Mujer thayleña. Sobrina del comerciante Vstim, antiguo mentor de Rysn Ftori. Hace de escriba para su tío con tanta frecuencia que Rysn puede reconocer su letra sin necesidad de que esté firmada.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "vstim",
+        "relacion": "tío; comerciante thayleño y antiguo mentor de Rysn — Chanrm hace de escriba para él"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "Rysn reconoce su letra — señal de la frecuencia con la que Chanrm escribe para Vstim"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Chanrm es la sobrina del comerciante Vstim y hace de escriba para él con tanta frecuencia que Rysn Ftori puede reconocer su letra. Solo mencionada en Esquirla del Amanecer.",
+    "puntos_clave": [
+      "Mujer thayleña, sobrina de Vstim.",
+      "Hace de escriba para su tío Vstim con suficiente frecuencia.",
+      "Rysn Ftori reconoce su letra sin que esté firmada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba de Vstim",
+    "rol": "Sobrina y escriba habitual de Vstim",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mujer thayleña, sobrina del comerciante Vstim. Hace de escriba para su tío con tanta frecuencia que Rysn reconoce su letra.",
+  "notas": "Solo mencionada en Esquirla del Amanecer capítulo 9. Su letra era reconocible para Rysn — señal de la relación duradera entre Rysn y la casa de Vstim."
+}

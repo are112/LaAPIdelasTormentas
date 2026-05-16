@@ -1,0 +1,82 @@
+{
+  "id": "chanada",
+  "nombre": "Chanada",
+  "nombre_completo": "Chanada",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fervorosos — el fervor de los campamentos de guerra alezi"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo religioso — fervorosa jefa de los campamentos de guerra",
+      "Autoridad sobre la el fervor — capaz de dirigir a los demás fervorosos a actuar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervorosa jefa de la el fervor de los campamentos de guerra alezi en las Llanuras Quebradas"
+    ],
+    "descripcion": "Fervorosa alezi que encabeza la el fervor de los campamentos de guerra en las Llanuras Quebradas. Dalinar la identifica como la fervorosa de mayor rango en los campamentos. Cuando Dalinar quiso casarse con Navani y necesitaba que la el fervor anulara el matrimonio previo de Navani con Gavilar, Chanada habló con Kadash y luego lo envió a cada uno de los otros fervorosos para organizar la respuesta colectiva. Chanada fue la que probablemente actuó en el mismo momento en que supo que Dalinar y Navani estaban cortejando. La el fervor completa se negó a casarlos.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "se negó a casar a Dalinar con Navani — lideró la respuesta colectiva de la el fervor"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Autoridad religiosa firme. Actuó con rapidez y determinación para movilizar a la el fervor contra el matrimonio de Dalinar y Navani.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Chanada es la fervorosa de mayor rango en los campamentos de guerra alezi. Cuando Dalinar quiso casarse con Navani, Chanada organizó la respuesta de la el fervor — habló con Kadash y lo envió a los demás fervorosos. Probablemente actuó en el mismo momento en que supo del cortejo. La el fervor completa se negó a oficiar la boda.",
+    "puntos_clave": [
+      "Fervorosa jefa de la el fervor de los campamentos de guerra alezi.",
+      "Dalinar la identifica como la fervorosa de mayor rango en los campamentos.",
+      "Cuando Dalinar quiso casarse con Navani, Chanada habló con Kadash y lo envió a los demás fervorosos.",
+      "Probablemente actuó en el mismo momento en que supo del cortejo.",
+      "La el fervor completa se negó a casar a Dalinar y Navani."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fervorosa jefa de la el fervor de los campamentos",
+    "rol": "Autoridad religiosa que bloqueó el matrimonio de Dalinar y Navani",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su nombre probablemente deriva del nombre del Heraldo Chanarach (Chana)."
+  },
+  "descripcion_breve": "Fervorosa jefa de la el fervor en los campamentos de guerra alezi. Organizó la respuesta colectiva de todos los fervorosos contra el matrimonio de Dalinar y Navani.",
+  "notas": "Su nombre deriva probablemente de Chana/Chanarach — el Heraldo de los Portadores del Polvo. La el fervor completa se negó a casar a Dalinar y Navani por las implicaciones del matrimonio con la viuda de Gavilar."
+}

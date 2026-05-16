@@ -1,0 +1,77 @@
+{
+  "id": "chanasha_hasareh",
+  "nombre": "Chanasha Hasareh",
+  "nombre_completo": "Chanasha Hasareh",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Llanuras Quebradas, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Llanuras Quebradas — mercader"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comercio — alquila equipos de chull a caravanas",
+      "Adaptación comercial — encontró un nicho tras el traslado masivo a Urithiru"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mercader alezi en las Llanuras Quebradas",
+      "La que encontró éxito modesto alquilando equipos de chull tras el traslado a Urithiru"
+    ],
+    "descripcion": "Mercader alezi en las Llanuras Quebradas. Cuando la mayoría de los alezi se trasladaron a Urithiru, Chanasha encontró éxito modesto alquilando sus equipos de chull a las caravanas que cruzaban las Llanuras. Su nombre deriva definitivamente del Heraldo Chanarach según la Coppermind.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Emprendedora. Adaptó su negocio a las nuevas circunstancias tras el traslado masivo a Urithiru.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Mercader alezi en las Llanuras Quebradas. Cuando la mayoría de los alezi se trasladaron a Urithiru tras la Batalla de Thaylen, Chanasha encontró éxito modesto alquilando sus equipos de chull a las caravanas que seguían cruzando las Llanuras.",
+    "puntos_clave": [
+      "Mercader alezi en las Llanuras Quebradas.",
+      "Tras el traslado masivo a Urithiru, alquiló sus equipos de chull a caravanas que cruzaban las Llanuras.",
+      "Encontró éxito modesto con este negocio.",
+      "Su nombre deriva definitivamente del Heraldo Chanarach."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Mercader — alquila equipos de chull en las Llanuras",
+    "rol": "Mercader menor que prosperó tras el traslado a Urithiru",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mercader alezi en las Llanuras Quebradas. Tras el traslado masivo a Urithiru, encontró éxito modesto alquilando equipos de chull a caravanas.",
+  "notas": "Su nombre deriva definitivamente del Heraldo Chanarach según la Coppermind — al igual que el de Chanada."
+}

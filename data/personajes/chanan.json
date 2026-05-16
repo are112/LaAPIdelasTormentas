@@ -1,0 +1,81 @@
+{
+  "id": "chanan",
+  "nombre": "Chanan",
+  "nombre_completo": "Chanan",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Guía del mundo del Archivo de las Tormentas",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Principado de Sebarial"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Comercio — organiza subastas en los campamentos de guerra",
+      "Gestión — administra su propio campamento de subastas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Noble alezi prima lejana de Sebarial",
+      "Organizadora de subastas diarias en los campamentos de guerra"
+    ],
+    "descripcion": "Brillante señora alezi, prima lejana del alto príncipe Sebarial. Organiza una subasta cada amanecer en su campamento de guerra en las Llanuras Quebradas — un negocio que le proporciona ingresos y posición social en los campamentos.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "sebarial",
+        "relacion": "primo lejano — Chanan es prima lejana del alto príncipe"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Emprendedora y práctica. Ha encontrado un nicho comercial en los campamentos de guerra.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Brillante señora alezi y prima lejana de Sebarial. Organiza una subasta cada amanecer en su campamento de guerra en las Llanuras Quebradas — un negocio propio en el contexto de la Guerra de la Venganza.",
+    "puntos_clave": [
+      "Noble alezi prima lejana del alto príncipe Sebarial.",
+      "Organiza una subasta cada amanecer en los campamentos de guerra.",
+      "Mencionada en la Guía del Mundo del Archivo de las Tormentas."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Comerciante — organizadora de subastas en los campamentos",
+    "rol": "Noble menor con actividad comercial propia",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Brillante señora alezi prima lejana de Sebarial. Organiza una subasta cada amanecer en los campamentos de guerra de las Llanuras Quebradas.",
+  "notas": "Solo mencionada en la Guía del Mundo del Archivo de las Tormentas. Su actividad comercial de subastas diarias es inusual para una noble alezi."
+}
