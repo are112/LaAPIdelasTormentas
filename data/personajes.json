@@ -672,6 +672,46 @@
     "especie": "humano"
   },
   {
+    "id": "chanada",
+    "nombre": "Chanada",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "chanan",
+    "nombre": "Chanan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "chananar",
+    "nombre": "Chananar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "chanasha_hasareh",
+    "nombre": "Chanasha Hasareh",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "chanrm",
+    "nombre": "Chanrm",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "chiri_chiri",
     "nombre": "Chiri-Chiri",
     "orden": "Ninguna",
