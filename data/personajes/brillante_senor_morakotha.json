@@ -1,0 +1,87 @@
+{
+  "id": "brillante_senor_morakotha",
+  "nombre": "Brillante señor Morakotha",
+  "nombre_completo": "Brillante señor Morakotha",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Principado Kholin, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Principado Kholin — ojos claros alezi"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política — noble alezi de alto rango en el principado Kholin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Noble alezi del principado Kholin",
+      "Padre de Danlan Morakotha"
+    ],
+    "descripcion": "Noble alezi ojos claros del principado Kholin que vivía en los campamentos de guerra durante la Guerra de la Venganza. Su hija Danlan viajó a los campamentos para visitarlo varios meses. Adolin gestionó que Danlan se convirtiera en escriba de su padre durante la visita. Kaladin recibió una vez el encargo de transmitirle un mensaje a Reral Makoram de parte de Adolin — que no asistiría a la reunión que tenían planeada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Danlan Morakotha",
+        "relacion": "hija — viajó a los campamentos para visitarlo; Adolin la cortejó durante esa visita"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Noble del principado Kholin en los campamentos de guerra. Su hija Danlan lo visitó varios meses — Adolin la cortejó durante ese tiempo y gestionó que trabajara como escriba de su padre. Probablemente Danlan usó la visita como cobertura para sus actividades con el Diagrama.",
+    "puntos_clave": [
+      "Noble alezi del principado Kholin en los campamentos de guerra.",
+      "Su hija Danlan viajó a visitarlo y se convirtió en una de sus escribas.",
+      "Adolin cortejó a Danlan durante esa visita.",
+      "La visita de Danlan puede haber sido una cobertura para el Diagrama.",
+      "Kaladin recibió el encargo de transmitirle un mensaje a Reral Makoram de parte de Adolin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Noble alezi — padre de Danlan Morakotha",
+    "rol": "Noble menor cuya hija fue agente del Diagrama",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Noble alezi del principado Kholin en los campamentos de guerra. Su hija Danlan lo visitó y Adolin la cortejó durante ese tiempo. La visita pudo ser cobertura para el Diagrama.",
+  "notas": "Su hija Danlan era miembro del Diagrama de Taravangian — la visita a su padre puede haber sido una cobertura para sus actividades."
+}

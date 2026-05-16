@@ -1,0 +1,80 @@
+{
+  "id": "bru",
+  "nombre": "Bru",
+  "nombre_completo": "Bru",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Tripulación del Placer del Viento — capitán Tozbek"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — marinero thayleño experimentado",
+      "Trabajo en cubierta"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Marinero thayleño de la tripulación del Placer del Viento"
+    ],
+    "descripcion": "Marinero thayleño que formaba parte de la tripulación del Placer del Viento bajo el capitán Tozbek. Viajó con Jasnah Kholin y Shallan Davar. Shallan lo dibujó — era uno de los marineros que documentó en sus bocetos durante el viaje.",
+    "estado_en_viento_y_verdad": "Activo — sobreviviente del Placer del Viento."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "tozbek",
+        "relacion": "su capitán"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Marinero ordinario. Sin información psicológica adicional.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Bru era marinero del Placer del Viento. Viajó con Jasnah y Shallan hacia las Llanuras Quebradas. Shallan lo dibujó durante el viaje — era uno de los sujetos de sus bocetos de tripulación.",
+    "puntos_clave": [
+      "Marinero thayleño del Placer del Viento.",
+      "Viajó con Jasnah Kholin y Shallan Davar.",
+      "Shallan lo dibujó — era uno de sus sujetos de boceto durante el viaje."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Marinero — tripulación del Placer del Viento",
+    "rol": "Marinero menor del Placer del Viento",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Marinero thayleño del Placer del Viento. Viajó con Jasnah y Shallan. Fue dibujado por Shallan durante el viaje.",
+  "notas": "Su inclusión en los bocetos de Shallan indica que era uno de los marineros más presentes en cubierta durante el viaje."
+}

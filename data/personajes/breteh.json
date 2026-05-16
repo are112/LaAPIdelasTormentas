@@ -1,0 +1,112 @@
+{
+  "id": "breteh",
+  "nombre": "Breteh",
+  "nombre_completo": "Breteh",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Trece",
+    "Caballeros Radiantes — Corredores del Viento"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": 3,
+    "spren_asociado": {
+      "principal": "honorspren femenino sin nombre"
+    },
+    "estado_del_vinculo": "Activo — ha jurado el Tercer Ideal. Tiene al menos tres escuderos."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Adhesión",
+        "Gravitación"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — soldado experimentado",
+      "Vuelo mediante Gravitación",
+      "Mando de escuderos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Corredor del Viento del Puente Trece",
+      "El que lashó a Mraize al techo durante la incursión al escondite de los Sangre Espectral"
+    ],
+    "descripcion": "Corredor del Viento alezi del Puente Trece — no del Puente Cuatro, sino de otra de las cuadrillas de puentes liberadas. Su vida en las cuadrillas fue un infierno. Bajo el mando de Rial durante las últimas semanas. Tras la liberación aceptó la oferta de Dalinar. Con el tiempo se vinculó a un honorspren femenino sin nombre. Juró el Tercer Ideal. Tiene al menos tres escuderos. Participó en la incursión de Shallan al escondite de los Sangre Espectral en Narak — lashó a Mraize al techo con considerable esfuerzo.",
+    "estado_en_viento_y_verdad": "Activo — Corredor del Viento del Tercer Ideal."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "isasik",
+        "relacion": "compañero Corredor del Viento en la incursión al escondite de los Sangre Espectral"
+      },
+      {
+        "personaje": "rlain",
+        "relacion": "lucharon juntos contra Lieke en la incursión"
+      },
+      {
+        "personaje": "yalb",
+        "relacion": "compañero en la expedición a Akinah"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "mraize",
+        "relacion": "lo lashó al techo durante la incursión al escondite — con considerable esfuerzo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Soldado experimentado con sentido del deber. No le gusta matar aunque es capaz.",
+    "evolucion": "Pasó de hombre de los puentes a Corredor del Viento del Tercer Ideal.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Breteh era hombre del Puente Trece bajo el mando de Rial. Tras la liberación aceptó la oferta de Dalinar. Con el tiempo se convirtió en Corredor del Viento vinculado a un honorspren femenino. Juró el Tercer Ideal. Durante la incursión de Shallan al escondite de los Sangre Espectral, Breteh luchó junto a Isasik, Rlain y sus spren contra Lieke e Iyatil. Lashó a Mraize al techo con considerable esfuerzo. También liberó a los guardias reales retenidos en la base de la torre. Participó en la expedición a Akinah.",
+    "puntos_clave": [
+      "Hombre del Puente Trece — no del Puente Cuatro.",
+      "Su vida en las cuadrillas fue un infierno.",
+      "Bajo el mando de Rial durante las últimas semanas.",
+      "Aceptó la oferta de Dalinar tras la liberación.",
+      "Se vinculó a un honorspren femenino sin nombre.",
+      "Juró el Tercer Ideal — tiene al menos tres escuderos.",
+      "Durante la incursión al escondite de los Sangre Espectral, luchó contra Lieke e Iyatil.",
+      "Lashó a Mraize al techo con considerable esfuerzo.",
+      "Junto a Isasik liberó a los guardias reales retenidos en la base de la torre.",
+      "Participó en la expedición de Rysn a Akinah.",
+      "Reconoce que preferiría trabajo aburrido a matar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Corredor del Viento del Tercer Ideal",
+    "rol": "Radiante del Puente Trece; participó en misiones importantes",
+    "relacion_con_spren": "Vínculo activo con un honorspren femenino sin nombre.",
+    "otros_detalles": "Tiene al menos tres escuderos."
+  },
+  "descripcion_breve": "Corredor del Viento del Puente Trece. Tercer Ideal. Lashó a Mraize al techo durante la incursión al escondite de los Sangre Espectral. Participó en la expedición a Akinah.",
+  "notas": "A diferencia de los miembros más conocidos del Puente Cuatro, Breteh viene del Puente Trece. Reconoce que preferiría trabajo aburrido a matar — un rasgo de humanidad notable en un Corredor del Viento."
+}

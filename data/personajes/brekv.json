@@ -1,0 +1,83 @@
+{
+  "id": "brekv",
+  "nombre": "Brekv",
+  "nombre_completo": "Brekv",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Tripulación del barco explorador del capitán Smta"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — marinero thayleño en puesto de observación (nido del anguila)",
+      "Uso de catalejo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Marinero thayleño del barco explorador del capitán Smta",
+      "El vigía del nido del anguila"
+    ],
+    "descripcion": "Marinero thayleño que tripulaba el barco explorador del capitán Smta. Estaba apostado en el nido del anguila — el puesto de observación del barco — cuando Yalb subió a preguntarle qué podía ver con su catalejo. Avistó el Sueños Primeros en la distancia sin bandera y preguntó a Yalb si debía reportarlo al capitán.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "yalb",
+        "relacion": "compañero de tripulación — Yalb subió al nido del anguila para preguntarle sobre el barco que avistó"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional. Reportó el avistamiento del Sueños Primeros de forma metódica.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Brekv estaba en el nido del anguila del barco explorador del capitán Smta cuando Yalb subió a preguntarle qué podía ver con el catalejo. Brekv avistó el Sueños Primeros — el barco de Rysn — sin bandera en la distancia, y preguntó a Yalb si debía reportarlo al capitán.",
+    "puntos_clave": [
+      "Marinero thayleño del barco explorador del capitán Smta.",
+      "Estaba apostado en el nido del anguila — el puesto de observación.",
+      "Yalb subió para preguntarle qué veía con el catalejo.",
+      "Avistó el Sueños Primeros — el barco de Rysn — sin bandera en la distancia.",
+      "Preguntó a Yalb si debía reportarlo al capitán."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Marinero — tripulación del capitán Smta",
+    "rol": "Vigía del nido del anguila",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Marinero thayleño en el nido del anguila del barco del capitán Smta. Avistó el Sueños Primeros sin bandera con su catalejo y preguntó a Yalb si reportarlo.",
+  "notas": "Su avistamiento del Sueños Primeros fue el primer contacto de la tripulación de Smta con el barco de Rysn en la expedición a Akinah."
+}

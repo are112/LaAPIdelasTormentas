@@ -1,0 +1,77 @@
+{
+  "id": "brillante_senor_seveks",
+  "nombre": "Brillante señor Seveks",
+  "nombre_completo": "Brillante señor Seveks",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Noble alezi ojos claros",
+      "Padre de Malasha Seveks — una de las mujeres que Adolin cortejó"
+    ],
+    "descripcion": "Noble alezi ojos claros. Es el padre de Malasha, a quien Adolin Kholin cortejó durante la Guerra de la Venganza en las Llanuras Quebradas.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Malasha Seveks",
+        "relacion": "hija — cortejada por Adolin durante la Guerra de la Venganza"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Noble alezi padre de Malasha Seveks. Adolin cortejó a su hija durante la Guerra de la Venganza. La relación terminó — Adolin rompió con Malasha.",
+    "puntos_clave": [
+      "Noble alezi ojos claros.",
+      "Padre de Malasha Seveks.",
+      "Adolin cortejó a su hija durante la Guerra de la Venganza.",
+      "Adolin terminó la relación con Malasha."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Noble alezi",
+    "rol": "Padre de Malasha Seveks",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Noble alezi ojos claros. Padre de Malasha Seveks, a quien Adolin Kholin cortejó durante la Guerra de la Venganza.",
+  "notas": "Solo conocido por ser el padre de Malasha. Información muy limitada."
+}

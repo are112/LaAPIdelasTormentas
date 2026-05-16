@@ -1,0 +1,83 @@
+{
+  "id": "bidlel",
+  "nombre": "Bidlel",
+  "nombre_completo": "Bidlel",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "tashikki",
+  "origen": "Yeddaw, Tashikk",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Gran Indicium de Yeddaw — investigadora contratada"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Investigación de registros — buscaba información sobre sucesos extraños en los alrededores de Yeddaw",
+      "Trabajo de investigadora para agentes de Nale"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Investigadora del Gran Indicium contratada por agentes de Nale",
+      "Miembro del equipo que buscaba a un Radiante en Yeddaw"
+    ],
+    "descripcion": "Mujer tashikki que formaba parte de un equipo de investigadoras del Gran Indicium de Yeddaw contratadas para buscar sucesos extraños en los alrededores de la ciudad — en realidad para localizar a un Radiante. Fue contratada por una mujer que Lift describió como subordinada de Nale. Trabajó en el Gran Indicium revisando registros.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "lift",
+        "relacion": "Lift observó su trabajo — era parte de la red de Nale que buscaba a Lift y a la Tocona"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional. Trabajaba como investigadora sin conocer necesariamente el verdadero propósito de su trabajo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Bidlel era parte de un equipo de investigadoras del Gran Indicium de Yeddaw contratadas por agentes de Nale para localizar sucesos extraños — en realidad para encontrar a un Radiante en la ciudad. Lift observó su trabajo durante su estancia en el Gran Indicium.",
+    "puntos_clave": [
+      "Investigadora del Gran Indicium de Yeddaw.",
+      "Contratada por una subordinada de Nale para buscar sucesos extraños en Yeddaw.",
+      "El objetivo real era localizar a un Radiante en la ciudad.",
+      "Lift observó su trabajo durante su investigación.",
+      "Buscaba en los registros del Gran Indicium junto a otras investigadoras."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Investigadora en el Gran Indicium",
+    "rol": "Herramienta de la red de Nale para localizar Radiantes",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Investigadora tashikki del Gran Indicium contratada por agentes de Nale para buscar sucesos extraños. El objetivo real era localizar a un Radiante en Yeddaw.",
+  "notas": "Probablemente desconocía el verdadero propósito de su investigación — solo sabía que buscaba sucesos extraños."
+}

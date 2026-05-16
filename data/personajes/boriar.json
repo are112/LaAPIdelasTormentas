@@ -1,0 +1,79 @@
+{
+  "id": "boriar",
+  "nombre": "Boriar",
+  "nombre_completo": "Boriar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor — mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto principado de Jah Keved"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo político — alto príncipe de Jah Keved"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe de Jah Keved anterior a la invasión de Taravangian"
+    ],
+    "descripcion": "Alto príncipe de Jah Keved anterior a la toma del poder por Taravangian. El moribundo rey Valam preguntó a Taravangian por Boriar en su lecho de muerte — probablemente preguntando si Boriar estaba seguro o si había sobrevivido a los eventos.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "taravangian",
+        "relacion": "Taravangian tomó el poder en Jah Keved — destino de Boriar desconocido"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Boriar era alto príncipe de Jah Keved antes de que Taravangian tomara el control del reino. El rey moribundo Valam preguntó a Taravangian por Boriar en su lecho de muerte — lo que sugiere que Valam se preocupaba por su destino o que Boriar era de importancia política.",
+    "puntos_clave": [
+      "Alto príncipe de Jah Keved anterior a la toma de poder por Taravangian.",
+      "El rey Valam preguntó por él en su lecho de muerte.",
+      "Destino desconocido tras la toma de poder de Taravangian."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Alto príncipe veden; figura política menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Alto príncipe de Jah Keved. El rey moribundo Valam preguntó a Taravangian por él en su lecho de muerte. Destino desconocido.",
+  "notas": "La pregunta de Valam sobre Boriar en su lecho de muerte sugiere que era un hombre de importancia política en Jah Keved."
+}

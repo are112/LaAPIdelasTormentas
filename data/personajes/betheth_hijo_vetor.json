@@ -1,0 +1,74 @@
+{
+  "id": "betheth_hijo_vetor",
+  "nombre": "Betheth-hijo-Vetor",
+  "nombre_completo": "Betheth-hijo-Vetor",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Campamento de soldados shin — Monasterio del Pilar de la Tierra"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Reclutamiento y disciplina militar — capitán del campamento de soldados shin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitán de reclutamiento y disciplina del campamento de soldados shin cerca del Monasterio del Pilar de la Tierra"
+    ],
+    "descripcion": "Soldado shin que sirve como capitán de reclutamiento y disciplina en el campamento de soldados cerca del Monasterio del Pilar de la Tierra en Shinovar. Su rol es gestionar la incorporación y la conducta de los soldados del campamento.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional y disciplinado. Su cargo implica autoridad sobre el reclutamiento y la conducta.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Betheth-hijo-Vetor es el capitán de reclutamiento y disciplina del campamento de soldados shin cerca del Monasterio del Pilar de la Tierra. Aparece en VyV capítulo 51.",
+    "puntos_clave": [
+      "Capitán de reclutamiento y disciplina del campamento shin.",
+      "Asociado al Monasterio del Pilar de la Tierra.",
+      "Mencionado en VyV capítulo 51."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Capitán de reclutamiento y disciplina",
+    "rol": "Oficial militar shin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Capitán de reclutamiento y disciplina del campamento de soldados shin cerca del Monasterio del Pilar de la Tierra. Aparece en Viento y Verdad.",
+  "notas": "Información muy limitada. Mencionado en VyV capítulo 51."
+}

@@ -1,0 +1,81 @@
+{
+  "id": "beznk",
+  "nombre": "Beznk",
+  "nombre_completo": "Beznk",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Tripulación del Placer del Viento — barco del capitán Tozbek"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — marinero thayleño experimentado"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Marinero thayleño del Placer del Viento",
+      "Amigo de Yalb"
+    ],
+    "descripcion": "Marinero thayleño que formaba parte de la tripulación del Placer del Viento bajo el capitán Tozbek. Amigo de su compañero de tripulación Yalb — este hizo un comentario bromista sobre el trasero de Shallan dirigiéndose a Beznk, lo que muestra su camaradería. Viajó con Jasnah Kholin y Shallan Davar hacia las Llanuras Quebradas. Su destino tras el hundimiento del Placer del Viento es desconocido.",
+    "estado_en_viento_y_verdad": "Destino desconocido — el Placer del Viento fue hundido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "yalb",
+        "relacion": "amigo y compañero de tripulación — Yalb le dirigía comentarios bromistas sobre los pasajeros"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente. Marinero ordinario con sentido del humor.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Beznk formaba parte de la tripulación del Placer del Viento. Amigo de Yalb — este le hizo un comentario bromista sobre el trasero de Shallan Davar al principio del viaje hacia las Llanuras. Viajó con Jasnah y Shallan. Su destino tras el hundimiento del barco es desconocido.",
+    "puntos_clave": [
+      "Marinero thayleño del Placer del Viento bajo el capitán Tozbek.",
+      "Amigo de Yalb — este le hizo comentarios bromistas sobre los pasajeros.",
+      "Viajó con Jasnah Kholin y Shallan Davar hacia las Llanuras Quebradas.",
+      "Destino desconocido tras el hundimiento del Placer del Viento."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — el Placer del Viento fue hundido",
+    "rol": "Marinero menor del Placer del Viento",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Marinero thayleño del Placer del Viento. Amigo de Yalb. Viajó con Jasnah y Shallan hacia las Llanuras. Destino desconocido tras el hundimiento.",
+  "notas": "Su destino tras el hundimiento del Placer del Viento no está confirmado."
+}

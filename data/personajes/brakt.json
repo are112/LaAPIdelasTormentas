@@ -1,0 +1,82 @@
+{
+  "id": "brakt",
+  "nombre": "Brakt",
+  "nombre_completo": "Brakt",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Sadeas — cuadrillas de puentes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado del ejército de Sadeas",
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hombre de los puentes de Sadeas",
+      "Uno de los hombres que intentó sabotear a Kaladin"
+    ],
+    "descripcion": "Hombre de los puentes de Sadeas. Junto con otros, intentó sabotear los esfuerzos de Kaladin para mejorar las condiciones del Puente Cuatro — no confiaba en los nuevos líderes o temía que el optimismo de Kaladin los llevara a algo peor. Tras la liberación del Puente Cuatro, Dalinar ofreció a todos los hombres de los puentes unirse a su ejército — Brakt fue uno de los que aceptó.",
+    "estado_en_viento_y_verdad": "Activo — soldado del ejército Kholin."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "intentó sabotear sus esfuerzos — más tarde fue liberado por Dalinar gracias a Kaladin"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Desconfiado y cínico por las carreras. Aceptó la oferta de Dalinar cuando vio que era real.",
+    "evolucion": "Pasó de saboteador desconfiado a soldado del ejército Kholin.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Brakt era hombre de los puentes de Sadeas que intentó sabotear los esfuerzos de Kaladin por mejorar las condiciones del Puente Cuatro. Tras la Batalla de la Torre, cuando Dalinar ofreció libertad y la posibilidad de unirse a su ejército, Brakt fue uno de los que aceptaron.",
+    "puntos_clave": [
+      "Hombre de los puentes de Sadeas.",
+      "Intentó sabotear los esfuerzos de Kaladin por mejorar el Puente Cuatro.",
+      "Tras la liberación, aceptó la oferta de Dalinar de unirse a su ejército.",
+      "Las semanas siguientes fue entrenado y equipado como soldado."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado del ejército Kholin",
+    "rol": "Exhombre de los puentes convertido en soldado de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Hombre de los puentes de Sadeas que intentó sabotear a Kaladin. Tras la liberación, aceptó unirse al ejército de Dalinar.",
+  "notas": "Su transición de saboteador a soldado de Dalinar es parte del proceso de transformación de todos los hombres de los puentes liberados."
+}

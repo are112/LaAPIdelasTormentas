@@ -1,0 +1,76 @@
+{
+  "id": "bettam",
+  "nombre": "Bettam",
+  "nombre_completo": "Bettam",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Monasterio de Jokasha — Devotario de la Mente"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Meteorología — analizaba el factor viento de la tormenta eterna",
+      "Debate académico"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervoroso del Devotario de la Mente en el Monasterio de Jokasha"
+    ],
+    "descripcion": "Fervoroso del Devotario de la Mente en el Monasterio de Jokasha, Jah Keved. Discutía con otro fervoroso sobre la fuerza del factor viento de la tormenta eterna, argumentando que todos tendrían que desplazarse. Mientras Ellista buscaba paz para leer su novela, el resto de fervorosos como Bettam debatían acaloradamente sobre la tormenta.",
+    "estado_en_viento_y_verdad": "Activo en el Monasterio de Jokasha."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Académico preocupado por los fenómenos meteorológicos. Reaccionó con urgencia a la tormenta eterna.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Bettam era fervoroso del Monasterio de Jokasha. Durante la llegada de la tormenta eterna, mientras Ellista buscaba tranquilidad para leer, Bettam discutía con otro fervoroso sobre la fuerza del factor viento, argumentando que tendrían que desplazarse todos.",
+    "puntos_clave": [
+      "Fervoroso del Devotario de la Mente en el Monasterio de Jokasha.",
+      "Discutió con otro fervoroso sobre el factor viento de la tormenta eterna.",
+      "Argumentó que todos tendrían que desplazarse por la fuerza del viento.",
+      "Mientras tanto Ellista escapaba del debate buscando paz para leer."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fervoroso en el Monasterio de Jokasha",
+    "rol": "Fervoroso académico menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Fervoroso del Monasterio de Jokasha. Debatía con otro fervoroso sobre el factor viento de la tormenta eterna mientras Ellista huía del debate para leer en paz.",
+  "notas": "Su debate con otro fervoroso contrasta con la reacción pragmática y escapista de Ellista."
+}

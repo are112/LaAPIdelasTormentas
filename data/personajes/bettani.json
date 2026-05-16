@@ -1,0 +1,92 @@
+{
+  "id": "bettani",
+  "nombre": "Bettani",
+  "nombre_completo": "Bettani",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Campamento de guerra Kholin — escriba"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura — escriba profesional que se enorgullece de la artesanía de su caligrafía",
+      "Coordinación de mensajes — coordina los mensajes entre los campamentos de guerra",
+      "Observación de personas — conocida observadora de la gente a su alrededor",
+      "Lectura — ama la lectura; se entusiasma con su profesión"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escriba del campamento de guerra Kholin en las Llanuras Quebradas",
+      "Coordinadora de mensajes entre los campamentos"
+    ],
+    "descripcion": "Mujer alezi ojos oscuros de la octava dahn. Pelo negro. Viste una havah azul verdoso. En algún momento durante la Guerra de la Venganza tuvo un aspecto descuidado — la manga de su mano de seguridad deshilachada por el uso excesivo y el pelo negro cayéndose de los pasadores. Industriosa, dispersa y orgullosa. Conocida observadora de personas. Ama la lectura y toma orgullo en la artesanía de su escritura. Propensa al lenguaje expresivo y a hablar de detalles. Susceptible a los halagos. Tiene el glifo para entrar en el campamento de Sebarial.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Industriosa y orgullosa de su trabajo. Dispersa pero entusiasta. Susceptible a los halagos — un rasgo que puede ser aprovechado.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Bettani era escriba en el campamento Kholin en las Llanuras Quebradas. Coordinaba los mensajes entre los campamentos de guerra. Tenía el glifo de acceso al campamento de Sebarial — señal de su utilidad como enlace entre campamentos. En algún momento durante la guerra tuvo un aspecto descuidado por el exceso de trabajo. Compraba suministros en varios puestos del campamento de Sebarial.",
+    "puntos_clave": [
+      "Escriba del campamento Kholin durante la Guerra de la Venganza.",
+      "Octava dahn — ojos oscuros de clase trabajadora.",
+      "Pelo negro, havah azul verdoso.",
+      "Industriosa, dispersa y orgullosa.",
+      "Conocida observadora de personas.",
+      "Coordina los mensajes entre los campamentos de guerra.",
+      "Ama la lectura y se enorgullece de la artesanía de su escritura.",
+      "Propensa al lenguaje expresivo y a los detalles.",
+      "Susceptible a los halagos.",
+      "Tiene el glifo de acceso al campamento de Sebarial.",
+      "En algún momento tuvo aspecto descuidado por el exceso de trabajo — manga deshilachada y pelo suelto.",
+      "Compraba en varios puestos de intercambio del campamento de Sebarial."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba coordinadora de mensajes en el campamento Kholin",
+    "rol": "Escriba y enlace de comunicaciones entre campamentos de guerra",
+    "relacion_con_spren": "",
+    "otros_detalles": "Tiene el glifo de acceso al campamento de Sebarial — útil para sus tareas de coordinación."
+  },
+  "descripcion_breve": "Escriba alezi octava dahn del campamento Kholin. Pelo negro, havah azul verdoso. Industriosa, dispersa y orgullosa. Coordina mensajes entre campamentos. Ama la lectura. Susceptible a los halagos.",
+  "notas": "Su susceptibilidad a los halagos es un rasgo relevante — podría ser aprovechada por personajes que necesiten información o acceso. Tiene el glifo de acceso al campamento de Sebarial."
+}

@@ -1,0 +1,89 @@
+{
+  "id": "bussik",
+  "nombre": "Bussik",
+  "nombre_completo": "Bussik",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Sadeas — cuadrillas de puentes",
+    "Puente Tres"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo de cuadrilla — jefe de puente del Puente Tres",
+      "Negociación — intentó persuadir a Gaz para saltarse la recolección de piedras"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Jefe de puente del Puente Tres en el campamento de Sadeas",
+      "Uno de los pocos jefes de puente con cierta influencia sobre Gaz"
+    ],
+    "descripcion": "Hombre alezi con barba oscura. Jefe de puente del Puente Tres en el campamento de guerra de Sadeas en las Llanuras Quebradas. Tenía cierta influencia sobre Gaz — le pedía favores como saltarse la recolección de piedras. Cuando Lopen se unió al Puente Cuatro, el Puente Tres fue uno de los que recibió miembros adicionales. Miraba con mala cara a Kaladin.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "gaz",
+        "relacion": "le pedía favores — como saltarse la recolección de piedras — mostrando cierta influencia sobre él"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "lo miraba con mala cara — desconfianza hacia el nuevo jefe del Puente Cuatro"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático. Buscaba ventajas para su cuadrilla. Desconfiaba de Kaladin.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Bussik era jefe de puente del Puente Tres en el campamento de Sadeas. Tenía cierta influencia sobre Gaz — le pidió saltarse la recolección de piedras y Gaz lo consideró. Miraba con mala cara a Kaladin cuando este empezó a hacer cambios en el Puente Cuatro. Cuando Lopen se unió al Puente Cuatro, el Puente Tres recibió miembros adicionales redistribuidos.",
+    "puntos_clave": [
+      "Jefe de puente del Puente Tres en el campamento de Sadeas.",
+      "Hombre alezi con barba oscura.",
+      "Tenía influencia sobre Gaz — le pidió saltarse la recolección de piedras.",
+      "Miraba con mala cara a Kaladin — desconfiaba de sus métodos.",
+      "Cuando Lopen se unió al Puente Cuatro, el Puente Tres recibió miembros adicionales."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Jefe de puente del Puente Tres",
+    "rol": "Jefe de cuadrilla rival de Kaladin en perspectiva",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Jefe de puente del Puente Tres con barba oscura. Tenía influencia sobre Gaz. Miraba con mala cara a Kaladin cuando este empezó a transformar el Puente Cuatro.",
+  "notas": "Su influencia sobre Gaz contrasta con la posición mucho más débil de Kaladin al principio. La dinámica de poder entre los jefes de puente y Gaz es compleja."
+}

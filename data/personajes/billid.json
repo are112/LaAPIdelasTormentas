@@ -1,0 +1,81 @@
+{
+  "id": "billid",
+  "nombre": "Billid",
+  "nombre_completo": "Billid",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Uno de los que intentó atacar a Kaladin cuando llegó al grupo"
+    ],
+    "descripcion": "Miembro del Puente Cuatro. Fue uno de los hombres que intentó atacar a Kaladin cuando este llegó por primera vez al grupo — los hombres del puente estaban tan quebrados que veían a los recién llegados como una amenaza. Murió en las carreras de puentes antes de que Kaladin pudiera salvarle.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "intentó atacarle cuando llegó — más tarde Kaladin no pudo salvarle"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Quebrado por las carreras de puentes — reaccionaba con hostilidad ante los recién llegados.",
+    "evolucion": "Sin arco propio — murió antes de que Kaladin transformara al grupo.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Billid era miembro del Puente Cuatro cuando Kaladin llegó. Intentó atacar a Kaladin junto a otros — los hombres estaban tan quebrados que veían a los recién llegados como una amenaza. Murió en las carreras antes de que Kaladin pudiera salvarle o transformar al grupo.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Intentó atacar a Kaladin cuando este llegó al grupo.",
+      "Los hombres del puente estaban tan quebrados que veían a los nuevos como amenazas.",
+      "Murió en las carreras antes de que Kaladin transformara al grupo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Miembro del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro que intentó atacar a Kaladin cuando llegó. Murió en las carreras antes de que Kaladin pudiera transformar al grupo.",
+  "notas": "Su hostilidad inicial hacia Kaladin ilustra el estado mental quebrado del Puente Cuatro antes de la intervención de Kaladin."
+}
