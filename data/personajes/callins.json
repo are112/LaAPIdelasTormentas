@@ -1,0 +1,81 @@
+{
+  "id": "callins",
+  "nombre": "Callins",
+  "nombre_completo": "Callins",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Piedralar — habitante"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Agricultura — granjero de Piedralar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Granjero de Piedralar",
+      "El que preguntó a Amaram a qué deber se refería"
+    ],
+    "descripcion": "Granjero alezi de Piedralar. Cuando Amaram llegó al pueblo a reclutar soldados, Callins le preguntó directamente qué deber era ese al que se refería — una pregunta inocente que ilustra la desinformación de los habitantes de Piedralar sobre el reclutamiento. Destino desconocido tras la llegada de la Verdadera Desolación.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "amaram",
+        "relacion": "Amaram llegó a Piedralar a reclutar — Callins le preguntó a qué deber se refería"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Granjero ordinario sin información política sobre el reclutamiento.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Granjero de Piedralar. Cuando Amaram llegó al pueblo a reclutar soldados, Callins le preguntó directamente a qué deber se refería. Amaram respondió que era para reclutar hombres para su ejército. Su destino tras la llegada de la Verdadera Desolación es desconocido.",
+    "puntos_clave": [
+      "Granjero alezi de Piedralar.",
+      "Cuando Amaram visitó Piedralar para reclutar, Callins le preguntó: 'Disculpe, Brillante señor, ¿a qué deber se refiere?'",
+      "Amaram respondió que era para reclutar hombres para su ejército.",
+      "Destino desconocido tras la Verdadera Desolación."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Granjero — destino desconocido",
+    "rol": "Habitante menor de Piedralar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Granjero de Piedralar. Preguntó a Amaram a qué deber se refería cuando llegó a reclutar soldados. Destino desconocido.",
+  "notas": "Su pregunta inocente ilustra la desinformación de los habitantes de Piedralar sobre el reclutamiento forzoso de Amaram y Roshone."
+}

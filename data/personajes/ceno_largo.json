@@ -1,0 +1,80 @@
+{
+  "id": "ceno_largo",
+  "nombre": "Ceño Largo",
+  "nombre_completo": "Ceño Largo",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "mención histórica",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — marinero thayleño que navegó los mares de Roshar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Marinero thayleño histórico que navegó los mares de Roshar a mediados y finales de los años 700",
+      "El que da nombre a los estrechos de Ceño Largo"
+    ],
+    "descripcion": "Marinero thayleño de figura orgullosa. Navegó los mares de Roshar a mediados y finales de los años 700. Considerado fanfarrón pero simpático por Nikliasorm, que navegó con él al menos en una ocasión. Murió aproximadamente en el año 774. Los estrechos de Ceño Largo probablemente llevan su nombre en su honor.",
+    "estado_en_viento_y_verdad": "Fallecido — murió hacia el año 774."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "nikliasorm",
+        "relacion": "Nikliasorm navegó con él al menos una vez — lo consideraba fanfarrón pero simpático"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Orgulloso y fanfarrón pero simpático según quienes lo conocieron.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Marinero thayleño histórico que navegó los mares de Roshar a mediados y finales de los años 700. Nikliasorm navegó con él al menos una vez y lo describió como fanfarrón pero simpático. Murió hacia el año 774. Los estrechos de Ceño Largo probablemente llevan su nombre en su honor.",
+    "puntos_clave": [
+      "Marinero thayleño histórico — navegó los mares de Roshar a mediados y finales de los años 700.",
+      "Considerado fanfarrón pero simpático por Nikliasorm.",
+      "Nikliasorm navegó con él al menos en una ocasión.",
+      "Murió aproximadamente en el año 774.",
+      "Los estrechos de Ceño Largo probablemente llevan su nombre en su honor."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — ca. 774",
+    "rol": "Marinero histórico thayleño; da nombre a los estrechos de Ceño Largo",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Marinero thayleño histórico que navegó los mares de Roshar a mediados y finales de los 700s. Fanfarrón pero simpático según Nikliasorm. Falleció hacia el año 774. Los estrechos de Ceño Largo llevan su nombre.",
+  "notas": "No confundir con el asesino apodado 'Cleft-chin' (hendidura en la barbilla) que aparece en Palabras Radiantes — son dos personajes completamente distintos con nombres similares en español."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "challa",
+  "nombre": "Challa",
+  "nombre_completo": "Challa",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Aladar",
+    "Caballeros Radiantes — escriba de Adolin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura — escriba de combate que registra los movimientos militares de Adolin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Pupila de May Aladar",
+      "Escriba de Adolin Kholin durante la Batalla de Azimir"
+    ],
+    "descripcion": "Mujer alezi pupila de May Aladar que sirvió como escriba de Adolin Kholin durante la Batalla de Azimir en Viento y Verdad. Su papel era registrar los movimientos militares y comunicaciones de Adolin durante la batalla.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "su señor durante la Batalla de Azimir — actuó como su escriba"
+      },
+      {
+        "personaje": "May Aladar",
+        "relacion": "su patrona — Challa es su pupila"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional y dedicada a su trabajo en condiciones de combate.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Challa era pupila de May Aladar. Durante la Batalla de Azimir en VyV sirvió como escriba de Adolin Kholin, registrando sus movimientos militares y comunicaciones durante el combate.",
+    "puntos_clave": [
+      "Pupila de May Aladar.",
+      "Escriba de Adolin Kholin durante la Batalla de Azimir en VyV.",
+      "Registraba los movimientos militares y comunicaciones de Adolin durante el combate."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba — pupila de May Aladar",
+    "rol": "Escriba de Adolin durante la Batalla de Azimir",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Pupila de May Aladar. Sirvió como escriba de Adolin Kholin durante la Batalla de Azimir en Viento y Verdad.",
+  "notas": "Información limitada. Su papel como escriba de campo durante una batalla activa muestra las responsabilidades de las escribas en condiciones de combate."
+}

@@ -1,0 +1,95 @@
+{
+  "id": "cenn",
+  "nombre": "Cenn",
+  "nombre_completo": "Cenn",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario — apertura del libro",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza — recluta sin experiencia"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Lancero recluta de quince años en el ejército de Amaram",
+      "El POV que abre El Camino de los Reyes",
+      "El que recordaba a Kaladin su hermano Tien"
+    ],
+    "descripcion": "Muchacho alezi ojos oscuros de quince años, soldado recluta en el ejército de Amaram. Kaladin lo transfirió al escuadrón de Dallet para protegerlo porque le recordaba a su hermano Tien — el mismo motivo que le llevó a proteger a tantos jóvenes reclutas. Era el POV del primer capítulo de El Camino de los Reyes. Murió en su primera batalla a manos de un portador de esquirlada, Helaran Davar. Sus últimas palabras: 'El flautista negro en la noche, nos tiene en la palma de su mano, tocando una melodía que ningún hombre puede escuchar.'",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin lo transfirió a su escuadrón para protegerlo; su muerte afectó profundamente a Kaladin"
+      },
+      {
+        "personaje": "dallet",
+        "relacion": "veterano del escuadrón de Kaladin encargado de cuidar a Cenn"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "helaran",
+        "relacion": "Helaran Davar lo mató como portador de esquirlada en su primera batalla"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Asustado y desorientado en su primera batalla. Sus últimas palabras sugieren una visión o alucinación final.",
+    "evolucion": "Sin arco propio — muere en su primera aparición significativa.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Cenn era un muchacho de quince años que llegó al ejército de Amaram sin experiencia. Kaladin lo notó y lo transfirió al escuadrón de Dallet para protegerlo — el mismo patrón que repetía con todos los jóvenes que le recordaban a Tien. En la batalla, Cenn fue herido y Kaladin ordenó a Cyn y Korater que lo llevaran al médico. Mientras lo trasladaban, el portador de esquirlada Helaran Davar pasó y mató a Cyn — dejando a Cenn sin protección. Cenn murió en su primera batalla. Sus últimas palabras fueron: 'El flautista negro en la noche, nos tiene en la palma de su mano, tocando una melodía que ningún hombre puede escuchar.' Brandon Sanderson confirmó que el Flautista Negro no es una referencia a Hoid.",
+    "puntos_clave": [
+      "Muchacho alezi ojos oscuros de quince años — recluta sin experiencia.",
+      "El POV del primer capítulo de El Camino de los Reyes — el libro comienza con sus ojos.",
+      "Kaladin lo transfirió al escuadrón de Dallet para protegerlo porque le recordaba a Tien.",
+      "En la batalla fue herido — Kaladin ordenó a Cyn y Korater que lo llevaran al médico.",
+      "Helaran Davar mató a Cyn mientras lo trasladaban — Cenn quedó sin protección.",
+      "Murió en su primera batalla a manos de Helaran.",
+      "Sus últimas palabras: 'El flautista negro en la noche, nos tiene en la palma de su mano, tocando una melodía que ningún hombre puede escuchar.'",
+      "Brandon Sanderson confirmó que el Flautista Negro no es una referencia a Hoid."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "El POV que abre la saga; emblema del patrón de Kaladin de proteger a los jóvenes reclutas",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Recluta alezi de quince años cuya perspectiva abre El Camino de los Reyes. Kaladin lo transfirió a su escuadrón por recordarle a Tien. Murió en su primera batalla a manos de Helaran Davar. Sus últimas palabras mencionan al Flautista Negro.",
+  "notas": "Cenn es el POV del capítulo 1 de El Camino de los Reyes. Brandon Sanderson confirmó que el Flautista Negro de sus últimas palabras no es Hoid. Su muerte es el primer ejemplo del patrón de Kaladin de no poder salvar a todos los que intenta proteger."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "caull",
+  "nombre": "Caull",
+  "nombre_completo": "Caull",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram — reclutado por la fuerza"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Joven de Piedralar reclutado por la fuerza por Roshone",
+      "Uno de los cinco reclutados en la misma leva que Tien"
+    ],
+    "descripcion": "Joven alezi de Piedralar, hijo de Taleb. En 1168, cuando el Alto Mariscal Amaram visitó Piedralar para reclutar soldados, el consistor Roshone lo eligió entre los reclutados por la fuerza — junto a Agil, Habrin, Jorna y Tien. Su reclutamiento en la misma leva que Tien desencadenó el alistamiento voluntario de Kaladin para proteger a su hermano.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Taleb",
+        "relacion": "padre"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "roshone",
+        "relacion": "Roshone lo reclutó por la fuerza"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Joven de Piedralar, hijo de Taleb. En 1168 Roshone lo eligió entre los reclutados por la fuerza para el ejército de Amaram junto a Agil, Habrin, Jorna y Tien. Su reclutamiento en la misma leva que Tien fue el detonante del alistamiento voluntario de Kaladin.",
+    "puntos_clave": [
+      "Joven alezi de Piedralar, hijo de Taleb.",
+      "En 1168 Roshone lo reclutó por la fuerza para el ejército de Amaram.",
+      "Reclutado en la misma leva que Agil, Habrin, Jorna y Tien.",
+      "Su reclutamiento junto al de Tien desencadenó el alistamiento de Kaladin.",
+      "Destino desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — fue reclutado para el ejército de Amaram en 1168",
+    "rol": "Uno de los reclutados de Piedralar cuya leva desencadenó el alistamiento de Kaladin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Joven de Piedralar, hijo de Taleb. Reclutado por la fuerza por Roshone en 1168 junto a Tien. Su reclutamiento desencadenó el alistamiento voluntario de Kaladin.",
+  "notas": "La leva de Roshone que incluyó a Caull y Tien es el punto de inflexión de la vida de Kaladin — el momento en que decidió alistarse para proteger a su hermano."
+}
