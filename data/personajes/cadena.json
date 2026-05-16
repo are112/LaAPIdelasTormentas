@@ -1,0 +1,86 @@
+{
+  "id": "cadena",
+  "nombre": "Cadena",
+  "nombre_completo": "Cadena",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza",
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro"
+    ],
+    "descripcion": "Miembro del Puente Cuatro que sobrevivió a las carreras de puentes y continuó con el grupo bajo las órdenes de Dalinar.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su capitán"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Miembro del Puente Cuatro que sobrevivió a las carreras y continuó sirviendo con el grupo bajo Dalinar.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Sobrevivió a las carreras de puentes.",
+      "Continuó en el Puente Cuatro bajo las órdenes de Dalinar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado del ejército Kholin — Puente Cuatro",
+    "rol": "Miembro del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro. Sobrevivió a las carreras y continuó sirviendo con el grupo.",
+  "notas": "Información limitada. No confundir con Cadena la identidad de Shallan."
+}

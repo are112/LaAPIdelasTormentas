@@ -1,0 +1,74 @@
+{
+  "id": "calinam",
+  "nombre": "Calinam",
+  "nombre_completo": "Calinam",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (antigua)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura histórica — autor de Entre los Ojos Oscuros",
+      "Documentación de personajes históricos como Alezarv"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Autor histórico roshario",
+      "Escritor de Entre los Ojos Oscuros — texto que documenta a personajes ojos oscuros de la época pre-Traición"
+    ],
+    "descripcion": "Autor roshario de Entre los Ojos Oscuros, un texto histórico que documentaba a personajes ojos oscuros de épocas pasadas — incluyendo a Alezarv, un posible Caballero Radiante ojos oscuros pre-Traición. Jasnah incluyó sus escritos en su cuaderno de investigación.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Autor de Entre los Ojos Oscuros, texto histórico que documentaba personajes ojos oscuros de épocas pasadas incluyendo a Alezarv. Jasnah estudió sus escritos.",
+    "puntos_clave": [
+      "Autor de Entre los Ojos Oscuros.",
+      "El texto documenta personajes ojos oscuros de épocas pre-Traición, incluyendo a Alezarv.",
+      "Jasnah incluyó sus escritos en su cuaderno de investigación."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Autor histórico cuya obra ilumina el pasado de los ojos oscuros en Roshar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Autor de Entre los Ojos Oscuros, texto histórico que documentaba personajes como Alezarv. Jasnah estudió sus escritos.",
+  "notas": "Su obra Entre los Ojos Oscuros es una fuente histórica sobre los ojos oscuros en la era pre-Traición — relevante para la investigación de Jasnah sobre los Caballeros Radiantes."
+}

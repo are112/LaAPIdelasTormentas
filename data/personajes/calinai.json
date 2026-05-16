@@ -1,0 +1,85 @@
+{
+  "id": "calinai",
+  "nombre": "Calinai",
+  "nombre_completo": "Calinai",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Persuasión — convenció a tres oyentes en forma guerra de buscar a su hermana en los abismos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Oyente en forma ágil",
+      "Hermana de una oyente caída en batalla",
+      "La que desafió el tabú de tocar a los muertos por amor a su hermana"
+    ],
+    "descripcion": "Oyente en forma ágil. Cerca del final de la Guerra de la Venganza, su hermana murió en batalla. A pesar del tabú oyente de tocar a los muertos, Calinai estaba decidida a recuperar una pulsera heredada de su madre difunta — hecha de gemas ensartadas con glifos asociados a la Orden de los Escultores de Voluntad. Convenció a tres oyentes en forma guerra de bajar a los abismos a buscar el cadáver de su hermana. Fueron avistados por soldados humanos y hubo combate. Su destino es desconocido.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "hermana de Calinai",
+        "relacion": "hermana fallecida en batalla — Calinai desafió el tabú para recuperar la pulsera heredada de su madre"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Determinada y valiente. Su amor por su hermana y por el legado de su madre la llevó a desafiar un tabú cultural profundo.",
+    "evolucion": "Sin arco propio más allá de su búsqueda.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "La hermana de Calinai murió en batalla cerca del final de la Guerra de la Venganza. Calinai quería recuperar una pulsera de gemas con glifos de los Escultores de Voluntad que su madre difunta les había dado. Convenció a tres oyentes en forma guerra de bajar a los abismos pese al tabú de tocar a los muertos. Cuando los encontraron soldados humanos, hubo combate. Su destino es desconocido.",
+    "puntos_clave": [
+      "Oyente en forma ágil durante la Guerra de la Venganza.",
+      "Su hermana murió en batalla cerca del final de la guerra.",
+      "Quería recuperar una pulsera de gemas heredada de su madre — con glifos de los Escultores de Voluntad.",
+      "Desafió el tabú oyente de tocar a los muertos.",
+      "Convenció a tres oyentes en forma guerra de buscar el cadáver en los abismos.",
+      "Fueron avistados por soldados humanos — hubo combate.",
+      "Su destino es desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Oyente menor que desafió el tabú de tocar a los muertos",
+    "relacion_con_spren": "",
+    "otros_detalles": "La pulsera tenía glifos asociados a los Escultores de Voluntad — posible conexión con el legado radiante oyente."
+  },
+  "descripcion_breve": "Oyente en forma ágil. Desafió el tabú de tocar a los muertos para recuperar una pulsera heredada de su madre tras la muerte de su hermana en batalla. Destino desconocido tras el encuentro con soldados humanos.",
+  "notas": "La pulsera con glifos de los Escultores de Voluntad es un detalle significativo — sugiere un legado radiante en la familia oyente."
+}

@@ -1,0 +1,80 @@
+{
+  "id": "cael",
+  "nombre": "Cael",
+  "nombre_completo": "Cael",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — jefe del mando de campo durante la Batalla de Narak"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Comandante en el ejército de Dalinar",
+      "Jefe del mando de campo durante la Batalla de Narak"
+    ],
+    "descripcion": "Comandante alezi en el ejército de Dalinar. Ejercía como jefe del mando de campo durante la Batalla de Narak. Su esposa Apara lo acompañó durante la batalla. Fue reconocido por su papel de coordinación táctica en el campo.",
+    "estado_en_viento_y_verdad": "Desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "apara",
+        "relacion": "esposa — lo acompañó en la Batalla de Narak"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Comandante profesional y metódico.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Comandante del ejército de Dalinar que ejercía como jefe del mando de campo en la Batalla de Narak. Su esposa Apara lo acompañó durante la batalla.",
+    "puntos_clave": [
+      "Comandante en el ejército de Dalinar.",
+      "Jefe del mando de campo en la Batalla de Narak.",
+      "Su esposa Apara lo acompañó."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Comandante del ejército de Dalinar",
+    "rol": "Comandante de campo menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Comandante alezi en el ejército de Dalinar. Jefe del mando de campo en la Batalla de Narak. Su esposa Apara lo acompañó.",
+  "notas": "Información limitada. Su esposa Apara ya está registrada en personajes.json."
+}

@@ -1,0 +1,78 @@
+{
+  "id": "cali",
+  "nombre": "Cali",
+  "nombre_completo": "Cali",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Urithiru — personal de Navani"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura — escriba al servicio de Navani Kholin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escriba al servicio de Navani Kholin en Urithiru"
+    ],
+    "descripcion": "Escriba alezi que trabajaba para Navani Kholin en Urithiru. Joven y entusiasta. Navani la mandó a buscar información sobre ciertos fenómenos en la torre.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "navani",
+        "relacion": "su señora — la envió a investigar fenómenos en la torre"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Entusiasta y dedicada a su trabajo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Escriba al servicio de Navani en Urithiru. Navani la envió a buscar información sobre fenómenos en la torre durante la ocupación cantor.",
+    "puntos_clave": [
+      "Escriba de Navani en Urithiru.",
+      "Navani la envió a investigar fenómenos en la torre."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba al servicio de Navani",
+    "rol": "Asistente menor de Navani",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Escriba alezi al servicio de Navani Kholin en Urithiru. Navani la envió a investigar fenómenos en la torre.",
+  "notas": "Información limitada."
+}

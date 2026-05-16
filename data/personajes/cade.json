@@ -1,0 +1,80 @@
+{
+  "id": "cade",
+  "nombre": "Cade",
+  "nombre_completo": "Cade",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "Uno de los primeros en aceptar seguir a Kaladin"
+    ],
+    "descripcion": "Miembro del Puente Cuatro. Fue uno de los primeros en seguir a Kaladin cuando este empezó a intentar salvar al grupo. Murió en las carreras de puentes.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "uno de los primeros en seguirlo; murió antes de que Kaladin pudiera salvarle"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Mostró disposición a confiar en Kaladin antes que la mayoría.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Miembro del Puente Cuatro que fue uno de los primeros en seguir a Kaladin. Murió en las carreras antes de que el plan de Kaladin diera frutos.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Uno de los primeros en seguir a Kaladin.",
+      "Murió en las carreras de puentes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Miembro del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro que fue uno de los primeros en seguir a Kaladin. Murió en las carreras de puentes.",
+  "notas": "Su disposición temprana a confiar en Kaladin contrasta con la hostilidad de otros miembros como Billid."
+}
