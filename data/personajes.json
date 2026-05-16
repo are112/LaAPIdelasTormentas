@@ -504,60 +504,12 @@
     "especie": "humano"
   },
   {
-    "id": "betheth_hijo_vetor",
-    "nombre": "Betheth-hijo-Vetor",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "bettam",
-    "nombre": "Bettam",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "bettani",
-    "nombre": "Bettani",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
-    "id": "beznk",
-    "nombre": "Beznk",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "humano"
-  },
-  {
-    "id": "bidlel",
-    "nombre": "Bidlel",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
     "id": "bila",
     "nombre": "Bila",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "cantor"
-  },
-  {
-    "id": "billid",
-    "nombre": "Billid",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
   },
   {
     "id": "bisig",
@@ -584,75 +536,83 @@
     "especie": "humano"
   },
   {
-    "id": "boriar",
-    "nombre": "Boriar",
+    "id": "cabine",
+    "nombre": "Cabine",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "cade",
+    "nombre": "Cade",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "cadena",
+    "nombre": "Cadena",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "cadilar",
+    "nombre": "Cadilar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "caeb",
+    "nombre": "Caeb",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "cael",
+    "nombre": "Cael",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "desconocido",
     "especie": "humano"
   },
   {
-    "id": "brakt",
-    "nombre": "Brakt",
-    "orden": "Ninguna",
+    "id": "caelith",
+    "nombre": "Caelith",
+    "orden": "Tejedores de Luz",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
   },
   {
-    "id": "brekv",
-    "nombre": "Brekv",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "breteh",
-    "nombre": "Breteh",
-    "orden": "Corredores del Viento",
-    "nivel_ideal": 3,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "brianlia",
-    "nombre": "Brianlia",
+    "id": "cali",
+    "nombre": "Cali",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "humano"
   },
   {
-    "id": "brillante_senor_morakotha",
-    "nombre": "Brillante señor Morakotha",
+    "id": "calinai",
+    "nombre": "Calinai",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
+    "estado_actual": "desconocido",
+    "especie": "cantor"
   },
   {
-    "id": "brillante_senor_seveks",
-    "nombre": "Brillante señor Seveks",
+    "id": "calinam",
+    "nombre": "Calinam",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "bru",
-    "nombre": "Bru",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "bussik",
-    "nombre": "Bussik",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
+    "estado_actual": "fallecido",
     "especie": "humano"
   },
   {
