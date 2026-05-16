@@ -616,6 +616,14 @@
     "especie": "humano"
   },
   {
+    "id": "callins",
+    "nombre": "Callins",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "cancion_hermosa",
     "nombre": "Canción Hermosa",
     "orden": "Ninguna",
@@ -624,8 +632,40 @@
     "especie": "humano"
   },
   {
+    "id": "caull",
+    "nombre": "Caull",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "celeste",
     "nombre": "Celeste",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "cenn",
+    "nombre": "Cenn",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "ceno_largo",
+    "nombre": "Ceño Largo",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "challa",
+    "nombre": "Challa",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
