@@ -736,10 +736,50 @@
     "especie": "larkin (especie creída extinta)"
   },
   {
+    "id": "chivi",
+    "nombre": "Chivi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
     "id": "cikatriz",
     "nombre": "Cikatriz",
     "orden": "Corredores del Viento",
     "nivel_ideal": 2,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "cob_roshar",
+    "nombre": "Cob (Roshar)",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "coldwin",
+    "nombre": "Coldwin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "colot",
+    "nombre": "Colot",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "condwish",
+    "nombre": "Condwish",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
   },
