@@ -1,0 +1,107 @@
+{
+  "id": "colot",
+  "nombre": "Colot",
+  "nombre_completo": "Colot",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro — escudero",
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "sin vínculo — rechazado por los honorspren"
+    },
+    "estado_del_vinculo": "Escudero sin vínculo pleno. Los honorspren que buscaban Radiante lo rechazaron — probablemente por ser ojos claros."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "puede respirar luz tormentosa como escudero"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — soldado experimentado",
+      "Lealtad al Puente Cuatro"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escudero del Puente Cuatro — el único ojos claros entre los nuevos reclutas",
+      "El que fue rechazado por los honorspren por ser ojos claros"
+    ],
+    "descripcion": "Ojos claros alezi, uno de los pocos miembros de ojos claros originales del Puente Cuatro. Fue uno de diez nuevos reclutas que Rlain vio entrenando con Peet tras ganar la capacidad de respirar luz tormentosa como escuderos. Era el único ojos claros del grupo. Cuando los honorspren que siguieron el ejemplo de Syl salieron a buscar Radiante, rechazaron a Colot — él especuló que fue por ser ojos claros, pues los honorspren querían a alguien de ojos oscuros como Kaladin, aunque admitió no saber la razón exacta. Shallan invocó su nombre para parecer más auténtica cuando se disfrazó de mensajera. Tras decidir no seguir como escudero de los Corredores del Viento, Adolin lo llevó a la Batalla de Azimir.",
+    "estado_en_viento_y_verdad": "Activo — en la Batalla de Azimir."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su capitán en el Puente Cuatro"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "Adolin lo llevó a la Batalla de Azimir tras decidir no seguir como escudero"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "Shallan invocó su nombre disfrazada de mensajera para parecer más auténtica"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal y humilde. Aceptó el rechazo de los honorspren con ecuanimidad aunque sin entender la razón exacta.",
+    "evolucion": "Pasó de escudero a combatiente bajo el mando de Adolin.",
+    "situacion_en_viento_y_verdad": "Activo en la Batalla de Azimir."
+  },
+  "arco_narrativo": {
+    "resumen": "Colot era uno de los pocos ojos claros del Puente Cuatro. Ganó la capacidad de respirar luz tormentosa como escudero. Fue el único ojos claros entre los diez nuevos reclutas que entrenaban con Peet. Los honorspren lo rechazaron cuando buscaban Radiante — él especuló que fue por ser ojos claros. Shallan usó su nombre como cobertura disfrazada de mensajera. Finalmente decidió no seguir como escudero y Adolin lo llevó a la Batalla de Azimir.",
+    "puntos_clave": [
+      "Ojos claros — uno de los pocos miembros originales de ojos claros del Puente Cuatro.",
+      "Uno de los diez nuevos reclutas escuderos que Rlain vio entrenando con Peet.",
+      "El único ojos claros del grupo de nuevos escuderos.",
+      "Los honorspren lo rechazaron al buscar Radiante — probablemente por ser ojos claros.",
+      "Especuló que los honorspren querían a alguien de ojos oscuros como Kaladin.",
+      "Shallan invocó su nombre disfrazada de mensajera para parecer más auténtica.",
+      "Decidió no seguir como escudero de los Corredores del Viento.",
+      "Adolin lo llevó a la Batalla de Azimir en VyV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado — bajo el mando de Adolin en la Batalla de Azimir",
+    "rol": "Escudero sin vínculo que eligió el camino del combate",
+    "relacion_con_spren": "Sin vínculo — rechazado por los honorspren.",
+    "otros_detalles": "Uno de los pocos ojos claros del Puente Cuatro."
+  },
+  "descripcion_breve": "Ojos claros del Puente Cuatro y escudero sin vínculo. Los honorspren lo rechazaron al buscarlo — probablemente por ser ojos claros. Shallan usó su nombre como cobertura. Adolin lo llevó a la Batalla de Azimir.",
+  "notas": "Su rechazo por los honorspren ilustra los prejuicios de estos spren hacia los ojos claros — quieren a alguien como Kaladin, de ojos oscuros y nacido en sufrimiento."
+}

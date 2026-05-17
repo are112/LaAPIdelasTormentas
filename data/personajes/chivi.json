@@ -1,0 +1,90 @@
+{
+  "id": "chivi",
+  "nombre": "Chivi",
+  "nombre_completo": "Chivi",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — Consejo de los Cinco de Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo político — miembro del Consejo de los Cinco",
+      "Representación de la forma diestra en el Consejo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Consejo de los Cinco de los oyentes",
+      "Representante de la forma diestra en el Consejo"
+    ],
+    "descripcion": "Oyente en forma diestra, miembro del Consejo de los Cinco de Narak durante la Guerra de la Venganza. La forma diestra le da rasgos faciales alargados con mechones de pelo largo recogidos en una coleta. Estaba frustrada por la complacencia de los oyentes y no se opuso inicialmente al uso de la forma tormenta. Creía que los oyentes se estaban desvaneciendo como pueblo y esperaba que la forma tormenta pudiera darles ventaja en la guerra contra los humanos.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseída por un Fusionado o muerta durante la tormenta eterna."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "eshonai",
+        "relacion": "estuvo presente cuando Eshonai propuso ser quien probara la forma tormenta — Chivi apoyó que fuera Eshonai en lugar de Venli"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "Venli propuso el plan de la forma tormenta — Chivi acordó que Eshonai debía ser quien la probara, pues Venli era demasiado importante para perderla"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Frustrada por la situación de los oyentes. Esperanzada en que la forma tormenta pudiera cambiar el curso de la guerra. No se opuso a la propuesta de Venli.",
+    "evolucion": "Sin arco propio más allá de su papel en el Consejo.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Chivi era miembro del Consejo de los Cinco de los oyentes en Narak, representando la forma diestra. Estaba frustrada por la complacencia de su pueblo y creía que se estaban desvaneciendo. Estuvo presente cuando Venli propuso el plan de adoptar la forma tormenta y cuando Eshonai ofreció ser quien la probara. Chivi acordó con los demás miembros del Consejo que Eshonai, y no Venli, debía ser quien probara la nueva forma. Asumió que los doscientos soldados transformados en la División de la Tormenta serían suficientes para ganar la guerra.",
+    "puntos_clave": [
+      "Oyente en forma diestra — rasgos faciales alargados con coleta larga.",
+      "Miembro del Consejo de los Cinco de Narak.",
+      "Frustrada por la complacencia de los oyentes — creía que se estaban desvaneciendo como pueblo.",
+      "No se opuso inicialmente al plan de usar la forma tormenta.",
+      "Estuvo presente en el Consejo cuando Venli propuso el plan.",
+      "Acordó que Eshonai, y no Venli, debía probar la forma tormenta — Venli era demasiado importante para perderla.",
+      "Asumió que los doscientos soldados de la División de la Tormenta serían suficientes para ganar la guerra.",
+      "Destino desconocido tras la tormenta eterna."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Miembro del Consejo de los Cinco; figura política menor de los oyentes",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Oyente en forma diestra y miembro del Consejo de los Cinco de Narak. Frustrada por la complacencia de su pueblo. Apoyó el plan de la forma tormenta y acordó que Eshonai debía ser quien la probara.",
+  "notas": "Su frustración con la complacencia de los oyentes la hacía más receptiva a soluciones radicales como la forma tormenta, sin comprender las implicaciones reales."
+}

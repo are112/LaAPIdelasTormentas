@@ -1,0 +1,78 @@
+{
+  "id": "coldwin",
+  "nombre": "Coldwin",
+  "nombre_completo": "Coldwin",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (antigua)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición histórica — erudito que investigó los Portadores del Vacío"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito histórico roshario",
+      "Uno de los que corroboró los hechos registrados por Masly sobre los Portadores del Vacío"
+    ],
+    "descripcion": "Erudito histórico roshario. Junto a Hasavah, corroboró hechos registrados en la obra de Masly sobre los Portadores del Vacío. Sus escritos fueron estudiados por Jasnah Kholin en su investigación sobre los Portadores del Vacío y los Voidbringers.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Hasavah",
+        "relacion": "también corroboró los hechos de la obra de Masly — trabajaron sobre los mismos temas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito histórico roshario. Junto a Hasavah corroboró los hechos registrados en la obra de Masly sobre los Portadores del Vacío. Jasnah Kholin estudió sus escritos en su investigación.",
+    "puntos_clave": [
+      "Erudito histórico roshario.",
+      "Junto a Hasavah corroboró hechos de la obra de Masly sobre los Portadores del Vacío.",
+      "Sus escritos fueron estudiados por Jasnah Kholin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Erudito cuya obra complementa la de Masly sobre los Portadores del Vacío",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito histórico roshario que junto a Hasavah corroboró hechos de la obra de Masly sobre los Portadores del Vacío. Sus escritos fueron estudiados por Jasnah.",
+  "notas": "Solo mencionado en un epígrafe de El Camino de los Reyes. Su obra era fuente secundaria para la investigación de Jasnah sobre los Voidbringers."
+}
