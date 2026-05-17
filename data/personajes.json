@@ -712,6 +712,22 @@
     "especie": "humano"
   },
   {
+    "id": "chella",
+    "nombre": "Chella",
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "chilinko",
+    "nombre": "Chilinko",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "chiri_chiri",
     "nombre": "Chiri-Chiri",
     "orden": "Ninguna",
