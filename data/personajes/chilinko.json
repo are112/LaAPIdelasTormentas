@@ -1,0 +1,90 @@
+{
+  "id": "chilinko",
+  "nombre": "Chilinko",
+  "nombre_completo": "Chilinko",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "herdaziana",
+  "origen": "Herdaz",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Campamento de guerra de Sebarial en las Llanuras Quebradas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Discreción — ayudó a esconder al rey Elhokar",
+      "Lealtad — cumplió órdenes de Sebarial"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Habitante del campamento de Sebarial en las Llanuras",
+      "El que ayudó a Lopen a esconder al rey Elhokar en casa de su madre"
+    ],
+    "descripcion": "Hombre que vivía en el campamento de guerra del alto príncipe Sebarial en las Llanuras Quebradas. En 1173, tras el intento de asesinato del rey Elhokar, ayudó a Lopen a esconder al rey en casa de su madre. También transmitió las órdenes de Sebarial de que el campamento debía prepararse para evacuar.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "madre de Chilinko",
+        "relacion": "su madre — prestó su hogar para esconder al rey Elhokar"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "lopen",
+        "relacion": "colaboró con él para esconder al rey Elhokar en casa de su madre"
+      },
+      {
+        "personaje": "sebarial",
+        "relacion": "su alto príncipe — transmitió sus órdenes de evacuación del campamento"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Discreto y leal. Actuó con rapidez ante la emergencia del intento de asesinato.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Chilinko vivía en el campamento de Sebarial en las Llanuras. Tras el intento de asesinato del rey Elhokar, ayudó a Lopen a escondero en casa de su madre. Después reportó las órdenes de Sebarial de preparar el campamento para evacuar.",
+    "puntos_clave": [
+      "Vivía en el campamento de guerra del alto príncipe Sebarial.",
+      "En 1173, tras el intento de asesinato de Elhokar, ayudó a Lopen a esconderlo en casa de su madre.",
+      "Reportó las órdenes de Sebarial de preparar el campamento para evacuar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Habitante del campamento de Sebarial",
+    "rol": "Colaborador en el rescate del rey Elhokar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su madre prestó su hogar para esconder al rey."
+  },
+  "descripcion_breve": "Habitante del campamento de Sebarial en las Llanuras. Ayudó a Lopen a esconder al rey Elhokar en casa de su madre tras el intento de asesinato. Reportó las órdenes de evacuación de Sebarial.",
+  "notas": "Su colaboración con Lopen para esconder al rey Elhokar es uno de los momentos de humor y tensión simultánea de El Camino de los Reyes."
+}

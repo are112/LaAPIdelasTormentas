@@ -1,0 +1,77 @@
+{
+  "id": "chella",
+  "nombre": "Chella",
+  "nombre_completo": "Chella",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Danzantes del Filo"
+  ],
+  "orden_radiantes": {
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "desconocido"
+    },
+    "estado_del_vinculo": "Activo."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Abrasión",
+        "Progresión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Liderazgo — miembro del liderazgo durante la Segunda Batalla de Narak"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Danzante del Filo — miembro del liderazgo durante la Segunda Batalla de Narak"
+    ],
+    "descripcion": "Danzante del Filo que forma parte del liderazgo de los Caballeros Radiantes durante la Segunda Batalla de Narak en Viento y Verdad.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Danzante del Filo y miembro del liderazgo de los Radiantes durante la Segunda Batalla de Narak en VyV.",
+    "puntos_clave": [
+      "Danzante del Filo — Caballero Radiante.",
+      "Miembro del liderazgo durante la Segunda Batalla de Narak.",
+      "Mencionada en VyV capítulo 90."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Danzante del Filo — mando de los Radiantes",
+    "rol": "Miembro del liderazgo en la Segunda Batalla de Narak",
+    "relacion_con_spren": "Vínculo activo con un spren desconocido.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Danzante del Filo y miembro del liderazgo de los Caballeros Radiantes durante la Segunda Batalla de Narak en Viento y Verdad.",
+  "notas": "Información muy limitada — mencionada en VyV capítulo 90."
+}
