@@ -816,6 +816,46 @@
     "especie": "humano"
   },
   {
+    "id": "corredor_viento_lluvia_estrellas",
+    "nombre": "Corredor del Viento de Lluvia de Estrellas",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "corvana",
+    "nombre": "Corvana",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
+    "id": "creer",
+    "nombre": "Creer",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "cressa",
+    "nombre": "Cressa",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "crzmak",
+    "nombre": "Crzmak",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "cuerda",
     "nombre": "Cuerda",
     "orden": "Ninguna",
