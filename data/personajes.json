@@ -784,6 +784,38 @@
     "especie": "humano"
   },
   {
+    "id": "corberon",
+    "nombre": "Corberon",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "coreb",
+    "nombre": "Coreb",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "corl",
+    "nombre": "Corl",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "cormshen",
+    "nombre": "Cormshen",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "cuerda",
     "nombre": "Cuerda",
     "orden": "Ninguna",
