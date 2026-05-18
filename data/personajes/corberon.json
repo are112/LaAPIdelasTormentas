@@ -1,0 +1,70 @@
+{
+  "id": "corberon",
+  "nombre": "Corberon",
+  "nombre_completo": "Corberon",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (antigua)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — autor de escritos citados en epígrafes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Figura histórica mencionada en un epígrafe de Palabras Radiantes"
+    ],
+    "descripcion": "Figura histórica rosharia. Solo mencionada en el epígrafe del capítulo 52 de Palabras Radiantes. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Figura histórica mencionada en un epígrafe de Palabras Radiantes. Información muy limitada.",
+    "puntos_clave": [
+      "Mencionado en el epígrafe del capítulo 52 de Palabras Radiantes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Figura histórica menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Figura histórica rosharia mencionada solo en el epígrafe del capítulo 52 de Palabras Radiantes.",
+  "notas": "Información muy limitada — mención única en epígrafe."
+}

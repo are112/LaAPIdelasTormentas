@@ -1,0 +1,89 @@
+{
+  "id": "coreb",
+  "nombre": "Coreb",
+  "nombre_completo": "Coreb",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza — el más hábil del escuadrón de Kaladin en Amaram"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado del ejército de Amaram — el más hábil del escuadrón de Kaladin",
+      "El superviviente más capaz del ataque de Helaran Davar",
+      "El que instó a Kaladin a aceptar la hoja esquirlada"
+    ],
+    "descripcion": "Soldado ojos oscuros del ejército de Amaram. Era el más hábil entre los supervivientes del ataque de Helaran Davar al escuadrón de Kaladin. Cuando Helaran fue derrotado por Kaladin, Coreb instó a Kaladin a aceptar la hoja y armadura esquirladas: 'Tómala. Es tuya. ¡Padre Tormenta, Kaladin! ¡Eres un portador de esquirlada!' Fue uno de los cuatro supervivientes del ataque junto a Alabet, Reesh y Beal. Cuando Amaram traicionó a Kaladin, Coreb fue asesinado por los guardias de Amaram.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su líder de escuadrón — instó a Kaladin a aceptar la esquirlada; murió cuando Amaram lo traicionó"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "amaram",
+        "relacion": "Amaram ordenó a sus guardias matarle tras la traición"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal y entusiasta. Su reacción ante la victoria de Kaladin muestra admiración genuina.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Coreb era el guerrero más hábil del escuadrón de Kaladin en el ejército de Amaram. Sobrevivió al ataque de Helaran Davar. Cuando Kaladin derrotó a Helaran, Coreb lo instó entusiasmado a aceptar la hoja y armadura esquirladas. Kaladin rechazó los fragmentos. Cuando Amaram traicionó a Kaladin, Coreb fue asesinado por los guardias de Amaram junto a los otros supervivientes.",
+    "puntos_clave": [
+      "El más hábil del escuadrón de Kaladin en el ejército de Amaram.",
+      "Sobrevivió al ataque de Helaran Davar.",
+      "Cuando Kaladin derrotó a Helaran, instó a Kaladin: 'Tómala. Es tuya. ¡Padre Tormenta, Kaladin! ¡Eres un portador de esquirlada!'",
+      "Kaladin rechazó los fragmentos esquirlados.",
+      "Cuando Amaram traicionó a Kaladin, Coreb fue asesinado por los guardias de Amaram.",
+      "Uno de los cuatro supervivientes del ataque de Helaran junto a Alabet, Reesh y Beal."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "El más hábil del escuadrón de Kaladin; testigo del rechazo de la esquirlada",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "El soldado más hábil del escuadrón de Kaladin en Amaram. Sobrevivió al ataque de Helaran. Instó a Kaladin a aceptar la esquirlada. Murió cuando Amaram lo traicionó.",
+  "notas": "Su entusiasmo cuando Kaladin derrotó a Helaran contrasta con el horror de la traición de Amaram momentos después. Junto a Alabet, Reesh y Beal fue uno de los cuatro supervivientes del ataque de Helaran."
+}

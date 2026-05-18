@@ -1,0 +1,91 @@
+{
+  "id": "corl",
+  "nombre": "Corl",
+  "nombre_completo": "Corl",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Carreras de puentes — corría en la línea de la muerte"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Cuatro",
+      "El que murió en la línea de la muerte en una de las primeras carreras de Kaladin como líder"
+    ],
+    "descripcion": "Miembro del Puente Cuatro. Corría en la línea de la muerte — la posición más peligrosa en la cabeza del puente — junto a Leyten, Murk, Adis y Kaladin en una de las primeras carreras de Kaladin como líder de puente. Al acercarse a la meseta contestada, fue alcanzado por flechas de los Parshendi y cayó. Tras el asalto, Kaladin ordenó a los hombres buscar a Corl y los otros caídos, pero ya estaba muerto.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "corría junto a él en la línea de la muerte — Kaladin no pudo salvarlo"
+      },
+      {
+        "personaje": "leyten",
+        "relacion": "compañero en la línea de la muerte"
+      },
+      {
+        "personaje": "adis",
+        "relacion": "compañera en la línea de la muerte"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Corl corría en la línea de la muerte del Puente Cuatro junto a Leyten, Murk, Adis y Kaladin. En una de las primeras carreras de Kaladin como líder, fue alcanzado por flechas Parshendi al acercarse a la meseta contestada y cayó. Tras el asalto, Kaladin ordenó buscarle pero ya estaba muerto.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Corría en la línea de la muerte — la posición más peligrosa.",
+      "Junto a Leyten, Murk, Adis y Kaladin en una de las primeras carreras de Kaladin como líder.",
+      "Alcanzado por flechas Parshendi al acercarse a la meseta.",
+      "Kaladin ordenó buscarlo tras el asalto pero ya estaba muerto.",
+      "Su muerte en el capítulo 17 de El Camino de los Reyes marca el impacto humano de las carreras bajo el liderazgo de Kaladin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Hombre de los puentes caído en la línea de la muerte",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro que corría en la línea de la muerte. Murió alcanzado por flechas Parshendi en una de las primeras carreras de Kaladin como líder.",
+  "notas": "Mencionado en el capítulo 17 de El Camino de los Reyes. Su muerte ilustra que incluso con Kaladin como líder, las bajas seguían siendo inevitables al principio."
+}
