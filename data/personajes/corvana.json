@@ -1,0 +1,75 @@
+{
+  "id": "corvana",
+  "nombre": "Corvana",
+  "nombre_completo": "Corvana",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — su obra es usada por Navani",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — compiló los Analectos, colección de canciones de los Vanrial"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita compiladora de los Analectos",
+      "Su obra fue clave para identificar el Canto del Alba en las visiones de Dalinar"
+    ],
+    "descripcion": "Erudita rosharia que compiló los Analectos — una colección de canciones de los Vanrial, una orden de artistas que vivía en las laderas de la Montaña Silenciosa en Jah Keved. Muchos eruditos creen que el texto y las canciones están escritos en Canto del Alba. Jasnah Kholin poseía una copia de su libro. En 1173, Navani Kholin usó esa copia para confirmar que Dalinar hablaba en Canto del Alba durante sus visiones.",
+    "estado_en_viento_y_verdad": "Fallecida — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Corvana compiló los Analectos, una colección de canciones de los Vanrial creídas escritas en Canto del Alba. Jasnah tenía una copia que Navani usó en 1173 para confirmar que Dalinar hablaba en Canto del Alba durante sus visiones.",
+    "puntos_clave": [
+      "Erudita compiladora de los Analectos.",
+      "Los Analectos contienen canciones de los Vanrial — orden de artistas de la Montaña Silenciosa en Jah Keved.",
+      "Muchos eruditos creen que el texto está en Canto del Alba.",
+      "Jasnah Kholin poseía una copia de su libro.",
+      "En 1173, Navani usó la copia de Jasnah para confirmar que Dalinar hablaba en Canto del Alba."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — figura histórica",
+    "rol": "Compiladora cuya obra fue clave para identificar el Canto del Alba en las visiones de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudita compiladora de los Analectos — colección de canciones de los Vanrial en Canto del Alba. Su obra fue usada por Navani en 1173 para confirmar que Dalinar hablaba en Canto del Alba.",
+  "notas": "Los Vanrial eran una orden de artistas que vivía en las laderas de la Montaña Silenciosa en Jah Keved. La obra de Corvana fue un eslabón crucial en la identificación del Canto del Alba."
+}

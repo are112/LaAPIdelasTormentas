@@ -1,0 +1,88 @@
+{
+  "id": "cressa",
+  "nombre": "Cressa",
+  "nombre_completo": "Cressa",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Urithiru — habitante"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Habitante de Urithiru",
+      "Sobrina de un hombre internado en el Devotario de la Piedad"
+    ],
+    "descripcion": "Mujer alezi habitante de Urithiru. Su tío fue internado en el Devotario de la Piedad, donde los fervorosos de ese devotario alojaban a personas con afecciones mentales. El tío recibió un tratamiento inadecuado que empeoró su estado. Lirin Stormblessed lo recordaba de Piedralar. Kaladin encontró al tío y le dijo que su sobrina Cressa lo buscaba. El tío, afectado, pidió a Kaladin que le dijera que estaba muerto. Kaladin lo sacó del devotario, habló con él y consiguió que se encontrara un poco mejor — hasta el punto en que empezó a preguntar por Cressa.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "tío de Cressa",
+        "relacion": "tío; internado en el Devotario de la Piedad con afecciones mentales por tratamiento inadecuado"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin rescató a su tío del devotario y le dijo que Cressa lo buscaba"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Preocupada por su tío. Sin más información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Cressa buscaba a su tío, que había sido internado en el Devotario de la Piedad en Urithiru con afecciones mentales. Los fervorosos le habían dado un tratamiento inadecuado que empeoró su estado. Lirin lo recordaba de Piedralar. Los Corredores del Viento lo encontraron en el devotario. Kaladin le dijo que su sobrina lo buscaba. El tío pedía que le dijeran que estaba muerto. Kaladin lo sacó, habló con él y consiguió que preguntara por Cressa.",
+    "puntos_clave": [
+      "Habitante de Urithiru.",
+      "Su tío fue internado en el Devotario de la Piedad con afecciones mentales.",
+      "El tratamiento de los fervorosos fue inadecuado y empeoró su estado.",
+      "Lirin recordaba al tío de Piedralar.",
+      "Los Corredores del Viento encontraron al tío.",
+      "Kaladin le dijo que Cressa lo buscaba.",
+      "El tío pidió que le dijeran a Cressa que estaba muerto.",
+      "Kaladin lo sacó del devotario — el tío mejoró y empezó a preguntar por Cressa."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Habitante de Urithiru",
+    "rol": "Sobrina de un internado en el Devotario de la Piedad",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Habitante de Urithiru. Su tío fue internado en el Devotario de la Piedad con afecciones mentales por tratamiento inadecuado. Kaladin lo rescató y consiguió que preguntara por ella.",
+  "notas": "Su historia es parte del arco de Kaladin como médico en Urithiru — ilustra el trato inadecuado que el Devotario de la Piedad daba a los enfermos mentales."
+}

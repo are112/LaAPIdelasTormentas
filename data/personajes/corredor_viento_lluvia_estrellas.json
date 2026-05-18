@@ -1,0 +1,96 @@
+{
+  "id": "corredor_viento_lluvia_estrellas",
+  "nombre": "Corredor del Viento de Lluvia de Estrellas",
+  "nombre_completo": "Corredor del Viento de Lluvia de Estrellas",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida (época pre-Traición)",
+  "origen": "Natanatan, Roshar (visión de Dalinar)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario — visión de Dalinar",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "menor — visión de Dalinar",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes pre-Traición — Corredores del Viento"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "honorspren desconocido"
+    },
+    "estado_del_vinculo": "Pre-Traición — activo en la época de las Desolaciones."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Adhesión",
+        "Gravitación — vuelo"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — soldado de las Desolaciones",
+      "Conocimiento de la armadura viva esquirlada"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Corredor del Viento de la época de las Desolaciones",
+      "El que aparece en las visiones del Padre Tormenta que Dalinar recibe"
+    ],
+    "descripcion": "Caballero Radiante Corredor del Viento que vivió en la época de las Desolaciones — aparece en las visiones del Padre Tormenta que recibe Dalinar. En la visión de Lluvia de Estrellas en Natanatan durante la Octava Época, luchó contra la Esencia de Medianoche. Cuando Dalinar encarnó a la Radiante femenina del mismo grupo, el Corredor del Viento le dijo que hablara con Harkaylain o con su spren si algo no funcionaba bien con la armadura. En Juramentada, cuando Dalinar volvió a vivir la visión como él mismo, el Corredor del Viento le ofreció un lugar entre los Radiantes si su habilidad con la espada era tan buena como con el mantenimiento de chimeneas.",
+    "estado_en_viento_y_verdad": "Fallecido — vivió miles de años antes."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "Dalinar lo encontró en sus visiones — en una encarnó a su compañera Radiante"
+      },
+      {
+        "personaje": "Harkaylain",
+        "relacion": "le indicó que hablara con él sobre problemas con la armadura"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Guerrero experimentado y amable. Ofreció a Dalinar un lugar entre los Radiantes.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Corredor del Viento que aparece en las visiones del Padre Tormenta de Dalinar. En la visión de Lluvia de Estrellas, luchó contra la Esencia de Medianoche junto a la Custodia de la Piedra. Le dijo a Dalinar (encarnando a su compañera Radiante) que hablara con Harkaylain si algo fallaba con la armadura. Cuando Dalinar volvió a la visión como él mismo, el Corredor del Viento le ofreció un puesto entre los Radiantes si demostraba su habilidad con la espada.",
+    "puntos_clave": [
+      "Corredor del Viento de la época de las Desolaciones — Octava Época.",
+      "Aparece en las visiones del Padre Tormenta que recibe Dalinar.",
+      "En la visión de Lluvia de Estrellas, luchó contra la Esencia de Medianoche.",
+      "Indicó a Dalinar (encarnando a su compañera) que hablara con Harkaylain sobre la armadura.",
+      "Cuando Dalinar fue él mismo en la visión, le ofreció un lugar entre los Radiantes.",
+      "Frase: 'Si tu habilidad con la espada es similar a tu habilidad con los instrumentos para cuidar las chimeneas, entonces confío en que encuentres tu sitio con nosotros.'"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura de las visiones de Dalinar",
+    "rol": "Caballero Radiante pre-Traición en las visiones del Padre Tormenta",
+    "relacion_con_spren": "Vinculado a un honorspren desconocido.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Corredor del Viento de la época de las Desolaciones que aparece en las visiones del Padre Tormenta de Dalinar. Luchó contra la Esencia de Medianoche y ofreció a Dalinar un lugar entre los Radiantes.",
+  "notas": "Aparece en El Camino de los Reyes cap. 19 y Juramentada cap. 34. Su mención de Harkaylain sugiere que este también podría ser Caballero Radiante aunque no está confirmado."
+}

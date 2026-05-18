@@ -1,0 +1,96 @@
+{
+  "id": "creer",
+  "nombre": "Creer",
+  "nombre_completo": "Creer",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Veinte",
+    "Ejército de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Sargento de guardia — mando de la guardia",
+      "Mensajería — entregó comunicaciones urgentes entre mandos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Puente Veinte",
+      "Gemelo — se distingue de su hermano porque lleva gafas",
+      "Sargento de guardia que entregó la advertencia de la reina Fen a Navani"
+    ],
+    "descripcion": "Soldado alezi miembro del Puente Veinte junto a su hermano gemelo. Se distingue de su hermano porque lleva gafas. Fue sargento de guardia el día en que entregó a Navani Kholin una nota de Teshav Khal con una transcripción de spanreed de la reina Fen de Thaylenah, advirtiéndola de la armada cantor. Dalinar le ordenó que dejara a Teshav escribir de vuelta a Fen para proponer reunirse en Thaylen City. Creer y su hermano son probablemente cameos de Jeff Creer — un compañero de piso de Brandon Sanderson que creó arte para su página web y el mapa original de Elantris.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "hermano de Creer",
+        "relacion": "hermano gemelo — también miembro del Puente Veinte; se distinguen en que Creer lleva gafas"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "navani",
+        "relacion": "le entregó la nota urgente de Teshav Khal con la advertencia de la reina Fen"
+      },
+      {
+        "personaje": "teshav",
+        "relacion": "Teshav le envió la nota que Creer entregó a Navani"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional y eficiente. Cumplió su misión de mensajería con rapidez.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Creer es miembro del Puente Veinte y gemelo de otro miembro del mismo puente — se les distingue porque Creer lleva gafas. Fue sargento de guardia el día en que entregó a Navani una nota de Teshav Khal con una transcripción de spanreed de la reina Fen de Thaylenah advirtiendo de la armada cantor. Dalinar ordenó que Teshav respondiera a Fen proponiendo reunirse en Thaylen City.",
+    "puntos_clave": [
+      "Miembro del Puente Veinte — no del Puente Cuatro.",
+      "Gemelo de otro miembro del Puente Veinte — se distingue porque lleva gafas.",
+      "Fue sargento de guardia.",
+      "Entregó a Navani una nota de Teshav Khal con la transcripción de spanreed de la reina Fen.",
+      "La nota advertía de la armada cantor.",
+      "Dalinar ordenó que Teshav respondiera a Fen para proponer reunirse en Thaylen City.",
+      "Probablemente cameo de Jeff Creer — compañero de piso de Brandon Sanderson."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado del ejército Kholin — Puente Veinte; sargento de guardia",
+    "rol": "Mensajero de comunicaciones urgentes entre mandos",
+    "relacion_con_spren": "",
+    "otros_detalles": "Lleva gafas — único rasgo que lo distingue de su hermano gemelo."
+  },
+  "descripcion_breve": "Miembro del Puente Veinte y gemelo — se distingue de su hermano porque lleva gafas. Sargento de guardia que entregó a Navani la advertencia de la reina Fen sobre la armada cantor.",
+  "notas": "Creer y su hermano son probablemente cameos de Jeff Creer — compañero de piso de Brandon Sanderson que creó arte para su página web y el mapa original de Elantris. No confundir con el Puente Cuatro."
+}

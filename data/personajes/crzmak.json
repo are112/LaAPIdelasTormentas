@@ -1,0 +1,70 @@
+{
+  "id": "crzmak",
+  "nombre": "Crzmak",
+  "nombre_completo": "Crzmak",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ciudad de Thaylen — comerciante o habitante"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Habitante o comerciante de Thaylen City"
+    ],
+    "descripcion": "Hombre thayleño de Thaylen City. Información muy limitada — presencia menor en Juramentada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Habitante o comerciante thayleño de Thaylen City. Presencia muy menor en Juramentada.",
+    "puntos_clave": [
+      "Thayleño de Thaylen City mencionado brevemente en Juramentada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Personaje menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Habitante o comerciante thayleño de Thaylen City. Presencia muy menor en Juramentada.",
+  "notas": "Información muy limitada."
+}
