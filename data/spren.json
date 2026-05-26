@@ -342,5 +342,13 @@
     "tipo_spren": "llamaspren",
     "radiante_vinculado": null,
     "estado_actual": "activo"
+  },
+  {
+    "id": "cusicesh",
+    "nombre": "Cusicesh",
+    "apodo": "El Protector",
+    "tipo_spren": "spren primigenio",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
   }
 ]
