@@ -864,22 +864,6 @@
     "especie": "humano"
   },
   {
-    "id": "custodia_piedra_lluvia_estrellas",
-    "nombre": "Custodia de la Piedra de Lluvia de Estrellas",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecida",
-    "especie": "humano"
-  },
-  {
-    "id": "cyn",
-    "nombre": "Cyn",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
     "id": "dabbid",
     "nombre": "Dabbid",
     "orden": "Ninguna",
