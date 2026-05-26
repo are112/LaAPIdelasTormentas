@@ -1,0 +1,95 @@
+{
+  "id": "cyn",
+  "nombre": "Cyn",
+  "nombre_completo": "Cyn",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram — escuadrón de Kaladin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate con lanza"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del escuadrón de Kaladin en el ejército de Amaram",
+      "El que fue ordenado a escoltar a Cenn al médico — murió a manos de Helaran Davar"
+    ],
+    "descripcion": "Soldado alezi del escuadrón de Kaladin en el ejército del Alto Mariscal Amaram. Durante la batalla en Alezkar en 1172, Kaladin le ordenó a él y a Korater que escoltaran al herido Cenn hasta el médico. Mientras Cyn se retiraba con Cenn hacia los médicos, el portador de esquirlada Helaran Davar pasó a su lado y lo mató con su hoja esquirlada.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su líder de escuadrón — le ordenó escoltar a Cenn; no pudo salvarlo"
+      },
+      {
+        "personaje": "cenn",
+        "relacion": "lo escoltaba al médico cuando Helaran lo mató"
+      },
+      {
+        "personaje": "Korater",
+        "relacion": "compañero que también fue ordenado a escoltar a Cenn"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "helaran",
+        "relacion": "Helaran Davar lo mató de paso con su hoja esquirlada mientras se retiraba con Cenn"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente. Cumplió las órdenes de Kaladin.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Cyn era miembro del escuadrón de Kaladin en el ejército de Amaram. En la batalla de 1172 en Alezkar, Kaladin le ordenó a él y a Korater que escoltaran al herido Cenn hasta el médico. Mientras Cyn se retiraba con Cenn, el portador de esquirlada Helaran Davar pasó a su lado y lo mató con su hoja esquirlada. Su muerte dejó a Cenn sin escolta y sin protección.",
+    "puntos_clave": [
+      "Miembro del escuadrón de Kaladin en el ejército de Amaram.",
+      "En la batalla de 1172, Kaladin le ordenó a él y a Korater escoltar al herido Cenn al médico.",
+      "Mientras se retiraba con Cenn, Helaran Davar pasó a su lado.",
+      "Helaran lo mató con su hoja esquirlada de paso.",
+      "Su muerte dejó a Cenn sin protección — Cenn murió poco después."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Soldado del escuadrón de Kaladin cuya muerte dejó a Cenn desprotegido",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado del escuadrón de Kaladin en Amaram. Ordenado a escoltar al herido Cenn al médico. Helaran Davar lo mató de paso con su hoja esquirlada, dejando a Cenn sin protección.",
+  "notas": "Aparece en El Camino de los Reyes capítulos 1 y 47. Su muerte en el capítulo 47 retrotrae al lector al capítulo 1 — ahora sabemos lo que le pasó a Cyn mientras llevaba a Cenn."
+}

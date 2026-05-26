@@ -1,0 +1,94 @@
+{
+  "id": "custodia_piedra_lluvia_estrellas",
+  "nombre": "Custodia de la Piedra de Lluvia de Estrellas",
+  "nombre_completo": "Custodia de la Piedra de Lluvia de Estrellas",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "natanesa (época pre-Traición)",
+  "origen": "Natanatan, Roshar (visión de Dalinar)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundaria — visión de Dalinar",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes pre-Traición"
+  ],
+  "orden_radiantes": {
+    "orden": "desconocida — portadora de esquirlada",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "desconocido"
+    },
+    "estado_del_vinculo": "Pre-Traición — activo en la época de las Desolaciones."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — soldado de las Desolaciones con armadura esquirlada",
+      "Conocimiento de las Desolaciones — explicó a Dalinar los eventos de la Octava Época",
+      "Pedagogía — instó a Dalinar a entrenar con los Radiantes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Caballero Radiante portadora de esquirlada de la época de las Desolaciones",
+      "La que explicó a Dalinar los eventos de la Octava Época en la visión de Lluvia de Estrellas"
+    ],
+    "descripcion": "Caballero Radiante de la época de las Desolaciones que aparece en las visiones del Padre Tormenta de Dalinar. Cuando el Corredor del Viento se marchó volando, la Custodia de la Piedra se quedó a vigilar a la familia. Dalinar aprovechó para hacerle preguntas. Estaba un poco confusa por la naturaleza de sus preguntas, pero le explicó que estaban en Natanatan durante la Octava Época. Le aclaró que las criaturas atacantes no eran Portadores del Vacío sino la Esencia de Medianoche — una de las Diez Muertes — aunque no sabía quién la había liberado. Habló brevemente de los Caballeros Radiantes: en aquella época las Órdenes tenían su centro en Urithiru pero los Caballeros vivían en Alezela. Instó a Dalinar a entrenarse con los Radiantes.",
+    "estado_en_viento_y_verdad": "Fallecida — vivió miles de años antes."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "Dalinar la encontró en la visión y le hizo preguntas sobre la Octava Época — ella las respondió con paciencia aunque algo confusa"
+      },
+      {
+        "personaje": "corredor_viento_lluvia_estrellas",
+        "relacion": "compañera Radiante en la visión de Lluvia de Estrellas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Serena y dedicada. Confusa por las preguntas inusuales de Dalinar pero respondió con paciencia. Firmemente convencida del deber de los Radiantes.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "La Custodia de la Piedra de Lluvia de Estrellas aparece en la visión del Padre Tormenta que Dalinar recibe de la batalla de Lluvia de Estrellas en Natanatan durante la Octava Época. Cuando el Corredor del Viento se marchó, se quedó vigilando a la familia. Dalinar le preguntó sobre los eventos. Ella explicó que estaban en la Octava Época, que las criaturas no eran Portadores del Vacío sino la Esencia de Medianoche, y que no sabía quién la había liberado. Instó a Dalinar a entrenarse con los Radiantes: 'Es nuestro deber y nuestro privilegio estar vigilantes ante la Desolación. Un reino estudia las artes de la guerra para que los otros puedan tener paz. Morimos para que podáis vivir. Siempre ha sido nuestro sitio.'",
+    "puntos_clave": [
+      "Caballero Radiante portadora de esquirlada de la Octava Época.",
+      "Aparece en la visión del Padre Tormenta de Dalinar — batalla de Lluvia de Estrellas en Natanatan.",
+      "Cuando el Corredor del Viento se marchó volando, se quedó a vigilar a la familia.",
+      "Dalinar la interrogó — estaba confusa por la naturaleza de sus preguntas.",
+      "Explicó que estaban en Natanatan durante la Octava Época.",
+      "Las criaturas atacantes eran la Esencia de Medianoche — una de las Diez Muertes — no Portadores del Vacío.",
+      "No sabía quién había liberado la Esencia de Medianoche.",
+      "En aquella época las Órdenes tenían su centro en Urithiru pero los Caballeros vivían en Alezela.",
+      "El deber de los Radiantes era entrenarse en el arte de la guerra y permanecer vigilantes.",
+      "Instó a Dalinar a entrenar con los Radiantes.",
+      "Cita: 'Morimos para que podáis vivir. Siempre ha sido nuestro sitio.'"
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — figura de las visiones de Dalinar",
+    "rol": "Caballero Radiante pre-Traición; explicó a Dalinar los eventos de la Octava Época",
+    "relacion_con_spren": "Desconocido.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Caballero Radiante de la Octava Época que aparece en las visiones de Dalinar. Explicó que las criaturas eran la Esencia de Medianoche, no Portadores del Vacío. Instó a Dalinar a entrenarse con los Radiantes: 'Morimos para que podáis vivir.'",
+  "notas": "Aparece en El Camino de los Reyes cap. 19. Su cita 'Morimos para que podáis vivir. Siempre ha sido nuestro sitio.' es una de las más potentes de las visiones de Dalinar."
+}
