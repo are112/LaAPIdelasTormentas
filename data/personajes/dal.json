@@ -1,0 +1,76 @@
+{
+  "id": "dal",
+  "nombre": "Dal",
+  "nombre_completo": "Dal",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Armería — soldado y armero ayudante de su padre Geb"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado alezi y armero ayudante de su padre Geb en Roshar"
+    ],
+    "descripcion": "Soldado alezi que trabaja como armero ayudante de su padre Geb. Mencionado en Viento y Verdad capítulo 39.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Geb",
+        "relacion": "padre; Dal trabaja como su armero ayudante"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado alezi y armero ayudante de su padre Geb. Mencionado en VyV capítulo 39. Información muy limitada.",
+    "puntos_clave": [
+      "Soldado alezi y armero ayudante de su padre Geb.",
+      "Mencionado en VyV capítulo 39."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado y armero ayudante de Geb",
+    "rol": "Personaje menor de VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado alezi y armero ayudante de su padre Geb. Mencionado en Viento y Verdad.",
+  "notas": "Página de la Coppermind necesita actualización con información de VyV. Información muy limitada."
+}

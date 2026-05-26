@@ -1,0 +1,98 @@
+{
+  "id": "da",
+  "nombre": "Da",
+  "nombre_completo": "Da",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Platería — tenía su propia platería en Kholinar con su esposa Ana"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Abuelo de Moash",
+      "Platero de segunda nahn en Kholinar",
+      "El que le puso el nombre Moash a su nieto"
+    ],
+    "descripcion": "Abuelo de Moash. Da y su esposa Ana eran ojos oscuros de segunda nahn — un rango alto en el sistema de castas. Tenían su propia platería en Kholinar y eran considerados importantes entre los ojos oscuros. Fue Da quien le puso el nombre Moash a su nieto. No está claro si Da era su nombre real o un apodo usado por Moash. Cuando los padres de Moash murieron, Da y Ana lo acogieron y lo criaron. Roshone apeló al entonces príncipe heredero Elhokar para un 'favor' — Elhokar los encarceló en las mazmorras del palacio bajo cargos falsos. Al darse cuenta de que como ojos oscuros de segunda nahn tenían derecho a juicio, Elhokar los dejó pudrir en la celda ignorando su papeleo. Da y Ana, que tenían unos 75 años, murieron en las mazmorras esperando juicio. Moash lo descubrió dos meses después al regresar de una caravana.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "moash",
+        "relacion": "nieto — Da y Ana lo acogieron y criaron tras la muerte de sus padres; fue Da quien le puso el nombre"
+      },
+      {
+        "personaje": "ana",
+        "relacion": "esposa — juntos criaron a Moash y murieron en las mazmorras del palacio"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "elhokar",
+        "relacion": "Elhokar los encarceló bajo cargos falsos y los dejó morir en las mazmorras ignorando su papeleo"
+      },
+      {
+        "personaje": "roshone",
+        "relacion": "Roshone apeló a Elhokar para que los encarcelara"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Hombre bondadoso — Moash creía que su bondad los mató.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Da y su esposa Ana eran plateros de segunda nahn en Kholinar. Acogieron a Moash cuando sus padres murieron y lo criaron. Da le puso el nombre Moash — un nombre de origen cantor antiguo. Roshone apeló a Elhokar para encarcelarlos bajo cargos falsos. Elhokar, dándose cuenta de que su acto corrupto podría exponerse en juicio, los dejó pudrir en las mazmorras. Da y Ana murieron a los ~75 años esperando un juicio que nunca llegó. Moash lo supo dos meses después al regresar a una casa vacía. Su muerte originó el odio de Moash hacia los Kholin.",
+    "puntos_clave": [
+      "Abuelo de Moash — acogió a Moash con Ana tras la muerte de sus padres.",
+      "Platero de segunda nahn en Kholinar — considerados importantes entre los ojos oscuros.",
+      "Fue Da quien le puso el nombre Moash a su nieto.",
+      "Roshone apeló a Elhokar para encarcelarlos bajo cargos falsos.",
+      "Elhokar los dejó pudrir en las mazmorras ignorando su papeleo.",
+      "Da y Ana murieron con ~75 años en las mazmorras esperando juicio.",
+      "Moash lo supo dos meses después al regresar a una casa vacía.",
+      "Moash creía que su bondad los mató.",
+      "El asunto se conoció como el 'caso Roshone' y fue un escándalo cuando Dalinar regresó de las Llanuras."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Abuelo de Moash; origen de su odio hacia los Kholin",
+    "relacion_con_spren": "",
+    "otros_detalles": "No está claro si Da era su nombre real o un apodo de Moash."
+  },
+  "descripcion_breve": "Abuelo de Moash. Platero de segunda nahn en Kholinar. Acogió a Moash con su esposa Ana tras la muerte de sus padres. Murió en las mazmorras del palacio por la corrupción de Elhokar y Roshone.",
+  "notas": "El 'caso Roshone' fue un escándalo conocido en Alezkar — Dalinar lo descubrió al regresar de las Llanuras. Moash: 'Siempre he creído que su bondad los mató.'"
+}
