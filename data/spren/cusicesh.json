@@ -2,52 +2,52 @@
   "id": "cusicesh",
   "nombre": "Cusicesh",
   "apodos": [
-    "Cusicesh el Protector"
+    "El Protector"
   ],
-  "tipo_spren": "spren único de gran tamaño",
-  "es_splinter_de": "desconocido — más Investidura que un spren típico pero menos que el Padre Tormenta o la Vigilante Nocturna",
+  "tipo_spren": "spren primigenio",
+  "es_splinter_de": "Honor y Cultivación",
   "mundo_natal": "Roshar",
   "estado_actual": "activo",
   "origen": {
     "creador": "desconocido",
-    "lugar_creacion": "bahía de Kasitor, Iri, Roshar",
-    "generacion": "desconocida — presente desde hace mucho tiempo",
-    "notas": "Uno de los pocos spren únicos de Roshar. Ha estado presente en la bahía de Kasitor desde tiempos inmemoriales. Está arraigado en la sociedad de Kasitor hasta el punto de dictar su sistema local de medición del tiempo."
+    "lugar_creacion": "Bahía de Kasitor, Iri",
+    "generacion": "desconocida",
+    "notas": "Cusicesh lleva presente en la bahía de Kasitor desde hace mucho tiempo. Dicta el sistema local de medición del tiempo. Según Brandon Sanderson, está por debajo de los spren primigenios como el Padre Tormenta y la Vigilante Nocturna."
   },
   "apariencia": {
     "reino_fisico": {
-      "forma_preferida": "chorro de agua en forma de columna de 30 metros de altura, con cuatro largos brazos que se extienden hacia abajo desde la columna formando dedos y pulgares. Siempre en los mismos lugares — los habitantes han colocado grandes pedestales dorados donde se posan las manos.",
+      "forma_preferida": "enorme criatura azul marino translúcida con cuello en forma de tronco, cuatro brazos largos con dedos y pulgares, y un rostro que cambia rápidamente entre miles de caras humanas masculinas y femeninas",
       "formas_alternativas": [],
-      "color": "azul marino translúcido — del azul profundo en el centro al azul más claro en la superficie",
-      "visibilidad": "visible para todos — surge de las aguas de la bahía exactamente a las 7:46 de la mañana cada día",
-      "notas_emocionales": "forma un rostro sobre un cuello en forma de tronco que siempre mira hacia el este, hacia el Origen; el rostro cambia rápidamente a diferentes caras humanas, tanto masculinas como femeninas. Deja a los observadores con una sensación de agotamiento."
+      "color": "azul marino translúcido — azul profundo en el centro, azul más claro en la superficie",
+      "visibilidad": "visible a simple vista — emerge del mar interior de Iri",
+      "notas_emocionales": "su presencia deja a los espectadores con una sensación de agotamiento"
     },
     "reino_cognitivo": {
       "forma": "desconocida",
-      "limitaciones": "desconocidas"
+      "limitaciones": ""
     },
     "como_hoja_esquirlada": {
-      "forma_habitual": "no aplica — no puede vincularse con Radiantes",
+      "forma_habitual": "no aplica",
       "otras_formas": [],
       "material": "no aplica"
     }
   },
   "personalidad": {
     "rasgos": [
-      "sin personalidad conocida — no interactúa de forma cognitiva con los observadores"
+      "misterioso",
+      "puntual — emerge exactamente a las 7:46 de la mañana todos los días",
+      "inabarcable — ni Axies pudo clasificarlo"
     ],
     "valores": [],
-    "notas": "No está claro si Cusicesh tiene consciencia en el sentido en que la tienen otros spren sapientes. No interactúa con los observadores. Su aparición diaria a las 7:46 exactas es perfectamente predecible."
+    "notas": "Los rostros que muestra cambian tan rápidamente que Axies no pudo determinar si alguno se repetía. Algunos parecían masculinos, otros femeninos. Axies quedó fascinado y no fue capaz de clasificarlo."
   },
   "habilidades": {
     "generales": [
-      "aparición diaria exacta a las 7:46 de la mañana — tan precisa que los lugareños ajustan sus relojes por ella",
-      "envía una estela ilusoria al emerger",
-      "rostro que cambia rápidamente entre cientos de caras humanas diferentes",
-      "deja a los observadores con una sensación de agotamiento"
+      "apertura de la Perpendicularidad de Honor — facilitó que los iriali abandonaran Roshar poco antes de la Noche de las Penas",
+      "influencia sobre el tiempo local — dicta el sistema de medición del tiempo en Kasitor"
     ],
     "magicas": [
-      "no puede formar vínculos Nahel — razones no relacionadas con su nivel de Investidura"
+      "gran cantidad de Investidura según Brandon Sanderson"
     ]
   },
   "vinculo_nahel": {
@@ -55,37 +55,33 @@
     "orden_radiante": null,
     "potencias_otorgadas": [],
     "forma_shardblade": "no aplica",
-    "estado_vinculo": "no puede formar vínculos Nahel",
+    "estado_vinculo": "no vinculado a ningún Radiante",
     "radiante_anterior": null,
-    "notas": "No puede vincularse con Radiantes por razones no relacionadas con su nivel de Investidura. Está compuesto por más Investidura que un spren típico pero no al mismo nivel que el Padre Tormenta o la Vigilante Nocturna."
+    "notas": "Brandon Sanderson confirmó que Cusicesh es un spren peculiar con mucha Investidura pero que no se convirtió en spren Radiante. Está por debajo del Padre Tormenta y la Vigilante Nocturna."
   },
   "historia": {
-    "resumen": "Cusicesh el Protector es un spren enorme que surge de las aguas de la bahía de Kasitor en Iri exactamente a las 7:46 de la mañana cada día. Su aparición es tan predecible que los lugareños ajustan sus relojes por ella. Siempre mira hacia el este, hacia el Origen. Las caras que muestra cambian rápidamente entre cientos de rostros humanos. Axies el Coleccionista viajó especialmente a Kasitor para observarlo. Shallan, al descubrir el nombre de Odium, se preguntó si sería un spren único como Cusicesh.",
+    "resumen": "Cusicesh lleva presente en la bahía de Kasitor desde hace mucho tiempo. Surge cada mañana exactamente a las 7:46 y muestra su ciclo de miles de rostros durante diez minutos antes de retirarse. Los habitantes de Kasitor han construido una plataforma de observación para verlo. Está tan arraigado en la cultura local que dicta el sistema de medición del tiempo. Axies el Coleccionista viajó hasta Kasitor para observarlo y quedó fascinado — no pudo clasificarlo entre los spren que había visto. Poco antes de la Noche de las Penas abrió la Perpendicularidad de Honor para que los iriali pudieran abandonar Roshar.",
     "puntos_clave": [
-      "surge de la bahía de Kasitor exactamente a las 7:46 de la mañana cada día sin excepción",
-      "los lugareños ajustan sus relojes por su aparición — dicta el sistema local de medición del tiempo",
-      "columna de agua de 30 metros con cuatro brazos — los habitantes han colocado pedestales dorados donde se posan sus manos",
-      "siempre mira hacia el este, hacia el Origen",
-      "rostro que cambia rápidamente entre cientos de caras humanas diferentes",
-      "deja a los observadores con una sensación de agotamiento",
-      "está compuesto por más Investidura que un spren típico pero menos que el Padre Tormenta o la Vigilante Nocturna",
-      "no puede formar vínculos Nahel — razones desconocidas no relacionadas con su Investidura",
-      "los habitantes han construido una plataforma de observación en la bahía — suele llenarse de gente",
-      "algunos iriali lo adoran como a un dios; otros lo ven simplemente como parte de la ciudad",
-      "Axies el Coleccionista viajó a Kasitor para observarlo",
-      "Shallan lo mencionó como ejemplo de spren único al descubrir el nombre de Odium"
+      "Spren enorme — al menos cien pies de altura según Axies.",
+      "Emerge de la bahía de Kasitor exactamente a las 7:46 de la mañana todos los días.",
+      "Azul marino translúcido — centro azul profundo, bordes más claros.",
+      "Cuatro brazos largos con dedos — los habitantes han colocado pedestales dorados donde se posan las manos.",
+      "Rostro en cuello en forma de tronco que siempre mira al Este, hacia el Origen.",
+      "Muestra miles de rostros humanos que cambian rápidamente — masculinos y femeninos.",
+      "Permanece diez minutos antes de retirarse.",
+      "Su presencia deja a los espectadores con sensación de agotamiento.",
+      "Dicta el sistema local de medición del tiempo en Kasitor.",
+      "Los iriali lo consideran parte de la ciudad — algunos lo adoran como a un dios.",
+      "Axies lo estudió y no pudo clasificarlo entre los spren conocidos.",
+      "Poco antes de la Noche de las Penas, abrió la Perpendicularidad de Honor para los iriali.",
+      "Brandon Sanderson confirmó que tiene mucha Investidura pero no es un spren Radiante."
     ]
   },
   "apariciones": {
     "libros": [
       {
         "titulo": "El Camino de los Reyes",
-        "rol": "interludio — protagonista indirecto",
-        "pov": false
-      },
-      {
-        "titulo": "Palabras Radiantes",
-        "rol": "mención",
+        "rol": "interludio de Axies",
         "pov": false
       }
     ]
@@ -96,10 +92,10 @@
     "otros": [
       {
         "personaje": "axies",
-        "relacion": "Axies viajó especialmente a Kasitor para observarlo"
+        "relacion": "Axies viajó a Kasitor para observarlo y quedó fascinado — no pudo clasificarlo"
       }
     ]
   },
-  "descripcion_breve": "Spren único enorme que surge de la bahía de Kasitor en Iri exactamente a las 7:46 de la mañana cada día. Columna de agua de 30 metros que siempre mira hacia el Origen. Su rostro cambia entre cientos de caras humanas. Los lugareños ajustan sus relojes por su aparición.",
-  "notas": "Cusicesh es uno de los pocos spren únicos de Roshar junto a la Vigilante Nocturna y el Padre Tormenta. Está compuesto por más Investidura que un spren típico pero no puede formar vínculos Nahel. Algunos iriali lo adoran como dios. Su aparición diaria a las 7:46 exactas es perfectamente predecible."
+  "descripcion_breve": "Enorme spren primigenio que emerge de la bahía de Kasitor cada mañana exactamente a las 7:46. Muestra miles de rostros humanos durante diez minutos. Dicta el tiempo local en Kasitor. Abrió la Perpendicularidad de Honor para los iriali.",
+  "notas": "Brandon Sanderson confirmó que está por debajo del Padre Tormenta y la Vigilante Nocturna pero tiene mucha más Investidura que un spren sapiente normal. No se convirtió en spren Radiante."
 }
