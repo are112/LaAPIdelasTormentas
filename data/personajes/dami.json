@@ -1,0 +1,78 @@
+{
+  "id": "dami",
+  "nombre": "Dami",
+  "nombre_completo": "Dami",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "rira",
+  "origen": "Rira",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Custodios de la Piedra"
+  ],
+  "orden_radiantes": {
+    "orden": "Custodios de la Piedra",
+    "nivel_ideal": 4,
+    "spren_asociado": {
+      "principal": "cumbrespren desconocido"
+    },
+    "estado_del_vinculo": "Activo — ha jurado el Cuarto Ideal."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Cohesión",
+        "Tensión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — luchó durante la Verdadera Desolación"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Custodio de la Piedra de Rira que ha jurado el Cuarto Ideal"
+    ],
+    "descripcion": "Custodio de la Piedra de Rira. Ha jurado el Cuarto Ideal y está vinculado a un cumbrespren desconocido. Luchó durante la Verdadera Desolación.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Custodio de la Piedra de Rira. Ha jurado el Cuarto Ideal. Luchó durante la Verdadera Desolación en VyV.",
+    "puntos_clave": [
+      "Custodio de la Piedra de Rira.",
+      "Ha jurado el Cuarto Ideal.",
+      "Vinculado a un cumbrespren desconocido.",
+      "Luchó durante la Verdadera Desolación."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Custodio de la Piedra — Cuarto Ideal",
+    "rol": "Radiante de Rira en la Verdadera Desolación",
+    "relacion_con_spren": "Vínculo activo con un cumbrespren.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Custodio de la Piedra de Rira que ha jurado el Cuarto Ideal. Vinculado a un cumbrespren. Luchó durante la Verdadera Desolación.",
+  "notas": "Información limitada. Mencionado en VyV."
+}

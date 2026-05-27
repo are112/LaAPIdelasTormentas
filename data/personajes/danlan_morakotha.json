@@ -1,0 +1,117 @@
+{
+  "id": "danlan_morakotha",
+  "nombre": "Danlan Morakotha",
+  "nombre_completo": "Danlan Morakotha",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Principado Kholin, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama — agente de Taravangian",
+    "Ejército de Dalinar — escriba"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura — escriba profesional especializada en spanreeds",
+      "Espionaje — miembro del Diagrama con acceso a comunicaciones confidenciales de Dalinar",
+      "Inteligencia — Navani la encontró impresionante"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Brillante señora alezi extremadamente hermosa",
+      "Expareja de cortejo de Adolin Kholin",
+      "Escriba de Dalinar — con acceso a sus comunicaciones confidenciales por spanreed",
+      "Miembro del Diagrama — agente de Taravangian"
+    ],
+    "descripcion": "Mujer alezi extremadamente hermosa con pelo castaño rojizo — solo unos pocos mechones negros — recogido en una compleja trenza sostenida por cuatro pasadores de acero. Figura esbelta y cuello largo. Labios fruncidos y rojos. Voz suave y ronca. Hija del Brillante señor Morakotha, noble del principado Kholin. Viajó a las Llanuras Quebradas para pasar unos meses con su padre. Al día siguiente de llegar ya visitaba a Adolin. Adolin la hizo escriba de su padre — con acceso a los spanreeds de Dalinar y a sus conversaciones confidenciales, incluyendo la llamada de Jasnah sobre los Portadores del Vacío. Navani la conoció y la encontró inteligente. Adolin la llevó a una vinatería del mercado exterior. Algunos meses después Adolin rompió el cortejo por algo inapropiado que Danlan había dicho a sus amigos. La ruptura fue poco amistosa — Danlan lo maldijo. Siguió como escriba de Dalinar y cada vez que se cruzaba con Adolin lo fulminaba con la mirada. Es miembro del Diagrama — participó en el complot de Graves para matar a Elhokar y reemplazarlo con Dalinar. Estuvo presente cuando Moash llevó a Kaladin a reunirse con Graves y los conspiradores.",
+    "estado_en_viento_y_verdad": "Activa — destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "brillante_senor_morakotha",
+        "relacion": "padre — viajó a las Llanuras para visitarlo"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "navani",
+        "relacion": "Navani la conoció y la encontró inteligente — animó a Adolin a seguir el cortejo"
+      },
+      {
+        "personaje": "Graves",
+        "relacion": "compañero conspirador del Diagrama"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "expareja de cortejo — la ruptura fue poco amistosa; lo fulminaba con la mirada"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "objetivo del complot del Diagrama en el que participaba"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Inteligente y calculadora. Su participación en el Diagrama sugiere convicciones políticas profundas o ambición. La ruptura con Adolin la afectó — reaccionó con hostilidad duradera.",
+    "evolucion": "Pasó de pretendiente de Adolin a agente doble como escriba de Dalinar.",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Danlan viajó a las Llanuras Quebradas para visitar a su padre. Al día siguiente ya visitaba a Adolin. Adolin la hizo escriba de Dalinar — lo que le dio acceso a comunicaciones confidenciales. Navani la encontró impresionante. Adolin rompió el cortejo meses después por algo que Danlan dijo a sus amigos. La ruptura fue hostil. Danlan siguió como escriba de Dalinar. Era miembro del Diagrama — participó en el complot de Graves para matar a Elhokar. Estuvo presente cuando Moash llevó a Kaladin a la reunión de conspiradores.",
+    "puntos_clave": [
+      "Extremadamente hermosa — pelo castaño rojizo, figura esbelta, voz suave y ronca.",
+      "Viajó a las Llanuras para visitar a su padre Brillante señor Morakotha.",
+      "Al día siguiente de llegar ya visitaba a Adolin.",
+      "Adolin la hizo escriba de Dalinar — acceso a spanreeds confidenciales.",
+      "Estuvo presente cuando Jasnah llamó a Dalinar sobre los Portadores del Vacío.",
+      "Navani la encontró inteligente — animó a Adolin a seguir el cortejo.",
+      "Adolin rompió el cortejo por algo que Danlan dijo a sus amigos.",
+      "La ruptura fue hostil — Danlan lo maldijo y lo fulminaba con la mirada después.",
+      "Miembro del Diagrama — agente de Taravangian.",
+      "Participó en el complot de Graves para matar a Elhokar.",
+      "Presente cuando Moash llevó a Kaladin a reunirse con los conspiradores.",
+      "Su visita pudo ser cobertura para sus actividades como agente del Diagrama."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — última aparición en Palabras Radiantes",
+    "rol": "Agente del Diagrama; exescriba de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su acceso como escriba de Dalinar le permitió espiar comunicaciones confidenciales."
+  },
+  "descripcion_breve": "Brillante señora alezi extremadamente hermosa. Expareja de Adolin. Escriba de Dalinar con acceso a sus spanreeds confidenciales. Miembro del Diagrama — participó en el complot de Graves para matar a Elhokar.",
+  "notas": "Su visita a las Llanuras 'para ver a su padre' puede haber sido una misión del Diagrama. Su posición como escriba de Dalinar le daba acceso privilegiado a información estratégica."
+}

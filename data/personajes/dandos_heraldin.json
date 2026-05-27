@@ -1,0 +1,81 @@
+{
+  "id": "dandos_heraldin",
+  "nombre": "Dandos Heraldin",
+  "nombre_completo": "Dandos Heraldin",
+  "apodos": [
+    "Dandos Juraóleo"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Pintura — maestro artista con los pinceles, considerado uno de los mejores de Roshar",
+      "Matemáticas — comenzó el estudio de la perspectiva matemática aplicada al arte",
+      "Erudición multidisciplinar — destacó en múltiples campos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Maestro artista roshario conocido como Dandos Juraóleo",
+      "Pionero del estudio de la perspectiva matemática en el arte",
+      "Referente de erudición multidisciplinar citado por Shallan junto a Galid y Jasnah"
+    ],
+    "descripcion": "Maestro artista roshario conocido como Dandos Juraóleo — apodo que hace referencia a su dominio del óleo. Considerado uno de los mejores pintores de Roshar. También tenía profundos conocimientos de matemáticas y fue pionero en el estudio de la perspectiva matemática aplicada a las artes visuales. Shallan Davar lo cita junto a Galid y Jasnah Kholin como ejemplos de eruditos que destacaron en múltiples campos — lo que la inspira a ser conocida por algo más que su habilidad para dibujar.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dandos Heraldin, conocido como Dandos Juraóleo, fue uno de los mejores pintores de Roshar. Combinó su maestría artística con conocimientos matemáticos — fue pionero en el estudio de la perspectiva matemática en las artes visuales. Shallan lo cita en Juramentada junto a Galid y Jasnah como ejemplos de eruditos multidisciplinares que la inspiran a ser más que una dibujante.",
+    "puntos_clave": [
+      "Maestro artista roshario — uno de los mejores pintores conocidos.",
+      "Apodado Dandos Juraóleo por su dominio del óleo.",
+      "Pionero del estudio de la perspectiva matemática aplicada al arte.",
+      "Shallan lo cita junto a Galid y Jasnah como eruditos multidisciplinares.",
+      "Su figura inspira a Shallan a ser conocida por algo más que su habilidad para dibujar.",
+      "Mencionado en Juramentada capítulo 44."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Maestro artista y matemático citado como referente de erudición multidisciplinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Maestro artista roshario conocido como Dandos Juraóleo. Pionero de la perspectiva matemática en el arte. Shallan lo cita junto a Galid y Jasnah como ejemplo de erudito multidisciplinar.",
+  "notas": "Su apodo Juraóleo combina 'jura' (juramento) con 'óleo' — posible referencia a su dedicación casi sagrada a la pintura."
+}

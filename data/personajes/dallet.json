@@ -1,0 +1,91 @@
+{
+  "id": "dallet",
+  "nombre": "Dallet",
+  "nombre_completo": "Dallet",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram — escuadrón de Kaladin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — segundo en comando del escuadrón de Kaladin",
+      "Supervivencia — veterano endurecido con estrategias para sobrevivir en el campo de batalla",
+      "Mentalidad pragmática — enseñó a Kaladin las reglas reales de la guerra"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Segundo en comando del escuadrón de Kaladin en el ejército de Amaram",
+      "El veterano que enseñó a Kaladin las reglas reales de la supervivencia en la guerra",
+      "Muerto por Helaran Davar en una escaramuza fronteriza"
+    ],
+    "descripcion": "Veterano alezi, segundo en comando en el escuadrón de Kaladin durante su tiempo como líder de escuadrón en el ejército del Alto Mariscal Amaram. Hombre duro y pragmático con cicatrices. Enseñó a Kaladin las reglas reales de la guerra — que sobrevivir era más importante que morir siendo héroe, y que un buen líder cuida a sus hombres eligiendo cuándo luchar y cuándo retirarse. Murió durante una escaramuza fronteriza con las fuerzas vedenas cuando Helaran Davar, portador de esquirlada, atacó al escuadrón.",
+    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su líder de escuadrón — Dallet era su segundo; le enseñó las reglas reales de la guerra"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "helaran",
+        "relacion": "Helaran Davar lo mató durante la escaramuza fronteriza con los vedenos"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático y cínico. Entendía que la guerra no era gloriosa — era supervivencia. Su influencia en Kaladin fue profunda.",
+    "evolucion": "Sin arco propio — muere antes de los eventos principales.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dallet era el segundo en comando del escuadrón de Kaladin en el ejército de Amaram. Veterano endurecido, enseñó a Kaladin la filosofía real de la supervivencia en la guerra: proteger a los hombres, elegir las batallas, no morir por gloria. Kaladin lo respetaba profundamente. Durante una escaramuza fronteriza con fuerzas vedenas, el portador de esquirlada Helaran Davar atacó al escuadrón. Dallet murió en esa batalla. Su muerte fue parte de los eventos que llevaron a Kaladin a enfrentarse a Helaran y a que Amaram traicionara a Kaladin.",
+    "puntos_clave": [
+      "Veterano alezi, segundo en comando del escuadrón de Kaladin en Amaram.",
+      "Enseñó a Kaladin las reglas reales de la guerra — supervivencia sobre gloria.",
+      "Murió durante una escaramuza fronteriza con fuerzas vedenas.",
+      "Muerto por Helaran Davar, portador de esquirlada.",
+      "Su muerte es parte de los eventos que llevaron a la traición de Amaram.",
+      "Kaladin pensaba en él cuando recordaba a los que no pudo salvar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Segundo en comando del escuadrón de Kaladin; su mentor en la guerra real",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Veterano alezi y segundo en comando del escuadrón de Kaladin en Amaram. Enseñó a Kaladin las reglas reales de la supervivencia en la guerra. Murió a manos de Helaran Davar en una escaramuza fronteriza.",
+  "notas": "La influencia de Dallet en Kaladin fue decisiva — le enseñó que un buen líder elige cuándo luchar y cuándo retirarse para proteger a sus hombres. Su filosofía contrastaba con el idealismo inicial de Kaladin."
+}

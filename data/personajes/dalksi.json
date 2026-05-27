@@ -1,0 +1,105 @@
+{
+  "id": "dalksi",
+  "nombre": "Dalksi",
+  "nombre_completo": "Dalksi",
+  "apodos": [
+    "Dalky — apodo que le da Lift, nunca aprende su nombre correcto"
+  ],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Palacio de Bronce — consejo de visires de Yanagawn"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política — visir azishiana y consejera de Yanagawn",
+      "Administración — una de las consejeras más importantes del Supremo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Visir azishiana durante la Era de la Soledad",
+      "Una de las consejeras más importantes de Yanagawn",
+      "La que entregó deliberadamente una mala solicitud para no ser elegida Supremo"
+    ],
+    "descripcion": "Visir azishiana de pelo blanco polvoriento y nariz con forma extraña que recuerda a un tapón. La más mayor de los consejeros de Yanagawn aunque no la más experimentada. En 1173, asistió al conclave sagrado en el Palacio de Bronce para escoger nuevo Supremo tras el asesinato de los dos Aqasix por Szeth. Como muchos otros, temía ser escogida. Para evitarlo, entregó deliberadamente una mala solicitud con palabras mal deletreadas. Otro visir intentó señalarlo como positivo, pero ella lo rechazó afirmando que la solicitud de Axikk era mucho mejor. Lift la conoció en el palacio y nunca aprendió su nombre correcto — la llamaba Dalky. Es una de las consejeras más importantes de Yanagawn.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "yanagawn",
+        "relacion": "su Supremo — es una de sus consejeras más importantes"
+      },
+      {
+        "personaje": "axikk",
+        "relacion": "compañero visir — afirmó que su solicitud era mucho mejor que la suya para evitar ser elegida Supremo"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "lift",
+        "relacion": "Lift la conoció en el palacio y nunca aprendió su nombre — la llamaba Dalky"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmática y astuta. Saboteó deliberadamente su propia candidatura al Supremo por miedo. Frase memorable: '¡What! I misspelled three words in the first paragraph alone!' al mencionar su solicitud.",
+    "evolucion": "Pasó de visir menor a consejera clave de Yanagawn.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "En 1173, tras el asesinato de los dos Aqasix Supremos por Szeth, Dalksi asistió al conclave sagrado en el Palacio de Bronce. Temiendo ser elegida Supremo, entregó deliberadamente una solicitud llena de errores ortográficos. Otro visir intentó valorarla positivamente, pero ella insistió en que la de Axikk era mucho mejor. Lift la conoció durante su tiempo en el palacio — nunca aprendió su nombre y la llamaba Dalky. Con Yanagawn como nuevo Supremo, Dalksi se convirtió en una de sus consejeras más importantes. Estuvo presente cuando la flota azishiana escapó de Ciudad Thaylen antes de la Batalla de la Explanada Thayleña. Abrió la puerta a Vono cuando vino a informar de que Lift había escapado.",
+    "puntos_clave": [
+      "Visir azishiana con pelo blanco polvoriento y nariz con forma de tapón.",
+      "La más mayor de los consejeros de Yanagawn pero no la más experimentada.",
+      "En 1173 asistió al conclave para elegir nuevo Supremo tras el asesinato de los Aqasix por Szeth.",
+      "Entregó deliberadamente una solicitud con errores ortográficos para no ser elegida.",
+      "Afirmó que la solicitud de Axikk era mucho mejor que la suya.",
+      "Lift la conoció en el palacio — nunca aprendió su nombre y la llamaba Dalky.",
+      "Una de las consejeras más importantes de Yanagawn.",
+      "Estuvo presente cuando la flota azishiana escapó de Ciudad Thaylen.",
+      "Le preguntó a Yanagawn qué quería decir cuando Lift era 'el otro tipo de lista'.",
+      "Abrió la puerta a Vono cuando informó de que Lift había escapado."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Visir — consejera de Yanagawn",
+    "rol": "Una de las consejeras más importantes del Supremo Yanagawn",
+    "relacion_con_spren": "",
+    "otros_detalles": "Lift nunca aprendió su nombre — la llamaba Dalky."
+  },
+  "descripcion_breve": "Visir azishiana, consejera clave de Yanagawn. Saboteó deliberadamente su candidatura al Supremo con errores ortográficos. Lift la conocía como Dalky. Nariz con forma de tapón, pelo blanco polvoriento.",
+  "notas": "Su frase al presentar su mala solicitud es memorable: 'What! I misspelled three words in the first paragraph alone!' — en la versión original en inglés. Prueba de su humor y pragmatismo."
+}
