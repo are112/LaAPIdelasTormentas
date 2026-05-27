@@ -864,8 +864,48 @@
     "especie": "humano"
   },
   {
+    "id": "da",
+    "nombre": "Da",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "dabbid",
     "nombre": "Dabbid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dakhnah",
+    "nombre": "Dakhnah",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "dal",
+    "nombre": "Dal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dalar",
+    "nombre": "Dalar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "dali",
+    "nombre": "Dali",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
@@ -877,6 +917,46 @@
     "orden": "Forjadores de Vínculos",
     "nivel_ideal": 3,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "dalksi",
+    "nombre": "Dalksi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "dallet",
+    "nombre": "Dallet",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "dami",
+    "nombre": "Dami",
+    "orden": "Custodios de la Piedra",
+    "nivel_ideal": 4,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dandos_heraldin",
+    "nombre": "Dandos Heraldin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "danlan_morakotha",
+    "nombre": "Danlan Morakotha",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
