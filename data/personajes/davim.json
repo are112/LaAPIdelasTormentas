@@ -1,0 +1,91 @@
+{
+  "id": "davim",
+  "nombre": "Davim",
+  "nombre_completo": "Davim",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — Consejo de los Cinco de Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo político — miembro del Consejo de los Cinco",
+      "Estrategia — señaló que Eshonai era la última portadora de esquirlada"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Consejo de los Cinco en forma trabajo",
+      "El que apoyó que Eshonai probara la forma tormenta en lugar de Venli"
+    ],
+    "descripcion": "Cantor oyente miembro del Consejo de los Cinco de Narak, en forma trabajo. Cuando Venli propuso el plan de adoptar la forma tormenta, Davim estaba ansioso por probarla. Aun así, apoyó que fuera Eshonai quien realizara la prueba, pues Venli era demasiado importante para perderla. Señaló que Eshonai era su última portadora de esquirlada, mostrando preocupación táctica. Tras ver a Eshonai poseída, al principio se enfadó con ella por no compartir sus planes con el Consejo. Más tarde preguntó cómo se sentía la forma tormenta y su interés creció enormemente. Eshonai creía que ya estaba de su lado.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseído por un Fusionado durante la tormenta eterna."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "eshonai",
+        "relacion": "compañero del Consejo — apoyó que probara la forma tormenta; luego se enfadó con ella por no compartir sus planes"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "compañera del Consejo — defendió que era demasiado valiosa para arriesgarla en la prueba"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático y estratégico. Su curiosidad sobre la forma tormenta lo hacía vulnerable a ser seducido por ella.",
+    "evolucion": "Pasó de cauto a interesado en adoptar la forma tormenta.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Davim era miembro del Consejo de los Cinco en forma trabajo. Estaba ansioso por probar la forma tormenta pero apoyó que fuera Eshonai quien la probara — Venli era demasiado importante. Señaló que Eshonai era su última portadora de esquirlada. Tras ver a Eshonai poseída, se enfadó con ella por no compartir sus planes. Luego preguntó cómo se sentía la nueva forma y se volvió mucho más interesado. Eshonai creía que ya estaba de su lado — lo que sugería que planificaba adoptar la forma tormenta él mismo.",
+    "puntos_clave": [
+      "Miembro del Consejo de los Cinco de los oyentes en forma trabajo.",
+      "Estaba ansioso por probar la forma tormenta.",
+      "Apoyó que fuera Eshonai quien la probara — Venli era demasiado valiosa.",
+      "Señaló que Eshonai era la última portadora de esquirlada de los oyentes.",
+      "Tras ver a Eshonai poseída, se enfadó con ella por no compartir sus planes.",
+      "Luego preguntó cómo se sentía la forma tormenta — su interés creció enormemente.",
+      "Eshonai creía que ya estaba de su lado.",
+      "Implicaba que planeaba adoptar la forma tormenta él mismo.",
+      "Destino desconocido tras la tormenta eterna."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Miembro del Consejo de los Cinco; figura política menor de los oyentes",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Cantor del Consejo de los Cinco en forma trabajo. Apoyó el plan de la forma tormenta y que fuera Eshonai quien la probara. Tras ver a Eshonai poseída, preguntó cómo se sentía — su interés en adoptarla creció enormemente.",
+  "notas": "Su creciente interés en la forma tormenta sugiere que planeaba adoptarla. Destino desconocido tras la tormenta eterna."
+}

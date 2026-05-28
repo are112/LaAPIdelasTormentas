@@ -1,0 +1,94 @@
+{
+  "id": "deedanor",
+  "nombre": "Deedanor",
+  "nombre_completo": "Capitán Deedanor",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Muralla de Kholinar — Séptimo Pelotón"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — capitán y líder del Séptimo Pelotón de la Guardia de la Muralla"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitán y líder del Séptimo Pelotón de la Guardia de la Muralla de Kholinar",
+      "El que murió arrojado desde la muralla por un Fusionado mientras Kaladin decidía no arriesgar sus poderes"
+    ],
+    "descripcion": "Capitán alezi de la Guardia de la Muralla de Kholinar, líder del Séptimo Pelotón. Su segundo era el teniente Noromin, que mandaba el pelotón en su ausencia. Estaba en la mesa de la cena cuando Kaladin interrogó a la Alta Mariscal Azure sobre su identidad y pasado — Deedanor se quedó boquiabierto por la audacia de las preguntas. Cuando un Fusionado atacó la muralla, subió con el resto del pelotón. Un Fusionado lo inmovilizó contra las almenas con su lanza y luego lo levantó y lo arrojó desde lo alto de la muralla. Kaladin consideró usar sus poderes para salvarlo pero decidió que no valía el riesgo de desvelar sus habilidades.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "noromin",
+        "relacion": "su segundo en el Séptimo Pelotón — mandaba en su ausencia"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin decidió no arriesgarse a salvarlo — Deedanor murió"
+      },
+      {
+        "personaje": "Fusionado desconocido",
+        "relacion": "el Fusionado lo inmoviló con su lanza y lo arrojó desde la muralla"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional. Reaccionó con asombro ante las preguntas directas de Kaladin a Azure.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Capitán de la Guardia de la Muralla de Kholinar. Estaba en la cena cuando Kaladin interrogó a Azure — se quedó boquiabierto. Cuando un Fusionado atacó la muralla, subió con el pelotón. El Fusionado lo inmovilizó con su lanza y lo arrojó desde la muralla. Murió al golpear el suelo. Kaladin valoró salvarlo pero decidió que no valía el riesgo de exponer sus poderes.",
+    "puntos_clave": [
+      "Capitán alezi del Séptimo Pelotón de la Guardia de la Muralla de Kholinar.",
+      "Su segundo era el teniente Noromin.",
+      "Se quedó boquiabierto cuando Kaladin interrogó a Azure sobre su identidad.",
+      "Cuando un Fusionado atacó la muralla, subió con el pelotón.",
+      "El Fusionado lo inmovilizó con su lanza contra las almenas.",
+      "Lo levantó y lo arrojó desde lo alto de la muralla.",
+      "Murió al golpear el suelo.",
+      "Kaladin consideró salvarlo con sus poderes pero decidió que no valía el riesgo."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Capitán de la Guardia de la Muralla cuya muerte ilustró las limitaciones de Kaladin en Kholinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Capitán del Séptimo Pelotón de la Guardia de la Muralla de Kholinar. Un Fusionado lo inmovilizó y arrojó desde la muralla. Kaladin decidió no arriesgarse a salvarlo — Deedanor murió al caer.",
+  "notas": "Su muerte es uno de los momentos más tensos del arco de Kholinar — Kaladin tuvo que elegir entre salvar a un hombre y exponer sus poderes. Eligió no arriesgarse."
+}

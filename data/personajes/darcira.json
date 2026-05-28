@@ -1,0 +1,84 @@
+{
+  "id": "darcira",
+  "nombre": "Darcira",
+  "nombre_completo": "Darcira",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Tejedores de Luz"
+  ],
+  "orden_radiantes": {
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": 1,
+    "spren_asociado": {
+      "principal": "críptico sin nombre"
+    },
+    "estado_del_vinculo": "Primer Ideal — no puede manifestar hoja esquirlada."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Iluminación",
+        "Transformación"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Esgrima — entrenó con Shallan antes de la ocupación cantor"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Tejedora de Luz del Primer Ideal",
+      "La que entrenó esgrima y Tejido de Luz con Shallan antes de la ocupación cantor"
+    ],
+    "descripcion": "Tejedora de Luz vinculada a un críptico sin nombre. Presumiblemente en el Primer Ideal — no puede manifestar una hoja esquirlada. Poco antes de la ocupación cantor de Urithiru, entrenó esgrima y Tejido de Luz con Shallan en una cámara bajo la torre.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "entrenó esgrima y Tejido de Luz con ella antes de la ocupación cantor"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Tejedora de Luz del Primer Ideal. Poco antes de la ocupación cantor de Urithiru, entrenó esgrima y Tejido de Luz con Shallan en una cámara bajo la torre.",
+    "puntos_clave": [
+      "Tejedora de Luz del Primer Ideal — no puede manifestar hoja esquirlada.",
+      "Vinculada a un críptico sin nombre.",
+      "Entrenó esgrima y Tejido de Luz con Shallan antes de la ocupación cantor.",
+      "El entrenamiento fue en una cámara bajo la torre de Urithiru."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Tejedora de Luz",
+    "rol": "Radiante menor de RdG",
+    "relacion_con_spren": "Vínculo activo con un críptico sin nombre.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Tejedora de Luz del Primer Ideal. Entrenó esgrima y Tejido de Luz con Shallan en una cámara bajo la torre de Urithiru antes de la ocupación cantor.",
+  "notas": "Información limitada — mencionada en RdG."
+}

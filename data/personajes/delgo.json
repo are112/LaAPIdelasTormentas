@@ -1,0 +1,78 @@
+{
+  "id": "delgo",
+  "nombre": "Delgo",
+  "nombre_completo": "Delgo",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor — mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama — agente de Taravangian"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Diagrama considerado demasiado útil para desperdiciar por Taravangian"
+    ],
+    "descripcion": "Miembro del Diagrama cuya función exacta en la organización era desconocida. Taravangian lo consideraba demasiado útil para desperdiciar. Cuando Taravangian planeaba disolver el Diagrama al considerar que su propósito había sido cumplido, creía que Delgo aceptaría la disolución.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "taravangian",
+        "relacion": "su superior en el Diagrama — lo consideraba demasiado útil para desperdiciar"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa. Taravangian confiaba en que aceptaría la disolución del Diagrama.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Miembro del Diagrama cuya función exacta era desconocida. Taravangian lo consideraba demasiado útil para desperdiciar. Cuando planeaba disolver el Diagrama, creía que Delgo lo aceptaría al saber que el propósito había sido cumplido. Mencionado en el interludio I-3 de RdG.",
+    "puntos_clave": [
+      "Miembro del Diagrama — función exacta desconocida.",
+      "Taravangian lo consideraba demasiado útil para desperdiciar.",
+      "Taravangian creía que Delgo aceptaría la disolución del Diagrama.",
+      "Mencionado en RdG interludio I-3."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Agente del Diagrama — función desconocida",
+    "rol": "Miembro valioso del Diagrama según Taravangian",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Diagrama considerado demasiado útil para desperdiciar por Taravangian. Función exacta desconocida. Taravangian creía que aceptaría la disolución del Diagrama.",
+  "notas": "Solo mencionado en el interludio I-3 de RdG. El hecho de que Taravangian lo considerara especialmente útil sugiere un rol estratégico dentro del Diagrama."
+}

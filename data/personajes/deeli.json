@@ -1,0 +1,84 @@
+{
+  "id": "deeli",
+  "nombre": "Deeli",
+  "nombre_completo": "Deeli",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Llanuras Quebradas, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Mujer ojos claros de las Llanuras Quebradas",
+      "Expareja de cortejo de Adolin Kholin"
+    ],
+    "descripcion": "Mujer ojos claros de las Llanuras Quebradas. Baja y con afición por las cintas plateadas en el pelo. En 1173 cortejó a Adolin Kholin y llegó a conocer a su padre Dalinar. La relación no funcionó. Durante el cortejo alegó 'razones femeninas' cuatro veces en un solo mes.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "expareja de cortejo en 1173 — la relación no funcionó"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Deeli cortejó a Adolin Kholin en 1173 en las Llanuras Quebradas y conoció a Dalinar. Durante el cortejo alegó razones femeninas cuatro veces en un solo mes. La relación no funcionó.",
+    "puntos_clave": [
+      "Mujer ojos claros de las Llanuras Quebradas — baja, con cintas plateadas en el pelo.",
+      "En 1173 cortejó a Adolin Kholin.",
+      "Llegó a conocer a Dalinar Kholin.",
+      "Alegó 'razones femeninas' cuatro veces en un solo mes.",
+      "La relación no funcionó.",
+      "Adolin la recuerda en Juramentada capítulo 21."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Expareja de cortejo de Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mujer ojos claros de las Llanuras Quebradas, baja y con cintas plateadas en el pelo. Cortejó a Adolin en 1173 y conoció a Dalinar. La relación no funcionó.",
+  "notas": "Una de las múltiples exparejas de Adolin — parte del patrón de cortejos fallidos antes de Shallan."
+}
