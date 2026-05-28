@@ -880,46 +880,6 @@
     "especie": "humano"
   },
   {
-    "id": "dalksi",
-    "nombre": "Dalksi",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
-    "id": "dallet",
-    "nombre": "Dallet",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "dami",
-    "nombre": "Dami",
-    "orden": "Custodios de la Piedra",
-    "nivel_ideal": 4,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "dandos_heraldin",
-    "nombre": "Dandos Heraldin",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "danlan_morakotha",
-    "nombre": "Danlan Morakotha",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
     "id": "darcira",
     "nombre": "Darcira",
     "orden": "Tejedores de Luz",
@@ -960,12 +920,52 @@
     "especie": "humano"
   },
   {
+    "id": "delp",
+    "nombre": "Delp",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "dem",
+    "nombre": "Dem",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "demid",
     "nombre": "Demid",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "cantor"
+  },
+  {
+    "id": "den",
+    "nombre": "Den",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "denshil",
+    "nombre": "Denshil",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "derethil",
+    "nombre": "Derethil",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
   },
   {
     "id": "don",
