@@ -880,46 +880,6 @@
     "especie": "humano"
   },
   {
-    "id": "darcira",
-    "nombre": "Darcira",
-    "orden": "Tejedores de Luz",
-    "nivel_ideal": 1,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
-    "id": "davim",
-    "nombre": "Davim",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "cantor"
-  },
-  {
-    "id": "deedanor",
-    "nombre": "Deedanor",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "deeli",
-    "nombre": "Deeli",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
-    "id": "delgo",
-    "nombre": "Delgo",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
     "id": "delp",
     "nombre": "Delp",
     "orden": "Ninguna",
@@ -966,6 +926,46 @@
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
+  },
+  {
+    "id": "deti",
+    "nombre": "Deti",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "devi",
+    "nombre": "Devi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "devmrh",
+    "nombre": "Devmrh",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "dialectur",
+    "nombre": "Dialectur",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "dianil",
+    "nombre": "Dianil",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
   },
   {
     "id": "don",
