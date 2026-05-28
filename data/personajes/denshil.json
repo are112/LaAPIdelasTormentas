@@ -1,0 +1,95 @@
+{
+  "id": "denshil",
+  "nombre": "Denshil",
+  "nombre_completo": "Denshil",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario — flashback de Venli",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — jefe de agricultura de Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Agricultura — jefe de agricultura de los oyentes en Narak",
+      "Talla de gemas — aprendió de Ulim a cortar gemcorazones en gemas facetadas",
+      "Gestión de recursos — administraba las gemas necesarias para la agricultura oyente"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Jefe de agricultura de los oyentes en Narak",
+      "El que acumuló gemas en secreto para Venli por presión de Ulim",
+      "El que pidió a Venli que informara al Consejo de los Cinco — y ella mintió"
+    ],
+    "descripcion": "Cantor oyente de complexión esmirriada pese a llevar forma trabajo. Jefe de agricultura de los oyentes en Narak. Su posición le daba acceso a gemcorazones sin cortar, que se usaban en las técnicas agrícolas oyentes. Ulim le enseñó a cortarlos en gemas facetadas similares a las humanas, diciéndole que permitían almacenar luz tormentosa más eficientemente — lo cual era cierto, pero era parte del plan de Venli. Denshil cortó gemas extra en secreto y las acumuló para el uso futuro de Venli. Era reticente a ayudar — las gemas hacían mucha falta para la agricultura. Venli lo manipulaba apelando a su deseo profundo de proteger a sus hijos y a los demás oyentes. Hacia finales de 1173, Venli le pidió acumular aún más gemas; cuando se negó a cortarlas aún más pequeñas, Venli volvió a invocar la amenaza a su hija. Cedió, pero pidió a Venli que informara al Consejo de los Cinco sobre sus planes. Venli mintió y dijo que lo haría.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseído por un Fusionado durante la tormenta eterna."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "hija de Denshil",
+        "relacion": "hija oyente — Venli usó la amenaza a su seguridad para manipular a Denshil"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "venli",
+        "relacion": "lo manipuló repetidamente para que acumulara gemas en secreto, invocando la seguridad de sus hijos"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Padre devoto que anteponía la seguridad de sus hijos a todo. Esta vulnerabilidad fue explotada sistemáticamente por Venli. Era reticente pero cedía ante la presión.",
+    "evolucion": "Pasó de reticente a cómplice involuntario del plan de Venli.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Denshil era jefe de agricultura de los oyentes en Narak. Ulim le enseñó a cortar gemcorazones en gemas facetadas — parte del plan de Venli para capturar tormentaspren. Denshil acumuló gemas extra en secreto para Venli a pesar de que hacían mucha falta para la agricultura. Era reticente, pero Venli lo manipulaba apelando a su miedo a que los humanos subyugaran o mataran a sus hijos. Hacia finales de 1173 se negó a cortar las gemas aún más pequeñas, pero cedió cuando Venli volvió a invocar la amenaza a su hija. Pidió que Venli informara al Consejo de los Cinco — Venli mintió y dijo que lo haría.",
+    "puntos_clave": [
+      "Jefe de agricultura de los oyentes en Narak — complexión esmirriada pese a llevar forma trabajo.",
+      "Su posición le daba acceso a gemcorazones sin cortar.",
+      "Ulim le enseñó a cortarlos en gemas facetadas.",
+      "Acumuló gemas extra en secreto para Venli para capturar tormentaspren.",
+      "Era reticente — las gemas hacían falta para la agricultura.",
+      "Venli lo manipulaba apelando a su deseo de proteger a sus hijos.",
+      "Hacia finales de 1173 se negó a cortar más pequeño — pero cedió cuando Venli invocó la amenaza a su hija.",
+      "Pidió que Venli informara al Consejo de los Cinco.",
+      "Venli le mintió y dijo que lo haría.",
+      "Destino desconocido tras la tormenta eterna."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Cómplice involuntario del plan de Venli; jefe de agricultura de los oyentes",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Jefe de agricultura oyente en Narak. Acumuló gemas en secreto para Venli bajo presión de Ulim. Reticente pero cómplice — Venli lo manipulaba apelando a su miedo a que los humanos dañaran a sus hijos.",
+  "notas": "Su petición de que Venli informara al Consejo de los Cinco — y la mentira de Venli — es uno de los momentos que muestra la manipulación sistemática de Venli durante este período."
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dem",
+  "nombre": "Dem",
+  "nombre_completo": "Dem",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mensajería — chico mensajero en el ejército de Amaram"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Chico mensajero en el ejército del Alto Mariscal Amaram"
+    ],
+    "descripcion": "Chico mensajero en el ejército del Alto Mariscal Meridas Amaram. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Chico mensajero en el ejército de Amaram. Información muy limitada.",
+    "puntos_clave": [
+      "Chico mensajero en el ejército de Amaram."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Mensajero en el ejército de Amaram",
+    "rol": "Personaje menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Chico mensajero en el ejército del Alto Mariscal Amaram. Información muy limitada.",
+  "notas": "Información muy limitada — mención única en El Camino de los Reyes."
+}

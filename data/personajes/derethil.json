@@ -1,0 +1,99 @@
+{
+  "id": "derethil",
+  "nombre": "Derethil",
+  "nombre_completo": "Derethil",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "occidental de Roshar (nación desconocida)",
+  "origen": "Roshar occidental (época de las Desolaciones)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — historia del Vagabundo del Viento",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes o aliados — luchó junto a ellos durante las Desolaciones",
+    "Capitán del Vagabundo del Viento"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — rey y comandante de miles durante las Desolaciones",
+      "Navegación — hizo construir el Vagabundo del Viento para navegar durante las altas tormentas",
+      "Exploración — buscó el origen de los Portadores del Vacío en el océano abierto"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Rey occidental de Roshar durante las Desolaciones",
+      "Capitán del Vagabundo del Viento — el barco que buscó el origen de los Portadores del Vacío",
+      "El que descubrió a los Uvara en su expedición"
+    ],
+    "descripcion": "Rey occidental de Roshar que vivió durante las Desolaciones. Piel clara y ojos claros. Hombre poderoso — comandante de miles, líder de decenas de miles. Bien conocido en algunas tierras del oeste de Roshar. Luchó contra los Portadores del Vacío junto a los Heraldos y los Caballeros Radiantes. Hizo construir el Vagabundo del Viento — un barco diseñado para navegar durante las altas tormentas — con el objetivo de encontrar el origen de los Portadores del Vacío. La expedición naufragó en un anillo de islas en medio del océano que rodeaban un gran remolino 'donde se dice que el océano drena'. Allí conoció a los Uvara — los Habitantes del Gran Abismo. Los Uvara los acogieron y repararon el barco. Eventualmente Derethil y su tripulación descubrieron aspectos perturbadores de la sociedad Uvara y huyeron usando el impulso del remolino. Les acompañó una mujer Uvara llamada Nafti. La historia fue escrita por el Heraldo Ishar unos 3000 años antes de la Noche de las Penas y usa el mismo Ritmo que los ashintitas usaron para guiarse a Roshar.",
+    "estado_en_viento_y_verdad": "Fallecido — vivió hace miles de años."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "nafti",
+        "relacion": "mujer Uvara que acompañó a la tripulación al abandonar las islas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Valiente y curioso. Su expedición para encontrar el origen de los Portadores del Vacío muestra determinación extraordinaria.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Derethil fue un rey occidental de Roshar durante las Desolaciones que luchó junto a los Heraldos y los Caballeros Radiantes. Hizo construir el Vagabundo del Viento para navegar en altas tormentas. La expedición buscaba el origen de los Portadores del Vacío en el océano abierto. Naufragaron en un anillo de islas rodeando un gran remolino. Conocieron a los Uvara, que los acogieron y repararon el barco. Al descubrir aspectos perturbadores de la sociedad Uvara, huyeron usando el impulso del remolino. Les acompañó la Uvara Nafti. La historia fue escrita por Ishar ~3000 años antes de la Noche de las Penas y usa el mismo Ritmo que los ashintitas usaron para guiarse a Roshar. Kaladin la contó a Nale en Palabras Radiantes.",
+    "puntos_clave": [
+      "Rey occidental de Roshar durante las Desolaciones — piel y ojos claros.",
+      "Comandante de miles — líder de decenas de miles.",
+      "Luchó contra los Portadores del Vacío junto a los Heraldos y los Caballeros Radiantes.",
+      "Hizo construir el Vagabundo del Viento para navegar durante altas tormentas.",
+      "Expedición para encontrar el origen de los Portadores del Vacío.",
+      "Naufragaron en un anillo de islas rodeando un gran remolino.",
+      "Conocieron a los Uvara — los Habitantes del Gran Abismo.",
+      "Los Uvara los acogieron y repararon el barco.",
+      "Descubrieron aspectos perturbadores de la sociedad Uvara y huyeron.",
+      "Les acompañó la Uvara Nafti al irse.",
+      "La historia fue escrita por el Heraldo Ishar ~3000 años antes de la Noche de las Penas.",
+      "Usa el mismo Ritmo que los ashintitas usaron para guiarse a Roshar.",
+      "Kaladin la contó a Nale en Palabras Radiantes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — vivió hace miles de años",
+    "rol": "Rey explorador cuya historia es parte del folclore roshario",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Rey occidental de Roshar durante las Desolaciones. Capitán del Vagabundo del Viento, que buscó el origen de los Portadores del Vacío. Descubrió a los Uvara. La historia fue escrita por el Heraldo Ishar.",
+  "notas": "La historia del Vagabundo del Viento y Derethil usa el mismo Ritmo que los ashintitas usaron para guiarse a Roshar — un detalle cosmere significativo. Kaladin la narró a Nale en Palabras Radiantes capítulo 89."
+}

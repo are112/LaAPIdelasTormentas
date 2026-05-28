@@ -1,0 +1,85 @@
+{
+  "id": "den",
+  "nombre": "Den",
+  "nombre_completo": "Den",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Urithiru, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Red criminal de Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Crimen organizado — red de protección, salas de juego y matones en Urithiru",
+      "Intimidación — amenazó a un hombre desconocido"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro de los bajos fondos de Urithiru",
+      "Antiguo conocido de Ishnah que usó su asignación como Tejedora de Luz para financiar actividades criminales"
+    ],
+    "descripcion": "Hombre de los bajos fondos de Urithiru. Formaba parte de un grupo de antiguos conocidos de Ishnah que se le acercaron cuando ella empezó a recibir asignación como Tejedora de Luz, pidiéndole dinero supuestamente para salir de la vida criminal. En realidad, utilizaron los fondos para comprar salas de juego, contratar matones y establecer una red de protección en Urithiru. Den fue uno de los que amenazó a un hombre desconocido en el curso de estas maquinaciones.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "ishnah",
+        "relacion": "antigua conocida — le pidió dinero con pretexto de salir de la vida criminal; usó los fondos para actividades criminales"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Criminal pragmático. Engañó a Ishnah para financiar su red criminal.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Den formaba parte de un grupo de antiguos conocidos de Ishnah en Urithiru. Cuando Ishnah empezó a recibir asignación como Tejedora de Luz, el grupo se acercó a ella pidiendo dinero para supuestamente salir de la vida criminal. En realidad usaron los fondos para comprar salas de juego, contratar matones y establecer una red de protección. Den amenazó a un hombre desconocido en el transcurso de estas actividades.",
+    "puntos_clave": [
+      "Miembro de los bajos fondos de Urithiru.",
+      "Antiguo conocido de Ishnah.",
+      "Se acercó a Ishnah cuando empezó a recibir asignación como Tejedora de Luz, pidiendo dinero.",
+      "Pretexto: salir de la vida criminal.",
+      "Realidad: usó los fondos para salas de juego, matones y red de protección.",
+      "Amenazó a un hombre desconocido en el curso de sus actividades.",
+      "Mencionado en RdG capítulo 26."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Criminal — red de protección en Urithiru",
+    "rol": "Miembro de la red criminal que explotó a Ishnah",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro de los bajos fondos de Urithiru. Antiguo conocido de Ishnah que le pidió dinero con el pretexto de salir del crimen — usó los fondos para salas de juego y una red de protección.",
+  "notas": "Su historia ilustra las dificultades de Ishnah como Tejedora de Luz recién vinculada — su pasado en los bajos fondos la siguió alcanzando."
+}
