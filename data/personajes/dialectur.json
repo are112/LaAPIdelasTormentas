@@ -1,0 +1,74 @@
+{
+  "id": "dialectur",
+  "nombre": "Dialectur",
+  "nombre_completo": "Dialectur",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Táctica militar — autor del tratado Guerra",
+      "Erudición — escritor de uno de los tratados tácticos más conocidos de Roshar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito y autor en Roshar",
+      "Autor del tratado táctico Guerra — uno de los más conocidos de Roshar"
+    ],
+    "descripcion": "Erudito y autor roshario. Escribió un tratado muy conocido sobre tácticas militares llamado Guerra. Su obra es una referencia en materia táctica en Roshar.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito roshario autor del tratado táctico Guerra — uno de los más conocidos de Roshar. Mencionado en Palabras Radiantes capítulo 67.",
+    "puntos_clave": [
+      "Erudito y autor en Roshar.",
+      "Escribió el tratado táctico Guerra — muy conocido en Roshar.",
+      "Mencionado en Palabras Radiantes capítulo 67."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Autor del tratado táctico Guerra",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito y autor roshario. Escribió el tratado táctico Guerra, uno de los más conocidos de Roshar. Mencionado en Palabras Radiantes capítulo 67.",
+  "notas": "Solo mencionado en PR capítulo 67. Su tratado Guerra es una referencia táctica en Roshar."
+}

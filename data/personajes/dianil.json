@@ -1,0 +1,83 @@
+{
+  "id": "dianil",
+  "nombre": "Dianil",
+  "nombre_completo": "Dianil",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — adoptó forma guerra, una de las primeras doce oyentes en lograrlo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Una de las primeras oyentes en adoptar con éxito la forma guerra",
+      "La que sintió abrumación ante el tono de la forma guerra al ponerse en la alta tormenta"
+    ],
+    "descripcion": "Oyente femenina de Narak. Tiene un rizo característico de vetas negras en la frente. Al adoptar la forma guerra, su voz se volvió más grave. Fue una de las voluntarias a quienes Venli proporcionó gemas para probar la nueva forma guerra. Fue una de las doce que lo consiguieron. Cuando se puso en la alta tormenta para el experimento, fue abrumada por la necesidad de sumergirse en el tono de la forma guerra.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseída por un Fusionado durante la tormenta eterna."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "venli",
+        "relacion": "Venli le proporcionó las gemas para adoptar la forma guerra — Dianil fue una de las doce voluntarias que lo consiguieron"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Al adoptar la forma guerra fue abrumada por el tono de la forma — una experiencia intensa que ilustra el poder transformador de las formas de poder.",
+    "evolucion": "Pasó de forma habitual a forma guerra — una de las primeras en lograrlo.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dianil fue una de las voluntarias a quienes Venli dio gemas para probar la nueva forma guerra. Fue una de las doce que lo consiguieron con éxito. Al ponerse en la alta tormenta, fue abrumada por la necesidad de sumergirse en el tono de la forma guerra. Al adoptarla, su voz se volvió más grave. Su rizo de vetas negras en la frente es un rasgo físico distintivo.",
+    "puntos_clave": [
+      "Oyente femenina con rizo de vetas negras característico en la frente.",
+      "Fue una de las voluntarias a quienes Venli proporcionó gemas para probar la forma guerra.",
+      "Una de las doce oyentes que adoptaron con éxito la forma guerra.",
+      "Al ponerse en la alta tormenta fue abrumada por el tono de la forma guerra.",
+      "Al adoptar la forma, su voz se volvió más grave.",
+      "Destino desconocido tras la tormenta eterna."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Una de las primeras oyentes en adoptar la forma guerra",
+    "relacion_con_spren": "",
+    "otros_detalles": "Rizo de vetas negras característico en la frente."
+  },
+  "descripcion_breve": "Oyente femenina con rizo de vetas negras en la frente. Una de las primeras doce en adoptar con éxito la forma guerra. Su voz se volvió más grave al adoptarla. Fue abrumada por el tono de la forma al ponerse en la alta tormenta.",
+  "notas": "Su experiencia al adoptar la forma guerra — la abrumación por el tono — ilustra el poder transformador de las formas de poder oyentes y prefigura los efectos de la forma tormenta."
+}

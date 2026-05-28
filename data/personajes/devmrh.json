@@ -1,0 +1,79 @@
+{
+  "id": "devmrh",
+  "nombre": "Devmrh",
+  "nombre_completo": "Devmrh",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Urithiru — escriba de Navani Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura — escriba al servicio de Navani Kholin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escriba thayleña al servicio de Navani Kholin"
+    ],
+    "descripcion": "Escriba presumiblemente thayleña por su nombre y ubicación. Al servicio de Navani Kholin en Urithiru. Tras la Batalla del Campo de Thaylen, Navani le pidió que trajera una litera para Shallan.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "navani",
+        "relacion": "su señora — Navani le pidió que trajera una litera para Shallan tras la Batalla del Campo de Thaylen"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Escriba al servicio de Navani. Tras la Batalla del Campo de Thaylen, Navani le pidió que trajera una litera para Shallan. Mencionada en Juramentada capítulo 121.",
+    "puntos_clave": [
+      "Escriba thayleña al servicio de Navani Kholin.",
+      "Tras la Batalla del Campo de Thaylen, Navani le pidió que trajera una litera para Shallan.",
+      "Mencionada en Juramentada capítulo 121."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escriba de Navani Kholin",
+    "rol": "Personaje menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Escriba presumiblemente thayleña al servicio de Navani Kholin. Tras la Batalla del Campo de Thaylen, Navani le pidió que trajera una litera para Shallan.",
+  "notas": "Información muy limitada. Probablemente thayleña por su nombre y ubicación según la Coppermind."
+}

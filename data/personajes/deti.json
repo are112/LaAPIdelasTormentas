@@ -1,0 +1,89 @@
+{
+  "id": "deti",
+  "nombre": "Deti",
+  "nombre_completo": "Deti",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — escudero o soldado bajo el mando de Sigzil"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado entrenado bajo las enseñanzas de Kaladin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado bajo el mando de Sigzil en la Segunda Batalla de Narak",
+      "El que murió de una lanza de raysio de un Celestial — su estertór reveló a Sigzil la presencia de Moelach"
+    ],
+    "descripcion": "Soldado que luchó junto a Sigzil en la Segunda Batalla de Narak en Viento y Verdad. Felicitó a Sigzil por sus habilidades de combate, atribuyéndolas al entrenamiento de Kaladin. Murió en el campo de batalla — un Celestial lo mató clavándole una lanza de raysio. Sigzil intentó desesperadamente curarle pero se había quedado sin luz tormentosa. El estertór de muerte que pronunció reveló a Sigzil la presencia de Moelach en el campo de batalla. Sigzil vivió su muerte como un fracaso — y comprendió que eso era exactamente lo que sentía Kaladin cuando no podía salvar a alguien.",
+    "estado_en_viento_y_verdad": "Fallecido en la Segunda Batalla de Narak."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "sigzil",
+        "relacion": "su comandante — Sigzil intentó curarle desesperadamente sin éxito; su muerte le hizo comprender el peso que cargaba Kaladin"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Celestial desconocido",
+        "relacion": "lo mató con una lanza de raysio en la Segunda Batalla de Narak"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal y admirador de Kaladin. Sus últimas palabras fueron un estertór de muerte — visión de Moelach.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Deti luchó junto a Sigzil en la Segunda Batalla de Narak. Antes de morir, felicitó a Sigzil por sus habilidades de combate, atribuyéndolas al entrenamiento de Kaladin. Un Celestial lo mató clavándole una lanza de raysio. Sigzil intentó curarle desesperadamente pero no tenía luz tormentosa. El estertór de muerte de Deti reveló la presencia de Moelach en el campo de batalla. Su muerte fue un momento de revelación para Sigzil — comprendió exactamente el peso que cargaba Kaladin cuando no podía salvar a sus hombres.",
+    "puntos_clave": [
+      "Soldado bajo el mando de Sigzil en la Segunda Batalla de Narak.",
+      "Felicitó a Sigzil por sus habilidades, atribuyéndolas al entrenamiento de Kaladin.",
+      "Un Celestial lo mató con una lanza de raysio.",
+      "Sigzil intentó curarle pero se había quedado sin luz tormentosa.",
+      "Su estertór de muerte reveló a Sigzil la presencia de Moelach en el campo de batalla.",
+      "Su muerte hizo que Sigzil comprendiera el peso que Kaladin cargaba al no poder salvar a todos.",
+      "Mencionado en VyV capítulos 56 y 74."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Soldado cuya muerte reveló la presencia de Moelach y enseñó a Sigzil el peso del liderazgo",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado bajo el mando de Sigzil en la Segunda Batalla de Narak. Murió de una lanza de raysio de un Celestial. Su estertór reveló la presencia de Moelach. Su muerte hizo que Sigzil comprendiera el peso de Kaladin.",
+  "notas": "Su muerte es narrativamente importante — es el momento en que Sigzil comprende de verdad lo que Kaladin siente cuando no puede salvar a sus hombres."
+}
