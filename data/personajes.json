@@ -864,48 +864,8 @@
     "especie": "humano"
   },
   {
-    "id": "da",
-    "nombre": "Da",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
     "id": "dabbid",
     "nombre": "Dabbid",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "dakhnah",
-    "nombre": "Dakhnah",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
-    "id": "dal",
-    "nombre": "Dal",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "dalar",
-    "nombre": "Dalar",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "humano"
-  },
-  {
-    "id": "dali",
-    "nombre": "Dali",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
@@ -957,6 +917,46 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "darcira",
+    "nombre": "Darcira",
+    "orden": "Tejedores de Luz",
+    "nivel_ideal": 1,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "davim",
+    "nombre": "Davim",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "deedanor",
+    "nombre": "Deedanor",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "deeli",
+    "nombre": "Deeli",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "delgo",
+    "nombre": "Delgo",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
