@@ -888,46 +888,6 @@
     "especie": "cantor"
   },
   {
-    "id": "deti",
-    "nombre": "Deti",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "devi",
-    "nombre": "Devi",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "cantor"
-  },
-  {
-    "id": "devmrh",
-    "nombre": "Devmrh",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
-    "id": "dialectur",
-    "nombre": "Dialectur",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "dianil",
-    "nombre": "Dianil",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "cantor"
-  },
-  {
     "id": "dieno",
     "nombre": "Dieno",
     "orden": "Ninguna",
@@ -968,11 +928,51 @@
     "especie": "humano"
   },
   {
+    "id": "dolimid",
+    "nombre": "Dolimid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "dolk_hijo_dolk",
+    "nombre": "Dolk-hijo-Dolk",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "don",
     "nombre": "Don",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "donalar",
+    "nombre": "Donalar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dor_personaje",
+    "nombre": "Dor (personaje)",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "doral",
+    "nombre": "Doral",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
     "especie": "humano"
   },
   {
