@@ -1,0 +1,73 @@
+{
+  "id": "dilid",
+  "nombre": "Dilid",
+  "nombre_completo": "Dilid",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (figura del vorismo)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Uno de los Diez Locos del vorismo",
+      "El que corre eternamente hacia los Salones Tranquilinos sin avanzar"
+    ],
+    "descripcion": "Dilid es uno de los Diez Locos, figuras que forman parte de las enseñanzas del vorismo. Corre hacia los Salones Tranquilinos pero nunca avanza porque hay arena deslizándose bajo sus pies en la colina. Está condenado a correr para siempre sin llegar a ningún sitio. Shallan pensó en él cuando vio una escalera en espiral que descendía hacia la oscuridad en Urithiru, antes de enfrentarse a Re-Shephir.",
+    "estado_en_viento_y_verdad": "Fallecido — figura del folclore vorin."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Figura alegórica del vorismo — representa el esfuerzo inútil o el progreso ilusorio.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dilid es uno de los Diez Locos del vorismo. Corre eternamente hacia los Salones Tranquilinos sin avanzar porque la arena se desliza bajo sus pies en la colina. Shallan lo recordó al ver una escalera espiral que descendía hacia la oscuridad en Urithiru antes de enfrentarse a Re-Shephir. Mencionado en Juramentada capítulo 29.",
+    "puntos_clave": [
+      "Uno de los Diez Locos del vorismo.",
+      "Corre eternamente hacia los Salones Tranquilinos sin avanzar.",
+      "La arena se desliza bajo sus pies en la colina — condenado al esfuerzo inútil.",
+      "Shallan pensó en él al ver la escalera espiral hacia la oscuridad en Urithiru.",
+      "Mencionado en Juramentada capítulo 29."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Figura del folclore vorin",
+    "rol": "Uno de los Diez Locos — símbolo del esfuerzo inútil",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Uno de los Diez Locos del vorismo. Corre eternamente hacia los Salones Tranquilinos sin avanzar porque la arena se desliza bajo sus pies. Shallan lo recordó antes de enfrentarse a Re-Shephir.",
+  "notas": "Brandon Sanderson confirmó que los Diez Locos son parte de las enseñanzas del vorismo. Dilid representa el esfuerzo eterno sin resultado — la ilusión del progreso."
+}

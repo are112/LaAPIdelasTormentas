@@ -1,0 +1,75 @@
+{
+  "id": "dok",
+  "nombre": "Dok",
+  "nombre_completo": "Dok",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Marina thayleña — enlistado por orden de Jasnah"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — aprendió tradiciones marineras thayleñas al servir en barcos de Thaylenah"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Marinero alezi enlistado por orden de la reina Jasnah para aprender las tradiciones de la marinería thayleña"
+    ],
+    "descripcion": "Marinero alezi. Por orden de la reina Jasnah Kholin, se alistó junto a muchos otros alezi para servir en barcos thayleños y aprender sus tradiciones marineras. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Marinero alezi que por orden de la reina Jasnah se alistó para servir en barcos thayleños y aprender las tradiciones marineras. Mencionado en VyV.",
+    "puntos_clave": [
+      "Marinero alezi.",
+      "Por orden de Jasnah Kholin, se alistó para servir en barcos thayleños.",
+      "Objetivo: aprender las tradiciones marineras de Thaylenah.",
+      "Uno de muchos alezi que realizaron este enlistamiento."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Marinero alezi al servicio de la marina thayleña",
+    "rol": "Marino alezi aprendiendo tradiciones thayleñas",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Marinero alezi enlistado por orden de Jasnah Kholin para servir en barcos thayleños y aprender sus tradiciones marineras.",
+  "notas": "Su enlistamiento es parte de la estrategia de Jasnah para fortalecer la capacidad naval alethi aprendiendo de los mejores marineros de Roshar — los thayleños."
+}

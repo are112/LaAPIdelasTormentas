@@ -1,0 +1,98 @@
+{
+  "id": "dlrwan",
+  "nombre": "Dlrwan",
+  "nombre_completo": "Dlrwan",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Vela Errante — capitana"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — capitana experimentada del Vela Errante",
+      "Mando naval — porte imponente y autoridad sobre la tripulación",
+      "Conocimiento de los Insomnes — los Insomnes le informaron de los requisitos de Rysn"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Capitana thayleña del Vela Errante",
+      "La que creía que Vstim le regalaría el barco — pero Rysn recibió la propiedad",
+      "La que terminó ofreciendo a Rysn el timón en señal de respeto"
+    ],
+    "descripcion": "Marinera thayleña baja con nariz afilada y pelo rubio inusual. Porte imponente — Rysn la describió como 'una mujer ostentosa'. Su uniforme oficial es de color blanco intenso con medallas relucientes, sombrero de tres picos y cejas rizadas. Capitana del Vela Errante. Vstim la eligió para capitanear el barco. Su hermano Kstled sirve bajo sus órdenes como hombre de armas. Creía que Vstim le regalaría el barco cuando fuera nombrado Ministro de Comercio. Fue curt con Rysn al principio — no pensaba que Rysn fuera necesaria a bordo. En su primer viaje juntas, le negó directamente el honor de llevar el timón. Cuando Rysn demostró su valía cuidando de la tripulación y negociando con los Insomnes, los propios Insomnes informaron a Dlrwan de los términos del acuerdo de Rysn — que la tripulación saliera ilesa. Dlrwan entonces reconoció que Rysn había hecho 'lo que haría cualquier buen rebsk' y le ofreció el timón.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Kstled",
+        "relacion": "hermano — sirve bajo sus órdenes como hombre de armas del Vela Errante"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "vstim",
+        "relacion": "el que la eligió como capitana del Vela Errante — ella creía que le regalaría el barco"
+      },
+      {
+        "personaje": "rysn",
+        "relacion": "su rebsk — comenzó con tensión; terminó ofreciéndole el timón en señal de respeto"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Orgullosa y profesional. Su decepción inicial por no recibir el barco la hizo curt con Rysn. Cuando Rysn demostró su valía, Dlrwan supo reconocerlo.",
+    "evolucion": "Pasó de tratar a Rysn con frialdad a ofrecerle el timón del barco en señal de respeto.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Dlrwan fue elegida por Vstim para capitanear el Vela Errante. Creía que Vstim le regalaría el barco al ser nombrado Ministro de Comercio. Cuando el barco fue a parar a Rysn, Dlrwan la trató con frialdad — no la consideraba necesaria y en el primer viaje le negó el honor del timón. Durante la expedición a Akinah, Rysn negoció con los Insomnes para proteger a la tripulación. Los Insomnes informaron a Dlrwan de los términos del trato de Rysn. Dlrwan reconoció entonces que Rysn había hecho lo que haría cualquier buen rebsk — y le ofreció el timón del barco en su próxima expedición.",
+    "puntos_clave": [
+      "Capitana thayleña del Vela Errante — baja, pelo rubio inusual, nariz afilada.",
+      "Uniforme oficial: blanco intenso con medallas, sombrero de tres picos y cejas rizadas.",
+      "Su hermano Kstled sirve como hombre de armas.",
+      "Vstim la eligió como capitana — ella creía que le regalaría el barco.",
+      "Cuando el barco fue a Rysn, la trató con frialdad y le negó el honor del timón.",
+      "Los Insomnes informaron a Dlrwan de los términos del trato de Rysn — que la tripulación saliera ilesa.",
+      "Reconoció que Rysn había hecho 'lo que haría cualquier buen rebsk'.",
+      "Le ofreció el timón del Vela Errante en señal de respeto.",
+      "Lopen adhirió su pie al suelo con luz tormentosa durante la tormenta."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Capitana del Vela Errante",
+    "rol": "Capitana del barco de Rysn; figura de autoridad que terminó respetando a su rebsk",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su hermano Kstled sirve como hombre de armas."
+  },
+  "descripcion_breve": "Capitana thayleña del Vela Errante. Pelo rubio inusual, nariz afilada, porte imponente. Creía que Vstim le regalaría el barco. Comenzó con frialdad hacia Rysn pero terminó ofreciéndole el timón en señal de respeto.",
+  "notas": "Su arco con Rysn es uno de los más completos de Esquirla del Amanecer — de la frialdad al respeto genuino."
+}

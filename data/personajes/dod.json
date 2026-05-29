@@ -1,0 +1,86 @@
+{
+  "id": "dod",
+  "nombre": "Dod",
+  "nombre_completo": "Dod",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia del Palacio de Kholinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — miembro de la Guardia del Palacio"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro de la Guardia del Palacio de Kholinar",
+      "Influenciado por un Deshecho — luchó del lado enemigo bajo Aesudan",
+      "El que susurraba para sí herido en lugar de gemir"
+    ],
+    "descripcion": "Guardia alezi del Palacio de Kholinar. Durante el Asedio de Kholinar, fue influenciado por un Deshecho y luchó del lado enemigo bajo la reina Aesudan. Cuando el equipo de Elhokar asaltó el palacio, Dod cayó herido y un cirujano empezó a atenderle. Adolin lo reconoció al pasar — probablemente de sus tiempos viviendo en el palacio. Herido, solo susurraba para sí mismo en lugar de llorar o gemir. Los susurros podrían deberse al Deshecho o a que estaba pronunciando un estertór de muerte.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "Adolin lo reconoció al pasar mientras era atendido por un cirujano"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Influenciado por un Deshecho — sus susurros al estar herido pueden ser efecto del Deshecho o un estertór de muerte.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dod era guardia del Palacio de Kholinar. Durante el Asedio de Kholinar fue influenciado por un Deshecho y luchó del lado enemigo bajo la reina Aesudan. Cuando el equipo de Elhokar asaltó el palacio, Dod cayó herido. Un cirujano lo atendía cuando Adolin pasó y lo reconoció — probablemente de su tiempo viviendo en el palacio. Pese a la herida, Dod solo susurraba para sí en lugar de gemir. Esos susurros podrían ser efecto del Deshecho o un estertór de muerte.",
+    "puntos_clave": [
+      "Guardia alezi del Palacio de Kholinar.",
+      "Influenciado por un Deshecho durante el Asedio de Kholinar.",
+      "Luchó del lado enemigo bajo la reina Aesudan.",
+      "Cayó herido durante el asalto del equipo de Elhokar al palacio.",
+      "Un cirujano lo atendía cuando Adolin lo reconoció al pasar.",
+      "Adolin lo conocía probablemente de sus tiempos viviendo en el palacio.",
+      "Herido, solo susurraba para sí mismo — sin gemir ni llorar.",
+      "Los susurros podrían ser efecto del Deshecho o un estertór de muerte."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Guardia del palacio influenciado por un Deshecho",
+    "relacion_con_spren": "",
+    "otros_detalles": "Sus susurros herido son un detalle ambiguo — efecto del Deshecho o estertór de muerte."
+  },
+  "descripcion_breve": "Guardia del Palacio de Kholinar influenciado por un Deshecho. Luchó contra Elhokar bajo Aesudan. Cayó herido — Adolin lo reconoció. Solo susurraba herido en lugar de gemir.",
+  "notas": "Adolin lo reconocía — probablemente lo conocía de su infancia en el palacio. Sus susurros al estar herido son ambiguos: efecto del Deshecho o estertór de muerte."
+}

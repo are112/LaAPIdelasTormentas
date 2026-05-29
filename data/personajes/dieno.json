@@ -1,0 +1,90 @@
+{
+  "id": "dieno",
+  "nombre": "Dieno",
+  "nombre_completo": "Dieno enne Calah",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "herdaziana",
+  "origen": "Herdaz",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Herdaz — general"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — general del ejército herdaziano",
+      "Escapismo — hobby peculiar de escapar de esposas mientras sus oficiales apuestan",
+      "Interrogatorio — interrogó a Sheler cerca de la frontera con Herdaz y Alezkar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "General herdaziano",
+      "El que tiene el hobby de escapar de esposas mientras sus oficiales apuestan"
+    ],
+    "descripcion": "General herdaziano cuyo nombre completo es Dieno enne Calah. Tiene un hobby peculiar y reconocido por sus oficiales: escapar de esposas mientras estos apuestan sobre cuánto tardará. Cuando Jerono le proporcionó unas esposas thayleñas supuestamente de alta calidad, Dieno escapó igualmente con rapidez, sorprendiendo a Jerono. Interrogó a Sheler cerca de la frontera entre Herdaz y Alezkar durante los eventos de Juramentada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Jerono",
+        "relacion": "oficial bajo su mando — le proporcionó esposas thayleñas; Dieno escapó igualmente rápido"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "sheler",
+        "relacion": "lo interrogó cerca de la frontera herdaziana"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Excéntrico y seguro de sí mismo. Su hobby de escapar de esposas refleja una personalidad juguetona pero capaz.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "General herdaziano que interrogó a Sheler cerca de la frontera entre Herdaz y Alezkar. Tiene el hobby reconocido de escapar de esposas mientras sus oficiales apuestan sobre cuánto tardará. Cuando Jerono le proporcionó esposas thayleñas de supuesta alta calidad, Dieno las sorteó igual de rápido, para sorpresa de Jerono. Mencionado en el interludio I-10 de Juramentada.",
+    "puntos_clave": [
+      "General herdaziano — nombre completo Dieno enne Calah.",
+      "Hobby peculiar: escapar de esposas mientras sus oficiales apuestan.",
+      "Jerono le proporcionó esposas thayleñas de supuesta alta calidad.",
+      "Dieno escapó igualmente rápido, sorprendiendo a Jerono.",
+      "Interrogó a Sheler cerca de la frontera entre Herdaz y Alezkar.",
+      "Mencionado en el interludio I-10 de Juramentada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "General del ejército de Herdaz",
+    "rol": "General herdaziano con presencia en la frontera alezi-herdaziana",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "General herdaziano cuyo hobby es escapar de esposas mientras sus oficiales apuestan. Interrogó a Sheler cerca de la frontera con Alezkar.",
+  "notas": "Aparece en Juramentada interludio I-10. Su hobby de escapismo con esposas es uno de los detalles más memorables y excéntricos de los personajes secundarios herdazianos."
+}
