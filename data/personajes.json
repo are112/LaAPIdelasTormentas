@@ -880,52 +880,12 @@
     "especie": "humano"
   },
   {
-    "id": "delp",
-    "nombre": "Delp",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "dem",
-    "nombre": "Dem",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "humano"
-  },
-  {
     "id": "demid",
     "nombre": "Demid",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "cantor"
-  },
-  {
-    "id": "den",
-    "nombre": "Den",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "denshil",
-    "nombre": "Denshil",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "cantor"
-  },
-  {
-    "id": "derethil",
-    "nombre": "Derethil",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
   },
   {
     "id": "deti",
@@ -966,6 +926,46 @@
     "nivel_ideal": null,
     "estado_actual": "desconocido",
     "especie": "cantor"
+  },
+  {
+    "id": "dieno",
+    "nombre": "Dieno",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dilid",
+    "nombre": "Dilid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "dlrwan",
+    "nombre": "Dlrwan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "dod",
+    "nombre": "Dod",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "dok",
+    "nombre": "Dok",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
   },
   {
     "id": "don",
