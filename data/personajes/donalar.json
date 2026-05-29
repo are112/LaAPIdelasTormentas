@@ -1,0 +1,76 @@
+{
+  "id": "donalar",
+  "nombre": "Donalar",
+  "nombre_completo": "Donalar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia Cobalto — oficial"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — oficial de la Guardia Cobalto"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Oficial alezi de la Guardia Cobalto",
+      "Tercera generación de su familia con el nombre Donalar"
+    ],
+    "descripcion": "Oficial alezi de la Guardia Cobalto. Ojos claros de color azul claro. Es la tercera generación de su familia en llevar el nombre Donalar. Mencionado en VyV capítulo 52.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Oficial de la Guardia Cobalto. Ojos claros azul claro. Tercera generación de su familia con ese nombre. Mencionado en VyV capítulo 52.",
+    "puntos_clave": [
+      "Oficial alezi de la Guardia Cobalto.",
+      "Ojos claros de color azul claro.",
+      "Tercera generación de su familia con el nombre Donalar.",
+      "Mencionado en VyV capítulo 52."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Oficial de la Guardia Cobalto",
+    "rol": "Oficial menor de VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Oficial alezi de la Guardia Cobalto con ojos claros azul claro. Tercera generación de su familia en llevar el nombre Donalar.",
+  "notas": "Información limitada. Mencionado en VyV capítulo 52."
+}

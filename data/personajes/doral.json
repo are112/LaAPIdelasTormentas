@@ -1,0 +1,87 @@
+{
+  "id": "doral",
+  "nombre": "Doral",
+  "nombre_completo": "Doral",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Sadeas — Puente Nueve"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Supervivencia extrema — el hombre de los puentes más veterano que conoce, con más de un año en activo",
+      "Resistencia física — sobrevivió una caída al abismo con solo una pierna rota"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hombre de los puentes del Puente Nueve — el más veterano que conoce",
+      "El que sobrevivió una caída al abismo con solo una pierna rota",
+      "El que fue abandonado como cebo por el capitán Selinar"
+    ],
+    "descripcion": "Hombre de los puentes del Puente Nueve en el ejército de Sadeas. Sobrevivió más de un año en las cuadrillas de puentes — era el hombre de puentes más veterano que él mismo conocía. Con 56 años, formó parte de una expedición para investigar unas ruinas recién descubiertas. Un abismoide atacó mientras cruzaban un puente y la estructura se rompió. Doral cayó al abismo pero sobrevivió con solo una pierna rota. El capitán Selinar desenvainó su espada y se acercó a Doral, anunciando que lo dejarían como cebo para el abismoide cuando regresara. Se desconoce si Doral sobrevivió. Si murió en combate, sus últimas palabras habrían sido 'Puente Nueve'.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Selinar",
+        "relacion": "capitán que decidió dejarlo como cebo tras caer al abismo herido"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Veterano endurecido. Su supervivencia de más de un año en los puentes muestra una resistencia extraordinaria.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Doral era el hombre de los puentes más veterano del Puente Nueve — llevaba más de un año en activo. Con 56 años, participó en una expedición a unas ruinas recién descubiertas. Un abismoide atacó el puente y lo partió. Doral cayó al abismo pero sobrevivió con solo una pierna rota. El capitán Selinar decidió dejarlo como cebo para el abismoide y marcharse. Su destino final es desconocido. Si murió en combate, sus últimas palabras habrían sido 'Puente Nueve'.",
+    "puntos_clave": [
+      "Hombre de los puentes del Puente Nueve — el más veterano que conoce.",
+      "Más de un año de supervivencia en las cuadrillas de puentes.",
+      "Con 56 años formó parte de una expedición a ruinas recién descubiertas.",
+      "Un abismoide atacó el puente durante la expedición — la estructura se rompió.",
+      "Doral cayó al abismo y sobrevivió con solo una pierna rota.",
+      "El capitán Selinar desenvainó su espada y decidió dejarlo como cebo.",
+      "Su destino final es desconocido.",
+      "Si murió en combate, sus últimas palabras habrían sido 'Puente Nueve'."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Hombre de los puentes del Puente Nueve; símbolo de la brutalidad del sistema de cuadrillas",
+    "relacion_con_spren": "",
+    "otros_detalles": "El más veterano del Puente Nueve con más de un año de supervivencia."
+  },
+  "descripcion_breve": "Hombre del Puente Nueve con más de un año de supervivencia — el más veterano que conoce. Con 56 años cayó al abismo durante una expedición. Sobrevivió con una pierna rota. El capitán Selinar decidió dejarlo como cebo.",
+  "notas": "Si murió en combate, sus últimas palabras habrían sido 'Puente Nueve'. Su historia ilustra la brutalidad del sistema de cuadrillas de puentes de Sadeas desde la perspectiva del Puente Nueve."
+}

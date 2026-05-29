@@ -1,0 +1,90 @@
+{
+  "id": "dolimid",
+  "nombre": "Dolimid",
+  "nombre_completo": "Dolimid",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario — flashback de Eshonai",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — familia del Primer Ritmo"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — adoptó forma guerra en 1167",
+      "Persuasión — disuadió a Eshonai de atacar a una familia rival y la convenció de reclutar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Cantora oyente probablemente de la familia del Primer Ritmo",
+      "Una de las doce oyentes que adoptaron con éxito la forma guerra en 1167",
+      "La que disuadió a Eshonai de atacar a una familia rival y le sugirió que los reclutara"
+    ],
+    "descripcion": "Cantora oyente, probablemente parte de la familia del Primer Ritmo junto a destacados oyentes como Eshonai y Venli. Estaba en el grupo de doce oyentes que adoptaron con éxito la forma guerra cuando fue redescubierta a inicios de 1167. Inmediatamente después, fue testigo de cómo Eshonai usaba esa nueva forma para intimidar a una familia rival que había ido a arrasar su ciudad. Dolimid disuadió a Eshonai de atacarlos directamente y le sugirió encarecidamente que los convenciera de unirse a su causa. Le preguntó sarcásticamente si se había vuelto mejor oradora hablando con los árboles en sus salidas de exploración. Eshonai replicó que no era una ermitaña y que simplemente buscaba la libertad.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseída por un Fusionado durante la tormenta eterna."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "eshonai",
+        "relacion": "compañera oyente — le preguntó sarcásticamente sobre sus habilidades oratorias; la disuadió de atacar a la familia rival"
+      },
+      {
+        "personaje": "venli",
+        "relacion": "probablemente de la misma familia del Primer Ritmo"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmática y estratégica. Prefirió el reclutamiento al combate directo — una visión más política que guerrera.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dolimid fue una de las doce oyentes que adoptaron con éxito la forma guerra en 1167. Fue testigo de cómo Eshonai intimidaba con su nueva forma a una familia rival que amenazaba la ciudad. Disuadió a Eshonai de atacarlos y le sugirió reclutar a los rivales. Le preguntó sarcásticamente si sus habilidades oratorias venían de hablar con los árboles. Eshonai respondió que no era una ermitaña — solo buscaba la libertad.",
+    "puntos_clave": [
+      "Cantora oyente — probablemente de la familia del Primer Ritmo junto a Eshonai y Venli.",
+      "Una de las doce oyentes que adoptaron con éxito la forma guerra en 1167.",
+      "Testigo de cómo Eshonai usó la forma guerra para intimidar a una familia rival.",
+      "Disuadió a Eshonai de atacarlos — le sugirió reclutar a los rivales para su causa.",
+      "Le preguntó sarcásticamente si se había vuelto mejor oradora hablando con los árboles.",
+      "Eshonai replicó que no era una ermitaña — solo buscaba la libertad.",
+      "Destino desconocido tras la tormenta eterna."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Cantora oyente del grupo original que adoptó la forma guerra",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Cantora oyente probablemente de la familia del Primer Ritmo. Una de las doce que adoptaron la forma guerra en 1167. Disuadió a Eshonai de atacar a rivales y le sugirió reclutarlos. Le preguntó sarcásticamente si aprendió a hablar con los árboles.",
+  "notas": "Su interacción sarcástica con Eshonai revela la dinámica de humor entre los oyentes y el carácter de Eshonai como exploradora solitaria."
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dolk_hijo_dolk",
+  "nombre": "Dolk-hijo-Dolk",
+  "nombre_completo": "Dolk-hijo-Dolk",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Monteclaro o sus alrededores, Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Chico shin de Monteclaro o sus alrededores",
+      "El que llama a Elid y Szeth 'tronco y rama' por sus constituciones físicas"
+    ],
+    "descripcion": "Chico shin de Roshar, probablemente de Monteclaro o sus alrededores. Se refiere a Elid y Szeth como 'tronco y rama', en alusión a sus relativas constituciones físicas. Szeth cree que tanto Dolk como su padre — también llamado Dolk — son idiotas.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Dolk",
+        "relacion": "padre — Szeth cree que tanto padre como hijo son idiotas"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "Szeth considera a Dolk-hijo-Dolk un idiota"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa. Szeth lo considera un idiota.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Chico shin de Monteclaro. Se refiere a Elid y Szeth como 'tronco y rama' por sus constituciones físicas. Szeth cree que él y su padre son idiotas. Mencionado en VyV capítulo 24.",
+    "puntos_clave": [
+      "Chico shin de Monteclaro o sus alrededores.",
+      "Llama a Elid y Szeth 'tronco y rama' por sus constituciones físicas.",
+      "Su padre también se llama Dolk.",
+      "Szeth cree que padre e hijo son idiotas.",
+      "Mencionado en VyV capítulo 24."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Personaje menor de VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Chico shin de Monteclaro. Llama a Elid y Szeth 'tronco y rama' por sus constituciones físicas. Szeth considera que él y su padre son idiotas.",
+  "notas": "Mencionado en VyV capítulo 24. Su apodo de 'tronco y rama' para Elid y Szeth es un detalle de humor shin."
+}
