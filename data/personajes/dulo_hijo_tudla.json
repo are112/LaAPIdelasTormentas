@@ -1,0 +1,75 @@
+{
+  "id": "dulo_hijo_tudla",
+  "nombre": "Dulo-hijo-Tudla",
+  "nombre_completo": "Dulo-hijo-Tudla",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Danzantes del Filo (Portador de Honor)"
+  ],
+  "orden_radiantes": {
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "desconocido"
+    },
+    "estado_del_vinculo": "Portador de Honor — usa Investidura directamente de Honor sin vínculo con spren."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Abrasión",
+        "Progresión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Portador de Honor Danzante del Filo shin en Shinovar"
+    ],
+    "descripcion": "Portador de Honor shin de la Orden de los Danzantes del Filo en Shinovar. Los Portadores de Honor usan Investidura directamente sin necesidad de vincularse con un spren. Mencionado en VyV capítulo 83.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Portador de Honor Danzante del Filo shin en Shinovar. Mencionado en VyV capítulo 83.",
+    "puntos_clave": [
+      "Portador de Honor shin de la Orden de los Danzantes del Filo.",
+      "Ubicado en Shinovar.",
+      "Mencionado en VyV capítulo 83."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Portador de Honor Danzante del Filo en Shinovar",
+    "rol": "Radiante menor de VyV",
+    "relacion_con_spren": "Portador de Honor — sin vínculo con spren.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Portador de Honor shin de la Orden de los Danzantes del Filo en Shinovar. Mencionado en Viento y Verdad capítulo 83.",
+  "notas": "Información muy limitada. Los Portadores de Honor usan Investidura directamente de Honor sin necesidad de spren."
+}

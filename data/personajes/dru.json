@@ -1,0 +1,75 @@
+{
+  "id": "dru",
+  "nombre": "Dru",
+  "nombre_completo": "Dru",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Pareja sentimental de Drehy del Puente Cuatro"
+    ],
+    "descripcion": "Hombre alezi esbelto durante la Era de la Soledad. Pareja sentimental de Drehy, miembro del Puente Cuatro. Shallan describió a Drehy como guapo. Drehy es gay y estaba con Dru.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "drehy",
+        "relacion": "pareja sentimental"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Hombre alezi esbelto, pareja de Drehy del Puente Cuatro. Mencionado en RdG.",
+    "puntos_clave": [
+      "Hombre alezi esbelto.",
+      "Pareja sentimental de Drehy del Puente Cuatro.",
+      "Drehy es gay — Dru es su pareja."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Pareja de Drehy",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Hombre alezi esbelto, pareja sentimental de Drehy del Puente Cuatro.",
+  "notas": "Mencionado en RdG. Su relación con Drehy fue una de las primeras relaciones homosexuales explícitas de la saga."
+}

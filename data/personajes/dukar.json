@@ -1,0 +1,93 @@
+{
+  "id": "dukar",
+  "nombre": "Dukar",
+  "nombre_completo": "Dukar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Kharbranth o Jah Keved, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario — interludio de Taravangian",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama — Jefe de los Evaluadores de Taravangian"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Evaluación — diseñó y aplica el sistema de evaluación diaria de la inteligencia de Taravangian",
+      "Administración — jefe del sistema legal de restricciones del rey basado en el test diario"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Jefe de los Evaluadores de Taravangian",
+      "El encargado del sistema de restricciones legales del rey según su inteligencia diaria"
+    ],
+    "descripcion": "Jefe de los Evaluadores de Taravangian y miembro del Diagrama. Su rol era supervisar el sistema de test diario que determinaba legalmente las capacidades de acción del rey. Cada mañana, Taravangian se sometía a un test escrito; según el resultado — inteligencia alta, media o baja; compasión alta, media o baja — Dukar y sus Evaluadores establecían qué podía y qué no podía hacer el rey ese día. Adrotagia y Mrall también observaban las evaluaciones. El sistema fue diseñado por el propio Taravangian para proteger sus planes de sus propios días de bajo juicio.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "taravangian",
+        "relacion": "su rey — Dukar evaluaba su inteligencia y compasión diarias y establecía sus restricciones legales"
+      },
+      {
+        "personaje": "adrotagia",
+        "relacion": "compañera del Diagrama — también observaba las evaluaciones del rey"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Metódico y leal al sistema del Diagrama. Su rol requería imparcialidad absoluta.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Dukar era jefe de los Evaluadores de Taravangian. Cada mañana evaluaba la inteligencia y compasión del rey mediante un test escrito. Según el resultado, establecía legalmente qué podía hacer Taravangian ese día. El sistema fue diseñado para proteger los planes del Diagrama de los errores de juicio del rey en sus días de bajo intelecto. Adrotagia y Mrall también observaban las evaluaciones.",
+    "puntos_clave": [
+      "Jefe de los Evaluadores de Taravangian.",
+      "Supervisaba el test diario de inteligencia y compasión del rey.",
+      "Según el resultado establecía las restricciones legales de Taravangian para ese día.",
+      "El sistema protegía el Diagrama de los errores del rey en días de bajo intelecto.",
+      "Adrotagia y Mrall también observaban las evaluaciones.",
+      "Miembro del Diagrama."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Jefe de los Evaluadores — sistema de restricciones de Taravangian",
+    "rol": "Guardián del sistema de gobierno basado en la inteligencia variable del rey",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Jefe de los Evaluadores de Taravangian. Supervisaba el test diario del rey y establecía sus restricciones legales según su inteligencia y compasión ese día.",
+  "notas": "El sistema de Dukar es uno de los elementos más peculiares del Diagrama — una monarquía que se autolimita según la capacidad intelectual variable de su rey."
+}
