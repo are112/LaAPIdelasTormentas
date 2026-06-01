@@ -896,30 +896,6 @@
     "especie": "humano"
   },
   {
-    "id": "dorolin",
-    "nombre": "Dorolin",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "dovcanti",
-    "nombre": "Dovcanti",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "dreder",
-    "nombre": "Dreder",
-    "orden": "Rompedores del Cielo",
-    "nivel_ideal": 2,
-    "estado_actual": "desconocido",
-    "especie": "humano"
-  },
-  {
     "id": "drehy",
     "nombre": "Drehy",
     "orden": "Corredores del Viento",
@@ -933,22 +909,6 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
-    "especie": "humano"
-  },
-  {
-    "id": "drodli",
-    "nombre": "Drodli",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "droz",
-    "nombre": "Droz",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
@@ -990,6 +950,46 @@
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
+  },
+  {
+    "id": "durk",
+    "nombre": "Durk",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "durnash",
+    "nombre": "Durnash",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "cantor"
+  },
+  {
+    "id": "dyel",
+    "nombre": "Dyel",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "dym",
+    "nombre": "Dym",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "dymab",
+    "nombre": "Dymab",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "cantor"
   },
   {
     "id": "el_fusionado",
