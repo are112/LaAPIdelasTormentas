@@ -888,51 +888,11 @@
     "especie": "cantor"
   },
   {
-    "id": "dolimid",
-    "nombre": "Dolimid",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "cantor"
-  },
-  {
-    "id": "dolk_hijo_dolk",
-    "nombre": "Dolk-hijo-Dolk",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
     "id": "don",
     "nombre": "Don",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "donalar",
-    "nombre": "Donalar",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "dor_personaje",
-    "nombre": "Dor (personaje)",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "cantor"
-  },
-  {
-    "id": "doral",
-    "nombre": "Doral",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
     "especie": "humano"
   },
   {
@@ -989,6 +949,46 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dru",
+    "nombre": "Dru",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dukar",
+    "nombre": "Dukar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dul",
+    "nombre": "Dul",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "cantor"
+  },
+  {
+    "id": "dulo_hijo_tudla",
+    "nombre": "Dulo-hijo-Tudla",
+    "orden": "Danzantes del Filo",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "dunny",
+    "nombre": "Dunny",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
     "especie": "humano"
   },
   {
