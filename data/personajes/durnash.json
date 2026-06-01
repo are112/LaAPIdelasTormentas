@@ -1,0 +1,82 @@
+{
+  "id": "durnash",
+  "nombre": "Durnash",
+  "nombre_completo": "Durnash",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ocupación cantor de Piedralar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — guardia armado durante la ocupación cantor de Piedralar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Cantor guardia durante la ocupación cantor de Piedralar en 1175",
+      "Uno de los que gobernaban a los humanos durante la ocupación"
+    ],
+    "descripcion": "Cantor alto de piel marmolada roja y negra. Ayudó a gobernar a los humanos durante la ocupación cantor de Piedralar en 1175, armado con espada. Presumiblemente actuaba como guardia. El día que el general Dieno enne Calah llegó a Piedralar, Durnash pasó junto a Lirin mientras el cirujano inspeccionaba a los refugiados herdazianos.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "lirin",
+        "relacion": "Durnash pasó junto a él mientras inspeccionaba refugiados herdazianos — representaba la autoridad cantor sobre los humanos"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Guardia profesional cumpliendo su función durante la ocupación.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Cantor que participó en la ocupación cantor de Piedralar en 1175. Alto, piel marmolada roja y negra. Armado con espada. El día de la llegada de Dieno a Piedralar, pasó junto a Lirin mientras este inspeccionaba a refugiados herdazianos. Mencionado en RdG capítulo 1.",
+    "puntos_clave": [
+      "Cantor alto de piel marmolada roja y negra.",
+      "Participó en la ocupación cantor de Piedralar en 1175.",
+      "Armado con espada — actuaba presumiblemente como guardia.",
+      "El día de la llegada de Dieno, pasó junto a Lirin mientras este inspeccionaba refugiados.",
+      "Mencionado en RdG capítulo 1."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardia cantor durante la ocupación de Piedralar",
+    "rol": "Figura de autoridad cantor menor en la ocupación de Piedralar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Piel marmolada roja y negra."
+  },
+  "descripcion_breve": "Cantor alto de piel marmolada roja y negra. Guardia durante la ocupación cantor de Piedralar en 1175. Pasó junto a Lirin el día de la llegada de Dieno.",
+  "notas": "Aparece en el capítulo 1 de RdG — el primer capítulo de la saga ambientado en la Verdadera Desolación desde la perspectiva de los habitantes de Piedralar."
+}

@@ -1,0 +1,100 @@
+{
+  "id": "dymab",
+  "nombre": "Dymab",
+  "nombre_completo": "Dymab",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor — mención",
+        "pov": false
+      },
+      {
+        "titulo": "Guía del mundo del Archivo de las Tormentas",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados — Profundos (Deepest Ones)",
+    "Rey cantor de Rall Elorim"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravedad, moverse por superficies y a través de piedra sólida — habilidades de los Profundos"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Mando — rey cantor de Rall Elorim",
+      "Contrainsurgencia — eliminación activa de la resistencia en su ciudad"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fusionado Profundo malen — rey cantor de Rall Elorim durante la Verdadera Desolación",
+      "El que convirtió en misión personal eliminar la resistencia en Rall Elorim"
+    ],
+    "descripcion": "Fusionado malen de tipo Profundo — los Profundos pueden moverse a través de superficies y piedra sólida. Rey cantor de Rall Elorim durante la Verdadera Desolación, junto al Regal Imalei y la Devastadora Lilinum. Dymab convirtió en una misión personal la eliminación de la resistencia en 'su' ciudad. Expulsó a los resistentes de su escondite en Dirgehollow. Aunque escaparon, necesitaron una nueva base, idealmente cerca del palacio.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Imalei",
+        "relacion": "comparte el gobierno de Rall Elorim — Imalei actuaba principalmente como orador público y enlace con los Fusionados"
+      },
+      {
+        "personaje": "Lilinum",
+        "relacion": "comparte el gobierno de Rall Elorim — Devastadora con su propia agenda"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "resistencia de Rall Elorim",
+        "relacion": "Dymab hizo una misión personal de eliminarlos — los expulsó de Dirgehollow"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Metódico y determinado en la eliminación de resistencia. Convirtió la contrainsurgencia en una cruzada personal.",
+    "evolucion": "Sin arco propio más allá de su papel como rey de Rall Elorim.",
+    "situacion_en_viento_y_verdad": "Activo — rey de Rall Elorim."
+  },
+  "arco_narrativo": {
+    "resumen": "Dymab es un Fusionado Profundo malen y uno de los tres reyes cantores de Rall Elorim durante la Verdadera Desolación. Gobierna la ciudad junto a Imalei y Lilinum. Convirtió en una misión personal eliminar a la resistencia en 'su' ciudad. Expulsó a los resistentes de su escondite en Dirgehollow — aunque escaparon y buscaron una nueva base cerca del palacio.",
+    "puntos_clave": [
+      "Fusionado Profundo malen — puede moverse a través de superficies y piedra sólida.",
+      "Rey cantor de Rall Elorim junto a Imalei y Lilinum.",
+      "Convirtió en misión personal la eliminación de la resistencia en su ciudad.",
+      "Expulsó a los resistentes de su escondite en Dirgehollow.",
+      "Los resistentes escaparon y buscaron nueva base cerca del palacio."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Rey Fusionado Profundo de Rall Elorim",
+    "rol": "Uno de los tres gobernantes cantores de Rall Elorim; enemigo de la resistencia local",
+    "relacion_con_spren": "",
+    "otros_detalles": "Gobierna con Imalei y Lilinum."
+  },
+  "descripcion_breve": "Fusionado Profundo malen, rey cantor de Rall Elorim. Hizo una misión personal de eliminar la resistencia en su ciudad. Expulsó a los resistentes de Dirgehollow — escaparon.",
+  "notas": "Los Profundos son el tipo de Fusionado que puede moverse a través de superficies sólidas. Dymab comparte el gobierno de Rall Elorim con el Regal Imalei y la Devastadora Lilinum."
+}

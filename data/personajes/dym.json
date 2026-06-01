@@ -1,0 +1,85 @@
+{
+  "id": "dym",
+  "nombre": "Dym",
+  "nombre_completo": "Dym",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario — flashback de Dalinar",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Hombres de élite de Dalinar Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado de élite de Dalinar",
+      "Gestión de armas — conocía el equipo de Dalinar y lo evaluaba en combate"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado de élite de Dalinar Kholin",
+      "El que le lanzó una hacha de guerra a Dalinar cuando perdió su espada",
+      "El que regañó a otro soldado por romper la espada de Dalinar"
+    ],
+    "descripcion": "Uno de los soldados de élite de Dalinar Kholin. Estuvo presente en la batalla donde reclutaron a Teleb. Cuando Dalinar perdió su espada larga durante el combate con Yezriar, Dym le lanzó una hacha de guerra. Dalinar se la devolvió para acabar con el sufrimiento de un soldado herido. Cuando otro soldado trajo la espada rota de Dalinar, Dym le regañó por romperla. Al darse cuenta de que Dalinar no respondía con humor, le preguntó preocupado si estaba bien. Frase memorable: 'Se supone que hay que clavarlo en las partes blandas, Brillante señor, no golpear las duras.'",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su comandante — le lanzó una hacha de guerra en combate; se preocupó cuando Dalinar no respondió con humor"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal y atento. Conocía el humor habitual de Dalinar y notó cuando algo no iba bien.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dym era uno de los hombres de élite de Dalinar. Estuvo presente en la batalla donde reclutaron a Teleb. Cuando Dalinar perdió su espada larga luchando contra Yezriar, Dym le lanzó una hacha de guerra. Dalinar la usó para acabar con el sufrimiento de un soldado y se la devolvió. Cuando otro soldado trajo la espada rota, Dym lo regañó con humor y luego preguntó preocupado si Dalinar estaba bien al no responder jovialmente. Mencionado en Juramentada flashbacks.",
+    "puntos_clave": [
+      "Soldado de élite de Dalinar Kholin.",
+      "Presente en la batalla donde reclutaron a Teleb.",
+      "Le lanzó una hacha de guerra a Dalinar cuando perdió su espada larga luchando contra Yezriar.",
+      "Dalinar la usó para acabar con el sufrimiento de un soldado y se la devolvió.",
+      "Cuando otro soldado trajo la espada rota, Dym lo regañó: 'Se supone que hay que clavarlo en las partes blandas, Brillante señor, no golpear las duras.'",
+      "Se preocupó cuando Dalinar no respondió con humor — le preguntó si estaba bien."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Soldado de élite de Dalinar en los flashbacks de Juramentada",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado de élite de Dalinar. Le lanzó una hacha de guerra en combate. Regañó con humor a un soldado por romper la espada de Dalinar: 'Se supone que hay que clavarlo en las partes blandas.'",
+  "notas": "Aparece en los flashbacks de Dalinar en Juramentada. Su frase sobre las partes blandas es uno de los momentos de humor más memorables de los flashbacks."
+}

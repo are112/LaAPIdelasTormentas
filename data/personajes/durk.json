@@ -1,0 +1,85 @@
+{
+  "id": "durk",
+  "nombre": "Durk",
+  "nombre_completo": "Durk",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram — probable figura mentora de Kaladin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado en el ejército de Amaram",
+      "Mentoría — figura de consejo para Kaladin antes de su esclavitud"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado en el ejército de Amaram — probable figura mentora de Kaladin",
+      "El que le dijo a Kaladin que era un soldado nato y un artista con la lanza",
+      "El que aconsejó a Kaladin no apostar a medias con su vida"
+    ],
+    "descripcion": "Soldado roshario en el ejército del Alto Mariscal Amaram. Probablemente una figura mentora o amigo de Kaladin antes de su esclavitud. Supersticioso — llevaba un par de 'botas de la suerte' a cada batalla. Le dijo a Kaladin que era un soldado nato y un artista con la lanza. Le dio un consejo que Kaladin recordaría toda su vida: 'No apostes a medias con tu vida, Kaladin. No pongas una ficha cuando tienes los bolsillos llenos de marcas. Apuesta todo o abandona la mesa.'",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "figura mentora o amigo — le dijo que era un soldado nato y un artista con la lanza; le dio consejos que Kaladin recordó siempre"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Supersticioso — llevaba botas de la suerte. Filosófico — creía en el compromiso total o en no actuar.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Durk era soldado en el ejército de Amaram y probablemente una figura mentora de Kaladin antes de que este fuera esclavizado. Llevaba unas botas de la suerte a cada batalla — hombre supersticioso. Le dijo a Kaladin que era un soldado nato y un artista con la lanza. Su consejo más memorable: 'No apostes a medias con tu vida, Kaladin. No pongas una ficha cuando tienes los bolsillos llenos de marcas. Apuesta todo o abandona la mesa.' Kaladin recordó a Durk y su consejo muchas veces a lo largo de su vida.",
+    "puntos_clave": [
+      "Soldado en el ejército de Amaram — probable figura mentora de Kaladin.",
+      "Supersticioso — llevaba 'botas de la suerte' a cada batalla.",
+      "Le dijo a Kaladin que era un soldado nato y un artista con la lanza.",
+      "Consejo memorable: 'No apostes a medias con tu vida... Apuesta todo o abandona la mesa.'",
+      "Kaladin recordó a Durk y su consejo muchas veces a lo largo de su vida.",
+      "Destino desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Figura mentora de Kaladin antes de su esclavitud",
+    "relacion_con_spren": "",
+    "otros_detalles": "Llevaba botas de la suerte a cada batalla."
+  },
+  "descripcion_breve": "Soldado en el ejército de Amaram, probable figura mentora de Kaladin. Le dijo que era un soldado nato y artista con la lanza. Su consejo: 'Apuesta todo o abandona la mesa.'",
+  "notas": "Kaladin recordó a Durk en múltiples momentos clave. Su consejo de no apostar a medias refleja el dilema constante de Kaladin entre comprometerse completamente o protegerse."
+}

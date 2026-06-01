@@ -1,0 +1,94 @@
+{
+  "id": "dyel",
+  "nombre": "Dyel",
+  "nombre_completo": "Dyel",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "iriali",
+  "origen": "Rall Elorim, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario — interludio",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Tienda de su madre — acoge visitantes y saltamundos",
+    "Migración iriali a la quinta tierra"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Servicio — ayudaba a su madre Radiante a llevar su tienda",
+      "Filosofía iriali — creía en la doctrina del Largo Camino iriali"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Adolescente iriali durante la migración a la quinta tierra",
+      "Nieta de Ym",
+      "La que ayudaba a su madre Radiante a llevar la tienda que acogía a visitantes y saltamundos"
+    ],
+    "descripcion": "Adolescente iriali durante la migración iriali a la quinta tierra. Pelo largo dorado — herencia iriali que solo recortaba cuando su madre la obligaba. Nieta de Ym, el Nominador de Lo Otro de ECdR. Ayudaba a su madre — una Radiante — a llevar su tienda en Rall Elorim, donde acogían a visitantes, varios de ellos saltamundos. Creía profundamente en la filosofía iriali del Largo Camino — que cada persona es una pieza de la divinidad extendida al cosmere para vivir una vida diferente y traer de vuelta conocimiento enriquecedor. Su madre no compartía esta creencia, pero Dyel sí — porque si era verdad, su abuelo Ym siempre estaría con ella.",
+    "estado_en_viento_y_verdad": "Activa — participando en la migración iriali a la quinta tierra."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "uma",
+        "relacion": "madre — Radiante vinculada a Uma el brumaspren; llevaban juntas la tienda"
+      },
+      {
+        "personaje": "ym",
+        "relacion": "abuelo — Ym el Nominador de Lo Otro de El Camino de los Reyes; Dyel lo recordaba con la doctrina iriali"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Filosófica y espiritualmente comprometida con la doctrina del Largo Camino iriali. La creencia de que Ym siempre estaba con ella le daba consuelo.",
+    "evolucion": "Pasó de su vida en la tienda a participar en la migración iriali a la quinta tierra.",
+    "situacion_en_viento_y_verdad": "Migrando a la quinta tierra."
+  },
+  "arco_narrativo": {
+    "resumen": "Dyel era una adolescente iriali que ayudaba a su madre Radiante a llevar su tienda en Rall Elorim, donde acogían a visitantes y saltamundos. Creía en la doctrina iriali del Largo Camino — que cada persona es una pieza de la divinidad extendida al cosmere. Su madre no lo creía, pero Dyel sí, porque eso significaba que su abuelo Ym siempre estaría con ella. Uno de los visitantes de la tienda le dio un broam completo — su madre insistió en que preguntara. Cuando su madre fue a buscar su lugar en las caravanas de la migración a la quinta tierra, Dyel se quedó impresionada por la velocidad con que su vida en la tienda llegaba a su fin.",
+    "puntos_clave": [
+      "Adolescente iriali de pelo largo dorado — herencia iriali.",
+      "Nieta de Ym — el Nominador de Lo Otro de El Camino de los Reyes.",
+      "Ayudaba a su madre Radiante a llevar su tienda en Rall Elorim.",
+      "La tienda acogía visitantes — varios de ellos saltamundos.",
+      "Creía en la doctrina del Largo Camino iriali — cada persona es una pieza de la divinidad extendida al cosmere.",
+      "Su madre no lo creía; Dyel sí — porque eso significaba que Ym siempre estaría con ella.",
+      "Un visitante le dio un broam completo — su madre insistió en preguntar.",
+      "Se unió a la migración iriali a la quinta tierra.",
+      "Se despidió de su vida en la ciudad y la tienda.",
+      "Aparece en el interludio de VyV — tiene POV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Participante en la migración iriali a la quinta tierra",
+    "rol": "Nieta de Ym; adolescente iriali en el interludio de VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su madre es la Radiante Uma vinculada al brumaspren Uma."
+  },
+  "descripcion_breve": "Adolescente iriali, nieta de Ym. Ayudaba a su madre Radiante en su tienda de Rall Elorim que acogía saltamundos. Creía en el Largo Camino iriali. Se unió a la migración a la quinta tierra.",
+  "notas": "Dyel es la nieta de Ym — el Nominador de Lo Otro que muere en un interludio de El Camino de los Reyes. Su aparición en VyV cierra un arco de la saga iriali que comenzó con Ym."
+}
