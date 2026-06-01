@@ -1,0 +1,73 @@
+{
+  "id": "drodli",
+  "nombre": "Drodli",
+  "nombre_completo": "Drodli",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Monasterio del Corredor del Viento"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Chamanismo — chamán principal del Monasterio del Corredor del Viento"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Chamán principal del Monasterio del Corredor del Viento en Roshar"
+    ],
+    "descripcion": "Chamán principal shin del Monasterio del Corredor del Viento en Roshar. Mencionado en VyV capítulo 111. La página de la Coppermind necesita actualización con información adicional de VyV.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Chamán principal del Monasterio del Corredor del Viento. Mencionado en VyV capítulo 111.",
+    "puntos_clave": [
+      "Chamán principal shin del Monasterio del Corredor del Viento.",
+      "Mencionado en VyV capítulo 111."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Chamán principal del Monasterio del Corredor del Viento",
+    "rol": "Figura religiosa shin menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Chamán principal shin del Monasterio del Corredor del Viento. Mencionado en Viento y Verdad capítulo 111.",
+  "notas": "Información muy limitada. La Coppermind indica que la página necesita actualizarse con información de VyV."
+}

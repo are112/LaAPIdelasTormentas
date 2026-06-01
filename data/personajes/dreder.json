@@ -1,0 +1,99 @@
+{
+  "id": "dreder",
+  "nombre": "Dreder",
+  "nombre_completo": "Dreder",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Rompedores del Cielo — acolito de Nale"
+  ],
+  "orden_radiantes": {
+    "orden": "Rompedores del Cielo",
+    "nivel_ideal": 2,
+    "spren_asociado": {
+      "principal": "altospren desconocido"
+    },
+    "estado_del_vinculo": "Activo — al menos en el Segundo Ideal. Puede curarse con luz tormentosa."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "División",
+        "Presión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — capaz de inmovilizar a un Lin Davar enfurecido",
+      "Conocimiento legal — usó el Acto de Vacío Veden como justificación legal para matar Radiantes",
+      "Conocimiento del Pacto de los Heraldos y las Órdenes de los Caballeros Radiantes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Rompedor del Cielo acolito de Nale al final de la Era de la Soledad",
+      "Uno de los enviados por Nale a matar a quienes estaban cerca de vincularse con un spren"
+    ],
+    "descripcion": "Rompedor del Cielo que eligió seguir a Nale al final de la Era de la Soledad, creyendo erróneamente que la cordura del Heraldo permanecía intacta. Fue enviado por Nale para matar a cualquiera que estuviera cerca de vincularse con un spren, como parte de la misión que Ishar puso en marcha para evitar una Desolación que supuestamente seguiría al regreso de los Radiantes. Al menos en el Segundo Ideal — puede curarse con luz tormentosa. Capaz de inmovilizar a un Lin Davar enfurecido. Conoce el Pacto de los Heraldos y las distintas Órdenes. Tenía conocimiento de Shallan como posible Radiante. Citó el Acto de Vacío Veden como justificación legal.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "nale",
+        "relacion": "su Heraldo — Dreder era uno de sus acolitos más confiables; conocía la misión de Nale"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "objetivo — Nale lo envió a matar a potenciales Radiantes como Shallan"
+      },
+      {
+        "personaje": "lin_davar",
+        "relacion": "inmovilizó a Lin Davar enfurecido durante su misión"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal a Nale y a su misión. Creyó erróneamente en la cordura del Heraldo. Conocía las implicaciones del regreso de los Radiantes.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dreder fue uno de los Rompedores del Cielo que eligieron seguir a Nale al final de la Era de la Soledad, creyendo que el Heraldo mantenía la cordura. Fue enviado por Nale a matar a quienes estaban cerca de vincularse con un spren. Llegó a casa de los Davar en Jah Keved — inmovilizó a Lin Davar enfurecido usando sus poderes. Citó el Acto de Vacío Veden como justificación legal. Tenía conocimiento de Shallan como posible Radiante. Mencionado en ECdR capítulo 45.",
+    "puntos_clave": [
+      "Rompedor del Cielo que siguió a Nale al final de la Era de la Soledad.",
+      "Creyó erróneamente que Nale mantenía la cordura.",
+      "Enviado por Nale a matar a cualquiera cerca de vincularse con un spren.",
+      "Al menos en el Segundo Ideal — puede curarse con luz tormentosa.",
+      "Capaz de inmovilizar a un Lin Davar enfurecido.",
+      "Citó el Acto de Vacío Veden como justificación legal.",
+      "Tenía conocimiento de Shallan como posible Radiante.",
+      "Mencionado en ECdR capítulo 45."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Acolito de Nale enviado a eliminar Radiantes potenciales",
+    "relacion_con_spren": "Vinculado a un altospren desconocido.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Rompedor del Cielo acolito de Nale. Enviado a matar a quienes estaban cerca de vincularse con un spren. Inmovilizó a Lin Davar en Jah Keved. Conocía la existencia de Shallan como posible Radiante.",
+  "notas": "Su misión formaba parte del plan de Ishar — puesto en marcha a través de Nale — de prevenir el regreso de los Radiantes. Su creencia en la cordura de Nale era un error trágico."
+}

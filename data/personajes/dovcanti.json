@@ -1,0 +1,76 @@
+{
+  "id": "dovcanti",
+  "nombre": "Dovcanti",
+  "nombre_completo": "Dovcanti",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención — su obra es citada",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Escritura épica — autor de un épico sobre la Falsa Desolación",
+      "Historiografía — documentó enfrentamientos entre humanos y Portadores del Vacío después del Aharietiam"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Autor de un épico sobre la Falsa Desolación",
+      "El que documentó enfrentamientos entre humanos y Portadores del Vacío después del Aharietiam — considerado pseudohistórico por el fervor vorin"
+    ],
+    "descripcion": "Autor roshario de un épico sobre la Falsa Desolación que describía enfrentamientos entre humanos y Portadores del Vacío después del Aharietiam. El fervor vorin lo consideraba pseudohistórico porque no creía que ningún Portador del Vacío hubiera sobrevivido al Aharietiam. Sin embargo, los eventos recientes — el abandono del Pacto de los Heraldos y la restauración de los cantores por la tormenta eterna — dan mucha más credibilidad a su obra.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Dovcanti escribió un épico sobre la Falsa Desolación, describiendo enfrentamientos entre humanos y Portadores del Vacío después del Aharietiam. El fervor vorin lo catalogó como pseudohistórico. Los eventos de la Verdadera Desolación dan ahora credibilidad a su obra. Mencionado en Juramentada capítulo 56.",
+    "puntos_clave": [
+      "Autor de un épico sobre la Falsa Desolación.",
+      "Documentó enfrentamientos entre humanos y Portadores del Vacío después del Aharietiam.",
+      "El fervor vorin lo consideraba pseudohistórico — no creía que Portadores del Vacío sobrevivieran al Aharietiam.",
+      "Los eventos recientes dan credibilidad a su obra.",
+      "Mencionado en Juramentada capítulo 56."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Autor cuya obra fue reivindicada por los eventos de la Verdadera Desolación",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Autor de un épico sobre la Falsa Desolación. El fervor vorin lo consideraba pseudohistórico. Los eventos de la Verdadera Desolación dan ahora credibilidad a su obra.",
+  "notas": "Su obra es un ejemplo de cómo el fervor vorin suprimió información histórica inconveniente. La Verdadera Desolación ha reivindicado su credibilidad póstumamente."
+}

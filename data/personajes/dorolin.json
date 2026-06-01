@@ -1,0 +1,82 @@
+{
+  "id": "dorolin",
+  "nombre": "Dorolin",
+  "nombre_completo": "Dorolin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Esgrima — exespadachín de gran habilidad",
+      "Pulso — el mejor practicante de pulso que Adolin conoce, pese a tener un solo brazo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Exespadachín que perdió un brazo",
+      "El mejor practicante de pulso que Adolin Kholin conoce",
+      "Ejemplo de fortaleza a través de la adversidad según Adolin"
+    ],
+    "descripcion": "Exespadachín que perdió uno de sus brazos. Su amputación le impide sostener un escudo o usar ambas manos en la espada, lo que le pone en desventaja en los duelos. Sin embargo, es extraordinariamente hábil en el pulso — el mejor que Adolin Kholin conoce. Adolin lo menciona a Shallan para ilustrar que quienes tienen que superar debilidades son más fuertes que quienes no las tienen.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "Adolin lo admira profundamente — lo cita como ejemplo de fortaleza a través de la adversidad"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Resiliente. Adaptó sus habilidades a su discapacidad hasta dominar el pulso completamente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Dorolin perdió un brazo, lo que le impide usar escudo o empuñar la espada con ambas manos. Pese a esta desventaja en los duelos, se convirtió en el mejor practicante de pulso que Adolin conoce. Adolin lo menciona a Shallan como ejemplo de que quienes luchan contra sus debilidades son más fuertes que quienes no lo hacen. Mencionado en RdG capítulo 93.",
+    "puntos_clave": [
+      "Exespadachín que perdió un brazo.",
+      "Su amputación le impide usar escudo o empuñar la espada con ambas manos.",
+      "El mejor practicante de pulso que Adolin Kholin conoce.",
+      "Adolin lo cita a Shallan como ejemplo de fortaleza a través de la adversidad.",
+      "Mencionado en RdG capítulo 93."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Practicante de pulso",
+    "rol": "Ejemplo de fortaleza a través de la adversidad; el mejor practicante de pulso que Adolin conoce",
+    "relacion_con_spren": "",
+    "otros_detalles": "Perdió un brazo — usa el pulso en lugar de la espada."
+  },
+  "descripcion_breve": "Exespadachín que perdió un brazo. El mejor practicante de pulso que Adolin conoce. Adolin lo cita como ejemplo de que quienes superan debilidades son más fuertes.",
+  "notas": "Mencionado en RdG capítulo 93. Su historia es usada por Adolin para transmitir a Shallan que las limitaciones pueden forjar una fortaleza extraordinaria."
+}

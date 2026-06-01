@@ -1,0 +1,73 @@
+{
+  "id": "droz",
+  "nombre": "Droz",
+  "nombre_completo": "Droz",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Sueños Primeros — timonel"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — timonel del Sueños Primeros"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Timonel del barco Sueños Primeros"
+    ],
+    "descripcion": "Timonel thayleño del barco Sueños Primeros en Roshar. Aparece en Esquirla del Amanecer.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Timonel del barco Sueños Primeros. Aparece en Esquirla del Amanecer.",
+    "puntos_clave": [
+      "Timonel thayleño del Sueños Primeros.",
+      "Aparece en Esquirla del Amanecer."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Timonel del Sueños Primeros",
+    "rol": "Marinero menor del Sueños Primeros",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Timonel thayleño del barco Sueños Primeros. Aparece en Esquirla del Amanecer.",
+  "notas": "Información muy limitada."
+}
