@@ -1,0 +1,107 @@
+{
+  "id": "elid_hija_zeenid",
+  "nombre": "Elid-hija-Zeenid",
+  "nombre_completo": "Elid-hija-Zeenid",
+  "apodos": [
+    "Elid"
+  ],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Monteclaro, Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores de Honor — Honohoja de Chanarach"
+  ],
+  "orden_radiantes": {
+    "orden": "Portadores del Polvo (Honohoja)",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "no aplica — usa Honohoja"
+    },
+    "estado_del_vinculo": "Portadora de Honor con la Honohoja de Chanarach. Puede usar las potencias sin necesidad de spren."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Cohesión",
+        "Tensión — potencias del Portador del Polvo con Honohoja de Chanarach"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — espada corta como símbolo de su rango; se enfrentó a Szeth en VyV",
+      "Fuerza física — de adulta posee fuerza nerviosa característica"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hermana mayor de Szeth",
+      "Portadora de Honor con la Honohoja de Chanarach",
+      "La que reveló que la peregrinación de Szeth era para ver si podía tomar el lugar de Jezrien en el Pacto"
+    ],
+    "descripcion": "Hermana mayor de Szeth-hijo-Neturo, nacida tres años antes que él. Ligeramente más alta que Szeth pero más baja que la media. De joven no era tan delgada como él, pero de adulta desarrolló una fuerza nerviosa característica. Pelo negro o castaño oscuro. De niña llevaba un delantal naranja como su 'splash' sobre vestido gris. De adulta llevaba moño y ojos penetrantes con una sonrisa de quien sabe más de lo que dice. Se aburría de la vida pastoril y llegó a disfrutar la vida del monasterio. Lleva espada corta como símbolo de su rango de Portadora de Honor. Porta la Honohoja de Chanarach. En VyV lleva el pelo corto y cicatrices en la cara, y viste envolturas de tela que cubren incluso su cabeza. Reveló que la peregrinación de Szeth era para ver si podía tomar el lugar de Jezrien en el Pacto de los Heraldos. Se enfrentó a Szeth en VyV.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "szeth",
+        "relacion": "hermano menor — lo protegía de joven; de adulta lo resentía y se enfrentó a él en VyV"
+      },
+      {
+        "personaje": "Neturo-hijo-Vallano",
+        "relacion": "padre — lo resiente por poner a Szeth por encima del resto de la familia"
+      },
+      {
+        "personaje": "Zeenid-hija-Beth",
+        "relacion": "madre — tuvo que dejarla para seguir a Szeth y Neturo; resentía esa separación"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "se enfrentaron en VyV — la relación entre hermanos es compleja y resentida"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Compleja — de niña quería proteger a Szeth; de adulta lo resiente por el efecto que tuvo sobre la familia. Resiente a su padre por poner a Szeth por encima de todos. Resiente haber tenido que dejar a su madre.",
+    "evolucion": "Pasó de hermana protectora a Portadora de Honor con resentimiento acumulado hacia Szeth y su padre.",
+    "situacion_en_viento_y_verdad": "Activa — enfrentada a Szeth."
+  },
+  "arco_narrativo": {
+    "resumen": "Elid nació tres años antes que Szeth cerca de Monteclaro en Shinovar. De niña lo protegía y sentía lástima por él. Cuando vio los efectos que el campamento de soldados tuvo en su madre y el efecto que la infelicidad de Zeenid tuvo en su padre, empezó a resentir a Szeth. Tuvo que dejar a su madre para seguir a Szeth y Neturo — algo que nunca le perdonó del todo. Con el tiempo se convirtió en Portadora de Honor con la Honohoja de Chanarach. Reveló en VyV que la peregrinación de Szeth era para ver si podía tomar el lugar de Jezrien en el Pacto de los Heraldos. Se enfrentó a Szeth en VyV.",
+    "puntos_clave": [
+      "Hermana mayor de Szeth — nacida tres años antes.",
+      "De niña lo protegía y sentía lástima por él.",
+      "Cuando vio los efectos del campamento en su madre, empezó a resentir a Szeth.",
+      "Tuvo que dejar a su madre para seguir a Szeth y Neturo.",
+      "Resiente a su padre por poner a Szeth por encima del resto.",
+      "De adulta: pelo corto, cicatrices, fuerza nerviosa, espada corta.",
+      "Portadora de Honor con la Honohoja de Chanarach.",
+      "Reveló que la peregrinación de Szeth era para ver si podía tomar el lugar de Jezrien.",
+      "Se enfrentó a Szeth en VyV.",
+      "Se aburría de la vida pastoril y llegó a disfrutar la vida del monasterio."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Portadora de Honor — Honohoja de Chanarach",
+    "rol": "Hermana de Szeth con quien se enfrenta en VyV; reveladora del propósito de la peregrinación de Szeth",
+    "relacion_con_spren": "Usa Honohoja — sin necesidad de spren.",
+    "otros_detalles": "En VyV lleva pelo corto, cicatrices y envolturas de tela."
+  },
+  "descripcion_breve": "Hermana mayor de Szeth y Portadora de Honor con la Honohoja de Chanarach. Resiente a Szeth y a su padre. Reveló que la peregrinación de Szeth era para ver si podía tomar el lugar de Jezrien en el Pacto. Se enfrentó a Szeth en VyV.",
+  "notas": "Su revelación sobre la peregrinación de Szeth es uno de los momentos clave de VyV. Su relación con Szeth es uno de los arcos más complejos de la saga shin."
+}

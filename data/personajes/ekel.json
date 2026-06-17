@@ -1,0 +1,81 @@
+{
+  "id": "ekel",
+  "nombre": "Ekel",
+  "nombre_completo": "Ekel",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Davar — guardia"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — guardia armado de la Casa Davar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guardia veden de la Casa Davar",
+      "Presente cuando Mill intentó cobrar las deudas de Jushu a Lin Davar"
+    ],
+    "descripcion": "Guardia veden de la Casa Davar en Jah Keved. Junto a otro guardia llamado Jix estaba presente cuando el cobrador Mill llegó a reclamar las deudas de juego de Jushu Davar a su padre Lin. Ambos estaban armados pero no tuvieron que intervenir — Lin se negó a pagar la deuda y ofreció directamente a Jushu a Mill. Probablemente fue uno de los guardias reemplazados cuando la Sangre Espectral tomó interés en Lin y Luesh se convirtió en su administrador.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Jix",
+        "relacion": "compañero guardia presente en la misma escena"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Guardia de la Casa Davar presente cuando el cobrador Mill intentó reclamar las deudas de juego de Jushu a Lin. Lin ofreció a Jushu en lugar de pagar. Probablemente fue reemplazado cuando la Sangre Espectral tomó control de la casa.",
+    "puntos_clave": [
+      "Guardia veden de la Casa Davar.",
+      "Junto a Jix, presente cuando Mill intentó cobrar las deudas de Jushu.",
+      "Armados pero no tuvieron que intervenir — Lin ofreció a Jushu.",
+      "Probablemente reemplazado cuando la Sangre Espectral tomó interés en Lin."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Guardia menor de la Casa Davar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Guardia veden de la Casa Davar. Junto a Jix, presente cuando Mill intentó cobrar las deudas de juego de Jushu a Lin. No tuvieron que intervenir — Lin ofreció a Jushu directamente.",
+  "notas": "Probablemente reemplazado cuando la Sangre Espectral tomó control de la Casa Davar."
+}

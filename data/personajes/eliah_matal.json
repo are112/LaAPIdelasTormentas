@@ -1,0 +1,99 @@
+{
+  "id": "eliah_matal",
+  "nombre": "Eliah Matal",
+  "nombre_completo": "Eliah Matal",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Principado de Sadeas, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario — interludio",
+        "pov": true
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Principado de Sadeas — historiadora y erudita"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Historia — erudita historiadora especializada en ruinas rosharianas",
+      "Organización de expediciones — lideró una expedición académica a ruinas cerca de los campamentos",
+      "Idiomas — habla alethi, veden y azishiano"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Historiadora alezi ojos claros del principado de Sadeas",
+      "Favorita de sus tíos Avarak y Hashal Matal",
+      "La que cayó al abismo con su puente en una expedición a ruinas — sobrevivió"
+    ],
+    "descripcion": "Mujer alezi ojos claros de color violeta intenso, 32 años. Pelo negro trenzado. Viste havah verde formal pero combina con botas prácticas de expedición. Erudita historiadora — favorita de sus tíos Avarak Matal y Hashal, aunque es mucho más amable que ellos. Acostumbrada a ser obedecida, aunque no es cruel. Trabaja con dedicación y quiere demostrar su valía. Habla tres idiomas: alethi, veden y azishiano. Tiene al menos una pupila llamada Zvynda. Organizó una expedición a unas ruinas recién descubiertas cerca de los campamentos de guerra — el abismoide que atacó a Doral también tumbó el puente de Eliah al abismo con ella encima. Sobrevivió.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "matal",
+        "relacion": "tío — favorita de Avarak Matal; ella difiere en carácter de sus tíos"
+      },
+      {
+        "personaje": "hashal",
+        "relacion": "tía — favorita de Hashal también; Hashal la considera su sobrina preferida"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "Zvynda",
+        "relacion": "pupila"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ambiciosa, inteligente y dedicada. Quiere demostrar su valía en el campo académico. Acostumbrada a ser obedecida pero no es cruel como sus tíos.",
+    "evolucion": "Sin arco propio más allá de la expedición fallida.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Eliah Matal organizó una expedición a unas ruinas recién descubiertas cerca de los campamentos de guerra de las Llanuras Quebradas, llevando eruditos, soldados y una cuadrilla de puentes. Durante la expedición, muy cerca del destino, un abismoide atacó y tumbó el puente — con Eliah encima. Cayó al abismo. El mismo abismoide que atacó a Doral del Puente Nueve. Sobrevivió, herida y en el abismo. La cuadrilla de puentes fue a rescatarla.",
+    "puntos_clave": [
+      "Historiadora alezi ojos claros violetas, 32 años, pelo negro trenzado.",
+      "Havah verde formal con botas prácticas de expedición.",
+      "Favorita de sus tíos Avarak y Hashal Matal — mucho más amable que ellos.",
+      "Habla alethi, veden y azishiano.",
+      "Tiene al menos una pupila: Zvynda.",
+      "Organizó una expedición académica a ruinas cercanas a los campamentos.",
+      "Un abismoide atacó y tumbó el puente al abismo con Eliah encima.",
+      "Es el mismo abismoide del interludio de Doral del Puente Nueve.",
+      "Sobrevivió y fue rescatada.",
+      "Aparece en el interludio de ECdR — tiene POV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Historiadora y erudita del principado de Sadeas",
+    "rol": "Protagonista del interludio de ECdR sobre la expedición fallida a las ruinas",
+    "relacion_con_spren": "",
+    "otros_detalles": "Pupila: Zvynda. Habla tres idiomas."
+  },
+  "descripcion_breve": "Historiadora alezi ojos claros violetas, favorita de sus tíos Avarak y Hashal Matal. Organizó una expedición a ruinas — un abismoide tumbó el puente al abismo con ella encima. Sobrevivió.",
+  "notas": "Su interludio está conectado con el de Doral del Puente Nueve — es el mismo abismoide el que atacó ambos puentes. Los dos interludios se complementan."
+}

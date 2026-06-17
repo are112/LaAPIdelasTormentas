@@ -1,0 +1,111 @@
+{
+  "id": "elit_ruthar",
+  "nombre": "Elit Ruthar",
+  "nombre_completo": "Elit Ruthar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Principado de Ruthar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Ruthar",
+    "Campamentos de guerra de las Llanuras Quebradas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelo — portador de armadura esquirlada y martillo esquirlado",
+      "Combate en equipo — participó en el duelo desigual de cuatro contra Adolin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alezi ojos claros, primo de Relis Ruthar",
+      "Portador de armadura esquirlada — perdió la armadura ante Adolin en el duelo individual",
+      "El que fue derrotado por Kaladin con una lanza en el pecho en el duelo desigual"
+    ],
+    "descripcion": "Alezi ojos claros, calvo y más bajo que la media entre los alezi. Labios finos que se vuelven blancos cuando sonríe. Primo de Relis Ruthar. Ambicioso y temerario en su deseo de conseguir una hoja esquirlada. Relis le regaló una armadura esquirlada gris — el segundo conjunto de armadura del principado de Ruthar. Sin embargo, Elit resiente profundamente a Relis por eclipsarle en la arena de duelos. En el duelo individual contra Adolin, la armadura se quedó sin luz tormentosa y Adolin simplemente lo empujó al suelo para ganar. En el duelo desigual de cuatro contra Adolin junto a Relis, Jakamav y Abrobadar, usó armadura y martillo esquirlado. Kaladin lo golpeó en el pecho con su lanza, obligándolo a rendirse. Al salir de la arena, Kaladin le quitó el casco y lo usó como escudo.",
+    "estado_en_viento_y_verdad": "Activo — su padre fue enviado de vuelta a Alezkar con deshonor tras las derrotas."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "ruthar",
+        "relacion": "tío — Alto Príncipe Ruthar; perdió sus esquirladas por las derrotas de Relis y Elit"
+      },
+      {
+        "personaje": "relis_ruthar",
+        "relacion": "primo — le regaló la armadura esquirlada; Elit lo resiente profundamente por eclipsarle"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "Jakamav",
+        "relacion": "aliado en el duelo desigual contra Adolin"
+      },
+      {
+        "personaje": "Abrobadar",
+        "relacion": "aliado en el duelo desigual contra Adolin"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "Adolin lo derrotó en el duelo individual — armadura gris agotada sin luz tormentosa"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin lo golpeó en el pecho con la lanza en el duelo desigual y le quitó el casco"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ambicioso y resentido. Quiere demostrar su valía pero es temerario. Resiente profundamente a Relis por eclipsarle pese a haberse beneficiado de su generosidad.",
+    "evolucion": "Sin arco propio más allá de sus derrotas.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Elit Ruthar participó en dos duelos memorables. Primero, el duelo individual contra Adolin — la armadura esquirlada se quedó sin luz tormentosa y Adolin simplemente lo empujó al suelo. Luego, el duelo desigual de cuatro contra Adolin junto a Relis, Jakamav y Abrobadar — Kaladin irrumpió, golpeó a Elit en el pecho con su lanza obligándolo a rendirse, y le quitó el casco al salir. Las derrotas de Relis y Elit avergonzaron a la Casa Ruthar — su padre fue enviado de vuelta a Alezkar. La Casa Ruthar perdió todas sus esquirladas salvo la hoja personal del Alto Príncipe Ruthar.",
+    "puntos_clave": [
+      "Alezi ojos claros, calvo, más bajo que la media, labios finos que se vuelven blancos al sonreír.",
+      "Primo de Relis Ruthar — Relis le regaló una armadura esquirlada gris.",
+      "Resiente profundamente a Relis por eclipsarle en la arena.",
+      "Ambicioso y temerario — quiere conseguir una hoja esquirlada.",
+      "Duelo individual contra Adolin: armadura agotada sin luz tormentosa — Adolin lo empujó al suelo.",
+      "Duelo desigual: usó armadura y martillo esquirlado; Kaladin lo golpeó en el pecho y lo obligó a rendirse.",
+      "Kaladin le quitó el casco al salir de la arena.",
+      "Las derrotas avergonzaron a la Casa Ruthar — su padre enviado de vuelta a Alezkar.",
+      "La Casa Ruthar perdió casi todas sus esquirladas."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ojos claros del principado de Ruthar — sin esquirladas",
+    "rol": "Rival derrotado de Adolin; parte del declive de la Casa Ruthar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su derrota fue parte de una cadena que llevó al declive de la Casa Ruthar en las Llanuras."
+  },
+  "descripcion_breve": "Primo ambicioso de Relis Ruthar. Derrotado por Adolin en el duelo individual cuando la armadura se agotó. Derrotado por Kaladin en el duelo desigual — Kaladin le quitó el casco al salir de la arena.",
+  "notas": "Las derrotas de Elit y Relis fueron decisivas para el declive de la Casa Ruthar en las Llanuras Quebradas."
+}

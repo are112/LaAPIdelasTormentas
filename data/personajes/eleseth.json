@@ -1,0 +1,77 @@
+{
+  "id": "eleseth",
+  "nombre": "Eleseth",
+  "nombre_completo": "Eleseth",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — sus experimentos son citados por Shallan",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Arte — pintora que estudiaba el efecto de la iluminación de color en la percepción",
+      "Experimentación científica — diseñó experimentos sobre la adaptación perceptiva a colores"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita y artista rosharia",
+      "La que estudió el efecto de la iluminación de color en el arte y la percepción humana"
+    ],
+    "descripcion": "Erudita y artista rosharia. Estudió el efecto de la iluminación de color en el arte y la percepción humana. Iluminaba su estudio con esferas de un solo color para pintar — descubrió que la mente compensaba con el tiempo, ajustando la percepción del color. Shallan leyó sobre sus experimentos y le preocupó que si pasaba demasiado tiempo mirando el mundo de un modo concreto, jamás pudiera ver el mundo con claridad de nuevo.",
+    "estado_en_viento_y_verdad": "Fallecida — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Científica y artista curiosa. Sus experimentos sobre la percepción del color fueron pioneros.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Eleseth fue una erudita y artista que estudió el efecto de la iluminación de color en la percepción. Iluminaba su estudio con esferas de un solo color y descubrió que la mente compensaba con el tiempo. Shallan leyó sobre sus experimentos y reflexionó sobre si su propia percepción del mundo estaba distorsionada.",
+    "puntos_clave": [
+      "Erudita y artista rosharia.",
+      "Estudió el efecto de iluminación de color en el arte y la percepción.",
+      "Iluminaba su estudio con esferas de un solo color para pintar.",
+      "Descubrió que la mente compensaba la percepción de color con el tiempo.",
+      "Shallan leyó sobre sus experimentos y reflexionó sobre su propia percepción.",
+      "Mencionada en ECdR capítulo 4."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — figura histórica",
+    "rol": "Erudita cuya obra inspira reflexiones de Shallan sobre la percepción",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudita y artista rosharia que estudió el efecto de la iluminación de color en la percepción. Descubrió que la mente compensaba el color con el tiempo. Sus experimentos hicieron reflexionar a Shallan sobre su propia percepción.",
+  "notas": "Sus experimentos tienen un paralelo temático con Shallan y sus identidades — la preocupación de Shallan de no poder ver el mundo 'con claridad' resuena con el arco de sus identidades fragmentadas."
+}
