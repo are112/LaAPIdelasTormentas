@@ -992,6 +992,14 @@
     "especie": "cantor"
   },
   {
+    "id": "ekel",
+    "nombre": "Ekel",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "el_fusionado",
     "nombre": "El",
     "orden": "Ninguna",
@@ -1008,6 +1016,14 @@
     "especie": "humano"
   },
   {
+    "id": "eleseth",
+    "nombre": "Eleseth",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
     "id": "elhokar",
     "nombre": "Elhokar",
     "orden": "Ninguna",
@@ -1016,8 +1032,32 @@
     "especie": "humano"
   },
   {
+    "id": "eliah_matal",
+    "nombre": "Eliah Matal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "elid_hija_zeenid",
+    "nombre": "Elid-hija-Zeenid",
+    "orden": "Portadores del Polvo",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "elit",
     "nombre": "Elit",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "elit_ruthar",
+    "nombre": "Elit Ruthar",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
