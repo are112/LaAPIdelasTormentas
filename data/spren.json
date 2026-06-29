@@ -344,11 +344,11 @@
     "estado_actual": "activo"
   },
   {
-    "id": "cusicesh",
-    "nombre": "Cusicesh",
-    "apodo": "El Protector",
-    "tipo_spren": "spren primigenio",
+    "id": "espina-negra",
+    "nombre": "Espina Negra",
+    "apodo": null,
+    "tipo_spren": "spren único",
     "radiante_vinculado": null,
-    "estado_actual": "activo"
+    "estado_actual": "desconocido"
   }
 ]
