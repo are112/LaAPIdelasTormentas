@@ -1032,43 +1032,11 @@
     "especie": "humano"
   },
   {
-    "id": "epinar",
-    "nombre": "Epinar",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "eranniv",
-    "nombre": "Eranniv",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "erinor",
-    "nombre": "Erinor",
-    "orden": "Custodios de la Piedra",
-    "nivel_ideal": null,
-    "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
     "id": "erraniv",
     "nombre": "Erraniv",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
-    "especie": "humano"
-  },
-  {
-    "id": "eshava",
-    "nombre": "Eshava",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "viva",
     "especie": "humano"
   },
   {
@@ -1078,38 +1046,6 @@
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "cantor"
-  },
-  {
-    "id": "eshu",
-    "nombre": "Eshu",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
-  },
-  {
-    "id": "essu",
-    "nombre": "Essu",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecida",
-    "especie": "cantor"
-  },
-  {
-    "id": "estel",
-    "nombre": "Estel",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "desconocido",
-    "especie": "cantor"
-  },
-  {
-    "id": "estnatil",
-    "nombre": "Estnatil",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "fallecido",
-    "especie": "humano"
   },
   {
     "id": "estrella",
@@ -1157,6 +1093,22 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "extes",
+    "nombre": "Extes",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "eylita_tavinar",
+    "nombre": "Eylita Tavinar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
