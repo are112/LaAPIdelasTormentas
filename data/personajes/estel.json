@@ -1,0 +1,75 @@
+{
+  "id": "estel",
+  "nombre": "Estel",
+  "nombre_completo": "Estel",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Argumentación — abogó a favor de la expedición al Pozo de Control en Narak"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Oyente en forma diestra durante los eventos previos a la tormenta eterna",
+      "El que argumentó a favor de la expedición a Narak para investigar el Pozo de Control"
+    ],
+    "descripcion": "Oyente que llevaba forma diestra durante los eventos previos a la tormenta eterna. Argumentó a favor de la expedición de vuelta a Narak para investigar el Pozo de Control. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseído por un Fusionado durante la tormenta eterna."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Curioso y aventurero — apoyó la investigación del Pozo de Control.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Oyente en forma diestra que argumentó a favor de la expedición de vuelta a Narak para investigar el Pozo de Control, durante los eventos previos a la tormenta eterna.",
+    "puntos_clave": [
+      "Oyente en forma diestra durante los eventos previos a la tormenta eterna.",
+      "Argumentó a favor de la expedición a Narak para investigar el Pozo de Control.",
+      "Destino desconocido tras la tormenta eterna."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Oyente menor que apoyó la investigación del Pozo de Control",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Oyente en forma diestra. Argumentó a favor de la expedición de vuelta a Narak para investigar el Pozo de Control, durante los eventos previos a la tormenta eterna.",
+  "notas": "Información muy limitada. Mencionado en Palabras Radiantes."
+}

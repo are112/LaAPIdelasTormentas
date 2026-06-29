@@ -1,0 +1,91 @@
+{
+  "id": "essu",
+  "nombre": "Essu",
+  "nombre_completo": "Essu",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados — fannahn-im"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Vuelo — capacidades de los fannahn-im"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Fusionada fannahn-im — hija de Rabeniel",
+      "La que sufrió deterioro cognitivo severo por el ciclo interminable de muerte y renacimiento",
+      "La que fue liberada por su propia madre con luz del vacío antinatural"
+    ],
+    "descripcion": "Fusionada de tipo fannahn-im. Alta, cara larga, pelo rojo anaranjado recogido en un moño. Hija de Rabeniel. Sufre deterioro cognitivo severo — su mente se rompió durante las Épocas Heráldicas por el ciclo interminable de muerte y renacimiento que sufrieron los Fusionados durante las Desolaciones. Su cabeza cae de lado, a menudo mira al vacío o ríe para sí misma. Tiene tendencia a babear — tiene una asistente que se lo seca. Sigue e imita a su madre Rabeniel, pero no la reconoce. Es capaz de hablar y a veces pide a su madre sin reconocerla. Conoce una melodía que canturrean los humanos en tabernas y es capaz de tararearla. Durante la invasión cantora de Urithiru estuvo presente en la habitación donde Rabeniel tenía a Navani trabajando en la investigación de las Luces. No supuso un peligro para Navani, aunque su presencia la desconcertaba. Rabeniel reveló más tarde a Navani que Essu era su hija. Cuando Rabeniel causó una explosión al intentar mezclar luz del vacío y luz del vacío antinatural con una daga de raysio, Essu sufrió heridas leves — no pareció notarlo. Rabeniel construyó inmediatamente otra daga y usó luz del vacío antinatural para matar a Essu de forma permanente. La muerte fue rápida pero dolorosa — era la forma de liberarla de su tormento.",
+    "estado_en_viento_y_verdad": "Fallecida — muerta permanentemente por Rabeniel."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "rabeniel",
+        "relacion": "madre — la cuidaba y finalmente la mató permanentemente con luz del vacío antinatural para liberarla de su tormento"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Deterioro cognitivo severo — mente rota por el ciclo de muerte y renacimiento de las Desolaciones. No reconoce a su madre aunque a veces la pide. Una de las Fusionadas más perturbadas que Navani había visto.",
+    "evolucion": "Sin evolución — su deterioro era permanente hasta su muerte definitiva.",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Essu era una Fusionada fannahn-im cuya mente se rompió durante las Épocas Heráldicas por el interminable ciclo de muerte y renacimiento. Era la hija de Rabeniel, que la cuidaba. Durante la ocupación de Urithiru, estuvo presente en la habitación de Navani sin suponer peligro pero desconcertándola. Rabeniel reveló que Essu era su hija. Tras la explosión de la daga de raysio, Rabeniel construyó otra y mató a Essu permanentemente con luz del vacío antinatural — una muerte rápida y dolorosa que era la única forma de liberarla.",
+    "puntos_clave": [
+      "Fusionada fannahn-im — alta, cara larga, pelo rojo anaranjado en moño.",
+      "Hija de Rabeniel.",
+      "Mente rota por el ciclo interminable de muerte y renacimiento durante las Desolaciones.",
+      "Cabeza caída, mira al vacío, ríe para sí, tiende a babear.",
+      "Sigue e imita a Rabeniel sin reconocerla.",
+      "A veces pide a su madre sin saber que está ante ella.",
+      "Conoce una melodía humana de taberna y la tararea.",
+      "Durante la ocupación de Urithiru estuvo en la habitación de Navani.",
+      "Navani creyó que era del mismo tipo de Fusionado que Rabeniel.",
+      "Rabeniel reveló a Navani que Essu era su hija.",
+      "Sufrió heridas leves en la explosión de la daga de raysio — no lo notó.",
+      "Rabeniel la mató permanentemente con luz del vacío antinatural para liberarla.",
+      "Muerte rápida pero dolorosa."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — muerte permanente",
+    "rol": "Hija de Rabeniel; su existencia ilustra el coste humano del ciclo de los Fusionados",
+    "relacion_con_spren": "",
+    "otros_detalles": "Una de las Fusionadas más perturbadas que Navani había encontrado."
+  },
+  "descripcion_breve": "Fusionada fannahn-im, hija de Rabeniel. Mente rota por el ciclo de muerte y renacimiento. No reconocía a su madre. Rabeniel la mató permanentemente con luz del vacío antinatural para liberarla de su tormento.",
+  "notas": "Su historia es uno de los momentos más trágicos de RdG — Rabeniel mató a su propia hija como acto de misericordia. Ilustra el coste devastador del ciclo de muerte y renacimiento en los Fusionados más antiguos."
+}

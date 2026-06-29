@@ -1,0 +1,93 @@
+{
+  "id": "estnatil",
+  "nombre": "Estnatil",
+  "nombre_completo": "Estnatil",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Ciudad Thaylen, Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de alto rango de Ciudad Thaylen — portador de esquirlada"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — portador de hoja esquirlada",
+      "Guardia de alto rango — protegía el trono thayleño"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portador de esquirlada thayleño y guardia de alto rango de Ciudad Thaylen",
+      "El que murió aplastado por el tronador Kai-garnis en la Batalla de la Explanada Thayleña",
+      "Cuya hoja esquirlada Adolin dio a Kdralk para defender el Barrio Bajo"
+    ],
+    "descripcion": "Portador de esquirlada thayleño y guardia de alto rango en Ciudad Thaylen durante la Era de la Soledad. Miembro de una de las ocho casas thayleñas con esquirladas. Probablemente recibió su hoja de su padre en la juventud. Sirvió como guardia de alto rango protegiendo el trono thayleño. Durante la Batalla de la Explanada Thayleña, estaba en la muralla de la ciudad cuando el tronador Kai-garnis la rompió. Murió aplastado bajo los escombros junto a su hoja esquirlada. Jasnah Kholin detectó la hoja esquirlada enterrada, transformó los escombros en humo con la Forja del Alma y la dejó al descubierto. Adolin Kholin dio la hoja de Estnatil a Kdralk — el hijo de la reina Fen — ordenándole que reuniera hombres e intentara mantener el Barrio Bajo de Ciudad Thaylen.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "padre de Estnatil",
+        "relacion": "probablemente le transmitió la hoja esquirlada en la juventud"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Kai-garnis",
+        "relacion": "el tronador cuya ruptura de la muralla lo mató aplastado bajo los escombros"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa. Guardia leal al trono thayleño.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Estnatil era portador de esquirlada y guardia de alto rango en Ciudad Thaylen. Durante la Batalla de la Explanada Thayleña, el tronador Kai-garnis rompió la muralla donde estaba — murió aplastado bajo los escombros junto a su hoja. Jasnah detectó la hoja enterrada y la desenterró transformando los escombros en humo. Adolin dio la hoja a Kdralk para defender el Barrio Bajo.",
+    "puntos_clave": [
+      "Portador de esquirlada thayleño — miembro de una de las ocho casas thayleñas con esquirladas.",
+      "Guardia de alto rango que protegía el trono thayleño.",
+      "Probablemente recibió la hoja de su padre.",
+      "Durante la Batalla de la Explanada Thayleña estaba en la muralla de Ciudad Thaylen.",
+      "El tronador Kai-garnis rompió la muralla — murió aplastado bajo los escombros.",
+      "Su hoja esquirlada quedó enterrada con él.",
+      "Jasnah detectó la hoja y transformó los escombros en humo con la Forja del Alma.",
+      "Adolin dio la hoja a Kdralk — hijo de la reina Fen — para defender el Barrio Bajo.",
+      "Mencionado en Juramentada capítulo 120."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Guardia thayleño cuya hoja esquirlada fue recuperada por Jasnah y dada a Kdralk en la Batalla de la Explanada Thayleña",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Portador de esquirlada thayleño y guardia de alto rango. Murió aplastado por el tronador Kai-garnis en la Batalla de la Explanada Thayleña. Su hoja fue dada a Kdralk para defender el Barrio Bajo.",
+  "notas": "Aparece en Juramentada capítulo 120. Su hoja esquirlada pasó a Kdralk en uno de los momentos más caóticos de la Batalla de la Explanada Thayleña."
+}
