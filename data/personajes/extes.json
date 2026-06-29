@@ -1,0 +1,85 @@
+{
+  "id": "extes",
+  "nombre": "Extes",
+  "nombre_completo": "Extes",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (figura mitológica)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — figura mitológica",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Figura mitológica rosharia conocida en Alezkar",
+      "El que sacrificó a su hijo a los Portadores del Vacío a cambio de conocer el día de su muerte",
+      "Castigado con la inmortalidad — le arrancaban los brazos cada día"
+    ],
+    "descripcion": "Figura mitológica de Roshar. Según la leyenda alezi, Extes sacrificó a su hijo a los Portadores del Vacío a cambio de conocer el día de su muerte. Como castigo por este acto fue hecho inmortal, y luego le arrancaban los brazos cada día. Esta historia era bien conocida en Alezkar y se contaba frecuentemente entre los ojos oscuros.",
+    "estado_en_viento_y_verdad": "Figura mitológica — su existencia real es desconocida."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "hijo de Extes",
+        "relacion": "hijo — sacrificado por Extes a los Portadores del Vacío a cambio de conocer el día de su muerte"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Portadores del Vacío",
+        "relacion": "hizo un trato con ellos — sacrificó a su hijo a cambio de conocimiento"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Figura mitológica — representa la codicia y el conocimiento prohibido que lleva a la perdición.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Figura mitológica alezi. Sacrificó a su hijo a los Portadores del Vacío a cambio de saber el día de su muerte. Como castigo fue hecho inmortal y le arrancaban los brazos cada día. Historia bien conocida en Alezkar, especialmente entre los ojos oscuros.",
+    "puntos_clave": [
+      "Figura mitológica de Roshar — conocida en Alezkar.",
+      "Sacrificó a su hijo a los Portadores del Vacío.",
+      "A cambio recibió conocimiento sobre el día de su muerte.",
+      "Como castigo fue hecho inmortal.",
+      "Le arrancaban los brazos cada día.",
+      "Historia contada frecuentemente entre los ojos oscuros de Alezkar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Figura mitológica",
+    "rol": "Figura del folclore alezi — representa el castigo por tratos con los Portadores del Vacío",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Figura mitológica alezi que sacrificó a su hijo a los Portadores del Vacío a cambio de conocer el día de su muerte. Como castigo fue hecho inmortal y le arrancaban los brazos cada día.",
+  "notas": "Historia bien conocida en Alezkar entre los ojos oscuros. Su mito es una advertencia sobre los tratos con los Portadores del Vacío — el conocimiento prohibido siempre tiene un precio."
+}

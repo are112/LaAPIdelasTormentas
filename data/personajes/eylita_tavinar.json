@@ -1,0 +1,117 @@
+{
+  "id": "eylita_tavinar",
+  "nombre": "Eylita Tavinar",
+  "nombre_completo": "Eylita Tavinar",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario — flashback",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario — flashback",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Davar — esposa de Balat Davar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Lealtad — no abandonó a Balat pese a presenciar eventos perturbadores en su hogar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Esposa de Balat Davar",
+      "Hija de un Brillante señor de dahn inferior a los Davar",
+      "La que persistió junto a Balat pese a la oposición de Lin Davar y los eventos perturbadores en la mansión"
+    ],
+    "descripcion": "Mujer veden, hija de un Brillante señor de dahn inferior al de los Davar. En 1169, siendo adolescente, asistió con sus padres a una fiesta en la mansión Davar donde conoció a Balat Davar. Se enamoraron casi de inmediato — Shallan nunca había visto a Balat prestar atención a una chica. Los Tavinar se marcharon abruptamente cuando Redin interrumpió la fiesta para hablar con Lin. En 1170 asistió con sus padres a la Feria de Middlefest. Shallan actuó como intermediaria para que Balat y Eylita pudieran encontrarse. Lin Davar se opuso al noviazgo por la menor categoría de los Tavinar — prefería que Balat se casara con la hija del Alto Príncipe. Cuando Lin prohibió el compromiso, Balat decidió que no podía ser cobarde y confrontó a su padre. Eylita no abandonó a Balat pese a presenciar múltiples eventos perturbadores en su hogar. Finalmente se casó con Balat Davar. Balat oculta de ella su necesidad de dañar animales.",
+    "estado_en_viento_y_verdad": "Activa — casada con Balat."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "balat",
+        "relacion": "esposo — se conocieron en 1169 y se casaron tras superar la oposición de Lin Davar"
+      },
+      {
+        "personaje": "padre de Eylita",
+        "relacion": "padre — Brillante señor de dahn inferior a los Davar; asistió con Eylita a la fiesta en la mansión Davar"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "Shallan actuó como intermediaria entre Balat y Eylita para que pudieran encontrarse"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "lin_davar",
+        "relacion": "Lin se opuso al noviazgo por la menor categoría de los Tavinar — prefería otra candidata para Balat"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal y valiente. No abandonó a Balat pese a presenciar eventos perturbadores. Desconoce la necesidad de Balat de dañar animales.",
+    "evolucion": "Pasó de interés romántico a esposa de Balat tras superar la oposición de Lin.",
+    "situacion_en_viento_y_verdad": "Activa — casada con Balat Davar."
+  },
+  "arco_narrativo": {
+    "resumen": "Eylita conoció a Balat en 1169 en una fiesta en la mansión Davar. Se enamoraron casi de inmediato. Shallan actuó como intermediaria. Lin Davar se opuso al noviazgo por la menor categoría de los Tavinar. Cuando Lin prohibió el compromiso y envió a un guardia a matar a los axehounds de Balat, llamó a Eylita antes de que pudiera escapar con Balat. La confrontación entre Balat y Lin resultó en violencia. A pesar de todo, Eylita no abandonó a Balat — finalmente se casó con él.",
+    "puntos_clave": [
+      "Hija de un Brillante señor veden de dahn inferior a los Davar.",
+      "Conoció a Balat en 1169 en la mansión Davar — se enamoraron casi de inmediato.",
+      "Los Tavinar se marcharon abruptamente cuando Redin interrumpió la fiesta.",
+      "En 1170 asistió a la Feria de Middlefest — Shallan actuó como intermediaria.",
+      "Lin Davar se opuso al noviazgo por la menor categoría de los Tavinar.",
+      "Balat planeó escapar con Eylita y llevar a Malise — el plan fracasó.",
+      "Lin llamó a Eylita antes de que pudieran escapar.",
+      "No abandonó a Balat pese a presenciar eventos perturbadores.",
+      "Finalmente se casó con Balat Davar.",
+      "Balat oculta de ella su necesidad de dañar animales."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Esposa de Balat Davar",
+    "rol": "Compañera leal de Balat — ahora casados",
+    "relacion_con_spren": "",
+    "otros_detalles": "Desconoce la tendencia de Balat a dañar animales."
+  },
+  "descripcion_breve": "Esposa de Balat Davar. Se conocieron en 1169 y se enamoraron pese a la oposición de Lin Davar. No abandonó a Balat pese a presenciar eventos perturbadores en su hogar. Shallan actuó como intermediaria.",
+  "notas": "Su lealtad a Balat es uno de los pocos rayos de luz en la historia familiar de los Davar. Balat describe su relación con Eylita como lo único que le da fuerzas para enfrentarse a su padre."
+}
