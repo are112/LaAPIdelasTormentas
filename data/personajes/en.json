@@ -1,0 +1,88 @@
+{
+  "id": "en",
+  "nombre": "En",
+  "nombre_completo": "En",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caravana de Tvlakv — antiguo esclavo",
+    "Sirviente de Shallan Davar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Servicio de carruaje — tenía experiencia previa como conductor o sirviente de carruaje"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Antiguo esclavo de la caravana de Tvlakv",
+      "Sirviente de Shallan Davar en los campamentos de guerra alezi"
+    ],
+    "descripcion": "Antiguo esclavo de la caravana del traficante Tvlakv en Roshar. Cuando Shallan Davar tomó el control de los esclavos de Tvlakv, En se convirtió en su sirviente. Cuando Shallan tomó prestado el carruaje de Turinad Sebarial en los campamentos de guerra alezi, En fue quien lo condujo. Tenía cierta experiencia previa en ese trabajo y parecía contento en su nueva posición.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "su señora — Shallan tomó el control de los esclavos de Tvlakv y En se convirtió en su sirviente"
+      },
+      {
+        "personaje": "tvlakv",
+        "relacion": "su antiguo amo — Shallan liberó a los esclavos de su caravana"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Contento en su nueva posición como sirviente de Shallan. Tenía experiencia previa en el trabajo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "En era esclavo de la caravana de Tvlakv. Cuando Shallan tomó el control de los esclavos, En pasó a ser su sirviente. Condujo el carruaje de Sebarial que Shallan tomó prestado en los campamentos de guerra alezi. Tenía experiencia previa y estaba contento en su nueva posición. Mencionado en PR capítulo 47.",
+    "puntos_clave": [
+      "Antiguo esclavo de la caravana del traficante Tvlakv.",
+      "Cuando Shallan tomó el control de los esclavos de Tvlakv, se convirtió en su sirviente.",
+      "Condujo el carruaje de Turinad Sebarial que Shallan tomó prestado en los campamentos.",
+      "Tenía experiencia previa en ese trabajo.",
+      "Parecía contento en su nueva posición.",
+      "Mencionado en PR capítulo 47."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Sirviente de Shallan Davar — conductor de carruaje",
+    "rol": "Antiguo esclavo de Tvlakv reconvertido en sirviente de Shallan",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Antiguo esclavo de la caravana de Tvlakv. Cuando Shallan tomó el control de los esclavos, se convirtió en su sirviente y condujo el carruaje de Sebarial en los campamentos de guerra.",
+  "notas": "Mencionado en PR capítulo 47. Su historia es un ejemplo del trato más humano de Shallan hacia quienes estaban bajo la autoridad de Tvlakv."
+}

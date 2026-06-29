@@ -1,0 +1,86 @@
+{
+  "id": "ellar",
+  "nombre": "Ellar",
+  "nombre_completo": "Ellar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército Kholin — sargento de caravana"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — sargento de caravana",
+      "Reconocimiento — detectó movimiento enemigo y ordenó expedición"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Sargento alezi de cabeza rasurada, belicoso e intolerante",
+      "El que transportó a Taln y su Honohoja sin saber que se la robaron"
+    ],
+    "descripcion": "Sargento alezi de cabeza rasurada. Belicoso, intolerante y presumido, aunque en el fondo quiere ser una figura respetada. Generalmente desdeña a los extraños hasta que demuestran ser útiles. Lideró una gran caravana Kholin de diez carros y cien soldados poco antes de la llegada de la tormenta eterna. La caravana transportaba a Bordin y al loco Talenel (Taln) con su Honohoja. Fueron atacados dos veces por bandidos — en el primer ataque hubo heridos pero nadie murió. Poco después de llegar al Cruce de la Piedra Pactada, mientras preparaba la caravana para una alta tormenta, Ellar vio a un extranjero shin junto al carro que transportaba a Taln y le ordenó que se alejara. En el segundo ataque, la Honohoja fue robada sin que los alezi se dieran cuenta. El resto del viaje fue tranquilo. Al llegar a las Llanuras, ordenó llevar al prisionero al alto príncipe. Después, al recibir un informe sobre posible movimiento enemigo cerca de los campamentos, ordenó una expedición para encontrar y destruir a esos oyentes.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "bordin",
+        "relacion": "viajaba en su caravana hacia las Llanuras Quebradas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Belicoso e intolerante pero quiere ser respetado. Pragmático en el campo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Ellar lideró la caravana Kholin que transportó a Taln y su Honohoja a las Llanuras. Fueron atacados dos veces — en el segundo ataque la Honohoja fue robada sin que se dieran cuenta. Al llegar a las Llanuras ordenó llevar al prisionero al alto príncipe y después ordenó una expedición al detectar movimiento oyente cerca de los campamentos.",
+    "puntos_clave": [
+      "Sargento alezi — cabeza rasurada, belicoso, intolerante, presumido.",
+      "Lideró caravana Kholin de diez carros y cien soldados.",
+      "Transportó a Bordin y al loco Taln con su Honohoja.",
+      "Primer ataque: heridos pero sin muertos.",
+      "Vio a un extranjero shin junto al carro de Taln y le ordenó alejarse.",
+      "Segundo ataque: robaron la Honohoja sin que los alezi lo notaran.",
+      "Al llegar a las Llanuras ordenó llevar al prisionero al alto príncipe.",
+      "Ordenó expedición al detectar movimiento oyente cerca de los campamentos."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Sargento en el ejército Kholin",
+    "rol": "Líder de la caravana que transportó a Taln — sin saber el valor de su carga",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Sargento alezi de cabeza rasurada, belicoso y presumido. Lideró la caravana que transportó a Taln y su Honohoja a las Llanuras. La Honohoja fue robada en un ataque sin que se dieran cuenta.",
+  "notas": "Aparece en Palabras Radiantes. Su caravana es el hilo que conecta la llegada de Taln a las Llanuras con el robo de su Honohoja."
+}

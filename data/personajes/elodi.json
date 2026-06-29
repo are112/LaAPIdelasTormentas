@@ -1,0 +1,98 @@
+{
+  "id": "elodi",
+  "nombre": "Elodi",
+  "nombre_completo": "Elodi",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar (antigua — antes del Pacto de los Heraldos)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Nación cantora antigua — rey"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo — rey de una nación cantora",
+      "Diplomacia — intentó mantener la paz frágil entre humanos y cantores",
+      "Resistencia espiritual — intentó resistir la influencia de Odium"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Rey cantor anciano de una nación cantora — desde la llegada de los primeros humanos de Ashyn",
+      "Amigo de los Heraldos Jezrien y Kalak",
+      "El que escuchaba al Viento e intentó resistir la influencia de Odium"
+    ],
+    "descripcion": "Rey cantor anciano malen. Alto, con caparazón negro y rojo volviéndose blanco en los bordes con la edad. Cara larga y arrugada con gemas en la barba. Sonrisa amplia. Pacífico y bondadoso — escucha al Viento e intenta mantener la paz frágil entre humanos y cantores. Gobernó una nación cantora desde la llegada de los primeros humanos de Ashyn. Fue amigo de los Heraldos Jezrien y Kalak durante al menos treinta años. Intentó resistir la influencia de Odium, siendo uno de los pocos cantores que creía en el Viento y la Piedra en lugar de en Odium. Aparece en VyV capítulo 55.",
+    "estado_en_viento_y_verdad": "Destino desconocido — vivió miles de años antes de los eventos principales."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Jezrien",
+        "relacion": "amigo durante al menos treinta años — antes de convertirse en Heraldo"
+      },
+      {
+        "personaje": "Kalak",
+        "relacion": "amigo durante al menos treinta años"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Odium",
+        "relacion": "intentó resistir su influencia sobre los cantores"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pacífico, bondadoso y sabio. Deseaba la paz entre humanos y cantores. Escuchaba al Viento en lugar de a Odium.",
+    "evolucion": "Sin arco completo — aparece en una escena de VyV.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Elodi fue rey de una nación cantora desde la llegada de los primeros humanos de Ashyn a Roshar. Fue amigo de Jezrien y Kalak durante al menos treinta años antes de que se convirtieran en Heraldos. Intentó mantener la paz frágil entre humanos y cantores y resistió la influencia de Odium — siendo uno de los pocos cantores que creía en el Viento y la Piedra. Aparece en VyV capítulo 55.",
+    "puntos_clave": [
+      "Rey cantor anciano malen — caparazón negro y rojo volviéndose blanco.",
+      "Cara larga arrugada, gemas en la barba, sonrisa amplia.",
+      "Gobernó una nación cantora desde la llegada de los primeros humanos de Ashyn.",
+      "Amigo de Jezrien y Kalak durante al menos treinta años.",
+      "Escuchaba al Viento — uno de los pocos cantores que creía en el Viento y la Piedra.",
+      "Intentó resistir la influencia de Odium.",
+      "Intentó mantener la paz frágil entre humanos y cantores.",
+      "Aparece en VyV capítulo 55.",
+      "El y Elodi NO son la misma persona pese a la similitud de nombres — confirmado por Brandon Sanderson."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Rey cantor pacífico que intentó resistir a Odium y mantener la paz",
+    "relacion_con_spren": "",
+    "otros_detalles": "No confundir con El — nombres similares pero personajes distintos."
+  },
+  "descripcion_breve": "Rey cantor anciano pacífico. Amigo de Jezrien y Kalak. Escuchaba al Viento y resistió la influencia de Odium. Intentó mantener la paz entre humanos y cantores. Aparece en VyV capítulo 55.",
+  "notas": "Brandon Sanderson confirmó explícitamente que El y Elodi NO son la misma persona. Elodi es uno de los pocos cantores del período pre-Pacto que eligió el Viento y la Piedra sobre Odium."
+}

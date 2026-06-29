@@ -1,0 +1,110 @@
+{
+  "id": "elthebar",
+  "nombre": "Elthebar",
+  "nombre_completo": "Elthebar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Urithiru — jefe de los predicetormentas",
+    "Ejército de Dalinar — predicetormentas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Predicción de tormentas — jefe de los predicetormentas en Urithiru",
+      "Estrategia meteorológica — asesoraba a Dalinar sobre el momento de las altas tormentas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Jefe de los predicetormentas en Urithiru",
+      "El que insultó a Teshav en la primera reunión de eruditos ganándose la ira de Shallan"
+    ],
+    "descripcion": "Jefe de los predicetormentas en Urithiru. Continuó su trabajo de pronóstico incluyendo predecir la tormenta en la que Dalinar llevó a Venli a las visiones con Nohadon. Cuando Navani implementó estudios atmosféricos más rigurosos liderados por Benneh, Elthebar y Benneh no colaboraron. Estuvo presente en la primera reunión de eruditos en Urithiru junto a Jasnah, Navani, Shallan, Renarin y otros. Interrumpió un informe de Kalami e insultó la inteligencia de Teshav por cuestionarle, ganándose la ira de Shallan. También estuvo entre quienes estrategizaron con Navani tras la incursión de Raboniel en la torre, aunque Navani no quería particularmente que estuviera allí. Estuvo en el frente de Emul e informó a Dalinar del momento de una alta tormenta inminente.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "le asesoraba sobre el momento de las altas tormentas — Dalinar acabó aceptando que los predicetormentas eran útiles"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "Shallan se irritó cuando insultó a Teshav en la primera reunión de eruditos"
+      },
+      {
+        "personaje": "navani",
+        "relacion": "Navani no quería particularmente que estuviera en las reuniones estratégicas tras la incursión de Raboniel"
+      },
+      {
+        "personaje": "teshav",
+        "relacion": "insultó su inteligencia por cuestionarle en la primera reunión de eruditos"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Arrogante — no tolera que le cuestionen. Sus predicciones eran frecuentemente llenas de reservas pero más acertadas que no hacerlas.",
+    "evolucion": "Pasó de predicetormentas del ejército de Dalinar a jefe de predicetormentas de Urithiru.",
+    "situacion_en_viento_y_verdad": "Activo — en el frente de Emul."
+  },
+  "arco_narrativo": {
+    "resumen": "Elthebar era el jefe de los predicetormentas de Dalinar y luego de Urithiru. Dalinar desconfiaba inicialmente de la predicción de tormentas — le parecía una ciencia inexacta — pero acabó aceptando las ventajas estratégicas. Elthebar interrumpió e insultó a Teshav en la primera reunión de eruditos, ganándose la ira de Shallan. Tras la incursión de Raboniel en la torre, estuvo en las reuniones estratégicas aunque Navani no lo deseaba. Estuvo en Emul informando a Dalinar del momento de una alta tormenta.",
+    "puntos_clave": [
+      "Jefe de los predicetormentas en Urithiru.",
+      "Continuó pronósticos incluyendo predecir la tormenta de la visión de Venli con Nohadon.",
+      "Navani implementó estudios atmosféricos más rigurosos — Elthebar y Benneh no colaboraron.",
+      "En la primera reunión de eruditos interrumpió a Kalami e insultó a Teshav.",
+      "Shallan se irritó con él por ese insulto.",
+      "Tras la incursión de Raboniel estuvo en reuniones estratégicas — Navani no lo quería allí.",
+      "En el frente de Emul informó a Dalinar del momento de una alta tormenta.",
+      "Su presencia en Emul tras estar en Urithiru durante la ocupación parece una inconsistencia no explicada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Jefe de los predicetormentas — frente de Emul en VyV",
+    "rol": "Asesor meteorológico arrogante de Dalinar y Navani",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su presencia en Emul tras la ocupación cantor de Urithiru es una posible inconsistencia no explicada."
+  },
+  "descripcion_breve": "Jefe de los predicetormentas de Urithiru. Arrogante — insultó a Teshav en la primera reunión de eruditos. Asesoraba a Dalinar y Navani sobre el momento de las altas tormentas.",
+  "notas": "La Coppermind señala que su presencia en Emul shortly después de estar en Urithiru durante la ocupación cantor parece una inconsistencia no explicada en el texto."
+}

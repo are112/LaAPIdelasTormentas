@@ -1,0 +1,100 @@
+{
+  "id": "eltharon",
+  "nombre": "Eltharon",
+  "nombre_completo": "Eltharon",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Stormlight Scenarios",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados — Metacha-im"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Cohesión — los Metacha-im manipulan la piedra"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Tortura e interrogatorio — extrajo información de Zoyah",
+      "Contrainsurgencia — desmanteló la red de resistencia en Kholinar",
+      "Manipulación — usó identidades falsas por spanreed"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fusionado Metacha-im sádico en Kholinar",
+      "'Escultor' autoproclamado cuyo material favorito son partes del cuerpo de Radiantes",
+      "El que capturó a Zoyah y desmanteló la red de resistencia en Kholinar"
+    ],
+    "descripcion": "Fusionado Metacha-im de carácter profundamente sádico. Se autodenomina 'escultor' y su material favorito son partes del cuerpo de Radiantes. Guarda sus 'esculturas' en una galería dentro de un refugio de tormenta en Kholinar. Se adorna con objetos tomados de sus víctimas. Tiene muchos rivales entre los Fusionados. Durante la Verdadera Desolación fue encargado de desmantelar la red de resistencia en Kholinar ocupada. Capturó a Zoyah — una espía Corredora del Viento — mediante un mensaje spanreed falso. La torturó hasta que reveló que Melur era miembro de la resistencia. Luego usó la frase código de Zoyah para enviar una solicitud de extracción falsa a Melur, planeando atraer a los resistentes a un hospital para matarlos a todos a la vez. En cuatro semanas capturó a muchos otros miembros de la resistencia. Tras el rescate de Zoyah, el grupo fue al hospital — el desenlace no está especificado.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Zoyah",
+        "relacion": "capturó y torturó a esta Corredora del Viento espía hasta que reveló información"
+      },
+      {
+        "personaje": "Melur",
+        "relacion": "usó la frase código de Zoyah para atraerla con una solicitud de extracción falsa"
+      },
+      {
+        "personaje": "resistencia de Kholinar",
+        "relacion": "fue encargado de desmantelarla — capturó a muchos miembros en cuatro semanas"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sádico y metódico. Combina crueldad con inteligencia táctica. Su galería de 'esculturas' refleja una psicología retorcida.",
+    "evolucion": "Sin arco propio más allá de su rol como antagonista en Kholinar.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Eltharon fue encargado de desmantelar la red de resistencia en el Kholinar ocupado. Capturó a la Corredora del Viento Zoyah con un spanreed falso y la torturó hasta obtener información sobre Melur. Usó la frase código de Zoyah para tender una trampa en un hospital. En cuatro semanas capturó a muchos miembros de la resistencia. Tras el rescate de Zoyah, los resistentes fueron al hospital para enfrentarse a él.",
+    "puntos_clave": [
+      "Fusionado Metacha-im — manipula la piedra.",
+      "Sádico autoproclamado 'escultor' — usa partes del cuerpo de Radiantes como material.",
+      "Galería de 'esculturas' en un refugio de tormenta en Kholinar.",
+      "Se adorna con objetos de sus víctimas.",
+      "Tiene muchos rivales entre los Fusionados.",
+      "Encargado de desmantelar la red de resistencia en Kholinar.",
+      "Capturó a Zoyah con un spanreed falso y la torturó.",
+      "Usó la frase código de Zoyah para tender una trampa a Melur en un hospital.",
+      "En cuatro semanas capturó a muchos miembros de la resistencia.",
+      "Tras el rescate de Zoyah los resistentes fueron al hospital — desenlace no especificado."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionado Metacha-im en Kholinar",
+    "rol": "Antagonista principal de la resistencia en Kholinar ocupado",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Fusionado Metacha-im sádico, autoproclamado 'escultor' de partes de Radiantes. Desmanteló la red de resistencia en Kholinar capturando y torturando a Zoyah. Tendió una trampa usando su frase código.",
+  "notas": "Aparece en Stormlight Scenarios páginas 21-23. Su galería de partes de Radiantes lo convierte en uno de los antagonistas más perturbadores de la saga."
+}
