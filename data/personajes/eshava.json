@@ -1,0 +1,91 @@
+{
+  "id": "eshava",
+  "nombre": "Eshava",
+  "nombre_completo": "Eshava",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Campamento de Aladar, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Campamento del Alto Príncipe Aladar — habitante"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Mujer alezi ojos claros del campamento de Aladar",
+      "La que sugirió que Dalinar debería abdicar — enfureciendo a Adolin"
+    ],
+    "descripcion": "Mujer alezi ojos claros del campamento del Alto Príncipe Aladar en las Llanuras Quebradas. Conocida de Adolin Kholin. Acompañó a Toral y otros jóvenes ojos claros — incluyendo a Danlan Morakotha, Jakamav e Inkima — a una reunión social en una vinatería del Mercado Exterior. Expresó su frustración con las políticas sociales restrictivas de Dalinar Kholin durante la aplicación de los Códigos de Guerra alezi. Llegó a sugerir que Dalinar debería abdicar, lo que enfureció a Adolin. Intentó cambiar el tema sin éxito — Toral tuvo que intervenir diciendo a Adolin que muchos compartían la opinión de Eshava.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "conocida — sus comentarios sobre Dalinar la enfrentaron brevemente con Adolin"
+      },
+      {
+        "personaje": "jakamav",
+        "relacion": "compañero en la reunión social de la vinatería"
+      },
+      {
+        "personaje": "danlan_morakotha",
+        "relacion": "compañera en la reunión social de la vinatería"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Frustrada con las políticas de Dalinar. Expresó una opinión impopular en presencia de Adolin sin medir las consecuencias.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Eshava acompañó a Toral, Danlan, Jakamav e Inkima a una vinatería del Mercado Exterior. Allí expresó su frustración con las políticas restrictivas de Dalinar y sugirió que debería abdicar, enfureciendo a Adolin. Intentó cambiar de tema sin éxito. Toral intervino señalando que muchos compartían su opinión. Mencionada en ECdR capítulo 58.",
+    "puntos_clave": [
+      "Mujer alezi ojos claros del campamento de Aladar.",
+      "Conocida de Adolin.",
+      "Acompañó a Toral, Danlan, Jakamav e Inkima a una vinatería del Mercado Exterior.",
+      "Expresó frustración con las políticas restrictivas de Dalinar.",
+      "Sugirió que Dalinar debería abdicar — enfureció a Adolin.",
+      "Intentó cambiar de tema sin éxito.",
+      "Toral intervino señalando que muchos compartían su opinión.",
+      "Mencionada en ECdR capítulo 58."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Ojos claros menor cuya opinión sobre Dalinar enfureció a Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mujer alezi ojos claros del campamento de Aladar. Sugirió que Dalinar debería abdicar por sus políticas restrictivas, enfureciendo a Adolin. Mencionada en ECdR capítulo 58.",
+  "notas": "Mencionada en ECdR capítulo 58. Su opinión sobre Dalinar refleja el descontento de parte de la nobleza alezi con los Códigos de Guerra."
+}

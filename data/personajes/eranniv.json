@@ -1,0 +1,83 @@
+{
+  "id": "eranniv",
+  "nombre": "Eranniv",
+  "nombre_completo": "Eranniv",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Llanuras Quebradas, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Llanuras Quebradas — exesquirlado"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelo — genuinamente hábil pese a su ranking inferior",
+      "Fanfarronería — insiste en que su habilidad supera su posición en el ranking"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Exesquirlado fanfarrón en las Llanuras Quebradas",
+      "El que insiste en que su habilidad supera su ranking — y que según Jakamav no miente del todo"
+    ],
+    "descripcion": "Exesquirlado en las Llanuras Quebradas. Fanfarrón — insiste en que su habilidad es mayor de lo que su ranking refleja. Jakamav describió a Adolin que Eranniv aceptaría desafíos que otros rechazarían para destacar. Pese a su fanfarronería, Jakamav advirtió a Adolin que era genuinamente hábil y que no debería subestimarle en un duelo.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "jakamav",
+        "relacion": "Jakamav lo describió a Adolin — lo consideraba fanfarrón pero genuinamente hábil"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Fanfarrón pero con habilidad real. Busca destacar aceptando retos que otros rechazan.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Exesquirlado en las Llanuras. Fanfarrón — insiste en que su habilidad supera su ranking. Jakamav lo describió a Adolin: aceptaría ofertas que otros rechazarían para destacar, pero era genuinamente hábil y no debía subestimarle.",
+    "puntos_clave": [
+      "Exesquirlado en las Llanuras Quebradas.",
+      "Fanfarrón — insiste en que su habilidad supera su ranking.",
+      "Jakamav lo describió a Adolin: aceptaría desafíos que otros rechazarían.",
+      "Jakamav advirtió que era genuinamente hábil — no debía subestimarse.",
+      "Mencionado en PR capítulo 37."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Exesquirlado en las Llanuras Quebradas",
+    "rol": "Posible rival de duelo para Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Exesquirlado fanfarrón en las Llanuras. Insiste en que su habilidad supera su ranking. Jakamav advirtió a Adolin que era genuinamente hábil pese a la fanfarronería.",
+  "notas": "Mencionado en PR capítulo 37 por Jakamav al hablar con Adolin de posibles rivales de duelo."
+}

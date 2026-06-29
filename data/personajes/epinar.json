@@ -1,0 +1,81 @@
+{
+  "id": "epinar",
+  "nombre": "Epinar",
+  "nombre_completo": "Epinar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Llanuras Quebradas, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Llanuras Quebradas — portador de esquirlada"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Duelo — excampeón de duelos con esquirlada en las Llanuras Quebradas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portador de esquirlada y excampeón de duelos en las Llanuras Quebradas",
+      "El que perdió el título de campeón ante Relis Ruthar en 1173"
+    ],
+    "descripcion": "Portador de esquirlada en las Llanuras Quebradas. Era el campeón de duelos hasta que en 1173 duelo contra Relis Ruthar y perdió, cediendo el título.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "relis_ruthar",
+        "relacion": "duelo contra él en 1173 y perdió — Relis le arrebató el título de campeón de duelos"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Epinar era el campeón de duelos con esquirlada en las Llanuras Quebradas. En 1173 duelo contra Relis Ruthar y perdió el título. Mencionado en PR capítulo 37.",
+    "puntos_clave": [
+      "Portador de esquirlada en las Llanuras Quebradas.",
+      "Excampeón de duelos.",
+      "En 1173 duelo contra Relis Ruthar y perdió el título de campeón.",
+      "Mencionado en PR capítulo 37."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Portador de esquirlada — excampeón de duelos",
+    "rol": "El campeón que Relis Ruthar derrotó para hacerse con el título",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Portador de esquirlada y excampeón de duelos en las Llanuras Quebradas. Perdió el título ante Relis Ruthar en 1173.",
+  "notas": "Mencionado en PR capítulo 37. Su derrota ante Relis es parte del ascenso de los Ruthar en la arena de duelos de las Llanuras."
+}

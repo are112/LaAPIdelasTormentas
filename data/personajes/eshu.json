@@ -1,0 +1,72 @@
+{
+  "id": "eshu",
+  "nombre": "Eshu",
+  "nombre_completo": "Eshu",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (figura del vorismo)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Uno de los Diez Locos del vorismo",
+      "El que habla de cosas que no entiende ante quienes sí las entienden"
+    ],
+    "descripcion": "Eshu es uno de los Diez Locos, figuras que forman parte de las enseñanzas del vorismo. Representa al necio que habla de cosas que no entiende ante quienes sí las entienden. Kaladin se sintió como Eshu cuando se perdió con Shallan en los abismos de las Llanuras Quebradas — sintió que había actuado sin comprender la situación delante de alguien que sí la comprendía.",
+    "estado_en_viento_y_verdad": "Fallecido — figura del folclore vorin."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Figura alegórica del vorismo — representa la ignorancia arrogante, hablar sin saber ante quien sabe.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Eshu es uno de los Diez Locos del vorismo — el que habla de cosas que no entiende ante quienes sí las entienden. Kaladin lo recordó al sentirse perdido con Shallan en los abismos de las Llanuras, cuando actuó sin comprender la situación delante de alguien que sí la comprendía. Mencionado en PR capítulo 71.",
+    "puntos_clave": [
+      "Uno de los Diez Locos del vorismo.",
+      "Representa al que habla de cosas que no entiende ante quienes sí las entienden.",
+      "Kaladin se sintió como Eshu al perderse con Shallan en los abismos.",
+      "Mencionado en PR capítulo 71."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Figura del folclore vorin",
+    "rol": "Uno de los Diez Locos — símbolo de la ignorancia arrogante",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Uno de los Diez Locos del vorismo. Habla de cosas que no entiende ante quienes sí las entienden. Kaladin se sintió como él al perderse con Shallan en los abismos.",
+  "notas": "Mencionado en PR capítulo 71. Su figura es la antítesis de la sabiduría — la necedad expuesta ante la inteligencia."
+}

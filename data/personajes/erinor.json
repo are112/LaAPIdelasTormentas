@@ -1,0 +1,98 @@
+{
+  "id": "erinor",
+  "nombre": "Erinor",
+  "nombre_completo": "Erinor",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Custodios de la Piedra"
+  ],
+  "orden_radiantes": {
+    "orden": "Custodios de la Piedra",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "cumbrespren desconocido"
+    },
+    "estado_del_vinculo": "Activo — puede hablar con las piedras."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Cohesión — puede fundir y moldear la piedra",
+        "Tensión"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Hablar con las piedras — capacidad de comunicarse con la piedra para obtener información"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Custodio de la Piedra — marido de Darcira",
+      "El que habló con las piedras para descubrir una salida secreta en la incursión a un escondite de la Sangre Espectral",
+      "El que fundió el techo para que los Corredores del Viento pudieran entrar"
+    ],
+    "descripcion": "Custodio de la Piedra y marido de la Tejedora de Luz Darcira. Fue ordenado a ayudar a Shallan Davar en una incursión a un escondite de los Sangre Espectral en VyV. Durante la incursión, habló con las piedras, que le dieron la impresión de que había una salida secreta que bajaba a los abismos. Mientras exploraban esa salida, recibieron la señal — Erinor fundió el techo para que los Corredores del Viento pudieran entrar al sótano y capturar a los Sangre Espectral.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "darcira",
+        "relacion": "esposa — también Radiante (Tejedora de Luz del Primer Ideal)"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "fue ordenado a ayudarla en la incursión al escondite de la Sangre Espectral"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "sangre espectral",
+        "relacion": "participó en la incursión para capturar a miembros de la Sangre Espectral"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Competente y coordinado con el equipo de Shallan. Su habilidad de hablar con las piedras fue decisiva en la incursión.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Custodio de la Piedra ordenado a ayudar a Shallan en una incursión a un escondite de los Sangre Espectral en VyV. Habló con las piedras, que le informaron de una salida secreta hacia los abismos. Al recibir la señal, fundió el techo para que los Corredores del Viento entraran al sótano a capturar a los Sangre Espectral. Mencionado en VyV capítulos 28 y 29.",
+    "puntos_clave": [
+      "Custodio de la Piedra — marido de Darcira.",
+      "Ordenado a ayudar a Shallan en la incursión a un escondite de la Sangre Espectral.",
+      "Habló con las piedras — le informaron de una salida secreta hacia los abismos.",
+      "Mientras exploraban la salida, recibieron la señal.",
+      "Fundió el techo para que los Corredores del Viento entraran al sótano.",
+      "Los Corredores del Viento capturaron a los Sangre Espectral.",
+      "Mencionado en VyV capítulos 28 y 29."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Custodio de la Piedra — Caballero Radiante",
+    "rol": "Radiante que apoyó la incursión de Shallan contra la Sangre Espectral",
+    "relacion_con_spren": "Vínculo activo con un cumbrespren.",
+    "otros_detalles": "Marido de Darcira."
+  },
+  "descripcion_breve": "Custodio de la Piedra, marido de Darcira. Ayudó a Shallan en la incursión a un escondite de la Sangre Espectral. Habló con las piedras para descubrir una salida secreta y fundió el techo para que los Corredores del Viento pudieran entrar.",
+  "notas": "Aparece en VyV capítulos 28 y 29. Su matrimonio con Darcira hace de ellos una pareja de Radiantes de órdenes distintas — un detalle inusual."
+}
