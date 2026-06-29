@@ -1128,11 +1128,35 @@
     "especie": "humano"
   },
   {
+    "id": "ethid",
+    "nombre": "Ethid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
     "id": "evi",
     "nombre": "Evi",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
+    "id": "evinor",
+    "nombre": "Evinor",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "evod_marcador",
+    "nombre": "Evod Marcador",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
     "especie": "humano"
   },
   {
