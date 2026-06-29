@@ -1,8 +1,100 @@
 {
   "id": "espina-negra",
   "nombre": "Espina Negra",
-  "apodo": null,
-  "tipo_spren": "spren único",
-  "radiante_vinculado": null,
-  "estado_actual": "desconocido"
+  "apodo": "El Espina Negra",
+  "tipo_spren": "spren único — personificación de las historias sobre Dalinar Kholin como guerrero",
+  "es_splinter_de": "desconocido",
+  "mundo_natal": "Roshar",
+  "estado_actual": "activo — general principal de Represalia",
+  "origen": {
+    "creador": "el propio Reino Espiritual",
+    "lugar_creacion": "Reino Espiritual",
+    "generacion": "VyV — tras el duelo de campeones",
+    "notas": "El Reino Espiritual hizo una copia de Dalinar mientras este atravesaba el Reino Espiritual atacando la Grieta. Dalinar se enfrentó a él y luego se conectó con él, dándole sus recuerdos, habilidades y mostrándole lo que Dalinar hizo después de la destrucción de la Grieta."
+  },
+  "apariencia": {
+    "reino_fisico": {
+      "forma_preferida": "manifestación del Dalinar guerrero — el Espina Negra en su época de conquistador, sin el dolor y debilidad de la persona real",
+      "formas_alternativas": [],
+      "color": "desconocido",
+      "visibilidad": "visible en el Reino Espiritual",
+      "notas_emocionales": "Una versión alternativa de Dalinar: el conquistador sin remordimientos."
+    },
+    "reino_cognitivo": {
+      "forma": "desconocida",
+      "limitaciones": ""
+    },
+    "como_hoja_esquirlada": {
+      "forma_habitual": "no aplica",
+      "otras_formas": [],
+      "material": "no aplica"
+    }
+  },
+  "personalidad": {
+    "rasgos": [
+      "guerrero sin remordimientos — una versión de Dalinar sin el peso del pasado",
+      "leal a Represalia — juró servirle cuando comenzara su conquista más allá de Roshar"
+    ],
+    "valores": [
+      "conquista",
+      "batalla"
+    ],
+    "notas": "Es el Espina Negra de leyenda — Dalinar el conquistador sin la redención que conocemos. Frase: 'I will not weep, drunken, when an assassin must be fought. I will not back down from the fight and the conquest. I am the Blackthorn.'"
+  },
+  "habilidades": {
+    "generales": [
+      "combate — conocimientos y habilidades de Dalinar como general y guerrero"
+    ],
+    "magicas": [
+      "desconocidas"
+    ]
+  },
+  "vinculo_nahel": {
+    "radiante_actual": null,
+    "orden_radiante": null,
+    "potencias_otorgadas": [],
+    "forma_shardblade": "no aplica",
+    "estado_vinculo": "no vinculado a ningún Radiante — sirve a Represalia",
+    "radiante_anterior": null,
+    "notas": "No es un spren Radiante. Es el campeón de Represalia — general principal para sus futuras guerras más allá de Roshar."
+  },
+  "historia": {
+    "resumen": "Mientras Dalinar atravesaba el Reino Espiritual, el propio Reino hizo una copia de Dalinar en el momento en que este atacaba la Grieta. Dalinar se enfrentó a esa copia y luego se conectó con ella, dándole sus recuerdos, habilidades y mostrándole lo que hizo después de la destrucción de la Grieta. Poco después del duelo de campeones y la muerte de Dalinar, Represalia notó al Espina Negra en el Reino Espiritual. Debido a la gran cantidad de personas que pensaban en Dalinar como el Espina Negra y se sentían conectadas con él, el spren tomó forma. Finalmente juró servir a Represalia cuando comenzara su conquista más allá de Roshar. Se convirtió en el campeón de Represalia: una manifestación del Dalinar conquistador sin el dolor y la debilidad de la persona real.",
+    "puntos_clave": [
+      "El Reino Espiritual hizo una copia de Dalinar mientras este atravesaba el Reino atacando la Grieta.",
+      "Dalinar se enfrentó a la copia y luego se conectó con ella.",
+      "Le dio sus recuerdos, habilidades y le mostró lo que hizo tras la destrucción de la Grieta.",
+      "Tras el duelo de campeones y la muerte de Dalinar, Represalia lo notó en el Reino Espiritual.",
+      "La gran cantidad de personas que pensaban en Dalinar como el Espina Negra dio forma al spren.",
+      "Juró servir a Represalia cuando comenzara su conquista más allá de Roshar.",
+      "Se convirtió en el campeón de Represalia — el Espina Negra sin el peso del arrepentimiento.",
+      "Cita: 'I will not weep, drunken, when an assassin must be fought. I will not back down from the fight and the conquest. I am the Blackthorn.'",
+      "Mencionado en VyV capítulos 99 y 145."
+    ]
+  },
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario importante — VyV capítulos 99 y 145",
+        "pov": false
+      }
+    ]
+  },
+  "relaciones": {
+    "radiante_vinculado": null,
+    "creador": "el Reino Espiritual — copia de Dalinar Kholin",
+    "otros": [
+      {
+        "personaje": "dalinar",
+        "relacion": "es una copia/personificación del Dalinar conquistador — Dalinar le dio sus recuerdos y habilidades al conectarse con él"
+      },
+      {
+        "personaje": "represalia",
+        "relacion": "juró servirle — es su campeón y general principal para la conquista más allá de Roshar"
+      }
+    ]
+  },
+  "descripcion_breve": "Spren único que personifica las historias sobre Dalinar Kholin como guerrero conquistador. Creado por el Reino Espiritual como copia de Dalinar. Juró servir a Represalia como su campeón y general principal para la conquista más allá de Roshar.",
+  "notas": "El Espina Negra es Dalinar sin el peso de la redención — el conquistador puro de las leyendas. Su existencia plantea preguntas profundas sobre identidad e historia: las historias que la gente cuenta sobre alguien pueden cobrar vida propia en el Reino Espiritual."
 }
