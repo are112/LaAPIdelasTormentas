@@ -1,0 +1,100 @@
+{
+  "id": "ethid",
+  "nombre": "Ethid",
+  "nombre_completo": "Ethid",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario — interludio",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Palacio de Bronce — sección de Azir",
+    "Eruditos de los Radiantes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — estudia a los conquistadores y grandes reyes, especialmente Gavilar",
+      "Estudio de los Radiantes — investiga las Órdenes y planea crear dibujos detallados de sus spren",
+      "Seguimiento del Heraldo Nale — ha rastreado su actividad",
+      "Escritura de oraciones — escribió una oración de guía a Yaezir para el conclave"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Sección azishiana del Palacio de Bronce",
+      "Erudita que estudia conquistadores, Caballeros Radiantes y al Heraldo Nale",
+      "La que asistió al conclave para elegir nuevo Aqasix Supremo en 1173"
+    ],
+    "descripcion": "Sección azishiana que probablemente pasó mucho tiempo viajando de aldea en aldea en Azir, bendiciéndolas. En 1173 asistió al conclave sagrado del Palacio de Bronce de Azimir para elegir un nuevo Aqasix Supremo tras el asesinato de los dos anteriores por el Asesino de Blanco. Un visir le pidió que escribiera una oración de guía a Yaezir para ayudar a elegir correctamente al nuevo Supremo. Es una erudita que estudia a los grandes conquistadores, especialmente a reyes como Gavilar Kholin. Desde la llegada de los Caballeros Radiantes los estudia también. Planea crear dibujos detallados de los spren de cada Orden e intenta estudiar a Lift. También ha estado rastreando al Heraldo Nale. Algunos colegas de Jasnah, probablemente incluyendo a Ethid, convencieron a la Muñonera para que visitara Azimir y les dejara hacer bocetos de su spren.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "lift",
+        "relacion": "intenta estudiarla — quiere documentar su spren Wyndle"
+      },
+      {
+        "personaje": "jasnah",
+        "relacion": "comparte intereses eruditos — colegas de Ethid convencieron a la Muñonera para dejarse estudiar"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Curiosa e incansable. Su ambición erudita la lleva a estudiar tanto a conquistadores como a Radiantes y Heraldos.",
+    "evolucion": "Expandió su campo de estudio de los conquistadores a los Radiantes y Heraldos con la llegada de la Verdadera Desolación.",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Sección azishiana erudita que estudia conquistadores y grandes reyes. En 1173 asistió al conclave del Palacio de Bronce y escribió una oración de guía a Yaezir. Con la llegada de los Radiantes amplió su estudio a las Órdenes y sus spren, y ha intentado estudiar a Lift. También ha rastreado al Heraldo Nale.",
+    "puntos_clave": [
+      "Sección azishiana — probablemente viajaba de aldea en aldea bendiciéndolas.",
+      "En 1173 asistió al conclave sagrado del Palacio de Bronce para elegir nuevo Aqasix Supremo.",
+      "Un visir le pidió escribir una oración de guía a Yaezir para el conclave.",
+      "Estudia a los grandes conquistadores, especialmente a Gavilar Kholin.",
+      "Desde la llegada de los Radiantes los estudia también.",
+      "Planea crear dibujos detallados de los spren de cada Orden.",
+      "Intenta estudiar a Lift.",
+      "Ha rastreado al Heraldo Nale.",
+      "Colegas suyos convencieron a la Muñonera para que fuera a Azimir a dejarse estudiar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Sección azishiana — erudita de los Radiantes y conquistadores",
+    "rol": "Investigadora de las Órdenes Radiantes y el Heraldo Nale",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Sección azishiana erudita que estudia a los grandes conquistadores y, desde la llegada de los Radiantes, a las Órdenes y sus spren. Asistió al conclave de 1173. Ha rastreado al Heraldo Nale e intenta estudiar a Lift.",
+  "notas": "Aparece en PR interludio I-9 y Juramentada capítulo 53 y 104. Su interés en Nale la convierte en uno de los pocos personajes que rastrean activamente a los Heraldos."
+}

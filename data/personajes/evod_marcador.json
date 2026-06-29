@@ -1,0 +1,74 @@
+{
+  "id": "evod_marcador",
+  "nombre": "Evod Marcador",
+  "nombre_completo": "Evod Marcador",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (histórico)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — figura legendaria",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — mató a un portador de esquirlada y reclamó su hoja"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Figura histórica legendaria de Roshar",
+      "Ojos oscuros que mató a un portador de esquirlada y reclamó su hoja — hazaña inmortalizada en historias y canciones"
+    ],
+    "descripcion": "Figura histórica legendaria de Roshar. Ojos oscuros de leyenda famoso por matar a un portador de esquirlada y reclamar su hoja esquirlada. Su hazaña fue tan extraordinaria — pues un ojos oscuros arrebatando una esquirlada a un ojos claros era casi inaudito — que se inmortalizó en numerosas historias y canciones rosharias.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — figura de leyenda.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Ojos oscuros legendario que mató a un portador de esquirlada y reclamó su hoja. Su hazaña fue inmortalizada en muchas historias y canciones de Roshar.",
+    "puntos_clave": [
+      "Ojos oscuros de leyenda en Roshar.",
+      "Famoso por matar a un portador de esquirlada y reclamar su hoja.",
+      "Hazaña inmortalizada en numerosas historias y canciones rosharias.",
+      "Su apodo 'Marcador' hace referencia a su condición de ojos oscuros que dejó su marca en la historia."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Leyenda ojos oscuros que demostró que un ojos oscuros podía reclamar una esquirlada",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Ojos oscuros legendario de Roshar famoso por matar a un portador de esquirlada y reclamar su hoja. Su hazaña fue inmortalizada en numerosas historias y canciones.",
+  "notas": "Su leyenda es culturalmente importante en Roshar — demuestra que incluso un ojos oscuros puede alcanzar grandeza a través del combate. Su apodo 'Marcador' sugiere que dejó su huella en la historia."
+}

@@ -1,0 +1,86 @@
+{
+  "id": "evinor",
+  "nombre": "Evinor",
+  "nombre_completo": "Alto Príncipe Evinor",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor — mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Jah Keved — alto príncipe"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo — alto príncipe de Jah Keved"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto príncipe de Jah Keved durante la Era de la Soledad",
+      "Asesinado por Szeth por orden de Taravangian"
+    ],
+    "descripcion": "Alto príncipe de Jah Keved durante la Era de la Soledad. En 1173, fue asesinado por Szeth-hijo-Neturo por orden del rey Taravangian, junto al rey Hanavanar y otros cinco altos príncipes veden.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "Szeth lo mató por orden de Taravangian en 1173"
+      },
+      {
+        "personaje": "taravangian",
+        "relacion": "ordenó su asesinato para desestabilizar Jah Keved"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Alto príncipe veden asesinado por Szeth en 1173 por orden de Taravangian, junto al rey Hanavanar y otros cinco altos príncipes veden. Su muerte fue parte del plan de Taravangian para desestabilizar Jah Keved. Mencionado en PR capítulo 31.",
+    "puntos_clave": [
+      "Alto príncipe de Jah Keved durante la Era de la Soledad.",
+      "En 1173, asesinado por Szeth por orden de Taravangian.",
+      "Murió junto al rey Hanavanar y otros cinco altos príncipes veden.",
+      "Su muerte fue parte del plan del Diagrama para desestabilizar Jah Keved.",
+      "Mencionado en PR capítulo 31."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Alto príncipe veden víctima del plan del Diagrama",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Alto príncipe de Jah Keved. Asesinado por Szeth en 1173 por orden de Taravangian, junto al rey Hanavanar y otros cinco altos príncipes veden.",
+  "notas": "Mencionado en PR capítulo 31. Su asesinato fue parte del plan del Diagrama para desestabilizar Jah Keved y eventualmente poner a Taravangian en control."
+}
