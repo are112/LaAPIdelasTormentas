@@ -1064,11 +1064,51 @@
     "especie": "humano"
   },
   {
+    "id": "ellar",
+    "nombre": "Ellar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "ellista",
     "nombre": "Ellista",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "elodi",
+    "nombre": "Elodi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "eltharon",
+    "nombre": "Eltharon",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "cantor"
+  },
+  {
+    "id": "elthebar",
+    "nombre": "Elthebar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "en",
+    "nombre": "En",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
