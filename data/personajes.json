@@ -1256,6 +1256,46 @@
     "especie": "humano"
   },
   {
+    "id": "fabrisan",
+    "nombre": "Fabrisan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "falabratant",
+    "nombre": "Falabratant",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "falilar",
+    "nombre": "Falilar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "falksi",
+    "nombre": "Falksi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "fane",
+    "nombre": "Fane",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "felt",
     "nombre": "Felt",
     "orden": "Ninguna",
