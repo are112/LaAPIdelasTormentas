@@ -1456,12 +1456,84 @@
     "especie": "humano"
   },
   {
+    "id": "gabaron",
+    "nombre": "Gabaron",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "gabrathin",
+    "nombre": "Gabrathin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "gadol",
+    "nombre": "Gadol",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "galan",
+    "nombre": "Galan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "galante",
+    "nombre": "Galante",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "caballo (roan)"
+  },
+  {
+    "id": "galid",
+    "nombre": "Galid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
+    "id": "gallam",
+    "nombre": "Gallam",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "gamma",
+    "nombre": "Gamma",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "gangnah",
     "nombre": "Gangnah",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "cantor"
+  },
+  {
+    "id": "ganlos_riera",
+    "nombre": "Ganlos Riera",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
   },
   {
     "id": "gavilar",
