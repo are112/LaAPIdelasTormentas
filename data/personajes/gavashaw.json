@@ -1,0 +1,85 @@
+{
+  "id": "gavashaw",
+  "nombre": "Gavashaw",
+  "nombre_completo": "Gavashaw",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Aguanatal, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Crimen organizado de Aguanatal"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Crimen organizado — criminal establecido en Aguanatal como rival de Makkek"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Criminal de Aguanatal establecido como rival de Makkek por el señor local de Puntarrodilla",
+      "Murió en 1173"
+    ],
+    "descripcion": "Criminal de Aguanatal en Roshar. El señor local de Puntarrodilla lo estableció como rival de Makkek para crear tensión en el mundo criminal de la ciudad. Murió en 1173. Aparece en el interludio I-6 de El Camino de los Reyes.",
+    "estado_en_viento_y_verdad": "Fallecido — 1173."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "makkek",
+        "relacion": "rival criminal establecido por el señor local de Puntarrodilla"
+      },
+      {
+        "personaje": "señor local de Puntarrodilla",
+        "relacion": "el señor local lo estableció como rival de Makkek"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Criminal profesional en Aguanatal.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Criminal de Aguanatal. El señor local de Puntarrodilla lo estableció como rival de Makkek. Murió en 1173. ECdR interludio I-6.",
+    "puntos_clave": [
+      "Criminal de Aguanatal.",
+      "Establecido como rival de Makkek por el señor local de Puntarrodilla.",
+      "Murió en 1173.",
+      "Mencionado en ECdR interludio I-6."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — 1173",
+    "rol": "Criminal rival de Makkek en Aguanatal",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Criminal de Aguanatal. Establecido como rival de Makkek por el señor local de Puntarrodilla. Murió en 1173.",
+  "notas": "Mencionado en ECdR interludio I-6. Su rivalidad con Makkek fue orquestada desde arriba — el señor local los enfrentó deliberadamente."
+}

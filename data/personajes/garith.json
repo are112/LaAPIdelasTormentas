@@ -1,0 +1,80 @@
+{
+  "id": "garith",
+  "nombre": "Garith",
+  "nombre_completo": "Garith",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "riran",
+  "origen": "Rira",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — Corredores del Viento (anteriormente)",
+    "Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "honorspren desconocido"
+    },
+    "estado_del_vinculo": "Anteriormente activo — situación actual desconocida."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Sustentación",
+        "Presión — potencias del Corredor del Viento"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate — portador de esquirlada (anteriormente)"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Corredor del Viento riran de etnia riran",
+      "Anteriormente Caballero Radiante y portador de esquirlada residente en Urithiru"
+    ],
+    "descripcion": "Corredor del Viento de etnia riran. Anteriormente Caballero Radiante y portador de esquirlada. Residía en Urithiru. Información limitada.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Corredor del Viento riran, anteriormente Caballero Radiante y portador de esquirlada. Residía en Urithiru. Mencionado en RdG.",
+    "puntos_clave": [
+      "Corredor del Viento de etnia riran.",
+      "Anteriormente Caballero Radiante y portador de esquirlada.",
+      "Residía en Urithiru.",
+      "Mencionado en RdG."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Corredor del Viento riran de Urithiru",
+    "relacion_con_spren": "Vínculo con honorspren — situación actual desconocida.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Corredor del Viento de etnia riran. Anteriormente Caballero Radiante y portador de esquirlada. Residía en Urithiru.",
+  "notas": "Información limitada. Mencionado en RdG."
+}

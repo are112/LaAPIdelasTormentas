@@ -1,0 +1,81 @@
+{
+  "id": "gare",
+  "nombre": "Gare",
+  "nombre_completo": "Gare",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram — líder de pelotón"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando — líder de pelotón en el ejército de Amaram"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Líder de pelotón en el ejército de Amaram",
+      "El que se enfrentó a Kaladin por la influencia que este tenía sobre sus hombres"
+    ],
+    "descripcion": "Líder de pelotón en el ejército del Alto Mariscal Meridas Amaram. Territorial y resentido con Kaladin por la influencia natural que este ejercía sobre los soldados, incluso los de otros pelotones. Le dijo directamente: 'Bueno, tal vez no me guste que todo el mundo haga lo que les dices. No me importa lo bueno que seas con la lanza. Mi pelotón es mío.'",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "resentía la influencia de Kaladin sobre los soldados — le reclamó directamente que su pelotón era suyo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Territorial y con necesidad de control sobre su pelotón. Resentía la influencia natural de Kaladin.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Líder de pelotón en el ejército de Amaram. Territorial y resentido con Kaladin por la influencia que este ejercía sobre los soldados. Le reclamó directamente que su pelotón era suyo. Mencionado en ECdR capítulo 47.",
+    "puntos_clave": [
+      "Líder de pelotón en el ejército de Amaram.",
+      "Territorial — resentía la influencia de Kaladin sobre sus hombres.",
+      "Le dijo a Kaladin: 'Mi pelotón es mío.'",
+      "Mencionado en ECdR capítulo 47."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — líder de pelotón en el ejército de Amaram",
+    "rol": "Antagonista menor de Kaladin en el ejército de Amaram",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Líder de pelotón en el ejército de Amaram. Territorial y resentido con Kaladin por su influencia natural sobre los soldados. Le dijo: 'Mi pelotón es mío.'",
+  "notas": "Mencionado en ECdR capítulo 47. Su resentimiento hacia Kaladin ilustra la dinámica de poder informal que Kaladin generaba sin buscarlo."
+}

@@ -1,0 +1,77 @@
+{
+  "id": "gavarah",
+  "nombre": "Gavarah",
+  "nombre_completo": "Gavarah",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — formuló la teoría de los tres reinos a los veinte años",
+      "Filosofía realmática — su teoría de los tres reinos es probablemente una versión de la Teoría Realmática"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita rosharia de la Era de la Soledad",
+      "La que propuso la teoría de los tres reinos a los veinte años — probablemente una versión de la Teoría Realmática",
+      "Citada por Jasnah a Shallan como ejemplo de logro académico extraordinario a edad temprana"
+    ],
+    "descripcion": "Erudita de Roshar durante la Era de la Soledad. A los veinte años propuso la teoría de los tres reinos — probablemente una versión de la Teoría Realmática del cosmere, que describe los Reinos Físico, Cognitivo y Espiritual. Jasnah Kholin la citó a Shallan Davar como ejemplo de una erudita que alcanzó grandes logros a una edad muy temprana.",
+    "estado_en_viento_y_verdad": "Fallecida — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — figura erudita de gran impacto conceptual.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudita rosharia que a los veinte años propuso la teoría de los tres reinos — probablemente la Teoría Realmática. Jasnah la citó a Shallan como ejemplo de logro extraordinario a edad temprana. ECdR capítulo 29.",
+    "puntos_clave": [
+      "Erudita de Roshar durante la Era de la Soledad.",
+      "A los veinte años propuso la teoría de los tres reinos.",
+      "Probablemente una versión de la Teoría Realmática.",
+      "Jasnah la citó a Shallan como ejemplo de logro académico a edad temprana.",
+      "Mencionada en ECdR capítulo 29."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — figura histórica",
+    "rol": "Pionera de la Teoría Realmática en Roshar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudita rosharia que a los veinte años propuso la teoría de los tres reinos — probablemente una versión de la Teoría Realmática. Jasnah la citó a Shallan como modelo de logro académico a edad temprana.",
+  "notas": "Mencionada en ECdR capítulo 29. Su teoría de los tres reinos es significativa cosmológicamente — sugiere que Gavarah comprendió intuitivamente la estructura realmática del universo."
+}

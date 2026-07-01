@@ -1,0 +1,79 @@
+{
+  "id": "gashash_hijo_navammis",
+  "nombre": "Gashash-hijo-Navammis",
+  "nombre_completo": "Gashash-hijo-Navammis",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — traductor de los libros de Seld",
+      "Traducción — tradujo textos del idioma shin al común"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito shin, hijo de Navammis",
+      "Traductor de los libros de Seld"
+    ],
+    "descripcion": "Erudito shin, hijo de Navammis. Tradujo los libros del erudito Seld. Sus traducciones son la fuente de acceso a los textos de Seld para los no shin. Mencionado en ECdR capítulo 38.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Navammis",
+        "relacion": "padre — Gashash lleva su nombre en la nomenclatura shin"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito shin que tradujo los libros del erudito Seld. Sus traducciones permiten el acceso a los textos de Seld para los no shin. ECdR capítulo 38.",
+    "puntos_clave": [
+      "Erudito shin, hijo de Navammis.",
+      "Tradujo los libros de Seld.",
+      "Mencionado en ECdR capítulo 38 como epígrafe."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — erudito y traductor shin",
+    "rol": "Traductor de los textos de Seld",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito shin, hijo de Navammis. Tradujo los libros del erudito Seld. Sus traducciones son la fuente de acceso a los textos de Seld para los lectores no shin.",
+  "notas": "Mencionado en ECdR capítulo 38 como epígrafe. Su nombre aparece como atribución de la traducción."
+}

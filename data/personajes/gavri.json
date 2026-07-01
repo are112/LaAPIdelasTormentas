@@ -1,0 +1,82 @@
+{
+  "id": "gavri",
+  "nombre": "Gavri",
+  "nombre_completo": "Gavri",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Urithiru, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Coalición de Monarcas — oficial militar",
+    "Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — oficial de la Coalición de Monarcas en Urithiru"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Oficial militar de la Coalición de Monarcas en Urithiru",
+      "Sus soldados estaban estacionados en los pisos superiores de Urithiru cuando Rabeniel inició la ocupación"
+    ],
+    "descripcion": "Oficial militar de la Coalición de Monarcas residente en Urithiru. Sus soldados estaban estacionados en los pisos superiores de Urithiru cuando Rabeniel comenzó la ocupación cantor de la torre.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "rabeniel",
+        "relacion": "Rabeniel inició la ocupación de Urithiru mientras los soldados de Gavri estaban en los pisos superiores"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Oficial militar de la Coalición de Monarcas en Urithiru. Sus soldados estaban en los pisos superiores cuando Rabeniel comenzó la ocupación cantor de la torre. Mencionado en RdG.",
+    "puntos_clave": [
+      "Oficial militar de la Coalición de Monarcas.",
+      "Sus soldados estaban en los pisos superiores de Urithiru.",
+      "Cuando Rabeniel inició la ocupación cantor de la torre.",
+      "Mencionado en RdG."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Oficial militar de la Coalición de Monarcas — Urithiru",
+    "rol": "Oficial militar menor durante la ocupación de Urithiru",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Oficial militar de la Coalición de Monarcas en Urithiru. Sus soldados estaban estacionados en los pisos superiores cuando Rabeniel inició la ocupación cantor de la torre.",
+  "notas": "Mencionado en RdG. Información limitada."
+}
