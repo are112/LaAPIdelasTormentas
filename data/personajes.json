@@ -1296,6 +1296,46 @@
     "especie": "humano"
   },
   {
+    "id": "faraz_hija_daraz",
+    "nombre": "Faraz-hija-Daraz",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "fari",
+    "nombre": "Fari",
+    "orden": "Rompedores del Cielo",
+    "nivel_ideal": 2,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "faridai",
+    "nombre": "Faridai",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "cantor"
+  },
+  {
+    "id": "fasi",
+    "nombre": "Fasi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "febin",
+    "nombre": "Febin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "felt",
     "nombre": "Felt",
     "orden": "Ninguna",
