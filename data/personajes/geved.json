@@ -38,14 +38,20 @@
   },
   "identidades": {
     "principales": [
-      "Soldado veden residente en Vedenar"
+      "Soldado veterano veden, único superviviente de su pelotón",
+      "El que siempre quiso conocer al Espina Negra — se encontró con Dalinar en Vedenar tras la batalla de la guerra civil"
     ],
-    "descripcion": "Soldado veden residente en Vedenar. Mencionado en Juramentada. Información muy limitada.",
+    "descripcion": "Soldado veterano veden residente en Vedenar. Anciano con una mirada que parece atravesarte. Le falta el brazo derecho — lo perdió en combate. Lleva uniforme limpio con un parche de su pelotón desaparecido cuando conoce a Dalinar. Respeta profundamente el arte de la guerra. Luchó en escaramuzas internacionales y civiles. Fue el único superviviente de su pelotón. Como miembro del ejército del brillante Nalanar, se enfrentó al ejército alezi de Dalinar en Rocadiza antes de la Guerra de la Venganza — siempre había querido conocer al Espina Negra. Tras la Batalla de Vedenar, Dalinar visitó la ciudad con Taravangian. En un hospital de campaña, Geved fue el último de una fila de supervivientes solitarios. Recordó con Dalinar lo ocurrido en Rocadiza. Cuando Dalinar le preguntó sobre la guerra civil, Geved se puso nervioso — dijo que era diferente a cualquier batalla, que los soldados no dejaban de pelear y tenían una sed insaciable de sangre.",
     "estado_en_viento_y_verdad": "Activo."
   },
   "relaciones": {
     "familia": [],
-    "amigos": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "siempre quiso conocerle como el Espina Negra — se encontraron en un hospital de campaña en Vedenar y recordaron Rocadiza"
+      }
+    ],
     "enemigos": []
   },
   "estado_mental": {
@@ -54,11 +60,19 @@
     "situacion_en_viento_y_verdad": "Activo."
   },
   "arco_narrativo": {
-    "resumen": "Soldado veden residente en Vedenar. Mencionado en Juramentada.",
+    "resumen": "Soldado veterano veden, único superviviente de su pelotón. Perdió el brazo derecho. Respeta el arte de la guerra. Luchó contra el ejército de Dalinar en Rocadiza como miembro del ejército del brillante Nalanar — siempre quiso conocer al Espina Negra. Tras la Batalla de Vedenar, se encontró con Dalinar en un hospital de campaña. Recordaron Rocadiza. Cuando Dalinar preguntó sobre la guerra civil, Geved dijo que era diferente — los soldados tenían una sed insaciable de sangre.",
     "puntos_clave": [
-      "Soldado veden.",
-      "Residente en Vedenar.",
-      "Mencionado en Juramentada."
+      "Soldado veterano veden de Vedenar.",
+      "Anciano — le falta el brazo derecho. Mirada penetrante. Lleva parche de su pelotón desaparecido.",
+      "Fue el único superviviente de su pelotón.",
+      "Luchó en escaramuzas internacionales y civiles.",
+      "Respeta el arte de la guerra como parte de su forma de vida.",
+      "Como miembro del ejército de Nalanar, se enfrentó al ejército alezi de Dalinar en Rocadiza.",
+      "Siempre quiso conocer al Espina Negra.",
+      "Tras la Batalla de Vedenar, se encontró con Dalinar en un hospital de campaña.",
+      "Recordaron Rocadiza juntos.",
+      "Sobre la guerra civil: los soldados tenían una sed insaciable de sangre — era diferente a cualquier batalla.",
+      "Mencionado en Juramentada capítulo 100."
     ]
   },
   "situacion_actual": {
@@ -67,6 +81,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Soldado veden residente en Vedenar. Mencionado en Juramentada. Información muy limitada.",
+  "descripcion_breve": "Soldado veterano veden. Único superviviente de su pelotón — perdió el brazo derecho. Siempre quiso conocer al Espina Negra. Se encontró con Dalinar en Vedenar tras la batalla de la guerra civil.",
   "notas": "Información muy limitada."
 }

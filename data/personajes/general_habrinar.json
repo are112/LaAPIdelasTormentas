@@ -38,10 +38,11 @@
   },
   "identidades": {
     "principales": [
-      "General en Roshar — mencionado en VyV"
+      "General de la Coalición de Monarcas durante la Segunda Batalla de Narak",
+      "Anciano retirado que volvió a la guerra — conocido por su pesimismo"
     ],
-    "descripcion": "General en Roshar. Mencionado en VyV. La página de la Coppermind necesita actualización con información adicional de VyV. Información muy limitada.",
-    "estado_en_viento_y_verdad": "Activo."
+    "descripcion": "General de las fuerzas de la Coalición de Monarcas durante la Segunda Batalla de Narak. Bastante mayor — tuvo que volver a la guerra tras su jubilación. Es conocido por su pesimismo y cree que la Coalición va a perder la guerra. Mencionado en VyV capítulo 90.",
+    "estado_en_viento_y_verdad": "Activo — Segunda Batalla de Narak."
   },
   "relaciones": {
     "familia": [],
@@ -54,10 +55,13 @@
     "situacion_en_viento_y_verdad": "Activo."
   },
   "arco_narrativo": {
-    "resumen": "General en Roshar. Mencionado en VyV. Información muy limitada.",
+    "resumen": "General anciano de la Coalición de Monarcas en la Segunda Batalla de Narak. Volvió de la jubilación para la guerra. Conocido por su pesimismo — cree que la Coalición perderá. VyV capítulo 90.",
     "puntos_clave": [
-      "General en Roshar.",
-      "Mencionado en VyV."
+      "General de la Coalición de Monarcas en la Segunda Batalla de Narak.",
+      "Bastante mayor — volvió de la jubilación para la guerra.",
+      "Conocido por su pesimismo.",
+      "Cree que la Coalición de Monarcas va a perder la guerra.",
+      "Mencionado en VyV capítulo 90."
     ]
   },
   "situacion_actual": {
@@ -66,6 +70,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "General en Roshar. Mencionado en Viento y Verdad. Información muy limitada.",
+  "descripcion_breve": "General anciano de la Coalición de Monarcas en la Segunda Batalla de Narak. Volvió de la jubilación. Conocido por su pesimismo — cree que la Coalición perderá la guerra.",
   "notas": "La Coppermind indica que la página necesita actualización con información de VyV."
 }

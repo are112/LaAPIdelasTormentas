@@ -5,8 +5,8 @@
   "apodos": [],
   "sexo": "masculino",
   "especie": "humano",
-  "nacionalidad": "desconocida",
-  "origen": "Roshar",
+  "nacionalidad": "azishiana",
+  "origen": "Azimir, Azir",
   "planeta_natal": "Roshar",
   "estado_actual": "vivo",
   "apariciones": {
@@ -19,7 +19,8 @@
     ]
   },
   "afiliaciones": [
-    "Guardia en Roshar"
+    "Injuramentados",
+    "Guardia Imperial de Azimir"
   ],
   "orden_radiantes": {
     "orden": "Ninguna",
@@ -40,20 +41,30 @@
   },
   "identidades": {
     "principales": [
-      "Portador de esquirlada hijo de Zarb Kushkam",
-      "Guardia en Roshar"
+      "Miembro de la Guardia Imperial de Azimir e Injuramentado",
+      "Hijo del comandante Zarb Kushkam — defensor de la Puerta Jurada",
+      "Portador de esquirlada que custodió a Yanagawn durante la batalla de Azimir"
     ],
-    "descripcion": "Portador de esquirlada. Hijo de Zarb Kushkam. Guardia en Roshar. Mencionado en RdG. Información limitada.",
-    "estado_en_viento_y_verdad": "Activo."
+    "descripcion": "Miembro de la Guardia Imperial de Azimir y de los Injuramentados. Portador de esquirlada. Hijo del comandante Zarb Kushkam, que estaba a cargo de la defensa de la Puerta Jurada. Custodió a Yanagawn durante la batalla de Azimir. Persona de principios firmes — sus frases reflejan amor profundo por el Imperio: 'Bueno, pues yo amo el imperio. Amo que nuestro pueblo haya resistido...' y 'Aceptar tu castigo con decoro es una señal de respeto hacia aquello que todos amamos.' Se relacionó con Adolin Kholin durante los eventos de VyV.",
+    "estado_en_viento_y_verdad": "Activo — Azimir."
   },
   "relaciones": {
     "familia": [
       {
         "personaje": "zarb_kushkam",
-        "relacion": "padre"
+        "relacion": "padre — comandante a cargo de la defensa de la Puerta Jurada"
       }
     ],
-    "amigos": [],
+    "amigos": [
+      {
+        "personaje": "yanagawn",
+        "relacion": "el Aqasix Supremo — Gezamal lo custodió durante la batalla de Azimir"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "se relacionaron durante los eventos de VyV en Azimir"
+      }
+    ],
     "enemigos": []
   },
   "estado_mental": {
@@ -62,12 +73,15 @@
     "situacion_en_viento_y_verdad": "Activo."
   },
   "arco_narrativo": {
-    "resumen": "Portador de esquirlada hijo de Zarb Kushkam. Guardia en Roshar. Mencionado en RdG.",
+    "resumen": "Miembro de la Guardia Imperial de Azimir y de los Injuramentados. Hijo del comandante Zarb Kushkam. Portador de esquirlada que custodió a Yanagawn durante la batalla de Azimir. Se relacionó con Adolin durante los eventos de VyV. Sus frases reflejan amor profundo por el Imperio azishiano. VyV capítulo 96.",
     "puntos_clave": [
+      "Miembro de la Guardia Imperial de Azimir e Injuramentado.",
       "Portador de esquirlada.",
-      "Hijo de Zarb Kushkam.",
-      "Guardia en Roshar.",
-      "Mencionado en RdG."
+      "Hijo del comandante Zarb Kushkam — defensor de la Puerta Jurada.",
+      "Custodió a Yanagawn durante la batalla de Azimir.",
+      "Se relacionó con Adolin Kholin.",
+      "Frases: 'Aceptar tu castigo con decoro es una señal de respeto hacia aquello que todos amamos.'",
+      "Mencionado en VyV capítulo 96."
     ]
   },
   "situacion_actual": {
@@ -76,6 +90,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Portador de esquirlada e hijo de Zarb Kushkam. Guardia en Roshar. Mencionado en El Ritmo de la Guerra.",
+  "descripcion_breve": "Portador de esquirlada azishiano, hijo del comandante Zarb Kushkam. Miembro de la Guardia Imperial e Injuramentado. Custodió a Yanagawn durante la batalla de Azimir. Profundo amor por el Imperio.",
   "notas": "Información limitada. Mencionado en RdG."
 }

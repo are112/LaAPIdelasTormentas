@@ -38,15 +38,20 @@
   },
   "identidades": {
     "principales": [
-      "Cantora oyente",
-      "La que observó que los pequeños sinritmos quieren estar cerca de los oyentes"
+      "Oyente asistente a la fiesta en Kholinar la noche del asesinato de Gavilar",
+      "El que se preocupaba por los parshmenios — 'Los pequeños sinritmos quieren estar cerca de nosotros'"
     ],
-    "descripcion": "Cantora oyente. Su frase: 'Los pequeños sinritmos quieren estar cerca de nosotros.' Mencionada en Juramentada.",
-    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseída por un Fusionado durante la tormenta eterna."
+    "descripcion": "Oyente que asistió a la fiesta en Kholinar la noche del asesinato de Gavilar Kholin. Lleva rubíes en la barba y tiene colores rojos prominentes en la piel. Considerado y empático — se preocupaba por los parshmenios. Observó que los parshmenios (los 'pequeños sinritmos') querían estar cerca de los oyentes porque sentían que algo andaba mal en sus mentes. Dejó que Eshonai siguiese su propio camino y explorase el palacio de Kholinar mientras él y los demás se encargaban de descargar los tambores. Solo el Consejo de los Cinco original se quedó atrás para asumir la responsabilidad del asesinato de Gavilar — es posible que Gitgeth huyera a las Llanuras Quebradas, pero su destino es incierto.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
   },
   "relaciones": {
     "familia": [],
-    "amigos": [],
+    "amigos": [
+      {
+        "personaje": "eshonai",
+        "relacion": "le dejó explorar el palacio de Kholinar mientras él descargaba tambores"
+      }
+    ],
     "enemigos": []
   },
   "estado_mental": {
@@ -55,11 +60,16 @@
     "situacion_en_viento_y_verdad": "Desconocido."
   },
   "arco_narrativo": {
-    "resumen": "Cantora oyente. Observó que los pequeños sinritmos quieren estar cerca de los oyentes. Mencionada en Juramentada.",
+    "resumen": "Oyente que asistió a la fiesta en Kholinar la noche del asesinato de Gavilar. Rubíes en la barba, colores rojos en la piel. Se preocupaba por los parshmenios — 'Los pequeños sinritmos quieren estar cerca de nosotros. Sienten que algo anda mal en sus mentes.' Dejó que Eshonai explorase el palacio mientras él descargaba tambores. Su destino tras el asesinato es incierto.",
     "puntos_clave": [
-      "Cantora oyente.",
-      "Frase: 'Los pequeños sinritmos quieren estar cerca de nosotros.'",
-      "Mencionada en Juramentada."
+      "Oyente asistente a la fiesta en Kholinar la noche del asesinato de Gavilar.",
+      "Rubíes en la barba, colores rojos prominentes en la piel.",
+      "Se preocupaba por los parshmenios.",
+      "Frase: 'Los pequeños sinritmos quieren estar cerca de nosotros. Sienten que algo anda mal en sus mentes.'",
+      "Dejó que Eshonai explorase el palacio mientras él y otros descargaban tambores.",
+      "Solo el Consejo de los Cinco se quedó a asumir la responsabilidad del asesinato.",
+      "Destino incierto — posiblemente huyó a las Llanuras Quebradas.",
+      "Mencionado en Juramentada prólogo."
     ]
   },
   "situacion_actual": {
@@ -68,6 +78,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Cantora oyente que observó que los pequeños sinritmos quieren estar cerca de los oyentes. Mencionada en Juramentada.",
+  "descripcion_breve": "Oyente con rubíes en la barba. Asistió a la fiesta en Kholinar la noche del asesinato de Gavilar. Se preocupaba por los parshmenios — 'Los pequeños sinritmos quieren estar cerca de nosotros.' Destino incierto.",
   "notas": "Su observación sobre los sinritmos es un detalle interesante sobre la relación entre oyentes y spren."
 }

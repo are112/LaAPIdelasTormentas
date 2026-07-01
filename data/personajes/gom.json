@@ -36,9 +36,10 @@
   },
   "identidades": {
     "principales": [
-      "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi"
+      "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi",
+      "El que trajo a los fervorosos una verdura de Shinovar"
     ],
-    "descripcion": "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi. Mencionado en ECdR. Información muy limitada.",
+    "descripcion": "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi. Trajo a los fervorosos una verdura de Shinovar. Ashir quedó fascinado por la forma en que la verdura se caramelizaba. Mencionado en ECdR interludio I-8.",
     "estado_en_viento_y_verdad": "Destino desconocido."
   },
   "relaciones": {
@@ -61,10 +62,12 @@
     "situacion_en_viento_y_verdad": "Desconocido."
   },
   "arco_narrativo": {
-    "resumen": "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi. Mencionado en ECdR.",
+    "resumen": "Conocido de Geranid y Ashir en las Islas Reshi. Trajo a los fervorosos una verdura de Shinovar. Ashir quedó fascinado por cómo se caramelizaba. ECdR interludio I-8.",
     "puntos_clave": [
       "Conocido de Geranid y Ashir en las Islas Reshi.",
-      "Mencionado en ECdR."
+      "Trajo a los fervorosos una verdura de Shinovar.",
+      "Ashir quedó fascinado por la forma en que la verdura se caramelizaba.",
+      "Mencionado en ECdR interludio I-8."
     ]
   },
   "situacion_actual": {
@@ -73,6 +76,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi. Mencionado en El Camino de los Reyes.",
-  "notas": "Información muy limitada. Mencionado en ECdR."
+  "descripcion_breve": "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi. Trajo una verdura de Shinovar que fascinó a Ashir por cómo se caramelizaba.",
+  "notas": "Mencionado en ECdR interludio I-8. Su detalle de la verdura de Shinovar es un pequeño guiño al worldbuilding de las diferencias culinarias entre Shinovar y el resto de Roshar."
 }

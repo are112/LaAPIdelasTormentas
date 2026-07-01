@@ -22,12 +22,12 @@
     "Portadores de Honor shin"
   ],
   "orden_radiantes": {
-    "orden": "Ninguna",
+    "orden": "Portadores del Polvo (Honohoja)",
     "nivel_ideal": null,
     "spren_asociado": {
-      "principal": ""
+      "principal": "no aplica — usa Honohoja"
     },
-    "estado_del_vinculo": ""
+    "estado_del_vinculo": "Portadora de Honor con la Honohoja de la Orden de los Portadores del Polvo."
   },
   "habilidades": {
     "magia": {
@@ -40,11 +40,11 @@
   },
   "identidades": {
     "principales": [
-      "Portadora de esquirlada shin",
+      "Portadora de Honor shin — poseedora de la Honohoja de la Orden de los Portadores del Polvo",
       "Murió durante el destierro de Szeth"
     ],
-    "descripcion": "Portadora de esquirlada shin. Murió durante el destierro de Szeth-hijo-Neturo. Mencionada en VyV capítulo 90.",
-    "estado_en_viento_y_verdad": "Fallecida."
+    "descripcion": "Portadora de Honor shin en Roshar. Posee la Honohoja de la Orden de los Portadores del Polvo — una de las Hojas de Honor shin asignadas a los Portadores de Honor. Murió durante el período en que Szeth-hijo-Neturo estuvo desterrado. Mencionada en VyV capítulos 83 y 90.",
+    "estado_en_viento_y_verdad": "Fallecida — murió durante el destierro de Szeth."
   },
   "relaciones": {
     "familia": [],
@@ -62,11 +62,12 @@
     "situacion_en_viento_y_verdad": "Fallecida."
   },
   "arco_narrativo": {
-    "resumen": "Portadora de esquirlada shin. Murió durante el destierro de Szeth. VyV capítulo 90.",
+    "resumen": "Portadora de Honor shin que poseía la Honohoja de la Orden de los Portadores del Polvo. Murió durante el destierro de Szeth. VyV capítulos 83 y 90.",
     "puntos_clave": [
-      "Portadora de esquirlada shin.",
-      "Murió durante el destierro de Szeth.",
-      "Mencionada en VyV capítulo 90."
+      "Portadora de Honor shin.",
+      "Poseía la Honohoja de la Orden de los Portadores del Polvo.",
+      "Murió durante el destierro de Szeth-hijo-Neturo.",
+      "Mencionada en VyV capítulos 83 y 90."
     ]
   },
   "situacion_actual": {
@@ -75,6 +76,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Portadora de esquirlada shin. Murió durante el destierro de Szeth. Mencionada en VyV capítulo 90.",
+  "descripcion_breve": "Portadora de Honor shin. Poseía la Honohoja de la Orden de los Portadores del Polvo. Murió durante el destierro de Szeth.",
   "notas": "Información muy limitada."
 }

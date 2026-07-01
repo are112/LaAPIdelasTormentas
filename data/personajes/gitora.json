@@ -40,14 +40,24 @@
   },
   "identidades": {
     "principales": [
-      "Erudita alezi del ejército de Kholin"
+      "Erudita alezi estudiando para ser ingeniera",
+      "La que calculó si el balcón de la cúpula azishiana podía soportar el peso de un portador de esquirlada"
     ],
-    "descripcion": "Erudita alezi al servicio del ejército de Kholin. Información limitada.",
+    "descripcion": "Erudita alezi que estudia para ser ingeniera, al servicio del ejército de Kholin. Durante la Batalla de Azimir, Adolin preguntó a Kaminah si el balcón de la cúpula azishiana podía soportar el peso de un portador de esquirlada. Kaminah envió a Gitora a revisarlo. Gitora se acercó a Adolin para informarle de que sí era posible — el portador azishiano ya estaba en el balcón — y realizó los cálculos adicionales para concluir que podía aguantar el peso de dos portadores. Mencionada en VyV capítulo 39.",
     "estado_en_viento_y_verdad": "Activa."
   },
   "relaciones": {
     "familia": [],
-    "amigos": [],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "le informó del resultado de sus cálculos sobre el balcón"
+      },
+      {
+        "personaje": "kaminah",
+        "relacion": "Kaminah la envió a revisar el balcón de la cúpula"
+      }
+    ],
     "enemigos": []
   },
   "estado_mental": {
@@ -56,11 +66,13 @@
     "situacion_en_viento_y_verdad": "Activa."
   },
   "arco_narrativo": {
-    "resumen": "Erudita alezi al servicio del ejército de Kholin. Mencionada en ECdR.",
+    "resumen": "Erudita alezi estudiando ingeniería. Durante la Batalla de Azimir, Kaminah la envió a calcular si el balcón de la cúpula podía soportar el peso de un portador de esquirlada. Gitora confirmó que sí y calculó que podía aguantar incluso el de dos. VyV capítulo 39.",
     "puntos_clave": [
-      "Erudita alezi.",
+      "Erudita alezi estudiando para ser ingeniera.",
       "Al servicio del ejército de Kholin.",
-      "Mencionada en ECdR."
+      "Durante la Batalla de Azimir, Kaminah la envió a revisar el balcón de la cúpula.",
+      "Calculó que el balcón podía aguantar el peso de dos portadores de esquirlada.",
+      "Mencionada en VyV capítulo 39."
     ]
   },
   "situacion_actual": {
@@ -69,6 +81,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Erudita alezi al servicio del ejército de Kholin. Mencionada en El Camino de los Reyes.",
+  "descripcion_breve": "Erudita alezi estudiando ingeniería. Durante la Batalla de Azimir, calculó que el balcón de la cúpula podía aguantar el peso de dos portadores de esquirlada.",
   "notas": "Información limitada."
 }

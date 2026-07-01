@@ -8,7 +8,7 @@
   "nacionalidad": "alezi",
   "origen": "Alezkar",
   "planeta_natal": "Roshar",
-  "estado_actual": "desconocido",
+  "estado_actual": "vivo",
   "apariciones": {
     "libros": [
       {
@@ -18,7 +18,9 @@
       }
     ]
   },
-  "afiliaciones": [],
+  "afiliaciones": [
+    "Ejército de Kholin — armero jefe de Adolin"
+  ],
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
@@ -38,11 +40,11 @@
   },
   "identidades": {
     "principales": [
-      "Armero alezi",
+      "Armero jefe de Adolin Kholin",
       "Padre de Dal"
     ],
-    "descripcion": "Armero alezi. Padre de Dal. Información muy limitada.",
-    "estado_en_viento_y_verdad": "Destino desconocido."
+    "descripcion": "Soldado alezi y armero jefe de Adolin Kholin en Roshar. Padre de Dal. Mencionado en VyV capítulo 39.",
+    "estado_en_viento_y_verdad": "Activo."
   },
   "relaciones": {
     "familia": [
@@ -60,10 +62,12 @@
     "situacion_en_viento_y_verdad": "Desconocido."
   },
   "arco_narrativo": {
-    "resumen": "Armero alezi, padre de Dal. Información muy limitada.",
+    "resumen": "Armero jefe de Adolin Kholin. Padre de Dal. Mencionado en VyV capítulo 39.",
     "puntos_clave": [
-      "Armero alezi.",
-      "Padre de Dal."
+      "Soldado alezi.",
+      "Armero jefe de Adolin Kholin.",
+      "Padre de Dal.",
+      "Mencionado en VyV capítulo 39."
     ]
   },
   "situacion_actual": {
@@ -72,6 +76,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Armero alezi. Padre de Dal. Información muy limitada.",
+  "descripcion_breve": "Soldado alezi y armero jefe de Adolin Kholin. Padre de Dal.",
   "notas": "Información muy limitada."
 }

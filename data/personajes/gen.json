@@ -41,14 +41,24 @@
   },
   "identidades": {
     "principales": [
-      "Soldado del ejército de Kholin residente en Urithiru"
+      "Soldado muy condecorado del ejército Kholin — uno de los mejores de Adolin",
+      "Participó en la misión de arresto de Ialai Sadeas"
     ],
-    "descripcion": "Soldado del ejército de Kholin residente en Urithiru. Información muy limitada.",
+    "descripcion": "Soldado del ejército Kholin residente en Urithiru. Era muy condecorado — uno de los mejores soldados de Adolin. Participó en la misión de Shallan y Adolin para arrestar a Ialai Sadeas. Tras la muerte de Ialai, Adolin le ordenó a Gen y a Natem registrar la habitación, pero Shallan intervino usando sus Tejedores de Luz. Shallan más tarde propuso que Gen y el resto del equipo de Adolin fuesen reasignados temporalmente mientras ella investigaba las circunstancias de la muerte de Ialai. Mencionado en RdG capítulos 7 y 9.",
     "estado_en_viento_y_verdad": "Activo."
   },
   "relaciones": {
     "familia": [],
-    "amigos": [],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "su comandante — uno de sus mejores soldados; le ordenó registrar la habitación de Ialai"
+      },
+      {
+        "personaje": "natem",
+        "relacion": "compañero de misión — Adolin les ordenó registrar la habitación de Ialai juntos"
+      }
+    ],
     "enemigos": []
   },
   "estado_mental": {
@@ -57,11 +67,14 @@
     "situacion_en_viento_y_verdad": "Activo."
   },
   "arco_narrativo": {
-    "resumen": "Soldado del ejército de Kholin en Urithiru. Mencionado en RdG.",
+    "resumen": "Soldado muy condecorado del ejército Kholin, uno de los mejores de Adolin. Participó en la misión de arresto de Ialai Sadeas. Tras la muerte de Ialai, Adolin le ordenó registrar la habitación pero Shallan intervino. Shallan propuso su reasignación temporal mientras investigaba la muerte. RdG capítulos 7 y 9.",
     "puntos_clave": [
-      "Soldado del ejército de Kholin.",
-      "Residente en Urithiru.",
-      "Mencionado en RdG."
+      "Soldado muy condecorado del ejército Kholin — uno de los mejores de Adolin.",
+      "Participó en la misión de arresto de Ialai Sadeas.",
+      "Adolin le ordenó a Gen y Natem registrar la habitación tras la muerte de Ialai.",
+      "Shallan intervino y registró ella misma la habitación con sus Tejedores de Luz.",
+      "Shallan propuso su reasignación temporal para investigar la muerte de Ialai.",
+      "Mencionado en RdG capítulos 7 y 9."
     ]
   },
   "situacion_actual": {
@@ -70,6 +83,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Soldado del ejército de Kholin residente en Urithiru. Información muy limitada.",
+  "descripcion_breve": "Soldado muy condecorado del ejército Kholin, uno de los mejores de Adolin. Participó en la misión de arresto de Ialai Sadeas. Shallan lo reasignó temporalmente para investigar la muerte de Ialai.",
   "notas": "Información muy limitada."
 }

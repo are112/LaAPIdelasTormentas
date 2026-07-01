@@ -36,16 +36,17 @@
   },
   "identidades": {
     "principales": [
-      "Hombre veden, padre de Malise Gevelmar"
+      "Brillante señor veden de bajo dahn — señor rural de poca importancia",
+      "El que arregló el matrimonio de su hija Malise con Lin Davar en 1169"
     ],
-    "descripcion": "Hombre veden. Padre de Malise Gevelmar, la segunda esposa de Lin Davar. Información muy limitada.",
+    "descripcion": "El brillante Gevelmar es un señor ojos claros veden en Roshar. Señor rural de poca importancia — probablemente del quinto o sexto dahn. En 1169 arregló el matrimonio de su hija menor Malise con el mucho mayor Lin Davar. Envió a Malise a la finca Davar junto con los documentos matrimoniales. El matrimonio tenía probablemente un carácter político — Lin necesitaba una nueva esposa y la Casa Davar conservaba cierto prestigio en ese momento. El Brillante Tavinar sabía de Gevelmar.",
     "estado_en_viento_y_verdad": "Destino desconocido."
   },
   "relaciones": {
     "familia": [
       {
         "personaje": "malise",
-        "relacion": "hija — Malise Gevelmar fue la segunda esposa de Lin Davar"
+        "relacion": "hija menor — Gevelmar la casó con Lin Davar en 1169"
       }
     ],
     "amigos": [],
@@ -57,11 +58,14 @@
     "situacion_en_viento_y_verdad": "Desconocido."
   },
   "arco_narrativo": {
-    "resumen": "Hombre veden, padre de Malise Gevelmar. Información muy limitada.",
+    "resumen": "Señor veden de bajo dahn. En 1169 arregló el matrimonio de su hija Malise con Lin Davar — Lin necesitaba nueva esposa y la Casa Davar conservaba prestigio. Envió a Malise con los documentos matrimoniales. Tavinar sabía de él. PR capítulo 39.",
     "puntos_clave": [
-      "Hombre veden.",
-      "Padre de Malise Gevelmar.",
-      "Malise fue la segunda esposa de Lin Davar."
+      "Brillante señor veden — señor rural de bajo dahn, probablemente quinto o sexto.",
+      "En 1169 arregló el matrimonio de su hija menor Malise con el mucho mayor Lin Davar.",
+      "Envió a Malise a la finca Davar con los documentos matrimoniales.",
+      "El matrimonio era probablemente político — Lin necesitaba esposa y la Casa Davar tenía cierto prestigio.",
+      "Tavinar sabía de Gevelmar.",
+      "Mencionado en PR capítulo 39."
     ]
   },
   "situacion_actual": {
@@ -70,6 +74,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Hombre veden. Padre de Malise Gevelmar, segunda esposa de Lin Davar. Información muy limitada.",
+  "descripcion_breve": "Brillante señor veden de bajo dahn. En 1169 arregló el matrimonio de su hija Malise con Lin Davar. El matrimonio tenía carácter político — Lin necesitaba esposa y la Casa Davar conservaba prestigio.",
   "notas": "Información muy limitada. Solo mencionado como padre de Malise."
 }

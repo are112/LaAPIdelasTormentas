@@ -38,15 +38,24 @@
   },
   "identidades": {
     "principales": [
-      "Desertor de los ejércitos alezi durante la Guerra de la Venganza",
-      "Residente en Urithiru"
+      "Desertor alezi — luchó contra parshendi en las Llanuras, luego unido a la banda de Vathah en las Tierras Heladas",
+      "El que persiguió al imitador de Re-Shephir en Urithiru junto a Velo y Vathah"
     ],
-    "descripcion": "Desertor de los ejércitos alezi durante la Guerra de la Venganza. Residente en Urithiru. Mencionado en Juramentada.",
+    "descripcion": "Desertor de los ejércitos alezi durante la Guerra de la Venganza. Bajito y con sobrepeso, con la cara hinchada, como si intentara hacerle estallar la piel. Luchó contra los parshendi en las Llanuras Quebradas pero decidió abandonar el ejército. Se unió a la banda de desertores de las Tierras Heladas liderada por Vathah. Fue convencido por Shallan Davar para ayudar a defender la caravana de Macob. Shallan dibujó un retrato idealizado de Glurv, lo que llevó a Gaz a pedir también uno. En Urithiru, Velo (Shallan) le pidió a Glurv y Vathah que vigilaran si se repetían ciertos actos violentos relacionados con Re-Shephir. Persiguió al imitador cuando copió un ahorcamiento en El Apartado. Esperó en los túneles del este por donde huyó el perpetrador. Los tres — Velo, Vathah y Glurv — lo siguieron.",
     "estado_en_viento_y_verdad": "Activo — residente en Urithiru."
   },
   "relaciones": {
     "familia": [],
-    "amigos": [],
+    "amigos": [
+      {
+        "personaje": "vathah",
+        "relacion": "líder de su banda de desertores; compañero en la investigación de Re-Shephir"
+      },
+      {
+        "personaje": "shallan",
+        "relacion": "Shallan le convenció de defender la caravana de Macob y dibujó su retrato; luego como Velo le encargó vigilar los actos de Re-Shephir"
+      }
+    ],
     "enemigos": []
   },
   "estado_mental": {
@@ -55,11 +64,18 @@
     "situacion_en_viento_y_verdad": "Activo."
   },
   "arco_narrativo": {
-    "resumen": "Desertor de los ejércitos alezi durante la Guerra de la Venganza. Se instaló en Urithiru. Mencionado en Juramentada.",
+    "resumen": "Desertor alezi bajito y con sobrepeso. Luchó contra los parshendi en las Llanuras y luego se unió a la banda de Vathah en las Tierras Heladas. Shallan le convenció de defender la caravana de Macob y le dibujó un retrato idealizado. En Urithiru, Velo le encargó vigilar los actos de Re-Shephir. Persiguió al imitador en El Apartado. PR capítulo 30 y Juramentada capítulo 29.",
     "puntos_clave": [
-      "Desertor alezi durante la Guerra de la Venganza.",
-      "Residente en Urithiru.",
-      "Mencionado en Juramentada."
+      "Desertor alezi — bajito, con sobrepeso, cara hinchada.",
+      "Luchó contra los parshendi en las Llanuras.",
+      "Se unió a la banda de desertores de Vathah en las Tierras Heladas.",
+      "Convencido por Shallan para defender la caravana de Macob.",
+      "Shallan dibujó un retrato idealizado de él — Gaz pidió uno también.",
+      "En Urithiru, Velo le encargó vigilar los actos de Re-Shephir.",
+      "Persiguió al imitador cuando copió un ahorcamiento en El Apartado.",
+      "Esperó en los túneles del este donde huyó el perpetrador.",
+      "Los tres — Velo, Vathah y Glurv — siguieron al imitador.",
+      "Mencionado en PR capítulo 30 y Juramentada capítulo 29."
     ]
   },
   "situacion_actual": {
@@ -68,6 +84,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Desertor de los ejércitos alezi durante la Guerra de la Venganza. Residente en Urithiru. Mencionado en Juramentada.",
+  "descripcion_breve": "Desertor alezi bajito y con sobrepeso. De las Llanuras a la banda de Vathah. Convencido por Shallan para defender la caravana de Macob. En Urithiru, persiguió al imitador de Re-Shephir junto a Velo y Vathah.",
   "notas": "Mencionado en Juramentada. Información limitada."
 }

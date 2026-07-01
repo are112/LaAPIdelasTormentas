@@ -19,7 +19,7 @@
     ]
   },
   "afiliaciones": [
-    "Ejército de Amaram"
+    "Ejército de Amaram — líder de pelotón"
   ],
   "orden_radiantes": {
     "orden": "Ninguna",
@@ -40,9 +40,10 @@
   },
   "identidades": {
     "principales": [
-      "Soldado del ejército de Amaram"
+      "Líder de pelotón en el ejército alezi de Meridas Amaram",
+      "El que saludó a Kaladin mientras este hablaba con Tarah"
     ],
-    "descripcion": "Soldado del ejército del Alto Mariscal Amaram. Información muy limitada.",
+    "descripcion": "Soldado y líder de pelotón en el ejército alezi del Alto Mariscal Meridas Amaram. Cuando Kaladin era también líder de pelotón en el ejército de Amaram, Kaladin le saludó mientras hablaba con Tarah. Mencionado en Juramentada capítulo 112.",
     "estado_en_viento_y_verdad": "Destino desconocido."
   },
   "relaciones": {
@@ -56,10 +57,11 @@
     "situacion_en_viento_y_verdad": "Desconocido."
   },
   "arco_narrativo": {
-    "resumen": "Soldado del ejército de Amaram. Mencionado en ECdR.",
+    "resumen": "Líder de pelotón en el ejército de Amaram. Kaladin le saludó mientras hablaba con Tarah en un flashback. Juramentada capítulo 112.",
     "puntos_clave": [
-      "Soldado del ejército de Amaram.",
-      "Mencionado en ECdR."
+      "Líder de pelotón en el ejército alezi de Amaram.",
+      "Kaladin le saludó mientras hablaba con Tarah.",
+      "Mencionado en Juramentada capítulo 112."
     ]
   },
   "situacion_actual": {
@@ -68,6 +70,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Soldado del ejército del Alto Mariscal Amaram. Información muy limitada.",
+  "descripcion_breve": "Líder de pelotón en el ejército de Amaram. Kaladin le saludó mientras hablaba con Tarah en un flashback de Juramentada.",
   "notas": "Información muy limitada."
 }

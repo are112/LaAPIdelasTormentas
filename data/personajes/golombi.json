@@ -38,9 +38,10 @@
   },
   "identidades": {
     "principales": [
-      "Erudito de la luz tormentosa en Roshar"
+      "Erudito de la luz tormentosa en Roshar",
+      "El que sugirió que las gemas infundidas de luz tormentosa mejoran el crecimiento de alimentos en habitaciones oscuras"
     ],
-    "descripcion": "Erudito especializado en el estudio de la luz tormentosa en Roshar. Mencionado en Juramentada interludio I-5.",
+    "descripcion": "Erudito especializado en el estudio de la luz tormentosa en Roshar. Su trabajo sugería que las gemas infundidas de luz tormentosa podían mejorar el crecimiento de alimentos en habitaciones oscuras más que la luz de velas. Sin embargo, se presentó un problema con la eficacia y Golombi consideraba que los resultados de las pruebas podrían haber sido comprometidos. Taravangian y Adrotagia conocían su trabajo. Discutieron brevemente su relevancia mientras reflexionaban sobre las fuentes de alimentos utilizadas por los Caballeros Radiantes en Urithiru. Mencionado en Juramentada interludio I-5.",
     "estado_en_viento_y_verdad": "Destino desconocido."
   },
   "relaciones": {
@@ -54,9 +55,14 @@
     "situacion_en_viento_y_verdad": "Desconocido."
   },
   "arco_narrativo": {
-    "resumen": "Erudito de la luz tormentosa. Mencionado en Juramentada interludio I-5.",
+    "resumen": "Erudito de la luz tormentosa. Su trabajo sugería que las gemas infundidas mejoran el crecimiento de alimentos en habitaciones oscuras más que las velas — pero con problemas de eficacia y posible contaminación de resultados. Taravangian y Adrotagia discutieron su relevancia para las fuentes de alimentos de Urithiru. Juramentada interludio I-5.",
     "puntos_clave": [
       "Erudito de la luz tormentosa en Roshar.",
+      "Su trabajo sugería que gemas infundidas mejoran el crecimiento de alimentos en oscuridad.",
+      "Mejor que la luz de velas — pero con problemas de eficacia.",
+      "Los resultados de las pruebas podrían haber sido comprometidos.",
+      "Taravangian y Adrotagia conocían su trabajo.",
+      "Lo discutieron en relación a las fuentes de alimentos de los Radiantes en Urithiru.",
       "Mencionado en Juramentada interludio I-5."
     ]
   },
@@ -66,6 +72,6 @@
     "relacion_con_spren": "",
     "otros_detalles": ""
   },
-  "descripcion_breve": "Erudito especializado en el estudio de la luz tormentosa en Roshar. Mencionado en Juramentada interludio I-5.",
+  "descripcion_breve": "Erudito de la luz tormentosa. Sugirió que las gemas infundidas mejoran el crecimiento de alimentos en oscuridad. Taravangian y Adrotagia discutieron su trabajo en relación a las fuentes de alimentos de Urithiru.",
   "notas": "Mencionado en Juramentada interludio I-5. Información muy limitada."
 }
