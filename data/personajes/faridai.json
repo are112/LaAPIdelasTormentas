@@ -1,0 +1,94 @@
+{
+  "id": "faridai",
+  "nombre": "Faridai",
+  "nombre_completo": "Faridai",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario — flashback de Venli",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — adoptó la forma tormenta antes de la Batalla de Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Canto — participó en la línea de oyentes cantando para invocar la tormenta eterna en la Batalla de Narak"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Oyente que adoptó la forma tormenta antes de la Batalla de Narak",
+      "El que estaba en trance cantando para invocar la tormenta eterna cuando Venli intentó salvarlo"
+    ],
+    "descripcion": "Cantor oyente que adoptó la forma tormenta antes de la Batalla de Narak en 1173. Durante la batalla se unió a la línea de oyentes que cantaban una canción para invocar la tormenta eterna. Venli vio a las fuerzas alethi acercándose y trató de convencerle de marcharse, pero estaba en un estado de trance profundo y apenas la reconoció. Poco después de que Venli se fuera, las fuerzas humanas dirigidas por Adolin alcanzaron la línea de oyentes y los masacraron fácilmente. Faridai probablemente murió en ese asalto.",
+    "estado_en_viento_y_verdad": "Fallecido — probablemente muerto en la Batalla de Narak en 1173."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "venli",
+        "relacion": "Venli intentó convencerle de huir durante la Batalla de Narak — él estaba en trance y apenas la reconoció"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "las fuerzas de Adolin alcanzaron la línea donde estaba Faridai y los masacraron"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "En trance profundo durante la batalla — la forma tormenta lo sumió en el ritual de canto. No reconoció a Venli cuando intentó alertarle.",
+    "evolucion": "Sin arco propio — murió en la Batalla de Narak.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Oyente que adoptó la forma tormenta antes de la Batalla de Narak. Durante la batalla cantaba en la línea de oyentes que invocaban la tormenta eterna. Venli intentó convencerle de huir al ver las fuerzas alethi acercarse, pero estaba en trance y apenas la reconoció. Las fuerzas de Adolin masacraron la línea. Probablemente murió en el asalto.",
+    "puntos_clave": [
+      "Oyente que adoptó la forma tormenta antes de la Batalla de Narak.",
+      "Durante la batalla cantaba en la línea de oyentes invocando la tormenta eterna.",
+      "Venli intentó convencerle de huir al ver las fuerzas alethi.",
+      "Estaba en trance profundo y apenas reconoció a Venli.",
+      "Las fuerzas de Adolin masacraron la línea.",
+      "Probablemente murió en el asalto en 1173.",
+      "Mencionado en PR capítulo 83 y RdG capítulo 95."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — Batalla de Narak, 1173",
+    "rol": "Oyente cuya muerte fue parte de la masacre de la línea cantante en la Batalla de Narak",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Oyente que adoptó la forma tormenta y murió en la Batalla de Narak. Cantaba en trance para invocar la tormenta eterna. Venli intentó salvarlo pero no la reconoció. Las fuerzas de Adolin masacraron la línea.",
+  "notas": "Mencionado en PR capítulo 83 y RdG capítulo 95. Su muerte ilustra el coste humano de la decisión de los oyentes de invocar la tormenta eterna."
+}

@@ -1,0 +1,89 @@
+{
+  "id": "febin",
+  "nombre": "Febin",
+  "nombre_completo": "Febin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor — flashback de Dalinar",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Élites de Dalinar Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado de las élites de Dalinar",
+      "Protección — guardaespaldas de Gavilar Kholin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro de las élites de Dalinar Kholin",
+      "Guardaespaldas de Gavilar Kholin tras la conquista de Rathalas"
+    ],
+    "descripcion": "Hombre alezi, miembro de las élites de Dalinar Kholin. Junto a Kadash sirvió como guardaespaldas de Gavilar Kholin después de que él y Dalinar conquistaran Rathalas durante la reunificación alethi.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kadash",
+        "relacion": "compañero — juntos sirvieron como guardaespaldas de Gavilar tras la conquista de Rathalas"
+      },
+      {
+        "personaje": "dalinar",
+        "relacion": "su comandante — miembro de sus élites"
+      },
+      {
+        "personaje": "gavilar",
+        "relacion": "el rey que guardaba — guardaespaldas de Gavilar tras la conquista de Rathalas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Miembro de las élites de Dalinar. Junto a Kadash sirvió como guardaespaldas de Gavilar tras la conquista de Rathalas. Mencionado en Juramentada capítulo 11.",
+    "puntos_clave": [
+      "Miembro de las élites de Dalinar Kholin.",
+      "Junto a Kadash, guardaespaldas de Gavilar tras la conquista de Rathalas durante la reunificación alethi.",
+      "Mencionado en Juramentada capítulo 11."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Guardaespaldas de Gavilar — miembro de las élites de Dalinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro alezi de las élites de Dalinar. Junto a Kadash sirvió como guardaespaldas de Gavilar Kholin tras la conquista de Rathalas durante la reunificación alethi.",
+  "notas": "Mencionado en Juramentada capítulo 11. Información muy limitada."
+}

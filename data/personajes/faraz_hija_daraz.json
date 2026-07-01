@@ -1,0 +1,80 @@
+{
+  "id": "faraz_hija_daraz",
+  "nombre": "Faraz-hija-Daraz",
+  "nombre_completo": "Faraz-hija-Daraz",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Monasterio del Corredor del Viento — chamana jefa",
+    "Chamanismo de la Piedra shin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Chamanismo — chamana jefa del Monasterio del Corredor del Viento"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Chamana jefa del Monasterio del Corredor del Viento en Shinovar",
+      "Una de los diez chamanes rechazados por otros monasterios por actitud rebelde",
+      "La que dudó del estatus de Szeth como Portador de Honor — y acabó creyéndole"
+    ],
+    "descripcion": "Mujer shin, chamana jefa del Monasterio del Corredor del Viento, monasterio que originalmente lideraba Tuko-hijo-Tuko. Es una de los diez chamanes que fueron rechazados por otros monasterios debido a su actitud rebelde. Cuando Szeth llegó al monasterio afirmando ser el nuevo Portador de Honor Corredor del Viento, Faraz puso en duda su estatus. Sin embargo, acabó creyéndole cuando Szeth afirmó haberse encontrado con un Deshecho y que había llegado una Desolación.",
+    "estado_en_viento_y_verdad": "Activa — en el Monasterio del Corredor del Viento."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Escéptica pero abierta a la evidencia. Dudó de Szeth pero le creyó cuando presentó argumentos convincentes sobre la Desolación.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Chamana jefa shin del Monasterio del Corredor del Viento. Rechazada de otros monasterios por actitud rebelde. Cuando Szeth llegó reclamando ser el nuevo Portador de Honor, Faraz dudó de su estatus. Acabó creyéndole al escuchar su afirmación sobre haberse encontrado con un Deshecho y la llegada de una nueva Desolación. VyV capítulo 98.",
+    "puntos_clave": [
+      "Mujer shin, chamana jefa del Monasterio del Corredor del Viento.",
+      "El monasterio fue liderado anteriormente por Tuko-hijo-Tuko.",
+      "Una de los diez chamanes rechazados por otros monasterios por actitud rebelde.",
+      "Dudó del estatus de Szeth como nuevo Portador de Honor Corredor del Viento.",
+      "Acabó creyéndole cuando Szeth afirmó haber encontrado un Deshecho y que había llegado una Desolación.",
+      "VyV capítulo 98."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Chamana jefa del Monasterio del Corredor del Viento",
+    "rol": "Líder espiritual shin que aceptó la autoridad de Szeth como Portador de Honor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Chamana jefa shin del Monasterio del Corredor del Viento. Rechazada de otros monasterios por actitud rebelde. Dudó del estatus de Szeth como Portador de Honor pero acabó creyéndole cuando habló de los Deshechos y la Desolación.",
+  "notas": "Mencionada en VyV capítulo 98. Su escepticismo inicial y posterior aceptación de Szeth refleja el conflicto interno del mundo shin ante el retorno de los Portadores de Honor."
+}

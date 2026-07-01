@@ -1,0 +1,83 @@
+{
+  "id": "fasi",
+  "nombre": "Fasi",
+  "nombre_completo": "Fasi",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Stormlight Scenarios",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Historia — historiadora azishiana",
+      "Romanticismo — planeó una propuesta de matrimonio mediante cartas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Historiadora azishiana",
+      "La que intentó proponerle matrimonio a Nenal al mismo tiempo que Nenal le proponía a ella"
+    ],
+    "descripcion": "Historiadora azishiana de piel oscura que recoge el pelo con una cinta dorada. Se dice que ríe con frecuencia. Durante la Verdadera Desolación, pagó cincuenta marcas y se embarcó en el barco Dalewillow. Durante el viaje intentó sorprender a su amante Nenal con una propuesta de matrimonio mediante una pila de cartas emotivas. Al mismo tiempo, Nenal también intentó sorprenderla con una propuesta. Se desconoce cuál de las dos llegó primero, pero las dos estaban comprometidas a medianoche.",
+    "estado_en_viento_y_verdad": "Activa — comprometida con Nenal."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "nenal",
+        "relacion": "amante y prometida — ambas se propusieron matrimonio simultáneamente durante el viaje en el Dalewillow"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Romántica y espontánea. Planeó una propuesta emotiva con cartas mientras su amante hacía lo mismo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Historiadora azishiana que durante la Verdadera Desolación pagó cincuenta marcas para embarcar en el Dalewillow. Intentó sorprender a su amante Nenal con una propuesta de matrimonio mediante cartas. Nenal también intentó proponerle al mismo tiempo. Ambas estaban comprometidas a medianoche. Aparece en Stormlight Scenarios páginas 7-8.",
+    "puntos_clave": [
+      "Historiadora azishiana — piel oscura, pelo recogido con cinta dorada, ríe con frecuencia.",
+      "Durante la Verdadera Desolación pagó cincuenta marcas para embarcar en el Dalewillow.",
+      "Intentó sorprender a su amante Nenal con una propuesta de matrimonio mediante cartas emotivas.",
+      "Nenal también intentó proponerle matrimonio al mismo tiempo.",
+      "Se desconoce cuál propuesta llegó primero.",
+      "Ambas estaban comprometidas a medianoche.",
+      "Aparece en Stormlight Scenarios páginas 7-8."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Historiadora azishiana — comprometida con Nenal",
+    "rol": "Protagonista de la escena romántica del Dalewillow en Stormlight Scenarios",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Historiadora azishiana que ríe con frecuencia. Durante la Verdadera Desolación intentó proponerle matrimonio a su amante Nenal en el Dalewillow — Nenal hizo lo mismo al mismo tiempo. Comprometidas a medianoche.",
+  "notas": "Aparece en Stormlight Scenarios páginas 7-8. La escena de las propuestas simultáneas es uno de los momentos más románticos y cómicos del universo del Archivo de las Tormentas."
+}

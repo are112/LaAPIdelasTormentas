@@ -1,0 +1,90 @@
+{
+  "id": "fari",
+  "nombre": "Fari",
+  "nombre_completo": "Fari",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — escudera Rompedora del Cielo del Segundo Ideal"
+  ],
+  "orden_radiantes": {
+    "orden": "Rompedores del Cielo",
+    "nivel_ideal": 2,
+    "spren_asociado": {
+      "principal": "altospren desconocido"
+    },
+    "estado_del_vinculo": "Escudera — Segundo Ideal bajo la tutela de Ki y Warren."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "División",
+        "Presión — potencias del Rompedor del Cielo"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": [
+      "Combate aéreo — entrenamiento sobre el Lagopuro con bolsas de polvo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Escudera Rompedora del Cielo del Segundo Ideal bajo la tutela de Ki y Warren",
+      "La que compitió contra Szeth en prueba de competencia marcial sobre el Lagopuro"
+    ],
+    "descripcion": "Escudera Rompedora del Cielo del Segundo Ideal, bajo la tutela de los maestros Rompedores del Cielo Ki y Warren. Compitió contra Szeth en una prueba de competencia marcial sobre el Lagopuro — los escuderos debían lanzarse bolsas de polvo coloreado entre sí mientras evitaban ser golpeados, para medir su habilidad con las Potencias. En algún momento Fari tenía todas las bolsas de un color particular.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "ki",
+        "relacion": "maestra — tutora de Fari como escudera Rompedora del Cielo"
+      },
+      {
+        "personaje": "warren",
+        "relacion": "maestro — tutor de Fari como escudera Rompedora del Cielo"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente — escudera en entrenamiento.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Escudera Rompedora del Cielo bajo la tutela de Ki y Warren. Compitió contra Szeth en una prueba marcial sobre el Lagopuro lanzándose bolsas de polvo coloreado. Mencionada en Juramentada capítulo 98.",
+    "puntos_clave": [
+      "Escudera Rompedora del Cielo del Segundo Ideal.",
+      "Bajo la tutela de los maestros Ki y Warren.",
+      "Compitió contra Szeth en prueba marcial sobre el Lagopuro.",
+      "Los escuderos se lanzaban bolsas de polvo coloreado mientras evitaban ser golpeados.",
+      "En algún momento tenía todas las bolsas de un color particular.",
+      "Mencionada en Juramentada capítulo 98."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escudera Rompedora del Cielo — Segundo Ideal",
+    "rol": "Escudera en entrenamiento bajo Ki y Warren",
+    "relacion_con_spren": "Vínculo con altospren — Segundo Ideal.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Escudera Rompedora del Cielo del Segundo Ideal bajo la tutela de Ki y Warren. Compitió contra Szeth en una prueba marcial sobre el Lagopuro lanzándose bolsas de polvo coloreado.",
+  "notas": "Mencionada en Juramentada capítulo 98. La prueba de bolsas de polvo es una técnica de entrenamiento de los Rompedores del Cielo para desarrollar habilidades con las Potencias."
+}
