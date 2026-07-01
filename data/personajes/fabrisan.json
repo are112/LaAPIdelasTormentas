@@ -1,0 +1,83 @@
+{
+  "id": "fabrisan",
+  "nombre": "Fabrisan",
+  "nombre_completo": "Fabrisan",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — descubrió un problema considerado imposible de resolver",
+      "Matemáticas o filosofía — el Acertijo de Fabrisan tiene potencial de ayudar al mundo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito de Roshar durante la Era de la Soledad",
+      "El descubridor del Acertijo de Fabrisan — problema considerado increíblemente difícil o imposible de resolver"
+    ],
+    "descripcion": "Erudito de Roshar durante la Era de la Soledad. Descubrió un problema considerado increíblemente difícil o imposible de resolver, que pasó a denominarse el Acertijo de Fabrisan. Por algún motivo, la solución a dicho acertijo tiene el potencial de ayudar al mundo. En uno de sus días de mayor inteligencia, el rey Taravangian resolvió el Acertijo de Fabrisan — aunque parece que no compartió su solución con nadie.",
+    "estado_en_viento_y_verdad": "Desconocido — probablemente figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — figura erudita cuyo legado es el acertijo que lleva su nombre.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito de Roshar que descubrió el problema conocido como el Acertijo de Fabrisan — considerado imposible de resolver y con potencial de ayudar al mundo. Taravangian lo resolvió en uno de sus días más inteligentes pero no compartió la solución.",
+    "puntos_clave": [
+      "Erudito de Roshar durante la Era de la Soledad.",
+      "Descubrió un problema considerado increíblemente difícil o imposible de resolver.",
+      "El problema se denominó el Acertijo de Fabrisan.",
+      "Su solución tiene el potencial de ayudar al mundo.",
+      "Taravangian lo resolvió en uno de sus días más inteligentes.",
+      "Taravangian no compartió su solución.",
+      "Mencionado en ECdR capítulo 5 y PR interludio I-14."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — probable figura histórica",
+    "rol": "Erudito cuyo acertijo fue resuelto por Taravangian",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito de Roshar descubridor del Acertijo de Fabrisan, problema considerado imposible de resolver con potencial de ayudar al mundo. Taravangian lo resolvió en uno de sus días más inteligentes pero no compartió la solución.",
+  "notas": "Mencionado en ECdR capítulo 5 y PR interludio I-14. El Acertijo de Fabrisan es uno de los misterios sin resolver del cosmere — nunca se revela qué es exactamente ni cuál fue la solución de Taravangian."
+}

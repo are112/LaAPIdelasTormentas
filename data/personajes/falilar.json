@@ -1,0 +1,108 @@
+{
+  "id": "falilar",
+  "nombre": "Falilar",
+  "nombre_completo": "Falilar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El fervor vorin",
+    "Urithiru — ingeniero y artifabriano bajo la dirección de Navani Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Artifabrianía — ingeniero especialista en fabriales bajo la dirección de Navani",
+      "Descubrimientos sobre aluminio en fabriales — jaulas que aíslan planos de movimiento",
+      "Análisis arquitectónico — identificó el sistema de puertas selladas de Urithiru"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fervoroso alezi y artifabriano bajo la dirección de Navani Kholin en Urithiru",
+      "El que hizo grandes descubrimientos sobre fabriales con aluminio y jaulas de movimiento",
+      "El que identificó que las habitaciones sin entrada de Urithiru tenían puertas selladas"
+    ],
+    "descripcion": "Hombre mayor con cabeza rapada y barba blanca con ángulos rectos. Obtiene seguridad preocupándose mucho y tiene tendencia a tirar de su barba cuando se inquieta. Se entusiasma al llevar a cabo experimentos. Fervoroso alezi y artifabriano. Sobrino de Tomor. Navani Kholin era su patrona en sus estudios de ingeniería y fabriales. Estuvo presente en las Llanuras Quebradas para la prueba del parapeto flotante con fabriales inversores — observó un tambaleo en su ascensión y le preocupó que el movimiento no fuera más fluido. Tras mudarse a Urithiru, Navani le encargó verificar la viabilidad de nuevas invenciones. Cuando Huio descubrió en la Expedición a Akinah un uso desconocido del aluminio en fabriales con rubíes conjuntos, Falilar hizo un gran descubrimiento sobre jaulas de fabriales que permitían aislar planos de movimiento. Probó un diseño de caja portátil que podía empujar en distintas direcciones, aunque le preocupaba la mano de obra necesaria. Navani le mostró su sistema de poleas y pesos movido por gemas conjuntadas con el poder de una alta tormenta y le encargó combinarlo con el aparato personal de Tomor. Cuando se descubrió una habitación secreta en el atrio de Urithiru, Falilar la midió y descubrió que coincidía con el modelo a escala — revelando que las habitaciones sin entrada tenían puertas que se sellaron cuando la torre fue abandonada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "tomor",
+        "relacion": "sobrino de Falilar — también artifabriano bajo Navani"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "navani",
+        "relacion": "su patrona — Navani dirigía sus investigaciones y experimentos en Urithiru"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ansioso pero metódico. Obtiene seguridad preocupándose — su lema podría ser la frase 'No es un desastre, Luminosa, pero hay tanto de lo que preocuparse.' Se entusiasma genuinamente con los experimentos.",
+    "evolucion": "Pasó de artifabriano en las Llanuras a investigador clave en Urithiru con descubrimientos fundamentales sobre fabriales.",
+    "situacion_en_viento_y_verdad": "Activo en Urithiru."
+  },
+  "arco_narrativo": {
+    "resumen": "Fervoroso alezi y artifabriano bajo la dirección de Navani. Presenció la prueba del parapeto flotante en las Llanuras. En Urithiru verificó nuevas invenciones de Navani. Tras el descubrimiento de Huio sobre el aluminio en fabriales, hizo grandes avances sobre jaulas de fabriales para aislar planos de movimiento. Navani le encargó combinar el sistema de poleas con el aparato personal de Tomor. Descubrió que las habitaciones selladas de Urithiru tenían puertas que se cerraron cuando se abandonó la torre.",
+    "puntos_clave": [
+      "Fervoroso alezi y artifabriano — sobrino de Tomor.",
+      "Hombre mayor, cabeza rapada, barba blanca con ángulos rectos.",
+      "Obtiene seguridad preocupándose — tira de su barba cuando se inquieta.",
+      "Navani era su patrona en estudios de ingeniería y fabriales.",
+      "Estuvo en la prueba del parapeto flotante en las Llanuras — observó tambaleo en su ascensión.",
+      "En Urithiru verificó la viabilidad de nuevas invenciones de Navani.",
+      "Tras el descubrimiento de Huio sobre el aluminio, hizo grandes descubrimientos sobre jaulas de fabriales.",
+      "Probó un diseño de caja portátil — le preocupaba la mano de obra necesaria.",
+      "Navani le mostró el sistema de poleas y gemas conjuntadas — le encargó combinarlo con el aparato de Tomor.",
+      "Descubrió que las habitaciones sin entrada de Urithiru tenían puertas que se sellaron al abandonar la torre.",
+      "Frase característica: 'No es un desastre, Luminosa, pero hay tanto de lo que preocuparse.'",
+      "Mencionado en PR capítulo 35, Juramentada capítulo 50 y RdG capítulos 3, 6, 19 y 28."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fervoroso y artifabriano — Urithiru, bajo dirección de Navani Kholin",
+    "rol": "Ingeniero clave en los avances fabrianos de Navani en Urithiru",
+    "relacion_con_spren": "",
+    "otros_detalles": "Sobrino de Tomor. Frase característica: 'No es un desastre, Luminosa, pero hay tanto de lo que preocuparse.'"
+  },
+  "descripcion_breve": "Fervoroso alezi y artifabriano bajo la dirección de Navani Kholin. Hombre mayor ansioso que obtiene seguridad preocupándose. Hizo grandes descubrimientos sobre fabriales con aluminio y el sistema de puertas selladas de Urithiru.",
+  "notas": "Sobrino de Tomor. Su frase característica — 'No es un desastre, Luminosa, pero hay tanto de lo que preocuparse' — resume su carácter ansioso pero leal."
+}

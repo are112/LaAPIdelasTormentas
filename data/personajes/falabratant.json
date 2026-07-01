@@ -1,0 +1,71 @@
+{
+  "id": "falabratant",
+  "nombre": "Falabratant",
+  "nombre_completo": "Falabratant",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "kharbranthiana",
+  "origen": "Kharbranth",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Filosofía — filósofo de Kharbranth"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Filósofo de Kharbranth en Roshar"
+    ],
+    "descripcion": "Filósofo de Kharbranth en Roshar. Mencionado en VyV capítulo 114. La página de la Coppermind necesita actualización con información adicional de VyV. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Filósofo de Kharbranth mencionado en VyV capítulo 114. Información muy limitada.",
+    "puntos_clave": [
+      "Filósofo de Kharbranth.",
+      "Mencionado en VyV capítulo 114."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Filósofo de Kharbranth",
+    "rol": "Personaje menor — mención en VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Filósofo de Kharbranth en Roshar. Mencionado en Viento y Verdad capítulo 114. Información muy limitada.",
+  "notas": "La Coppermind indica que la página necesita actualización con información de VyV."
+}

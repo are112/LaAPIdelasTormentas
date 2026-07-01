@@ -1,0 +1,81 @@
+{
+  "id": "falksi",
+  "nombre": "Falksi",
+  "nombre_completo": "Falksi",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Servidumbre de la Brillante señora Janala Lustow"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Servicio — sirvienta de la Brillante señora Janala Lustow"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Sirvienta azishiana ojos oscuros de la Brillante señora Janala Lustow",
+      "La que se molestó porque Adolin no pidió un palanquín para Janala"
+    ],
+    "descripcion": "Mujer azishiana ojos oscuros. Sirvienta de la Brillante señora Janala Lustow. Durante la cita de Adolin Kholin con Janala, esperó fuera de la tienda de cueros junto a Tibon y Marks de la Guardia Cobalto mientras Adolin y Janala estaban dentro con Yis y Avaran. Al salir, Falksi estaba visiblemente molesta porque Adolin no había pedido un palanquín para llevar a Janala.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "janala_lustow",
+        "relacion": "su señora — Falksi la servía y velaba por su comodidad"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal a su señora Janala. Se molestó cuando Adolin no organizó un palanquín para ella.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Sirvienta azishiana de Janala Lustow. Durante la cita de Janala con Adolin, esperó fuera de la tienda de cueros con Tibon y Marks. Se molestó porque Adolin no pidió un palanquín para Janala al salir. Mencionada en ECdR capítulo 18.",
+    "puntos_clave": [
+      "Sirvienta azishiana ojos oscuros de la Brillante señora Janala Lustow.",
+      "Esperó con Tibon y Marks mientras Adolin y Janala estaban en la tienda de cueros.",
+      "Se molestó porque Adolin no pidió un palanquín para llevar a Janala al salir.",
+      "Mencionada en ECdR capítulo 18."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Sirvienta de Janala Lustow",
+    "rol": "Sirvienta menor que refleja el protocolo social alezi",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Sirvienta azishiana ojos oscuros de la Brillante señora Janala Lustow. Se molestó porque Adolin no pidió un palanquín para Janala tras su cita.",
+  "notas": "Mencionada en ECdR capítulo 18. Su molestia refleja el estricto protocolo social alezi — se esperaba que Adolin organizara transporte para su cita."
+}

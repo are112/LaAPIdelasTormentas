@@ -1,0 +1,86 @@
+{
+  "id": "fane",
+  "nombre": "Fane",
+  "nombre_completo": "Fane",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "natan",
+  "origen": "Natan, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Stormlight Scenarios",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ladrón contratado por Serli"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Robo — contratado para robar fabriales de la Gran Exposición de Urithiru",
+      "Escapismo — huyó por la ventana usando unas botas fabrial que reducían el peso del usuario"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Ladrón natan contratado por Serli para robar fabriales de la Gran Exposición de Urithiru",
+      "El que huyó usando unas botas fabrial que reducían el peso del usuario"
+    ],
+    "descripcion": "Ladrón natan en Roshar. Fue contratado por Serli para robar fabriales de la primera Gran Exposición de Urithiru. Durante el robo fue interrumpido cuando una cabra escapada entró tras él en la sala. Ambos huyeron cada uno con un fabrial. Fane trepó por la ventana de la sala de exposición usando unas botas fabrial que le permitían reducir su propio peso. Después del robo debía encontrarse con su empleador anónimo en un establecimiento llamado la Cocina de Talamin. Se desconoce si el plan tuvo éxito.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "serli",
+        "relacion": "su empleadora — lo contrató para robar fabriales de la Gran Exposición de Urithiru"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ladrón profesional que mantiene la calma incluso cuando una cabra interrumpe su misión.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Ladrón natan contratado por Serli para robar fabriales de la primera Gran Exposición de Urithiru. Fue interrumpido por una cabra escapada durante el robo. Ambos huyeron con un fabrial cada uno. Fane escapó por la ventana usando botas fabrial que reducían el peso del usuario. Debía encontrarse con su empleador anónimo en la Cocina de Talamin. Se desconoce si el plan tuvo éxito. Aparece en Stormlight Scenarios páginas 15-16.",
+    "puntos_clave": [
+      "Ladrón natan contratado por Serli.",
+      "Objetivo: robar fabriales de la primera Gran Exposición de Urithiru.",
+      "Fue interrumpido por una cabra escapada durante el robo.",
+      "Ambos — Fane y la cabra — huyeron con un fabrial cada uno.",
+      "Fane escapó trepando por la ventana con unas botas fabrial que reducían el peso del usuario.",
+      "Debía encontrarse con su empleador anónimo en la Cocina de Talamin.",
+      "Se desconoce si el plan tuvo éxito.",
+      "Aparece en Stormlight Scenarios páginas 15-16."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Ladrón — destino desconocido tras el robo",
+    "rol": "Ladrón protagonista de la escena cómica de la Gran Exposición de Urithiru",
+    "relacion_con_spren": "",
+    "otros_detalles": "La cabra que irrumpió también se llevó un fabrial."
+  },
+  "descripcion_breve": "Ladrón natan contratado por Serli para robar fabriales de la primera Gran Exposición de Urithiru. Interrumpido por una cabra escapada. Huyó por la ventana con botas fabrial que reducían el peso del usuario.",
+  "notas": "Aparece en Stormlight Scenarios páginas 15-16. La escena de la cabra que también roba un fabrial es uno de los momentos más cómicos del universo del Archivo de las Tormentas."
+}
