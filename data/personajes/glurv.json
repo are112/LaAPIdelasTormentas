@@ -1,0 +1,73 @@
+{
+  "id": "glurv",
+  "nombre": "Glurv",
+  "nombre_completo": "Glurv",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Desertor alezi — residente en Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Desertor de los ejércitos alezi durante la Guerra de la Venganza",
+      "Residente en Urithiru"
+    ],
+    "descripcion": "Desertor de los ejércitos alezi durante la Guerra de la Venganza. Residente en Urithiru. Mencionado en Juramentada.",
+    "estado_en_viento_y_verdad": "Activo — residente en Urithiru."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Desertor — abandonó el ejército alezi durante la Guerra de la Venganza.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Desertor de los ejércitos alezi durante la Guerra de la Venganza. Se instaló en Urithiru. Mencionado en Juramentada.",
+    "puntos_clave": [
+      "Desertor alezi durante la Guerra de la Venganza.",
+      "Residente en Urithiru.",
+      "Mencionado en Juramentada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Residente en Urithiru — desertor",
+    "rol": "Desertor alezi residente en Urithiru",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Desertor de los ejércitos alezi durante la Guerra de la Venganza. Residente en Urithiru. Mencionado en Juramentada.",
+  "notas": "Mencionado en Juramentada. Información limitada."
+}

@@ -1,0 +1,74 @@
+{
+  "id": "gitora",
+  "nombre": "Gitora",
+  "nombre_completo": "Gitora",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Kholin — erudita"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — erudita al servicio del ejército de Kholin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita alezi del ejército de Kholin"
+    ],
+    "descripcion": "Erudita alezi al servicio del ejército de Kholin. Información limitada.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudita alezi al servicio del ejército de Kholin. Mencionada en ECdR.",
+    "puntos_clave": [
+      "Erudita alezi.",
+      "Al servicio del ejército de Kholin.",
+      "Mencionada en ECdR."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Erudita del ejército de Kholin",
+    "rol": "Erudita menor de ECdR",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudita alezi al servicio del ejército de Kholin. Mencionada en El Camino de los Reyes.",
+  "notas": "Información limitada."
+}

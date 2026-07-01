@@ -1,0 +1,75 @@
+{
+  "id": "gevelmar",
+  "nombre": "Gevelmar",
+  "nombre_completo": "Gevelmar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Hombre veden, padre de Malise Gevelmar"
+    ],
+    "descripcion": "Hombre veden. Padre de Malise Gevelmar, la segunda esposa de Lin Davar. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "malise",
+        "relacion": "hija — Malise Gevelmar fue la segunda esposa de Lin Davar"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Hombre veden, padre de Malise Gevelmar. Información muy limitada.",
+    "puntos_clave": [
+      "Hombre veden.",
+      "Padre de Malise Gevelmar.",
+      "Malise fue la segunda esposa de Lin Davar."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Padre de Malise Gevelmar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Hombre veden. Padre de Malise Gevelmar, segunda esposa de Lin Davar. Información muy limitada.",
+  "notas": "Información muy limitada. Solo mencionado como padre de Malise."
+}

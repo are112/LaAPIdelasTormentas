@@ -1,0 +1,80 @@
+{
+  "id": "gearil_hija_gearil",
+  "nombre": "Gearil-hija-Gearil",
+  "nombre_completo": "Gearil-hija-Gearil",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores de Honor shin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — portadora de esquirlada shin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portadora de esquirlada shin",
+      "Murió durante el destierro de Szeth"
+    ],
+    "descripcion": "Portadora de esquirlada shin. Murió durante el destierro de Szeth-hijo-Neturo. Mencionada en VyV capítulo 90.",
+    "estado_en_viento_y_verdad": "Fallecida."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "murió durante el período en que Szeth estuvo desterrado"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Portadora de esquirlada shin. Murió durante el destierro de Szeth. VyV capítulo 90.",
+    "puntos_clave": [
+      "Portadora de esquirlada shin.",
+      "Murió durante el destierro de Szeth.",
+      "Mencionada en VyV capítulo 90."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida",
+    "rol": "Portadora de esquirlada shin menor",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Portadora de esquirlada shin. Murió durante el destierro de Szeth. Mencionada en VyV capítulo 90.",
+  "notas": "Información muy limitada."
+}

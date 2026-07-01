@@ -1,0 +1,81 @@
+{
+  "id": "gezamal_kushkam",
+  "nombre": "Gezamal Kushkam",
+  "nombre_completo": "Gezamal Kushkam",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia en Roshar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — portador de esquirlada y guardia"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portador de esquirlada hijo de Zarb Kushkam",
+      "Guardia en Roshar"
+    ],
+    "descripcion": "Portador de esquirlada. Hijo de Zarb Kushkam. Guardia en Roshar. Mencionado en RdG. Información limitada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "zarb_kushkam",
+        "relacion": "padre"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Portador de esquirlada hijo de Zarb Kushkam. Guardia en Roshar. Mencionado en RdG.",
+    "puntos_clave": [
+      "Portador de esquirlada.",
+      "Hijo de Zarb Kushkam.",
+      "Guardia en Roshar.",
+      "Mencionado en RdG."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardia — portador de esquirlada",
+    "rol": "Personaje menor de RdG",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Portador de esquirlada e hijo de Zarb Kushkam. Guardia en Roshar. Mencionado en El Ritmo de la Guerra.",
+  "notas": "Información limitada. Mencionado en RdG."
+}

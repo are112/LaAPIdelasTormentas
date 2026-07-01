@@ -1,0 +1,73 @@
+{
+  "id": "gitgeth",
+  "nombre": "Gitgeth",
+  "nombre_completo": "Gitgeth",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Llanuras Quebradas, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — Narak"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Cantora oyente",
+      "La que observó que los pequeños sinritmos quieren estar cerca de los oyentes"
+    ],
+    "descripcion": "Cantora oyente. Su frase: 'Los pequeños sinritmos quieren estar cerca de nosotros.' Mencionada en Juramentada.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseída por un Fusionado durante la tormenta eterna."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Observadora de la naturaleza de los sinritmos.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Cantora oyente. Observó que los pequeños sinritmos quieren estar cerca de los oyentes. Mencionada en Juramentada.",
+    "puntos_clave": [
+      "Cantora oyente.",
+      "Frase: 'Los pequeños sinritmos quieren estar cerca de nosotros.'",
+      "Mencionada en Juramentada."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Cantora oyente menor de Juramentada",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Cantora oyente que observó que los pequeños sinritmos quieren estar cerca de los oyentes. Mencionada en Juramentada.",
+  "notas": "Su observación sobre los sinritmos es un detalle interesante sobre la relación entre oyentes y spren."
+}

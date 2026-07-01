@@ -1,0 +1,77 @@
+{
+  "id": "geb",
+  "nombre": "Geb",
+  "nombre_completo": "Geb",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Armería — armero alezi"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Armero alezi",
+      "Padre de Dal"
+    ],
+    "descripcion": "Armero alezi. Padre de Dal. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Dal",
+        "relacion": "hijo"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Armero alezi, padre de Dal. Información muy limitada.",
+    "puntos_clave": [
+      "Armero alezi.",
+      "Padre de Dal."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Armero",
+    "rol": "Personaje menor — padre de Dal",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Armero alezi. Padre de Dal. Información muy limitada.",
+  "notas": "Información muy limitada."
+}

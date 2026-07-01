@@ -1,0 +1,71 @@
+{
+  "id": "golombi",
+  "nombre": "Golombi",
+  "nombre_completo": "Golombi",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — estudio de la luz tormentosa"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito de la luz tormentosa en Roshar"
+    ],
+    "descripcion": "Erudito especializado en el estudio de la luz tormentosa en Roshar. Mencionado en Juramentada interludio I-5.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito de la luz tormentosa. Mencionado en Juramentada interludio I-5.",
+    "puntos_clave": [
+      "Erudito de la luz tormentosa en Roshar.",
+      "Mencionado en Juramentada interludio I-5."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Erudito de la luz tormentosa",
+    "rol": "Erudito menor mencionado en Juramentada",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito especializado en el estudio de la luz tormentosa en Roshar. Mencionado en Juramentada interludio I-5.",
+  "notas": "Mencionado en Juramentada interludio I-5. Información muy limitada."
+}

@@ -1,0 +1,78 @@
+{
+  "id": "gom",
+  "nombre": "Gom",
+  "nombre_completo": "Gom",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Islas Reshi, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi"
+    ],
+    "descripcion": "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi. Mencionado en ECdR. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "geranid",
+        "relacion": "conocida — los dos fervorosos lo conocían en las Islas Reshi"
+      },
+      {
+        "personaje": "ashir",
+        "relacion": "conocido — los dos fervorosos lo conocían en las Islas Reshi"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi. Mencionado en ECdR.",
+    "puntos_clave": [
+      "Conocido de Geranid y Ashir en las Islas Reshi.",
+      "Mencionado en ECdR."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Conocido de Geranid y Ashir en las Islas Reshi",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Conocido de los fervorosos Geranid y Ashir en las Islas Reshi. Mencionado en El Camino de los Reyes.",
+  "notas": "Información muy limitada. Mencionado en ECdR."
+}

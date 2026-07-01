@@ -1,0 +1,71 @@
+{
+  "id": "general_habrinar",
+  "nombre": "General Habrinar",
+  "nombre_completo": "General Habrinar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — general"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "General en Roshar — mencionado en VyV"
+    ],
+    "descripcion": "General en Roshar. Mencionado en VyV. La página de la Coppermind necesita actualización con información adicional de VyV. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "General en Roshar. Mencionado en VyV. Información muy limitada.",
+    "puntos_clave": [
+      "General en Roshar.",
+      "Mencionado en VyV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "General",
+    "rol": "General menor de VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "General en Roshar. Mencionado en Viento y Verdad. Información muy limitada.",
+  "notas": "La Coppermind indica que la página necesita actualización con información de VyV."
+}
