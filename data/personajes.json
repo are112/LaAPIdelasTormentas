@@ -1624,6 +1624,38 @@
     "especie": "humano"
   },
   {
+    "id": "gearil_hija_gearil",
+    "nombre": "Gearil-hija-Gearil",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
+    "id": "geb",
+    "nombre": "Geb",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "gen",
+    "nombre": "Gen",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "general_habrinar",
+    "nombre": "General Habrinar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "general_khal",
     "nombre": "General Khal",
     "orden": "Ninguna",
@@ -1640,6 +1672,38 @@
     "especie": "humano"
   },
   {
+    "id": "gerenor",
+    "nombre": "Gerenor",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "geved",
+    "nombre": "Geved",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "gevelmar",
+    "nombre": "Gevelmar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "gezamal_kushkam",
+    "nombre": "Gezamal Kushkam",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "ghenna",
     "nombre": "Ghenna",
     "orden": "Ninguna",
@@ -1648,11 +1712,59 @@
     "especie": "humano"
   },
   {
+    "id": "gitgeth",
+    "nombre": "Gitgeth",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "gitora",
+    "nombre": "Gitora",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "glurv",
+    "nombre": "Glurv",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "godeke",
     "nombre": "Godeke",
     "orden": "Danzantes del Filo",
     "nivel_ideal": null,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "gol",
+    "nombre": "Gol",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "golombi",
+    "nombre": "Golombi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "gom",
+    "nombre": "Gom",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
     "especie": "humano"
   },
   {
