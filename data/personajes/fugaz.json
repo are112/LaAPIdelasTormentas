@@ -1,0 +1,96 @@
+{
+  "id": "fugaz",
+  "nombre": "Fugaz",
+  "nombre_completo": "Fugaz",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (figura de leyenda)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención — leyenda contada por Hoid",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Velocidad extraordinaria — venció a la Heraldo Chanarach en una carrera",
+      "Determinación absoluta — continuó corriendo incluso después de morir"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Figura de leyenda en Roshar — el hombre más rápido del mundo",
+      "El que compitió contra la Heraldo Chanarach y ganó",
+      "El que murió intentando superar al Padre Tormenta — su espíritu siguió corriendo hasta Shinovar"
+    ],
+    "descripcion": "Figura de leyenda en Roshar. Hombre sencillo, descalzo, alto, con cabello largo que llegaba hasta la cintura — similar en aspecto a Kaladin. Su deseo de ser el más rápido de Roshar era extremo. Compitió con la Heraldo Chanarach para demostrar su velocidad y ganó. Luego compitió con el Padre Tormenta — corriendo para cruzar Roshar antes que la alta tormenta. Su deseo era tan extremo que murió durante la carrera para ganarla. Incluso entonces, su espíritu abandonó su cuerpo y continuó corriendo hasta las costas occidentales de Shinovar en un intento de superar al Padre Tormenta. La actitud de Fugaz recuerda al Primer Ideal de los Caballeros Radiantes. La historia fue contada por Hoid (bajo el nombre de Sagaz) a Kaladin durante su encarcelamiento en las Llanuras Quebradas. Ishar afirmó haber sido el primero en inscribir la historia de Fugaz.",
+    "estado_en_viento_y_verdad": "Fallecido — figura de leyenda."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Chanarach",
+        "relacion": "Heraldo contra quien compitió en una carrera — Fugaz ganó"
+      },
+      {
+        "personaje": "Padre Tormenta",
+        "relacion": "contra quien corrió en su carrera final — Fugaz murió intentando superarle"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Determinación absoluta sin límites — su deseo de ser el más rápido superaba incluso al instinto de supervivencia. Siguió corriendo tras la muerte.",
+    "evolucion": "Sin arco — figura de leyenda.",
+    "situacion_en_viento_y_verdad": "Fallecido — figura de leyenda."
+  },
+  "arco_narrativo": {
+    "resumen": "Fugaz es una figura de leyenda rosharia. Hombre descalzo, alto, pelo largo hasta la cintura. Compitió con la Heraldo Chanarach en velocidad y ganó. Luego compitió con el Padre Tormenta para cruzar Roshar más rápido que una alta tormenta — murió en el intento. Su espíritu siguió corriendo hasta las costas de Shinovar. Hoid, bajo el nombre de Sagaz, le contó su historia a Kaladin durante su encarcelamiento. Ishar afirma haber sido el primero en inscribir su leyenda.",
+    "puntos_clave": [
+      "Figura de leyenda rosharia — hombre descalzo, alto, pelo largo hasta la cintura.",
+      "Su aspecto es similar a Kaladin.",
+      "Compitió con la Heraldo Chanarach y ganó.",
+      "Compitió con el Padre Tormenta para cruzar Roshar más rápido que una alta tormenta.",
+      "Murió durante la carrera para ganarla.",
+      "Su espíritu abandonó su cuerpo y continuó hasta las costas occidentales de Shinovar.",
+      "Su actitud recuerda al Primer Ideal de los Caballeros Radiantes.",
+      "Hoid (como Sagaz) le contó su historia a Kaladin durante su encarcelamiento.",
+      "Ishar afirma haber sido el primero en inscribir su leyenda.",
+      "Mencionado en PR capítulo 59 y necesita actualización con VyV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura de leyenda",
+    "rol": "Leyenda rosharia que simboliza la determinación absoluta más allá de la muerte",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su historia fue contada por Hoid a Kaladin. Ishar afirma haber sido el primero en inscribirla."
+  },
+  "descripcion_breve": "Figura de leyenda rosharia. Venció a la Heraldo Chanarach en velocidad. Murió intentando superar al Padre Tormenta en una carrera — su espíritu siguió corriendo hasta Shinovar. Hoid contó su historia a Kaladin.",
+  "notas": "Su historia es narrada por Hoid bajo el alias de Sagaz en PR capítulo 59. La similitud de Fugaz con Kaladin es un guiño de Brandon Sanderson. Ishar afirma haber inscrito su leyenda primero."
+}

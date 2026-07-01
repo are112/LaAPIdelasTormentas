@@ -1,0 +1,84 @@
+{
+  "id": "fin",
+  "nombre": "Fin",
+  "nombre_completo": "Fin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Campamentos de guerra alezi, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército del rey Elhokar — mozo de cuadra"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Cuidado de caballos — mozo de cuadra del rey Elhokar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Mozo de cuadra alezi ojos oscuros empleado por el rey Elhokar",
+      "El que explicó a Sadeas que había preparado la silla del rey el día de la cacería de chasmoide"
+    ],
+    "descripcion": "Joven mozo de cuadra alezi ojos oscuros de unos doce años. Pelo color arena con algunos toques de negro. Empleado por el rey Elhokar en los campamentos de guerra de las Llanuras Quebradas. Durante la investigación del Alto Príncipe Torol Sadeas sobre la correa rota de la silla del rey — accidente previo a la cacería de chasmoide — Fin explicó ante Sadeas, con Adolin escuchando, que él había preparado la silla del rey ese día.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "sadeas",
+        "relacion": "Sadeas lo interrogó sobre la correa rota de la silla del rey"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Joven asustado ante el interrogatorio de Sadeas.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Mozo de cuadra de unos doce años empleado por Elhokar. Interrogado por Sadeas en la investigación de la correa rota de la silla del rey. Explicó que él había preparado la silla el día de la cacería de chasmoide, con Adolin escuchando. ECdR capítulo 54.",
+    "puntos_clave": [
+      "Mozo de cuadra alezi ojos oscuros de unos doce años.",
+      "Pelo color arena con toques de negro.",
+      "Empleado por el rey Elhokar en los campamentos de guerra.",
+      "Interrogado por Sadeas en la investigación sobre la correa rota de la silla del rey.",
+      "Explicó que él había preparado la silla el día de la cacería de chasmoide.",
+      "Adolin escuchaba mientras Sadeas le interrogaba.",
+      "Mencionado en ECdR capítulo 54."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Mozo de cuadra de Elhokar",
+    "rol": "Testigo clave en la investigación de la correa rota de la silla del rey",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mozo de cuadra alezi de unos doce años empleado por Elhokar. Interrogado por Sadeas sobre la correa rota de la silla del rey antes de la cacería de chasmoide — explicó que él había preparado la silla ese día.",
+  "notas": "Mencionado en ECdR capítulo 54. Su testimonio forma parte de la investigación de Sadeas sobre el supuesto intento de asesinato del rey."
+}

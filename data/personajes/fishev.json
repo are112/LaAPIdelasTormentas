@@ -1,0 +1,82 @@
+{
+  "id": "fishev",
+  "nombre": "Fishev",
+  "nombre_completo": "Fishev",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — escudero Corredor del Viento de Sigzil"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "honorspren desconocido"
+    },
+    "estado_del_vinculo": "Escudero de Sigzil."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Sustentación",
+        "Presión — potencias del Corredor del Viento"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Escudero Corredor del Viento de Sigzil",
+      "Participó en la Segunda Batalla de Narak bajo las órdenes de Sigzil"
+    ],
+    "descripcion": "Escudero Corredor del Viento bajo la tutela de Sigzil. Durante la Segunda Batalla de Narak, Sigzil le encomendó alguna misión. Mencionado en VyV.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "sigzil",
+        "relacion": "su maestro — Sigzil le encomendó una misión durante la Segunda Batalla de Narak"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Escudero Corredor del Viento de Sigzil. Participó en la Segunda Batalla de Narak bajo sus órdenes. Mencionado en VyV.",
+    "puntos_clave": [
+      "Escudero Corredor del Viento de Sigzil.",
+      "Participó en la Segunda Batalla de Narak.",
+      "Sigzil le encomendó alguna misión durante la batalla.",
+      "Mencionado en VyV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escudero Corredor del Viento — bajo tutela de Sigzil",
+    "rol": "Escudero Radiante menor de VyV",
+    "relacion_con_spren": "Vínculo con honorspren.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Escudero Corredor del Viento bajo la tutela de Sigzil. Participó en la Segunda Batalla de Narak.",
+  "notas": "Mencionado en VyV."
+}

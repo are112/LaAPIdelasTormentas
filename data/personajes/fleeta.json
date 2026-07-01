@@ -1,0 +1,80 @@
+{
+  "id": "fleeta",
+  "nombre": "Fleeta",
+  "nombre_completo": "Fleeta",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "posiblemente herdaziana",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "mención — epílogo",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Persona cercana a Lopen y Huio, posiblemente herdaziana",
+      "La que a veces se siente ofendida por las bromas de Lopen"
+    ],
+    "descripcion": "Persona cercana a Lopen y Huio en Roshar, posiblemente herdaziana. Le confesó a Huio que a veces se siente ofendida por las bromas de Lopen. Mencionada en el epílogo de Esquirla del Amanecer.",
+    "estado_en_viento_y_verdad": "Activo/a."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "huio",
+        "relacion": "le confesó que las bromas de Lopen a veces le ofenden"
+      },
+      {
+        "personaje": "lopen",
+        "relacion": "cuyas bromas a veces le ofenden"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Se ofende a veces con las bromas de Lopen pero mantiene la relación.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo/a."
+  },
+  "arco_narrativo": {
+    "resumen": "Persona cercana a Lopen y Huio. Le confesó a Huio que a veces las bromas de Lopen le ofenden. Epílogo de Esquirla del Amanecer.",
+    "puntos_clave": [
+      "Persona cercana a Lopen y Huio — posiblemente herdaziana.",
+      "Le confesó a Huio que a veces se siente ofendida por las bromas de Lopen.",
+      "Mencionada en el epílogo de Esquirla del Amanecer."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Persona del círculo cercano de Lopen y Huio",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Persona cercana a Lopen y Huio, posiblemente herdaziana. Le confesó a Huio que a veces se siente ofendida por las bromas de Lopen.",
+  "notas": "Mencionada en el epílogo de Esquirla del Amanecer. Información muy limitada."
+}

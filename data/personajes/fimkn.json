@@ -1,0 +1,82 @@
+{
+  "id": "fimkn",
+  "nombre": "Fimkn",
+  "nombre_completo": "Fimkn",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Vela Errante — tripulación",
+    "Expedición a Akinah"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — marinero thayleño del Vela Errante",
+      "Medicina — médico a bordo del Vela Errante"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Marinero thayleño y médico a bordo del Vela Errante",
+      "Miembro de la Expedición a Akinah"
+    ],
+    "descripcion": "Marinero thayleño y médico a bordo del Vela Errante. Miembro de la Expedición a Akinah liderada por Rysn Ftori.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "su rebsk — Rysn lideraba la expedición en el Vela Errante"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Marinero y médico thayleño del Vela Errante. Participó en la Expedición a Akinah. Mencionado en Esquirla del Amanecer capítulo 11.",
+    "puntos_clave": [
+      "Marinero thayleño y médico del Vela Errante.",
+      "Miembro de la Expedición a Akinah.",
+      "Mencionado en Esquirla del Amanecer capítulo 11."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Marinero y médico del Vela Errante",
+    "rol": "Médico de la tripulación en la Expedición a Akinah",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Marinero thayleño y médico a bordo del Vela Errante. Miembro de la Expedición a Akinah de Rysn Ftori.",
+  "notas": "Mencionado en Esquirla del Amanecer capítulo 11."
+}

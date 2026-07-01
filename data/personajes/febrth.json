@@ -1,0 +1,95 @@
+{
+  "id": "febrth",
+  "nombre": "Febrth",
+  "nombre_completo": "Febrth",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Orientación por las Pasiones — creía que las Pasiones le guiaban sin necesidad de mapas",
+      "Cocina — cocinero terrible, su guiso parecía barro"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro thayleño del Diagrama",
+      "El que rechazaba los mapas confiando en las Pasiones — y cocinaba fatal"
+    ],
+    "descripcion": "Hombre thayleño con herencia Unkalaki — pelo rojo característico. Creyente en las Pasiones, reclutado por el Diagrama. Acompañó a Fia, Moash y Graves en su viaje por las Tierras Heladas hacia Kharbranth. Rechazó los mapas de Graves afirmando que las Pasiones le guiarían. Sus dotes culinarias eran nulas — su guiso parecía barro y sabía a crem. Argumentó con Graves sobre su ubicación mientras viajaban. Murió en 1174 cuando cuatro supuestos Portadores del Vacío atacaron el campamento.",
+    "estado_en_viento_y_verdad": "Fallecido — 1174."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "fia",
+        "relacion": "compañera en la expedición del Diagrama por las Tierras Heladas — también murió en el ataque"
+      },
+      {
+        "personaje": "moash",
+        "relacion": "compañero de expedición"
+      },
+      {
+        "personaje": "graves",
+        "relacion": "líder de la expedición — argumentó con Febrth sobre la utilidad de los mapas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Supersticioso — confiaba más en las Pasiones que en los mapas. Terco en sus creencias.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Thayleño con herencia Unkalaki, miembro del Diagrama. Acompañó a Fia, Moash y Graves por las Tierras Heladas. Rechazó los mapas de Graves confiando en las Pasiones. Cocinero terrible. Murió cuando cuatro supuestos Portadores del Vacío atacaron el campamento en 1174. Mencionado en Juramentada capítulo 43.",
+    "puntos_clave": [
+      "Hombre thayleño con herencia Unkalaki — pelo rojo.",
+      "Creyente en las Pasiones.",
+      "Miembro del Diagrama.",
+      "Acompañó a Fia, Moash y Graves por las Tierras Heladas hacia Kharbranth.",
+      "Rechazó los mapas de Graves: 'No me hacen falta tus mapas. Las Pasiones me guían.'",
+      "Cocinero terrible — su guiso parecía barro y sabía a crem.",
+      "Argumentó con Graves sobre su ubicación durante el viaje.",
+      "Murió en 1174 cuando cuatro supuestos Portadores del Vacío atacaron el campamento.",
+      "Mencionado en Juramentada capítulo 43."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — 1174",
+    "rol": "Miembro del Diagrama en la expedición de Moash y Graves",
+    "relacion_con_spren": "",
+    "otros_detalles": "Frase: 'No me hacen falta tus mapas. Las Pasiones me guían.'"
+  },
+  "descripcion_breve": "Thayleño con herencia Unkalaki, miembro del Diagrama. Rechazó los mapas de Graves confiando en las Pasiones. Cocinero terrible. Murió en 1174 cuando cuatro supuestos Portadores del Vacío atacaron el campamento durante la expedición de Moash y Graves.",
+  "notas": "Su rechazo de los mapas en favor de las Pasiones ilustra el conflicto entre fe y razón en el universo del Archivo de las Tormentas."
+}

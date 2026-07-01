@@ -1,0 +1,74 @@
+{
+  "id": "fent",
+  "nombre": "Fent",
+  "nombre_completo": "Fent",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — escudero Corredor del Viento"
+  ],
+  "orden_radiantes": {
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": "honorspren desconocido"
+    },
+    "estado_del_vinculo": "Escudero — nivel desconocido."
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Sustentación",
+        "Presión — potencias del Corredor del Viento"
+      ],
+      "fuente_de_luz": "luz tormentosa"
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Escudero Corredor del Viento en VyV"
+    ],
+    "descripcion": "Escudero Corredor del Viento en Roshar. Mencionado en VyV. La página de la Coppermind necesita actualización con información adicional de VyV. Información limitada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Escudero Corredor del Viento mencionado en VyV. Información limitada.",
+    "puntos_clave": [
+      "Escudero Corredor del Viento.",
+      "Mencionado en VyV."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Escudero Corredor del Viento",
+    "rol": "Escudero Radiante menor de VyV",
+    "relacion_con_spren": "Vínculo con honorspren — nivel desconocido.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Escudero Corredor del Viento en Roshar. Mencionado en Viento y Verdad. Información limitada.",
+  "notas": "La Coppermind indica que la página necesita actualización con información de VyV."
+}

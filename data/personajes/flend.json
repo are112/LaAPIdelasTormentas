@@ -1,0 +1,88 @@
+{
+  "id": "flend",
+  "nombre": "Flend",
+  "nombre_completo": "Flend",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Esquirla del Amanecer",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Vela Errante — tripulación",
+    "Expedición a Akinah"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — marinero thayleño del Vela Errante",
+      "Vigilancia — turno de día en el nido de águilas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Marinero thayleño del Vela Errante",
+      "El que tenía el turno de día en el nido de águilas durante la Expedición a Akinah"
+    ],
+    "descripcion": "Marinero thayleño del Vela Errante. Miembro de la Expedición a Akinah. Tenía el turno de día en el nido de águilas durante la expedición. Rysn alentó a Nikli para que le preguntara sobre los marinerospren para que Nikli encajara mejor con la tripulación.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "su rebsk — Rysn le mencionó a Nikli como punto de contacto para integrarse"
+      },
+      {
+        "personaje": "nikli",
+        "relacion": "Rysn alentó a Nikli a preguntarle sobre los marinerospren para integrarse con la tripulación"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Marinero thayleño del Vela Errante. Tenía el turno de día en el nido de águilas durante la Expedición a Akinah. Rysn alentó a Nikli a preguntarle sobre los marinerospren para integrarse. Esquirla del Amanecer capítulo 4.",
+    "puntos_clave": [
+      "Marinero thayleño del Vela Errante.",
+      "Miembro de la Expedición a Akinah.",
+      "Tenía el turno de día en el nido de águilas.",
+      "Rysn alentó a Nikli a preguntarle sobre los marinerospren para encajar con la tripulación.",
+      "Mencionado en Esquirla del Amanecer capítulo 4."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Marinero del Vela Errante",
+    "rol": "Marinero de la tripulación de la Expedición a Akinah",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Marinero thayleño del Vela Errante. Tenía el turno de día en el nido de águilas durante la Expedición a Akinah. Rysn alentó a Nikli a preguntarle sobre los marinerospren.",
+  "notas": "Mencionado en Esquirla del Amanecer capítulo 4."
+}

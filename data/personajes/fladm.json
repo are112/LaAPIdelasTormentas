@@ -1,0 +1,89 @@
+{
+  "id": "fladm",
+  "nombre": "Fladm",
+  "nombre_completo": "Fladm",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Ciudad Thaylen, Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Reserva Thayleña de Gemas — Ciudad Thaylen"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Guardia de seguridad — guardia de la Reserva Thayleña de Gemas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guardia thayleño de la Reserva Thayleña de Gemas en Ciudad Thaylen",
+      "El que fue asesinado con un virote de ballesta durante el robo de la bóveda personal de la reina"
+    ],
+    "descripcion": "Guardia thayleño de la Reserva Thayleña de Gemas en Ciudad Thaylen. Rysn lo conocía de sus visitas regulares. A comienzos de 1174, formaba parte de la rotación de guardia de la puerta de la estancia personal de la reina dentro de la cámara acorazada. Durante el robo de la bóveda, un supuesto miembro de la Guardia de la Reina lo asesinó con un virote de ballesta. Rysn encontró su cuerpo en el umbral del corredor de entrada a la bóveda.",
+    "estado_en_viento_y_verdad": "Fallecido — Nanishah 1174."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "Rysn lo conocía de sus visitas a la Reserva — encontró su cuerpo durante el robo"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "ladrón desconocido",
+        "relacion": "supuesto guardia de la reina que lo mató con un virote de ballesta durante el robo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — guardia leal a la Reserva Thayleña.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Guardia de la Reserva Thayleña de Gemas. Rysn lo conocía de sus visitas. Asesinado con un virote de ballesta por un supuesto guardia de la reina durante el robo de la bóveda personal de la reina en 1174. Rysn encontró su cuerpo en el umbral del corredor. Mencionado en Juramentada interludio I-13.",
+    "puntos_clave": [
+      "Guardia thayleño de la Reserva Thayleña de Gemas.",
+      "Rysn lo conocía de sus visitas regulares.",
+      "A comienzos de 1174, parte de la rotación de guardia de la bóveda personal de la reina.",
+      "Asesinado con un virote de ballesta por un supuesto guardia de la reina durante el robo.",
+      "Rysn encontró su cuerpo en el umbral del corredor de entrada.",
+      "Fallecido en Nanishah 1174.",
+      "Mencionado en Juramentada interludio I-13."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — Nanishah 1174",
+    "rol": "Guardia de la Reserva asesinado durante el robo de la bóveda de la reina",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Guardia thayleño de la Reserva Thayleña de Gemas en Ciudad Thaylen. Asesinado con un virote de ballesta durante el robo de la bóveda personal de la reina en 1174. Rysn encontró su cuerpo.",
+  "notas": "Mencionado en Juramentada interludio I-13. Su muerte fue el primer indicio de que el robo de la bóveda era algo más que un incidente menor."
+}

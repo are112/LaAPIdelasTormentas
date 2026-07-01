@@ -1,0 +1,86 @@
+{
+  "id": "fiksin",
+  "nombre": "Fiksin",
+  "nombre_completo": "Fiksin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — estudió el canto del alba"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito del canto del alba en Roshar",
+      "El que apoyó la teoría de Urv de que todos los textos del canto del alba provenían de una única ubicación — descartado por Ellista"
+    ],
+    "descripcion": "Erudito del canto del alba en Roshar. Apoyó la teoría del ardentista Urv de que todas las obras del canto del alba provenían de una única ubicación, por lo que el trabajo de Ellista de registrar dónde se encontró cada texto no tendría valor. Ellista descartó esta idea, insultó a Fiksin llamándole 'un lameculos, no un erudito', y demostró que el sistema de escritura del canto del alba se usó en todo Roshar, no desde una única fuente.",
+    "estado_en_viento_y_verdad": "Desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Urv",
+        "relacion": "el ardentista cuya teoría apoyó Fiksin — que todos los textos del canto del alba provenían de una única ubicación"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "ellista",
+        "relacion": "Ellista lo llamó 'un lameculos, no un erudito' y refutó su posición"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Erudito con tendencia a seguir posiciones convenientes para el establishment. Ellista lo consideraba un adulador, no un verdadero estudioso.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito que apoyó la teoría de Urv de que todos los textos del canto del alba venían de una única fuente, invalidando el trabajo de Ellista. Ellista lo refutó y lo llamó 'un lameculos, no un erudito', demostrando que el sistema se usó en todo Roshar. Juramentada interludio I-2.",
+    "puntos_clave": [
+      "Erudito del canto del alba.",
+      "Apoyó la teoría de Urv: todos los textos del canto del alba provenían de una única ubicación.",
+      "Eso invalidaría el trabajo de Ellista de registrar dónde se encontró cada texto.",
+      "Ellista lo llamó 'un lameculos, no un erudito'.",
+      "Ellista demostró que el sistema del canto del alba se usó en todo Roshar.",
+      "Mencionado en Juramentada interludio I-2."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — erudito del canto del alba",
+    "rol": "Erudito cuya posición fue refutada por Ellista",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito del canto del alba que apoyó la teoría de Urv de que todos los textos provenían de una única fuente. Ellista lo llamó 'un lameculos, no un erudito' y refutó su posición.",
+  "notas": "La frase de Ellista sobre Fiksin — 'era un lameculos, no un erudito' — es uno de los momentos más memorables del interludio I-2 de Juramentada."
+}

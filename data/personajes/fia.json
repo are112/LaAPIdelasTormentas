@@ -1,0 +1,87 @@
+{
+  "id": "fia",
+  "nombre": "Fia",
+  "nombre_completo": "Fia",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Miembro del Diagrama",
+      "Acompañó a Febrth, Moash y Graves por las Tierras Heladas hacia Kharbranth"
+    ],
+    "descripcion": "Miembro del Diagrama en Roshar. Acompañó a Febrth, Moash y Graves en su viaje por las Tierras Heladas hacia Kharbranth. Fue asesinada en 1174 cuando cuatro supuestos Portadores del Vacío atacaron el campamento.",
+    "estado_en_viento_y_verdad": "Fallecida — 1174."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "febrth",
+        "relacion": "compañero en la expedición del Diagrama — también murió en el ataque"
+      },
+      {
+        "personaje": "moash",
+        "relacion": "compañero de expedición"
+      },
+      {
+        "personaje": "graves",
+        "relacion": "líder de la expedición"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Miembro del Diagrama. Acompañó a Febrth, Moash y Graves por las Tierras Heladas hacia Kharbranth. Asesinada en 1174 cuando cuatro supuestos Portadores del Vacío atacaron el campamento. Juramentada capítulo 43.",
+    "puntos_clave": [
+      "Miembro del Diagrama.",
+      "Acompañó a Febrth, Moash y Graves por las Tierras Heladas.",
+      "Asesinada en 1174 por cuatro supuestos Portadores del Vacío.",
+      "Mencionada en Juramentada capítulo 43."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — 1174",
+    "rol": "Miembro del Diagrama en la expedición de Moash y Graves",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Diagrama. Acompañó a Febrth, Moash y Graves por las Tierras Heladas hacia Kharbranth. Asesinada en 1174 cuando cuatro supuestos Portadores del Vacío atacaron el campamento.",
+  "notas": "Mencionada en Juramentada capítulo 43."
+}
