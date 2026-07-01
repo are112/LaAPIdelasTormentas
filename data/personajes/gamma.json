@@ -1,0 +1,73 @@
+{
+  "id": "gamma",
+  "nombre": "Gamma",
+  "nombre_completo": "Gamma",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército azishiano"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado azishiano"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado azishiano en Roshar"
+    ],
+    "descripcion": "Soldado azishiano en Roshar. Mencionado en VyV capítulo 63. La página de la Coppermind necesita actualización con información adicional de VyV. Información muy limitada.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado azishiano mencionado en VyV capítulo 63. Información muy limitada.",
+    "puntos_clave": [
+      "Soldado azishiano.",
+      "Mencionado en VyV capítulo 63."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado azishiano",
+    "rol": "Personaje menor de VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado azishiano en Roshar. Mencionado en Viento y Verdad capítulo 63. Información muy limitada.",
+  "notas": "La Coppermind indica que la página necesita actualización con información de VyV."
+}

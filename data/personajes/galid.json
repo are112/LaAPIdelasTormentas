@@ -1,0 +1,78 @@
+{
+  "id": "galid",
+  "nombre": "Galid",
+  "nombre_completo": "Galid",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Invención — creó relojes para determinar coordenadas longitudinales en el mar",
+      "Astronomía — sus diseños aún se usan en la astronomía moderna de Roshar",
+      "Erudición multidisciplinar — citada por Shallan junto a Dandos Heraldin y Jasnah como ejemplo de erudita en múltiples campos"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita clásica inventora de Roshar",
+      "La que creó relojes para determinar coordenadas longitudinales en el mar — antes imposible",
+      "Citada por Shallan junto a Dandos Heraldin y Jasnah como modelo de erudición multidisciplinar"
+    ],
+    "descripcion": "Erudita clásica rosharia e inventora. Sus diseños aún se utilizan en la astronomía moderna de Roshar. Entre sus inventos destacan los relojes que permitían a los marineros determinar sus coordenadas longitudinales en el mar — algo anteriormente imposible. Shallan Davar la cita junto a Dandos Heraldin y Jasnah Kholin como ejemplo de eruditos con experiencia en múltiples campos, lo que le sirve de inspiración.",
+    "estado_en_viento_y_verdad": "Fallecida — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — figura erudita histórica de gran impacto.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudita clásica rosharia e inventora. Sus relojes para determinar coordenadas longitudinales en el mar revolucionaron la navegación. Sus diseños aún se usan en la astronomía moderna. Shallan la cita junto a Dandos Heraldin y Jasnah como modelo de erudición multidisciplinar. Juramentada capítulo 44.",
+    "puntos_clave": [
+      "Erudita clásica rosharia e inventora.",
+      "Creó relojes que permitían a los marineros determinar coordenadas longitudinales — antes imposible.",
+      "Sus diseños aún se usan en la astronomía moderna de Roshar.",
+      "Shallan la cita junto a Dandos Heraldin y Jasnah como modelo de erudición multidisciplinar.",
+      "Mencionada en Juramentada capítulo 44."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — figura histórica",
+    "rol": "Inventora clásica cuyo legado pervive en la astronomía y navegación rosharia",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudita clásica rosharia e inventora. Creó relojes para determinar coordenadas longitudinales en el mar — antes imposible. Sus diseños aún se usan en la astronomía. Shallan la cita como modelo de erudición multidisciplinar.",
+  "notas": "Mencionada en Juramentada capítulo 44. Su invención de los relojes de longitud es equivalente a uno de los mayores avances de la navegación terrestre."
+}

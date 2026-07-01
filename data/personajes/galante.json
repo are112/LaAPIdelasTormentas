@@ -1,0 +1,104 @@
+{
+  "id": "galante",
+  "nombre": "Galante",
+  "nombre_completo": "Galante",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "caballo (roan)",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Dalinar Kholin — caballo de batalla personal"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — caballo de batalla entrenado de extraordinaria capacidad",
+      "Inteligencia animal excepcional — comprende situaciones más allá de lo esperable en un caballo"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Caballo de batalla roan de Dalinar Kholin",
+      "Uno de los personajes más queridos de la saga"
+    ],
+    "descripcion": "El caballo de batalla personal de Dalinar Kholin. Galante es un caballo roan — de capa rojiza — de extraordinaria capacidad y temperamento. Ha acompañado a Dalinar en innumerables batallas a lo largo de la saga. Tiene una personalidad propia bien definida que ha ganado el afecto de los lectores: es leal, valiente e inteligente para ser un animal. Kaladin lo describe en términos de admiración. Dalinar tiene con él una relación de profundo afecto y confianza mutua. Galante es uno de los pocos 'personajes' no humanos de la saga que aparece de forma consistente a lo largo de los cinco libros.",
+    "estado_en_viento_y_verdad": "Activo — aún al servicio de Dalinar."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su jinete — Dalinar tiene con él una relación de profundo afecto y confianza mutua"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Animal con personalidad excepcional — leal, valiente e inteligente más allá de lo esperado en un caballo.",
+    "evolucion": "Acompañó a Dalinar desde la reunificación alethi hasta la Verdadera Desolación.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Galante es el caballo de batalla roan de Dalinar Kholin. Ha acompañado a Dalinar en innumerables batallas desde la reunificación alethi hasta la Verdadera Desolación. Su lealtad y personalidad excepcional le han hecho uno de los personajes más queridos de la saga. Aparece de forma consistente a lo largo de los cinco libros.",
+    "puntos_clave": [
+      "Caballo de batalla roan — capa rojiza.",
+      "Caballo personal de Dalinar Kholin.",
+      "Acompañó a Dalinar desde la reunificación alethi hasta la Verdadera Desolación.",
+      "Personalidad excepcional — leal, valiente, inteligente.",
+      "Uno de los personajes no humanos más queridos de la saga.",
+      "Aparece en los cinco libros principales."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Caballo de batalla de Dalinar Kholin",
+    "rol": "Compañero fiel de Dalinar en batalla y uno de los personajes más queridos de la saga",
+    "relacion_con_spren": "",
+    "otros_detalles": "Caballo roan — capa rojiza."
+  },
+  "descripcion_breve": "Caballo de batalla roan de Dalinar Kholin. Leal, valiente e inteligente. Ha acompañado a Dalinar desde la reunificación alethi hasta la Verdadera Desolación. Uno de los personajes más queridos de la saga.",
+  "notas": "Galante es uno de los pocos 'personajes' no humanos con presencia consistente en los cinco libros. Su relación con Dalinar es un reflejo del carácter del propio Dalinar — leal, noble y constante."
+}

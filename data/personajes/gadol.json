@@ -1,0 +1,81 @@
+{
+  "id": "gadol",
+  "nombre": "Gadol",
+  "nombre_completo": "Gadol",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Ejército de Sadeas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hombre de los puentes del Puente Cuatro",
+      "Murió en 1173 durante la Guerra de la Venganza"
+    ],
+    "descripcion": "Hombre de los puentes del Puente Cuatro en el ejército del Alto Príncipe Sadeas. Murió en 1173 durante la Guerra de la Venganza.",
+    "estado_en_viento_y_verdad": "Fallecido — 1173."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su capitán en el Puente Cuatro"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Hombre de los puentes del Puente Cuatro que murió en 1173. ECdR capítulo 17.",
+    "puntos_clave": [
+      "Hombre de los puentes del Puente Cuatro.",
+      "Murió en 1173 durante la Guerra de la Venganza.",
+      "Mencionado en ECdR capítulo 17."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — 1173",
+    "rol": "Hombre de los puentes del Puente Cuatro",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Hombre de los puentes del Puente Cuatro. Murió en 1173 durante la Guerra de la Venganza.",
+  "notas": "Mencionado en ECdR capítulo 17."
+}

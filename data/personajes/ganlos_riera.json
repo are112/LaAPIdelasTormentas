@@ -1,0 +1,80 @@
+{
+  "id": "ganlos_riera",
+  "nombre": "Ganlos Riera",
+  "nombre_completo": "Ganlos Riera",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "posiblemente herdaziana",
+  "origen": "Roshar, posiblemente Herdaz",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Captura — figura conocida por su capacidad de atrapar o atrapar a fugitivos, o quizás por ser una figura que nadie puede atrapar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Figura herdaziana de renombre — posiblemente cazadora, capturadora o figura de autoridad",
+      "La que ni el general Dieno puede eludir — según sus propios soldados"
+    ],
+    "descripcion": "Individuo femenino en Roshar, probablemente relacionado con Herdaz. No está claro si 'Ganlos Riera' es un título, un nombre o algún otro descriptor. Dos soldados herdazianos comentaron a Kaladin que el general Dieno enne Calah era una de las pocas personas que podrían eludir a la Ganlos Riera, alabando así su habilidad para escapar de situaciones imposibles.",
+    "estado_en_viento_y_verdad": "Desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "dieno",
+        "relacion": "el general Dieno es una de las pocas personas que podría eludirla — según sus soldados"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Figura femenina herdaziana de renombre. Dos soldados herdazianos comentaron a Kaladin que el general Dieno era de las pocas personas que podría eludir a la Ganlos Riera. No está claro si es un nombre, título u otro descriptor. RdG capítulo 2.",
+    "puntos_clave": [
+      "Individuo femenino en Roshar — posiblemente herdaziana.",
+      "No está claro si 'Ganlos Riera' es un nombre, título u otro descriptor.",
+      "Dos soldados herdazianos la mencionaron a Kaladin.",
+      "El general Dieno sería de las pocas personas capaces de eludirla.",
+      "Mencionada en RdG capítulo 2."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Figura herdaziana de renombre usada como referencia de imposibilidad de evasión",
+    "relacion_con_spren": "",
+    "otros_detalles": "No está claro si es nombre, título u otro descriptor."
+  },
+  "descripcion_breve": "Figura femenina herdaziana de renombre. Sus soldados dicen que el general Dieno es de las pocas personas que podrían eludirla. No está claro si 'Ganlos Riera' es nombre, título u otro descriptor.",
+  "notas": "Mencionada en RdG capítulo 2. Una de las referencias más misteriosas de la saga — sin confirmación de qué es exactamente."
+}

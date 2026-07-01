@@ -1,0 +1,92 @@
+{
+  "id": "gallam",
+  "nombre": "Gallam",
+  "nombre_completo": "Gallam",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario — flashback de Dalinar",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Aliado de Kalanor — guerra contra Gavilar en 1145"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — portador de esquirlada (anteriormente)",
+      "Duelo — luchó contra el ejército de Gavilar en 1145"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Exportador de esquirlada alezi aliado con Kalanor",
+      "El que perdió su hoja esquirlada ante el Alto Príncipe Ruthar en 1145"
+    ],
+    "descripcion": "Portador de esquirlada alezi aliado con Kalanor. Luchó contra el ejército de Gavilar Kholin en 1145 durante la reunificación alethi. El Alto Príncipe Ruthar lo derrotó y le tomó su hoja esquirlada.",
+    "estado_en_viento_y_verdad": "Activo — aunque ya sin esquirlada."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Kalanor",
+        "relacion": "aliado — lucharon juntos contra Gavilar en 1145"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "gavilar",
+        "relacion": "luchó contra su ejército en 1145"
+      },
+      {
+        "personaje": "ruthar",
+        "relacion": "el Alto Príncipe Ruthar lo derrotó y tomó su hoja esquirlada"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Portador de esquirlada alezi aliado con Kalanor. Luchó contra el ejército de Gavilar en 1145. El Alto Príncipe Ruthar lo derrotó y le arrebató su hoja esquirlada. Juramentada capítulo 26.",
+    "puntos_clave": [
+      "Portador de esquirlada alezi.",
+      "Aliado con Kalanor en la guerra contra Gavilar en 1145.",
+      "Derrotado por el Alto Príncipe Ruthar.",
+      "Ruthar le arrebató su hoja esquirlada.",
+      "Mencionado en Juramentada capítulo 26."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Activo — ya sin esquirlada",
+    "rol": "Exportador de esquirlada derrotado por Ruthar durante la reunificación alethi",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Portador de esquirlada alezi aliado con Kalanor. Luchó contra Gavilar en 1145. El Alto Príncipe Ruthar lo derrotó y le arrebató su hoja esquirlada.",
+  "notas": "Mencionado en Juramentada capítulo 26. Su derrota a manos de Ruthar explica cómo la Casa Ruthar adquirió su segunda hoja esquirlada."
+}

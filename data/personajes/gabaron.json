@@ -1,0 +1,73 @@
+{
+  "id": "gabaron",
+  "nombre": "Gabaron",
+  "nombre_completo": "Gabaron",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Sadeas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado del ejército de Sadeas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado alezi del ejército del Alto Príncipe Torol Sadeas"
+    ],
+    "descripcion": "Soldado alezi del ejército del Alto Príncipe Torol Sadeas. Murió durante la Guerra de la Venganza.",
+    "estado_en_viento_y_verdad": "Fallecido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado alezi del ejército de Sadeas que murió durante la Guerra de la Venganza. Mencionado en ECdR.",
+    "puntos_clave": [
+      "Soldado alezi del ejército de Sadeas.",
+      "Murió durante la Guerra de la Venganza."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Soldado menor del ejército de Sadeas",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado alezi del ejército de Sadeas. Murió durante la Guerra de la Venganza.",
+  "notas": "Información muy limitada. Mencionado en ECdR."
+}

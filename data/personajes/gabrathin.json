@@ -1,0 +1,74 @@
+{
+  "id": "gabrathin",
+  "nombre": "Gabrathin",
+  "nombre_completo": "Gabrathin",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — escritor prolífico, probablemente en lógica o artes relacionadas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito roshario de la Era de la Soledad — escritor prolífico",
+      "Sus obras fueron usadas por Jasnah como referencia de estudio riguroso al evaluar a Shallan"
+    ],
+    "descripcion": "Erudito roshario de la Era de la Soledad. Escritor prolífico cuyas obras probablemente trataban sobre lógica o artes relacionadas. Jasnah Kholin lo mencionó al entrevistar a Shallan Davar como candidata a pupila, utilizando sus obras como ejemplo de estudio riguroso.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — figura erudita histórica.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito y escritor prolífico de la Era de la Soledad. Sus obras, probablemente sobre lógica, fueron citadas por Jasnah como referencia al entrevistar a Shallan. ECdR capítulos 5 y 8.",
+    "puntos_clave": [
+      "Erudito roshario de la Era de la Soledad.",
+      "Escritor prolífico — obras probablemente sobre lógica o artes relacionadas.",
+      "Jasnah lo citó al entrevistar a Shallan como candidata a pupila.",
+      "Mencionado en ECdR capítulos 5 y 8."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Erudito clásico referenciado por Jasnah",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito roshario de la Era de la Soledad. Escritor prolífico sobre lógica. Jasnah lo citó como referencia de estudio riguroso al evaluar a Shallan como candidata a pupila.",
+  "notas": "Mencionado en ECdR capítulos 5 y 8."
+}
