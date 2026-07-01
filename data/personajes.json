@@ -1536,6 +1536,62 @@
     "especie": "humano"
   },
   {
+    "id": "gare",
+    "nombre": "Gare",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "garith",
+    "nombre": "Garith",
+    "orden": "Corredores del Viento",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "gasha",
+    "nombre": "Gasha",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "gashash_hijo_navammis",
+    "nombre": "Gashash-hijo-Navammis",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "gavam",
+    "nombre": "Gavam",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "gavarah",
+    "nombre": "Gavarah",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecida",
+    "especie": "humano"
+  },
+  {
+    "id": "gavashaw",
+    "nombre": "Gavashaw",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
     "id": "gavilar",
     "nombre": "Gavilar",
     "orden": "Ninguna",
@@ -1546,6 +1602,14 @@
   {
     "id": "gavinor",
     "nombre": "Gavinor",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "gavri",
+    "nombre": "Gavri",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
