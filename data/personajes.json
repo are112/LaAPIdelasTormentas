@@ -1768,8 +1768,48 @@
     "especie": "humano"
   },
   {
+    "id": "gonda_hijo_darias",
+    "nombre": "Gonda-hijo-Darias",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "gor",
+    "nombre": "Gor",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "goshel",
+    "nombre": "Goshel",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "granjero",
+    "nombre": "Granjero",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "graves",
     "nombre": "Graves",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "gregorh",
+    "nombre": "Gregorh",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
@@ -1781,6 +1821,54 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "gu",
+    "nombre": "Gu",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "gub",
+    "nombre": "Gub",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "guff",
+    "nombre": "Guff",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "gulastis",
+    "nombre": "Gulastis",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "guvlow",
+    "nombre": "Guvlow",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "gvori",
+    "nombre": "Gvori",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
