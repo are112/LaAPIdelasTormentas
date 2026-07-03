@@ -1,0 +1,77 @@
+{
+  "id": "halad",
+  "nombre": "Halad",
+  "nombre_completo": "Halad",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Estrategia militar — alto mariscal alezi cuyas tácticas influyen enormemente en la tradición militar alezi",
+      "Filosofía militar — sus axiomas son citados por generaciones de militares alezi"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto mariscal alezi — figura respetada en los círculos militares",
+      "El que formuló axiomas militares citados por Adolin y otros generaciones después"
+    ],
+    "descripcion": "Alto mariscal alezi. Figura muy respetada en los círculos militares de Roshar. Sus estrategias y filosofía influyen enormemente en la tradición militar alezi. Adolin citó dos de sus axiomas: 'Para derrotar a alguien, antes hay que conocerlo.' y 'Planea cada batalla como si la retirada fuese inevitable, pero libra cada batalla pensando que no hay vuelta atrás.' No está claro si es una figura contemporánea o histórica. Mencionado en Juramentada capítulo 29.",
+    "estado_en_viento_y_verdad": "Destino desconocido — posiblemente figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estratega de gran profundidad — sus axiomas revelan un pensamiento militar sofisticado que combina conocimiento del enemigo con determinación en combate.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Alto mariscal alezi cuyas estrategias y filosofía influyeron enormemente en la tradición militar. Adolin citó dos de sus axiomas en Juramentada capítulo 29.",
+    "puntos_clave": [
+      "Alto mariscal alezi — figura muy respetada en los círculos militares.",
+      "Axioma 1: 'Para derrotar a alguien, antes hay que conocerlo.'",
+      "Axioma 2: 'Planea cada batalla como si la retirada fuese inevitable, pero libra cada batalla pensando que no hay vuelta atrás.'",
+      "Sus estrategias y filosofía influyen enormemente en la tradición militar alezi.",
+      "No está claro si es contemporáneo o histórico.",
+      "Mencionado en Juramentada capítulo 29."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida — posiblemente figura histórica",
+    "rol": "Estratega militar cuya filosofía definió la tradición militar alezi",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Alto mariscal alezi cuyas estrategias y filosofía definen la tradición militar alezi. Sus axiomas: 'Para derrotar a alguien, antes hay que conocerlo' y 'Planea la retirada, pero lucha sin vuelta atrás.'",
+  "notas": "Sus axiomas recuerdan a Sun Tzu. Citado por Adolin en Juramentada capítulo 29."
+}

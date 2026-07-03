@@ -1,0 +1,78 @@
+{
+  "id": "hammie",
+  "nombre": "Hammie",
+  "nombre_completo": "Hammie",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Amigo de infancia de Kaladin en Piedralar",
+      "El que le dijo a Kaladin de joven que le parecía ridículo que los muertespren tuvieran miedo al agua"
+    ],
+    "descripcion": "Residente de Piedralar y amigo de infancia de Kaladin Stormblessed. Cuando eran jóvenes, le dijo a Kaladin que le parecía una tontería que los muertespren tuvieran miedo al agua, dado que eran buenos matando gente de todas formas. Kaladin se lo contó a su padre Lirin, quien le explicó que ese conocimiento venía de los Heraldos. Mencionado en ECdR capítulo 16.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "amigo de infancia en Piedralar"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Curioso y pragmático de niño — cuestionó la lógica de los muertespren.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Amigo de infancia de Kaladin en Piedralar. De joven le dijo que le parecía ridículo que los muertespren tuvieran miedo al agua. Kaladin se lo contó a Lirin, que le explicó que ese conocimiento venía de los Heraldos. ECdR capítulo 16.",
+    "puntos_clave": [
+      "Amigo de infancia de Kaladin en Piedralar.",
+      "Le dijo que los muertespren tienen miedo al agua — le parecía ridículo dado que son buenos matando.",
+      "Kaladin se lo contó a su padre Lirin.",
+      "Lirin explicó que ese conocimiento venía de los Heraldos.",
+      "Mencionado en ECdR capítulo 16."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Amigo de infancia de Kaladin en Piedralar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Amigo de infancia de Kaladin en Piedralar. De joven le dijo que le parecía ridículo que los muertespren tuvieran miedo al agua. Kaladin se lo contó a Lirin, que explicó que ese conocimiento venía de los Heraldos.",
+  "notas": "Mencionado en ECdR capítulo 16. Su comentario infantil es un pequeño guiño al worldbuilding de los muertespren y los conocimientos heredados de los Heraldos."
+}

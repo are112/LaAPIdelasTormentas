@@ -1,0 +1,110 @@
+{
+  "id": "hab",
+  "nombre": "Hab",
+  "nombre_completo": "Hab",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram — escuadrón de Kaladin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado ojos oscuros del escuadrón de Kaladin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado ojos oscuros del escuadrón de Kaladin en el ejército de Amaram",
+      "Uno de los cuatro supervivientes de la batalla contra Helaran Davar — asesinado por orden de Amaram"
+    ],
+    "descripcion": "Soldado ojos oscuros del escuadrón de Kaladin en el ejército del Alto Mariscal Meridas Amaram. En 1172, combatió en la batalla donde Helaran Davar intentó matar a Amaram. Se unió a Kaladin en su carga contra el portador de esquirlada. Cuando Helaran empezó a masacrar a los hombres, Hab intentó retirarse pero tropezó con el cuerpo de Toorim y se le cayó la lanza. Junto a Coreb, Alabet y Reesh fue uno de los únicos cuatro supervivientes del escuadrón. Observó cómo Kaladin derrotaba a Helaran y rechazaba las esquirladas en favor de Coreb. Más tarde ese día fue convocado al puesto de mando de Amaram. Cuando Amaram ordenó matar a los cuatro supervivientes para ocultar lo sucedido, Hab sacó su cuchillo para defenderse pero fue destripado por un soldado de Amaram. Murió en Ishi 1172. Kaladin acusó a Amaram de sentir culpa por su muerte durante la Batalla de la Explanada Thayleña.",
+    "estado_en_viento_y_verdad": "Fallecido — Ishi 1172."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su líder de escuadrón — Kaladin lo recuerda con culpa; lo acusó a Amaram durante la Batalla de la Explanada Thayleña"
+      },
+      {
+        "personaje": "coreb",
+        "relacion": "compañero superviviente — también asesinado por orden de Amaram"
+      },
+      {
+        "personaje": "alabet",
+        "relacion": "compañero superviviente — también asesinado por orden de Amaram"
+      },
+      {
+        "personaje": "reesh",
+        "relacion": "compañero superviviente — también asesinado por orden de Amaram"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "amaram",
+        "relacion": "Amaram ordenó su asesinato para silenciar a los testigos de la batalla contra Helaran"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Soldado leal que intentó sobrevivir — sacó su cuchillo para defenderse cuando Amaram ordenó matarlos.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado ojos oscuros del escuadrón de Kaladin. En 1172 combatió contra Helaran Davar. Uno de los cuatro supervivientes. Tropezó con el cuerpo de Toorim durante la batalla. Amaram ordenó matar a los supervivientes para ocultar lo ocurrido. Hab sacó su cuchillo para defenderse pero fue destripado. Murió en Ishi 1172. Kaladin acusó a Amaram por su muerte en la Batalla de la Explanada Thayleña.",
+    "puntos_clave": [
+      "Soldado ojos oscuros del escuadrón de Kaladin en el ejército de Amaram.",
+      "En 1172 combatió cuando Helaran Davar intentó matar a Amaram.",
+      "Se unió a Kaladin en la carga contra el portador de esquirlada.",
+      "Intentó retirarse — tropezó con el cuerpo de Toorim y se le cayó la lanza.",
+      "Uno de los cuatro únicos supervivientes junto a Coreb, Alabet y Reesh.",
+      "Convocado al puesto de mando de Amaram tras la batalla.",
+      "Amaram ordenó matar a los supervivientes para ocultar lo sucedido.",
+      "Sacó su cuchillo para defenderse — fue destripado por un soldado de Amaram.",
+      "Murió en Ishi 1172.",
+      "Kaladin acusó a Amaram de culpa por su muerte en la Batalla de la Explanada Thayleña.",
+      "Mencionado en ECdR capítulos 47 y 51; Juramentada capítulo 120."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — Ishi 1172",
+    "rol": "Soldado asesinado por Amaram para ocultar la batalla contra Helaran",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado ojos oscuros del escuadrón de Kaladin. Uno de los cuatro supervivientes de la batalla contra Helaran Davar. Asesinado por orden de Amaram para silenciar a los testigos. Sacó su cuchillo para defenderse pero fue destripado.",
+  "notas": "Su muerte y la de sus compañeros fue el detonante del rencor de Kaladin hacia Amaram. Kaladin lo acusó públicamente durante la Batalla de la Explanada Thayleña."
+}

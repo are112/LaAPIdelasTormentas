@@ -1,0 +1,79 @@
+{
+  "id": "habatab",
+  "nombre": "Habatab",
+  "nombre_completo": "Habatab",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Llanuras Quebradas — ojos claros"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Brillante señor ojos claros en las Llanuras Quebradas",
+      "El que fue objeto de burla de Hoid por llevar camisa roja estando quemado por el sol"
+    ],
+    "descripcion": "Brillante señor ojos claros en las Llanuras Quebradas. En 1173 asistió a una de las fiestas del rey Elhokar en los campamentos de guerra. Hoid, actuando como el juglar Sagaz, se burló de él por llevar una camisa roja estando quemado por el sol — lo que hacía que pareciera un tomate. Mencionado en ECdR capítulo 22.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "hoid",
+        "relacion": "Hoid (como Sagaz) se burló de él por llevar camisa roja estando quemado por el sol"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Brillante señor alezi en las Llanuras. En 1173 asistió a una fiesta de Elhokar. Hoid se burló de él por llevar camisa roja estando quemado. ECdR capítulo 22.",
+    "puntos_clave": [
+      "Brillante señor ojos claros en las Llanuras Quebradas.",
+      "Asistió a una fiesta del rey Elhokar en 1173.",
+      "Hoid (como Sagaz) se burló de él por llevar camisa roja estando quemado por el sol.",
+      "Mencionado en ECdR capítulo 22."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Brillante señor en las Llanuras Quebradas",
+    "rol": "Objeto de burla de Hoid en una fiesta de Elhokar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Brillante señor alezi en las Llanuras Quebradas. Hoid (como Sagaz) se burló de él en una fiesta de Elhokar por llevar camisa roja estando quemado por el sol.",
+  "notas": "Mencionado en ECdR capítulo 22. Su rol es únicamente el de víctima del humor de Hoid."
+}

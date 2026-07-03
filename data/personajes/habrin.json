@@ -1,0 +1,91 @@
+{
+  "id": "habrin",
+  "nombre": "Habrin",
+  "nombre_completo": "Habrin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram — recluta de Piedralar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — recluta del ejército de Amaram"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Joven alezi de Piedralar, hijo de Arafik",
+      "Uno de los reclutas elegidos por Roshone cuando Amaram visitó Piedralar en 1168"
+    ],
+    "descripcion": "Joven alezi de Piedralar, hijo de Arafik. En 1168, cuando el Alto Mariscal Meridas Amaram visitó Piedralar para reclutar hombres, el señor local Roshone eligió a Habrin como uno de los reclutas, junto a Agil, Caull, Jorna y Tien. Mencionado en ECdR capítulo 44.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Arafik",
+        "relacion": "padre"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "tien",
+        "relacion": "compañero recluta de Piedralar en 1168"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "roshone",
+        "relacion": "Roshone lo eligió como recluta para el ejército de Amaram"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Joven de Piedralar, hijo de Arafik. En 1168 Roshone lo eligió como recluta para el ejército de Amaram, junto a Agil, Caull, Jorna y Tien. ECdR capítulo 44.",
+    "puntos_clave": [
+      "Joven alezi de Piedralar, hijo de Arafik.",
+      "En 1168 Roshone lo eligió como recluta para el ejército de Amaram.",
+      "Reclutado junto a Agil, Caull, Jorna y Tien.",
+      "Mencionado en ECdR capítulo 44."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — recluta del ejército de Amaram",
+    "rol": "Joven recluta de Piedralar elegido por Roshone",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Joven alezi de Piedralar, hijo de Arafik. En 1168 Roshone lo eligió como recluta para el ejército de Amaram junto a Agil, Caull, Jorna y Tien.",
+  "notas": "Mencionado en ECdR capítulo 44. Fue uno de los jóvenes reclutados por la crueldad de Roshone, igual que Tien."
+}

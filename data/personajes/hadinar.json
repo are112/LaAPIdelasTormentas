@@ -1,0 +1,85 @@
+{
+  "id": "hadinar",
+  "nombre": "Hadinar",
+  "nombre_completo": "Hadinar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Muralla de Kholinar — señor de batallón"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — señor de batallón de la Guardia de la Muralla"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Señor de batallón de la Guardia de la Muralla de Kholinar",
+      "Oficial de confianza de la alta mariscal Celeste — conocía sus secretos"
+    ],
+    "descripcion": "Señor de batallón en la Guardia de la Muralla de Kholinar. Hombre rollizo de gruesos mofletes. Oficial de confianza de la alta mariscal Celeste — conocía sus secretos, incluido su género real y el método para ocultar su moldeador de almas de los chilladores. Comandó uno de los cuatro batallones de la Guardia de la Muralla. Fue el único oficial de Celeste presente cuando Kaladin reveló su verdadera misión en Kholinar. Se ha especulado que podría ser un saltamundos — Brandon Sanderson respondió RAFO.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "celeste",
+        "relacion": "su comandante — oficial de confianza que conocía sus secretos personales"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Leal y discreto. Merecedor de la confianza de Celeste — conocía sus secretos más íntimos.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Señor de batallón rollizo de la Guardia de la Muralla de Kholinar. Oficial de confianza de Celeste — conocía su género real y cómo ocultar el moldeador de almas de los chilladores. Único oficial presente cuando Kaladin reveló su misión. Posiblemente saltamundos — Brandon respondió RAFO. Juramentada capítulos 73 y 81.",
+    "puntos_clave": [
+      "Señor de batallón de la Guardia de la Muralla de Kholinar.",
+      "Hombre rollizo de gruesos mofletes.",
+      "Oficial de confianza de la alta mariscal Celeste.",
+      "Conocía el género real de Celeste y cómo ocultar su moldeador de almas de los chilladores.",
+      "Comandó uno de los cuatro batallones de la Guardia de la Muralla.",
+      "Único oficial presente cuando Kaladin reveló su misión real.",
+      "Posiblemente saltamundos — Brandon Sanderson respondió RAFO.",
+      "Mencionado en Juramentada capítulos 73 y 81."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Señor de batallón de la Guardia de la Muralla de Kholinar",
+    "rol": "Oficial de confianza de Celeste",
+    "relacion_con_spren": "",
+    "otros_detalles": "Posiblemente saltamundos — Brandon respondió RAFO."
+  },
+  "descripcion_breve": "Señor de batallón rollizo de la Guardia de la Muralla de Kholinar. Oficial de confianza de Celeste — conocía su género real y cómo ocultar el moldeador de almas. Posiblemente saltamundos.",
+  "notas": "La especulación sobre si es saltamundos fue respondida con RAFO por Brandon Sanderson — un detalle que lo hace especialmente interesante."
+}

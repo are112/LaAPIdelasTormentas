@@ -1,0 +1,92 @@
+{
+  "id": "hamaradin",
+  "nombre": "Hamaradin",
+  "nombre_completo": "Hamaradin",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecida",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Hamaradin — brillante señora",
+    "Corte del principado de Vamah"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Espionaje — la Casa Hamaradin tenía red de espías con la que ella participaba personalmente",
+      "Inteligencia — recabó información sobre los Sangre Espectral"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Brillante señora alezi ojos claros, miembro de la corte de Vamah",
+      "La que tenía red de espionaje y recabó información sobre los Sangre Espectral — probablemente asesinada por ello"
+    ],
+    "descripcion": "Brillante señora ojos claros alezi, miembro de la corte del Alto Príncipe Vamah. La Casa Hamaradin tenía una red de espionaje con la que ella participaba personalmente. Ishnah la servía como ayudante — según Mraize no era una verdadera espía sino más bien una intermediaria. Ishnah oyó a Hamaradin hablar de los Sangre Espectral. Hamaradin creyó haberlos irritado y los Sangre Espectral la mataron. Murió c. 1174, probablemente después de que los alezi se trasladaran de las Llanuras a Urithiru. Algunos de sus empleados fueron acusados de su asesinato y pasaron a la clandestinidad en Urithiru.",
+    "estado_en_viento_y_verdad": "Fallecida — c. 1174."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "ishnah",
+        "relacion": "Ishnah la servía como ayudante en su red de espionaje — según Mraize, no era una espía real"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "sangre_espectral",
+        "relacion": "los Sangre Espectral la mataron cuando recabó demasiada información sobre ellos"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ambiciosa e imprudente — recabó información sobre los Sangre Espectral sin calcular el riesgo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecida."
+  },
+  "arco_narrativo": {
+    "resumen": "Brillante señora alezi de la corte de Vamah con red de espionaje propia. Ishnah la servía como ayudante. Recabó información sobre los Sangre Espectral — los irritó y la mataron c. 1174. Sus empleados fueron acusados del asesinato y pasaron a la clandestinidad en Urithiru. Juramentada capítulos 40 y 51.",
+    "puntos_clave": [
+      "Brillante señora ojos claros alezi — miembro de la corte de Vamah.",
+      "La Casa Hamaradin tenía red de espionaje con participación personal de ella.",
+      "Ishnah la servía como ayudante — Mraize decía que no era espía real.",
+      "Oyó información sobre los Sangre Espectral.",
+      "Los Sangre Espectral la mataron al irritarlos.",
+      "Murió c. 1174.",
+      "Sus empleados fueron acusados de su asesinato y se ocultaron en Urithiru.",
+      "Mencionada en Juramentada capítulos 40 y 51."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecida — c. 1174",
+    "rol": "Brillante señora cuya red de espionaje y curiosidad sobre los Sangre Espectral le costó la vida",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Brillante señora alezi de la corte de Vamah con red de espionaje. Ishnah la servía como ayudante. Recabó información sobre los Sangre Espectral — la mataron. Sus empleados se ocultaron en Urithiru tras ser acusados.",
+  "notas": "Mencionada en Juramentada capítulos 40 y 51. Su muerte fue la que introdujo a Ishnah en el mundo de los Sangre Espectral y eventualmente en la Ecos del Umbral."
+}

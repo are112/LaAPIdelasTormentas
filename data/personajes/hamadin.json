@@ -1,0 +1,74 @@
+{
+  "id": "hamadin",
+  "nombre": "Hamadin",
+  "nombre_completo": "Hamadin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención — figura legendaria",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — lideró cincuenta soldados contra diez mil tropas veden"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guerrero legendario alezi",
+      "El que lideró cincuenta soldados contra diez mil tropas veden — historia conocida incluso entre thayleños"
+    ],
+    "descripcion": "Guerrero legendario alezi. Se dice que lideró a cincuenta soldados contra diez mil tropas veden. Su historia era ampliamente conocida incluso entre soldados thayleños en la Batalla de la Explanada Thayleña. Mencionado en Juramentada capítulo 120.",
+    "estado_en_viento_y_verdad": "Fallecido — figura legendaria."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Figura legendaria — representa el valor extremo alezi.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Guerrero legendario alezi que lideró cincuenta soldados contra diez mil tropas veden. Su historia era conocida incluso entre thayleños. Juramentada capítulo 120.",
+    "puntos_clave": [
+      "Guerrero legendario alezi.",
+      "Lideró cincuenta soldados contra diez mil tropas veden.",
+      "Historia conocida incluso entre soldados thayleños.",
+      "Mencionado en Juramentada capítulo 120."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura legendaria",
+    "rol": "Héroe legendario alezi símbolo de valor extremo",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Guerrero legendario alezi. Lideró cincuenta soldados contra diez mil tropas veden. Su historia era conocida incluso entre soldados thayleños en la Batalla de la Explanada Thayleña.",
+  "notas": "Mencionado en Juramentada capítulo 120. Su historia es el equivalente alezi de las grandes hazañas de valor extremo."
+}
