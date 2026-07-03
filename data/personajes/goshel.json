@@ -1,0 +1,83 @@
+{
+  "id": "goshel",
+  "nombre": "Goshel",
+  "nombre_completo": "Goshel",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Esclavos bajo el mando de Kaladin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Esclavo que participó en la revuelta liderada por Kaladin",
+      "Uno de los que murieron en la revuelta — cuya muerte marcó profundamente a Kaladin",
+      "Recordado por Kaladin al intentar jurar el Cuarto Ideal"
+    ],
+    "descripcion": "Esclavo en Roshar que murió alrededor de 1172 en una revuelta liderada por Kaladin contra sus amos. Kaladin lideró a Goshel y a los otros esclavos en una revuelta nocturna. Goshel y todos los demás esclavos excepto Kaladin fueron masacrados. Esta derrota llevó a Kaladin a renunciar definitivamente a intentar escapar de la esclavitud. Meses después, Kaladin pensaba en Goshel a menudo y sentía que le había fallado. Kaladin lo recuerda junto a Malop, Jaks, Beld, Pedin, Rod, Mart, Nalma, Dallet y al pelotón, y a Tien mientras intenta decir el Cuarto Ideal de los Corredores del Viento.",
+    "estado_en_viento_y_verdad": "Fallecido — c. 1172."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su líder en la revuelta — Kaladin lo recuerda con culpa, sintiéndose responsable de su muerte"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — esclavo que siguió a Kaladin en la revuelta.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Esclavo que murió en la revuelta nocturna liderada por Kaladin c. 1172. Todos los esclavos excepto Kaladin fueron masacrados. Su muerte fue definitoria — llevó a Kaladin a renunciar a escapar. Kaladin pensaba en él meses después y se sentía culpable. Lo recordó al intentar jurar el Cuarto Ideal junto a Malop, Jaks, Beld, Pedin, Rod, Mart, Nalma, Dallet y Tien. ECdR capítulos 43, 38, 57 y 67; Juramentada capítulo 118.",
+    "puntos_clave": [
+      "Esclavo que participó en la revuelta nocturna liderada por Kaladin c. 1172.",
+      "Goshel y todos los demás esclavos excepto Kaladin fueron masacrados.",
+      "Su muerte llevó a Kaladin a renunciar definitivamente a escapar.",
+      "Kaladin pensaba en él meses después y sentía que le había fallado.",
+      "Kaladin lo recuerda al intentar jurar el Cuarto Ideal de los Corredores del Viento.",
+      "Lo recuerda junto a Malop, Jaks, Beld, Pedin, Rod, Mart, Nalma, Dallet, el pelotón y Tien.",
+      "Mencionado en ECdR capítulos 43, 38, 57, 67 y Juramentada capítulo 118."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — c. 1172",
+    "rol": "Esclavo cuya muerte definió el punto de quiebre de Kaladin como líder",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Esclavo que murió en la revuelta nocturna liderada por Kaladin c. 1172. Todos los esclavos menos Kaladin fueron masacrados. Kaladin lo recuerda con culpa — lo recordó al intentar jurar el Cuarto Ideal.",
+  "notas": "Su muerte es uno de los momentos más definitorios del pasado de Kaladin como esclavo. Kaladin lo recuerda al intentar jurar el Cuarto Ideal junto a otros que no pudo salvar."
+}

@@ -1,0 +1,95 @@
+{
+  "id": "gor",
+  "nombre": "Gor",
+  "nombre_completo": "Gor",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado del ejército de Amaram",
+      "Transmisión de órdenes — repitió la orden de Sheler a Varth"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado del ejército de Amaram — recién salido de la adolescencia en 1169",
+      "El que repitió la orden de Sheler a Varth — orden que indirectamente causó la muerte de Tien"
+    ],
+    "descripcion": "Soldado del ejército del Alto Mariscal Amaram. En 1169, cuando apenas había salido de la adolescencia, el ejército de Amaram luchaba contra el del brillante Hallaw. Gor habló con el líder de pelotón Varth, repitiendo la orden del brillante Sheler de mantener la posición. Varth, al darse cuenta de que no tenía suficientes hombres para combatir, ordenó a los mensajeros cercanos que se armaran e instruyó a Gor para que los colocara al frente de la formación. Gor cuestionó brevemente esta orden pero finalmente la cumplió. Esta secuencia de eventos condujo directamente a la muerte de Tien, el hermano de Kaladin. Durante un tiempo, Kaladin fue impulsado por su deseo de venganza contra Varth y todos sus soldados, incluido Gor.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin lo odiaba brevemente — fue parte de la cadena que causó la muerte de Tien"
+      },
+      {
+        "personaje": "tien",
+        "relacion": "su colocación al frente de la formación causó indirectamente la muerte de Tien"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Soldado joven que cuestionó una orden pero la cumplió. Probablemente no era consciente de las consecuencias.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado joven del ejército de Amaram. En 1169 repitió la orden de Sheler a Varth de mantener posición. Varth, sin hombres suficientes, le ordenó colocar mensajeros al frente — Gor cuestionó pero obedeció. Esta cadena de decisiones causó la muerte de Tien. Kaladin lo odiaba brevemente. ECdR capítulo 47 y RdG capítulo 108.",
+    "puntos_clave": [
+      "Soldado del ejército de Amaram — recién salido de la adolescencia en 1169.",
+      "En la batalla contra el ejército del brillante Hallaw.",
+      "Repitió la orden de Sheler a Varth: mantener posición.",
+      "Varth le ordenó colocar mensajeros al frente de la formación.",
+      "Gor cuestionó brevemente pero obedeció.",
+      "Esta cadena de decisiones condujo a la muerte de Tien.",
+      "Kaladin lo odiaba brevemente por ello.",
+      "Mencionado en ECdR capítulo 47 y RdG capítulo 108."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Eslabón involuntario en la cadena que causó la muerte de Tien",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Soldado joven del ejército de Amaram. Repitió la orden de Sheler a Varth y luego colocó mensajeros al frente de la formación. Esta cadena causó la muerte de Tien, hermano de Kaladin.",
+  "notas": "Mencionado en ECdR capítulo 47 y RdG capítulo 108. Su rol fue involuntario pero fue parte de la cadena de decisiones que llevó a la muerte de Tien."
+}

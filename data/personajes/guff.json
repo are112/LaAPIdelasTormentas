@@ -1,0 +1,94 @@
+{
+  "id": "guff",
+  "nombre": "Guff",
+  "nombre_completo": "Guff",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia del brillante señor Paladar en Revolar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Caravanas — carretero y caravanero",
+      "Guardia — trabajaba como guardia del brillante señor Paladar en Revolar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Carretero y caravanero malhablado",
+      "Viejo amigo de Moash — guardaba para el brillante señor Paladar en Revolar ocupada por cantores",
+      "El que fue golpeado y sustituido por llevar a Moash ante Paladar"
+    ],
+    "descripcion": "Carretero y caravanero malhablado de Roshar. Hombre mayor que mide media caña y tiene algún tipo de lesión que afecta a su forma de andar. Probablemente tiene el acento asociado a los caravaneros. Era un viejo amigo de Moash desde antes de que este viajara a las Llanuras Quebradas. Moash se lo encontró de nuevo en Revolar después de que la ciudad fuera conquistada por los cantores. Guff había aceptado un empleo como guardia del brillante señor local, Paladar. Su trabajo era mantener a la gente alejada de las tiendas de Paladar y alertarle de cualquier soldado capturado. Se sorprendió al ver a Moash, pues lo había dado por muerto. Al saber que Moash había sido soldado, lo llevó ante Paladar. Sin embargo, el silencio de Moash ante las preguntas del brillante señor hizo que Guff fuera golpeado y sustituido.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "moash",
+        "relacion": "viejo amigo desde antes de que Moash fuera a las Llanuras — se lo encontró en Revolar y lo llevó ante Paladar, lo que le costó ser golpeado"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Paladar",
+        "relacion": "su jefe — Paladar lo golpeó y sustituyó cuando Moash no respondió a sus preguntas"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Pragmático superviviente — aceptó trabajar para el brillante señor cantor de Revolar. Su lealtad a Moash le costó un castigo.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Carretero malhablado, viejo amigo de Moash. En Revolar ocupada por cantores, trabajaba como guardia del brillante señor Paladar. Se sorprendió al ver a Moash vivo. Lo llevó ante Paladar, pero el silencio de Moash provocó que Guff fuera golpeado y sustituido. Juramentada capítulo 45.",
+    "puntos_clave": [
+      "Carretero y caravanero malhablado.",
+      "Hombre mayor, media caña de estatura, lesión que afecta su forma de andar.",
+      "Viejo amigo de Moash desde antes de las Llanuras.",
+      "Se encontró con Moash en Revolar ocupada por cantores.",
+      "Trabajaba como guardia del brillante señor Paladar.",
+      "Su trabajo: mantener gente alejada de las tiendas y alertar de soldados capturados.",
+      "Se sorprendió al ver a Moash vivo — lo daba por muerto.",
+      "Llevó a Moash ante Paladar.",
+      "El silencio de Moash hizo que Guff fuera golpeado y sustituido.",
+      "Mencionado en Juramentada capítulo 45."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — fue sustituido como guardia de Paladar",
+    "rol": "Viejo amigo de Moash que lo llevó ante Paladar en Revolar — a costa suya",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Carretero malhablado, viejo amigo de Moash. En Revolar ocupada, trabajaba para el brillante señor Paladar. Al llevar a Moash ante él, fue golpeado y sustituido cuando Moash no habló.",
+  "notas": "Mencionado en Juramentada capítulo 45. Su lealtad a Moash le costó cara — aunque Moash no buscaba favorecerle sino sobrevivir."
+}

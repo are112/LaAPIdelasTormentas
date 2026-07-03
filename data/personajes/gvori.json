@@ -1,0 +1,96 @@
+{
+  "id": "gvori",
+  "nombre": "Gvori",
+  "nombre_completo": "Gvori",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Kharbranth",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Escuela de las Tormentas de Kharbranth — estudiante",
+    "Familia de Taravangian"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — aceptada en la Escuela de las Tormentas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Nieta mayor de Taravangian",
+      "Estudiante en la Escuela de las Tormentas de Kharbranth",
+      "No era consciente del Diagrama"
+    ],
+    "descripcion": "Nieta mayor de Taravangian. Parientes: Karavangia, Ruli, la nieta de Taravangian y Savrahalidem. Fue aceptada en la Escuela de las Tormentas de Kharbranth en torno a la llegada de la Verdadera Desolación. No era consciente de la existencia del Diagrama ni de las actividades secretas de su abuelo.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "taravangian",
+        "relacion": "abuelo — Gvori no sabía nada de sus actividades en el Diagrama"
+      },
+      {
+        "personaje": "Karavangia",
+        "relacion": "pariente"
+      },
+      {
+        "personaje": "Ruli",
+        "relacion": "pariente"
+      },
+      {
+        "personaje": "Savrahalidem",
+        "relacion": "pariente"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa. No era consciente del Diagrama — vivía ajena a los secretos de su abuelo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Nieta mayor de Taravangian. Fue aceptada en la Escuela de las Tormentas de Kharbranth en torno a la Verdadera Desolación. No era consciente del Diagrama. Juramentada capítulo 122.",
+    "puntos_clave": [
+      "Nieta mayor de Taravangian.",
+      "Aceptada en la Escuela de las Tormentas de Kharbranth.",
+      "No era consciente del Diagrama.",
+      "Parientes: Karavangia, Ruli, nieta de Taravangian, Savrahalidem.",
+      "Mencionada en Juramentada capítulo 122."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Estudiante en la Escuela de las Tormentas",
+    "rol": "Nieta inocente de Taravangian — ajena a sus planes",
+    "relacion_con_spren": "",
+    "otros_detalles": "La Coppermind indica que la página necesita actualización con información de VyV."
+  },
+  "descripcion_breve": "Nieta mayor de Taravangian. Aceptada en la Escuela de las Tormentas de Kharbranth. No era consciente del Diagrama ni de las actividades secretas de su abuelo.",
+  "notas": "Mencionada en Juramentada capítulo 122. La Coppermind indica que la página necesita actualización con información de VyV."
+}

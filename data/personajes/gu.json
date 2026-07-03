@@ -1,0 +1,98 @@
+{
+  "id": "gu",
+  "nombre": "Gu",
+  "nombre_completo": "Gu",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "lagopureña",
+  "origen": "Lagopuro, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario — interludio",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guía de flotas del Mar Reshi"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — guía de flotas experto en el Mar Reshi, capaz de esquivar árboles submarinos",
+      "Idiomas — habla bien el thayleño y algo de reshi",
+      "Conocimiento de los Tai-na — cree que son sapientes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Guía de flotas lagopureño del Mar Reshi",
+      "El que guió el convoy de Vstim a la isla Tai-na — y se divirtió cuando Rysn descubrió que era un grancaparazón"
+    ],
+    "descripcion": "Guía de flotas en el Mar Reshi, de Lagopuro. Piel curtida, extremidades largas y pelo oscuro. Casi siempre mantiene una postura relajada. Rysn asumió que era lagopureño, aunque no mencionó a Vun Makak. Muy tranquilo — muestra apatía hacia la puntualidad y los horarios, típica de los lagopureños. Habla bien el thayleño y al menos algo de reshi. Navega hábilmente por las aguas del Mar Reshi sin chocar con árboles submarinos. Rema despacio, siempre por un lado de la barca, pero mantiene la embarcación recta. Cree que los Tai-na son sapientes. Guió el convoy del rebsk Vstim (que incluía a Rysn, Kylrm y Nlent) hasta una isla reshi. Señaló que últimamente las islas eran más difíciles de encontrar porque se movían inesperadamente. Se divirtió cuando Rysn descubrió que la isla era en realidad un enorme grancaparazón, un Tai-na.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "Rysn era parte del convoy que guió — se divirtió cuando ella descubrió que la isla era un Tai-na"
+      },
+      {
+        "personaje": "vstim",
+        "relacion": "rebsk cuyo convoy guió al Mar Reshi"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Tranquilo y relajado — típico lagopureño con apatía hacia los horarios. Disfruta cuando los viajeros descubren la naturaleza de los Tai-na.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Guía de flotas lagopureño del Mar Reshi. Guió el convoy de Vstim — con Rysn, Kylrm y Nlent — a una isla reshi. Señaló que las islas se movían inesperadamente. Se divirtió cuando Rysn descubrió que la isla era un enorme Tai-na. Cree que los Tai-na son sapientes. ECdR interludio I-1 y PR interludio I-3.",
+    "puntos_clave": [
+      "Guía de flotas lagopureño del Mar Reshi.",
+      "Piel curtida, extremidades largas, pelo oscuro, postura relajada.",
+      "Apatía hacia la puntualidad — típico lagopureño.",
+      "Habla bien el thayleño y algo de reshi.",
+      "Navega hábilmente evitando árboles submarinos.",
+      "Cree que los Tai-na son sapientes.",
+      "Guió el convoy de Vstim con Rysn, Kylrm y Nlent.",
+      "Las islas eran más difíciles de encontrar porque se movían inesperadamente.",
+      "Se divirtió cuando Rysn descubrió que la isla era un Tai-na.",
+      "Mencionado en ECdR interludio I-1 y PR interludio I-3."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guía de flotas en el Mar Reshi",
+    "rol": "Guía que llevó a Rysn al primer Tai-na que visitó",
+    "relacion_con_spren": "",
+    "otros_detalles": "Cree que los Tai-na son sapientes."
+  },
+  "descripcion_breve": "Guía de flotas lagopureño del Mar Reshi. Tranquilo y relajado. Guió el convoy de Vstim a una isla que resultó ser un Tai-na. Se divirtió cuando Rysn lo descubrió. Cree que los Tai-na son sapientes.",
+  "notas": "Aparece en ECdR interludio I-1 y PR interludio I-3. Es el primer contacto de Rysn con el mundo de los Tai-na — su reacción divertida ante el asombro de Rysn es un momento memorable."
+}

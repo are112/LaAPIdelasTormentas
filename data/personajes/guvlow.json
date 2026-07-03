@@ -1,0 +1,77 @@
+{
+  "id": "guvlow",
+  "nombre": "Guvlow",
+  "nombre_completo": "Guvlow",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — escribió el libro Encarnado durante la Era de la Soledad",
+      "Historiografía — preservó una cita del 'poema de la séptima mañana', de otra forma perdido"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito y autor roshario de la Era de la Soledad",
+      "El que escribió Encarnado — libro que preservó una cita del 'poema de la séptima mañana' de otro modo perdido"
+    ],
+    "descripcion": "Erudito y autor de Roshar durante la Era de la Soledad. Escribió un libro llamado Encarnado, considerado en general fiable por los eruditos. El libro contenía una cita del 'poema de la séptima mañana', un antiguo poema que por lo demás se había perdido. La cita era de un Radiante Custodio de la Piedra llamado Talatin, y abordaba la dificultad de luchar contra los Portadores del Vacío. Jasnah Kholin estudió Encarnado durante su investigación sobre los Portadores del Vacío.",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — erudito y compilador histórico.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito de la Era de la Soledad que escribió Encarnado, considerado fiable por los académicos. El libro conservó una cita del 'poema de la séptima mañana' — de otro modo perdido — de un Custodio de la Piedra llamado Talatin, sobre la dificultad de luchar contra los Portadores del Vacío. Jasnah lo estudió en su investigación. ECdR capítulo 33 epígrafe.",
+    "puntos_clave": [
+      "Erudito y autor roshario de la Era de la Soledad.",
+      "Escribió Encarnado — considerado fiable por los eruditos.",
+      "El libro conservó una cita del 'poema de la séptima mañana', de otro modo perdido.",
+      "La cita era del Custodio de la Piedra Talatin sobre la dificultad de luchar contra Portadores del Vacío.",
+      "Jasnah lo estudió en su investigación sobre los Portadores del Vacío.",
+      "Mencionado en ECdR capítulo 33 epígrafe."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Autor de Encarnado — fuente erudita de Jasnah sobre los Portadores del Vacío",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito roshario de la Era de la Soledad. Escribió Encarnado, que preservó una cita del 'poema de la séptima mañana' — de otro modo perdido — sobre los Portadores del Vacío. Jasnah lo estudió en su investigación.",
+  "notas": "Mencionado en ECdR capítulo 33 epígrafe. Su libro Encarnado es una fuente académica respetada que preservó un fragmento poético de otra forma irrecuperable."
+}

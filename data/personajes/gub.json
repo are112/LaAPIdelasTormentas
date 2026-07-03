@@ -1,0 +1,86 @@
+{
+  "id": "gub",
+  "nombre": "Gub",
+  "nombre_completo": "Gub",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Urithiru, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alfarería del maestro Liganor en Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Alfarería — jornalero alfarero especializado en vidriado",
+      "Vidriado — hace el vidriado en sustitución del maestro Liganor"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alfarero jornalero en Urithiru — hace el vidriado en la alfarería del maestro Liganor",
+      "Compañero de trabajo de Alalan"
+    ],
+    "descripcion": "Alfarero jornalero en Urithiru. Trabaja junto a Alalan en la alfarería del maestro Liganor. Antes Liganor se encargaba de todo el trabajo de vidriado, pero ahora Gub lo hace en su lugar. Aparece en el interludio de Lift en RdG.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "alalan",
+        "relacion": "compañero de trabajo en la alfarería de Liganor"
+      },
+      {
+        "personaje": "Liganor",
+        "relacion": "maestro alfarero — Gub hace el vidriado que antes hacía Liganor"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Alfarero jornalero en Urithiru. Trabaja con Alalan en la alfarería de Liganor. Hace el vidriado en sustitución del maestro. RdG interludio I-11.",
+    "puntos_clave": [
+      "Alfarero jornalero en Urithiru.",
+      "Trabaja junto a Alalan en la alfarería del maestro Liganor.",
+      "Hace el vidriado que antes hacía Liganor.",
+      "Mencionado en RdG interludio I-11."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alfarero jornalero — vidriado en la alfarería de Liganor",
+    "rol": "Artesano menor de Urithiru — interludio de Lift",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Alfarero jornalero en Urithiru. Trabaja con Alalan en la alfarería del maestro Liganor. Hace el vidriado en sustitución del maestro.",
+  "notas": "Mencionado en RdG interludio I-11 — el interludio de Lift en Urithiru."
+}

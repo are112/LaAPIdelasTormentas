@@ -1,0 +1,88 @@
+{
+  "id": "granjero",
+  "nombre": "Granjero",
+  "nombre_completo": "El Granjero",
+  "apodos": [
+    "colores-nimi (apodo de Szeth)"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "shin",
+  "origen": "Shinovar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Liderazgo shin — líder granjero"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo — líder granjero shin",
+      "Filosofía moral — reflexionó sobre la distinción entre humanos y animales en relación a los spren"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Líder granjero shin — viste túnica multicolor",
+      "El que respondió a Szeth sobre la distinción entre el bien y el mal: la diferencia entre humanos y animales reside en la influencia de los spren",
+      "El que animó a la familia de Szeth a enviarlo a entrenarse como soldado"
+    ],
+    "descripcion": "Líder entre los shin en Roshar. Viste una túnica multicolor. Szeth se refería a él como 'colores-nimi'. Durante una invasión de asaltantes antes de la Verdadera Desolación, Szeth le preguntó cómo saber lo que está bien o mal. El Granjero respondió que la distinción entre la especie humana y los animales radica en la influencia de los spren sobre estos últimos — una cuestión que, a su juicio, no admitía una respuesta sencilla. Szeth no quedó completamente satisfecho y siguió buscando guía moral. Más tarde, después de que Szeth matase por primera vez, el Granjero animó a la familia de Szeth a enviarlo a entrenarse como soldado. Tiene un hijo que es su sucesor.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Granjero sucesor",
+        "relacion": "hijo — sucesor en el cargo de granjero"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Reflexivo y filosófico. Sus respuestas a Szeth sobre el bien y el mal muestran una mente que no busca respuestas simples sino que acepta la complejidad moral.",
+    "evolucion": "Sin arco propio.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Líder granjero shin. Szeth le preguntó cómo distinguir el bien del mal durante una invasión de asaltantes. Respondió que la diferencia entre humanos y animales está en la influencia de los spren — sin respuesta sencilla. Animó a la familia de Szeth a enviarlo a entrenarse como soldado tras la primera muerte de este. VyV capítulos 36 y 42.",
+    "puntos_clave": [
+      "Líder granjero shin — túnica multicolor. Szeth lo llamaba 'colores-nimi'.",
+      "Szeth le preguntó cómo distinguir el bien del mal.",
+      "Respondió que la diferencia entre humanos y animales está en la influencia de los spren — sin respuesta sencilla.",
+      "Szeth no quedó satisfecho y siguió buscando guía moral.",
+      "Animó a la familia de Szeth a enviarlo a entrenarse como soldado tras su primera muerte.",
+      "Tiene un hijo que es su sucesor.",
+      "Mencionado en VyV capítulos 36 y 42."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Líder granjero shin",
+    "rol": "Figura filosófica que influyó en el camino de Szeth como soldado",
+    "relacion_con_spren": "",
+    "otros_detalles": "Túnica multicolor. Llamado 'colores-nimi' por Szeth."
+  },
+  "descripcion_breve": "Líder granjero shin de túnica multicolor. Respondió a Szeth que la distinción entre humanos y animales reside en la influencia de los spren. Animó a la familia de Szeth a enviarlo a entrenarse como soldado.",
+  "notas": "Su respuesta filosófica a Szeth sobre el bien y el mal es uno de los temas centrales del arco de Szeth — la búsqueda de una guía moral exterior que Szeth nunca encontró del todo satisfactoria."
+}

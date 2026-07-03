@@ -1,0 +1,77 @@
+{
+  "id": "gregorh",
+  "nombre": "Gregorh",
+  "nombre_completo": "Gregorh",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo — fue rey de su tierra"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Rey joven de Roshar cuya historia fue infame durante la Era de la Soledad",
+      "El que comenzó una guerra sin sentido con antiguos aliados de su padre — símbolo de la inmadurez juvenil destructiva"
+    ],
+    "descripcion": "Joven rey que gobernaba una tierra desconocida en Roshar. Se convirtió en rey muy joven. Comenzó una guerra sin sentido contra reinos que antes habían sido aliados de su padre. Su historia y sus insensatas acciones fueron infames durante la Era de la Soledad. En 1173, Shallan Davar lo citó ante Jasnah Kholin para demostrar que la inmadurez juvenil no siempre es un catalizador positivo para el cambio. Jasnah respondió: 'Solo hubo un Gregorh, afortunadamente.'",
+    "estado_en_viento_y_verdad": "Fallecido — figura histórica."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Inmaduro y destructivo. Sus acciones de joven rey causaron guerras innecesarias. Figura histórica de advertencia sobre la inmadurez en el poder.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Joven rey cuya historia fue infame. Comenzó guerras innecesarias contra antiguos aliados. Shallan lo citó ante Jasnah como ejemplo de que la inmadurez juvenil no siempre es positiva. Jasnah: 'Solo hubo un Gregorh, afortunadamente.' ECdR capítulo 29.",
+    "puntos_clave": [
+      "Joven rey de una tierra desconocida en Roshar.",
+      "Se convirtió en rey muy joven.",
+      "Comenzó una guerra sin sentido contra antiguos aliados de su padre.",
+      "Su historia fue infame durante la Era de la Soledad.",
+      "Shallan lo citó ante Jasnah como ejemplo de inmadurez juvenil destructiva.",
+      "Jasnah: 'Solo hubo un Gregorh, afortunadamente.'",
+      "Mencionado en ECdR capítulo 29."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura histórica",
+    "rol": "Figura histórica de advertencia sobre la inmadurez en el poder",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Joven rey de Roshar cuya historia fue infame. Comenzó guerras innecesarias contra antiguos aliados de su padre. Shallan lo citó como ejemplo de inmadurez destructiva. Jasnah: 'Solo hubo un Gregorh, afortunadamente.'",
+  "notas": "La frase de Jasnah — 'Solo hubo un Gregorh, afortunadamente' — es uno de los momentos de humor seco más memorables de ECdR."
+}

@@ -5,20 +5,22 @@
   "apodos": [],
   "sexo": "masculino",
   "especie": "humano",
-  "nacionalidad": "tashikki",
-  "origen": "Yeddaw, Tashikk",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
   "planeta_natal": "Roshar",
   "estado_actual": "fallecido",
   "apariciones": {
     "libros": [
       {
-        "titulo": "Palabras Radiantes",
-        "rol": "secundario",
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
         "pov": false
       }
     ]
   },
-  "afiliaciones": [],
+  "afiliaciones": [
+    "Bajos fondos de Kholinar — grupo de Ma y Seland"
+  ],
   "orden_radiantes": {
     "orden": "Ninguna",
     "nivel_ideal": null,
@@ -33,56 +35,61 @@
       "fuente_de_luz": ""
     },
     "no_magicas": [
-      "Supervivencia en la calle — niño de la calle en Yeddaw"
+      "Dibujo — se entretenía dibujando",
+      "Reciclaje artesanal — recuperaba cuero de cerdo de zapatos viejos"
     ]
   },
   "identidades": {
     "principales": [
-      "Niño de la calle en Yeddaw",
-      "El que recibió comida de Lift — y murió"
+      "Granuja de Kholinar durante el Asedio",
+      "El que murió asesinado por los Agarrones — cuya muerte causó una profunda reflexión en Shallan sobre sus buenas intenciones convertidas en arrogancia"
     ],
-    "descripcion": "Niño de la calle en Yeddaw, gordo a pesar de vivir en la calle. Lift lo conoció cuando buscaba a los pillastres de la ciudad para obtener información. Le dio de comer. Murió — Nale lo ejecutó porque robó una cesta de fruta. Su muerte devastó a Lift — fue una sombra de sus buenas intenciones convertidas en arrogancia.",
-    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+    "descripcion": "Granuja de Kholinar durante el Asedio a Kholinar en la Verdadera Desolación. Ojos verdes oscuros y una mano deforme. Normalmente mugriento y generalmente aceptaba su posición en la vida. Se entretenía dibujando o haciendo pequeños trabajos — como recuperar cuero de cerdo de zapatos viejos. Vivía con Ma y Seland en una tienda abandonada del mercado de Ringington dañada por la tormenta eterna. Merodeaba por los Ahorros seguros. Fue asesinado por los Agarrones en Nanaches de 1174. Shallan reflexionó sobre su muerte: 'Allí, hecha un ovillo en el suelo, la muerte de Grund se le antojó una sombra de todo lo demás, de sus buenas intenciones convertidas en arrogancia.'",
+    "estado_en_viento_y_verdad": "Fallecido — Nanaches 1174."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
       {
-        "personaje": "lift",
-        "relacion": "le dio de comer; su muerte devastó a Lift"
+        "personaje": "Ma",
+        "relacion": "convivía con él y Seland en una tienda del mercado de Ringington"
+      },
+      {
+        "personaje": "Seland",
+        "relacion": "convivía con él y Ma en una tienda del mercado de Ringington"
       }
     ],
     "enemigos": [
       {
-        "personaje": "nale",
-        "relacion": "Nale lo ejecutó con su hoja esquirlada tras robar una cesta de fruta"
+        "personaje": "Agarrones",
+        "relacion": "fueron quienes lo asesinaron en Nanaches 1174"
       }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "Sin información suficiente — niño de la calle.",
-    "evolucion": "Sin arco propio — muere en su primera aparición significativa.",
+    "diagnostico_general": "Resignado pero no infeliz. Aceptaba su posición en la vida. Se entretenía con actividades creativas y prácticas.",
+    "evolucion": "Sin arco propio — su muerte fue el punto narrativo significativo.",
     "situacion_en_viento_y_verdad": "Fallecido."
   },
   "arco_narrativo": {
-    "resumen": "Grund era un niño gordo de la calle en Yeddaw. Lift lo conoció al buscar información de los pillastres. Le dio de comer. Poco después, Grund robó una cesta de fruta de un mercado — Nale lo capturó y cuando él sacó un cuchillo, Nale lo mató con su hoja esquirlada. Lift intentó salvarlo pero Wyndle le explicó que una hoja esquirlada mata más rápido de lo que sus poderes pueden revertir. Su muerte fue una sombra de las buenas intenciones de Lift convertidas en arrogancia.",
+    "resumen": "Granuja de Kholinar con ojos verdes y mano deforme. Vivía con Ma y Seland en una tienda del mercado de Ringington. Merodeaba los Ahorros seguros. Fue asesinado por los Agarrones en Nanaches de 1174. Su muerte hizo reflexionar a Shallan sobre sus propias buenas intenciones convertidas en arrogancia.",
     "puntos_clave": [
-      "Niño de la calle en Yeddaw — gordo a pesar de sus circunstancias.",
-      "Lift lo conoció al buscar información de los pillastres de la ciudad.",
-      "Lift le dio de comer.",
-      "Robó una cesta de fruta de un mercado.",
-      "Nale lo capturó — cuando Grund sacó un cuchillo, Nale lo mató con su hoja esquirlada.",
-      "Lift intentó salvarlo pero Wyndle le explicó que era imposible — una hoja esquirlada mata demasiado rápido.",
-      "Su muerte devastó a Lift — fue una sombra de sus buenas intenciones convertidas en arrogancia.",
-      "Shallan, cuando se deprimió por su papel en la muerte de Grund, pensó que Yalb también estaba muerto."
+      "Granuja de Kholinar durante el Asedio — ojos verdes oscuros, mano deforme.",
+      "Normalmente mugriento pero acepta su posición en la vida.",
+      "Se entretenía dibujando y recuperando cuero de cerdo de zapatos viejos.",
+      "Vivía con Ma y Seland en una tienda del mercado de Ringington dañada por la tormenta eterna.",
+      "Merodeaba por los Ahorros seguros.",
+      "Asesinado por los Agarrones en Nanaches de 1174.",
+      "Su muerte causó profunda reflexión en Shallan: 'sus buenas intenciones convertidas en arrogancia'.",
+      "Mencionado en Juramentada capítulos 67, 72, 74, 80 y 82."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Fallecido",
-    "rol": "Su muerte enseñó a Lift los límites de sus poderes y las consecuencias de la arrogancia",
+    "ocupacion": "Fallecido — Nanaches 1174",
+    "rol": "Granuja de Kholinar cuya muerte fue un punto de inflexión para Shallan sobre la arrogancia de sus buenas intenciones",
     "relacion_con_spren": "",
-    "otros_detalles": "Su muerte es el momento más oscuro de Danzante del Filo — muestra que Lift no puede salvar a todos."
+    "otros_detalles": ""
   },
-  "descripcion_breve": "Niño de la calle en Yeddaw al que Lift dio de comer. Asesinado por Nale con una hoja esquirlada tras robar fruta. Lift no pudo salvarlo. Su muerte fue una sombra de sus buenas intenciones convertidas en arrogancia.",
-  "notas": "La muerte de Grund es el momento más oscuro de Danzante del Filo. Wyndle le explicó a Lift que una hoja esquirlada mata más rápido de lo que sus poderes pueden revertir — lección brutal sobre los límites de su poder."
+  "descripcion_breve": "Granuja de Kholinar con ojos verdes y mano deforme. Vivía con Ma y Seland. Asesinado por los Agarrones. Su muerte hizo reflexionar a Shallan sobre sus buenas intenciones convertidas en arrogancia.",
+  "notas": "Su muerte y la reflexión de Shallan son uno de los momentos más significativos del arco de Shallan en Juramentada."
 }
