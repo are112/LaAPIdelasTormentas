@@ -1,0 +1,78 @@
+{
+  "id": "hem",
+  "nombre": "Hem",
+  "nombre_completo": "Hem",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Urithiru, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Deber de Jez — sección Diez Anillos, Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Hostelería — camarera en El Deber de Jez"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Camarera joven en El Deber de Jez, sección Diez Anillos de Urithiru",
+      "La que Velo y Adolin señalaron como posible interés romántico para Kaladin — sin éxito"
+    ],
+    "descripcion": "Camarera joven en El Deber de Jez, en la sección Diez Anillos de Urithiru. Alta, con pelo inusualmente claro. Velo (Shallan) y Adolin la consideraban atractiva a pesar de su poco favorecedor uniforme de trabajo. La señalaron como posible aventura romántica para Kaladin, que no mostró interés. Mencionada en RdG capítulo 12.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Camarera joven y alta en El Deber de Jez, Urithiru. Pelo inusualmente claro. Velo y Adolin la señalaron como posible interés romántico para Kaladin, que no mostró interés. RdG capítulo 12.",
+    "puntos_clave": [
+      "Camarera en El Deber de Jez — sección Diez Anillos, Urithiru.",
+      "Joven, alta, pelo inusualmente claro.",
+      "Velo y Adolin la consideraban atractiva pese al uniforme.",
+      "La señalaron como posible interés romántico para Kaladin.",
+      "Kaladin no mostró interés.",
+      "Mencionada en RdG capítulo 12."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Camarera en El Deber de Jez, Urithiru",
+    "rol": "Personaje menor señalado como posible interés de Kaladin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Camarera joven y alta en El Deber de Jez, Urithiru. Pelo inusualmente claro. Velo y Adolin la señalaron como posible interés romántico para Kaladin — que no mostró interés.",
+  "notas": "Mencionada en RdG capítulo 12."
+}

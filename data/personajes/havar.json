@@ -1,0 +1,106 @@
+{
+  "id": "havar",
+  "nombre": "Havar",
+  "nombre_completo": "Havar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Kholin — brillante señor, comandante de la retaguardia"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — comandante de la retaguardia del ejército Kholin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Brillante señor alezi, comandante de la retaguardia del ejército Kholin",
+      "Buen amigo de Dalinar y Adolin — murió en la Batalla de la Torre en 1173"
+    ],
+    "descripcion": "Brillante señor alezi con barba. Buen soldado que hacía bien su trabajo. Comandante de la retaguardia del ejército Kholin en las Llanuras Quebradas. Buen amigo tanto de Dalinar como de Adolin Kholin. En 1173, luchó en la Batalla de la Torre donde el ejército Kholin fue traicionado por Sadeas. Recibió una grave herida en el vientre. Sobrevivió lo suficiente para ser rescatado por el Puente Cuatro pero murió poco después tosiendo sangre. Kaladin ascendió a Nacomb Gaval para sustituirle temporalmente y evacuar la Torre. Su muerte, junto con la de Perethon e Ilamar, fue una de las cerca de seis mil bajas Kholin en los combates. La muerte de Havar fue una de las fuentes del odio de Adolin hacia Sadeas. Acompañó a Dalinar a un antro de musgoardiente la noche en que nació Adolin.",
+    "estado_en_viento_y_verdad": "Fallecido — Tanatashev 1173."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "buen amigo — lo acompañó la noche del nacimiento de Adolin"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "buen amigo — su muerte fue una de las fuentes del odio de Adolin hacia Sadeas"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "sadeas",
+        "relacion": "Sadeas traicionó al ejército Kholin en la Batalla de la Torre — causando la muerte de Havar"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Buen soldado leal al ejército Kholin.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Comandante de la retaguardia del ejército Kholin. Buen amigo de Dalinar y Adolin. En la Batalla de la Torre, traicionada por Sadeas, recibió herida grave en el vientre. Sobrevivió para ser rescatado por el Puente Cuatro pero murió tosiendo sangre. Kaladin ascendió a Nacomb Gaval para sustituirle. Su muerte fue una de las fuentes del odio de Adolin hacia Sadeas. Tanatashev 1173.",
+    "puntos_clave": [
+      "Brillante señor alezi con barba — comandante de la retaguardia del ejército Kholin.",
+      "Buen amigo de Dalinar y Adolin.",
+      "Acompañó a Dalinar a un antro de musgoardiente la noche del nacimiento de Adolin.",
+      "En la Batalla de la Torre, recibió herida grave en el vientre.",
+      "Sobrevivió para ser rescatado por el Puente Cuatro.",
+      "Murió poco después tosiendo sangre.",
+      "Kaladin ascendió a Nacomb Gaval para sustituirle y evacuar la Torre.",
+      "Murió en Tanatashev 1173 — una de las seis mil bajas Kholin.",
+      "Su muerte fue una de las fuentes del odio de Adolin hacia Sadeas.",
+      "Mencionado en ECdR capítulo 68; PR capítulo 37; Juramentada capítulo 49."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — Tanatashev 1173",
+    "rol": "Comandante de la retaguardia Kholin cuya muerte reforzó el odio de Adolin hacia Sadeas",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Brillante señor alezi, comandante de la retaguardia del ejército Kholin. Buen amigo de Dalinar y Adolin. Murió en la Batalla de la Torre tras ser traicionados por Sadeas. Su muerte fue una de las fuentes del odio de Adolin.",
+  "notas": "Mencionado en ECdR capítulo 68, PR capítulo 37 y Juramentada capítulo 49."
+}

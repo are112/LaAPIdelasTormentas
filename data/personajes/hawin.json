@@ -1,0 +1,87 @@
+{
+  "id": "hawin",
+  "nombre": "Hawin",
+  "nombre_completo": "Hawin",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Posiblemente Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Clínica de Lirin en Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Lectura de textos médicos",
+      "Asistencia clínica — ayudante de Kaladin en la clínica de Lirin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Joven residente de Urithiru — 'chica del pueblo' según Kaladin, posiblemente evacuada de Piedralar",
+      "Ayudante de Kaladin en la clínica de Lirin en Urithiru"
+    ],
+    "descripcion": "Joven residente de Urithiru. Kaladin se refiere a ella como una 'chica del pueblo' — es probable que sea una de las personas evacuadas de Piedralar durante la ocupación cantor. Trabajaba en la clínica de Lirin en la torre y a veces actuaba como ayudante de Kaladin: podía leer textos médicos a Kaladin y realizar tareas como ir a buscar a los pacientes a la sala de espera. Mencionada en RdG capítulo 23.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su supervisor — a veces le ayudaba en la clínica"
+      },
+      {
+        "personaje": "lirin",
+        "relacion": "médico en cuya clínica trabajaba"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Joven de Urithiru, posiblemente evacuada de Piedralar. Trabajaba en la clínica de Lirin y a veces ayudaba a Kaladin — leía textos médicos e iba a buscar pacientes. RdG capítulo 23.",
+    "puntos_clave": [
+      "Joven de Urithiru — Kaladin la llama 'chica del pueblo'.",
+      "Probablemente evacuada de Piedralar.",
+      "Trabajaba en la clínica de Lirin en la torre.",
+      "A veces ayudaba a Kaladin — leía textos médicos e iba a buscar pacientes.",
+      "Mencionada en RdG capítulo 23."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Asistente en la clínica de Lirin en Urithiru",
+    "rol": "Ayudante de Kaladin en la clínica de Lirin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Joven residente de Urithiru, posiblemente evacuada de Piedralar. Trabajaba en la clínica de Lirin y a veces ayudaba a Kaladin leyendo textos médicos e yendo a buscar pacientes.",
+  "notas": "Mencionada en RdG capítulo 23."
+}

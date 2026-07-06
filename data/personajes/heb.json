@@ -1,0 +1,98 @@
+{
+  "id": "heb",
+  "nombre": "Heb",
+  "nombre_completo": "Heb",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "natanatana",
+  "origen": "Natanatan, Roshar (octava Época Heráldica)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario — visión de Dalinar",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario — visión de Fen",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Hombre de Natanatan durante la octava Época Heráldica",
+      "La persona que Dalinar (y luego Fen) suplantó en la Visión de la Lluvia de Estrellas",
+      "Esposo de Taffa, padre de Seeli — probablemente murió en el ataque de la Esencia de Medianoche"
+    ],
+    "descripcion": "Hombre de Natanatan durante la octava Época Heráldica. Casado con Taffa, padre de Seeli. Taffa dijo de él: 'Nunca ha visto una espada, por lo que yo sé.' Su aldea fue atacada por la Esencia de Medianoche en el año 337 de la Octava Época. Estaba separado de su hija Seeli, y Taffa le envió a buscarla. Logró encontrarla en el granero, aunque estaban rodeados por la Esencia de Medianoche. Es la persona que Dalinar suplantó en la Visión de la Lluvia de Estrellas y que más tarde también suplantó Fen. En la versión de Dalinar, consiguió luchar y su familia fue rescatada por el Corredor del Viento de Lluvia de Estrellas. En la versión de Fen, Heb abandona a su familia y organiza una resistencia. Dado que era un civil sin experiencia en armas, probablemente murió cuando la Esencia de Medianoche atacó el granero.",
+    "estado_en_viento_y_verdad": "Fallecido — octava Época Heráldica."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Taffa",
+        "relacion": "esposa — le envió a buscar a Seeli durante el ataque de la Esencia de Medianoche"
+      },
+      {
+        "personaje": "Seeli",
+        "relacion": "hija — fue a buscarla al granero durante el ataque"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Esencia de Medianoche",
+        "relacion": "atacó su aldea — rodeó el granero donde estaba con Seeli"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Civil sin experiencia en armas. En la visión de Dalinar luchó con valentía; en la de Fen, organizó una resistencia. Pero en la realidad probablemente murió.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Hombre de Natanatan durante la octava Época Heráldica. Su aldea fue atacada por la Esencia de Medianoche. Fue a buscar a su hija Seeli al granero — la encontró pero estaban rodeados. Es la persona que Dalinar y luego Fen suplantaron en visiones. En la versión de Dalinar luchó y su familia fue rescatada por Radiantes. En la versión de Fen organizó una resistencia. En realidad, como civil sin armas, probablemente murió.",
+    "puntos_clave": [
+      "Hombre de Natanatan — octava Época Heráldica.",
+      "Casado con Taffa, padre de Seeli.",
+      "Taffa: 'Nunca ha visto una espada, por lo que yo sé.'",
+      "Su aldea fue atacada por la Esencia de Medianoche — año 337 de la Octava Época.",
+      "Taffa le envió a buscar a Seeli — la encontró en el granero, rodeados por la Esencia.",
+      "Es la persona que Dalinar suplantó en la Visión de la Lluvia de Estrellas.",
+      "En la versión de Dalinar: luchó y su familia fue rescatada por el Corredor del Viento de Lluvia de Estrellas.",
+      "En la versión de Fen: abandonó a su familia y organizó una resistencia.",
+      "En realidad probablemente murió — era un civil sin experiencia con armas.",
+      "Mencionado en ECdR capítulo 19 y Juramentada capítulo 34."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — octava Época Heráldica",
+    "rol": "El hombre que Dalinar y Fen suplantaron en las Visiones de la Lluvia de Estrellas",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Hombre de Natanatan durante la octava Época Heráldica. Casado con Taffa, padre de Seeli. La persona que Dalinar y Fen suplantaron en la Visión de la Lluvia de Estrellas. Probablemente murió en el ataque de la Esencia de Medianoche.",
+  "notas": "Mencionado en ECdR capítulo 19 y Juramentada capítulo 34. La visión de Heb es uno de los primeros contactos de Dalinar con el legado de Honor."
+}

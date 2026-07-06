@@ -1,0 +1,108 @@
+{
+  "id": "hav",
+  "nombre": "Hav",
+  "nombre_completo": "Hav",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Amaram — sargento y guardia personal"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado veterano alezi",
+      "Entrenamiento — formó a Kaladin como lancero y líder",
+      "Liderazgo — sargento del ejército de Amaram, guardia personal"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Sargento alezi y guardia personal de Meridas Amaram",
+      "El primer entrenador de combate de Kaladin — sus lecciones lo acompañaron toda la vida"
+    ],
+    "descripcion": "Sargento alezi en el ejército del Alto Mariscal Meridas Amaram y miembro de su guardia personal. Hombre de aspecto sólido, nariz gruesa y ancha, barba canosa. A menudo viste el uniforme del ejército de Amaram con takama tradicional. Cree que el servicio de guardia es una de las misiones más respetables que puede desempeñar un soldado. Muy protector — a veces en exceso. En 1168, tras el reclutamiento de Kaladin y Tien, Hav empezó a entrenar a Kaladin. Su entrenamiento era físicamente exigente. Le enseñó técnicas de lucha cuerpo a cuerpo, el componente mental del soldado, la importancia de la unidad del escuadrón, y a dividir mentalmente el campo de batalla en 'nosotros' y 'ellos'. Frase célebre: 'En el campo de batalla, el pánico mata a más hombres que las lanzas enemigas. Nunca huyas. Retírate.' Kaladin sigue oyendo su voz en su cabeza años después. Su destino tras la Batalla de la Explanada Thayleña es desconocido.",
+    "estado_en_viento_y_verdad": "Destino desconocido — no se lo menciona en la última resistencia de Amaram."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su principal pupilo — Hav entrenó a Kaladin desde recluta; sus lecciones lo acompañaron toda la vida"
+      },
+      {
+        "personaje": "amaram",
+        "relacion": "su comandante — guardia personal de Amaram"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Veterano experimentado con una filosofía militar sólida. Excelente maestro que inculca lecciones cruciales de supervivencia y liderazgo.",
+    "evolucion": "Sin arco propio — su influencia en Kaladin fue su legado.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Sargento alezi y guardia personal de Amaram. En 1168 comenzó a entrenar a Kaladin como lancero. Sus lecciones — técnicas de combate, mentalidad del soldado, unidad del escuadrón, distinción 'nosotros/ellos' — marcaron profundamente a Kaladin. Kaladin sigue oyendo su voz años después. En las Llanuras, Shallan lo encontró al intentar colarse en la casa de Amaram. Su destino tras la Batalla de la Explanada Thayleña es desconocido.",
+    "puntos_clave": [
+      "Sargento alezi y guardia personal de Amaram.",
+      "Nariz gruesa y ancha, barba canosa — aspecto sólido.",
+      "En 1168 comenzó a entrenar a Kaladin desde recluta.",
+      "Enseñó técnicas de combate cuerpo a cuerpo.",
+      "Enseñó la mentalidad del soldado: decisión, unidad, distinción 'nosotros/ellos'.",
+      "Frase: 'En el campo de batalla, el pánico mata a más hombres que las lanzas enemigas. Nunca huyas. Retírate.'",
+      "Kaladin sigue oyendo su voz años después — cree que estaría orgulloso de él.",
+      "En las Llanuras, Shallan lo encontró al intentar colarse en la casa de Amaram.",
+      "Destino desconocido tras la Batalla de la Explanada Thayleña.",
+      "Mencionado en ECdR capítulos 21 y 57; PR capítulos 15, 16, 44 y 52; Juramentada capítulos 6 y 10; RdG capítulos 9, 15, 59 y 70."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — sargento y guardia personal de Amaram",
+    "rol": "El formador de Kaladin como soldado y líder — su legado pervive en la voz que Kaladin oye",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Sargento alezi y guardia personal de Amaram. Primer entrenador de Kaladin — sus lecciones lo acompañaron toda la vida. 'Nunca huyas. Retírate.' Destino desconocido tras la Batalla de la Explanada Thayleña.",
+  "notas": "Uno de los personajes secundarios más influyentes de la saga — sus enseñanzas formaron a Kaladin como soldado y líder. Kaladin cree que Hav estaría orgulloso de él."
+}

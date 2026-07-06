@@ -1,0 +1,87 @@
+{
+  "id": "hathalash",
+  "nombre": "Hathalash",
+  "nombre_completo": "Hathalash",
+  "apodos": [
+    "brillante señor Hathalash (título que usa pero no le corresponde)"
+  ],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Alezkar, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Guía del mundo del Archivo de las tormentas",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores del Vacío — Regio"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Formas de Poder — Regio"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Combate — lucha con fervor para impresionar a los Fusionados"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Regio cantor ambicioso y violento que lucha en Alezkar durante la Verdadera Desolación",
+      "El que se hace llamar 'brillante señor' Hathalash aunque no lo es"
+    ],
+    "descripcion": "Regio cantor ambicioso y violento que lucha en Alezkar durante la Verdadera Desolación. Se esfuerza por impresionar a los Fusionados con su fervor, lo que lo ha llevado a chocar frecuentemente con los defensores de Karanak. Se hace llamar 'brillante señor' Hathalash, aunque en realidad no lo es.",
+    "estado_en_viento_y_verdad": "Activo — luchando en Alezkar."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "defensores de Karanak",
+        "relacion": "ha chocado frecuentemente con ellos en su afán por impresionar a los Fusionados"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ambicioso y violento. Motivado por el deseo de impresionar a los Fusionados. Su ambición lo lleva a excesos en combate.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Regio cantor que lucha en Alezkar durante la Verdadera Desolación. Ambicioso y violento — busca impresionar a los Fusionados. Choca frecuentemente con los defensores de Karanak. Se hace llamar 'brillante señor' sin serlo. Guía del mundo del Archivo de las tormentas.",
+    "puntos_clave": [
+      "Regio cantor — portador de Formas de Poder.",
+      "Lucha en Alezkar durante la Verdadera Desolación.",
+      "Ambicioso y violento — quiere impresionar a los Fusionados.",
+      "Ha chocado frecuentemente con los defensores de Karanak.",
+      "Se hace llamar 'brillante señor' Hathalash aunque no lo es.",
+      "Mencionado en la Guía del mundo del Archivo de las tormentas, página 152."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Regio cantor — luchando en Alezkar",
+    "rol": "Regio ambicioso que busca impresionar a los Fusionados en Alezkar",
+    "relacion_con_spren": "",
+    "otros_detalles": "Se hace llamar 'brillante señor' sin serlo."
+  },
+  "descripcion_breve": "Regio cantor ambicioso y violento que lucha en Alezkar durante la Verdadera Desolación. Busca impresionar a los Fusionados — ha chocado frecuentemente con los defensores de Karanak. Se hace llamar 'brillante señor' aunque no lo es.",
+  "notas": "Mencionado en la Guía del mundo del Archivo de las tormentas, página 152."
+}

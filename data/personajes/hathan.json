@@ -1,0 +1,82 @@
+{
+  "id": "hathan",
+  "nombre": "Hathan",
+  "nombre_completo": "Hathan",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor — flashback de Dalinar",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Casa Kholin — maestro de sirvientes de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Servicio — maestro de sirvientes y mayordomo de las habitaciones de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Maestro de sirvientes y mayordomo de las habitaciones de Dalinar y Evi en Kholinar c. 1150",
+      "El que anunció la llegada de Gavilar cuando vino a confrontar a Dalinar sobre la muerte de Tanalan"
+    ],
+    "descripcion": "Maestro de sirvientes y mayordomo de las habitaciones de Dalinar Kholin y Evi en Kholinar c. 1150. Hombre bajo, presumiblemente ojos oscuros. Fue el mayordomo de Dalinar y Evi unos años después de su matrimonio, cuando Evi estaba embarazada de Adolin. En 1150, cuando Gavilar vino a confrontar a Dalinar sobre si había matado al joven Tanalan, Hathan abrió la puerta y anunció su llegada.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su señor — mayordomo de sus habitaciones en Kholinar"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Maestro de sirvientes de Dalinar en Kholinar c. 1150. Anunció la llegada de Gavilar cuando vino a confrontar a Dalinar sobre la muerte de Tanalan. Juramentada capítulo 36.",
+    "puntos_clave": [
+      "Maestro de sirvientes y mayordomo de Dalinar y Evi en Kholinar.",
+      "Hombre bajo.",
+      "C. 1150 — cuando Evi estaba embarazada de Adolin.",
+      "Anunció la llegada de Gavilar cuando vino a confrontar a Dalinar sobre Tanalan.",
+      "Mencionado en Juramentada capítulo 36."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Maestro de sirvientes de Dalinar en Kholinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Maestro de sirvientes y mayordomo de Dalinar y Evi en Kholinar c. 1150. Anunció la llegada de Gavilar cuando vino a confrontar a Dalinar sobre la muerte de Tanalan.",
+  "notas": "Mencionado en Juramentada capítulo 36."
+}

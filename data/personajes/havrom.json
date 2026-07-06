@@ -1,0 +1,85 @@
+{
+  "id": "havrom",
+  "nombre": "Havrom",
+  "nombre_completo": "Havrom",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Kholin — jefe de batallón, Quinto Batallón"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando — jefe de batallón del ejército Kholin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Jefe de batallón alezi del ejército Kholin — Quinto Batallón",
+      "Constitución de torre, barba larga con barbilla afeitada en estilo comecuernos por ascendencia Unkalaki"
+    ],
+    "descripcion": "Jefe de batallón alezi en el ejército Kholin. Presumiblemente ojos claros del cuarto dahn. Tiene 'la constitución de una torre'. Lleva la barba larga con la barbilla bien afeitada — estilo tradicional comecuernos que lleva por su ascendencia Unkalaki. Exige a sus oficiales y soldados los elevados estándares del ejército Kholin. En 1173 comandaba el Quinto Batallón. Dalinar le envió un mensaje para que reuniese a los soldados interrogados por Sadeas sobre la correa rota de la montura de Elhokar — quería saber qué les había preguntado. Havrom se aseguró de que todo estuviera en orden cuando llegaron Dalinar y Adolin.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su comandante — cumplió sus órdenes de reunir a los soldados interrogados por Sadeas"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional y exigente. Cumple las órdenes con diligencia y mantiene los estándares del ejército Kholin.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Jefe de batallón del Quinto Batallón del ejército Kholin. Constitución de torre, barba comecuernos por ascendencia Unkalaki. En 1173, Dalinar le ordenó reunir a los soldados interrogados por Sadeas sobre la correa rota de la montura de Elhokar. Havrom lo organizó todo impecablemente. ECdR capítulo 28.",
+    "puntos_clave": [
+      "Jefe de batallón alezi del ejército Kholin — presumiblemente cuarto dahn.",
+      "Constitución de torre. Barba larga con barbilla afeitada — estilo comecuernos por ascendencia Unkalaki.",
+      "Exige los elevados estándares del ejército Kholin.",
+      "En 1173, comandaba el Quinto Batallón.",
+      "Dalinar le ordenó reunir a los soldados interrogados por Sadeas.",
+      "Lo organizó todo impecablemente cuando llegaron Dalinar y Adolin.",
+      "Colot y Tallan son probablemente capitanes bajo sus órdenes.",
+      "Mencionado en ECdR capítulo 28."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Jefe de batallón — Quinto Batallón del ejército Kholin",
+    "rol": "Oficial fiable que cumplió las órdenes de Dalinar en la investigación de Sadeas",
+    "relacion_con_spren": "",
+    "otros_detalles": "Ascendencia Unkalaki — barba en estilo comecuernos."
+  },
+  "descripcion_breve": "Jefe de batallón del Quinto Batallón del ejército Kholin. Constitución de torre, barba comecuernos por ascendencia Unkalaki. Exigente y profesional. Reunió a los soldados interrogados por Sadeas por orden de Dalinar.",
+  "notas": "Mencionado en ECdR capítulo 28. Colot y Tallan son probablemente capitanes bajo sus órdenes."
+}

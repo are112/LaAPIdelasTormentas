@@ -1,0 +1,82 @@
+{
+  "id": "havarah",
+  "nombre": "Havarah",
+  "nombre_completo": "Havarah",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar (con ascendencia herdaziana)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Kholin — jefe de los puentes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Logística — jefe de los puentes del ejército de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Jefe de los puentes del ejército de Dalinar Kholin en las Llanuras Quebradas",
+      "Hombre de ascendencia herdaziana — uñas oscuras y cristalinas"
+    ],
+    "descripcion": "Jefe de los puentes del Alto Príncipe Dalinar Kholin en las Llanuras Quebradas. Hombre bajo con cierta ascendencia herdaziana — uñas oscuras y cristalinas, aunque no lleva chispero. Era el responsable de los grandes puentes tirados por chull que utilizaba Dalinar durante las carreras por los abismos contra los parshendi. Mencionado en ECdR capítulo 26.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su comandante — responsable de los puentes del ejército de Dalinar"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Jefe de los puentes del ejército de Dalinar en las Llanuras. Hombre bajo con ascendencia herdaziana — uñas oscuras y cristalinas, sin chispero. Responsable de los grandes puentes tirados por chull. ECdR capítulo 26.",
+    "puntos_clave": [
+      "Jefe de los puentes del ejército de Dalinar.",
+      "Hombre bajo con ascendencia herdaziana — uñas oscuras y cristalinas.",
+      "No lleva chispero.",
+      "Responsable de los grandes puentes tirados por chull.",
+      "Mencionado en ECdR capítulo 26."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Jefe de los puentes del ejército de Dalinar",
+    "rol": "Responsable logístico de los puentes en las Llanuras Quebradas",
+    "relacion_con_spren": "",
+    "otros_detalles": "Ascendencia herdaziana — uñas oscuras y cristalinas."
+  },
+  "descripcion_breve": "Jefe de los puentes del ejército de Dalinar en las Llanuras Quebradas. Hombre bajo con ascendencia herdaziana — uñas oscuras y cristalinas, sin chispero.",
+  "notas": "Mencionado en ECdR capítulo 26."
+}

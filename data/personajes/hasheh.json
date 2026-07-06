@@ -1,0 +1,94 @@
+{
+  "id": "hasheh",
+  "nombre": "Hasheh",
+  "nombre_completo": "Hasheh",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario — flashback de Shallan",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Finca Davar — tutora de Shallan"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Idiomas — experta, enseñó azishiano a Shallan",
+      "Etiqueta — enseñó protocolo y postura a Shallan"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Brillante señora veden ojos claros, tutora de Shallan Davar en la finca Davar c. 1170",
+      "Una de las tutoras que abandonó abruptamente tras los ataques de Lin Davar a Malise"
+    ],
+    "descripcion": "Brillante señora veden ojos claros. Trabajó como tutora de Shallan Davar en la finca Davar en Jah Keved c. 1170. Era experta en idiomas — enseñó a Shallan algo de azishiano. También enseñaba etiqueta y reprendía a Shallan por su mala postura. Abandonó abruptamente su puesto tras uno de los desquiciados ataques de Lin Davar a Malise Gevelmar. Era una de las tutoras de Shallan que abandonaban por la inestabilidad de Lin. Shallan las recordaba generalmente como 'severas matronas'.",
+    "estado_en_viento_y_verdad": "Activa — destino tras la finca Davar desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "shallan",
+        "relacion": "su pupila — le enseñó azishiano, etiqueta y postura"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "lin_davar",
+        "relacion": "abandonó su puesto tras uno de sus ataques desquiciados a Malise"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Severa y exigente — 'severa matrona' en los recuerdos de Shallan.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Tutora de Shallan en la finca Davar c. 1170. Enseñó azishiano, etiqueta y postura. Abandonó abruptamente tras un ataque de Lin a Malise. Shallan la recuerda como una 'severa matrona'. PR capítulos 45 y 65.",
+    "puntos_clave": [
+      "Brillante señora veden ojos claros — tutora de Shallan c. 1170.",
+      "Experta en idiomas — enseñó azishiano a Shallan.",
+      "También enseñaba etiqueta y reprendía la mala postura de Shallan.",
+      "Abandonó abruptamente tras uno de los ataques de Lin Davar a Malise.",
+      "Shallan la recuerda como una 'severa matrona'.",
+      "Mencionada en PR capítulos 45 y 65."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido tras la finca Davar",
+    "rol": "Tutora de Shallan que abandonó por la inestabilidad de Lin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Brillante señora veden, tutora de Shallan c. 1170. Experta en idiomas — enseñó azishiano, etiqueta y postura. Abandonó tras los ataques de Lin a Malise. Shallan la recuerda como una 'severa matrona'.",
+  "notas": "Mencionada en PR capítulos 45 y 65. Una de las muchas tutoras que la inestabilidad de Lin hizo huir de la finca Davar."
+}
