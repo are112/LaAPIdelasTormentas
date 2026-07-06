@@ -1,0 +1,79 @@
+{
+  "id": "hasavah",
+  "nombre": "Hasavah",
+  "nombre_completo": "Hasavah",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — corroboró hechos sobre los Portadores del Vacío junto a Coldwin"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudito de Roshar durante la Era de la Soledad",
+      "El que junto a Coldwin corroboró los hechos de la obra de Masly sobre los Portadores del Vacío"
+    ],
+    "descripcion": "Erudito de Roshar durante la Era de la Soledad. Junto a Coldwin corroboró los hechos señalados en la obra del erudito Masly sobre los Portadores del Vacío. Jasnah Kholin estudió esta obra en su investigación sobre los Portadores del Vacío. Mencionado en ECdR capítulo 29 epígrafe.",
+    "estado_en_viento_y_verdad": "Destino desconocido — figura de la Era de la Soledad."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "Coldwin",
+        "relacion": "corroboró junto a él los hechos de la obra de Masly sobre los Portadores del Vacío"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — erudito verificador.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudito que junto a Coldwin corroboró los hechos de la obra de Masly sobre los Portadores del Vacío. Jasnah estudió esta obra. ECdR capítulo 29 epígrafe.",
+    "puntos_clave": [
+      "Erudito de la Era de la Soledad.",
+      "Junto a Coldwin corroboró hechos de la obra de Masly sobre los Portadores del Vacío.",
+      "Jasnah estudió la obra en su investigación.",
+      "Mencionado en ECdR capítulo 29 epígrafe."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Figura de la Era de la Soledad",
+    "rol": "Erudito que verificó los hechos sobre los Portadores del Vacío",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudito de la Era de la Soledad. Junto a Coldwin corroboró los hechos de la obra de Masly sobre los Portadores del Vacío, que Jasnah estudió en su investigación.",
+  "notas": "Mencionado en ECdR capítulo 29 epígrafe."
+}

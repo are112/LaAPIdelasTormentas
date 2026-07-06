@@ -1,0 +1,94 @@
+{
+  "id": "harl",
+  "nombre": "Harl",
+  "nombre_completo": "Harl",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Piedralar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Piedralar — residente"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Hombre alezi ojos oscuros de hombros anchos de Piedralar, padre de Miasal",
+      "El que se interpuso cuando Kaladin intentó tratar a su hija moribunda — y luego la lloró largo rato"
+    ],
+    "descripcion": "Hombre alezi ojos oscuros de hombros anchos de Piedralar. Padre de Miasal. En 1166 su hija Miasal cayó y quedó gravemente herida — las heridas eran mortales. Kaladin intentó tratarla pero Harl, fuera de sí de miedo, inicialmente le impidió actuar. Varios hombres lo apartaron. Cuando Miasal murió, Harl empujó a Kaladin y aferró el cuerpo de su hija llorando largo rato. En 1167 intentó robarle a Lirin las esferas de Wistiow — Lirin los avergonzó en la oscuridad. Su esposa murió de viruela c. 1167. En 1168, con mujer e hija muertas, se alistó voluntariamente en el ejército de Amaram.",
+    "estado_en_viento_y_verdad": "Destino desconocido — se alistó en el ejército de Amaram en 1168."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Miasal",
+        "relacion": "hija — murió de heridas en 1166"
+      },
+      {
+        "personaje": "esposa de Harl",
+        "relacion": "esposa — murió de viruela c. 1167"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "le impidió tratar a Miasal; lo empujó cuando ella murió"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Devastado por la pérdida de su hija y luego su esposa. En 1166 estaba fuera de sí de miedo ante la herida de Miasal. En 1167 intentó robar por desesperación. En 1168 se alistó voluntariamente — probablemente buscando una salida al dolor.",
+    "evolucion": "Pasó del miedo desesperado a la pérdida total y el alistamiento voluntario.",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Padre de Miasal en Piedralar. Cuando su hija cayó gravemente herida en 1166, impidió que Kaladin la tratara — Miasal murió. En 1167 intentó robarle a Lirin las esferas de Wistiow. Su esposa murió de viruela c. 1167. En 1168, con todo perdido, se alistó voluntariamente en el ejército de Amaram.",
+    "puntos_clave": [
+      "Hombre alezi ojos oscuros de hombros anchos de Piedralar.",
+      "Padre de Miasal.",
+      "En 1166 Miasal cayó gravemente herida — heridas mortales.",
+      "Kaladin intentó tratarla pero Harl le impidió actuar — fuera de sí de miedo.",
+      "Varios hombres lo apartaron. Miasal murió.",
+      "Harl empujó a Kaladin y lloró abrazando el cuerpo de Miasal largo rato.",
+      "En 1167 intentó robarle a Lirin las esferas de Wistiow — Lirin los avergonzó.",
+      "Su esposa murió de viruela c. 1167.",
+      "En 1168 se alistó voluntariamente en el ejército de Amaram.",
+      "Mencionado en ECdR capítulos 20, 31 y 44."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — alistado en el ejército de Amaram en 1168",
+    "rol": "Padre de Piedralar cuya desesperación ilustra el coste humano de la guerra y la pérdida",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Padre alezi de Miasal en Piedralar. Impidió que Kaladin tratara a su hija moribunda. Perdió a su hija y su esposa. En 1168 se alistó voluntariamente en el ejército de Amaram.",
+  "notas": "Su arco es uno de los más trágicos de los personajes secundarios de Piedralar. Kaladin recuerda a Miasal como uno de sus primeros fracasos."
+}

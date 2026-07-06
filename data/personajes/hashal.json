@@ -6,7 +6,7 @@
   "sexo": "femenino",
   "especie": "humano",
   "nacionalidad": "alezi",
-  "origen": "Alezkar",
+  "origen": "Kholinar, Alezkar",
   "planeta_natal": "Roshar",
   "estado_actual": "desconocido",
   "apariciones": {
@@ -15,11 +15,16 @@
         "titulo": "El Camino de los Reyes",
         "rol": "secundario importante",
         "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
       }
     ]
   },
   "afiliaciones": [
-    "Ejército de Sadeas"
+    "Campamentos de guerra alezi — esposa de Avarak Matal"
   ],
   "orden_radiantes": {
     "orden": "Ninguna",
@@ -35,64 +40,63 @@
       "fuente_de_luz": ""
     },
     "no_magicas": [
-      "Administración y mando — comandaba las cuadrillas de puentes a través de su esposo",
-      "Manipulación política — sabía cómo obtener resultados de Sadeas usando a Matal",
-      "Intimidación"
+      "Mando — ejerce el verdadero poder detrás de Matal",
+      "Estrategia de destrucción — ideó medidas específicas para eliminar al Puente Cuatro"
     ]
   },
   "identidades": {
     "principales": [
-      "Brillante señora que comandaba las cuadrillas de puentes de Sadeas a través de su esposo Matal",
-      "Antagonista principal del arco del Puente Cuatro tras la muerte de Lamaril"
+      "Brillante señora alezi esposa de Avarak Matal — la que realmente manda",
+      "La que compró a Kaladin y lo asignó a los puentes — y luego intentó destruir al Puente Cuatro"
     ],
-    "descripcion": "Brillante señora alezi cuyo esposo Matal era nominalmente el capitán de las cuadrillas de puentes, pero era ella quien comandaba realmente. Fría, calculadora y con un único objetivo: eliminar al Puente Cuatro y a Kaladin. Viajó a las Llanuras con su esposo y su sobrina favorita Eliah Matal. Su antagonismo hacia Kaladin era tan evidente que los hombres del Puente Cuatro creían que Sadeas le había ordenado personalmente destruirlos.",
-    "estado_en_viento_y_verdad": "Destino desconocido tras la Batalla de la Torre."
+    "descripcion": "Brillante señora alezi ojos claros. Ojos azul pálido, cabello oscuro con trenza decorada con piedras preciosas, uñas pintadas de rojo rubí. Lleva havahs de seda en rojo intenso y violeta. Acento aristocrático de Kholinar. Casada con Avarak Matal — ella es quien realmente toma las decisiones. Impetuosa, vengativa y despiadada. Elitista extrema con profundo desprecio por los ojos oscuros. Compró a Kaladin a Tvlakv y lo asignó a las cuadrillas de puentes como castigo. Tras hacerse cargo de las cuadrillas de puentes, aplicó todas las medidas posibles para destruir al Puente Cuatro: trabajo permanente en la sima, prohibición de nuevos miembros, limpieza los días de carreras, servicio a tiempo completo. Se atribuyó el mérito del descubrimiento de usar el caparazón de oyente como armadura. Kaladin concluyó que no se dejaría convencer por la lógica — su único objetivo era acabar con el Puente Cuatro. Destino tras la Batalla de la Torre desconocido.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
   },
   "relaciones": {
     "familia": [
       {
-        "personaje": "Matal",
-        "relacion": "esposo; él era el capitán nominal — ella tomaba todas las decisiones reales"
-      },
-      {
-        "personaje": "Eliah Matal",
-        "relacion": "sobrina favorita; viajó con ellos a las Llanuras"
+        "personaje": "Avarak Matal",
+        "relacion": "esposo — ella ejerce el verdadero poder detrás de él"
       }
     ],
     "amigos": [],
     "enemigos": [
       {
         "personaje": "kaladin",
-        "relacion": "su único objetivo era eliminarlo; asignó al Puente Cuatro medidas punitivas progresivas"
+        "relacion": "lo compró a Tvlakv y lo asignó a los puentes; luego intentó sistemáticamente destruir al Puente Cuatro"
+      },
+      {
+        "personaje": "puente_cuatro",
+        "relacion": "intentó eliminar al Puente Cuatro con todas las medidas a su alcance"
       }
     ]
   },
   "estado_mental": {
-    "diagnostico_general": "Fría y calculadora. Su hostilidad hacia Kaladin era completamente deliberada y metódica.",
-    "evolucion": "Sin evolución — su objetivo era constante.",
+    "diagnostico_general": "Vengativa, despiadada e irracional en su odio al Puente Cuatro. Kaladin concluyó que no respondía a la lógica — solo quería destruirlos.",
+    "evolucion": "Escaló sus medidas contra el Puente Cuatro cuando las anteriores fallaban.",
     "situacion_en_viento_y_verdad": "Destino desconocido."
   },
   "arco_narrativo": {
-    "resumen": "Hashal llegó a las Llanuras con su esposo Matal cuando este fue nombrado capitán de las cuadrillas de puentes tras la ejecución de Lamaril. En realidad era ella quien comandaba. Se centró en destruir al Puente Cuatro con medidas cada vez más punitivas: trabajo en los abismos permanente, sin nuevos miembros, scavenging los mismos días que las carreras. Kaladin la frustró repetidamente. Tomó el crédito por la armadura de caparazón. Al final fue Kaladin quien resultó ser el héroe de la Batalla de la Torre — su destino tras esto es desconocido.",
+    "resumen": "Brillante señora alezi que ejercía el poder real detrás de su esposo Matal. Compró a Kaladin y lo asignó a los puentes. Aplicó todas las medidas posibles para destruir al Puente Cuatro: trabajo en sima permanente, sin nuevos miembros, limpieza en días de carreras, servicio completo. Se atribuyó el mérito del caparazón como armadura. Kaladin concluyó que era imposible razonar con ella.",
     "puntos_clave": [
-      "Llegó a las Llanuras con su esposo Matal y su sobrina Eliah.",
-      "Aunque Matal era el capitán nominal, ella tomaba todas las decisiones sobre las cuadrillas.",
-      "Menospreciaba a Lamaril públicamente — ella sería más eficiente.",
-      "Compró a Kaladin y nueve esclavos de Tvlakv asignándolos a los puentes con orden de 'tratamiento especial'.",
-      "Asignó al Puente Cuatro permanentemente al trabajo en los abismos como castigo.",
-      "Dejó de asignarles nuevos miembros — solo les dio a Shen como 'experimento'.",
-      "Les obligó a hacer scavenging los mismos días que las carreras.",
-      "Tomó todo el crédito por la innovación de la armadura de caparazón parshendi.",
-      "La frustración de Kaladin con ella contribuyó a una de sus primeras experiencias absorbiendo luz tormentosa.",
-      "Su destino tras la Batalla de la Torre es desconocido — Kaladin supuso que Sadeas ejecutaría a Matal como hizo con Lamaril."
+      "Brillante señora alezi — ojos azul pálido, cabello oscuro con trenza y piedras preciosas, uñas rojas, havahs de seda roja y violeta.",
+      "Acento aristocrático de Kholinar.",
+      "Casada con Avarak Matal — ella ejerce el poder real.",
+      "Impetuosa, vengativa, despiadada y elitista.",
+      "Compró a Kaladin a Tvlakv y lo asignó a los puentes.",
+      "Medidas contra el Puente Cuatro: trabajo permanente en sima, sin nuevos miembros, limpieza en días de carreras, servicio completo.",
+      "Se atribuyó el mérito del caparazón de oyente como armadura.",
+      "Kaladin concluyó que no respondía a la lógica — solo quería destruirlos.",
+      "Destino tras la Batalla de la Torre desconocido.",
+      "Mencionada en ECdR capítulos 25, 35, 46 y PR capítulo 4."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Destino desconocido",
-    "rol": "Antagonista principal del arco del Puente Cuatro en El Camino de los Reyes",
+    "ocupacion": "Destino desconocido tras la Batalla de la Torre",
+    "rol": "Principal antagonista del Puente Cuatro en las Llanuras Quebradas",
     "relacion_con_spren": "",
-    "otros_detalles": "Destino desconocido tras la Batalla de la Torre."
+    "otros_detalles": "Ejercía el verdadero poder detrás de Avarak Matal."
   },
-  "descripcion_breve": "Brillante señora que comandaba las cuadrillas de puentes de Sadeas a través de su esposo Matal. Antagonista del Puente Cuatro cuyo único objetivo era eliminar a Kaladin. Destino desconocido.",
-  "notas": "La frustración de Kaladin con Hashal contribuyó a una de sus primeras experiencias absorbiendo luz tormentosa. Kaladin supuso que Sadeas ejecutaría a Matal tras la Batalla de la Torre — el destino de ambos es desconocido."
+  "descripcion_breve": "Brillante señora alezi despiadada, esposa de Matal pero quien realmente manda. Compró a Kaladin y lo asignó a los puentes. Intentó sistemáticamente destruir al Puente Cuatro. Kaladin concluyó que era imposible razonar con ella.",
+  "notas": "Una de las antagonistas más odiadas de ECdR. Su crueldad sistemática hacia el Puente Cuatro fue fundamental para forjar la unidad del grupo en torno a Kaladin."
 }

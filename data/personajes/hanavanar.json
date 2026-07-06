@@ -1,0 +1,101 @@
+{
+  "id": "hanavanar",
+  "nombre": "Hanavanar",
+  "nombre_completo": "Hanavanar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario importante",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Reino de Jah Keved — rey"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Política — mantuvo su reinado poniendo a sus altos príncipes en contra entre sí",
+      "Combate — se vinculó en secreto a una hoja esquirlada",
+      "Trampa militar — preparó una emboscada con dos portadores de esquirlada y semiesquirlas para Szeth"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Rey de Jah Keved",
+      "El que preparó una trampa para Szeth — y fue asesinado de todos modos",
+      "Su muerte desencadenó la guerra de sucesión veden"
+    ],
+    "descripcion": "Rey de Jah Keved. Barba marrón cuadrada, nariz prominente, complexión gruesa. Pasó su reinado poniendo a sus altos príncipes en contra unos de otros para mantenerse en el poder. Se vinculó a una hoja esquirlada en secreto. Al ver cómo sus príncipes morían a manos de Szeth-hijo-Neturo, preparó una trampa: escondió dos portadores de esquirlada completos bajo su mesa y equipó a docenas de soldados con semiesquirlas. Sin embargo, Szeth prescindió de su Hoja de Honor y empleó el kammar para incapacitar a todos. Hanavanar huyó pero Szeth lo persiguió, quebró su escudo semiesquirlado y lo mató. Murió en Tanatesev 1173. Su muerte desencadenó una guerra de sucesión en Jah Keved. Intercambio memorable con Szeth — 'Pero ¿qué eres?' / 'La muerte, rey Hanavanar. Soy la muerte.'",
+    "estado_en_viento_y_verdad": "Fallecido — Tanatesev 1173."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "szeth",
+        "relacion": "Szeth lo asesinó por orden de Taravangian en Tanatesev 1173"
+      },
+      {
+        "personaje": "taravangian",
+        "relacion": "Taravangian ordenó su asesinato como parte del plan del Diagrama"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Astuto político que mantenía el poder enfrentando a sus súbditos. Intentó una trampa elaborada contra Szeth — pero fue insuficiente.",
+    "evolucion": "Sin arco de redención — murió intentando escapar.",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Rey de Jah Keved que mantuvo su poder enfrentando a sus altos príncipes. Se vinculó en secreto a una hoja esquirlada. Preparó una trampa para Szeth con dos portadores de esquirlada y docenas de semiesquirlas. Szeth usó el kammar y prescindió de la Hoja de Honor. Hanavanar huyó — Szeth lo alcanzó y lo mató. Murió Tanatesev 1173. Su muerte causó la guerra de sucesión veden.",
+    "puntos_clave": [
+      "Rey de Jah Keved. Barba marrón cuadrada, nariz prominente, complexión gruesa.",
+      "Mantuvo el poder poniendo a sus altos príncipes en contra unos de otros.",
+      "Se vinculó en secreto a una hoja esquirlada.",
+      "Al ver morir a sus príncipes, preparó una trampa para Szeth.",
+      "Trampa: dos portadores de esquirlada ocultos bajo la mesa + docenas de soldados con semiesquirlas.",
+      "Szeth prescindió de la Hoja de Honor y usó el kammar — incapacitó a todos.",
+      "Hanavanar huyó pero Szeth lo persiguió.",
+      "Szeth quebró su escudo semiesquirlado y lo mató.",
+      "Frase: '¿Pero qué eres?' / 'La muerte, rey Hanavanar. Soy la muerte.'",
+      "Murió en Tanatesev 1173.",
+      "Su muerte desencadenó la guerra de sucesión en Jah Keved.",
+      "Mencionado en PR capítulos 9, 13 y Juramentada capítulo 11."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — Tanatesev 1173",
+    "rol": "Rey de Jah Keved cuya muerte desencadenó la guerra de sucesión veden",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Rey de Jah Keved. Mantuvo el poder enfrentando a sus príncipes. Preparó una trampa elaborada para Szeth — fue insuficiente. Szeth lo mató en Tanatesev 1173. Su muerte causó la guerra de sucesión veden.",
+  "notas": "Su intercambio final con Szeth — 'La muerte, rey Hanavanar. Soy la muerte.' — es uno de los momentos más icónicos de PR."
+}

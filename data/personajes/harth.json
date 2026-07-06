@@ -1,0 +1,83 @@
+{
+  "id": "harth",
+  "nombre": "Harth",
+  "nombre_completo": "Harth",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención — flashback de Dalinar",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Esgrima — espadachín y maestro de espada no reconocido",
+      "Enseñanza — primer entrenador de esgrima de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Primer entrenador de esgrima de Dalinar Kholin — joven y no reconocido como maestro",
+      "El que exigía atar la takama de una forma muy específica — tradición cuyo absurdo origen Dalinar rastreó"
+    ],
+    "descripcion": "Espadachín alezi. Fue el primer entrenador de esgrima de un joven Dalinar Kholin. La familia Kholin no era poderosa entonces y tuvo que conformarse con Harth, que era joven y no estaba reconocido como maestro. Vino de 'unos pueblos más allá'. Exigía que la takama se atara de una forma muy específica — dando exactamente tres vueltas al cinturón, nunca dos ni cuatro. Dalinar, intrigado, rastreó la tradición hasta su origen: un fervoroso anciano en Kholinar que lo hacía así porque era exageradamente bajito y si solo daba dos vueltas le caía la takama y tropezaba. Dalinar usó esta historia para argumentar a Kadash que una tradición no se vuelve válida solo por ser tradición.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su primer alumno de esgrima — Dalinar rastreó el origen absurdo de su tradición de la takama"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — maestro de esgrima con tradiciones propias que aplicaba sin cuestionarlas.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Primer entrenador de esgrima de Dalinar. Joven y no reconocido como maestro. Exigía atar la takama con exactamente tres vueltas. Dalinar rastreó el origen de la tradición hasta un fervoroso bajito de Kholinar que lo hacía para que no le cayeran los pantalones. Usó la historia para debatir con Kadash sobre la validez de la tradición. Juramentada capítulo 16.",
+    "puntos_clave": [
+      "Espadachín alezi — primer entrenador de esgrima de Dalinar.",
+      "Joven y no reconocido como maestro cuando entrenó a Dalinar.",
+      "Venía de 'unos pueblos más allá'.",
+      "Exigía atar la takama con exactamente tres vueltas al cinturón.",
+      "Dalinar rastreó la tradición hasta un fervoroso bajito de Kholinar — lo hacía para que no le cayeran los pantalones.",
+      "Dalinar usó esta historia para debatir con Kadash sobre la validez de la tradición.",
+      "Mencionado en Juramentada capítulo 16."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Primer maestro de esgrima de Dalinar — fuente involuntaria de un debate sobre tradición",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Primer entrenador de esgrima de Dalinar, joven y no reconocido. Exigía atar la takama con tres vueltas exactas. Dalinar rastreó el origen absurdo de la tradición — un fervoroso bajito que lo hacía para no tropezar.",
+  "notas": "La historia de la takama de Harth es el ejemplo que Dalinar usa con Kadash para argumentar que la tradición no se justifica por sí sola. Juramentada capítulo 16."
+}

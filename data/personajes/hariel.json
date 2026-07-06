@@ -1,0 +1,91 @@
+{
+  "id": "hariel",
+  "nombre": "Hariel",
+  "nombre_completo": "Hariel",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados — uno de los primeros en regresar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Dominio — Fusionado experimentado con presencia dominante"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fusionado que posee el cuerpo de Demid durante la Verdadera Desolación",
+      "Uno de los primeros Fusionados en regresar a Roshar tras la tormenta eterna",
+      "El más malhumorado según Ulim"
+    ],
+    "descripcion": "Fusionado que habita el cuerpo del oyente Demid durante la Verdadera Desolación. Físico grande y escultural, pecho ancho, caparazón visible en brazos y cara. Ojos rojos. Voz profunda y dominante. Uno de los primeros Fusionados en regresar a Roshar tras la tormenta eterna. Ulim cree que Hariel es el más malhumorado de los Fusionados. No le gusta que Ulim use modales humanos. Explicó a Venli que el oyente Demid había muerto — su alma fue a la 'ceguera del más allá'. Odium intervino personalmente para dar a Venli su forma emisaria en lugar de dejar que Hariel la poseyera. Hariel no notó que Venli vio a Timbre.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "venli",
+        "relacion": "Odium evitó que Hariel poseyera a Venli — Hariel no notó que ella vio a Timbre"
+      },
+      {
+        "personaje": "demid",
+        "relacion": "posee su cuerpo — explicó a Venli que Demid había muerto"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Malhumorado y dominante. Le molestan los modales humanos de Ulim. Experimentado — uno de los primeros en regresar.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Fusionado que posee a Demid. Grande, escultural, ojos rojos. Uno de los primeros en regresar tras la tormenta eterna. El más malhumorado según Ulim. Explicó a Venli que Demid había muerto. Odium evitó que poseyera a Venli. No notó que Venli vio a Timbre. Juramentada interludio I-6.",
+    "puntos_clave": [
+      "Fusionado que posee el cuerpo del oyente Demid.",
+      "Grande, escultural, caparazón en brazos y cara, ojos rojos, voz profunda.",
+      "Uno de los primeros Fusionados en regresar tras la tormenta eterna.",
+      "El más malhumorado según Ulim.",
+      "No le gustan los modales humanos de Ulim.",
+      "Explicó a Venli que Demid había muerto — su alma fue a la 'ceguera del más allá'.",
+      "Odium intervino para dar a Venli la forma emisaria en lugar de que Hariel la poseyera.",
+      "Hariel no notó que Venli vio a Timbre.",
+      "Mencionado en Juramentada interludio I-6."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionado activo — posee el cuerpo de Demid",
+    "rol": "Fusionado que posee a Demid — su incapacidad de notar a Timbre fue clave para el arco de Venli",
+    "relacion_con_spren": "",
+    "otros_detalles": "El más malhumorado según Ulim."
+  },
+  "descripcion_breve": "Fusionado que posee a Demid. Grande, escultural, ojos rojos, malhumorado. Uno de los primeros en regresar. Odium evitó que poseyera a Venli. No notó que Venli vio a Timbre.",
+  "notas": "Su fallo al no notar a Timbre fue decisivo para el arco de Venli como Radiante. Mencionado en Juramentada interludio I-6."
+}

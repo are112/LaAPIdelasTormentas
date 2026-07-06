@@ -1,0 +1,79 @@
+{
+  "id": "hana_roshar",
+  "nombre": "Hana (Roshar)",
+  "nombre_completo": "Hana",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "veden",
+  "origen": "Jah Keved",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Caminapiedras RPG",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Adolescente veden, hija de Tet Rebin",
+      "La que fue enviada a buscar ayuda cuando el carromato de su padre se atascó — y sufrieron una emboscada de bandidos"
+    ],
+    "descripcion": "Adolescente veden, hija de Tet Rebin. Poco antes de la tormenta eterna viajaba con su padre a las Llanuras Quebradas a vender vino. El carromato se atascó en crem cerca de la Encrucijada de la Piedra del Concilio. Su padre la envió a buscar ayuda. Mientras sacaban el carromato, sufrieron una emboscada de bandidos. Hana sobrevivió — el destino de su padre es desconocido.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "Tet Rebin",
+        "relacion": "padre — la envió a buscar ayuda cuando el carromato se atascó"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Adolescente veden que viajaba con su padre Tet Rebin a las Llanuras a vender vino. El carromato se atascó en crem cerca de la Encrucijada de la Piedra del Concilio. Su padre la envió a buscar ayuda. Sufrieron una emboscada de bandidos. Hana sobrevivió. Caminapiedras RPG.",
+    "puntos_clave": [
+      "Adolescente veden, hija de Tet Rebin.",
+      "Viajaba con su padre a las Llanuras a vender vino.",
+      "El carromato se atascó en crem cerca de la Encrucijada de la Piedra del Concilio.",
+      "Su padre la envió a buscar ayuda.",
+      "Sufrieron una emboscada de bandidos mientras sacaban el carromato.",
+      "Hana sobrevivió — destino de su padre desconocido."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Adolescente veden superviviente de una emboscada",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Adolescente veden hija de Tet Rebin. Viajaba con su padre a vender vino. El carromato se atascó y sufrieron una emboscada de bandidos. Hana sobrevivió.",
+  "notas": "Aparece en el Caminapiedras RPG."
+}

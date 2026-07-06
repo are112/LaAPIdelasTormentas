@@ -1,0 +1,83 @@
+{
+  "id": "harkaylain",
+  "nombre": "Harkaylain",
+  "nombre_completo": "Harkaylain",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar (Épocas Heráldicas)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — visión de Dalinar",
+        "pov": false
+      },
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Caballeros Radiantes — posiblemente (no confirmado)"
+  ],
+  "orden_radiantes": {
+    "orden": "Desconocida — posiblemente Caballero Radiante",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Predicción de Desolaciones — capaz de predecirlas con bastante precisión"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Figura de las Épocas Heráldicas capaz de predecir Desolaciones con bastante precisión",
+      "Mencionado por dos Radiantes en visiones de Dalinar con familiaridad — posiblemente también Radiante"
+    ],
+    "descripcion": "Figura de las Épocas Heráldicas en Roshar. Capaz de predecir Desolaciones con bastante precisión. Mencionado por dos Caballeros Radiantes en visiones de Dalinar con bastante familiaridad — lo que sugiere que también podría ser un Radiante, aunque no está confirmado. En una visión, si algo fallaba con la armadura de una Radiante Corredora del Viento, el otro Corredor del Viento le dijo que hablase con Harkaylain o su spren — lo que implica un spren propio y conocimiento técnico de las esquirladas. Mencionado en ECdR capítulo 19 y Juramentada capítulo 34.",
+    "estado_en_viento_y_verdad": "Fallecido — figura de las Épocas Heráldicas."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — figura respetada en las Épocas Heráldicas con conocimiento técnico y predictivo.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Figura de las Épocas Heráldicas capaz de predecir Desolaciones con bastante precisión. Mencionado con familiaridad por dos Radiantes en visiones de Dalinar — posiblemente también Radiante. Se le menciona como referencia técnica para problemas de armadura esquirlada, lo que implica un spren propio.",
+    "puntos_clave": [
+      "Figura de las Épocas Heráldicas en Roshar.",
+      "Capaz de predecir Desolaciones con bastante precisión.",
+      "Mencionado por dos Radiantes en visiones de Dalinar con familiaridad.",
+      "Posiblemente Caballero Radiante — no confirmado.",
+      "Referencia técnica para problemas de armadura esquirlada — implica spren propio.",
+      "Mencionado en ECdR capítulo 19 y Juramentada capítulo 34."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — figura de las Épocas Heráldicas",
+    "rol": "Predictor de Desolaciones y posible Caballero Radiante",
+    "relacion_con_spren": "Posiblemente tenía spren propio — se menciona 'su spren'.",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Figura de las Épocas Heráldicas capaz de predecir Desolaciones con bastante precisión. Posiblemente Caballero Radiante. Mencionado con familiaridad por Radiantes en visiones de Dalinar.",
+  "notas": "La mención de 'su spren' sugiere que era Radiante. Su capacidad de predicción lo convierte en una figura de gran interés cosmológico."
+}
