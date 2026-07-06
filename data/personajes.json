@@ -2680,6 +2680,78 @@
     "especie": "humano"
   },
   {
+    "id": "hana_roshar",
+    "nombre": "Hana (Roshar)",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "hanavanar",
+    "nombre": "Hanavanar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "harel",
+    "nombre": "Harel",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "cantor"
+  },
+  {
+    "id": "hariel",
+    "nombre": "Hariel",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "activo",
+    "especie": "cantor"
+  },
+  {
+    "id": "harkaylain",
+    "nombre": "Harkaylain",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "harl",
+    "nombre": "Harl",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "harth",
+    "nombre": "Harth",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "harvo",
+    "nombre": "Harvo",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "hasavah",
+    "nombre": "Hasavah",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
     "id": "hashal",
     "nombre": "Hashal",
     "orden": "Ninguna",
