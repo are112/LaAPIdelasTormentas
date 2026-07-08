@@ -2856,6 +2856,14 @@
     "especie": "humano"
   },
   {
+    "id": "helt",
+    "nombre": "Helt",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "hem",
     "nombre": "Hem",
     "orden": "Ninguna",
@@ -2864,12 +2872,108 @@
     "especie": "humano"
   },
   {
+    "id": "hema_dak",
+    "nombre": "Hema-Dak",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "hendit",
+    "nombre": "Hendit",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "hermanos_tambor",
+    "nombre": "Hermanos Tambor",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivos",
+    "especie": "humano"
+  },
+  {
+    "id": "hesh",
+    "nombre": "Hesh",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
+  },
+  {
+    "id": "heshual",
+    "nombre": "Heshual",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "cantor"
+  },
+  {
     "id": "hesina",
     "nombre": "Hesina",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "humano"
+  },
+  {
+    "id": "hessi",
+    "nombre": "Hessi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "hid",
+    "nombre": "Hid",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "highprince_sadeas_hog",
+    "nombre": "Highprince Sadeas (hog)",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cerdo (hog)"
+  },
+  {
+    "id": "hijo_de_roion",
+    "nombre": "Hijo de Roion",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "hmalka",
+    "nombre": "Hmalka",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "hmask",
+    "nombre": "Hmask",
+    "orden": "Injuramentados",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "hnanan",
+    "nombre": "Hnanan",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "activa",
+    "especie": "cantor"
   },
   {
     "id": "hobber",
@@ -2888,11 +2992,43 @@
     "especie": "humano"
   },
   {
+    "id": "hombre_del_hoyuelo",
+    "nombre": "Hombre del hoyuelo",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "horinar",
+    "nombre": "Horinar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "humano"
+  },
+  {
+    "id": "hrdalm",
+    "nombre": "Hrdalm",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "huio",
     "nombre": "Huio",
     "orden": "Corredores del Viento",
     "nivel_ideal": 3,
     "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
+    "id": "huisi",
+    "nombre": "Huisi",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
     "especie": "humano"
   },
   {
@@ -2902,6 +3038,14 @@
     "nivel_ideal": null,
     "estado_actual": "desconocido",
     "especie": "humano"
+  },
+  {
+    "id": "husal",
+    "nombre": "Husal",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
+    "especie": "cantor"
   },
   {
     "id": "ialai",
