@@ -1,0 +1,77 @@
+{
+  "id": "husal",
+  "nombre": "Husal",
+  "nombre_completo": "Husal",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Narak, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario — flashback de Eshonai",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Oyentes — Consejo de los Cinco, Familia del Primer Ritmo"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo — miembro del Consejo de los Cinco oyente"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Oyente, miembro del Consejo de los Cinco de la Familia del Primer Ritmo",
+      "El que se opuso a la idea de tener un rey oyente — sintonizó el Ritmo de la Ansiedad"
+    ],
+    "descripcion": "Oyente y miembro del Consejo de los Cinco de la Familia del Primer Ritmo. Cuando Eshonai regresó de una de sus expediciones con un mensaje de los alethi, el Consejo de los Cinco debatió la formación de una nación oyente unificada para hacer frente a los humanos. Sintonizando el Ritmo de la Ansiedad, Husal se opuso a la idea de tener un rey como los humanos. Mencionado en RdG capítulo 62.",
+    "estado_en_viento_y_verdad": "Destino desconocido — probablemente poseído por un Fusionado durante la tormenta eterna."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Ansioso ante la idea de adoptar estructuras de poder humanas como un rey. Su reacción refleja el miedo de los oyentes a perder su identidad propia.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Miembro del Consejo de los Cinco oyente. Cuando el Consejo debatió crear una nación oyente unificada con un rey, Husal sintonizó el Ritmo de la Ansiedad y se opuso a la idea de tener un rey como los humanos. RdG capítulo 62.",
+    "puntos_clave": [
+      "Oyente — miembro del Consejo de los Cinco de la Familia del Primer Ritmo.",
+      "Cuando el Consejo debatió crear una nación oyente unificada, Husal se opuso.",
+      "Sintonizó el Ritmo de la Ansiedad.",
+      "Se opuso a la idea de tener un rey como los humanos.",
+      "Mencionado en RdG capítulo 62."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Miembro del Consejo de los Cinco que se opuso a la idea de un rey oyente",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Oyente miembro del Consejo de los Cinco. Se opuso a la idea de tener un rey oyente — sintonizó el Ritmo de la Ansiedad. Su reacción refleja el miedo oyente a perder su identidad propia.",
+  "notas": "Mencionado en RdG capítulo 62. Su oposición a un rey refleja la tensión central del arco oyente: mantener su identidad propia frente a las influencias humanas."
+}

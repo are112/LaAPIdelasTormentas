@@ -1,0 +1,81 @@
+{
+  "id": "huisi",
+  "nombre": "Huisi",
+  "nombre_completo": "Huisi",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "azishiana",
+  "origen": "Yeddaw, Azir",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Danzante del Filo",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Orfanato de la Luz de Tashi en Yeddaw"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Huérfana que vive en el orfanato de la Luz de Tashi en Yeddaw bajo el cuidado de la Muñonera",
+      "La que tiene dificultades para hablar y ronca — Lift le echó la culpa de unas galletas desaparecidas"
+    ],
+    "descripcion": "Huérfana que vive bajo el cuidado de la Muñonera en el Orfanato de la Luz de Tashi en Yeddaw. Tiene dificultades para hablar. Tiene tendencia a roncar. Lift implica que en algún momento le echó la culpa de unas galletas desaparecidas precisamente porque ronca. Mencionada en Danzante del Filo capítulo 20.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "lift",
+        "relacion": "Lift la conoce del orfanato — le echó la culpa de unas galletas desaparecidas por su tendencia a roncar"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — huérfana con dificultades para hablar.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Huérfana del orfanato de la Luz de Tashi en Yeddaw. Dificultades para hablar. Ronca. Lift le echó la culpa de unas galletas desaparecidas por su tendencia a roncar. Danzante del Filo capítulo 20.",
+    "puntos_clave": [
+      "Huérfana del Orfanato de la Luz de Tashi en Yeddaw.",
+      "Bajo el cuidado de la Muñonera.",
+      "Tiene dificultades para hablar.",
+      "Tiene tendencia a roncar.",
+      "Lift le echó la culpa de unas galletas desaparecidas por su ronquido.",
+      "Mencionada en Danzante del Filo capítulo 20."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Huérfana en el orfanato de la Luz de Tashi, Yeddaw",
+    "rol": "Huérfana menor del orfanato de Yeddaw",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Huérfana del orfanato de la Luz de Tashi en Yeddaw. Tiene dificultades para hablar y ronca. Lift le echó la culpa de unas galletas desaparecidas por su ronquido.",
+  "notas": "Mencionada en Danzante del Filo capítulo 20."
+}

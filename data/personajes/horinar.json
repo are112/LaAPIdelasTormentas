@@ -1,0 +1,87 @@
+{
+  "id": "horinar",
+  "nombre": "Horinar",
+  "nombre_completo": "Horinar",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario — flashback de Dalinar",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Ejército de Kholin — oficial, posiblemente mando de las élites de Dalinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando militar — oficial del ejército Kholin, posiblemente al mando de las élites de Dalinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Oficial alezi del ejército Kholin — posiblemente al mando de las élites de Dalinar",
+      "El que reunió una compañía de cien élites para marchar con Dalinar a investigar la caravana trampa de Tanalan en 1163"
+    ],
+    "descripcion": "Oficial del ejército Kholin en Roshar. Probablemente ojos claros con mando sobre las élites de Dalinar. En 1163, antes del asalto al Foso, Tanalan engañó a Dalinar haciéndole creer que Torol Sadeas lo había traicionado y planeaba atacarle usando la tapadera de una caravana. Dalinar ordenó a Horinar que reuniera una compañía de cien élites — los más rápidos — para marchar con él a investigar la caravana. Sin embargo, Tanalan había tendido una trampa y provocó un desprendimiento de tierras que cayó sobre Dalinar, matando a muchos de sus hombres. No se sabe si Horinar estaba entre los muertos.",
+    "estado_en_viento_y_verdad": "Destino desconocido — posiblemente murió en el desprendimiento de 1163."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su comandante — Dalinar le ordenó reunir cien élites para investigar la caravana trampa"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "tanalan",
+        "relacion": "Tanalan tendió la trampa que mató a muchos de los hombres de Dalinar — incluido posiblemente Horinar"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — oficial leal al ejército Kholin.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Oficial Kholin que en 1163 reunió cien élites para marchar con Dalinar a investigar una supuesta caravana de Sadeas. Era una trampa de Tanalan — un desprendimiento mató a muchos hombres. Destino desconocido. Juramentada capítulo 71.",
+    "puntos_clave": [
+      "Oficial del ejército Kholin — probablemente al mando de las élites de Dalinar.",
+      "En 1163, Dalinar le ordenó reunir cien élites para marchar a investigar una caravana.",
+      "Tanalan había tendido una trampa — un desprendimiento mató a muchos de sus hombres.",
+      "Se desconoce si Horinar sobrevivió.",
+      "Mencionado en Juramentada capítulo 71."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — posiblemente muerto en el desprendimiento de 1163",
+    "rol": "Oficial Kholin que reunió las élites de Dalinar para la trampa de Tanalan",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Oficial del ejército Kholin. En 1163 reunió cien élites por orden de Dalinar para investigar una caravana que resultó ser una trampa de Tanalan. Destino desconocido.",
+  "notas": "Mencionado en Juramentada capítulo 71."
+}

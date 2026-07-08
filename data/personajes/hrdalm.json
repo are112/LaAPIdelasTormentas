@@ -1,0 +1,99 @@
+{
+  "id": "hrdalm",
+  "nombre": "Hrdalm",
+  "nombre_completo": "Hrdalm",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Ciudad Thaylen, Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario importante",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Alta Guardia de Ciudad Thaylen — portador de esquirlada"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — portador de armadura esquirlada completa (Cvaderln) y martillo esquirlado",
+      "Alta Guardia — miembro de la guardia de élite del trono thayleño"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Portador de esquirlada thayleño y miembro de la Alta Guardia de Ciudad Thaylen",
+      "El que luchó junto a Adolin contra el tronador Kai-garnis en la Batalla de la Explanada Thayleña",
+      "El que Adolin prestó a Maya durante la batalla — expresó reverencia y gratitud profundas"
+    ],
+    "descripcion": "Portador de esquirlada thayleño. Personalidad jovial y sociable. Muy servicial. Posee la armadura esquirlada negra Cvaderln — yelmo con cejas thayleñas estilizadas en forma de cuchillos hacia atrás, bordeada con diseño triangular de escamas entrelazadas. Pertenece a una de las ocho casas thayleñas con esquirlas. Probablemente recibió la armadura de su padre. Entrenado con armadura y martillo esquirlado. Sirvió en la Alta Guardia protegiendo el trono thayleño. En la Batalla de la Explanada Thayleña ayudó a Adolin a luchar contra el tronador Kai-garnis — aceptó actuar como distracción mientras Adolin lo atacaba. Quedó inmovilizado por dos Fusionados — Adolin lo salvó lanzando a Maya a uno de ellos. Tras la batalla, perdió su martillo esquirlado. Bajó al nivel inferior y encontró a Adolin herido. Le ordenó descansar. Adolin le prestó a Maya. Expresó reverencia y gratitud profunda. Junto a Renarin inmovilizaron al tronador — Renarin sirvió de distracción mientras Hrdalm le cortaba ambas piernas por las rodillas.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "luchó junto a él contra el tronador Kai-garnis; Adolin lo salvó y le prestó a Maya — Hrdalm le expresó reverencia y gratitud profundas"
+      },
+      {
+        "personaje": "renarin",
+        "relacion": "juntos inmovilizaron al tronador — Renarin sirvió de distracción mientras Hrdalm le cortaba las piernas"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "Kai-garnis",
+        "relacion": "el tronador contra el que luchó junto a Adolin y Renarin en la Batalla de la Explanada Thayleña"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Jovial, sociable y muy servicial. Su gratitud a Adolin por salvarle y prestarle a Maya fue genuina y profunda.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Portador de armadura esquirlada thayleño de la Alta Guardia. En la Batalla de la Explanada Thayleña luchó con Adolin contra el tronador Kai-garnis. Quedó inmovilizado por Fusionados — Adolin lo salvó. Perdió su martillo. Encontró a Adolin herido y le ordenó descansar. Adolin le prestó a Maya. Junto a Renarin inmovilizaron al tronador cortándole las piernas. Expresó reverencia y gratitud profundas a Adolin.",
+    "puntos_clave": [
+      "Portador de esquirlada thayleño — armadura Cvaderln, negra con diseño de escamas.",
+      "Personalidad jovial y sociable — muy servicial.",
+      "Pertenece a una de las ocho casas thayleñas con esquirlas.",
+      "Miembro de la Alta Guardia de Ciudad Thaylen.",
+      "En la Batalla de la Explanada Thayleña ayudó a Adolin contra el tronador Kai-garnis.",
+      "Actuó como distracción — quedó inmovilizado por dos Fusionados.",
+      "Adolin lo salvó lanzando a Maya a uno de los Fusionados.",
+      "Perdió su martillo esquirlado. Encontró a Adolin herido y le ordenó descansar.",
+      "Adolin le prestó a Maya — Hrdalm expresó reverencia y gratitud profundas.",
+      "Junto a Renarin inmovilizaron al tronador — Hrdalm le cortó ambas piernas.",
+      "Mencionado en Juramentada capítulos 59, 117 y 120."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alta Guardia de Ciudad Thaylen — portador de armadura Cvaderln",
+    "rol": "Aliado thayleño de Adolin en la Batalla de la Explanada Thayleña",
+    "relacion_con_spren": "",
+    "otros_detalles": "Posee la armadura esquirlada Cvaderln."
+  },
+  "descripcion_breve": "Portador de esquirlada thayleño de la Alta Guardia. Jovial y servicial. Luchó con Adolin y Renarin contra el tronador Kai-garnis. Adolin le prestó a Maya — expresó reverencia y gratitud profundas.",
+  "notas": "Mencionado en Juramentada capítulos 59, 117 y 120. Su reverencia hacia Maya cuando Adolin se la prestó es uno de los momentos más emotivos de la Batalla de la Explanada Thayleña."
+}

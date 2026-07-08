@@ -1,0 +1,98 @@
+{
+  "id": "hmask",
+  "nombre": "Hmask",
+  "nombre_completo": "Hmask",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención",
+        "pov": false
+      },
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de Cobalto — Injuramentados"
+  ],
+  "orden_radiantes": {
+    "orden": "Injuramentados",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado veterano",
+      "Lealtad extrema — siguió a Adolin a través de posiciones enemigas en la Batalla de Azimir"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Soldado thayleño de la Guardia de Cobalto — luego Injuramentado",
+      "El que siguió a Adolin a través de posiciones enemigas en la Batalla de Azimir por lealtad"
+    ],
+    "descripcion": "Soldado thayleño con barba larga, cejas thayleñas blancas largas y bigote blanco. Se le ve frecuentemente feliz y sonriente. En situaciones difíciles donde otros ven lo negativo, Hmask sonríe con ganas, listo para afrontar el reto. En la Batalla de Azimir fue parte del equipo de apoyo de Adolin durante la primera confrontación con el Fusionado Abidi el Monarca. Cuando Adolin fue derribado, Hmask se interpuso entre el Fusionado y Adolin para darle tiempo de recuperarse. Tras la batalla, Adolin preguntó a Colot por el hombre que le había protegido. Al enterarse de su extraordinaria lealtad, Adolin le ascendió a miembro de pleno derecho de la Guardia de Cobalto. Durante el entrenamiento de Yanagawn, Adolin notó a Hmask de guardia y quiso conocer su historia. Yanagawn facilitó la conversación — Hmask explicó que Adolin había salvado a su hijo de un edificio derrumbado en la Batalla de la Explanada Thayleña mientras combatía un tronador. En el segundo día de la Batalla de Azimir, Hmask se ofreció voluntario a estar cerca de Adolin aunque no era su turno. Cuando Adolin tuvo que lanzarse a través de posiciones enemigas para salvar a otro portador de esquirlada, Hmask lo siguió.",
+    "estado_en_viento_y_verdad": "Activo — Guardia de Cobalto."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "hijo de Hmask",
+        "relacion": "hijo — Adolin lo salvó de un edificio derrumbado en la Batalla de la Explanada Thayleña"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "su comandante y la persona que salvó a su hijo — lealtad absoluta"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Siempre sonriente y con ganas de enfrentar retos. Su lealtad a Adolin nace de una deuda de gratitud profunda — Adolin salvó a su hijo.",
+    "evolucion": "Pasó de soldado thayleño a miembro de pleno derecho de la Guardia de Cobalto por su lealtad excepcional.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado thayleño que siguió a Adolin a través de posiciones enemigas en la Batalla de Azimir. Adolin salvó su vida cuando fue derribado por Abidi. Ascendido a la Guardia de Cobalto por su lealtad. Le explicó a Adolin (con Yanagawn como intérprete) que su lealtad venía de que Adolin había salvado a su hijo en la Batalla de la Explanada Thayleña. VyV capítulos 41, 42, 63, 76 y 147.",
+    "puntos_clave": [
+      "Soldado thayleño — barba larga, cejas blancas thayleñas, bigote blanco.",
+      "Siempre feliz y sonriente — en situaciones difíciles sonríe con ganas.",
+      "En la Batalla de Azimir se interpuso entre Abidi y Adolin caído.",
+      "Adolin lo ascendió a la Guardia de Cobalto por su lealtad.",
+      "Le explicó a Adolin (con Yanagawn como intérprete) su historia.",
+      "Adolin salvó a su hijo de un edificio derrumbado en la Batalla de la Explanada Thayleña.",
+      "En el segundo día de la Batalla de Azimir, se ofreció voluntario fuera de turno.",
+      "Siguió a Adolin a través de posiciones enemigas.",
+      "Más tarde se convirtió en Injuramentado.",
+      "Mencionado en Juramentada capítulo 120; VyV capítulos 41, 42, 63, 76, 135 y 147."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardia de Cobalto — Injuramentado",
+    "rol": "Soldado de lealtad absoluta a Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su lealtad nace de que Adolin salvó a su hijo en la Batalla de la Explanada Thayleña."
+  },
+  "descripcion_breve": "Soldado thayleño de la Guardia de Cobalto, luego Injuramentado. Siempre sonriente. Siguió a Adolin a través de posiciones enemigas. Su lealtad absoluta nace de que Adolin salvó a su hijo en la Batalla de la Explanada Thayleña.",
+  "notas": "Uno de los personajes secundarios más entrañables de VyV. Su relación con Adolin ilustra perfectamente el efecto que tiene Adolin en las personas que lo rodean."
+}

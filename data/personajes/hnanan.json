@@ -1,0 +1,108 @@
+{
+  "id": "hnanan",
+  "nombre": "Hnanan",
+  "nombre_completo": "Hnanan",
+  "apodos": [
+    "Cantora Antigua"
+  ],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar (Épocas Heráldicas)",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activa",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Fusionados — shanay-im (Celestes)",
+    "Líderes de los Fusionados — rango similar a un alto príncipe"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Gravitación — Fusionada shanay-im (Celeste)"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Mando — líder de los Fusionados con rango similar a un alto príncipe"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Fusionada shanay-im (Celeste) de las Épocas Heráldicas — rango de líder de los Fusionados",
+      "La que le dio a Moash el cuchillo para matar permanentemente a Jezrien",
+      "Llamada 'Cantora Antigua'"
+    ],
+    "descripcion": "Fusionada shanay-im. Su nombre es más un sonido de tarareo que una palabra. Se la llama 'Cantora Antigua'. Lleva ropas con una larga cola. Habla alezi con fuerte acento. Como Celeste tiene acceso a la Potenciación de la Gravitación, la capacidad de usar luz del vacío y puede renacer en cuerpos de cantores. Raramente pisa el suelo — prefiere flotar. Fue convertida en Fusionada por Odium hace milenios. Combatió en las Desolaciones. Sirvió como líder de los Fusionados — con rango similar a un alto príncipe. Puede que tenga dos hermanos, uno y una. En 1174 renació y se instaló en las cámaras del rey en el Palacio de Kholinar. Odium le habló y le ordenó que mandara a Moash matar a Jezrien. Envió a Leshwi a traer a Moash. Lo recibió en el balcón, flotando. Le dio un cuchillo amarillo-blanco y lo envió a matar a Jezrien en el Porche de los Mendigos.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "hermano de Hnanan",
+        "relacion": "posible hermano"
+      },
+      {
+        "personaje": "hermana de Hnanan (Leshwi?)",
+        "relacion": "posible hermana — se especula que podría ser Leshwi"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "leshwi",
+        "relacion": "envió a Leshwi a traer a Moash — posible hermana"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "jezrien",
+        "relacion": "ordenó a Moash matarlo permanentemente con el cuchillo que ella le proporcionó"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Líder poderosa y fría. Obedece las órdenes de Odium sin dudar.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Fusionada shanay-im, líder de los Fusionados con rango similar a un alto príncipe. En 1174 renació en Kholinar. Odium le ordenó que hiciera matar a Jezrien. Envió a Leshwi a buscar a Moash, lo recibió en el balcón, le dio un cuchillo amarillo-blanco y lo envió a matar permanentemente a Jezrien en el Porche de los Mendigos. Juramentada capítulos 38 y 121.",
+    "puntos_clave": [
+      "Fusionada shanay-im (Celeste) — su nombre es un sonido de tarareo.",
+      "Llamada 'Cantora Antigua'.",
+      "Lleva ropas con cola larga. Habla alezi con fuerte acento.",
+      "Raramente pisa el suelo — prefiere flotar.",
+      "Líder de los Fusionados — rango similar a un alto príncipe.",
+      "Posibles hermanos: uno y una (¿Leshwi?).",
+      "En 1174 renació en Kholinar — se instaló en las cámaras del rey.",
+      "Odium le ordenó que hiciera matar a Jezrien.",
+      "Envió a Leshwi a traer a Moash.",
+      "Le dio a Moash un cuchillo amarillo-blanco para matar permanentemente a Jezrien.",
+      "Mencionada en Juramentada capítulos 38 y 121."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fusionada shanay-im activa",
+    "rol": "Líder de los Fusionados que orquestó la muerte permanente de Jezrien",
+    "relacion_con_spren": "",
+    "otros_detalles": "Llamada 'Cantora Antigua'. Posible hermana: Leshwi."
+  },
+  "descripcion_breve": "Fusionada shanay-im, 'Cantora Antigua', líder de los Fusionados con rango de alto príncipe. Le dio a Moash el cuchillo para matar permanentemente a Jezrien en 1174. Raramente pisa el suelo.",
+  "notas": "Mencionada en Juramentada capítulos 38 y 121. Su acto de entregar el cuchillo a Moash desencadenó la muerte permanente de Jezrien — uno de los momentos más oscuros de la saga."
+}

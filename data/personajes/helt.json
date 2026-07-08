@@ -1,0 +1,83 @@
+{
+  "id": "helt",
+  "nombre": "Helt",
+  "nombre_completo": "Helt",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Urithiru, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Servicio real de Elhokar — maestro de sirvientes en Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Servicio — maestro de sirvientes de Elhokar en Urithiru"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Maestro de sirvientes de Elhokar en Urithiru",
+      "El que guiaba a los visitantes dentro y fuera de la cámara de Elhokar"
+    ],
+    "descripcion": "Maestro de sirvientes al servicio del rey Elhokar Kholin en Urithiru. Guiaba a los visitantes dentro y fuera de la cámara de Elhokar. Cuando Shallan visitó al rey para hablar de la misión a Kholinar, Helt la hizo pasar después de que todas las citas de Elhokar hubieran terminado — esto llevó a Shallan a preguntarle si había alguien más programado para reunirse con él ese día. Durante la reunión, Helt preparó refrigerios para los dos. Más tarde se le pidió que abandonara la sala junto con un fervoroso y dos guardias del Puente Trece para darles intimidad.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "elhokar",
+        "relacion": "su señor — maestro de sirvientes de Elhokar en Urithiru"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Profesional y discreto.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Maestro de sirvientes de Elhokar en Urithiru. Hizo pasar a Shallan cuando todas las citas terminaron. Preparó refrigerios. Salió de la sala cuando pidieron intimidad. Juramentada capítulo 51.",
+    "puntos_clave": [
+      "Maestro de sirvientes de Elhokar en Urithiru.",
+      "Guiaba a visitantes dentro y fuera de la cámara de Elhokar.",
+      "Hizo pasar a Shallan tras las citas del rey.",
+      "Preparó refrigerios durante la reunión.",
+      "Salió de la sala para dar intimidad a Shallan y Elhokar.",
+      "Mencionado en Juramentada capítulo 51."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Maestro de sirvientes de Elhokar en Urithiru",
+    "rol": "Personal de servicio menor del rey Elhokar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Maestro de sirvientes de Elhokar en Urithiru. Hizo pasar a Shallan para reunirse con el rey, preparó refrigerios y salió cuando pidieron intimidad.",
+  "notas": "Mencionado en Juramentada capítulo 51."
+}

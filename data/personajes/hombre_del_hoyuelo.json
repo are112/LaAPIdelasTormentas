@@ -1,0 +1,101 @@
+{
+  "id": "hombre_del_hoyuelo",
+  "nombre": "Hombre del hoyuelo",
+  "nombre_completo": "Desconocido",
+  "apodos": [
+    "Hombre del hoyuelo (apodo dado por Kaladin)"
+  ],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "El Diagrama — agente de Graves"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — asesino al servicio de Graves",
+      "Infiltración — se hizo pasar por guardia del Puente Cuatro"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Agente del Diagrama al servicio de Graves — asesino enviado a matar al rey Elhokar",
+      "El que apuñaló a Elhokar en el costado — y fue matado por Kaladin"
+    ],
+    "descripcion": "Asesino sin nombre cuyo rasgo más notable es el profundo hoyuelo en su barbilla — Kaladin se preguntó si de bebé lo habrían golpeado allí con un hacha. Trabajaba para Graves. Cauto — no admitió ni a Kaladin que trabajaba para Graves. Desdeñoso — miraba con desaprobación a Kaladin por su pasado como hombre de los puentes. A finales de 1173, Moash le puso a él y a otro hombre uniformes del Puente Cuatro para proteger al rey Elhokar en el Pináculo, como parte del plan de Graves para asesinarlo. Cuando Kaladin decidió proteger al rey y fue a buscarlo, el hombre del hoyuelo lo detuvo en la puerta pero lo reconoció como líder del Puente Cuatro y creyó que no era una amenaza. Kaladin lo atacó y lo dejó inconsciente. Cuando Kaladin movía al ebrio Elhokar fuera de sus habitaciones, el hombre del hoyuelo se recuperó y atacó de nuevo — apuñaló a Elhokar en el costado con un cuchillo. Kaladin lo atravesó el estómago con su lanza y lo mató. Murió en 1173.",
+    "estado_en_viento_y_verdad": "Fallecido — 1173."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "graves",
+        "relacion": "su jefe — agente del Diagrama al servicio de Graves"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "Kaladin lo dejó inconsciente y luego lo mató cuando atacó a Elhokar"
+      },
+      {
+        "personaje": "elhokar",
+        "relacion": "intentó asesinar al rey — lo apuñaló en el costado antes de ser matado"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Cauto y desdeñoso. Dedicado a la causa — atacó a Elhokar de nuevo incluso después de ser derrotado por Kaladin.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Asesino del Diagrama, agente de Graves. Profundo hoyuelo en la barbilla. Se infiltró como guardia del Puente Cuatro para matar a Elhokar. Kaladin lo derrotó y dejó inconsciente. Se recuperó y apuñaló a Elhokar en el costado. Kaladin lo atravesó con su lanza. Murió en 1173. PR capítulos 81 y 82.",
+    "puntos_clave": [
+      "Asesino sin nombre del Diagrama — agente de Graves.",
+      "Profundo hoyuelo en la barbilla — Kaladin se preguntó si le habían golpeado con un hacha de bebé.",
+      "Cauto — no admitió trabajar para Graves.",
+      "Desdeñoso — despreciaba a Kaladin por su pasado como hombre de los puentes.",
+      "Se infiltró con uniforme del Puente Cuatro para matar a Elhokar.",
+      "Reconoció a Kaladin como líder del Puente Cuatro y creyó que no era una amenaza.",
+      "Kaladin lo atacó y dejó inconsciente.",
+      "Se recuperó y apuñaló a Elhokar en el costado con un cuchillo.",
+      "Kaladin lo atravesó el estómago con su lanza.",
+      "Murió en 1173.",
+      "Frase: 'Ya está resuelto, hombre del puente. Vuelve a tu barracón y finge que no pasa nada.'",
+      "Mencionado en PR capítulos 81 y 82."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido — 1173",
+    "rol": "Asesino que apuñaló a Elhokar antes de ser matado por Kaladin",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su nombre real es desconocido — 'Hombre del hoyuelo' es un apodo dado por Kaladin."
+  },
+  "descripcion_breve": "Asesino del Diagrama, agente de Graves. Profundo hoyuelo en la barbilla. Intentó matar a Elhokar — apuñaló al rey en el costado antes de ser atravesado por la lanza de Kaladin. Murió en 1173.",
+  "notas": "Su nombre real es desconocido — el título 'Hombre del hoyuelo' es un apodo no canónico dado por Kaladin. Mencionado en PR capítulos 81 y 82."
+}

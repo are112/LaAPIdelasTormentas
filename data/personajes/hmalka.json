@@ -1,0 +1,86 @@
+{
+  "id": "hmalka",
+  "nombre": "Hmalka",
+  "nombre_completo": "Hmalka",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "thaylen",
+  "origen": "Ciudad Thaylen, Thaylenah",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Reserva Thayleña de Gemas — superiora de Rysn"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Gestión — superiora de Rysn en la Reserva Thayleña de Gemas"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Superiora de Rysn Ftori en la Reserva Thayleña de Gemas",
+      "La que expresó a Vstim que estaba satisfecha con el trabajo de Rysn aunque preocupada por su felicidad"
+    ],
+    "descripcion": "Superiora de Rysn Ftori en la Reserva Thayleña de Gemas en Ciudad Thaylen. Poco antes de la Batalla de la Explanada Thayleña, fue visitada por Vstim, el antiguo rebsk de Rysn. Le dijo que estaba satisfecha con el trabajo de Rysn en la Reserva pero que estaba preocupada por su felicidad. Mencionada en Juramentada interludio I-13.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "rysn",
+        "relacion": "su subordinada — satisfecha con su trabajo pero preocupada por su felicidad"
+      },
+      {
+        "personaje": "vstim",
+        "relacion": "antiguo rebsk de Rysn — se reunió con Hmalka poco antes de la Batalla de la Explanada Thayleña"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Gestora competente y empática — le preocupa el bienestar de Rysn más allá de su rendimiento laboral.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Superiora de Rysn en la Reserva Thayleña de Gemas. Le dijo a Vstim que Rysn hacía bien su trabajo pero que le preocupaba su felicidad. Juramentada interludio I-13.",
+    "puntos_clave": [
+      "Superiora de Rysn en la Reserva Thayleña de Gemas.",
+      "Vstim la visitó poco antes de la Batalla de la Explanada Thayleña.",
+      "Le dijo que estaba satisfecha con el trabajo de Rysn.",
+      "Expresó preocupación por la felicidad de Rysn.",
+      "Mencionada en Juramentada interludio I-13."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Superiora en la Reserva Thayleña de Gemas",
+    "rol": "Jefa de Rysn en la Reserva — preocupada por su felicidad",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Superiora de Rysn Ftori en la Reserva Thayleña de Gemas. Le dijo a Vstim que Rysn hacía bien su trabajo pero que le preocupaba su felicidad.",
+  "notas": "Mencionada en Juramentada interludio I-13. Su preocupación por la felicidad de Rysn, más allá del rendimiento, la caracteriza como una gestora empática."
+}
