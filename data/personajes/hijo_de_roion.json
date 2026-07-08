@@ -1,0 +1,92 @@
+{
+  "id": "hijo_de_roion",
+  "nombre": "Hijo de Roion",
+  "nombre_completo": "Desconocido — hijo del Alto Príncipe Roion",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      },
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Alto Príncipe del Principado Roion — el más joven de los altos príncipes"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Liderazgo — Alto Príncipe de Alezkar, aunque Aladar lo considera no preparado"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Alto Príncipe alezi del Principado Roion — el más joven de los altos príncipes",
+      "El que sucedió a su padre Roion tras su muerte en la Batalla de Narak",
+      "El único alto príncipe presente en Urithiru durante la invasión cantor"
+    ],
+    "descripcion": "Hijo del Alto Príncipe Roion, cuyo nombre se desconoce. Tras la muerte de su padre en la Batalla de Narak, ascendió al cargo de Alto Príncipe del Principado Roion. Era el más joven de los altos príncipes. Aladar creía que no estaba preparado para el cargo. Un escriba Kholin llegó a creer que un brillante señor de su séquito espiaba a la Coalición de Monarcas. Durante la invasión cantor de Urithiru, fue el único alto príncipe presente en la torre. Reunió a muchos oficiales alezi en la sala de mapas. Se desconoce qué le ocurrió tras la invasión.",
+    "estado_en_viento_y_verdad": "Activo — destino desconocido tras la invasión de Urithiru."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "roion",
+        "relacion": "padre — murió en la Batalla de Narak; el hijo de Roion heredó su título de Alto Príncipe"
+      }
+    ],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Joven e inexperto según Aladar. Su gestión durante la invasión de Urithiru fue reunir a los oficiales alezi en la sala de mapas.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Destino desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Hijo sin nombre del Alto Príncipe Roion. Ascendió al cargo tras la muerte de su padre en Narak. El más joven de los altos príncipes — Aladar lo consideraba no preparado. Un brillante señor de su séquito podría haber espiado a la Coalición. Durante la invasión de Urithiru fue el único alto príncipe presente — reunió a los oficiales alezi en la sala de mapas. Destino desconocido.",
+    "puntos_clave": [
+      "Hijo del Alto Príncipe Roion — nombre desconocido.",
+      "Ascendió al cargo tras la muerte de Roion en la Batalla de Narak.",
+      "El más joven de los altos príncipes.",
+      "Aladar creía que no estaba preparado para el cargo.",
+      "Un brillante señor de su séquito podría haber espiado a la Coalición.",
+      "Durante la invasión de Urithiru fue el único alto príncipe presente en la torre.",
+      "Reunió a muchos oficiales alezi en la sala de mapas.",
+      "Destino desconocido tras la invasión.",
+      "Mencionado en Juramentada capítulos 2 y 19; RdG capítulo 40."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Alto Príncipe del Principado Roion",
+    "rol": "El más joven e inexperto de los altos príncipes — gestionó la invasión de Urithiru reuniendo a los oficiales",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su nombre es desconocido — solo se le llama 'el hijo de Roion'."
+  },
+  "descripcion_breve": "Hijo del Alto Príncipe Roion, sin nombre conocido. Ascendió al cargo tras la Batalla de Narak. El más joven de los altos príncipes — Aladar lo consideraba no preparado. Único alto príncipe presente en Urithiru durante la invasión cantor.",
+  "notas": "Mencionado en Juramentada capítulos 2 y 19, y RdG capítulo 40. Su nombre nunca se revela — solo se le identifica como 'el hijo de Roion'."
+}

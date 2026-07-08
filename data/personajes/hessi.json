@@ -1,0 +1,83 @@
+{
+  "id": "hessi",
+  "nombre": "Hessi",
+  "nombre_completo": "Hessi",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "mención — epígrafes y capítulo 77",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — autora de Mítica, obra sobre los Deshechos",
+      "Investigación histórica — capaz de separar realidad de ficción en los relatos sobre los Deshechos",
+      "Teorización — identificó correctamente que los Deshechos seguían vivos y que Moelach era responsable de los susurros de muerte"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Erudita y autora contemporánea de Jasnah Kholin",
+      "Autora de Mítica — obra polémica sobre los Deshechos que tuvo mala acogida pero resultó correcta"
+    ],
+    "descripcion": "Erudita y autora rosharia. Contemporánea de Jasnah Kholin y Shallan Davar. Escribió Mítica, una obra reciente que investiga información histórica sobre los Deshechos y explora sus características. La obra tuvo mala acogida y era difícil de encontrar. Hessi era consciente de que algunas de sus hipótesis serían polémicas — en particular su afirmación de que los Deshechos seguían vivos y su identificación de Moelach como responsable de los susurros de muerte. Los acontecimientos posteriores demostraron que Hessi tenía razón en varios aspectos, lo que indica que era una investigadora dotada capaz de separar la realidad de la ficción en los numerosos cuentos e historias sobre los Deshechos. Shallan habló a Adolin y Kaladin de algunas de sus hipótesis. Selecciones de Mítica se usan como epígrafes de la cuarta parte de Juramentada.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Investigadora rigurosa y valiente — publicó hipótesis polémicas sobre los Deshechos sabiendo que tendrían mala acogida. Los hechos le dieron la razón.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Erudita contemporánea de Jasnah. Escribió Mítica, obra polémica sobre los Deshechos — tuvo mala acogida pero resultó correcta. Afirmó que los Deshechos seguían vivos y que Moelach era responsable de los susurros de muerte. Shallan habló de sus hipótesis a Adolin y Kaladin. Selecciones de Mítica son epígrafes de la cuarta parte de Juramentada.",
+    "puntos_clave": [
+      "Erudita y autora — contemporánea de Jasnah Kholin.",
+      "Escribió Mítica — obra reciente sobre los Deshechos.",
+      "La obra tuvo mala acogida y era difícil de encontrar.",
+      "Era consciente de que sus hipótesis serían polémicas.",
+      "Afirmó que los Deshechos seguían vivos.",
+      "Identificó a Moelach como responsable de los susurros de muerte.",
+      "Los hechos le dieron la razón en varios aspectos.",
+      "Investigadora dotada — capaz de separar realidad de ficción en los relatos sobre los Deshechos.",
+      "Shallan habló de sus hipótesis a Adolin y Kaladin.",
+      "Selecciones de Mítica son epígrafes de la cuarta parte de Juramentada.",
+      "Mencionada en Juramentada capítulo 77 y epígrafes."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Erudita y autora — activa",
+    "rol": "Autora de Mítica, obra sobre los Deshechos que resultó proféticamente acertada",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Erudita contemporánea de Jasnah. Autora de Mítica, obra polémica sobre los Deshechos que tuvo mala acogida pero resultó correcta. Identificó que los Deshechos seguían vivos y que Moelach causaba los susurros de muerte.",
+  "notas": "Selecciones de Mítica son epígrafes de la cuarta parte de Juramentada. Una de las pocas eruditas que advirtió el peligro de los Deshechos antes de la Verdadera Desolación."
+}

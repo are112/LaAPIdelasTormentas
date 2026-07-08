@@ -1,0 +1,73 @@
+{
+  "id": "hendit",
+  "nombre": "Hendit",
+  "nombre_completo": "Hendit",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Urithiru, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "menor",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de Cobalto — Urithiru"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — soldado de la Guardia de Cobalto"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro de la Guardia de Cobalto en Urithiru"
+    ],
+    "descripcion": "Miembro de la Guardia de Cobalto en Urithiru durante los eventos de VyV. Mencionado en VyV capítulo 14. La Coppermind indica que la página necesita actualización con información adicional de VyV.",
+    "estado_en_viento_y_verdad": "Activo."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información suficiente.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Soldado de la Guardia de Cobalto en Urithiru. Mencionado en VyV capítulo 14.",
+    "puntos_clave": [
+      "Miembro de la Guardia de Cobalto en Urithiru.",
+      "Mencionado en VyV capítulo 14."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Guardia de Cobalto en Urithiru",
+    "rol": "Soldado menor de VyV",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro de la Guardia de Cobalto en Urithiru. Mencionado en Viento y Verdad capítulo 14.",
+  "notas": "La Coppermind indica que la página necesita actualización con información de VyV."
+}

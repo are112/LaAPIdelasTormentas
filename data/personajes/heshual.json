@@ -1,0 +1,95 @@
+{
+  "id": "heshual",
+  "nombre": "Heshual",
+  "nombre_completo": "Heshual",
+  "apodos": [
+    "Govi (nombre antes de vincular a un vacíospren)"
+  ],
+  "sexo": "masculino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Kholinar, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Viento y Verdad",
+        "rol": "secundario — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores del Vacío — Regio",
+    "Guardia de la cámara acorazada del Palacio de Kholinar"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Formas de Poder — Regio en forma emisaria"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Guardia — líder de un grupo de cuatro guardias de la cámara acorazada del Palacio de Kholinar",
+      "Conocimiento técnico — comprende las interacciones entre piedrabase y Luces, incluida la Antiluz"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Regio en forma emisaria — anteriormente conocido como Govi antes de vincular a un vacíospren",
+      "Líder de los cuatro guardias de la cámara acorazada del Palacio de Kholinar",
+      "El que quedó conmocionado cuando El destruyó la gema con el alma de Jezrien — y corrió a buscar a los otros guardias"
+    ],
+    "descripcion": "Regio en forma emisaria durante la Verdadera Desolación. Anteriormente conocido como Govi antes de vincular a un vacíospren. Tiene dificultades para encontrar el ritmo correcto al hablar — El lo encuentra tímido y le perturba que ocupe una posición de prestigio como guardia. El atribuye el comportamiento de Heshual a la falta general de pasión entre los cantores recién liberados. Comprende las interacciones entre piedrabase y Luces, incluida la Antiluz. Es el líder de un grupo de cuatro guardias asignados a la cámara acorazada del Palacio de Kholinar. En Palahes 1175 se encontró con El, quien quería acceder a la cámara. Accedió y acompañó a El al interior. Quedó conmocionado y horrorizado cuando El tomó la gema con el alma de Jezrien y la destruyó con Antiluz tormentosa. Entró en pánico y corrió a buscar a los otros guardias. El pensó que los Nueve no debían haberle advertido de su renacimiento y esperaba que no lo castigaran demasiado. Probablemente se libró del castigo — Odium elevó a El por encima de los Nueve en ese momento.",
+    "estado_en_viento_y_verdad": "Activo — Kholinar."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "el_fusionado",
+        "relacion": "El lo encontraba tímido y perturbador en su cargo de guardia; lo llevó a la cámara acorazada donde destruyó la gema de Jezrien, dejando a Heshual en pánico"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Tímido y con dificultades para encontrar el ritmo. El lo atribuye a la falta de pasión de los cantores recién liberados. Quedó en pánico al presenciar la destrucción de la gema de Jezrien.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Regio anteriormente llamado Govi. Líder de los cuatro guardias de la cámara acorazada del Palacio de Kholinar. Tímido y con dificultades para el ritmo. En Palahes 1175 El le pidió acceso a la cámara. Accedió. El destruyó la gema con el alma de Jezrien con Antiluz tormentosa. Heshual quedó en pánico y corrió a buscar a los otros guardias. Probablemente se libró del castigo — Odium elevó a El en ese momento. VyV interludio I-3.",
+    "puntos_clave": [
+      "Regio en forma emisaria — anteriormente llamado Govi.",
+      "Dificultades para encontrar el ritmo — El lo considera tímido.",
+      "El atribuye su comportamiento a la falta de pasión entre los cantores recién liberados.",
+      "Comprende las interacciones entre piedrabase y Luces, incluida la Antiluz.",
+      "Líder de cuatro guardias de la cámara acorazada del Palacio de Kholinar.",
+      "En Palahes 1175 El le pidió acceso a la cámara — Heshual accedió.",
+      "El destruyó la gema con el alma de Jezrien usando Antiluz tormentosa.",
+      "Heshual quedó conmocionado y horrorizado — entró en pánico y corrió a buscar a los otros guardias.",
+      "El pensó que los Nueve no le habían avisado de su renacimiento.",
+      "Probablemente se libró del castigo — Odium elevó a El en ese momento.",
+      "Mencionado en VyV interludio I-3."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Regio guardia del Palacio de Kholinar",
+    "rol": "El guardia que fue testigo de la destrucción de la gema de Jezrien por El",
+    "relacion_con_spren": "Vinculado a un vacíospren — forma emisaria.",
+    "otros_detalles": "Antes llamado Govi."
+  },
+  "descripcion_breve": "Regio (antes llamado Govi) y líder de la guardia de la cámara acorazada del Palacio de Kholinar. Tímido. El le llevó a la cámara y destruyó la gema de Jezrien. Heshual quedó en pánico y corrió a buscar refuerzos.",
+  "notas": "Mencionado en VyV interludio I-3. Fue testigo involuntario de uno de los actos más importantes de VyV: la destrucción permanente del alma de Jezrien por parte de El."
+}

@@ -1,0 +1,88 @@
+{
+  "id": "hid",
+  "nombre": "Hid",
+  "nombre_completo": "Hid",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia de la Muralla de Kholinar — Pelotón Siete, Escuadrón Dos"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Combate — guardia de la muralla de Kholinar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Miembro alezi de la Guardia de la Muralla de Kholinar — Pelotón Siete, Escuadrón Dos de Noro",
+      "El que fue amonestado por Noro para que permaneciera en formación con su escudo durante los ataques de Fusionados"
+    ],
+    "descripcion": "Miembro alezi de la Guardia de la Muralla de Kholinar. Pertenece al Pelotón Siete, Escuadrón Dos, bajo el mando del capitán Noro. Conoció a Kaladin durante el asedio a Kholinar. Estuvo presente durante las incursiones de Fusionados en la muralla de la ciudad. Fue amonestado por Noro para que permaneciera en formación con su escudo durante los ataques. Es de suponer que estuvo presente con el resto del escuadrón cuando Kaladin reveló su capacidad para absorber luz tormentosa y cuando la alta mariscal Celeste reveló su sistema de suministro de alimentos. Se desconoce si sobrevivió a la batalla en el Palacio de Kholinar.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "lo conoció durante el asedio a Kholinar — Kaladin era parte de su escuadrón"
+      },
+      {
+        "personaje": "Noro",
+        "relacion": "su capitán — Noro lo amonestó para que permaneciera en formación durante los ataques de Fusionados"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Soldado que necesitó ser recordado de mantener formación durante los ataques de Fusionados.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Guardia de la Muralla de Kholinar, Pelotón Siete, Escuadrón Dos de Noro. Conoció a Kaladin durante el asedio. Fue amonestado por Noro para mantener formación durante los ataques de Fusionados. Destino desconocido. Juramentada capítulo 73.",
+    "puntos_clave": [
+      "Guardia de la Muralla de Kholinar — Pelotón Siete, Escuadrón Dos.",
+      "Bajo el mando del capitán Noro.",
+      "Conoció a Kaladin durante el asedio a Kholinar.",
+      "Amonestado por Noro para mantener formación durante ataques de Fusionados.",
+      "Probablemente presente cuando Kaladin reveló su capacidad con la luz tormentosa.",
+      "Destino desconocido — podría no haber sobrevivido a la batalla del Palacio.",
+      "Mencionado en Juramentada capítulo 73."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — guardia de la muralla de Kholinar",
+    "rol": "Guardia menor del escuadrón de Noro durante el asedio a Kholinar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Guardia de la Muralla de Kholinar, Pelotón Siete, Escuadrón Dos de Noro. Fue amonestado por Noro para mantener formación durante los ataques de Fusionados. Destino desconocido.",
+  "notas": "Mencionado en Juramentada capítulo 73."
+}

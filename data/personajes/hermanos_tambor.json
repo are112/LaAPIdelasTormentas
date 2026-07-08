@@ -1,0 +1,79 @@
+{
+  "id": "hermanos_tambor",
+  "nombre": "Hermanos Tambor",
+  "nombre_completo": "Hermanos Tambor",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "natanatana",
+  "origen": "Natanatan, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivos",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Navegación — pescadores o marineros en el puerto del extremo oriental de Roshar"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hermanos natanatanos que viven en un pequeño puerto del borde oriental de Roshar",
+      "Los que recogieron una vela desgarrada del mar tras la tormenta eterna — Puuli les ayudó a extenderla"
+    ],
+    "descripcion": "Hermanos natanatanos que viven en un pequeño puerto en el borde oriental de Roshar, en una zona que solía ser parte del reino de Natanatan. Después de la llegada de la tormenta eterna, recogieron una vela desgarrada del mar. Puuli les ayudó a extenderla sobre las rocas. Mencionados en Juramentada interludio I-1.",
+    "estado_en_viento_y_verdad": "Activos."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "puuli",
+        "relacion": "Puuli les ayudó a extender la vela desgarrada sobre las rocas tras la tormenta eterna"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activos."
+  },
+  "arco_narrativo": {
+    "resumen": "Hermanos del puerto oriental de Roshar. Tras la tormenta eterna recogieron una vela desgarrada del mar. Puuli les ayudó a extenderla sobre las rocas. Juramentada interludio I-1.",
+    "puntos_clave": [
+      "Hermanos natanatanos en el puerto del borde oriental de Roshar.",
+      "Tras la tormenta eterna recogieron una vela desgarrada del mar.",
+      "Puuli les ayudó a extenderla sobre las rocas.",
+      "Mencionados en Juramentada interludio I-1."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Residentes del puerto del extremo oriental de Roshar",
+    "rol": "Personajes menores de la comunidad de Puuli",
+    "relacion_con_spren": "",
+    "otros_detalles": "Son dos hermanos — de ahí el plural."
+  },
+  "descripcion_breve": "Hermanos natanatanos del puerto oriental de Roshar. Tras la tormenta eterna recogieron una vela desgarrada. Puuli les ayudó a extenderla sobre las rocas.",
+  "notas": "Mencionados en Juramentada interludio I-1. Son personajes colectivos — aparecen como pareja de hermanos inseparable."
+}

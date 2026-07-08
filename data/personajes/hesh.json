@@ -1,0 +1,91 @@
+{
+  "id": "hesh",
+  "nombre": "Hesh",
+  "nombre_completo": "Hesh",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Cantores liberados — grupo de Khen y Sah"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Cocina — había trabajado en las cocinas de una mansión antes de la tormenta eterna",
+      "Evaluación de alimentos — inspeccionó los sacos de verduras con ojo crítico"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Cantora que viajó con Kaladin, Khen y Sah hacia Revolar",
+      "La que había trabajado en cocinas de una mansión antes de la tormenta eterna — inspeccionó los sacos de verduras de Kaladin"
+    ],
+    "descripcion": "Cantora del grupo que viajó con Kaladin hacia Revolar junto a Khen y Sah. Antes de la tormenta eterna había trabajado en las cocinas de una mansión. Una vez que el grupo llegó a un refugio para tormentas, Hesh inspeccionó los sacos de verduras por los que Kaladin había regateado, con ojo crítico. Se desconoce si viajó con Khen y Sah a Kholinar y luchó en la Batalla de Kholinar.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "viajó con él hacia Revolar — ella inspeccionó los sacos de verduras que él había conseguido"
+      },
+      {
+        "personaje": "khen",
+        "relacion": "compañera del grupo de cantores que viajaba con Kaladin"
+      },
+      {
+        "personaje": "sah",
+        "relacion": "compañero del grupo de cantores que viajaba con Kaladin"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Práctica y crítica — usó su experiencia en cocinas para evaluar la calidad de las verduras.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Cantora que viajó con Kaladin, Khen y Sah hacia Revolar. Antes de la tormenta eterna trabajaba en cocinas. En un refugio para tormentas inspeccionó los sacos de verduras de Kaladin con ojo crítico. Destino desconocido. Juramentada capítulo 23.",
+    "puntos_clave": [
+      "Cantora del grupo de Khen y Sah que viajaba con Kaladin.",
+      "Antes de la tormenta eterna trabajaba en las cocinas de una mansión.",
+      "En un refugio para tormentas inspeccionó los sacos de verduras de Kaladin con ojo crítico.",
+      "Destino desconocido — podría haber ido a Kholinar y luchado en la Batalla de Kholinar.",
+      "Mencionada en Juramentada capítulo 23."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido",
+    "rol": "Cantora del grupo de Kaladin hacia Revolar",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Cantora que viajó con Kaladin, Khen y Sah hacia Revolar. Trabajaba en cocinas antes de la tormenta eterna. Inspeccionó los sacos de verduras con ojo crítico. Destino desconocido.",
+  "notas": "Mencionada en Juramentada capítulo 23. Su experiencia en cocinas es un detalle del worldbuilding sobre la vida de los cantores como parshmenios antes de la tormenta eterna."
+}

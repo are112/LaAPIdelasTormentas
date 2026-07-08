@@ -1,0 +1,83 @@
+{
+  "id": "highprince_sadeas_hog",
+  "nombre": "Highprince Sadeas (hog)",
+  "nombre_completo": "Highprince Sadeas",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "cerdo (hog)",
+  "nacionalidad": "herdaziana",
+  "origen": "Hurziko, Herdaz",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Stormlight Scenarios",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Premio ganado en competición — cerdo premiado"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Cerdo premiado de la aldea herdaziana de Hurziko",
+      "El que el Fusionado Tashgarn quería matar para desayunar — un grupo intentó liberarlo"
+    ],
+    "descripcion": "Cerdo premiado de la aldea herdaziana de Hurziko. Su nombre hace honor al Alto Príncipe Torol Sadeas. Le encantan los melones y odia la raíz larga. Vive en un cercado cerca del muro oriental de la granja de la aldea. Durante la Verdadera Desolación, el supervisor de la aldea — un Fusionado llamado Tashgarn — declaró que iba a matar a Highprince Sadeas para desayunar. Un pequeño grupo de personas intentó liberarlo. Se desconoce si lo lograron.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "Tashgarn",
+        "relacion": "Fusionado supervisor de Hurziko que quería matarlo para desayunar"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Animal. Le encantan los melones y odia la raíz larga.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Cerdo premiado de Hurziko, Herdaz. Le encantan los melones, odia la raíz larga. El Fusionado Tashgarn quiso matarlo para desayunar. Un grupo intentó liberarlo. Destino desconocido. Stormlight Scenarios páginas 9-10.",
+    "puntos_clave": [
+      "Cerdo premiado de la aldea herdaziana de Hurziko.",
+      "Nombrado en honor al Alto Príncipe Torol Sadeas.",
+      "Le encantan los melones y odia la raíz larga.",
+      "Vive en un cercado cerca del muro oriental de la granja.",
+      "El Fusionado Tashgarn quiso matarlo para desayunar.",
+      "Un grupo intentó liberarlo.",
+      "Destino desconocido.",
+      "Stormlight Scenarios páginas 9-10."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Cerdo premiado de Hurziko — destino desconocido",
+    "rol": "El cerdo cuyo rescate motivó una misión en Stormlight Scenarios",
+    "relacion_con_spren": "",
+    "otros_detalles": "Su nombre es un guiño humorístico al Alto Príncipe Sadeas."
+  },
+  "descripcion_breve": "Cerdo premiado de Hurziko, Herdaz. Nombrado en honor al Alto Príncipe Sadeas. Le encantan los melones. El Fusionado Tashgarn quiso matarlo para desayunar — un grupo intentó liberarlo.",
+  "notas": "Stormlight Scenarios páginas 9-10. Su nombre es uno de los momentos de humor más memorables del universo del Archivo de las Tormentas."
+}

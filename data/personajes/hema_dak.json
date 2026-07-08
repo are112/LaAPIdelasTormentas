@@ -1,0 +1,86 @@
+{
+  "id": "hema_dak",
+  "nombre": "Hema-Dak",
+  "nombre_completo": "Hema-Dak",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "natanatana",
+  "origen": "Natanatan, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Juramentada",
+        "rol": "menor — interludio",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Mujer natanatana que vive con sus hijos en un pequeño puerto del extremo oriental de Roshar",
+      "La que Puuli cuidó para que pudiera visitar a su hermana enferma durante la tormenta eterna"
+    ],
+    "descripcion": "Mujer natanatana que vive con sus hijos en un pequeño puerto en el extremo oriental de Roshar, en una zona que solía formar parte del reino de Natanatan. Su hermana estaba enferma con fiebre cuando pasó la tormenta eterna. Puuli la cuidó para que pudiera ir a visitar a su hermana enferma y llevarle su caldo. Mencionada en Juramentada interludio I-1.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "hijos de Hema-Dak",
+        "relacion": "vive con ellos en el puerto oriental"
+      },
+      {
+        "personaje": "hermana de Hema-Dak",
+        "relacion": "hermana — estaba enferma de fiebre cuando pasó la tormenta eterna"
+      }
+    ],
+    "amigos": [
+      {
+        "personaje": "puuli",
+        "relacion": "Puuli la cuidó para que pudiera visitar a su hermana enferma"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Mujer natanatana que vive con sus hijos en el extremo oriental de Roshar. Su hermana enfermó de fiebre durante la tormenta eterna. Puuli la cuidó para que pudiera visitarla y llevarle caldo. Juramentada interludio I-1.",
+    "puntos_clave": [
+      "Mujer natanatana — vive con sus hijos en un puerto del extremo oriental de Roshar.",
+      "Su hermana enfermó de fiebre durante la tormenta eterna.",
+      "Puuli la cuidó para que pudiera visitar a su hermana y llevarle su caldo.",
+      "Mencionada en Juramentada interludio I-1."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Residente del puerto del extremo oriental de Roshar",
+    "rol": "Persona menor de la comunidad de Puuli",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Mujer natanatana del extremo oriental de Roshar. Su hermana enfermó durante la tormenta eterna. Puuli la cuidó para que pudiera visitarla.",
+  "notas": "Mencionada en Juramentada interludio I-1. Forma parte de la comunidad que rodea a Puuli."
+}
