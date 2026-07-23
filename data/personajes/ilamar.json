@@ -17,6 +17,11 @@
         "pov": false
       },
       {
+        "titulo": "Juramentada",
+        "rol": "mención — flashback de Dalinar",
+        "pov": false
+      },
+      {
         "titulo": "Palabras Radiantes",
         "rol": "secundario",
         "pov": false
@@ -24,7 +29,7 @@
     ]
   },
   "afiliaciones": [
-    "Ejército de Dalinar Kholin"
+    "Ejército de Kholin — jefe de caballería"
   ],
   "orden_radiantes": {
     "orden": "Ninguna",
@@ -40,52 +45,59 @@
       "fuente_de_luz": ""
     },
     "no_magicas": [
-      "Mando militar — oficial de Dalinar"
+      "Mando de caballería — jefe de caballería del ejército de Dalinar",
+      "Combate montado — innovó usando garfios y cuerdas contra portadores de esquirlada"
     ]
   },
   "identidades": {
     "principales": [
-      "Oficial de Dalinar Kholin",
-      "Fallecido en la Batalla de la Torre"
+      "Jefe de caballería del Alto Príncipe Dalinar Kholin",
+      "Buen soldado y buen amigo de Dalinar — murió en la Batalla de la Torre"
     ],
-    "descripcion": "Oficial alezi del ejército de Dalinar. Conferenció con Dalinar y Teleb sobre la Batalla de la Torre. Murió en esa batalla junto a Havar, Perethom y seis mil soldados más del ejército Kholin cuando Sadeas los traicionó y se retiró.",
-    "estado_en_viento_y_verdad": "Fallecido antes de los eventos del libro."
+    "descripcion": "Jefe de caballería del Alto Príncipe Dalinar Kholin en las Llanuras Quebradas. Ojos claros alezi con manchas rojas en el pelo oscuro y largo bigote rojo — lo que implica herencia veden o unkalaki. Complexión baja y compacta. Dalinar lo consideraba tanto un buen soldado como un buen amigo. C. 1145, en la batalla decisiva de Gavilar contra el Alto Príncipe Kalanor, Ilamar y su grupo de cincuenta jinetes lucharon armados con garfios y cuerdas para atacar a los portadores de esquirlada enemigos. En 1173, continuó al frente de la caballería durante la Guerra de la Venganza. Notificó a Dalinar que la caballería estaba lista para dirigirse a las Llanuras Quebradas en busca de una gema corazón — Sadeas retrasó la expedición. Una vez en la ubicación, esperó a que Dalinar y Adolin despejasen la meseta antes de conducir la caballería a través de los puentes. Se reunió con Dalinar y Teleb antes del asalto a la Torre. Murió en la Batalla de la Torre junto a Havar, Perethon y seis mil miembros más del ejército Kholin. Tanatashev 1173.",
+    "estado_en_viento_y_verdad": "Fallecido — Tanatashev 1173."
   },
   "relaciones": {
     "familia": [],
     "amigos": [
       {
         "personaje": "dalinar",
-        "relacion": "su comandante; conferenció con él antes de la batalla"
+        "relacion": "buen amigo y soldado de confianza — Dalinar lo consideraba ambas cosas"
       },
       {
-        "personaje": "teleb",
-        "relacion": "compañero oficial; conferenció junto a él con Dalinar"
+        "personaje": "Teleb",
+        "relacion": "compañero comandante — se reunieron juntos con Dalinar antes del asalto a la Torre"
       }
     ],
-    "enemigos": []
+    "enemigos": [
+      {
+        "personaje": "sadeas",
+        "relacion": "Sadeas traicionó al ejército Kholin en la Batalla de la Torre — causando la muerte de Ilamar"
+      }
+    ]
   },
   "estado_mental": {
-    "diagnostico_general": "Sin información suficiente.",
-    "evolucion": "Sin arco propio.",
+    "diagnostico_general": "Buen soldado y leal amigo de Dalinar.",
+    "evolucion": "",
     "situacion_en_viento_y_verdad": "Fallecido."
   },
   "arco_narrativo": {
-    "resumen": "Ilamar era oficial del ejército de Dalinar. Conferenció con Dalinar y Teleb en el campo de batalla antes del asalto a la Torre. Murió en la Batalla de la Torre junto a Havar, Perethom y seis mil soldados más cuando Sadeas traicionó a Dalinar y se retiró.",
+    "resumen": "Jefe de caballería de Dalinar. C. 1145 usó garfios y cuerdas con cincuenta jinetes contra portadores de esquirlada en la batalla contra Kalanor. En 1173 siguió al frente de la caballería en las Llanuras. Murió en la Batalla de la Torre traicionado por Sadeas. Tanatashev 1173.",
     "puntos_clave": [
-      "Oficial del ejército de Dalinar Kholin.",
-      "Conferenció con Dalinar y Teleb en el campo de batalla antes del asalto a la Torre.",
-      "Murió en la Batalla de la Torre junto a Havar, Perethom y seis mil soldados más.",
-      "Su muerte fue consecuencia directa de la traición de Sadeas.",
-      "Mencionado en Palabras Radiantes como uno de los caídos de Dalinar."
+      "Jefe de caballería de Dalinar — manchas rojas en el pelo, bigote rojo, complexión baja y compacta.",
+      "Dalinar lo consideraba buen soldado y buen amigo.",
+      "C. 1145 usó garfios y cuerdas con cincuenta jinetes contra portadores de esquirlada.",
+      "En 1173 al frente de la caballería en las Llanuras.",
+      "Murió en la Batalla de la Torre junto a Havar y Perethon. Tanatashev 1173.",
+      "ECdR capítulo 26 y 64; Juramentada capítulo 26; PR capítulo 37."
     ]
   },
   "situacion_actual": {
-    "ocupacion": "Fallecido",
-    "rol": "Oficial de Dalinar; caído en la Batalla de la Torre",
+    "ocupacion": "Fallecido — Tanatashev 1173",
+    "rol": "Jefe de caballería de Dalinar — buen amigo y buen soldado",
     "relacion_con_spren": "",
-    "otros_detalles": "Murió junto a Havar, Perethom y seis mil soldados más cuando Sadeas traicionó a Dalinar."
+    "otros_detalles": ""
   },
-  "descripcion_breve": "Oficial del ejército de Dalinar. Conferenció con él y Teleb antes de la Batalla de la Torre. Fallecido en esa batalla por la traición de Sadeas.",
-  "notas": "Murió junto a Havar, Perethom y seis mil soldados más en la Batalla de la Torre. Su muerte es parte de las consecuencias de la traición de Sadeas."
+  "descripcion_breve": "Jefe de caballería de Dalinar. Buen amigo y soldado. Innovó usando garfios y cuerdas contra portadores de esquirlada en 1145. Murió en la Batalla de la Torre traicionado por Sadeas.",
+  "notas": "ECdR capítulos 26 y 64; Juramentada capítulo 26; PR capítulo 37."
 }

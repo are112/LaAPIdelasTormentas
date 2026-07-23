@@ -1,0 +1,88 @@
+{
+  "id": "inkima",
+  "nombre": "Inkima",
+  "nombre_completo": "Inkima",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Campamentos de guerra alezi, Llanuras Quebradas",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "menor",
+        "pov": false
+      },
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "mención",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Campamentos de guerra alezi — brillante señora"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Brillante señora alezi regordeta de ojos amarillos — pareja de Jakamav",
+      "Risa tintineante que Adolin encontraba odiosa"
+    ],
+    "descripcion": "Brillante señora alezi. Regordeta, ojos amarillos, pelo teñido de negro — probablemente no de pura sangre alezi. El color rojo no le sentaba bien según Adolin. Risa tintineante que Adolin encontraba odiosa. Encantada con Jakamav — se ríe de todo lo que dice. Acompañó a Jakamav a una cata de vinos en el Mercado Exterior con Adolin, Danlan Morakotha, Toral y otros ojos claros. Jakamav rechazó la invitación de Adolin a un segundo bar tras la Batalla de la Torre por el mal carácter hacia los Kholin.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "jakamav",
+        "relacion": "pareja — se ríe de todo lo que dice"
+      },
+      {
+        "personaje": "adolin",
+        "relacion": "conocido — fue a cata de vinos con él; Jakamav rechazó segundo bar tras la Batalla de la Torre"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sociable, encantada con Jakamav.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Brillante señora alezi, pareja de Jakamav. Fue a cata de vinos con Adolin y otros. Risa tintineante que Adolin odiaba. Jakamav rechazó segundo bar tras la Batalla de la Torre. ECdR capítulo 58 y PR capítulo 26.",
+    "puntos_clave": [
+      "Regordeta, ojos amarillos, pelo negro — probablemente no pura sangre alezi.",
+      "Risa tintineante odiosa para Adolin. Pareja de Jakamav.",
+      "Fue a cata de vinos con Adolin y otros ojos claros en el Mercado Exterior.",
+      "Jakamav rechazó segundo bar tras la Batalla de la Torre. ECdR 58 y PR 26."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Pareja de Jakamav — ojos claros menor de los campamentos",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Brillante señora alezi de ojos amarillos, pareja de Jakamav. Risa tintineante que Adolin odiaba. Fue a cata de vinos con Adolin y otros ojos claros en el Mercado Exterior.",
+  "notas": "ECdR capítulo 58 y PR capítulo 26."
+}

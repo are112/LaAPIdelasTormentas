@@ -1,0 +1,86 @@
+{
+  "id": "idolir",
+  "nombre": "Idolir",
+  "nombre_completo": "Idolir",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "fallecido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Puente Cuatro",
+    "Ejército de Sadeas"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Carreras de puentes"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Hombre de los puentes del Puente Cuatro",
+      "Murió en carrera de puentes mientras Kaladin estaba inconsciente — su muerte motivó la enseñanza de medicina de campo"
+    ],
+    "descripcion": "Miembro del Puente Cuatro. Murió durante los diez días en que Kaladin estuvo inconsciente tras ser juzgado por el Padre Tormenta. Junto a Treff, fueron las bajas durante ese período. Moash señaló que con primeros auxilios adecuados podrían haber sobrevivido — esto motivó a Kaladin a entrenar al Puente Cuatro en medicina de campo.",
+    "estado_en_viento_y_verdad": "Fallecido — c. 1173."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "kaladin",
+        "relacion": "su capitán — su muerte motivó la enseñanza de medicina de campo"
+      },
+      {
+        "personaje": "Treff",
+        "relacion": "compañero del Puente Cuatro que también murió en las mismas carreras"
+      }
+    ],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Fallecido."
+  },
+  "arco_narrativo": {
+    "resumen": "Miembro del Puente Cuatro. Murió en carrera de puentes durante los diez días de inconsciencia de Kaladin. ECdR capítulo 40.",
+    "puntos_clave": [
+      "Miembro del Puente Cuatro.",
+      "Murió en carrera de puentes mientras Kaladin estaba inconsciente — c. 1173.",
+      "Junto a Treff, bajas durante los diez días de inconsciencia de Kaladin.",
+      "Su muerte motivó a Kaladin a enseñar medicina de campo. ECdR capítulo 40."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Fallecido",
+    "rol": "Miembro del Puente Cuatro cuya muerte motivó la medicina de campo",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Miembro del Puente Cuatro. Murió en carrera de puentes mientras Kaladin estaba inconsciente. Su muerte, junto a la de Treff, motivó a Kaladin a enseñar medicina de campo.",
+  "notas": "ECdR capítulo 40."
+}

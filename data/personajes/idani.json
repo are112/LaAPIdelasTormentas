@@ -1,0 +1,92 @@
+{
+  "id": "idani",
+  "nombre": "Idani",
+  "nombre_completo": "Idani",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Kholinar, Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "viva",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Ritmo de la Guerra",
+        "rol": "mención — flashback de Adolin",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Familia Khal"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": []
+  },
+  "identidades": {
+    "principales": [
+      "Mujer alezi de Kholinar, prima de Halam, Aratin y Meleran Khal",
+      "El primer amor de Adolin — que le enseñó que una persona puede ser hermosa y fea al mismo tiempo"
+    ],
+    "descripcion": "Mujer alezi. A la edad de catorce años era hermosa y más madura de lo habitual. Ligeramente mayor que Adolin. Prima de Halam, Aratin y Meleran Khal. Se mudó a Kholinar c. 1164. Adolin estaba enamorado de ella. Cuando comentó que quería verlo usar su espada, Adolin le compró un ulius pasando por alto el doble sentido. Se aburrió con su explicación de una hora y se marchó sin cogerlo. Adolin la oyó burlarse de Renarin con otros jóvenes. Esto le enseñó que alguien puede ser hermoso y feo a la vez. En 1175 Adolin se lo contó a Shallan como su primer enamoramiento.",
+    "estado_en_viento_y_verdad": "Activa."
+  },
+  "relaciones": {
+    "familia": [
+      {
+        "personaje": "general_khal",
+        "relacion": "pariente"
+      },
+      {
+        "personaje": "halam_khal",
+        "relacion": "primo"
+      },
+      {
+        "personaje": "aratin_khal",
+        "relacion": "primo"
+      }
+    ],
+    "amigos": [],
+    "enemigos": [
+      {
+        "personaje": "adolin",
+        "relacion": "primer amor — se burló de Renarin; le enseñó que alguien puede ser hermoso y feo"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Superficial en su juventud.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Primer amor de Adolin en Kholinar c. 1164. Le compró un ulius que ella no cogió. La oyó burlarse de Renarin — aprendió que alguien puede ser hermoso y feo. RdG capítulo 34.",
+    "puntos_clave": [
+      "Prima de los Khal — primer amor de Adolin c. 1164.",
+      "Adolin le compró un ulius malinterpretando sus palabras — ella se aburrió y se fue.",
+      "Adolin la oyó burlarse de Renarin — aprendió que alguien puede ser hermoso y feo.",
+      "Adolin lo recordó con Shallan en 1175. RdG capítulo 34."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Desconocida",
+    "rol": "Primer amor de Adolin",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Primer amor de Adolin en Kholinar. Prima de los Khal. Le enseñó que una persona puede ser hermosa y fea al mismo tiempo al oírla burlarse de Renarin.",
+  "notas": "RdG capítulo 34."
+}

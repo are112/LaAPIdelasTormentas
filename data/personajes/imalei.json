@@ -1,0 +1,81 @@
+{
+  "id": "imalei",
+  "nombre": "Imalei",
+  "nombre_completo": "Imalei",
+  "apodos": [],
+  "sexo": "femenino",
+  "especie": "cantor",
+  "nacionalidad": "",
+  "origen": "Iri, Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "activa",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Guía del mundo del Archivo de las tormentas",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Portadores del Vacío — Regia en forma emisaria",
+    "Monarcas cantores de Iri — una de los tres"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [
+        "Formas de Poder — Regia en forma emisaria"
+      ],
+      "fuente_de_luz": "luz del vacío"
+    },
+    "no_magicas": [
+      "Diplomacia — oradora pública y mediadora para los Fusionados",
+      "Mando — una de los tres monarcas cantores de Iri"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Regia en forma emisaria — una de los tres monarcas cantores de Iri",
+      "Su vacíospren reconoció la verdad de su gema corazón y la liberó de su cuerpo masculino"
+    ],
+    "descripcion": "Regia cantor en forma emisaria. Una de los tres monarcas cantores de Iri, con gran poder sobre el dominio de Odium y más tarde de Represalia. Actúa como oradora pública y mediadora para los Fusionados. Durante su transición a una forma de poder, el vacíospren de Imalei reconoció la verdad de su gema corazón y la liberó de su cuerpo masculino. Sirve con fervor a los Fusionados. Profesa la religión iriali del Único.",
+    "estado_en_viento_y_verdad": "Activa — Iri."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Fervorosa servidora de los Fusionados. Profesa el irialismo del Único.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Activa."
+  },
+  "arco_narrativo": {
+    "resumen": "Regia cantor en Iri, una de los tres monarcas cantores. Su vacíospren la liberó de su cuerpo masculino. Mediadora para los Fusionados. Guía del mundo página 154.",
+    "puntos_clave": [
+      "Regia en forma emisaria — una de los tres monarcas cantores de Iri.",
+      "Su vacíospren reconoció la verdad de su gema corazón y la liberó de su cuerpo masculino.",
+      "Sirve con fervor a los Fusionados.",
+      "Oradora pública y mediadora para los Fusionados.",
+      "Profesa la religión iriali del Único. Guía del mundo página 154."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Monarca cantor de Iri — mediadora de los Fusionados",
+    "rol": "Una de los tres monarcas cantores de Iri",
+    "relacion_con_spren": "Vinculada a vacíospren en forma emisaria.",
+    "otros_detalles": "Su vacíospren la liberó de su cuerpo masculino."
+  },
+  "descripcion_breve": "Regia cantor en forma emisaria. Una de los tres monarcas cantores de Iri. Su vacíospren la liberó de su cuerpo masculino. Mediadora para los Fusionados. Profesa la religión iriali del Único.",
+  "notas": "Guía del mundo del Archivo de las tormentas, página 154."
+}

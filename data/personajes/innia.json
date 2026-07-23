@@ -1,0 +1,77 @@
+{
+  "id": "innia",
+  "nombre": "Innia",
+  "nombre_completo": "Innia",
+  "apodos": [],
+  "sexo": "desconocido",
+  "especie": "humano",
+  "nacionalidad": "desconocida",
+  "origen": "Roshar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "desconocido",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "El Camino de los Reyes",
+        "rol": "mención — epígrafe",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Erudición — autora de Historias a la luz de la hoguera",
+      "Recopilación de cuentos populares infantiles"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Autora de Historias a la luz de la hoguera en Roshar",
+      "La que registró cuentos populares infantiles sobre los Portadores del Vacío — citada por Jasnah en su investigación"
+    ],
+    "descripcion": "Autora rosharia. Escribió Historias a la luz de la hoguera, una obra que recoge cuentos populares infantiles de Roshar. En esta obra describió a los Portadores del Vacío como parecidos a una alta tormenta — regulares en sus llegadas y aun así siempre inesperados. Usó la palabra 'Desolación' dos veces en referencia a sus apariciones (páginas 57, 59 y 64). Jasnah Kholin citó su obra en su cuaderno de investigación sobre los Portadores del Vacío.",
+    "estado_en_viento_y_verdad": "Destino desconocido."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [],
+    "enemigos": []
+  },
+  "estado_mental": {
+    "diagnostico_general": "Sin información directa — erudita que recopiló cuentos populares infantiles.",
+    "evolucion": "",
+    "situacion_en_viento_y_verdad": "Desconocido."
+  },
+  "arco_narrativo": {
+    "resumen": "Autora de Historias a la luz de la hoguera. Registró cuentos infantiles donde los Portadores del Vacío son como una alta tormenta — regulares pero siempre inesperados. Jasnah citó su obra en su investigación. ECdR capítulo 42 (epígrafe).",
+    "puntos_clave": [
+      "Autora de Historias a la luz de la hoguera.",
+      "Registró cuentos populares infantiles sobre los Portadores del Vacío.",
+      "Los describió como parecidos a una alta tormenta — regulares pero siempre inesperados.",
+      "Usó 'Desolación' dos veces — páginas 57, 59 y 64.",
+      "Jasnah la citó en su cuaderno de investigación sobre los Portadores del Vacío.",
+      "Mencionada en ECdR capítulo 42 (epígrafe)."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Destino desconocido — autora rosharia",
+    "rol": "Autora cuyos registros sobre los Portadores del Vacío sirvieron a la investigación de Jasnah",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Autora rosharia de Historias a la luz de la hoguera. Registró cuentos infantiles donde los Portadores del Vacío son como una alta tormenta — regulares pero siempre inesperados. Jasnah la citó en su investigación.",
+  "notas": "Mencionada en ECdR capítulo 42 (epígrafe). Su obra fue una de las fuentes de la investigación de Jasnah sobre los Portadores del Vacío."
+}

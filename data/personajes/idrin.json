@@ -1,0 +1,93 @@
+{
+  "id": "idrin",
+  "nombre": "Idrin",
+  "nombre_completo": "Idrin",
+  "apodos": [],
+  "sexo": "masculino",
+  "especie": "humano",
+  "nacionalidad": "alezi",
+  "origen": "Alezkar",
+  "planeta_natal": "Roshar",
+  "estado_actual": "vivo",
+  "apariciones": {
+    "libros": [
+      {
+        "titulo": "Palabras Radiantes",
+        "rol": "secundario",
+        "pov": false
+      }
+    ]
+  },
+  "afiliaciones": [
+    "Guardia del Rey — líder",
+    "Ejército de Kholin"
+  ],
+  "orden_radiantes": {
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "spren_asociado": {
+      "principal": ""
+    },
+    "estado_del_vinculo": ""
+  },
+  "habilidades": {
+    "magia": {
+      "potencias": [],
+      "fuente_de_luz": ""
+    },
+    "no_magicas": [
+      "Mando — líder de la Guardia del Rey de Elhokar",
+      "Combate — soldado veterano"
+    ]
+  },
+  "identidades": {
+    "principales": [
+      "Líder de la Guardia del Rey Elhokar en las Llanuras Quebradas",
+      "El que fue injustamente culpado por Elhokar del intento de asesinato con el balcón cortado"
+    ],
+    "descripcion": "Líder de la Guardia del Rey. Piel más oscura que la mayoría de alezi — posibles ancestros azishianos o makabaki. Ojos claros verdes, barba completa. Estoico — no reacciona ante insultos. Se sonroja cuando se enfurece. Excelente comandante. Prefería combatir a hacer guardia — leal a Dalinar, quería probar que el ejército Kholin seguía siendo fuerte tras la Batalla de la Torre. Asignado por Dalinar. Tenía acceso a reuniones privadas. Elhokar lo culpó injustamente del intento de asesinato con el balcón cortado. Se enfureció y salió lleno de rabia. Dalinar lo reasignó al ejército para apaciguar al rey — pero en privado reconoció su inocencia. Idrin estaba más contento en su nuevo puesto combatiendo parshendi.",
+    "estado_en_viento_y_verdad": "Activo — en el ejército de Dalinar."
+  },
+  "relaciones": {
+    "familia": [],
+    "amigos": [
+      {
+        "personaje": "dalinar",
+        "relacion": "su comandante — lo reasignó al ejército reconociendo su inocencia en privado"
+      },
+      {
+        "personaje": "kaladin",
+        "relacion": "se reunió con él varias veces mientras Kaladin protegía a Dalinar"
+      }
+    ],
+    "enemigos": [
+      {
+        "personaje": "elhokar",
+        "relacion": "lo culpó injustamente del intento de asesinato con el balcón — Idrin se enfureció"
+      }
+    ]
+  },
+  "estado_mental": {
+    "diagnostico_general": "Estoico pero con límites. Leal a Dalinar. Prefería el combate a la guardia.",
+    "evolucion": "Pasó de líder de la Guardia del Rey a soldado de combate — más contento.",
+    "situacion_en_viento_y_verdad": "Activo."
+  },
+  "arco_narrativo": {
+    "resumen": "Líder de la Guardia del Rey. Elhokar lo culpó injustamente del balcón cortado. Se enfureció. Dalinar lo reasignó al ejército reconociendo su inocencia. PR capítulos 5, 22 y 23.",
+    "puntos_clave": [
+      "Líder de la Guardia del Rey — piel oscura por ancestros azishianos/makabaki, ojos verdes, barba.",
+      "Estoico, excelente comandante, prefería el combate.",
+      "Elhokar lo culpó injustamente del balcón cortado — se enfureció y salió lleno de rabia.",
+      "Dalinar lo reasignó al ejército — reconoció su inocencia en privado.",
+      "Más contento combatiendo parshendi. PR capítulos 5, 22 y 23."
+    ]
+  },
+  "situacion_actual": {
+    "ocupacion": "Soldado en el ejército de Dalinar",
+    "rol": "Antiguo líder de la Guardia del Rey injustamente culpado",
+    "relacion_con_spren": "",
+    "otros_detalles": ""
+  },
+  "descripcion_breve": "Líder alezi de la Guardia del Rey. Estoico y excelente comandante. Elhokar lo culpó injustamente del intento de asesinato con el balcón. Dalinar lo reasignó al ejército reconociendo su inocencia.",
+  "notas": "PR capítulos 5, 22 y 23. Su reasignación ilustra la dinámica entre Dalinar (que protege a sus hombres) y Elhokar."
+}
