@@ -3056,8 +3056,48 @@
     "especie": "humano"
   },
   {
+    "id": "idani",
+    "nombre": "Idani",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "idolir",
+    "nombre": "Idolir",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "idrin",
+    "nombre": "Idrin",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "vivo",
+    "especie": "humano"
+  },
+  {
     "id": "ilamar",
     "nombre": "Ilamar",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "fallecido",
+    "especie": "humano"
+  },
+  {
+    "id": "imalei",
+    "nombre": "Imalei",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "activa",
+    "especie": "cantor"
+  },
+  {
+    "id": "inabar",
+    "nombre": "Inabar",
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
@@ -3069,6 +3109,22 @@
     "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "inkima",
+    "nombre": "Inkima",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "viva",
+    "especie": "humano"
+  },
+  {
+    "id": "innia",
+    "nombre": "Innia",
+    "orden": "Ninguna",
+    "nivel_ideal": null,
+    "estado_actual": "desconocido",
     "especie": "humano"
   },
   {
