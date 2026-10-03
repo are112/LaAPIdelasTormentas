@@ -1,10 +1,46 @@
-import { personajes, heraldos, spren } from "../utils/loaders.js";
+import { personajes, heraldos, spren, ordenes } from "../utils/loaders.js";
 
 // ── Construcción del grafo ────────────────────────────────
 // Incluye personajes, heraldos y spren como nodos.
 // Se computa una vez al primer acceso y se cachea en memoria.
 
 let grafoCache = null;
+
+// Cada clave de "relaciones" se traduce a uno de estos tipos de arista.
+// Personajes usan familia/amigos/enemigos; spren y heraldos usan otras claves.
+const TIPO_RELACION = {
+  familia:            "familia",
+  amigos:             "amigos",
+  enemigos:           "enemigos",
+  radiante_vinculado: "vinculo",   // spren → su Radiante (vínculo Nahel)
+  anterior_radiante:  "vinculo",
+  heraldos:           "amigos",    // compañeros Heraldos
+  creador:            "otros",
+  otros:              "otros",
+};
+export const TIPOS_ARISTA = ["familia", "amigos", "enemigos", "vinculo", "otros"];
+
+// Si dos entidades se mencionan con tipos distintos (p. ej. Kaladin tiene a
+// Sylphrena en "amigos" y ella a él en "radiante_vinculado"), gana el más fuerte.
+const PRIORIDAD = { vinculo: 5, familia: 4, enemigos: 3, amigos: 2, otros: 1 };
+
+// Normaliza nombres e IDs para poder casar "Lin Davar" con lin_davar,
+// "Padre Tormenta" con padre-tormenta, "Sagaz" con hoid, etc.
+function normalizar(s) {
+  return String(s)
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/['’`]/g, "")
+    .trim()
+    .replace(/[\s\-]+/g, "_");
+}
+
+// Una relación puede venir como lista, como objeto suelto o como null
+function comoLista(valor) {
+  if (Array.isArray(valor)) return valor;
+  if (valor && typeof valor === "object") return [valor];
+  return [];
+}
 
 function buildGrafo() {
   if (grafoCache) return grafoCache;
@@ -15,17 +51,18 @@ function buildGrafo() {
     { tipo: "spren",     loader: spren },
   ];
 
-  const nodosMap   = new Map();
-  const aristasSet = new Set();
-  const aristas    = [];
+  const nodosMap = new Map();
 
-  // Índice global de IDs válidos
-  const idsValidos = new Set();
-  for (const { loader } of fuentes) {
-    for (const item of loader.loadList()) idsValidos.add(item.id.toLowerCase());
-  }
+  // ── Nodos y resolutor de referencias ──────────────────
+  const porId    = new Map();   // id normalizado → id real
+  const porAlias = new Map();   // nombre/apodo normalizado → Set de ids reales
+  const addAlias = (alias, id) => {
+    if (!alias || typeof alias !== "string") return;
+    const k = normalizar(alias);
+    if (!porAlias.has(k)) porAlias.set(k, new Set());
+    porAlias.get(k).add(id);
+  };
 
-  // Nodos
   for (const { tipo, loader } of fuentes) {
     for (const item of loader.loadList()) {
       const detalle = loader.loadOne(item.id);
@@ -39,47 +76,64 @@ function buildGrafo() {
         estado_actual: item.estado_actual     ?? detalle?.estado_actual ?? null,
         grado: 0,
       });
+      porId.set(normalizar(item.id), item.id);
+      addAlias(detalle?.nombre ?? item.nombre, item.id);
+      addAlias(detalle?.nombre_completo, item.id);
+      addAlias(detalle?.apodo ?? item.apodo, item.id);
+      for (const a of detalle?.apodos ?? []) addAlias(a, item.id);
     }
   }
 
-  // Aristas
+  // Primero por ID; si no, por nombre/apodo siempre que no sea ambiguo
+  const resolver = (ref) => {
+    if (!ref) return null;
+    const k = normalizar(ref);
+    if (porId.has(k)) return porId.get(k);
+    const candidatos = porAlias.get(k);
+    return candidatos && candidatos.size === 1 ? [...candidatos][0] : null;
+  };
+
+  // ── Aristas (una por pareja, con el tipo de mayor prioridad) ──
+  const porPareja = new Map();
   for (const { loader } of fuentes) {
     for (const item of loader.loadList()) {
-      const detalle = loader.loadOne(item.id);
-      if (!detalle?.relaciones) continue;
+      const relaciones = loader.loadOne(item.id)?.relaciones;
+      if (!relaciones || typeof relaciones !== "object") continue;
 
-      for (const tipoRel of ["familia", "amigos", "enemigos"]) {
-        for (const rel of detalle.relaciones[tipoRel] ?? []) {
-          const destinoId = rel.personaje?.toLowerCase().trim();
-          if (!destinoId || !idsValidos.has(destinoId) || destinoId === item.id) continue;
+      for (const [clave, valor] of Object.entries(relaciones)) {
+        const tipo = TIPO_RELACION[clave] ?? "otros";
+        for (const rel of comoLista(valor)) {
+          const destino = resolver(rel?.personaje);
+          if (!destino || destino === item.id) continue;
 
-          const clave = [item.id, destinoId].sort().join("||") + "||" + tipoRel;
-          if (aristasSet.has(clave)) continue;
-          aristasSet.add(clave);
-
-          aristas.push({
+          const pareja = [item.id, destino].sort().join("||");
+          const previa = porPareja.get(pareja);
+          if (previa && PRIORIDAD[previa.tipo] >= PRIORIDAD[tipo]) continue;
+          porPareja.set(pareja, {
             origen:      item.id,
-            destino:     destinoId,
-            tipo:        tipoRel,
+            destino,
+            tipo,
             descripcion: rel.relacion ?? null,
           });
-
-          if (nodosMap.has(item.id))    nodosMap.get(item.id).grado++;
-          if (nodosMap.has(destinoId))  nodosMap.get(destinoId).grado++;
         }
       }
     }
   }
 
+  const aristas = [...porPareja.values()];
+  for (const a of aristas) {
+    nodosMap.get(a.origen).grado++;
+    nodosMap.get(a.destino).grado++;
+  }
+
   const nodos = [...nodosMap.values()];
 
   // ── Índice de adyacencia para algoritmos de grafo ──────
-  // Map id → Set de ids vecinos (grafo no dirigido)
   const adyacencia = new Map();
   for (const n of nodos) adyacencia.set(n.id, new Set());
   for (const a of aristas) {
-    adyacencia.get(a.origen)?.add(a.destino);
-    adyacencia.get(a.destino)?.add(a.origen);
+    adyacencia.get(a.origen).add(a.destino);
+    adyacencia.get(a.destino).add(a.origen);
   }
 
   grafoCache = {
@@ -91,11 +145,9 @@ function buildGrafo() {
         heraldos:   nodos.filter((n) => n.tipo === "heraldo").length,
         spren:      nodos.filter((n) => n.tipo === "spren").length,
       },
-      por_tipo: {
-        familia:  aristas.filter((a) => a.tipo === "familia").length,
-        amigos:   aristas.filter((a) => a.tipo === "amigos").length,
-        enemigos: aristas.filter((a) => a.tipo === "enemigos").length,
-      },
+      por_tipo: Object.fromEntries(
+        TIPOS_ARISTA.map((t) => [t, aristas.filter((a) => a.tipo === t).length])
+      ),
     },
     nodos,
     nodosMap,
@@ -132,73 +184,83 @@ function bfs(desde, hasta, adyacencia) {
   return null; // sin conexión
 }
 
-// ── Comunidades por componentes conexas + densidad ────────
-// Algoritmo: Union-Find para componentes + agrupación por orden/especie
-// para sub-comunidades dentro de la componente principal.
-function detectarComunidades(nodos, aristas, adyacencia) {
-  // 1. Componentes conexas con BFS
-  const componente = new Map(); // id → componenteId
-  let compId = 0;
+// ── Comunidades por propagación de etiquetas ponderada ────
+// Cada nodo adopta la etiqueta con más peso entre sus vecinos hasta que
+// nada cambia. Familia y vínculo pesan más; enemigos casi no cuentan, para
+// que dos bandos enfrentados no acaben en la misma comunidad.
+// Es determinista: siempre da el mismo resultado con los mismos datos.
+const PESO_COMUNIDAD = { familia: 3, vinculo: 3, amigos: 2, otros: 1, enemigos: 0.25 };
 
-  for (const nodo of nodos) {
-    if (componente.has(nodo.id)) continue;
-    const cola = [nodo.id];
-    componente.set(nodo.id, compId);
-    while (cola.length) {
-      const actual = cola.shift();
-      for (const vecino of adyacencia.get(actual) ?? []) {
-        if (componente.has(vecino)) continue;
-        componente.set(vecino, compId);
-        cola.push(vecino);
+function detectarComunidades(nodos, aristas) {
+  const vecinos = new Map(nodos.map((n) => [n.id, []]));
+  for (const a of aristas) {
+    const w = PESO_COMUNIDAD[a.tipo] ?? 1;
+    vecinos.get(a.origen).push([a.destino, w]);
+    vecinos.get(a.destino).push([a.origen, w]);
+  }
+
+  const etiqueta = new Map(nodos.map((n) => [n.id, n.id]));
+  const orden = [...nodos].sort((a, b) => b.grado - a.grado || a.id.localeCompare(b.id));
+
+  for (let ronda = 0; ronda < 50; ronda++) {
+    let cambios = 0;
+    for (const n of orden) {
+      const lista = vecinos.get(n.id);
+      if (!lista.length) continue;
+      const pesos = new Map();
+      for (const [v, w] of lista) {
+        const e = etiqueta.get(v);
+        pesos.set(e, (pesos.get(e) || 0) + w);
       }
+      const max = Math.max(...pesos.values());
+      const actual = etiqueta.get(n.id);
+      if (pesos.get(actual) === max) continue;   // si empata, conserva la suya
+      const mejor = [...pesos.entries()]
+        .filter(([, w]) => w === max)
+        .map(([e]) => e)
+        .sort()[0];
+      etiqueta.set(n.id, mejor);
+      cambios++;
     }
-    compId++;
+    if (!cambios) break;
   }
 
-  // 2. Agrupar nodos por componente
-  const grupos = new Map(); // compId → [nodos]
-  for (const nodo of nodos) {
-    const c = componente.get(nodo.id);
-    if (!grupos.has(c)) grupos.set(c, []);
-    grupos.get(c).push(nodo);
+  const grupos = new Map();
+  for (const n of nodos) {
+    if (!vecinos.get(n.id).length) continue;           // aislados: no son comunidad
+    const e = etiqueta.get(n.id);
+    if (!grupos.has(e)) grupos.set(e, []);
+    grupos.get(e).push(n);
   }
 
-  // 3. Construir resultado ordenado por tamaño
-  const comunidades = [...grupos.entries()]
-    .sort((a, b) => b[1].length - a[1].length)
-    .map(([, miembros], idx) => {
+  return [...grupos.values()]
+    .filter((m) => m.length >= 2)
+    .sort((a, b) => b.length - a.length)
+    .map((miembros, idx) => {
+      miembros.sort((a, b) => b.grado - a.grado || a.nombre.localeCompare(b.nombre));
       const ids = new Set(miembros.map((n) => n.id));
-      const aristasInternas = aristas.filter(
-        (a) => ids.has(a.origen) && ids.has(a.destino)
-      );
+      const internas = aristas.filter((a) => ids.has(a.origen) && ids.has(a.destino));
 
-      // Nombre de la comunidad: orden más frecuente entre sus miembros
-      const frecOrdenes = {};
+      // Solo cuentan las diez órdenes reales (no tipos de spren ni notas)
+      const ordenesValidas = new Set(ordenes.loadList().map((o) => o.nombre));
+      const frec = {};
       for (const n of miembros) {
-        const k = n.orden ?? n.tipo ?? "Desconocido";
-        if (k && k !== "Ninguna") frecOrdenes[k] = (frecOrdenes[k] || 0) + 1;
+        if (ordenesValidas.has(n.orden)) frec[n.orden] = (frec[n.orden] || 0) + 1;
       }
-      const ordenPrincipal = Object.entries(frecOrdenes)
-        .sort((a, b) => b[1] - a[1])[0]?.[0] ?? "Comunidad " + (idx + 1);
+      const [ordenTop, cuenta] = Object.entries(frec).sort((a, b) => b[1] - a[1])[0] ?? [null, 0];
 
-      // Densidad: aristas reales / aristas posibles
       const n = miembros.length;
-      const posibles = n > 1 ? (n * (n - 1)) / 2 : 1;
-      const densidad = parseFloat((aristasInternas.length / posibles).toFixed(4));
-
+      const destacados = miembros.slice(0, 3).map((m) => m.nombre);
       return {
-        id:              idx,
-        nombre:          ordenPrincipal,
-        total_miembros:  miembros.length,
-        total_aristas:   aristasInternas.length,
-        densidad,
-        miembros: miembros
-          .sort((a, b) => b.grado - a.grado)
-          .map((n) => ({ id: n.id, nombre: n.nombre, tipo: n.tipo, grado: n.grado })),
+        id:                 idx,
+        nombre:             destacados.join(", "),
+        orden_predominante: cuenta >= 2 ? ordenTop : null,
+        total_miembros:     n,
+        total_aristas:      internas.length,
+        densidad:           parseFloat((internas.length / ((n * (n - 1)) / 2)).toFixed(4)),
+        miembros:           miembros.map((m) => ({ id: m.id, nombre: m.nombre, tipo: m.tipo, grado: m.grado })),
       };
     });
-
-  return comunidades;
 }
 
 // ── GET /grafo ────────────────────────────────────────────
@@ -342,17 +404,18 @@ export function grafoCamino(req, res) {
 // Detecta grupos de entidades interconectadas.
 // ?min_miembros=N filtra comunidades con menos de N miembros.
 export function grafoComunidades(req, res) {
-  const minMiembros = parseInt(req.query.min_miembros) || 1;
-  const { nodos, aristas, adyacencia, meta } = buildGrafo();
+  const minMiembros = Math.max(2, parseInt(req.query.min_miembros) || 2);
+  const { nodos, aristas, meta } = buildGrafo();
 
-  const comunidades = detectarComunidades(nodos, aristas, adyacencia)
-    .filter((c) => c.total_miembros >= minMiembros);
+  const todas = detectarComunidades(nodos, aristas);
+  const comunidades = todas.filter((c) => c.total_miembros >= minMiembros);
 
   res.json({
     meta: {
       total_comunidades: comunidades.length,
       total_nodos:       meta.total_nodos,
-      algoritmo:         "BFS por componentes conexas",
+      nodos_aislados:    nodos.filter((n) => n.grado === 0).length,
+      algoritmo:         "Propagación de etiquetas ponderada por tipo de relación",
     },
     comunidades,
   });

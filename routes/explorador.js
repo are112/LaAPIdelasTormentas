@@ -1189,6 +1189,8 @@ router.get("/", (req, res) => {
     .grafo-filtro-btn.activo.familia  { border-color: #c9a84c; color: #c9a84c; background: rgba(201,168,76,.08); }
     .grafo-filtro-btn.activo.amigos   { border-color: #4a9eca; color: #4a9eca; background: rgba(74,158,202,.08); }
     .grafo-filtro-btn.activo.enemigos { border-color: #e05c5c; color: #e05c5c; background: rgba(224,92,92,.08); }
+    .grafo-filtro-btn.activo.vinculo  { border-color: #e8dcb5; color: #e8dcb5; background: rgba(232,220,181,.08); }
+    .grafo-filtro-btn.activo.otros    { border-color: #7a8694; color: #aab4c0; background: rgba(122,134,148,.10); }
     .grafo-canvas {
       width: 100%;
       flex: 1;
@@ -2882,6 +2884,8 @@ router.get("/", (req, res) => {
             '<button class="grafo-filtro-btn familia"  onclick="grafoFiltrar(&apos;familia&apos;,this)">Familia</button>' +
             '<button class="grafo-filtro-btn amigos"   onclick="grafoFiltrar(&apos;amigos&apos;,this)">Amigos</button>' +
             '<button class="grafo-filtro-btn enemigos" onclick="grafoFiltrar(&apos;enemigos&apos;,this)">Enemigos</button>' +
+            '<button class="grafo-filtro-btn vinculo"  onclick="grafoFiltrar(&apos;vinculo&apos;,this)">Vínculo</button>' +
+            '<button class="grafo-filtro-btn otros"    onclick="grafoFiltrar(&apos;otros&apos;,this)">Otros</button>' +
           '</div>' +
           '<div class="grafo-canvas" id="grafo-canvas-inner"><svg id="grafo-svg-inner"></svg><div class="grafo-tooltip" id="grafo-tooltip"></div></div>' +
           '<div class="grafo-stats">' +
@@ -2889,10 +2893,14 @@ router.get("/", (req, res) => {
             '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#c9a84c" id="gstat-familia">-</span><span class="grafo-stat-label">Familia</span></div>' +
             '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#4a9eca" id="gstat-amigos">-</span><span class="grafo-stat-label">Amigos</span></div>' +
             '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#e05c5c" id="gstat-enemigos">-</span><span class="grafo-stat-label">Enemigos</span></div>' +
+            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#e8dcb5" id="gstat-vinculo">-</span><span class="grafo-stat-label">Vínculo</span></div>' +
+            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#aab4c0" id="gstat-otros">-</span><span class="grafo-stat-label">Otros</span></div>' +
             '<div class="grafo-leyenda">' +
               '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#c9a84c"></div>Familia</div>' +
               '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#4a9eca"></div>Amigos</div>' +
               '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#e05c5c;height:2px;border-top:2px dashed #e05c5c;background:none"></div>Enemigos</div>' +
+              '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#e8dcb5"></div>Vínculo</div>' +
+              '<div class="grafo-leg"><div class="grafo-leg-line" style="height:2px;border-top:2px dotted #7a8694;background:none"></div>Otros</div>' +
               '<div class="grafo-leg"><div class="grafo-leg-dot" style="background:#c9a84c"></div>Origen</div>' +
             '</div>' +
           '</div>';
@@ -2966,6 +2974,8 @@ router.get("/", (req, res) => {
       document.getElementById('gstat-familia').textContent  = cFam;
       document.getElementById('gstat-amigos').textContent   = cAmi;
       document.getElementById('gstat-enemigos').textContent = cEne;
+      document.getElementById('gstat-vinculo').textContent  = directas.filter(a => a.tipo === 'vinculo').length;
+      document.getElementById('gstat-otros').textContent    = directas.filter(a => a.tipo === 'otros').length;
 
       const COLOR_ORDEN = {
         'Corredores del Viento':   '#4a9eca',
@@ -3020,14 +3030,14 @@ router.get("/", (req, res) => {
       grafoState.sim    = sim;
       grafoState.aristas = aristas;
 
-      const colorArista = { familia: '#c9a84c', amigos: '#4a9eca', enemigos: '#e05c5c' };
+      const colorArista = { familia: '#c9a84c', amigos: '#4a9eca', enemigos: '#e05c5c', vinculo: '#e8dcb5', otros: '#7a8694' };
 
       const linkSel = g.append('g').selectAll('line')
         .data(links).enter().append('line')
         .attr('stroke', d => colorArista[d.tipo] || '#4a5568')
         .attr('stroke-opacity', 0.4)
         .attr('stroke-width', d => d.origen === raizId || d.destino === raizId ? 2 : 1.2)
-        .attr('stroke-dasharray', d => d.tipo === 'enemigos' ? '4,3' : null);
+        .attr('stroke-dasharray', d => d.tipo === 'enemigos' ? '4,3' : d.tipo === 'otros' ? '2,3' : null);
 
       grafoState.linkSel = linkSel;
 
@@ -3077,6 +3087,8 @@ router.get("/", (req, res) => {
         const fam     = conn.filter(a => a.tipo === 'familia').length;
         const ami     = conn.filter(a => a.tipo === 'amigos').length;
         const ene     = conn.filter(a => a.tipo === 'enemigos').length;
+        const vin     = conn.filter(a => a.tipo === 'vinculo').length;
+        const otr     = conn.filter(a => a.tipo === 'otros').length;
         const desc    = conn.find(a => a.origen === raizId || a.destino === raizId)?.descripcion || '';
 
         tooltip.innerHTML =
@@ -3087,6 +3099,8 @@ router.get("/", (req, res) => {
           (fam ? '<div class="gt-row"><div class="gt-dot" style="background:#c9a84c"></div><span class="gt-val">' + fam + ' familia</span></div>' : '') +
           (ami ? '<div class="gt-row"><div class="gt-dot" style="background:#4a9eca"></div><span class="gt-val">' + ami + ' amigos</span></div>' : '') +
           (ene ? '<div class="gt-row"><div class="gt-dot" style="background:#e05c5c"></div><span class="gt-val">' + ene + ' enemigos</span></div>' : '') +
+          (vin ? '<div class="gt-row"><div class="gt-dot" style="background:#e8dcb5"></div><span class="gt-val">' + vin + ' vínculo</span></div>' : '') +
+          (otr ? '<div class="gt-row"><div class="gt-dot" style="background:#7a8694"></div><span class="gt-val">' + otr + ' otros</span></div>' : '') +
           '</div>';
 
         tooltip.style.opacity = '1';
