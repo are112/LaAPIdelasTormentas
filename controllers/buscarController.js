@@ -28,6 +28,24 @@ function getSortValue(obj, pathOrKey) {
   return JSON.stringify(raw ?? "").toLowerCase();
 }
 
+// ─── Parseo de nivel_ideal ────────────────────────────────
+// Admite: 4 · =4 · >3 · >=3 · <4 · <=2
+// Devuelve { op, n } o null si el formato no es válido.
+
+const COMPARADORES = {
+  "=":  (v, n) => v === n,
+  ">":  (v, n) => v >  n,
+  ">=": (v, n) => v >= n,
+  "<":  (v, n) => v <  n,
+  "<=": (v, n) => v <= n,
+};
+
+function parseNivelIdeal(valor) {
+  const m = String(valor).trim().match(/^(>=|<=|>|<|=)?\s*(\d+)$/);
+  if (!m) return null;
+  return { op: m[1] || "=", n: parseInt(m[2], 10) };
+}
+
 // ─── Filtro genérico ──────────────────────────────────────
 // El filtro de texto ya NO usa JSON.stringify en caliente:
 // usa el índice pre-calculado al arranque via searchText().
@@ -38,13 +56,13 @@ function aplicarFiltros(detalle, filtros, tipoEntidad, loadersMap) {
 
   if (orden && String(detalle.orden_radiantes?.orden ?? "").toLowerCase() !== orden.toLowerCase()) return false;
   if (nivel_ideal) {
-    const valor = Number(detalle.orden_radiantes?.nivel_ideal);
+    // nivel_ideal llega ya parseado como { op, n } (ver parseNivelIdeal)
+    const raw = detalle.orden_radiantes?.nivel_ideal;
+    // Las entidades sin nivel no cumplen ninguna comparación (antes null contaba como 0)
+    if (raw === null || raw === undefined || raw === "") return false;
+    const valor = Number(raw);
     if (isNaN(valor)) return false;
-    if (nivel_ideal.includes(">=") && !(valor >= parseInt(nivel_ideal.split(">=")[1]))) return false;
-    else if (nivel_ideal.includes("<=") && !(valor <= parseInt(nivel_ideal.split("<=")[1]))) return false;
-    else if (nivel_ideal.includes(">")  && !(valor >  parseInt(nivel_ideal.split(">")[1])))  return false;
-    else if (nivel_ideal.includes("<")  && !(valor <  parseInt(nivel_ideal.split("<")[1])))  return false;
-    else if (!nivel_ideal.match(/[><]/) && valor !== parseInt(nivel_ideal))                  return false;
+    if (!COMPARADORES[nivel_ideal.op](valor, nivel_ideal.n)) return false;
   }
   if (especie       && String(detalle.especie       ?? "").toLowerCase() !== especie.toLowerCase())       return false;
   if (sexo          && String(detalle.sexo          ?? "").toLowerCase() !== sexo.toLowerCase())          return false;
@@ -66,7 +84,19 @@ export function buscar(req, res) {
   const { id, tipo, orden, nivel_ideal, especie, sexo, nacionalidad, origen, estado_actual,
           afiliacion, libro, texto, sort, page, limit, fields, ...otrosFiltros } = req.query;
 
-  const filtros = { orden, nivel_ideal, especie, sexo, nacionalidad, origen, estado_actual, afiliacion, libro, texto, ...otrosFiltros };
+  // Validar nivel_ideal antes de recorrer nada
+  let nivelParseado;
+  if (nivel_ideal !== undefined && nivel_ideal !== "") {
+    nivelParseado = parseNivelIdeal(nivel_ideal);
+    if (!nivelParseado) {
+      return res.status(400).json({
+        error: `Valor de nivel_ideal no válido: "${nivel_ideal}"`,
+        formatos_validos: ["4", ">3", ">=3", "<4", "<=2"],
+      });
+    }
+  }
+
+  const filtros = { orden, nivel_ideal: nivelParseado, especie, sexo, nacionalidad, origen, estado_actual, afiliacion, libro, texto, ...otrosFiltros };
 
   const entidades = [
     { tipo: "personaje", ...personajes },

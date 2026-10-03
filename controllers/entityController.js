@@ -15,6 +15,8 @@
  * @param {object}   [config.notFound]   - campos extra en el 404 del detalle
  * @param {boolean}  [config.withResumen=false]    - genera handler resumen
  * @param {boolean}  [config.withRelaciones=false] - genera handler relaciones
+ * @param {Function} [config.enrichList]  - (item, detalle) → campos extra para cada
+ *                                          elemento del listado (evita peticiones N+1)
  */
 export function createEntityController({
   loadOne,
@@ -23,12 +25,14 @@ export function createEntityController({
   notFound = {},
   withResumen    = false,
   withRelaciones = false,
+  enrichList     = null,
 }) {
   const nombreCapital = singular.charAt(0).toUpperCase() + singular.slice(1);
 
   // ── GET /entidad ─────────────────────────────────────────
   function listar(req, res) {
-    res.json(loadList());
+    if (!enrichList) return res.json(loadList());
+    res.json(loadList().map((item) => ({ ...item, ...enrichList(item, loadOne(item.id)) })));
   }
 
   // ── GET /entidad/:id ─────────────────────────────────────

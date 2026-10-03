@@ -8,6 +8,9 @@ const { listar, detalle, resumen, relaciones, seccion } = createEntityController
   notFound:       { sugerencia: "Consulta GET /spren para ver los spren disponibles" },
   withResumen:    true,
   withRelaciones: true,
+  // Incluye la orden radiante en el listado para que el explorador no tenga
+  // que pedir el detalle de cada spren por separado
+  enrichList: (item, det) => ({ orden_radiante: det?.vinculo_nahel?.orden_radiante ?? null }),
 });
 
 const router = express.Router();

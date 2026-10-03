@@ -1600,18 +1600,14 @@ router.get("/", (req, res) => {
       panel.innerHTML = '<div class="cargando"><div class="spinner"></div>Invocando la ficha...</div>';
 
       try {
-        const [detRes, relRes] = await Promise.allSettled([
-          fetch(\`\${API}/personajes/\${id}\`),
-          fetch(\`\${API}/personajes/\${id}/relaciones\`),
-        ]);
-        if (detRes.status === 'rejected' || !detRes.value.ok) {
+        // Una sola petición: las relaciones se ven en el grafo (Ver relaciones)
+        const detRes = await fetch(\`\${API}/personajes/\${id}\`);
+        if (!detRes.ok) {
           mostrarErrorFicha('El personaje "' + id + '" no existe o no está disponible.');
           return;
         }
-        const p = await detRes.value.json();
-        const rel = relRes.status === 'fulfilled' && relRes.value.ok
-          ? (await relRes.value.json())
-          : null;
+        const p = await detRes.json();
+        const rel = null;
 
         document.getElementById('estado-vacio').style.display = 'none';
         panel.innerHTML = botonVolver() + renderFicha(p, rel);
@@ -2590,14 +2586,8 @@ router.get("/", (req, res) => {
       try {
         const res = await fetch(\`\${API}/spren\`);
         todosSpren = await res.json();
-        // Cargar orden vinculada de cada spren en paralelo
-        await Promise.all(todosSpren.map(async s => {
-          try {
-            const r = await fetch(\`\${API}/spren/\${s.id}\`);
-            const detalle = await r.json();
-            ordenPorSpren[s.id] = detalle.vinculo_nahel?.orden_radiante ?? null;
-          } catch(e) { /* ignorar spren sin detalle */ }
-        }));
+        // La orden radiante viene ya en el listado: sin peticiones por cada spren
+        todosSpren.forEach(s => { ordenPorSpren[s.id] = s.orden_radiante ?? null; });
         poblarFiltroTipo();
         renderListaSpren(todosSpren);
       } catch (e) {
