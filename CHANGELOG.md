@@ -2,6 +2,11 @@
 
 Cada versión corresponde a una etiqueta en GitHub. Los arreglos que no cambian la API suben el último número (2.3.1); las novedades en la API suben el del medio (2.4.0).
 
+## 2.3.3
+
+- Explorador: el grafo ya no se corta por abajo cuando se llega a la ficha navegando (la barra de historial empujaba los números y la leyenda fuera de la pantalla).
+- Explorador: si se elige otro personaje con el grafo abierto, la ficha nueva vuelve a tener scroll. El modo grafo ya no depende de una clase que podía quedarse puesta.
+
 ## 2.3.2
 
 - `/buscar` devuelve `400` si `tipo` no existe o si `page` o `limit` no son enteros mayores que 0 (antes devolvía resultados extraños sin avisar).

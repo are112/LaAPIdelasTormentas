@@ -520,31 +520,36 @@ router.get("/", (req, res) => {
       height: 100%;
       position: relative;
     }
-    /* Cuando el grafo está activo: sin padding ni scroll para maximizar espacio */
-    .panel-der.grafo-activo {
+    /* Modo grafo: se activa solo si hay un grafo visible dentro del panel.
+       No depende de ninguna clase, así que si se navega a otra ficha con el
+       grafo abierto, el panel recupera su padding y su scroll automáticamente. */
+    .panel-der:has(> .grafo-panel.visible) {
       padding: 0;
       overflow: hidden;
+      display: flex;
+      flex-direction: column;
     }
-    .panel-der.grafo-activo .grafo-panel {
-      height: 100%;
+    /* La barra de historial ocupa su sitio y el grafo se queda con el resto */
+    .panel-der:has(> .grafo-panel.visible) > .historial-barra {
+      flex-shrink: 0;
+      margin: 1rem 1.5rem 0;
+    }
+    .panel-der:has(> .grafo-panel.visible) > .grafo-panel {
+      flex: 1;
+      min-height: 0;
       display: flex;
       flex-direction: column;
       padding: 1.25rem 1.5rem 1rem;
       overflow-y: auto;
     }
-    /* El canvas no debe crecer más allá de lo que deja espacio para los stats */
-    .panel-der.grafo-activo .grafo-canvas {
+    .panel-der:has(> .grafo-panel.visible) .grafo-canvas {
       flex: 1;
-      min-height: 0;
-      max-height: calc(100% - 180px);
+      min-height: 160px;
     }
-    /* Stats y leyenda siempre visibles, sin flex-shrink */
-    .panel-der.grafo-activo .grafo-stats {
+    .panel-der:has(> .grafo-panel.visible) .grafo-header,
+    .panel-der:has(> .grafo-panel.visible) .grafo-filtros,
+    .panel-der:has(> .grafo-panel.visible) .grafo-stats {
       flex-shrink: 0;
-    }
-    /* El panel-der siempre tiene scroll cuando no está el grafo */
-    .panel-der:not(.grafo-activo) {
-      overflow-y: auto;
     }
 
     /* Estado vacío */
@@ -2901,12 +2906,8 @@ router.get("/", (req, res) => {
       grafoPanel.querySelector('.grafo-filtro-btn.todos').classList.add('activo');
 
       ficha.style.display = 'none';
+      // El CSS detecta el grafo visible (:has) y adapta el panel solo
       grafoPanel.classList.add('visible');
-      const panelD = document.getElementById('panel-detalle');
-      panelD.classList.add('grafo-activo');
-      // Resetear overflow inline para que el CSS de grafo-activo tome el control
-      panelD.style.overflow = '';
-      panelD.style.overflowY = '';
 
       // Limpiar SVG anterior
       const svgEl = document.getElementById('grafo-svg-inner');
@@ -2930,14 +2931,8 @@ router.get("/", (req, res) => {
       grafoState.panelEl.remove();
       grafoState.panelEl = null;
       grafoState.fichaEl.style.display = '';
-      const panelDetalle = document.getElementById('panel-detalle');
-      panelDetalle.classList.remove('grafo-activo');
-      // Forzar overflow-y:auto via JS para evitar que el shorthand
-      // overflow:hidden del estado anterior quede cacheado por el browser
-      panelDetalle.style.overflow = '';
-      panelDetalle.style.overflowY = 'auto';
-      // Scroll al inicio de la ficha
-      panelDetalle.scrollTop = 0;
+      // Al quitar el grafo, el panel recupera padding y scroll por CSS
+      document.getElementById('panel-detalle').scrollTop = 0;
       if (grafoState.sim) { grafoState.sim.stop(); grafoState.sim = null; }
     }
 
