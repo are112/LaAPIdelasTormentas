@@ -170,7 +170,7 @@
   {
     "id": "alakavish",
     "nombre": "Alakavish",
-    "orden": "desconocida — potenciador sin honorspren",
+    "orden": "Desconocida",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
@@ -234,7 +234,7 @@
   {
     "id": "alezarv",
     "nombre": "Alezarv",
-    "orden": "Ninguna",
+    "orden": "Desconocida",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
@@ -586,7 +586,7 @@
   {
     "id": "badali",
     "nombre": "Badali",
-    "orden": "Pilares de la Tierra",
+    "orden": "Custodios de la Piedra",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
@@ -1226,7 +1226,7 @@
   {
     "id": "custodia_piedra_lluvia_estrellas",
     "nombre": "Custodia de la Piedra de Lluvia de Estrellas",
-    "orden": "desconocida — portadora de esquirlada",
+    "orden": "Desconocida",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "humano"
@@ -1738,7 +1738,7 @@
   {
     "id": "elid",
     "nombre": "Elid",
-    "orden": "Ninguna — Portadora de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "humano"
@@ -1746,7 +1746,7 @@
   {
     "id": "elid_hija_zeenid",
     "nombre": "Elid-hija-Zeenid",
-    "orden": "Portadores del Polvo",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "viva",
     "especie": "humano"
@@ -2340,7 +2340,7 @@
     "nombre": "Geb",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "desconocido",
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
@@ -2714,7 +2714,7 @@
   {
     "id": "harkaylain",
     "nombre": "Harkaylain",
-    "orden": "Ninguna",
+    "orden": "Desconocida",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
@@ -2892,7 +2892,7 @@
     "nombre": "Hermanos Tambor",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "vivos",
+    "estado_actual": "vivo",
     "especie": "humano"
   },
   {
@@ -2962,7 +2962,7 @@
   {
     "id": "hmask",
     "nombre": "Hmask",
-    "orden": "Injuramentados",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"
@@ -3100,7 +3100,7 @@
     "nombre": "Inabar",
     "orden": "Ninguna",
     "nivel_ideal": null,
-    "estado_actual": "fallecido",
+    "estado_actual": "fallecida",
     "especie": "humano"
   },
   {
@@ -3458,7 +3458,7 @@
   {
     "id": "neturo",
     "nombre": "Neturo",
-    "orden": "Ninguna — Portador de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
@@ -3522,7 +3522,7 @@
   {
     "id": "pozen",
     "nombre": "Pozen",
-    "orden": "Ninguna — Portador de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecido",
     "especie": "humano"
@@ -3594,7 +3594,7 @@
   {
     "id": "rit",
     "nombre": "Rit",
-    "orden": "Ninguna — Portadora de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "humano"
@@ -3722,7 +3722,7 @@
   {
     "id": "sivi",
     "nombre": "Sivi",
-    "orden": "Ninguna — Portadora de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "fallecida",
     "especie": "humano"
@@ -3888,14 +3888,6 @@
     "especie": "humano"
   },
   {
-    "id": "ulim",
-    "nombre": "Ulim",
-    "orden": "Ninguna",
-    "nivel_ideal": null,
-    "estado_actual": "activo",
-    "especie": "vacíospren"
-  },
-  {
     "id": "vamah",
     "nombre": "Vamah",
     "orden": "Ninguna",
@@ -3962,7 +3954,7 @@
   {
     "id": "yanagawn",
     "nombre": "Yanagawn",
-    "orden": "Injuramentados",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "estado_actual": "vivo",
     "especie": "humano"

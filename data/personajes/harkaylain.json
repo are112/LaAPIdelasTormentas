@@ -27,7 +27,7 @@
     "Caballeros Radiantes — posiblemente (no confirmado)"
   ],
   "orden_radiantes": {
-    "orden": "Desconocida — posiblemente Caballero Radiante",
+    "orden": "Desconocida",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -79,5 +79,5 @@
     "otros_detalles": ""
   },
   "descripcion_breve": "Figura de las Épocas Heráldicas capaz de predecir Desolaciones con bastante precisión. Posiblemente Caballero Radiante. Mencionado con familiaridad por Radiantes en visiones de Dalinar.",
-  "notas": "La mención de 'su spren' sugiere que era Radiante. Su capacidad de predicción lo convierte en una figura de gran interés cosmológico."
+  "notas": "La mención de 'su spren' sugiere que era Radiante. Su capacidad de predicción lo convierte en una figura de gran interés cosmológico. Sobre su orden: posiblemente Caballero Radiante."
 }

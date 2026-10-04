@@ -22,7 +22,7 @@
     "Posiblemente Caballeros Radiantes (pre-Traición)"
   ],
   "orden_radiantes": {
-    "orden": "desconocida — posiblemente Caballero Radiante",
+    "orden": "Desconocida",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -72,5 +72,5 @@
     "otros_detalles": ""
   },
   "descripcion_breve": "Figura histórica pre-Traición, posiblemente Caballero Radiante ojos oscuros. Usó una Puerta Jurada. Su historia fue registrada en el texto Entre los Ojos Oscuros.",
-  "notas": "Solo mencionado en un epígrafe de El Camino de los Reyes. Puede haber sido ojos oscuros — inusual para un Caballero Radiante en la cultura vorin posterior."
+  "notas": "Solo mencionado en un epígrafe de El Camino de los Reyes. Puede haber sido ojos oscuros — inusual para un Caballero Radiante en la cultura vorin posterior. Sobre su orden: posiblemente Caballero Radiante."
 }

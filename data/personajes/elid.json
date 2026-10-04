@@ -23,7 +23,7 @@
     "Monasterio de la Portadora del Polvo"
   ],
   "orden_radiantes": {
-    "orden": "Ninguna — Portadora de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -99,5 +99,5 @@
     "otros_detalles": "No está claro qué le ocurrió a su alma tras ser disuelto su cuerpo — si se convirtió en sombra cognitiva o desapareció."
   },
   "descripcion_breve": "Hermana mayor de Szeth y Portadora de Honor de los Portadores del Polvo. Amaba a su familia pero guardaba resentimiento por la atención que Neturo dedicaba a Szeth. Le reveló que la peregrinación tenía como fin convertir a Szeth en Heraldo. Ishar disolvió su cuerpo.",
-  "notas": "Le dijo a Szeth que lo odiaba — pero la relación era de amor-resentimiento. Sostuvo la mano de su madre moribunda. Se convirtió en Portadora de Honor para demostrar que no era débil, no por convicción."
+  "notas": "Le dijo a Szeth que lo odiaba — pero la relación era de amor-resentimiento. Sostuvo la mano de su madre moribunda. Se convirtió en Portadora de Honor para demostrar que no era débil, no por convicción. No es Caballero Radiante: portador de una Hoja de Honor (antes figuraba como \"Ninguna — Portadora de Honor shin\")."
 }

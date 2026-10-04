@@ -20,7 +20,7 @@
   },
   "afiliaciones": [],
   "orden_radiantes": {
-    "orden": "desconocida — potenciador sin honorspren",
+    "orden": "Desconocida",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": "desconocido — no era honorspren"
@@ -79,5 +79,5 @@
     "otros_detalles": ""
   },
   "descripcion_breve": "Potenciador de la época de Nohadon que llevó al mundo a la guerra antes de una Desolación. Sus poderes atraían a las masas. Nohadon lo veía como síntoma de la naturaleza humana, no como causa.",
-  "notas": "Sus acciones llevaron a Nohadon a escribir El Camino de los Reyes — el libro que Dalinar estudiaba. La reflexión de Nohadon sobre él es el corazón de la filosofía del libro."
+  "notas": "Sus acciones llevaron a Nohadon a escribir El Camino de los Reyes — el libro que Dalinar estudiaba. La reflexión de Nohadon sobre él es el corazón de la filosofía del libro. Sobre su orden: potenciador sin honorspren."
 }

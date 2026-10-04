@@ -24,10 +24,11 @@
     ]
   },
   "afiliaciones": [
-    "Guardia de Cobalto — Injuramentados"
+    "Guardia de Cobalto",
+    "Injuramentados"
   ],
   "orden_radiantes": {
-    "orden": "Injuramentados",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""

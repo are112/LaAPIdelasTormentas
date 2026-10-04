@@ -23,7 +23,7 @@
     "Monasterio del Custodio de la Piedra"
   ],
   "orden_radiantes": {
-    "orden": "Ninguna — Portadora de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -89,5 +89,5 @@
     "otros_detalles": "Su muerte liberó a los habitantes del área de alguna dolencia misteriosa — señal de la corrupción de Ishar."
   },
   "descripcion_breve": "Chamana jefa del Monasterio del Custodio de la Piedra y Portadora de la Hoja de Taln. Convertida en Fusionada por Ishar. Esperó meses a Szeth. Usó Cohesión para atacarlo. Primera Portadora de Honor derrotada en el peregrinaje.",
-  "notas": "El monasterio del Custodio de la Piedra no tenía Portador de Honor propio — Rit era solo chamana jefa. Su muerte liberó a los habitantes de alguna dolencia misteriosa causada por la corrupción de Ishar."
+  "notas": "El monasterio del Custodio de la Piedra no tenía Portador de Honor propio — Rit era solo chamana jefa. Su muerte liberó a los habitantes de alguna dolencia misteriosa causada por la corrupción de Ishar. No es Caballero Radiante: portador de una Hoja de Honor (antes figuraba como \"Ninguna — Portadora de Honor shin\")."
 }

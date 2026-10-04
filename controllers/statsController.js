@@ -8,7 +8,7 @@ const { loadOne: loadEsquirla,  loadList: loadEsquirlasList } = esquirlas;
 
 const ESTADOS_VIVO      = ["vivo", "viva", "activo", "activa"];
 const ESTADOS_FALLECIDO = ["fallecido", "fallecida", "muerto", "muerta"];
-const ORDENES_EXCLUIDAS = ["ninguna", ""];
+const ORDENES_EXCLUIDAS = ["ninguna", "desconocida", ""];
 
 export function stats(req, res) {
   const lista    = loadList();

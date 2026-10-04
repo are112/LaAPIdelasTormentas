@@ -22,7 +22,7 @@
     "Portadores de Honor shin"
   ],
   "orden_radiantes": {
-    "orden": "Portadores del Polvo (Honohoja)",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": "no aplica — usa Honohoja"
@@ -77,5 +77,5 @@
     "otros_detalles": ""
   },
   "descripcion_breve": "Portadora de Honor shin. Poseía la Honohoja de la Orden de los Portadores del Polvo. Murió durante el destierro de Szeth.",
-  "notas": "Información muy limitada."
+  "notas": "Información muy limitada. No es Caballero Radiante: portador de una Hoja de Honor (antes figuraba como \"Portadores del Polvo (Honohoja)\")."
 }

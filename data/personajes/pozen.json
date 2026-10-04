@@ -28,7 +28,7 @@
     "Monasterio del Nominador de lo Otro"
   ],
   "orden_radiantes": {
-    "orden": "Ninguna — Portador de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -101,5 +101,5 @@
     "otros_detalles": "La Voz a la que obedecía era Ishar — corrompido y manipulador. Pozen lo seguía sin cuestionar."
   },
   "descripcion_breve": "El Portador de Honor más poderoso en la época de Szeth. Eligió a Szeth, lo entrenó y luego lo declaró Sinverdad. Seguidor obediente de La Voz (Ishar). Se suicidó con su propia Hoja durante la Purga.",
-  "notas": "Pozen se suicidó con su propia Hoja en lugar de rendirse — acto que encaja con su carácter de hombre que nunca cede. La Voz a la que obedecía era Ishar, corrompido por el poder de Odium."
+  "notas": "Pozen se suicidó con su propia Hoja en lugar de rendirse — acto que encaja con su carácter de hombre que nunca cede. La Voz a la que obedecía era Ishar, corrompido por el poder de Odium. No es Caballero Radiante: portador de una Hoja de Honor (antes figuraba como \"Ninguna — Portador de Honor shin\")."
 }

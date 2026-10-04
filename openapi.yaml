@@ -71,7 +71,7 @@ info:
     La API aplica un límite de **100 peticiones por IP cada 15 minutos**.
     Si lo superas recibirás un error `429`.
 
-  version: "2.2.0"
+  version: "2.3.0"
   contact:
     name: La API de las Tormentas
     url: https://laapidelastormentas.onrender.com

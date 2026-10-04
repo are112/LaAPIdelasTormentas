@@ -22,7 +22,7 @@
     "Caballeros Radiantes pre-Traición"
   ],
   "orden_radiantes": {
-    "orden": "desconocida — portadora de esquirlada",
+    "orden": "Desconocida",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": "desconocido"
@@ -90,5 +90,5 @@
     "otros_detalles": ""
   },
   "descripcion_breve": "Caballero Radiante de la Octava Época que aparece en las visiones de Dalinar. Explicó que las criaturas eran la Esencia de Medianoche, no Portadores del Vacío. Instó a Dalinar a entrenarse con los Radiantes: 'Morimos para que podáis vivir.'",
-  "notas": "Aparece en El Camino de los Reyes cap. 19. Su cita 'Morimos para que podáis vivir. Siempre ha sido nuestro sitio.' es una de las más potentes de las visiones de Dalinar."
+  "notas": "Aparece en El Camino de los Reyes cap. 19. Su cita 'Morimos para que podáis vivir. Siempre ha sido nuestro sitio.' es una de las más potentes de las visiones de Dalinar. Sobre su orden: portadora de esquirlada."
 }

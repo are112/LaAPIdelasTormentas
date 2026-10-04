@@ -28,7 +28,7 @@
     "Monasterio del Custodio de la Piedra"
   ],
   "orden_radiantes": {
-    "orden": "Ninguna — Portador de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -116,5 +116,5 @@
     "otros_detalles": "Apareció como Fusionado humano entre las fuerzas de Ishar en VyV."
   },
   "descripcion_breve": "Padre de Szeth. Pastor shin que siguió a su hijo en cada etapa de su formación sacrificando su matrimonio y su vida. Portador de Honor de los Forjadores de Vínculos. Asesinado por Ishar para reclamar su Hoja. Convirtió en sombra cognitiva.",
-  "notas": "Neturo es la figura paterna más sacrificada de la saga. Siguió a Szeth tres veces — cada vez perdiendo más. Su relación con Sivi es uno de los detalles más íntimos del flashback de Szeth."
+  "notas": "Neturo es la figura paterna más sacrificada de la saga. Siguió a Szeth tres veces — cada vez perdiendo más. Su relación con Sivi es uno de los detalles más íntimos del flashback de Szeth. No es Caballero Radiante: portador de una Hoja de Honor (antes figuraba como \"Ninguna — Portador de Honor shin\")."
 }

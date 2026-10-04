@@ -38,10 +38,11 @@
   },
   "afiliaciones": [
     "Imperio Azishiano",
-    "Coalición de Monarcas"
+    "Coalición de Monarcas",
+    "Injuramentados"
   ],
   "orden_radiantes": {
-    "orden": "Injuramentados",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": "Xorm (anteriormente ojumuerto)"

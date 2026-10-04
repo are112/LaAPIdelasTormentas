@@ -24,7 +24,7 @@
     "Portadores de Honor — Honohoja de Chanarach"
   ],
   "orden_radiantes": {
-    "orden": "Portadores del Polvo (Honohoja)",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": "no aplica — usa Honohoja"
@@ -103,5 +103,5 @@
     "otros_detalles": "En VyV lleva pelo corto, cicatrices y envolturas de tela."
   },
   "descripcion_breve": "Hermana mayor de Szeth y Portadora de Honor con la Honohoja de Chanarach. Resiente a Szeth y a su padre. Reveló que la peregrinación de Szeth era para ver si podía tomar el lugar de Jezrien en el Pacto. Se enfrentó a Szeth en VyV.",
-  "notas": "Su revelación sobre la peregrinación de Szeth es uno de los momentos clave de VyV. Su relación con Szeth es uno de los arcos más complejos de la saga shin."
+  "notas": "Su revelación sobre la peregrinación de Szeth es uno de los momentos clave de VyV. Su relación con Szeth es uno de los arcos más complejos de la saga shin. No es Caballero Radiante: portador de una Hoja de Honor (antes figuraba como \"Portadores del Polvo (Honohoja)\")."
 }

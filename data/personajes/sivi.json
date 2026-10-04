@@ -28,7 +28,7 @@
     "Monasterio del Escultor de Voluntad"
   ],
   "orden_radiantes": {
-    "orden": "Ninguna — Portadora de Honor shin",
+    "orden": "Ninguna",
     "nivel_ideal": null,
     "spren_asociado": {
       "principal": ""
@@ -106,5 +106,5 @@
     "otros_detalles": "Sus últimas palabras — 'No me inclinaré ante él' — son uno de los momentos más poderosos del arco de Szeth en VyV."
   },
   "descripcion_breve": "Portadora de Honor de los Escultores de Voluntad en Shinovar. Orientó a Szeth durante su formación. Amante de Neturo. Rechazó convertirse en Fusionada por Ishar y murió sola en su monasterio. Sus últimas palabras: 'No me inclinaré ante él.'",
-  "notas": "Sivi es una de las figuras más moralmente admirables del arco de Shinovar. Rechazó a Ishar sabiendo las consecuencias. Su relación romántica con Neturo es un detalle que Szeth descubrió con sorpresa."
+  "notas": "Sivi es una de las figuras más moralmente admirables del arco de Shinovar. Rechazó a Ishar sabiendo las consecuencias. Su relación romántica con Neturo es un detalle que Szeth descubrió con sorpresa. No es Caballero Radiante: portador de una Hoja de Honor (antes figuraba como \"Ninguna — Portadora de Honor shin\")."
 }

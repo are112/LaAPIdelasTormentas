@@ -350,5 +350,45 @@
     "tipo_spren": "spren único",
     "radiante_vinculado": null,
     "estado_actual": "desconocido"
+  },
+  {
+    "id": "composicion",
+    "nombre": "Composición",
+    "apodo": null,
+    "tipo_spren": "críptico",
+    "radiante_vinculado": "rojo",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "cusicesh",
+    "nombre": "Cusicesh",
+    "apodo": "El Protector",
+    "tipo_spren": "spren primigenio",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "xorm",
+    "nombre": "Xorm",
+    "apodo": null,
+    "tipo_spren": "cultivacispren (anteriormente ojomuerto)",
+    "radiante_vinculado": "yanagawn",
+    "estado_actual": "activo"
+  },
+  {
+    "id": "yixli",
+    "nombre": "Yixli",
+    "apodo": null,
+    "tipo_spren": "vacíospren (guiaspren)",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
+  },
+  {
+    "id": "ulim",
+    "nombre": "Ulim",
+    "apodo": "El Enviado (entre los Fusionados)",
+    "tipo_spren": "vacíospren",
+    "radiante_vinculado": null,
+    "estado_actual": "activo"
   }
 ]

@@ -4,7 +4,7 @@ const { loadList: loadOrdenes }                            = ordenesLoader;
 const { loadOne: loadCharacter, loadList }                 = personajes;
 const { loadOne: loadSpren,     loadList: loadSprenList }   = sprenLoader;
 
-const ORDENES_EXCLUIDAS = ["ninguna", ""];
+const ORDENES_EXCLUIDAS = ["ninguna", "desconocida", ""];
 
 function normalizarOrden(nombre) {
   if (nombre.toLowerCase().startsWith("corredor del viento")) return "Corredores del Viento";
