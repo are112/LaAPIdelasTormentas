@@ -2,6 +2,17 @@
 
 Cada versión corresponde a una etiqueta en GitHub. Los arreglos que no cambian la API suben el último número (2.3.1); las novedades en la API suben el del medio (2.4.0).
 
+## 2.3.6
+
+Segunda ronda con las skills mobile-native, emil-design-eng, apple-design y break-ui.
+
+- Grafo en pantallas táctiles: el primer toque en un nodo muestra su información y resalta sus conexiones; el segundo abre la ficha. Tocar fuera cierra la información.
+- Grafo: se encuadra solo al abrirse, para que todos los nodos queden a la vista (en móvil, la red de Kaladin dejaba 77 de 113 nodos fuera). No amplía los grafos pequeños y respeta la vista si el usuario la mueve.
+- Grafo: un clic ya no hace temblar la red; la simulación solo se reactiva al arrastrar un nodo. El tooltip desaparece al instante.
+- Teclado: la lista, los nodos del grafo y los nombres enlazados se pueden recorrer con Tab y abrir con Enter, con un contorno dorado en el elemento con foco.
+- Móvil: respuesta visual al tocar un elemento de la lista, el scroll no arrastra la página, mantener pulsado un control no selecciona su texto y el teclado ajusta el área visible.
+- Detalles: cifras de ancho fijo en el contador y en los números del grafo, nombres de dos líneas equilibrados y descripciones sin palabras sueltas.
+
 ## 2.3.5
 
 - Explorador: un solo buscador. Al escribir, la lista de la izquierda muestra los resultados de todo el universo (personajes, spren, heraldos, Deshechos y esquirlas) con su etiqueta, en lugar de un desplegable encima de la lista filtrada.

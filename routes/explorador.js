@@ -7,7 +7,7 @@ router.get("/", (req, res) => {
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content" />
   <meta name="theme-color" content="#080c14" />
   <title>La API de las Tormentas — Explorador</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
@@ -1230,7 +1230,7 @@ router.get("/", (req, res) => {
       position: absolute; background: rgba(10,16,28,.97);
       border: 1px solid rgba(201,168,76,.25); border-radius: 10px;
       padding: 16px 20px; font-size: 14px; pointer-events: none; opacity: 0;
-      transition: opacity .12s; max-width: 280px; z-index: 10;
+      transition: none; max-width: 280px; z-index: 10;
       box-shadow: 0 8px 32px rgba(0,0,0,.5);
     }
     .grafo-tooltip h4 { color: var(--dorado); font-size: 16px; margin-bottom: 5px; font-family: 'Cinzel Decorative', serif; font-weight: normal; line-height: 1.2; }
@@ -1240,6 +1240,7 @@ router.get("/", (req, res) => {
     .grafo-tooltip .gt-row   { display: flex; align-items: center; gap: 8px; font-size: 13px; }
     .grafo-tooltip .gt-dot   { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
     .grafo-tooltip .gt-val   { color: var(--blanco-perla); }
+    .grafo-tooltip .gt-pista { margin-top: 10px; font-size: 12px; color: var(--gris-plata); opacity: .85; }
 
     /* ── Móvil: sin destello al tocar, sin zoom en campos, toques inmediatos ── */
     html { -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; }
@@ -1265,6 +1266,38 @@ router.get("/", (req, res) => {
     }
     .grafo-vacio-titulo { font-family: 'Cinzel Decorative', serif; font-size: .95rem; color: var(--blanco-perla); opacity: .85; }
     .grafo-vacio-texto { font-size: .9rem; opacity: .7; max-width: 32ch; line-height: 1.5; }
+
+
+    /* ── Respuesta al pulsar en la lista (también en pantallas táctiles) ── */
+    .item-personaje:active { background: rgba(255,255,255,0.07); }
+
+    /* ── Foco visible solo al navegar con teclado ── */
+    .item-personaje:focus-visible, .tab:focus-visible, .historial-btn:focus-visible,
+    .grafo-filtro-btn:focus-visible, .btn-volver:focus-visible, .btn-relaciones:focus-visible,
+    .filtro-select:focus-visible, .clickable:focus-visible, #buscador-limpiar:focus-visible,
+    .header-der a:focus-visible, .titulo-app:focus-visible {
+      outline: 2px solid var(--dorado);
+      outline-offset: 2px;
+    }
+    .gn:focus { outline: none; }
+    .gn:focus-visible circle { stroke: var(--dorado); stroke-width: 3; stroke-opacity: 1; }
+
+    /* ── El scroll de la lista y la ficha no arrastra la página ── */
+    .lista-scroll, .panel-der { overscroll-behavior: contain; }
+
+    /* ── Mantener pulsado un control no selecciona su texto ── */
+    .tab, .historial-btn, .grafo-filtro-btn, .btn-volver, .btn-relaciones,
+    .item-personaje, #buscador-limpiar {
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    /* ── Cifras de ancho fijo: los números no bailan al cambiar ── */
+    #contador, .grafo-stat-num { font-variant-numeric: tabular-nums; }
+
+    /* ── Títulos de dos líneas equilibrados y párrafos sin palabras sueltas ── */
+    .ficha-titulo h2 { text-wrap: balance; }
+    .descripcion, .texto-normal { text-wrap: pretty; }
 
     /* ── Movimiento reducido: sin desplazamientos, se mantienen las opacidades ── */
     @media (prefers-reduced-motion: reduce) {
@@ -1569,7 +1602,7 @@ router.get("/", (req, res) => {
       }
       const listaOrdenada = [...lista].sort((a,b) => a.nombre.localeCompare(b.nombre, 'es'));
       wrap.innerHTML = listaOrdenada.map(p => \`
-        <div class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
+        <div tabindex="0" role="button" class="item-personaje \${seleccionado === p.id ? 'activo' : ''}"
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
           \${avatarEspecie(p.orden, p.especie, 32) || '<div class="item-avatar">' + logoOrden(p.orden, 28) + '</div>'}
           <div class="item-info">
@@ -1604,6 +1637,16 @@ router.get("/", (req, res) => {
       input.focus();
     });
     document.getElementById('filtro-orden').addEventListener('change', aplicarFiltros);
+
+    // Teclado: Enter o espacio abren un elemento de la lista o un nombre enlazado
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      const el = e.target;
+      if (el.classList && (el.classList.contains('item-personaje') || el.classList.contains('clickable'))) {
+        e.preventDefault();
+        el.click();
+      }
+    });
 
     function aplicarFiltros() {
       const texto = document.getElementById('buscador').value.toLowerCase().trim();
@@ -1668,19 +1711,19 @@ router.get("/", (req, res) => {
         p.nombre.toLowerCase() === nombreLower ||
         p.id.toLowerCase() === nombreLower
       );
-      if (persona) return \`<span class='relacion-nombre clickable' onclick='verPersonaje(\${JSON.stringify(persona.id)})'>\${nombre}</span>\`;
+      if (persona) return \`<span tabindex='0' role='link' class='relacion-nombre clickable' onclick='verPersonaje(\${JSON.stringify(persona.id)})'>\${nombre}</span>\`;
 
       const spren = todosSpren.find(s =>
         s.nombre.toLowerCase() === nombreLower ||
         s.id.toLowerCase() === nombreLower
       );
-      if (spren) return \`<span class='relacion-nombre clickable' onclick='verSpren(\${JSON.stringify(spren.id)})'>\${nombre}</span>\`;
+      if (spren) return \`<span tabindex='0' role='link' class='relacion-nombre clickable' onclick='verSpren(\${JSON.stringify(spren.id)})'>\${nombre}</span>\`;
 
       const heraldo = todosHeraldos.find(h =>
         h.nombre.toLowerCase() === nombreLower ||
         h.id.toLowerCase() === nombreLower
       );
-      if (heraldo) return \`<span class='relacion-nombre clickable' onclick='verHeraldo(\${JSON.stringify(heraldo.id)})'>\${nombre}</span>\`;
+      if (heraldo) return \`<span tabindex='0' role='link' class='relacion-nombre clickable' onclick='verHeraldo(\${JSON.stringify(heraldo.id)})'>\${nombre}</span>\`;
 
       return nombre;
     }
@@ -1979,7 +2022,7 @@ router.get("/", (req, res) => {
         return;
       }
       caja.innerHTML = resultadosActuales.map((r, i) =>
-        '<div class="item-personaje" data-idx="' + i + '" onclick="abrirResultado(' + i + ')">' +
+        '<div tabindex="0" role="button" class="item-personaje" data-idx="' + i + '" onclick="abrirResultado(' + i + ')">' +
           avatarResultado(r) +
           '<div class="item-info">' +
             '<div class="item-nombre" title="' + r.nombre + '">' + r.nombre + '</div>' +
@@ -2152,7 +2195,7 @@ router.get("/", (req, res) => {
       wrap.innerHTML = filtradaOrdenada.map(d => {
         const activo = seleccionado === 'deshecho_' + d.id ? 'activo' : '';
         return \`
-          <div class="item-personaje \${activo}"
+          <div tabindex="0" role="button" class="item-personaje \${activo}"
                onclick="verDeshecho('\${d.id}')" data-id="deshecho_\${d.id}">
             <div class="item-avatar-deshecho"><img src="/images/desechos.svg" width="29" height="29" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
             <div class="item-info">
@@ -2307,7 +2350,7 @@ router.get("/", (req, res) => {
         const bg     = bgMap[e.id] || 'rgba(255,255,255,0.04)';
         const imgAvatar = '<img src="/images/' + e.id + '.png" style="width:100%;height:100%;object-fit:cover" alt="' + e.nombre + '"/>';
         return \`
-          <div class="item-personaje \${activo}"
+          <div tabindex="0" role="button" class="item-personaje \${activo}"
                onclick="verEsquirla('\${e.id}')" data-id="esquirla_\${e.id}">
             <div class="item-avatar" style="background:\${bg};overflow:hidden">\${imgAvatar}</div>
             <div class="item-info">
@@ -2469,7 +2512,7 @@ router.get("/", (req, res) => {
         const activo = seleccionado === 'heraldo_' + h.id ? 'activo' : '';
         const avatarHtml = '<div class="item-avatar-heraldo"><img src="/images/heraldos/' + h.id + '.webp" onerror="heraldoImgError(this, &quot;' + h.id + '&quot;)" /></div>';
         return \`
-          <div class="item-personaje \${activo}"
+          <div tabindex="0" role="button" class="item-personaje \${activo}"
                onclick="verHeraldo('\${h.id}')" data-id="heraldo_\${h.id}">
             \${avatarHtml}
             <div class="item-info">
@@ -2694,7 +2737,7 @@ router.get("/", (req, res) => {
         const ordenS    = ordenPorSpren[s.id];
         const avatarHtml = ordenS ? logoOrden(ordenS) : logoSpren(s.tipo_spren);
         return \`
-          <div class="item-personaje \${activo}"
+          <div tabindex="0" role="button" class="item-personaje \${activo}"
                onclick="verSpren('\${s.id}')" data-id="spren_\${s.id}">
             <div class="item-avatar">\${avatarHtml}</div>
             <div class="item-info">
@@ -3094,9 +3137,20 @@ router.get("/", (req, res) => {
       const nodeSel = g.append('g').selectAll('.gn')
         .data(nodos).enter().append('g').attr('class','gn')
         .call(d3.drag()
-          .on('start', (e,d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx=e.x; d.fy=e.y; })
-          .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
-          .on('end',   (e,d) => { if (!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; })
+          .on('start', (e,d) => { d._inicio = { x: e.x, y: e.y }; d._arrastrando = false; })
+          .on('drag',  (e,d) => {
+            // Solo se considera arrastre si el dedo o el ratón se mueve de verdad
+            if (!d._arrastrando && Math.hypot(e.x - d._inicio.x, e.y - d._inicio.y) < 4) return;
+            if (!d._arrastrando) { d._arrastrando = true; usuarioMovio = true; if (!e.active) sim.alphaTarget(0.3).restart(); }
+            d.fx = e.x; d.fy = e.y;
+          })
+          .on('end', function (e, d) {
+            if (d._arrastrando && !e.active) sim.alphaTarget(0);
+            d.fx = null; d.fy = null;
+            const esToque = e.sourceEvent && String(e.sourceEvent.type).indexOf('touch') === 0;
+            if (esToque && !d._arrastrando) { grafoState.ultimoToque = Date.now(); tocarNodo(this, d); }
+            d._arrastrando = false;
+          })
         );
 
       grafoState.nodeSel = nodeSel;
@@ -3132,14 +3186,31 @@ router.get("/", (req, res) => {
 
       const tooltip = document.getElementById('grafo-tooltip');
 
-      nodeSel.on('mouseover', (event, d) => {
-        const conn    = aristas.filter(a => a.origen === d.id || a.destino === d.id);
-        const fam     = conn.filter(a => a.tipo === 'familia').length;
-        const ami     = conn.filter(a => a.tipo === 'amigos').length;
-        const ene     = conn.filter(a => a.tipo === 'enemigos').length;
-        const vin     = conn.filter(a => a.tipo === 'vinculo').length;
-        const otr     = conn.filter(a => a.tipo === 'otros').length;
-        const desc    = conn.find(a => a.origen === raizId || a.destino === raizId)?.descripcion || '';
+      const canvasEl = document.getElementById('grafo-canvas-inner');
+      grafoState.nodoTocado = null;
+      grafoState.ultimoToque = 0;
+      // Tras un toque, el navegador puede emular eventos de ratón: se ignoran
+      const trasToque = () => Date.now() - grafoState.ultimoToque < 800;
+      const conectado = (d, n) => aristas.some(a => (a.origen === d.id && a.destino === n.id) || (a.destino === d.id && a.origen === n.id));
+
+      function posicionarTooltip(x, y) {
+        const w = tooltip.offsetWidth, h = tooltip.offsetHeight;
+        const cw = canvasEl.clientWidth, ch = canvasEl.clientHeight;
+        let left = x + 16, top = y - 10;
+        if (left + w > cw - 8) left = Math.max(8, x - w - 16);
+        if (top + h > ch - 8) top = Math.max(8, ch - h - 8);
+        tooltip.style.left = left + 'px';
+        tooltip.style.top  = Math.max(8, top) + 'px';
+      }
+
+      function mostrarInfoNodo(d, x, y, esToque) {
+        const conn = aristas.filter(a => a.origen === d.id || a.destino === d.id);
+        const fam  = conn.filter(a => a.tipo === 'familia').length;
+        const ami  = conn.filter(a => a.tipo === 'amigos').length;
+        const ene  = conn.filter(a => a.tipo === 'enemigos').length;
+        const vin  = conn.filter(a => a.tipo === 'vinculo').length;
+        const otr  = conn.filter(a => a.tipo === 'otros').length;
+        const desc = conn.find(a => a.origen === raizId || a.destino === raizId)?.descripcion || '';
 
         tooltip.innerHTML =
           '<h4>' + d.nombre + '</h4>' +
@@ -3151,40 +3222,73 @@ router.get("/", (req, res) => {
           (ene ? '<div class="gt-row"><div class="gt-dot" style="background:#e05c5c"></div><span class="gt-val">' + plural(ene, 'enemigo', 'enemigos') + '</span></div>' : '') +
           (vin ? '<div class="gt-row"><div class="gt-dot" style="background:#e8dcb5"></div><span class="gt-val">' + plural(vin, 'vínculo', 'vínculos') + '</span></div>' : '') +
           (otr ? '<div class="gt-row"><div class="gt-dot" style="background:#7a8694"></div><span class="gt-val">' + plural(otr, 'otra relación', 'otras relaciones') + '</span></div>' : '') +
-          '</div>';
+          '</div>' +
+          (esToque && d.id !== raizId ? '<div class="gt-pista">Toca otra vez para abrir la ficha</div>' : '');
 
+        // Aparece con una transición corta; desaparece al instante (ver ocultarInfoNodo)
+        tooltip.style.transition = 'opacity 120ms ease-out';
         tooltip.style.opacity = '1';
-        tooltip.style.left    = (event.offsetX + 16) + 'px';
-        tooltip.style.top     = (event.offsetY - 10) + 'px';
+        posicionarTooltip(x, y);
 
         linkSel.attr('stroke-opacity', a => (a.origen === d.id || a.destino === d.id) ? 1 : 0.04)
                .attr('stroke-width',   a => (a.origen === d.id || a.destino === d.id) ? 2.5 : 0.8);
-        nodeSel.select('circle').attr('fill-opacity', n => {
-          const c = aristas.some(a => (a.origen === d.id && a.destino === n.id) || (a.destino === d.id && a.origen === n.id));
-          return n.id === d.id || c ? 1 : 0.1;
-        }).attr('stroke-opacity', n => {
-          const c = aristas.some(a => (a.origen === d.id && a.destino === n.id) || (a.destino === d.id && a.origen === n.id));
-          return n.id === d.id || c ? 1 : 0.1;
-        });
-        nodeSel.select('text').attr('opacity', n => {
-          const c = aristas.some(a => (a.origen === d.id && a.destino === n.id) || (a.destino === d.id && a.origen === n.id));
-          return n.id === d.id || c ? 1 : 0.15;
-        });
-      }).on('mousemove', event => {
-        tooltip.style.left = (event.offsetX + 16) + 'px';
-        tooltip.style.top  = (event.offsetY - 10) + 'px';
-      }).on('mouseout', () => {
+        nodeSel.select('circle')
+          .attr('fill-opacity',   n => n.id === d.id || conectado(d, n) ? 1 : 0.1)
+          .attr('stroke-opacity', n => n.id === d.id || conectado(d, n) ? 1 : 0.1);
+        nodeSel.select('text').attr('opacity', n => n.id === d.id || conectado(d, n) ? 1 : 0.15);
+      }
+
+      function ocultarInfoNodo() {
+        tooltip.style.transition = 'none';
         tooltip.style.opacity = '0';
+        grafoState.nodoTocado = null;
         grafoAplicarFiltro();
-      }).on('click', (event, d) => {
-        // No navegar al hacer click en el nodo raíz
+      }
+
+      function abrirNodo(d) {
+        // No navegar desde el nodo raíz
         if (d.id === raizId) return;
-        // Cerrar el grafo y abrir la ficha correspondiente según el tipo de entidad
         cerrarGrafo();
-        if (d.tipo === 'heraldo')   { cambiarTab('heraldos');   verHeraldo(d.id); }
-        else if (d.tipo === 'spren'){ cambiarTab('spren');       verSpren(d.id); }
-        else                        { cambiarTab('personajes');  verPersonaje(d.id); }
+        if (d.tipo === 'heraldo')    { cambiarTab('heraldos');   verHeraldo(d.id); }
+        else if (d.tipo === 'spren') { cambiarTab('spren');      verSpren(d.id); }
+        else                         { cambiarTab('personajes'); verPersonaje(d.id); }
+      }
+
+      function centroEnCanvas(el) {
+        const r = el.getBoundingClientRect(), c = canvasEl.getBoundingClientRect();
+        return { x: r.left + r.width / 2 - c.left, y: r.top + r.height / 2 - c.top };
+      }
+
+      // Pantalla táctil: primer toque muestra la información, el segundo abre la ficha
+      function tocarNodo(el, d) {
+        if (grafoState.nodoTocado === d.id) { abrirNodo(d); return; }
+        const p = centroEnCanvas(el.querySelector('circle') || el);
+        mostrarInfoNodo(d, p.x, p.y, true);
+        grafoState.nodoTocado = d.id;
+      }
+
+      // Tocar fuera de un nodo cierra la información
+      canvasEl.addEventListener('pointerup', (e) => {
+        if (e.pointerType !== 'mouse' && !e.target.closest('.gn') && grafoState.nodoTocado) ocultarInfoNodo();
       });
+
+      nodeSel
+        .attr('tabindex', 0)
+        .attr('role', 'button')
+        .attr('aria-label', d => d.nombre)
+        .on('mouseover', (event, d) => { if (!trasToque()) mostrarInfoNodo(d, event.offsetX, event.offsetY, false); })
+        .on('mousemove', (event)    => { if (!trasToque()) posicionarTooltip(event.offsetX, event.offsetY); })
+        .on('mouseout',  ()         => { if (!trasToque()) ocultarInfoNodo(); })
+        .on('click',     (event, d) => { if (!trasToque()) abrirNodo(d); })
+        .on('focus', function (event, d) {
+          if (trasToque()) return;   // el foco que da el navegador tras un toque no cuenta
+          const p = centroEnCanvas(this.querySelector('circle'));
+          mostrarInfoNodo(d, p.x, p.y, false);
+        })
+        .on('blur', () => { if (!trasToque()) ocultarInfoNodo(); })
+        .on('keydown', (event, d) => {
+          if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); abrirNodo(d); }
+        });
 
       const dibujar = () => {
         linkSel.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
@@ -3192,11 +3296,38 @@ router.get("/", (req, res) => {
         nodeSel.attr('transform', d => 'translate(' + d.x + ',' + d.y + ')');
       };
       sim.on('tick', dibujar);
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+
+      // ── Encuadre automático: todo el grafo dentro del área visible ──
+      // Nunca amplía por encima del tamaño real (escala máxima 1).
+      let usuarioMovio = false;
+      zoom.on('zoom.usuario', (e) => { if (e.sourceEvent) usuarioMovio = true; });
+      const reducir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      function encuadrar(animado) {
+        const xs = nodos.map(n => n.x), ys = nodos.map(n => n.y);
+        const minX = Math.min(...xs) - 40, maxX = Math.max(...xs) + 40;
+        const minY = Math.min(...ys) - 40, maxY = Math.max(...ys) + 50;   // margen extra para los nombres
+        const W = canvas.clientWidth, H = canvas.clientHeight;
+        const k = Math.max(0.2, Math.min(1, W / (maxX - minX), H / (maxY - minY)));
+        const t = d3.zoomIdentity
+          .translate(W / 2 - k * (minX + maxX) / 2, H / 2 - k * (minY + maxY) / 2)
+          .scale(k);
+        if (animado && !reducir) svgSel.transition().duration(400).ease(d3.easeCubicOut).call(zoom.transform, t);
+        else svgSel.call(zoom.transform, t);
+      }
+
+      if (reducir) {
+        // Movimiento reducido: se calcula entero y se dibuja ya colocado
         sim.stop();
         sim.tick(300);
-        dibujar();
+      } else {
+        // Se adelanta la mayor parte del cálculo para encuadrar desde el principio
+        sim.tick(120);
       }
+      dibujar();
+      encuadrar(false);
+      // Cuando la simulación termina de asentarse, se reencuadra si el usuario no ha movido nada
+      sim.on('end', () => { if (!usuarioMovio) encuadrar(true); });
     }
 
     function grafoAplicarFiltro() {
