@@ -5,7 +5,7 @@
 [![Licencia datos](https://img.shields.io/badge/datos-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/deed.es)
 [![Licencia código](https://img.shields.io/badge/código-MIT-lightgrey)](./LICENSE)
 
-API REST de acceso libre sobre el universo de **El Archivo de las Tormentas** de Brandon Sanderson. Cubre personajes, heraldos, spren, Deshechos y Esquirlas con búsqueda avanzada, filtros, paginación y explorador visual interactivo.
+API REST de acceso libre sobre el universo de **El Archivo de las Tormentas** de Brandon Sanderson. Cubre personajes, heraldos, spren, Deshechos y Esquirlas con búsqueda avanzada, filtros, paginación, un grafo de relaciones y un explorador visual interactivo.
 
 ---
 
@@ -58,6 +58,8 @@ GET /spren/:id/relaciones     Relaciones del spren
 GET /spren/:id/:seccion       Sección concreta
 ```
 
+El listado incluye `orden_radiante`, la orden del Radiante con el que está vinculado cada spren.
+
 ### `/deshechos`
 
 ```
@@ -85,6 +87,47 @@ GET /ordenes/:nombre/spren      Spren vinculados a la orden
 
 Acepta nombre completo o slug: `Corredores+del+Viento` · `corredores-del-viento`
 
+### `/grafo`
+
+Grafo de relaciones entre personajes, heraldos y spren.
+
+```
+GET /grafo                                          Grafo completo (nodos y aristas)
+GET /grafo?tipo=familia,vinculo                     Solo ciertos tipos de arista
+GET /grafo?entidad=spren                            Solo un tipo de entidad
+GET /grafo/:id                                      Red directa de una entidad
+GET /grafo/:id?saltos=2                             Incluye a los vecinos de sus vecinos
+GET /grafo/camino?desde=kaladin&hasta=taravangian   Camino más corto entre dos entidades
+GET /grafo/comunidades?min_miembros=10              Grupos de entidades muy conectadas
+GET /grafo/stats                                    Métricas: más conectados, grado promedio...
+```
+
+**Tipos de arista**
+
+| Tipo | Origen |
+|---|---|
+| `familia` | Relaciones de familia |
+| `amigos` | Amigos y aliados; también los compañeros Heraldos |
+| `enemigos` | Enemigos y rivales |
+| `vinculo` | Vínculo Nahel entre un spren y su Radiante |
+| `otros` | Creadores y relaciones que la ficha clasifica como "otros" |
+
+Hay una sola arista por pareja. Si las dos fichas describen la relación con tipos distintos, gana el más fuerte: `vinculo`, `familia`, `enemigos`, `amigos`, `otros`. Las referencias escritas por nombre o apodo se resuelven a su ID ("Lin Davar" lleva a `lin_davar`), y las que apuntan a entidades sin ficha se descartan.
+
+**Camino entre dos entidades**
+
+```json
+{
+  "conectados": true,
+  "desde": "Kaladin",
+  "hasta": "Taravangian",
+  "distancia": 2,
+  "camino": ["kaladin", "dalinar", "taravangian"]
+}
+```
+
+**Comunidades.** Se calculan por propagación de etiquetas: familia y vínculo pesan más que la amistad, y los enemigos apenas cuentan, para que dos bandos enfrentados no acaben en el mismo grupo. Cada comunidad se nombra por sus tres miembros más conectados (por ejemplo, "Venli, Eshonai, Thude").
+
 ### `/buscar`
 
 Búsqueda avanzada sobre personajes, heraldos, spren, Deshechos y Esquirlas con filtros combinables.
@@ -111,7 +154,7 @@ GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
 | `estado_actual` | `vivo` · `viva` · `fallecido` · `fallecida` · `activo` · `activa` |
 | `afiliacion` | Afiliación exacta |
 | `orden` | Orden de Caballeros Radiantes |
-| `nivel_ideal` | Soporta operadores: `>=3` · `<=2` · `>1` · `<4` |
+| `nivel_ideal` | Un número o un operador con número: `4` · `>=3` · `<=2` · `>1` · `<4`. Las entidades sin nivel no cumplen ninguna comparación; otro formato devuelve `400` |
 | `libro` | Título del libro en que aparece |
 | `texto` | Búsqueda libre en todo el perfil |
 | `sort` | Campo de ordenación; prefijo `-` para descendente |
@@ -152,8 +195,8 @@ GET /health   Estado del servidor y entidades cargadas en caché
 {
   "status": "ok",
   "uptime_s": 3600,
-  "entidades": { "personajes": 244, "heraldos": 10, "spren": 42, "deshechos": 9, "esquirlas": 4 },
-  "total_entidades": 309
+  "entidades": { "personajes": 500, "heraldos": 10, "spren": 49, "deshechos": 9, "esquirlas": 4 },
+  "total_entidades": 572
 }
 ```
 
@@ -165,6 +208,8 @@ Devuelve `200` si todo está en orden o `503` si alguna entidad no se cargó al 
 GET /explorador    Interfaz visual con buscador, filtros y fichas detalladas
 ```
 
+Las fichas de personajes, heraldos y spren tienen un botón **Ver relaciones** que muestra su red en un grafo interactivo, con filtros por tipo de relación. Al pulsar un nodo se abre su ficha.
+
 ---
 
 ## Estructura del proyecto
@@ -174,6 +219,9 @@ LaAPIdelasTormentas/
 ├── index.js
 ├── package.json
 ├── openapi.yaml
+├── CHANGELOG.md
+├── scripts/
+│   └── validar.js                # Comprueba los datos antes de subir (npm run validar)
 ├── routes/
 │   ├── explorador.js
 │   ├── personajes.js
@@ -183,6 +231,7 @@ LaAPIdelasTormentas/
 │   ├── heraldos.js
 │   ├── deshechos.js
 │   ├── esquirlas.js
+│   ├── grafo.js
 │   ├── buscar.js
 │   ├── stats.js
 │   └── docs.js
@@ -192,6 +241,7 @@ LaAPIdelasTormentas/
 │   ├── relacionesController.js
 │   ├── ordenesController.js
 │   ├── statsController.js
+│   ├── grafoController.js        # Grafo, caminos y comunidades
 │   └── buscarController.js
 ├── utils/
 │   ├── dataLoader.js             # Loader genérico con carga paralela e índice de texto
@@ -215,6 +265,27 @@ LaAPIdelasTormentas/
 ```
 
 Todos los datos se cargan en paralelo al arrancar. Las peticiones no tocan disco.
+
+---
+
+## Validar los datos
+
+Antes de subir cambios en `data/`, ejecuta:
+
+```bash
+npm run validar
+```
+
+Comprueba que:
+
+- Todos los JSON son válidos y cada `id` coincide con el nombre de su archivo.
+- Cada entrada de los índices tiene su ficha, y cada ficha su entrada en el índice.
+- La `orden` de cada personaje es una de las diez órdenes, `Ninguna` o `Desconocida`.
+- `estado_actual` usa los valores estándar.
+- No hay spren dentro de `data/personajes`.
+- `personajes.json` coincide con las fichas en nombre, orden, nivel_ideal, estado_actual y especie.
+
+Si todo está bien, muestra "Todo correcto". Si no, lista cada error con la ficha y el campo, y termina con código 1. También avisa, sin bloquear, de las relaciones que apuntan a entidades sin ficha, porque esas no aparecen en el grafo.
 
 ---
 
@@ -299,7 +370,9 @@ Las plantillas están en `data/personajes/00Plantilla.json`, `data/spren/00Plant
 
 | Campo | Valores |
 |---|---|
-| `estado_actual` | `vivo` · `viva` · `fallecido` · `fallecida` · `activo` · `activa` · `aprisionado` |
+| `estado_actual` (personajes) | `vivo` · `viva` · `fallecido` · `fallecida` · `desconocido` · `activo` · `activa` |
+| `estado_actual` (Deshechos) | además `aprisionado` |
+| `orden` | Una de las diez órdenes · `Ninguna` (no es Radiante) · `Desconocida` (no se sabe) |
 | `rol` en apariciones | `protagonista` · `principal` · `secundario importante` · `secundario` · `menor` |
 | `especie` | `humano` · `cantor` · `retornado` · `siah aimiano` · `dysian aimiano` |
 
@@ -313,6 +386,13 @@ Las plantillas están en `data/personajes/00Plantilla.json`, `data/spren/00Plant
 - [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit) — límite de peticiones por IP
 - [compression](https://github.com/expressjs/compression) — compresión gzip automática
 - [morgan](https://github.com/expressjs/morgan) — logging de peticiones HTTP
+- [D3.js](https://d3js.org/) — grafo de relaciones del explorador
+
+---
+
+## Versiones
+
+Cada subida se etiqueta con su número de versión ([etiquetas en GitHub](https://github.com/are112/LaAPIdelasTormentas/tags)). Los cambios de cada versión están en el [CHANGELOG](./CHANGELOG.md).
 
 ---
 

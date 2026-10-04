@@ -5,7 +5,8 @@ info:
     API REST sobre el universo literario **El Archivo de las Tormentas** de Brandon Sanderson.
 
     Cubre personajes, heraldos, spren, Deshechos y Esquirlas con búsqueda avanzada,
-    filtros combinables, paginación, selección de campos y explorador visual interactivo.
+    filtros combinables, paginación, selección de campos, un grafo de relaciones
+    y un explorador visual interactivo.
 
     ---
 
@@ -55,6 +56,21 @@ info:
 
     ---
 
+    ## Grafo de relaciones
+
+    Las relaciones entre personajes, heraldos y spren forman un grafo consultable:
+
+    ```
+    GET /grafo/kaladin                                  Red directa de Kaladin
+    GET /grafo/camino?desde=kaladin&hasta=taravangian   Camino más corto entre dos entidades
+    GET /grafo/comunidades                              Grupos de entidades muy conectadas
+    ```
+
+    Cada arista tiene un tipo: `familia`, `amigos`, `enemigos`, `vinculo` (vínculo Nahel
+    entre un spren y su Radiante) u `otros`.
+
+    ---
+
     ## Formato de respuesta
 
     Todas las respuestas son JSON con codificación UTF-8.
@@ -71,7 +87,7 @@ info:
     La API aplica un límite de **100 peticiones por IP cada 15 minutos**.
     Si lo superas recibirás un error `429`.
 
-  version: "2.3.0"
+  version: "2.3.1"
   contact:
     name: La API de las Tormentas
     url: https://laapidelastormentas.onrender.com
@@ -95,6 +111,8 @@ tags:
     description: Esquirlas de Adonalsium
   - name: Órdenes
     description: Las diez Órdenes de Caballeros Radiantes
+  - name: Grafo
+    description: Grafo de relaciones entre personajes, heraldos y spren
   - name: Búsqueda
     description: Búsqueda avanzada con filtros, ordenación y paginación
   - name: Estadísticas
@@ -124,12 +142,12 @@ paths:
                 status: ok
                 uptime_s: 3600
                 entidades:
-                  personajes: 244
+                  personajes: 500
                   heraldos: 10
-                  spren: 42
+                  spren: 49
                   deshechos: 9
                   esquirlas: 4
-                total_entidades: 309
+                total_entidades: 572
         "503":
           description: Servidor degradado — alguna entidad no se cargó
           content:
@@ -607,6 +625,211 @@ paths:
         "404":
           $ref: "#/components/responses/NotFound"
 
+  # ── Grafo ─────────────────────────────────────────────────
+
+  /grafo:
+    get:
+      tags: [Grafo]
+      summary: Grafo completo de relaciones
+      description: |
+        Devuelve todos los nodos (personajes, heraldos y spren) y las aristas que los unen,
+        en un formato listo para D3.js, Cytoscape.js u otras librerías de grafos.
+
+        Hay una sola arista por pareja de entidades. Si las dos fichas describen la relación
+        con tipos distintos, se conserva la más fuerte: vinculo, familia, enemigos, amigos, otros.
+
+        Las referencias escritas por nombre o apodo se resuelven a su ID
+        (por ejemplo, "Lin Davar" lleva a `lin_davar`). Las que apuntan a entidades
+        sin ficha se descartan.
+      parameters:
+        - name: tipo
+          in: query
+          description: Tipos de arista, separados por coma
+          schema:
+            type: string
+          example: familia,vinculo
+        - name: entidad
+          in: query
+          description: Solo nodos de este tipo de entidad
+          schema:
+            type: string
+            enum: [personaje, heraldo, spren]
+        - name: orden
+          in: query
+          description: Solo nodos de esta orden (en spren, su tipo de spren)
+          schema:
+            type: string
+          example: Corredores del Viento
+        - name: especie
+          in: query
+          schema:
+            type: string
+          example: cantor
+        - name: fields
+          in: query
+          description: Campos de cada nodo a devolver, separados por coma
+          schema:
+            type: string
+          example: id,nombre,grado
+      responses:
+        "200":
+          description: Grafo completo o filtrado
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Grafo"
+
+  /grafo/stats:
+    get:
+      tags: [Grafo]
+      summary: Métricas del grafo
+      description: Totales, grado promedio, nodos sin conexiones y las diez entidades más conectadas.
+      responses:
+        "200":
+          description: Métricas del grafo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GrafoStats"
+              example:
+                meta:
+                  total_nodos: 559
+                  total_aristas: 906
+                  por_entidad: { personajes: 500, heraldos: 10, spren: 49 }
+                  por_tipo: { familia: 159, amigos: 460, enemigos: 194, vinculo: 28, otros: 65 }
+                grado_promedio: 3.24
+                nodos_sin_aristas: 116
+                top_conectados:
+                  - { id: kaladin, nombre: Kaladin, tipo: personaje, grado: 112 }
+                  - { id: dalinar, nombre: Dalinar, tipo: personaje, grado: 67 }
+                  - { id: adolin, nombre: Adolin, tipo: personaje, grado: 56 }
+                distribucion_grados: { "0": 116, "1": 160 }
+
+  /grafo/camino:
+    get:
+      tags: [Grafo]
+      summary: Camino más corto entre dos entidades
+      description: |
+        Busca la cadena de relaciones más corta que une dos entidades.
+        Con `tipo` se puede limitar a ciertos tipos de arista.
+      parameters:
+        - name: desde
+          in: query
+          required: true
+          schema:
+            type: string
+          example: kaladin
+        - name: hasta
+          in: query
+          required: true
+          schema:
+            type: string
+          example: taravangian
+        - name: tipo
+          in: query
+          description: Tipos de arista permitidos, separados por coma
+          schema:
+            type: string
+          example: amigos,familia
+      responses:
+        "200":
+          description: Camino encontrado, o `conectados false` si no existe
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GrafoCamino"
+              example:
+                conectados: true
+                desde: Kaladin
+                hasta: Taravangian
+                distancia: 2
+                camino: [kaladin, dalinar, taravangian]
+                pasos:
+                  - paso: 1
+                    id: kaladin
+                    nombre: Kaladin
+                    tipo: personaje
+                    orden: Corredores del Viento
+                    conexion: { tipo: amigos, descripcion: aliado y amigo de confianza, hacia: dalinar }
+                  - paso: 2
+                    id: dalinar
+                    nombre: Dalinar
+                    tipo: personaje
+                    orden: Forjadores de Vínculos
+                    conexion: { tipo: enemigos, descripcion: lo traiciona; se convierte en el nuevo Odium, hacia: taravangian }
+                  - paso: 3
+                    id: taravangian
+                    nombre: Taravangian
+                    tipo: personaje
+                    orden: Ninguna
+        "400":
+          description: Falta el parámetro desde o hasta
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /grafo/comunidades:
+    get:
+      tags: [Grafo]
+      summary: Comunidades de entidades
+      description: |
+        Agrupa las entidades que están muy conectadas entre sí mediante propagación de
+        etiquetas. Familia y vínculo pesan más que amistad; los enemigos apenas cuentan,
+        para que dos bandos enfrentados no acaben en el mismo grupo.
+
+        Cada comunidad se nombra por sus tres miembros más conectados. Los nodos sin
+        ninguna relación no forman comunidad y se cuentan en `nodos_aislados`.
+      parameters:
+        - name: min_miembros
+          in: query
+          description: Tamaño mínimo de las comunidades devueltas (por defecto 2)
+          schema:
+            type: integer
+            minimum: 2
+            default: 2
+          example: 10
+      responses:
+        "200":
+          description: Comunidades ordenadas de mayor a menor
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GrafoComunidades"
+
+  /grafo/{id}:
+    get:
+      tags: [Grafo]
+      summary: Red de relaciones de una entidad
+      description: |
+        Devuelve la entidad, sus conexiones directas y las aristas entre ellas.
+        Con `saltos=2` incluye también los vecinos de sus vecinos.
+      parameters:
+        - $ref: "#/components/parameters/EntidadId"
+        - name: saltos
+          in: query
+          schema:
+            type: integer
+            enum: [1, 2]
+            default: 1
+      responses:
+        "200":
+          description: Subgrafo de la entidad
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Grafo"
+              example:
+                meta: { entidad: Sylphrena, tipo: spren, saltos: 1, total_nodos: 8, total_aristas: 8 }
+                nodos:
+                  - { id: sylphrena, nombre: Sylphrena, tipo: spren, especie: null, orden: honorspren, nivel_ideal: null, estado_actual: activa, grado: 7 }
+                aristas:
+                  - { origen: sylphrena, destino: kaladin, tipo: vinculo, descripcion: vínculo Nahel }
+        "404":
+          $ref: "#/components/responses/NotFound"
+
   # ── Búsqueda ──────────────────────────────────────────────
 
   /buscar:
@@ -633,6 +856,9 @@ paths:
         | Menor o igual | `?nivel_ideal=<=2` |
         | Mayor que | `?nivel_ideal=>3` |
         | Menor que | `?nivel_ideal=<4` |
+
+        Las entidades sin nivel registrado no cumplen ninguna comparación.
+        Un valor con otro formato devuelve `400`.
 
       parameters:
         - name: tipo
@@ -698,9 +924,10 @@ paths:
 
         - name: nivel_ideal
           in: query
-          description: "Nivel del Ideal. Soporta operadores: >=, <=, >, <"
+          description: "Nivel del Ideal. Admite un número (4) o un operador seguido de número: >=3, <=2, >3, <4"
           schema:
             type: string
+            pattern: "^(>=|<=|>|<|=)?[0-9]+$"
           example: ">=3"
 
         - name: libro
@@ -754,6 +981,13 @@ paths:
                 oneOf:
                   - $ref: "#/components/schemas/BuscarResultados"
                   - $ref: "#/components/schemas/BuscarVacio"
+        "400":
+          description: Valor de nivel_ideal no válido
+          content:
+            application/json:
+              example:
+                error: 'Valor de nivel_ideal no válido: "abc"'
+                formatos_validos: ["4", ">3", ">=3", "<4", "<=2"]
 
   # ── Estadísticas ──────────────────────────────────────────
 
@@ -773,39 +1007,40 @@ paths:
                 $ref: "#/components/schemas/Stats"
               example:
                 resumen:
-                  personajes: 244
+                  personajes: 500
                   heraldos: 10
-                  spren: 42
+                  spren: 49
                   deshechos: 9
                   esquirlas: 4
-                  total: 309
+                  total: 572
                 personajes:
-                  total: 244
-                  vivos: 132
-                  fallecidos: 89
-                  sin_estado: 23
-                  caballeros_radiantes: 28
-                  no_radiantes: 216
-                  nivel_ideal_promedio: 2.7
+                  total: 500
+                  vivos: 281
+                  fallecidos: 130
+                  sin_estado: 89
+                  caballeros_radiantes: 57
+                  no_radiantes: 443
+                  nivel_ideal_promedio: 2.81
                   por_orden:
-                    Corredores del Viento: 12
-                    Tejedores de Luz: 8
+                    Corredores del Viento: 21
+                    Tejedores de Luz: 10
                   por_especie:
-                    humano: 210
-                    cantor: 28
+                    humano: 439
+                    cantor: 52
                   por_sexo:
-                    masculino: 140
-                    femenino: 98
+                    masculino: 308
+                    femenino: 139
                 deshechos:
                   total: 9
-                  aprisionados: 6
-                  activos: 3
+                  aprisionados: 2
+                  activos: 7
                   sin_estado: 0
                 esquirlas:
                   total: 4
                   activas: 2
-                  fragmentadas: 1
+                  fragmentadas: 0
                   absorbidas: 1
+                  sin_estado: 1
 
 components:
 
@@ -883,9 +1118,12 @@ components:
       properties:
         id:           { type: string, example: kaladin }
         nombre:       { type: string, example: Kaladin }
-        orden:        { type: string, nullable: true, example: Corredores del Viento }
+        orden:
+          type: string
+          description: Una de las diez órdenes, "Ninguna" (no es Radiante) o "Desconocida" (no se sabe)
+          example: Corredores del Viento
         nivel_ideal:  { type: integer, nullable: true, example: 5 }
-        estado_actual: { type: string, example: vivo }
+        estado_actual: { type: string, enum: [vivo, viva, fallecido, fallecida, desconocido, activo, activa], example: vivo }
         especie:      { type: string, example: humano }
 
     PersonajeCompleto:
@@ -1021,12 +1259,13 @@ components:
     SprenResumen:
       type: object
       properties:
-        id:            { type: string, example: sylphrena }
-        nombre:        { type: string, example: Sylphrena }
-        tipo_spren:    { type: string, example: honorspren }
-        es_splinter_de: { type: string, example: Honor }
-        estado_actual: { type: string, example: activa }
-        descripcion_breve: { type: string }
+        id:                 { type: string, example: sylphrena }
+        nombre:             { type: string, example: Sylphrena }
+        apodo:              { type: string, nullable: true, example: Syl }
+        tipo_spren:         { type: string, example: honorspren }
+        radiante_vinculado: { type: string, nullable: true, description: ID del Radiante vinculado, example: kaladin }
+        estado_actual:      { type: string, example: activa }
+        orden_radiante:     { type: string, nullable: true, description: Orden del Radiante vinculado, example: Corredores del Viento }
 
     SprenCompleto:
       type: object
@@ -1153,3 +1392,73 @@ components:
             fragmentadas: { type: integer }
             absorbidas:   { type: integer }
             sin_estado:   { type: integer }
+
+    GrafoNodo:
+      type: object
+      properties:
+        id:            { type: string, example: kaladin }
+        nombre:        { type: string, example: Kaladin }
+        tipo:          { type: string, enum: [personaje, heraldo, spren] }
+        especie:       { type: string, nullable: true }
+        orden:         { type: string, nullable: true, description: "Orden radiante; en spren, su tipo de spren" }
+        nivel_ideal:   { type: integer, nullable: true }
+        estado_actual: { type: string, nullable: true }
+        grado:         { type: integer, description: Número de conexiones, example: 112 }
+
+    GrafoArista:
+      type: object
+      properties:
+        origen:      { type: string, example: sylphrena }
+        destino:     { type: string, example: kaladin }
+        tipo:        { type: string, enum: [familia, amigos, enemigos, vinculo, otros] }
+        descripcion: { type: string, nullable: true, example: vínculo Nahel }
+
+    Grafo:
+      type: object
+      properties:
+        meta:    { type: object }
+        nodos:   { type: array, items: { $ref: "#/components/schemas/GrafoNodo" } }
+        aristas: { type: array, items: { $ref: "#/components/schemas/GrafoArista" } }
+
+    GrafoStats:
+      type: object
+      properties:
+        meta:                { type: object }
+        grado_promedio:      { type: number }
+        nodos_sin_aristas:   { type: integer }
+        top_conectados:      { type: array, items: { type: object } }
+        distribucion_grados: { type: object, description: Número de nodos por cada grado }
+
+    GrafoCamino:
+      type: object
+      properties:
+        conectados: { type: boolean }
+        desde:      { type: string }
+        hasta:      { type: string }
+        distancia:  { type: integer, description: Número de saltos }
+        camino:     { type: array, items: { type: string } }
+        pasos:      { type: array, items: { type: object } }
+        mensaje:    { type: string, description: Solo si no hay camino }
+
+    GrafoComunidades:
+      type: object
+      properties:
+        meta:
+          type: object
+          properties:
+            total_comunidades: { type: integer, example: 40 }
+            total_nodos:       { type: integer, example: 559 }
+            nodos_aislados:    { type: integer, example: 116 }
+            algoritmo:         { type: string }
+        comunidades:
+          type: array
+          items:
+            type: object
+            properties:
+              id:                 { type: integer }
+              nombre:             { type: string, example: "Venli, Eshonai, Thude" }
+              orden_predominante: { type: string, nullable: true, example: Escultores de Voluntad }
+              total_miembros:     { type: integer, example: 25 }
+              total_aristas:      { type: integer, example: 38 }
+              densidad:           { type: number, example: 0.1267 }
+              miembros:           { type: array, items: { type: object } }
