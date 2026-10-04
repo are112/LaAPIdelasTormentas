@@ -2,6 +2,13 @@
 
 Cada versión corresponde a una etiqueta en GitHub. Los arreglos que no cambian la API suben el último número (2.3.1); las novedades en la API suben el del medio (2.4.0).
 
+## 2.3.2
+
+- `/buscar` devuelve `400` si `tipo` no existe o si `page` o `limit` no son enteros mayores que 0 (antes devolvía resultados extraños sin avisar).
+- Los errores 404 tienen la misma forma en toda la API: mensaje, `id` (o `nombre` en órdenes) y una sugerencia. Corregida la concordancia ("Esquirla no encontrada").
+- Eliminado `routes/ORIexplorador.js`, una copia de seguridad que no se usaba.
+- Explorador: limpieza de código sin cambios visibles.
+
 ## 2.3.1
 
 - Documentación al día: el README y el OpenAPI recogen el grafo, el validador y los cambios de las versiones 2.1 a 2.3.

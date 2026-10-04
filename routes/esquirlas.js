@@ -5,6 +5,8 @@ import { createEntityController } from "../controllers/entityController.js";
 const { listar, detalle, seccion } = createEntityController({
   ...esquirlas,
   singular: "esquirla",
+  femenino: true,
+  notFound: { sugerencia: "Consulta GET /esquirlas para ver las esquirlas disponibles" },
 });
 
 const router = express.Router();

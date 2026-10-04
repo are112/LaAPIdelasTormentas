@@ -5,7 +5,7 @@ const TIPOS_VALIDOS = ["familia", "amigos", "enemigos"];
 
 export function personajeRelaciones(req, res) {
   const personaje = loadCharacter(req.params.id);
-  if (!personaje) return res.status(404).json({ error: "Personaje no encontrado", id: req.params.id });
+  if (!personaje) return res.status(404).json({ error: "Personaje no encontrado", id: req.params.id, sugerencia: "Consulta GET /personajes para ver los personajes disponibles" });
   const relaciones = personaje.relaciones;
   if (!relaciones || Object.keys(relaciones).length === 0) {
     return res.status(404).json({ error: "Este personaje no tiene relaciones registradas", id: req.params.id });
@@ -19,10 +19,10 @@ export function personajeRelacionTipo(req, res) {
     return res.status(400).json({ error: `Tipo de relación no válido: "${tipo}"`, tipos_validos: TIPOS_VALIDOS });
   }
   const personaje = loadCharacter(id);
-  if (!personaje) return res.status(404).json({ error: "Personaje no encontrado", id });
+  if (!personaje) return res.status(404).json({ error: "Personaje no encontrado", id, sugerencia: "Consulta GET /personajes para ver los personajes disponibles" });
   const grupo = personaje.relaciones?.[tipo];
   if (!grupo || grupo.length === 0) {
-    return res.status(404).json({ error: `El personaje no tiene "${tipo}" registrados`, personaje: personaje.nombre });
+    return res.status(404).json({ error: `El personaje no tiene "${tipo}" registrados`, id, personaje: personaje.nombre });
   }
   res.json({ personaje: personaje.nombre, tipo, total: grupo.length, resultados: grupo });
 }

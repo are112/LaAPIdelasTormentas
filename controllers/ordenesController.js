@@ -69,7 +69,7 @@ export function listarOrdenes(req, res) {
 export function detalleOrden(req, res) {
   const busq = decodeURIComponent(req.params.nombre).toLowerCase().trim();
   const ordenData = loadOrdenes().find((o) => o.nombre.toLowerCase() === busq || o.id.toLowerCase() === busq);
-  if (!ordenData) return res.status(404).json({ error: `No se encontró la orden "${req.params.nombre}"`, sugerencia: "Consulta GET /ordenes" });
+  if (!ordenData) return res.status(404).json({ error: "Orden no encontrada", nombre: req.params.nombre, sugerencia: "Consulta GET /ordenes" });
   const miembros = buildPersonajesPorOrden()[ordenData.nombre] ?? [];
   res.json({ id: ordenData.id, nombre: ordenData.nombre, herald: ordenData.herald, virtud: ordenData.virtud,
     defecto: ordenData.defecto, potencias: ordenData.potencias, spren_tipico: ordenData.spren_tipico,
@@ -79,7 +79,7 @@ export function detalleOrden(req, res) {
 export function ordenPersonajes(req, res) {
   const busq = decodeURIComponent(req.params.nombre).toLowerCase().trim();
   const ordenData = loadOrdenes().find((o) => o.nombre.toLowerCase() === busq || o.id.toLowerCase() === busq);
-  if (!ordenData) return res.status(404).json({ error: `No se encontró la orden "${req.params.nombre}"`, sugerencia: "Consulta GET /ordenes" });
+  if (!ordenData) return res.status(404).json({ error: "Orden no encontrada", nombre: req.params.nombre, sugerencia: "Consulta GET /ordenes" });
   const miembros = buildPersonajesPorOrden()[ordenData.nombre] ?? [];
   res.json({ orden: ordenData.nombre, total: miembros.length, personajes: miembros });
 }
@@ -87,7 +87,7 @@ export function ordenPersonajes(req, res) {
 export function ordenSpren(req, res) {
   const busq = decodeURIComponent(req.params.nombre).toLowerCase().trim();
   const ordenData = loadOrdenes().find((o) => o.nombre.toLowerCase() === busq || o.id.toLowerCase() === busq);
-  if (!ordenData) return res.status(404).json({ error: `No se encontró la orden "${req.params.nombre}"`, sugerencia: "Consulta GET /ordenes" });
+  if (!ordenData) return res.status(404).json({ error: "Orden no encontrada", nombre: req.params.nombre, sugerencia: "Consulta GET /ordenes" });
   const spren = buildSprenPorOrden()[ordenData.nombre] ?? [];
   res.json({ orden: ordenData.nombre, spren_tipico: ordenData.spren_tipico ?? null, total: spren.length, spren });
 }

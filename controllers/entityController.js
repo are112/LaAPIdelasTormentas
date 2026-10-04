@@ -15,6 +15,7 @@
  * @param {object}   [config.notFound]   - campos extra en el 404 del detalle
  * @param {boolean}  [config.withResumen=false]    - genera handler resumen
  * @param {boolean}  [config.withRelaciones=false] - genera handler relaciones
+ * @param {boolean}  [config.femenino=false] - concordancia de los mensajes ("Esquirla no encontrada")
  * @param {Function} [config.enrichList]  - (item, detalle) → campos extra para cada
  *                                          elemento del listado (evita peticiones N+1)
  */
@@ -26,8 +27,12 @@ export function createEntityController({
   withResumen    = false,
   withRelaciones = false,
   enrichList     = null,
+  femenino       = false,
 }) {
   const nombreCapital = singular.charAt(0).toUpperCase() + singular.slice(1);
+  const noEncontrado  = `${nombreCapital} no encontrad${femenino ? "a" : "o"}`;
+  const este          = femenino ? "esta" : "este";
+  const error404      = (id) => ({ error: noEncontrado, id, ...notFound });
 
   // ── GET /entidad ─────────────────────────────────────────
   function listar(req, res) {
@@ -39,11 +44,7 @@ export function createEntityController({
   function detalle(req, res) {
     const entidad = loadOne(req.params.id);
     if (!entidad) {
-      return res.status(404).json({
-        error: `${nombreCapital} no encontrado`,
-        id: req.params.id,
-        ...notFound,
-      });
+      return res.status(404).json(error404(req.params.id));
     }
     res.json(entidad);
   }
@@ -52,15 +53,13 @@ export function createEntityController({
   function seccion(req, res) {
     const entidad = loadOne(req.params.id);
     if (!entidad) {
-      return res.status(404).json({
-        error: `${nombreCapital} no encontrado`,
-        id: req.params.id,
-      });
+      return res.status(404).json(error404(req.params.id));
     }
     const sec = req.params.seccion;
     if (!(sec in entidad)) {
       return res.status(404).json({
-        error: `La sección "${sec}" no existe en este ${singular}`,
+        error: `La sección "${sec}" no existe en ${este} ${singular}`,
+        id: req.params.id,
         secciones_disponibles: Object.keys(entidad),
       });
     }
@@ -72,10 +71,7 @@ export function createEntityController({
     const id   = req.params.id.toLowerCase();
     const item = loadList().find((x) => String(x.id).toLowerCase() === id);
     if (!item) {
-      return res.status(404).json({
-        error: `${nombreCapital} no encontrado`,
-        id: req.params.id,
-      });
+      return res.status(404).json(error404(req.params.id));
     }
     res.json(item);
   }
@@ -84,15 +80,13 @@ export function createEntityController({
   function relaciones(req, res) {
     const entidad = loadOne(req.params.id);
     if (!entidad) {
-      return res.status(404).json({
-        error: `${nombreCapital} no encontrado`,
-        id: req.params.id,
-      });
+      return res.status(404).json(error404(req.params.id));
     }
     const rels = entidad.relaciones ?? {};
     if (!Object.keys(rels).length) {
       return res.status(404).json({
-        error: `Este ${singular} no tiene relaciones registradas`,
+        error: `${este.charAt(0).toUpperCase() + este.slice(1)} ${singular} no tiene relaciones registradas`,
+        id: req.params.id,
       });
     }
     res.json({ id: entidad.id, nombre: entidad.nombre, relaciones: rels });

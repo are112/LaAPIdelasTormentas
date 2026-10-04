@@ -145,7 +145,7 @@ GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
 
 | Parámetro | Descripción |
 |---|---|
-| `tipo` | `personaje` · `heraldo` · `spren` · `deshecho` · `esquirla` |
+| `tipo` | `personaje` · `heraldo` · `spren` · `deshecho` · `esquirla`. Otro valor devuelve `400` |
 | `id` | ID exacto |
 | `especie` | Especie del personaje |
 | `sexo` | `masculino` · `femenino` |
@@ -158,8 +158,8 @@ GET /buscar?orden_radiantes.spren_asociado.principal=Sylphrena
 | `libro` | Título del libro en que aparece |
 | `texto` | Búsqueda libre en todo el perfil |
 | `sort` | Campo de ordenación; prefijo `-` para descendente |
-| `page` | Página, empieza en 1 |
-| `limit` | Resultados por página |
+| `page` | Página, empieza en 1. Debe ser un entero mayor que 0 |
+| `limit` | Resultados por página. Debe ser un entero mayor que 0; si se omite, devuelve todos |
 | `fields` | Campos a devolver, separados por coma. Admite notación de punto |
 
 Cualquier campo anidado es filtrable con notación de punto: `?habilidades.magia.potencias=Gravitación`

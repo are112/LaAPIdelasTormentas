@@ -510,11 +510,6 @@ router.get("/", (req, res) => {
       overflow: hidden;
       text-overflow: ellipsis;
     }
-    .item-estado {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
     .vivo  { background: var(--verde-esmeralda); box-shadow: 0 0 6px var(--verde-esmeralda); }
     .muerto { background: var(--rojo-sangre); box-shadow: 0 0 6px var(--rojo-sangre); }
 
@@ -880,16 +875,6 @@ router.get("/", (req, res) => {
     }
 
     /* Stats bar */
-    .stats-bar {
-      display: flex;
-      gap: 1.5rem;
-      padding: 1rem 1.5rem;
-      background: rgba(255,255,255,0.025);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: 7px;
-      margin-bottom: 2rem;
-      flex-wrap: wrap;
-    }
     .stat-item { text-align: center; }
     .stat-num {
       font-family: 'Cinzel Decorative', serif;
@@ -2870,42 +2855,40 @@ router.get("/", (req, res) => {
       // Siempre crear panel nuevo (el anterior se eliminó al cerrar)
       const grafoPanel = document.createElement('div');
       grafoPanel.className = 'grafo-panel';
-      if (true) {
-        grafoPanel.innerHTML =
-          '<div class="grafo-header">' +
-            '<button class="btn-volver" onclick="cerrarGrafo()">← Ficha</button>' +
-            '<div class="grafo-titulo-wrap">' +
-              '<div class="grafo-titulo">Red de <span id="grafo-nombre"></span></div>' +
-              '<div class="grafo-subtitle">Conexiones directas · 1 salto</div>' +
-            '</div>' +
+      grafoPanel.innerHTML =
+        '<div class="grafo-header">' +
+          '<button class="btn-volver" onclick="cerrarGrafo()">← Ficha</button>' +
+          '<div class="grafo-titulo-wrap">' +
+            '<div class="grafo-titulo">Red de <span id="grafo-nombre"></span></div>' +
+            '<div class="grafo-subtitle">Conexiones directas · 1 salto</div>' +
           '</div>' +
-          '<div class="grafo-filtros">' +
-            '<button class="grafo-filtro-btn todos activo" onclick="grafoFiltrar(&apos;todos&apos;,this)">Todos</button>' +
-            '<button class="grafo-filtro-btn familia"  onclick="grafoFiltrar(&apos;familia&apos;,this)">Familia</button>' +
-            '<button class="grafo-filtro-btn amigos"   onclick="grafoFiltrar(&apos;amigos&apos;,this)">Amigos</button>' +
-            '<button class="grafo-filtro-btn enemigos" onclick="grafoFiltrar(&apos;enemigos&apos;,this)">Enemigos</button>' +
-            '<button class="grafo-filtro-btn vinculo"  onclick="grafoFiltrar(&apos;vinculo&apos;,this)">Vínculo</button>' +
-            '<button class="grafo-filtro-btn otros"    onclick="grafoFiltrar(&apos;otros&apos;,this)">Otros</button>' +
+        '</div>' +
+        '<div class="grafo-filtros">' +
+          '<button class="grafo-filtro-btn todos activo" onclick="grafoFiltrar(&apos;todos&apos;,this)">Todos</button>' +
+          '<button class="grafo-filtro-btn familia"  onclick="grafoFiltrar(&apos;familia&apos;,this)">Familia</button>' +
+          '<button class="grafo-filtro-btn amigos"   onclick="grafoFiltrar(&apos;amigos&apos;,this)">Amigos</button>' +
+          '<button class="grafo-filtro-btn enemigos" onclick="grafoFiltrar(&apos;enemigos&apos;,this)">Enemigos</button>' +
+          '<button class="grafo-filtro-btn vinculo"  onclick="grafoFiltrar(&apos;vinculo&apos;,this)">Vínculo</button>' +
+          '<button class="grafo-filtro-btn otros"    onclick="grafoFiltrar(&apos;otros&apos;,this)">Otros</button>' +
+        '</div>' +
+        '<div class="grafo-canvas" id="grafo-canvas-inner"><svg id="grafo-svg-inner"></svg><div class="grafo-tooltip" id="grafo-tooltip"></div></div>' +
+        '<div class="grafo-stats">' +
+          '<div class="grafo-stat-item"><span class="grafo-stat-num" id="gstat-nodos">-</span><span class="grafo-stat-label">Total</span></div>' +
+          '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#c9a84c" id="gstat-familia">-</span><span class="grafo-stat-label">Familia</span></div>' +
+          '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#4a9eca" id="gstat-amigos">-</span><span class="grafo-stat-label">Amigos</span></div>' +
+          '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#e05c5c" id="gstat-enemigos">-</span><span class="grafo-stat-label">Enemigos</span></div>' +
+          '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#e8dcb5" id="gstat-vinculo">-</span><span class="grafo-stat-label">Vínculo</span></div>' +
+          '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#aab4c0" id="gstat-otros">-</span><span class="grafo-stat-label">Otros</span></div>' +
+          '<div class="grafo-leyenda">' +
+            '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#c9a84c"></div>Familia</div>' +
+            '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#4a9eca"></div>Amigos</div>' +
+            '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#e05c5c;height:2px;border-top:2px dashed #e05c5c;background:none"></div>Enemigos</div>' +
+            '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#e8dcb5"></div>Vínculo</div>' +
+            '<div class="grafo-leg"><div class="grafo-leg-line" style="height:2px;border-top:2px dotted #7a8694;background:none"></div>Otros</div>' +
+            '<div class="grafo-leg"><div class="grafo-leg-dot" style="background:#c9a84c"></div>Origen</div>' +
           '</div>' +
-          '<div class="grafo-canvas" id="grafo-canvas-inner"><svg id="grafo-svg-inner"></svg><div class="grafo-tooltip" id="grafo-tooltip"></div></div>' +
-          '<div class="grafo-stats">' +
-            '<div class="grafo-stat-item"><span class="grafo-stat-num" id="gstat-nodos">-</span><span class="grafo-stat-label">Total</span></div>' +
-            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#c9a84c" id="gstat-familia">-</span><span class="grafo-stat-label">Familia</span></div>' +
-            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#4a9eca" id="gstat-amigos">-</span><span class="grafo-stat-label">Amigos</span></div>' +
-            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#e05c5c" id="gstat-enemigos">-</span><span class="grafo-stat-label">Enemigos</span></div>' +
-            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#e8dcb5" id="gstat-vinculo">-</span><span class="grafo-stat-label">Vínculo</span></div>' +
-            '<div class="grafo-stat-item"><span class="grafo-stat-num" style="color:#aab4c0" id="gstat-otros">-</span><span class="grafo-stat-label">Otros</span></div>' +
-            '<div class="grafo-leyenda">' +
-              '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#c9a84c"></div>Familia</div>' +
-              '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#4a9eca"></div>Amigos</div>' +
-              '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#e05c5c;height:2px;border-top:2px dashed #e05c5c;background:none"></div>Enemigos</div>' +
-              '<div class="grafo-leg"><div class="grafo-leg-line" style="background:#e8dcb5"></div>Vínculo</div>' +
-              '<div class="grafo-leg"><div class="grafo-leg-line" style="height:2px;border-top:2px dotted #7a8694;background:none"></div>Otros</div>' +
-              '<div class="grafo-leg"><div class="grafo-leg-dot" style="background:#c9a84c"></div>Origen</div>' +
-            '</div>' +
-          '</div>';
-        panel.appendChild(grafoPanel);
-      }  // end if(true)
+        '</div>';
+      panel.appendChild(grafoPanel);
 
       grafoState.id      = id;
       grafoState.tipo    = tipo;

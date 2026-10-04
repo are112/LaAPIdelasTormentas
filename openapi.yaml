@@ -77,7 +77,11 @@ info:
     Los errores siguen siempre la misma estructura:
 
     ```json
-    { "error": "Personaje no encontrado" }
+    {
+      "error": "Personaje no encontrado",
+      "id": "noexiste",
+      "sugerencia": "Consulta GET /personajes para ver los personajes disponibles"
+    }
     ```
 
     ---
@@ -87,7 +91,7 @@ info:
     La API aplica un límite de **100 peticiones por IP cada 15 minutos**.
     Si lo superas recibirás un error `429`.
 
-  version: "2.3.1"
+  version: "2.3.2"
   contact:
     name: La API de las Tormentas
     url: https://laapidelastormentas.onrender.com
@@ -982,12 +986,24 @@ paths:
                   - $ref: "#/components/schemas/BuscarResultados"
                   - $ref: "#/components/schemas/BuscarVacio"
         "400":
-          description: Valor de nivel_ideal no válido
+          description: |
+            Parámetro no válido: `tipo` desconocido, `page` o `limit` que no son enteros
+            mayores que 0, o `nivel_ideal` con un formato no admitido.
           content:
             application/json:
-              example:
-                error: 'Valor de nivel_ideal no válido: "abc"'
-                formatos_validos: ["4", ">3", ">=3", "<4", "<=2"]
+              examples:
+                nivel_ideal:
+                  value:
+                    error: 'Valor de nivel_ideal no válido: "abc"'
+                    formatos_validos: ["4", ">3", ">=3", "<4", "<=2"]
+                limit:
+                  value:
+                    error: limit debe ser un número entero mayor que 0
+                    recibido: "0"
+                tipo:
+                  value:
+                    error: 'Tipo no válido: "planeta"'
+                    tipos_validos: [personaje, heraldo, spren, deshecho, esquirla]
 
   # ── Estadísticas ──────────────────────────────────────────
 
@@ -1081,6 +1097,8 @@ components:
             $ref: "#/components/schemas/Error"
           example:
             error: "Personaje no encontrado"
+            id: noexiste
+            sugerencia: Consulta GET /personajes para ver los personajes disponibles
 
   schemas:
 
@@ -1089,7 +1107,14 @@ components:
       properties:
         error:
           type: string
-          example: "Entidad no encontrada"
+          example: "Personaje no encontrado"
+        id:
+          type: string
+          description: ID solicitado (en órdenes, el campo es nombre)
+          example: noexiste
+        sugerencia:
+          type: string
+          example: Consulta GET /personajes para ver los personajes disponibles
 
     Health:
       type: object

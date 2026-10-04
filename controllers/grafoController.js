@@ -332,10 +332,10 @@ export function grafoCamino(req, res) {
   const { nodosMap, aristas, adyacencia } = buildGrafo();
 
   if (!nodosMap.has(desdeId)) {
-    return res.status(404).json({ error: `Entidad no encontrada: "${desde}"` });
+    return res.status(404).json({ error: "Entidad no encontrada en el grafo", id: desde, sugerencia: "Consulta GET /grafo para ver todos los nodos disponibles" });
   }
   if (!nodosMap.has(hastaId)) {
-    return res.status(404).json({ error: `Entidad no encontrada: "${hasta}"` });
+    return res.status(404).json({ error: "Entidad no encontrada en el grafo", id: hasta, sugerencia: "Consulta GET /grafo para ver todos los nodos disponibles" });
   }
 
   // Si se filtra por tipo, construir adyacencia reducida

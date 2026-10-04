@@ -84,7 +84,17 @@ export function buscar(req, res) {
   const { id, tipo, orden, nivel_ideal, especie, sexo, nacionalidad, origen, estado_actual,
           afiliacion, libro, texto, sort, page, limit, fields, ...otrosFiltros } = req.query;
 
-  // Validar nivel_ideal antes de recorrer nada
+  // Validar parámetros antes de recorrer nada
+  const TIPOS = ["personaje", "heraldo", "spren", "deshecho", "esquirla"];
+  if (tipo !== undefined && !TIPOS.includes(tipo)) {
+    return res.status(400).json({ error: `Tipo no válido: "${tipo}"`, tipos_validos: TIPOS });
+  }
+  for (const [nombre, valor] of [["page", page], ["limit", limit]]) {
+    if (valor !== undefined && !/^[1-9]\d*$/.test(String(valor))) {
+      return res.status(400).json({ error: `${nombre} debe ser un número entero mayor que 0`, recibido: valor });
+    }
+  }
+
   let nivelParseado;
   if (nivel_ideal !== undefined && nivel_ideal !== "") {
     nivelParseado = parseNivelIdeal(nivel_ideal);
