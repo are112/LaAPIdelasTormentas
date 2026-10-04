@@ -2,6 +2,18 @@
 
 Cada versión corresponde a una etiqueta en GitHub. Los arreglos que no cambian la API suben el último número (2.3.1); las novedades en la API suben el del medio (2.4.0).
 
+## 2.3.4
+
+Revisión del explorador con las skills review-animations, emil-design-eng, mobile-native y break-ui.
+
+- Sin emojis en la interfaz: la lupa del buscador, el icono de error y la marca de los spren sin orden pasan a ser iconos dibujados; fuera los símbolos de las etiquetas de habilidades.
+- Lista y tooltip del grafo: bajo el nombre aparece la orden si es Radiante y, si no, la especie (antes "Ninguna"). Los nombres largos muestran el nombre completo al pasar el ratón.
+- Desplegable de órdenes: las diez órdenes primero y después "Ninguna" y "Desconocida".
+- Grafo: mensaje "Sin relaciones registradas" en las fichas sin relaciones; singular y plural correctos en el tooltip ("1 amigo", "2 amigos").
+- Animaciones: transiciones solo de las propiedades que cambian, la ficha aparece en 180 ms, la lista no se desplaza al pasar el ratón y los botones responden al pulsar.
+- Movimiento reducido: si el sistema lo pide, se quitan los desplazamientos y el grafo aparece ya colocado.
+- Móvil: el efecto hover solo se aplica con ratón, sin destello al tocar, sin zoom al tocar el buscador o el filtro, altura con `dvh` y color de la barra del sistema.
+
 ## 2.3.3
 
 - Explorador: el grafo ya no se corta por abajo cuando se llega a la ficha navegando (la barra de historial empujaba los números y la leyenda fuera de la pantalla).

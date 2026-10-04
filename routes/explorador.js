@@ -8,6 +8,7 @@ router.get("/", (req, res) => {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080c14" />
   <title>La API de las Tormentas — Explorador</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <style>
@@ -33,6 +34,7 @@ router.get("/", (req, res) => {
       background-color: var(--azul-tormenta);
       color: var(--blanco-perla);
       min-height: 100vh;
+      min-height: 100dvh;
       overflow-x: hidden;
     }
 
@@ -89,7 +91,9 @@ router.get("/", (req, res) => {
       opacity: 0.6;
       transition: opacity 0.15s;
     }
-    .header-der a:hover { opacity: 1; color: var(--blanco-perla); }
+    @media (hover: hover) and (pointer: fine) {
+      .header-der a:hover { opacity: 1; color: var(--blanco-perla); }
+    }
     .header-der { display: flex; gap: 1.5rem; align-items: center; }
 
     /* Overlay Acerca de */
@@ -127,7 +131,9 @@ router.get("/", (req, res) => {
       opacity: 0.6;
       transition: opacity 0.15s;
     }
-    .acerca-cerrar:hover { opacity: 1; }
+    @media (hover: hover) and (pointer: fine) {
+      .acerca-cerrar:hover { opacity: 1; }
+    }
     .acerca-seccion {
       border: 1px solid rgba(255,255,255,0.07);
       border-radius: 8px;
@@ -152,7 +158,9 @@ router.get("/", (req, res) => {
       text-decoration: none;
       opacity: 0.8;
     }
-    .acerca-seccion a:hover { opacity: 1; }
+    @media (hover: hover) and (pointer: fine) {
+      .acerca-seccion a:hover { opacity: 1; }
+    }
     .acerca-aviso {
       background: rgba(201,168,76,0.05);
       border: 1px solid rgba(201,168,76,0.15);
@@ -176,6 +184,7 @@ router.get("/", (req, res) => {
       grid-template-columns: 260px 1fr;
       gap: 0;
       height: calc(100vh - 56px);
+      height: calc(100dvh - 56px);
       overflow: hidden;
     }
 
@@ -196,13 +205,14 @@ router.get("/", (req, res) => {
       font-size: 0.82rem;
       letter-spacing: 0.03em;
       cursor: pointer;
-      transition: all 0.15s ease;
+      transition: background-color 150ms ease-out, border-color 150ms ease-out, color 150ms ease-out, transform 160ms ease-out;
       text-align: center;
     }
-    .tab:hover {
+    @media (hover: hover) and (pointer: fine) {
+      .tab:hover {
       background: rgba(255,255,255,0.05);
       color: var(--blanco-perla);
-      border-color: rgba(255,255,255,0.14);
+      border-color: rgba(255,255,255,0.14); }
     }
     .tab.activo {
       background: rgba(201,168,76,0.1);
@@ -228,12 +238,14 @@ router.get("/", (req, res) => {
       flex-shrink: 0;
     }
     .buscador-wrap::before {
-      content: '🔍';
+      content: '';
+      width: 14px;
+      height: 14px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f0ece8' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cline x1='16.5' y1='16.5' x2='21' y2='21'/%3E%3C/svg%3E") no-repeat center / contain;
       position: absolute;
       left: 0.75rem;
       top: 50%;
       transform: translateY(-50%);
-      font-size: 0.85rem;
       opacity: 0.5;
       z-index: 1;
       transition: opacity 0.2s;
@@ -278,7 +290,9 @@ router.get("/", (req, res) => {
       opacity: 0.6;
       pointer-events: auto;
     }
-    #buscador-limpiar:hover { opacity: 1; color: var(--blanco-perla); }
+    @media (hover: hover) and (pointer: fine) {
+      #buscador-limpiar:hover { opacity: 1; color: var(--blanco-perla); }
+    }
     /* Padding derecho del input cuando el botón es visible */
     #buscador.con-texto { padding-right: 2rem; }
 
@@ -311,8 +325,12 @@ router.get("/", (req, res) => {
       border-bottom: 1px solid rgba(255,255,255,0.04);
     }
     .autocomplete-item:last-child { border-bottom: none; }
-    .autocomplete-item:hover, .autocomplete-item.seleccionado-ac {
+    .autocomplete-item.seleccionado-ac {
       background: rgba(255,255,255,0.06);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .autocomplete-item:hover {
+      background: rgba(255,255,255,0.06); }
     }
     .autocomplete-tipo {
       font-size: 0.72rem;
@@ -394,7 +412,9 @@ router.get("/", (req, res) => {
     .lista-scroll::-webkit-scrollbar { width: 3px; }
     .lista-scroll::-webkit-scrollbar-track { background: transparent; }
     .lista-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 2px; }
-    .lista-scroll::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.22); }
+    @media (hover: hover) and (pointer: fine) {
+      .lista-scroll::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.22); }
+    }
 
     /* Skeleton de carga en lista */
     .skeleton-item {
@@ -440,9 +460,9 @@ router.get("/", (req, res) => {
       border: 1px solid transparent;
       transition: background 0.12s ease;
     }
-    .item-personaje:hover {
-      background: rgba(255,255,255,0.05);
-      transform: translateX(2px);
+    @media (hover: hover) and (pointer: fine) {
+      .item-personaje:hover {
+      background: rgba(255,255,255,0.05); }
     }
     .item-personaje.activo {
       background: rgba(201,168,76,0.07);
@@ -596,10 +616,14 @@ router.get("/", (req, res) => {
     @keyframes girar { to { transform: rotate(360deg); } }
 
     /* Ficha de personaje */
-    .ficha { animation: aparecer 0.3s ease; }
+    .ficha { animation: aparecer 180ms cubic-bezier(0.23, 1, 0.32, 1); }
     @keyframes aparecer {
       from { opacity: 0; transform: translateY(8px); }
       to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes aparecerOpacidad {
+      from { opacity: 0; }
+      to   { opacity: 1; }
     }
 
     .ficha-header {
@@ -718,9 +742,10 @@ router.get("/", (req, res) => {
       padding: 1.25rem;
       transition: border-color 0.2s, background 0.2s;
     }
-    .seccion:hover {
+    @media (hover: hover) and (pointer: fine) {
+      .seccion:hover {
       border-color: rgba(255,255,255,0.11);
-      background: rgba(255,255,255,0.03);
+      background: rgba(255,255,255,0.03); }
     }
     .seccion-titulo {
       font-family: 'Crimson Pro', serif;
@@ -865,7 +890,7 @@ router.get("/", (req, res) => {
       border-radius: 50%;
       border: 2px solid rgba(200,146,42,0.4);
       background: transparent;
-      transition: all 0.3s ease;
+      transition: background-color 250ms ease-out, border-color 250ms ease-out, box-shadow 250ms ease-out;
       position: relative;
     }
     .ideal-circulo.activo {
@@ -947,18 +972,19 @@ router.get("/", (req, res) => {
       font-family: 'Crimson Pro', serif;
       font-size: 0.78rem;
       cursor: pointer;
-      transition: all 0.15s ease;
+      transition: background-color 150ms ease-out, border-color 150ms ease-out, color 150ms ease-out, opacity 150ms ease-out, transform 160ms ease-out;
       white-space: nowrap;
       max-width: 160px;
       overflow: hidden;
       text-overflow: ellipsis;
       opacity: 0.7;
     }
-    .historial-btn:hover {
+    @media (hover: hover) and (pointer: fine) {
+      .historial-btn:hover {
       background: rgba(255,255,255,0.07);
       color: var(--blanco-perla);
       border-color: rgba(255,255,255,0.15);
-      opacity: 1;
+      opacity: 1; }
     }
     .historial-btn.actual {
       color: var(--blanco-perla);
@@ -1076,6 +1102,7 @@ router.get("/", (req, res) => {
       .contenedor {
         grid-template-columns: 1fr;
         height: calc(100vh - 48px);
+        height: calc(100dvh - 48px);
         position: relative;
       }
 
@@ -1087,7 +1114,7 @@ router.get("/", (req, res) => {
         border-right: none;
         border-bottom: none;
         z-index: 10;
-        transition: transform 0.3s ease;
+        transition: transform 300ms cubic-bezier(0.32, 0.72, 0, 1);
         transform: translateX(0);
         padding: 1rem;
       }
@@ -1102,7 +1129,7 @@ router.get("/", (req, res) => {
         inset: 0;
         height: 100%;
         z-index: 20;
-        transition: transform 0.3s ease;
+        transition: transform 300ms cubic-bezier(0.32, 0.72, 0, 1);
         transform: translateX(100%);
         padding: 1rem;
         padding-top: 0.5rem;
@@ -1151,7 +1178,7 @@ router.get("/", (req, res) => {
     }
 
     /* Panel grafo inline */
-    .grafo-panel { display: none; animation: aparecer .3s ease; }
+    .grafo-panel { display: none; animation: aparecerOpacidad 150ms ease-out; }
     .grafo-panel.visible { display: block; }
     .grafo-header { display: flex; align-items: center; gap: 12px; margin-bottom: 1.25rem; flex-wrap: wrap; }
     .btn-volver {
@@ -1160,9 +1187,11 @@ router.get("/", (req, res) => {
       color: var(--gris-plata); font-family: 'Crimson Pro', serif;
       font-size: .78rem; letter-spacing: .08em; text-transform: uppercase;
       padding: .35rem .8rem; border-radius: 5px; cursor: pointer;
-      transition: border-color .2s, color .2s;
+      transition: border-color 200ms ease-out, color 200ms ease-out, transform 160ms ease-out;
     }
-    .btn-volver:hover { border-color: rgba(255,255,255,.25); color: var(--blanco-perla); }
+    @media (hover: hover) and (pointer: fine) {
+      .btn-volver:hover { border-color: rgba(255,255,255,.25); color: var(--blanco-perla); }
+    }
     .grafo-titulo-wrap { flex: 1; }
     .grafo-titulo { font-family: 'Cinzel Decorative', serif; font-size: .95rem; color: var(--blanco-perla); }
     .grafo-titulo span { color: var(--dorado); }
@@ -1171,10 +1200,12 @@ router.get("/", (req, res) => {
     .grafo-filtro-btn {
       font-size: .7rem; padding: .3rem .75rem; border-radius: 20px;
       border: 1px solid rgba(255,255,255,.1); background: transparent;
-      color: var(--gris-plata); cursor: pointer; transition: .15s;
+      color: var(--gris-plata); cursor: pointer; transition: border-color 150ms ease-out, color 150ms ease-out, background-color 150ms ease-out, transform 160ms ease-out;
       font-family: 'Crimson Pro', serif; letter-spacing: .06em; text-transform: uppercase;
     }
-    .grafo-filtro-btn:hover { border-color: rgba(255,255,255,.25); color: var(--blanco-perla); }
+    @media (hover: hover) and (pointer: fine) {
+      .grafo-filtro-btn:hover { border-color: rgba(255,255,255,.25); color: var(--blanco-perla); }
+    }
     .grafo-filtro-btn.activo.todos    { border-color: rgba(255,255,255,.35); color: var(--blanco-perla); background: rgba(255,255,255,.06); }
     .grafo-filtro-btn.activo.familia  { border-color: #c9a84c; color: #c9a84c; background: rgba(201,168,76,.08); }
     .grafo-filtro-btn.activo.amigos   { border-color: #4a9eca; color: #4a9eca; background: rgba(74,158,202,.08); }
@@ -1213,9 +1244,10 @@ router.get("/", (req, res) => {
       text-underline-offset: 3px;
       transition: color .15s, text-decoration-color .15s;
     }
-    .clickable:hover {
+    @media (hover: hover) and (pointer: fine) {
+      .clickable:hover {
       color: var(--dorado);
-      text-decoration-color: var(--dorado);
+      text-decoration-color: var(--dorado); }
     }
 
     .btn-relaciones {
@@ -1224,9 +1256,11 @@ router.get("/", (req, res) => {
       color: var(--dorado); font-family: 'Crimson Pro', serif;
       font-size: .8rem; letter-spacing: .1em; text-transform: uppercase;
       padding: .45rem 1rem; border-radius: 5px; cursor: pointer;
-      transition: background .2s, border-color .2s; margin-bottom: 1.75rem;
+      transition: background-color 200ms ease-out, border-color 200ms ease-out, transform 160ms ease-out; margin-bottom: 1.75rem;
     }
-    .btn-relaciones:hover { background: rgba(201,168,76,.15); border-color: rgba(201,168,76,.5); }
+    @media (hover: hover) and (pointer: fine) {
+      .btn-relaciones:hover { background: rgba(201,168,76,.15); border-color: rgba(201,168,76,.5); }
+    }
     .btn-relaciones svg { width: 14px; height: 14px; opacity: .8; }
     .grafo-tooltip {
       position: absolute; background: rgba(10,16,28,.97);
@@ -1242,6 +1276,39 @@ router.get("/", (req, res) => {
     .grafo-tooltip .gt-row   { display: flex; align-items: center; gap: 8px; font-size: 13px; }
     .grafo-tooltip .gt-dot   { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
     .grafo-tooltip .gt-val   { color: var(--blanco-perla); }
+
+    /* ── Móvil: sin destello al tocar, sin zoom en campos, toques inmediatos ── */
+    html { -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; }
+    button, a, [onclick] { touch-action: manipulation; }
+    @media (pointer: coarse) {
+      #buscador, .filtro-select { font-size: 16px; }
+    }
+
+    /* ── Respuesta al pulsar ── */
+    .tab:active, .historial-btn:active, .grafo-filtro-btn:active,
+    .btn-volver:active, .btn-relaciones:active { transform: scale(0.97); }
+
+    .titulo-app { cursor: pointer; transition: opacity 150ms ease-out; }
+    @media (hover: hover) and (pointer: fine) {
+      .titulo-app:hover { opacity: 0.7; }
+    }
+
+    /* ── Grafo sin relaciones ── */
+    .grafo-vacio {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: .5rem; padding: 2rem; text-align: center; color: var(--gris-plata);
+    }
+    .grafo-vacio-titulo { font-family: 'Cinzel Decorative', serif; font-size: .95rem; color: var(--blanco-perla); opacity: .85; }
+    .grafo-vacio-texto { font-size: .9rem; opacity: .7; max-width: 32ch; line-height: 1.5; }
+
+    /* ── Movimiento reducido: sin desplazamientos, se mantienen las opacidades ── */
+    @media (prefers-reduced-motion: reduce) {
+      .ficha { animation: aparecerOpacidad 150ms ease-out; }
+      .panel-izq, .panel-der { transition: none; }
+      .tab:active, .historial-btn:active, .grafo-filtro-btn:active,
+      .btn-volver:active, .btn-relaciones:active { transform: none; }
+    }
   </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
@@ -1249,7 +1316,7 @@ router.get("/", (req, res) => {
 
   <header>
     <div class="header-izq">
-      <h1 onclick="volverInicio()" style="cursor:pointer;transition:opacity 0.15s" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">La API de las Tormentas</h1>
+      <h1 class="titulo-app" onclick="volverInicio()">La API de las Tormentas</h1>
       <span class="subtitulo">Un proyecto fan del Cosmere</span>
     </div>
     <div class="header-der">
@@ -1330,7 +1397,7 @@ router.get("/", (req, res) => {
       const panel = document.getElementById('panel-detalle');
       panel.innerHTML =
         '<div class="error-ficha">' +
-          '<div class="error-icono">\u26A0</div>' +
+          '<div class="error-icono"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 20h20L12 3z"/><line x1="12" y1="10" x2="12" y2="14"/><circle cx="12" cy="17" r="0.6" fill="currentColor"/></svg></div>' +
           '<div class="error-titulo">No encontrado</div>' +
           '<div class="error-desc">' + msg + '</div>' +
         '</div>';
@@ -1472,8 +1539,10 @@ router.get("/", (req, res) => {
         const inner = Math.round(s * 0.92);
         return \`<img src="/images/ordenes/\${ORDEN_SLUG[orden]}.svg" width="\${inner}" height="\${inner}" style="filter:brightness(2.5) saturate(1.2);object-fit:contain;display:block" alt="\${orden}" />\`;
       }
-      // Spren primigenios y sin orden conocida — emoji como fallback
-      return \`<span style="font-size:\${s * 0.8}px;line-height:1;filter:brightness(1.5)">\${emojiSpren(tipo)}</span>\`;
+      // Spren primigenios y sin orden conocida: marca neutra dibujada en SVG
+      const t = Math.round(s * 0.75);
+      return '<svg width="' + t + '" height="' + t + '" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5" aria-hidden="true">' +
+             '<circle cx="12" cy="12" r="8" opacity="0.55"/><circle cx="12" cy="12" r="2.6" fill="#c9a84c" stroke="none"/></svg>';
     }
 
     // ── Skeleton de carga ──────────────────────────────────
@@ -1503,8 +1572,19 @@ router.get("/", (req, res) => {
       }
     }
 
+    // Debajo del nombre: la orden si es Radiante; si no, su especie
+    function subtituloPersonaje(p) {
+      if (p.orden && p.orden !== 'Ninguna') return p.orden;
+      const e = p.especie || '';
+      return e ? e.charAt(0).toUpperCase() + e.slice(1) : 'Sin orden';
+    }
+
+    // Las diez órdenes primero; después "Ninguna" y "Desconocida"
+    function rangoOrden(o) { return o === 'Desconocida' ? 2 : o === 'Ninguna' ? 1 : 0; }
+
     function poblarFiltroOrden() {
-      const ordenes = [...new Set(todos.map(p => p.orden).filter(o => o && o.trim()))].sort();
+      const ordenes = [...new Set(todos.map(p => p.orden).filter(o => o && o.trim()))]
+        .sort((a, b) => rangoOrden(a) - rangoOrden(b) || a.localeCompare(b, 'es'));
       const sel = document.getElementById('filtro-orden');
       // Limpiar opciones anteriores excepto la primera
       while (sel.options.length > 1) sel.remove(1);
@@ -1529,8 +1609,8 @@ router.get("/", (req, res) => {
              onclick="verPersonaje('\${p.id}')" data-id="\${p.id}">
           \${avatarEspecie(p.orden, p.especie, 32) || '<div class="item-avatar">' + logoOrden(p.orden, 28) + '</div>'}
           <div class="item-info">
-            <div class="item-nombre">\${p.nombre}</div>
-            <div class="item-orden">\${p.orden || 'Sin orden'}</div>
+            <div class="item-nombre" title="\${p.nombre}">\${p.nombre}</div>
+            <div class="item-orden">\${subtituloPersonaje(p)}</div>
           </div>
         </div>
       \`).join('');
@@ -1694,7 +1774,7 @@ router.get("/", (req, res) => {
       const habilidadesHtml = \`
         \${potencias.length ? \`
           <div class="campo-label">Potencias mágicas</div>
-          <div class="tags">\${potencias.map(t => \`<span class="tag">⚡ \${t}</span>\`).join('')}</div>
+          <div class="tags">\${potencias.map(t => \`<span class="tag">\${t}</span>\`).join('')}</div>
         \` : ''}
         \${habilidades?.magia?.fuente_de_luz ? \`
           <div class="campo">
@@ -1859,7 +1939,7 @@ router.get("/", (req, res) => {
     function todosLosNombres() {
       const resultados = [];
       for (const p of todos) {
-        resultados.push({ id: p.id, nombre: p.nombre, tipo: 'personaje', subtipo: p.orden || 'Sin orden', accion: () => { cambiarTab('personajes'); verPersonaje(p.id); } });
+        resultados.push({ id: p.id, nombre: p.nombre, tipo: 'personaje', subtipo: subtituloPersonaje(p), accion: () => { cambiarTab('personajes'); verPersonaje(p.id); } });
       }
       for (const s of todosSpren) {
         resultados.push({ id: s.id, nombre: s.nombre, tipo: 'spren', subtipo: s.tipo_spren || 'Spren', accion: () => { cambiarTab('spren'); verSpren(s.id); } });
@@ -2084,7 +2164,7 @@ router.get("/", (req, res) => {
                onclick="verDeshecho('\${d.id}')" data-id="deshecho_\${d.id}">
             <div class="item-avatar-deshecho"><img src="/images/desechos.svg" width="29" height="29" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>
             <div class="item-info">
-              <div class="item-nombre">\${d.nombre}</div>
+              <div class="item-nombre" title="\${d.nombre}">\${d.nombre}</div>
               <div class="item-orden">\${d.apodos?.[0] || 'Deshecho'}</div>
             </div>
           </div>
@@ -2129,7 +2209,7 @@ router.get("/", (req, res) => {
         : '<p class="sin-datos">Sin apariciones registradas</p>';
 
       const poderesHtml = (d.poderes ?? []).length
-        ? \`<div class="tags">\${d.poderes.map(p => \`<span class="tag">⚡ \${p}</span>\`).join('')}</div>\`
+        ? \`<div class="tags">\${d.poderes.map(p => \`<span class="tag">\${p}</span>\`).join('')}</div>\`
         : '<p class="sin-datos">Sin poderes registrados</p>';
 
       const histHtml = d.historia
@@ -2239,7 +2319,7 @@ router.get("/", (req, res) => {
                onclick="verEsquirla('\${e.id}')" data-id="esquirla_\${e.id}">
             <div class="item-avatar" style="background:\${bg};overflow:hidden">\${imgAvatar}</div>
             <div class="item-info">
-              <div class="item-nombre">\${e.nombre}</div>
+              <div class="item-nombre" title="\${e.nombre}">\${e.nombre}</div>
               <div class="item-orden">\${e.estado_actual}</div>
             </div>
           </div>
@@ -2401,7 +2481,7 @@ router.get("/", (req, res) => {
                onclick="verHeraldo('\${h.id}')" data-id="heraldo_\${h.id}">
             \${avatarHtml}
             <div class="item-info">
-              <div class="item-nombre">\${h.nombre}</div>
+              <div class="item-nombre" title="\${h.nombre}">\${h.nombre}</div>
               <div class="item-orden">\${h.titulo || 'Heraldo'}</div>
             </div>
           </div>
@@ -2466,11 +2546,11 @@ router.get("/", (req, res) => {
         : '<p class="sin-datos">Sin rasgos registrados</p>';
 
       const potenciasHtml = (h.habilidades?.potenciacion_honor?.potencias ?? []).length
-        ? \`<div class="tags">\${h.habilidades.potenciacion_honor.potencias.map(p => \`<span class="tag">⚡ \${p}</span>\`).join('')}</div>\`
+        ? \`<div class="tags">\${h.habilidades.potenciacion_honor.potencias.map(p => \`<span class="tag">\${p}</span>\`).join('')}</div>\`
         : '';
 
       const habilidadesHtml = (h.habilidades?.como_herald ?? []).length
-        ? \`<div class="tags">\${h.habilidades.como_herald.map(hab => \`<span class="tag">✦ \${hab}</span>\`).join('')}</div>\`
+        ? \`<div class="tags">\${h.habilidades.como_herald.map(hab => \`<span class="tag">\${hab}</span>\`).join('')}</div>\`
         : '<p class="sin-datos">Sin habilidades registradas</p>';
 
 
@@ -2599,20 +2679,6 @@ router.get("/", (req, res) => {
       });
     }
 
-    function emojiSpren(tipo) {
-      const m = {
-        'honorspren':       '🔵',
-        'cryptico':         '🔷',
-        'cultivationspren': '🌿',
-        'inkspren':         '🖤',
-        'peakspren':        '⛰',
-        'highspren':        '⚪',
-        'ashspren':         '🔴',
-        'mistspren':        '🌫',
-      };
-      return m[tipo] || '✨';
-    }
-
     function renderListaSpren(lista) {
       const texto = document.getElementById('buscador').value.toLowerCase().trim();
       const tipo  = document.getElementById('filtro-tipo').value;
@@ -2640,7 +2706,7 @@ router.get("/", (req, res) => {
                onclick="verSpren('\${s.id}')" data-id="spren_\${s.id}">
             <div class="item-avatar">\${avatarHtml}</div>
             <div class="item-info">
-              <div class="item-nombre">\${s.nombre}</div>
+              <div class="item-nombre" title="\${s.nombre}">\${s.nombre}</div>
               <div class="item-orden">\${s.tipo_spren || 'Spren'}</div>
             </div>
           </div>
@@ -2765,7 +2831,7 @@ router.get("/", (req, res) => {
               \` : '').join('')}
               \${(vinculo.potencias_otorgadas ?? []).length ? \`
                 <div class="subseccion-label">Potencias</div>
-                <div class="tags">\${vinculo.potencias_otorgadas.map(p => \`<span class="tag">⚡ \${p}</span>\`).join('')}</div>
+                <div class="tags">\${vinculo.potencias_otorgadas.map(p => \`<span class="tag">\${p}</span>\`).join('')}</div>
               \` : ''}
               \${vinculo.notas ? \`<p class="texto-nota">\${vinculo.notas}</p>\` : ''}
             </div>
@@ -2806,11 +2872,11 @@ router.get("/", (req, res) => {
             <div class="seccion">
               <div class="seccion-titulo">Habilidades</div>
               \${(habilidades.generales ?? []).length ? \`
-                <div class="tags">\${habilidades.generales.map(h => \`<span class="tag">✦ \${h}</span>\`).join('')}</div>
+                <div class="tags">\${habilidades.generales.map(h => \`<span class="tag">\${h}</span>\`).join('')}</div>
               \` : ''}
               \${(habilidades.magicas ?? []).length ? \`
                 <div class="subseccion-label">Mágicas</div>
-                <div class="tags">\${habilidades.magicas.map(h => \`<span class="tag">⚡ \${h}</span>\`).join('')}</div>
+                <div class="tags">\${habilidades.magicas.map(h => \`<span class="tag">\${h}</span>\`).join('')}</div>
               \` : ''}
             </div>
             \` : ''}
@@ -2926,6 +2992,10 @@ router.get("/", (req, res) => {
         });
     }
 
+    function plural(n, uno, varios) {
+      return n + ' ' + (n === 1 ? uno : varios);
+    }
+
     function cerrarGrafo() {
       if (!grafoState.fichaEl || !grafoState.panelEl) return;
       grafoState.panelEl.remove();
@@ -2954,6 +3024,16 @@ router.get("/", (req, res) => {
       document.getElementById('gstat-enemigos').textContent = cEne;
       document.getElementById('gstat-vinculo').textContent  = directas.filter(a => a.tipo === 'vinculo').length;
       document.getElementById('gstat-otros').textContent    = directas.filter(a => a.tipo === 'otros').length;
+
+      if (!directas.length) {
+        const vacio = document.createElement('div');
+        vacio.className = 'grafo-vacio';
+        vacio.innerHTML = '<div class="grafo-vacio-titulo">Sin relaciones registradas</div>' +
+          '<div class="grafo-vacio-texto">Esta ficha todavía no tiene relaciones con otros personajes, heraldos o spren.</div>';
+        document.getElementById('grafo-canvas-inner').appendChild(vacio);
+        document.querySelectorAll('.grafo-filtro-btn').forEach(b => b.disabled = true);
+        return;
+      }
 
       const COLOR_ORDEN = {
         'Corredores del Viento':   '#4a9eca',
@@ -3071,14 +3151,14 @@ router.get("/", (req, res) => {
 
         tooltip.innerHTML =
           '<h4>' + d.nombre + '</h4>' +
-          '<div class="gt-orden">' + (d.orden || d.tipo || '') + '</div>' +
+          '<div class="gt-orden">' + (d.tipo === 'personaje' ? subtituloPersonaje(d) : (d.orden || d.tipo || '')) + '</div>' +
           (desc ? '<div class="gt-desc">' + desc + '</div>' : '') +
           '<div class="gt-conn">' +
-          (fam ? '<div class="gt-row"><div class="gt-dot" style="background:#c9a84c"></div><span class="gt-val">' + fam + ' familia</span></div>' : '') +
-          (ami ? '<div class="gt-row"><div class="gt-dot" style="background:#4a9eca"></div><span class="gt-val">' + ami + ' amigos</span></div>' : '') +
-          (ene ? '<div class="gt-row"><div class="gt-dot" style="background:#e05c5c"></div><span class="gt-val">' + ene + ' enemigos</span></div>' : '') +
-          (vin ? '<div class="gt-row"><div class="gt-dot" style="background:#e8dcb5"></div><span class="gt-val">' + vin + ' vínculo</span></div>' : '') +
-          (otr ? '<div class="gt-row"><div class="gt-dot" style="background:#7a8694"></div><span class="gt-val">' + otr + ' otros</span></div>' : '') +
+          (fam ? '<div class="gt-row"><div class="gt-dot" style="background:#c9a84c"></div><span class="gt-val">' + plural(fam, 'familiar', 'familiares') + '</span></div>' : '') +
+          (ami ? '<div class="gt-row"><div class="gt-dot" style="background:#4a9eca"></div><span class="gt-val">' + plural(ami, 'amigo', 'amigos') + '</span></div>' : '') +
+          (ene ? '<div class="gt-row"><div class="gt-dot" style="background:#e05c5c"></div><span class="gt-val">' + plural(ene, 'enemigo', 'enemigos') + '</span></div>' : '') +
+          (vin ? '<div class="gt-row"><div class="gt-dot" style="background:#e8dcb5"></div><span class="gt-val">' + plural(vin, 'vínculo', 'vínculos') + '</span></div>' : '') +
+          (otr ? '<div class="gt-row"><div class="gt-dot" style="background:#7a8694"></div><span class="gt-val">' + plural(otr, 'otra relación', 'otras relaciones') + '</span></div>' : '') +
           '</div>';
 
         tooltip.style.opacity = '1';
@@ -3114,11 +3194,17 @@ router.get("/", (req, res) => {
         else                        { cambiarTab('personajes');  verPersonaje(d.id); }
       });
 
-      sim.on('tick', () => {
+      const dibujar = () => {
         linkSel.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
                .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
         nodeSel.attr('transform', d => 'translate(' + d.x + ',' + d.y + ')');
-      });
+      };
+      sim.on('tick', dibujar);
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        sim.stop();
+        sim.tick(300);
+        dibujar();
+      }
     }
 
     function grafoAplicarFiltro() {
