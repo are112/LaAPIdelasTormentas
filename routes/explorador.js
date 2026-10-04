@@ -297,56 +297,20 @@ router.get("/", (req, res) => {
     #buscador.con-texto { padding-right: 2rem; }
 
     /* Autocomplete */
-    .autocomplete-lista {
-      position: absolute;
-      top: 100%;
-      left: 0; right: 0;
-      background: var(--azul-profundo);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-top: none;
-      border-radius: 0 0 6px 6px;
-      max-height: 220px;
-      overflow-y: auto;
-      z-index: 100;
-      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
-    }
-    .autocomplete-lista::-webkit-scrollbar { width: 3px; }
-    .autocomplete-lista::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
-    .autocomplete-item {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      padding: 0.5rem 0.75rem;
-      cursor: pointer;
-      font-family: 'Crimson Pro', serif;
-      font-size: 0.95rem;
-      color: var(--blanco-perla);
-      transition: background 0.1s;
-      border-bottom: 1px solid rgba(255,255,255,0.04);
-    }
-    .autocomplete-item:last-child { border-bottom: none; }
-    .autocomplete-item.seleccionado-ac {
-      background: rgba(255,255,255,0.06);
-    }
-    @media (hover: hover) and (pointer: fine) {
-      .autocomplete-item:hover {
-      background: rgba(255,255,255,0.06); }
-    }
-    .autocomplete-tipo {
-      font-size: 0.72rem;
-      color: var(--gris-plata);
-      font-style: italic;
-      margin-left: auto;
-      white-space: nowrap;
-    }
-    .autocomplete-badge {
+    /* Resultados de búsqueda: se muestran en la propia lista */
+    .resultado-badge {
       font-size: 0.65rem;
       padding: 0.1rem 0.4rem;
       border-radius: 3px;
-      background: rgba(255,255,255,0.06);
       color: var(--gris-plata);
       border: 1px solid rgba(255,255,255,0.1);
       white-space: nowrap;
+      flex-shrink: 0;
+      align-self: center;
+    }
+    .item-personaje.seleccionado-kb {
+      background: rgba(255,255,255,0.06);
+      box-shadow: inset 2px 0 0 var(--dorado);
     }
 
     /* Filtro de orden / tipo — unificados */
@@ -1333,7 +1297,6 @@ router.get("/", (req, res) => {
       <div class="buscador-wrap">
         <input type="text" id="buscador" placeholder="Buscar en todo..." autocomplete="off" />
         <button id="buscador-limpiar" title="Limpiar búsqueda" tabindex="-1">✕</button>
-        <div class="autocomplete-lista" id="autocomplete-lista" style="display:none"></div>
       </div>
 
       <!-- Tabs -->
@@ -1370,6 +1333,7 @@ router.get("/", (req, res) => {
       <div id="lista-deshechos"  class="lista-scroll" style="display:none"></div>
       <div id="lista-heraldos"   class="lista-scroll" style="display:none"></div>
       <div id="lista-esquirlas"  class="lista-scroll" style="display:none"></div>
+      <div id="lista-resultados" class="lista-scroll" style="display:none"></div>
     </aside>
 
     <!-- Panel derecho -->
@@ -1628,24 +1592,15 @@ router.get("/", (req, res) => {
     }
 
     document.getElementById('buscador').addEventListener('input', () => {
-      const v = document.getElementById('buscador').value;
       actualizarBotonLimpiar();
-      mostrarAutocomplete(v);
-      aplicarFiltros();
-      renderListaSpren(todosSpren);
-      renderListaHeraldos(todosHeraldos);
-      renderListaDeshechos(todosDeshechos);
+      actualizarBusqueda();
     });
 
     document.getElementById('buscador-limpiar').addEventListener('click', () => {
       const input = document.getElementById('buscador');
       input.value = '';
       actualizarBotonLimpiar();
-      document.getElementById('autocomplete-lista').style.display = 'none';
-      aplicarFiltros();
-      renderListaSpren(todosSpren);
-      renderListaHeraldos(todosHeraldos);
-      renderListaDeshechos(todosDeshechos);
+      actualizarBusqueda();
       input.focus();
     });
     document.getElementById('filtro-orden').addEventListener('change', aplicarFiltros);
@@ -1931,110 +1886,143 @@ router.get("/", (req, res) => {
       \`;
     }
 
-    // ── Autocompletado ─────────────────────────────────────
-    let acIndice = -1;
+    // ── Búsqueda global ────────────────────────────────────
+    // Al escribir, la lista de la izquierda muestra resultados de todo el
+    // universo (personajes, spren, heraldos, Deshechos y esquirlas). Al borrar
+    // el texto vuelve la lista de la pestaña activa.
+    let resultadosActuales = [];
+    let kbIndice = -1;
 
-    // BUG CORREGIDO: las llaves estaban mal anidadas; deshechos quedaban
-    // dentro del bloque for de heraldos y nunca aparecían en el autocomplete.
-    function todosLosNombres() {
-      const resultados = [];
-      for (const p of todos) {
-        resultados.push({ id: p.id, nombre: p.nombre, tipo: 'personaje', subtipo: subtituloPersonaje(p), accion: () => { cambiarTab('personajes'); verPersonaje(p.id); } });
-      }
-      for (const s of todosSpren) {
-        resultados.push({ id: s.id, nombre: s.nombre, tipo: 'spren', subtipo: s.tipo_spren || 'Spren', accion: () => { cambiarTab('spren'); verSpren(s.id); } });
-      }
-      for (const h of todosHeraldos) {
-        resultados.push({ id: h.id, nombre: h.nombre, tipo: 'heraldo', subtipo: h.titulo || 'Heraldo', accion: () => { cambiarTab('heraldos'); verHeraldo(h.id); } });
-      }
-      for (const d of todosDeshechos) {
-        resultados.push({ id: d.id, nombre: d.nombre, tipo: 'deshecho', subtipo: d.apodos?.[0] || 'Deshecho', accion: () => { cambiarTab('deshechos'); verDeshecho(d.id); } });
-      }
-      for (const e of todosEsquirlas) {
-        resultados.push({ id: e.id, nombre: e.nombre, tipo: 'esquirla', subtipo: e.estado_actual || 'Esquirla', accion: () => { cambiarTab('esquirlas'); verEsquirla(e.id); } });
-      }
-      return resultados;
+    const ORDEN_TIPOS = ['personaje', 'spren', 'heraldo', 'deshecho', 'esquirla'];
+    const BADGE = {
+      personaje: { texto: 'Personaje', fondo: 'rgba(79,195,247,0.15)' },
+      spren:     { texto: 'Spren',     fondo: 'rgba(200,146,42,0.15)' },
+      heraldo:   { texto: 'Heraldo',   fondo: 'rgba(192,57,43,0.15)' },
+      deshecho:  { texto: 'Deshecho',  fondo: 'rgba(192,57,43,0.2)' },
+      esquirla:  { texto: 'Esquirla',  fondo: 'rgba(240,192,64,0.15)' },
+    };
+
+    // Sin acentos ni mayúsculas: "sonando" encuentra "Soñando-aunque-Despierta"
+    function normalizarBusqueda(s) {
+      return String(s || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
     }
 
-    function mostrarAutocomplete(texto) {
-      const lista = document.getElementById('autocomplete-lista');
-      if (!texto || texto.length < 2) { lista.style.display = 'none'; return; }
-
-      const lower = texto.toLowerCase();
-      const matches = todosLosNombres()
-        .filter(r => r.nombre.toLowerCase().includes(lower))
-        .slice(0, 8);
-
-      if (!matches.length) { lista.style.display = 'none'; return; }
-
-      const badgeColor = {
-        personaje: 'rgba(79,195,247,0.15)',
-        spren:     'rgba(200,146,42,0.15)',
-        heraldo:   'rgba(192,57,43,0.15)',
-        deshecho:  'rgba(192,57,43,0.2)',
-        esquirla:  'rgba(240,192,64,0.15)',
-      };
-      const badgeText = { personaje: 'Personaje', spren: 'Spren', heraldo: 'Heraldo', deshecho: 'Deshecho', esquirla: 'Esquirla' };
-
-      lista.innerHTML = matches.map((r, i) => \`
-        <div class="autocomplete-item" data-idx="\${i}" onmousedown="seleccionarAC(\${i})">
-          <span>\${r.nombre}</span>
-          <span class="autocomplete-tipo">\${r.subtipo}</span>
-          <span class="autocomplete-badge" style="background:\${badgeColor[r.tipo]}">\${badgeText[r.tipo] || r.tipo}</span>
-        </div>
-      \`).join('');
-
-      lista._matches = matches;
-      acIndice = -1;
-      lista.style.display = 'block';
+    function indiceBusqueda() {
+      const r = [];
+      for (const p of todos)          r.push({ id: p.id, nombre: p.nombre, tipo: 'personaje', subtipo: subtituloPersonaje(p), tab: 'personajes', ver: verPersonaje, extra: p });
+      for (const s of todosSpren)     r.push({ id: s.id, nombre: s.nombre, alias: s.apodo, tipo: 'spren', subtipo: s.tipo_spren || 'Spren', tab: 'spren', ver: verSpren, extra: s });
+      for (const h of todosHeraldos)  r.push({ id: h.id, nombre: h.nombre, tipo: 'heraldo', subtipo: h.titulo || 'Heraldo', tab: 'heraldos', ver: verHeraldo, extra: h });
+      for (const d of todosDeshechos) r.push({ id: d.id, nombre: d.nombre, tipo: 'deshecho', subtipo: (d.apodos && d.apodos[0]) || 'Deshecho', tab: 'deshechos', ver: verDeshecho, extra: d });
+      for (const e of todosEsquirlas) r.push({ id: e.id, nombre: e.nombre, tipo: 'esquirla', subtipo: e.estado_actual || 'Esquirla', tab: 'esquirlas', ver: verEsquirla, extra: e });
+      return r;
     }
 
-    function seleccionarAC(idx) {
-      const lista = document.getElementById('autocomplete-lista');
-      const match = lista._matches?.[idx];
-      if (!match) return;
-      document.getElementById('buscador').value = match.nombre;
-      lista.style.display = 'none';
-      match.accion();
+    // 0: empieza por el texto · 1: alguna palabra empieza por él · 2: lo contiene
+    function relevancia(r, q) {
+      let mejor = 3;
+      for (const campo of [r.nombre, r.alias]) {
+        if (!campo) continue;
+        const n = normalizarBusqueda(campo);
+        if (n.startsWith(q)) mejor = Math.min(mejor, 0);
+        else if (n.split(/[\\s-]+/).some(w => w.startsWith(q))) mejor = Math.min(mejor, 1);
+        else if (n.includes(q)) mejor = Math.min(mejor, 2);
+      }
+      return mejor;
     }
 
-    function navegarAC(dir) {
-      const lista = document.getElementById('autocomplete-lista');
-      if (lista.style.display === 'none') return false;
-      const items = lista.querySelectorAll('.autocomplete-item');
-      if (!items.length) return false;
-      items[acIndice]?.classList.remove('seleccionado-ac');
-      acIndice = Math.max(-1, Math.min(items.length - 1, acIndice + dir));
-      if (acIndice >= 0) items[acIndice].classList.add('seleccionado-ac');
-      return true;
+    function avatarResultado(r) {
+      const x = r.extra;
+      if (r.tipo === 'personaje') return avatarEspecie(x.orden, x.especie, 32) || '<div class="item-avatar">' + logoOrden(x.orden, 28) + '</div>';
+      if (r.tipo === 'spren')     return '<div class="item-avatar">' + (ordenPorSpren[x.id] ? logoOrden(ordenPorSpren[x.id]) : logoSpren(x.tipo_spren)) + '</div>';
+      if (r.tipo === 'heraldo')   return '<div class="item-avatar-heraldo"><img src="/images/heraldos/' + x.id + '.webp" onerror="heraldoImgError(this, &quot;' + x.id + '&quot;)" /></div>';
+      if (r.tipo === 'deshecho')  return '<div class="item-avatar-deshecho"><img src="/images/desechos.svg" width="29" height="29" style="filter:brightness(2) saturate(0.8);display:block" alt="Deshecho"/></div>';
+      return '<div class="item-avatar" style="overflow:hidden"><img src="/images/' + x.id + '.png" style="width:100%;height:100%;object-fit:cover" alt="' + x.nombre + '"/></div>';
+    }
+
+    function actualizarBusqueda() {
+      const q = normalizarBusqueda(document.getElementById('buscador').value.trim());
+      const caja = document.getElementById('lista-resultados');
+      kbIndice = -1;
+
+      if (!q) {
+        caja.style.display = 'none';
+        resultadosActuales = [];
+        cambiarTab(tabActual);
+        return;
+      }
+
+      // Modo búsqueda: se ocultan las listas y los filtros de la pestaña
+      ['personajes','spren','deshechos','heraldos','esquirlas'].forEach(t => {
+        document.getElementById('lista-' + t).style.display = 'none';
+      });
+      document.getElementById('filtro-personajes-wrap').style.display = 'none';
+      document.getElementById('filtro-spren-wrap').style.display = 'none';
+      // Los resultados son de todo el universo: ninguna pestaña queda resaltada
+      document.querySelectorAll('.tabs .tab').forEach(t => t.classList.remove('activo'));
+
+      resultadosActuales = indiceBusqueda()
+        .map(r => ({ r, rel: relevancia(r, q) }))
+        .filter(x => x.rel < 3)
+        .sort((a, b) => a.rel - b.rel ||
+                        ORDEN_TIPOS.indexOf(a.r.tipo) - ORDEN_TIPOS.indexOf(b.r.tipo) ||
+                        a.r.nombre.localeCompare(b.r.nombre, 'es'))
+        .map(x => x.r);
+
+      document.getElementById('label-lista').textContent = 'Resultados';
+      document.getElementById('contador').textContent = resultadosActuales.length;
+      caja.style.display = 'flex';
+      caja.style.flexDirection = 'column';
+      caja.scrollTop = 0;
+
+      if (!resultadosActuales.length) {
+        caja.innerHTML = '<p class="sin-datos">Sin resultados</p>';
+        return;
+      }
+      caja.innerHTML = resultadosActuales.map((r, i) =>
+        '<div class="item-personaje" data-idx="' + i + '" onclick="abrirResultado(' + i + ')">' +
+          avatarResultado(r) +
+          '<div class="item-info">' +
+            '<div class="item-nombre" title="' + r.nombre + '">' + r.nombre + '</div>' +
+            '<div class="item-orden">' + r.subtipo + '</div>' +
+          '</div>' +
+          '<span class="resultado-badge" style="background:' + BADGE[r.tipo].fondo + '">' + BADGE[r.tipo].texto + '</span>' +
+        '</div>'
+      ).join('');
+    }
+
+    // Abrir un resultado: se vacía la búsqueda, se pasa a su pestaña y se abre la ficha
+    function abrirResultado(i) {
+      const r = resultadosActuales[i];
+      if (!r) return;
+      const input = document.getElementById('buscador');
+      input.value = '';
+      actualizarBotonLimpiar();
+      document.getElementById('lista-resultados').style.display = 'none';
+      resultadosActuales = [];
+      cambiarTab(r.tab);
+      r.ver(r.id);
+      input.blur();
+    }
+
+    function moverSeleccion(dir) {
+      const items = document.querySelectorAll('#lista-resultados .item-personaje');
+      if (!items.length) return;
+      items[kbIndice]?.classList.remove('seleccionado-kb');
+      kbIndice = Math.max(0, Math.min(items.length - 1, kbIndice + dir));
+      items[kbIndice].classList.add('seleccionado-kb');
+      items[kbIndice].scrollIntoView({ block: 'nearest' });
     }
 
     document.getElementById('buscador').addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowDown') { e.preventDefault(); navegarAC(1); return; }
-      if (e.key === 'ArrowUp')   { e.preventDefault(); navegarAC(-1); return; }
-      if (e.key === 'Enter') {
-        const lista = document.getElementById('autocomplete-lista');
-        if (acIndice >= 0 && lista.style.display !== 'none') {
-          e.preventDefault();
-          seleccionarAC(acIndice);
-        } else if (acIndice === -1 && lista._matches?.length) {
-          e.preventDefault();
-          seleccionarAC(0);
-        }
-        return;
+      if (!resultadosActuales.length && e.key !== 'Escape') return;
+      if (e.key === 'ArrowDown') { e.preventDefault(); moverSeleccion(1); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); moverSeleccion(-1); }
+      else if (e.key === 'Enter') { e.preventDefault(); abrirResultado(kbIndice >= 0 ? kbIndice : 0); }
+      else if (e.key === 'Escape') {
+        e.target.value = '';
+        actualizarBotonLimpiar();
+        actualizarBusqueda();
       }
-      if (e.key === 'Escape') {
-        document.getElementById('autocomplete-lista').style.display = 'none';
-      }
-    });
-
-    document.getElementById('buscador').addEventListener('blur', () => {
-      setTimeout(() => { document.getElementById('autocomplete-lista').style.display = 'none'; }, 150);
-    });
-
-    document.getElementById('buscador').addEventListener('focus', () => {
-      const v = document.getElementById('buscador').value;
-      if (v.length >= 2) mostrarAutocomplete(v);
     });
 
     // ── Init ───────────────────────────────────────────────
@@ -2109,6 +2097,10 @@ router.get("/", (req, res) => {
 
     function cambiarTab(tab) {
       tabActual = tab;
+      const buscador = document.getElementById('buscador');
+      if (buscador.value) { buscador.value = ''; actualizarBotonLimpiar(); }
+      document.getElementById('lista-resultados').style.display = 'none';
+      resultadosActuales = [];
       ['personajes','spren','deshechos','heraldos','esquirlas'].forEach(t => {
         document.getElementById('tab-' + t).classList.toggle('activo', t === tab);
         const lista = document.getElementById('lista-' + t);

@@ -2,6 +2,14 @@
 
 Cada versión corresponde a una etiqueta en GitHub. Los arreglos que no cambian la API suben el último número (2.3.1); las novedades en la API suben el del medio (2.4.0).
 
+## 2.3.5
+
+- Explorador: un solo buscador. Al escribir, la lista de la izquierda muestra los resultados de todo el universo (personajes, spren, heraldos, Deshechos y esquirlas) con su etiqueta, en lugar de un desplegable encima de la lista filtrada.
+- Resultados ordenados por relevancia y sin distinguir acentos ("sonando" encuentra "Soñando-aunque-Despierta").
+- Teclado: flechas para moverse, Enter para abrir y Escape para vaciar.
+- Al abrir un resultado se vacía la búsqueda, se pasa a su pestaña y se abre la ficha (antes la lista se quedaba filtrada a un solo nombre).
+- Corregido: la lista de esquirlas no se actualizaba al escribir.
+
 ## 2.3.4
 
 Revisión del explorador con las skills review-animations, emil-design-eng, mobile-native y break-ui.
